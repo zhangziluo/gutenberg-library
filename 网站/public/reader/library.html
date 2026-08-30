@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>在线国学文库 · 通用古籍阅读</title>
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, "Microsoft YaHei", "PingFang SC", sans-serif; background: #f5f3ee; padding: 20px; color: #333; }
+.container { max-width: 1040px; margin: 0 auto; background: #fff; border-radius: 10px; padding: 24px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+h1 { font-size: 20px; margin-bottom: 6px; }
+p.desc { color: #6b6257; font-size: 13px; margin-bottom: 14px; line-height: 1.75; }
+/* 指引卡片 */
+.guide { background: #faf6ee; border: 1px solid #e0d8c4; border-radius: 8px; padding: 14px 16px; margin-bottom: 18px; font-size: 13px; line-height: 2; }
+.guide b { color: #8a2e2e; }
+.guide .step { display: inline-block; background: #8a2e2e; color: #fff; border-radius: 50%; width: 20px; height: 20px; text-align: center; line-height: 20px; font-size: 12px; margin-right: 6px; }
+/* 搜索 */
+.search { display: flex; gap: 8px; margin-bottom: 14px; }
+.search input { flex: 1; padding: 10px 12px; border: 1px solid #d8cdb8; border-radius: 8px; font-size: 14px; }
+.search button { padding: 10px 18px; background: #8a2e2e; color: #fff; border: none; border-radius: 8px; cursor: pointer; }
+.search .src-note { font-size: 11px; color: #999; align-self: center; white-space: nowrap; }
+/* 快速入口 */
+.section-title { font-size: 13px; color: #6b6257; margin: 14px 0 8px; font-weight: bold; }
+.quick { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 6px; }
+.quick a { padding: 7px 14px; border: 1px solid #d8cdb8; background: #faf6ee; border-radius: 18px; cursor: pointer; font-size: 13px; color: #5a5047; text-decoration: none; }
+.quick a:hover { background: #8a2e2e; color: #fff; border-color: #8a2e2e; }
+/* 经史子集 */
+.groups { display: flex; gap: 8px; margin-bottom: 10px; flex-wrap: wrap; }
+.groups button { padding: 6px 14px; border: 1px solid #d8cdb8; background: #faf6ee; border-radius: 16px; cursor: pointer; font-size: 12px; color: #6b6257; }
+.groups button.active { background: #8a2e2e; color: #fff; border-color: #8a2e2e; }
+.book-list { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 6px; }
+.book-list button { padding: 5px 12px; border: 1px solid #e0d8c4; background: #fff; border-radius: 14px; cursor: pointer; font-size: 12px; color: #555; }
+.book-list button.active { background: #c8a96a; color: #fff; border-color: #c8a96a; }
+/* 篇目链接 */
+#chapterList { max-height: 400px; overflow-y: auto; border: 1px solid #eee; border-radius: 8px; margin-top: 6px; }
+.chapter-item { padding: 8px 12px; border-bottom: 1px solid #f0f0f0; font-size: 13px; display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.chapter-item:hover { background: #faf6ee; }
+.chapter-item .link-btn { padding: 4px 10px; background: #8a2e2e; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 12px; white-space: nowrap; text-decoration: none; }
+.chapter-item .link-btn:hover { background: #6e2323; }
+.chapter-item .meta { color: #999; font-size: 11px; }
+.tip { font-size: 12px; color: #8a7f6d; margin-top: 14px; line-height: 1.8; }
+.legend { font-size: 11px; color: #9a8f7d; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>📚 在线国学文库</h1>
+  <p class="desc">通用古籍阅读入口——<b>不只是《史记》</b>。从"经史子集"挑选典籍，或搜索任何篇目/作者/关键词，点链接去权威站点阅读原文，<b>复制后回到阅读器粘贴</b>，即可使用 AI 逐句翻译、出题卡片等功能。<br>数据来源：中国哲学书电子化计划 CTEXT + 古诗文网。</p>
+
+  <div class="guide">
+    <div><span class="step">1</span>在下方选一篇目，点右侧 <b>"在 CTEXT 阅读"</b>（或上方搜索去古诗文网），会自动打开新标签页</div>
+    <div><span class="step">2</span>在打开的页面里，<b>选中并复制</b>你要的原文（方法见下）</div>
+    <div><span class="step">3</span>回到 <b>shiji_reader.html</b>，点侧边栏 <b>"📋 粘贴文本（从文库复制）"</b> → 点 <b>"尝试直接读剪贴板"</b>，原文即自动填入阅读区</div>
+    <div style="margin-top:8px;color:#8a2e2e;font-size:12px;line-height:1.9;">
+      💡 <b>怎么复制最省事？</b><br>
+      · <b>CTEXT（ctext.org）</b>：正文在页面主体，<b>鼠标从第一段拖到最后一段</b>选中 → Cmd+C（Mac）/ Ctrl+C。<b>不要在搜索框里选</b>，要选正文区。<br>
+      · <b>古诗文网（gushiwen.cn）</b>：原文在灰色框内（class 为 contson 的区域），<b>双击正文段落即可快速选中整段</b>，逐段复制；若要点"译文"，页面通常自带"展开译文"。<br>
+      · <b>通用技巧</b>：先 Cmd+A 全选，再手动去掉导航/页脚等多余文字，只留正文即可。多复制一点没关系，阅读器会自动按句拆分。<br>
+      · <b>本地 file:// 限制</b>：本页用本地文件打开时无法代你抓取（跨域被浏览器禁止），所以用"复制粘贴"最可靠——这也是最简单的方式。
+    </div>
+  </div>
+
+  <div class="search">
+    <input type="text" id="kw" placeholder="搜索篇名 / 作者 / 关键词，如：项羽 / 逍遥游 / 货殖 / 李白">
+    <button id="doSearch">去古诗文网检索</button>
+    <button id="exportPdfBtn" style="padding:10px 18px;background:#16a085;color:#fff;border:none;border-radius:8px;cursor:pointer;">📄 导出篇目 PDF</button>
+    <span class="src-note">打开新标签页查看结果</span>
+  </div>
+
+  <div class="section-title">常用典籍（快速入口）</div>
+  <div class="quick" id="quickBar"></div>
+
+  <div class="section-title">分类浏览 · 经史子集</div>
+  <div class="groups" id="groupBar"></div>
+  <div class="book-list" id="bookBar"></div>
+
+  <div id="chapterList"><div style="padding:12px;color:#999;">请选择一个典籍查看篇目</div></div>
+
+  <div class="tip" id="log"></div>
+</div>
+
+<script src="guoxue_catalog.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+const CAT = window.GUOXUE_CATALOG;
+let activeGroup = '经', activeBook = null;
+
+// CTEXT 篇目链接生成：ctext.org 的篇目路径为 /shiji/xiangyu-benji 等形式
+function ctextUrl(slug){ return 'https://ctext.org/' + slug; }
+
+// ===== 渲染：快速入口 =====
+(function renderQuick(){
+  const bar = $('quickBar');
+  CAT.quick.forEach(function(name){
+    const bk = CAT.books[name]; if(!bk) return;
+    const a = document.createElement('a');
+    a.textContent = bk.book;
+    a.href = ctextUrl(bk.ctextSlug || (name==='史记'?'shiji':'search'));
+    a.target = '_blank'; a.rel = 'noopener';
+    a.addEventListener('click', ()=>{ openBook(name); });
+    bar.appendChild(a);
+  });
+})();
+
+// ===== 渲染：经史子集 =====
+(function renderGroups(){
+  const bar = $('groupBar');
+  CAT.groups.forEach(function(g){
+    const b = document.createElement('button');
+    b.textContent = g.name + '·' + g.desc;
+    if(g.name===activeGroup) b.classList.add('active');
+    b.addEventListener('click', ()=>{
+      activeGroup = g.name; [...bar.children].forEach(x=>x.classList.remove('active')); b.classList.add('active');
+      renderBooks();
+    });
+    bar.appendChild(b);
+  });
+  renderBooks();
+})();
+
+function renderBooks(){
+  const bar = $('bookBar'); bar.innerHTML='';
+  const list = CAT.listByGroup(activeGroup);
+  if(list.length===0){ bar.innerHTML='<span style="font-size:12px;color:#999;">该分类下暂未内置，可用上方搜索</span>'; $('chapterList').innerHTML=''; return; }
+  list.forEach(function(bk){
+    const b = document.createElement('button'); b.textContent = bk.book;
+    if(activeBook===bk.book) b.classList.add('active');
+    b.addEventListener('click', ()=>{ openBook(Object.keys(CAT.books).find(k=>CAT.books[k]===bk)); });
+    bar.appendChild(b);
+  });
+  if(!activeBook && list[0]) openBook(Object.keys(CAT.books).find(k=>CAT.books[k]===list[0]));
+}
+
+function openBook(key){
+  const bk = CAT.books[key]; if(!bk) return;
+  activeBook = bk.book;
+  renderBooks();
+  const list = $('chapterList'); list.innerHTML='';
+  const sections = bk.sections||[];
+  if(sections.length===0){ list.innerHTML='<div style="padding:12px;color:#999;">该典籍暂未列出篇目，可用搜索查找</div>'; return; }
+  sections.forEach(function(sec){
+    list.insertAdjacentHTML('beforeend', `<div style="padding:6px 12px;font-size:12px;color:#8a7f6d;background:#faf6ee;">${sec.name}（${sec.items.length}）</div>`);
+    (sec.items||[]).forEach(function(it){
+      const div = document.createElement('div'); div.className='chapter-item';
+      const url = ctextUrl(it.ctextId || (bk.ctextSlug||''));
+      div.innerHTML = `<span>${it.title}</span><a class="link-btn" href="${url}" target="_blank" rel="noopener">在 CTEXT 阅读</a>`;
+      list.appendChild(div);
+    });
+  });
+}
+
+// ===== 搜索：仅打开古诗文网搜索页（新标签页），不自动抓取 =====
+$('doSearch').addEventListener('click', doSearch);
+$('kw').addEventListener('keydown', e=>{ if(e.key==='Enter') doSearch(); });
+function doSearch(){
+  const kw = $('kw').value.trim(); if(!kw) return;
+  const url = 'https://so.gushiwen.cn/search.aspx?value=' + encodeURIComponent(kw);
+  window.open(url, '_blank', 'noopener');
+  $('log').innerHTML = '已在新标签页打开古诗文网搜索"<b>'+kw+'</b>"。在结果页点开篇目 → 复制原文 → 回到阅读器粘贴即可。';
+}
+
+// 最近阅读（仅记录本地点击过的典籍，方便回看）
+const recentKey = CAT.recentKey;
+function addRecent(title){
+  try{ const arr = JSON.parse(localStorage.getItem(recentKey)||'[]');
+    const next = [title].concat(arr.filter(x=>x!==title)).slice(0,8);
+    localStorage.setItem(recentKey, JSON.stringify(next)); renderRecent();
+  }catch(e){}
+}
+function renderRecent(){
+  const wrap = $('log');
+  let arr=[]; try{ arr=JSON.parse(localStorage.getItem(recentKey)||'[]'); }catch(e){}
+  if(!arr.length) return;
+  let html = '<div class="legend" style="margin-top:10px;">最近浏览的典籍：'+arr.map(r=>'<span style="display:inline-block;padding:2px 8px;margin:2px 4px 0 0;background:#f0e4cf;border-radius:10px;font-size:11px;">'+r+'</span>').join('')+'</div>';
+  wrap.insertAdjacentHTML('beforeend', html);
+}
+renderRecent();
+
+// ===== 导出当前典籍篇目目录 PDF（jsPDF + html2canvas，中文完美渲染） =====
+function _escHtml(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+$('exportPdfBtn').addEventListener('click', async () => {
+  const bk = CAT.books[Object.keys(CAT.books).find(k => CAT.books[k].book === activeBook)];
+  if (!bk || !(bk.sections || []).length) return alert('请先选择一部包含篇目的典籍再导出');
+
+  const btn = $('exportPdfBtn');
+  btn.disabled = true;
+  btn.textContent = '⏳ 正在生成 PDF…';
+  try {
+    const total = (bk.sections || []).reduce((a, s) => a + (s.items || []).length, 0);
+    const exportBox = document.createElement('div');
+    exportBox.id = 'pdf-export-box';
+    exportBox.style.cssText = 'position:absolute;left:-9999px;top:0;width:640px;background:#fff;padding:36px;font-size:16px;line-height:2;color:#222;font-family:"Songti SC","STSong","SimSun","Microsoft YaHei",serif';
+    let html = '<h1 style="text-align:center;margin:0 0 6px">' + _escHtml(bk.book) + '</h1>';
+    html += '<p style="text-align:center;color:#666;margin:0 0 20px">篇目目录（共 ' + total + ' 篇）</p>';
+    (bk.sections || []).forEach(sec => {
+      html += '<h2 style="margin:18px 0 8px;border-bottom:2px solid #8a2e2e;padding-bottom:4px;font-size:17px">' + _escHtml(sec.name) + '</h2>';
+      (sec.items || []).forEach((it, i) => {
+        html += '<p style="margin:3px 0">' + (i + 1) + '. ' + _escHtml(it.title) + '</p>';
+      });
+    });
+    exportBox.innerHTML = html;
+    document.body.appendChild(exportBox);
+
+    const canvas = await html2canvas(exportBox, { scale: 2, useCORS: true, backgroundColor: '#ffffff', logging: false });
+    exportBox.remove();
+
+    const imgData = canvas.toDataURL('image/jpeg', 0.95);
+    const { jsPDF } = window.jspdf;
+    const pdf = new jsPDF('p', 'mm', 'a4');
+    const pw = pdf.internal.pageSize.getWidth();
+    const ph = pdf.internal.pageSize.getHeight();
+    const imgHeight = (canvas.height * pw) / canvas.width;
+    let left = imgHeight;
+    let pos = 0;
+    pdf.addImage(imgData, 'JPEG', 0, pos, pw, imgHeight);
+    left -= ph;
+    while (left > 0) {
+      pos -= ph;
+      pdf.addPage();
+      pdf.addImage(imgData, 'JPEG', 0, pos, pw, imgHeight);
+      left -= ph;
+    }
+    const title = (bk.book || '篇目目录').replace(/[\\/:*?"<>|]/g, '_');
+    pdf.save(title + '篇目目录.pdf');
+  } catch (e) {
+    alert('导出失败：' + e.message);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = '📄 导出篇目 PDF';
+  }
+});
+
+</script>
+</body>
+</html>

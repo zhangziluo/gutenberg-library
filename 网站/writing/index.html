@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✍️ 作者手记 · 古籍文库</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* ========== 作者个人空间 · 暖色主题 ========== */
+    :root {
+      --w-ink: #4a3620;          /* 暖褐墨 */
+      --w-ink-soft: #8a6a4a;
+      --w-accent: #c96f2e;       /* 暖橙 */
+      --w-accent-dark: #a8531e;
+      --w-line: #e8cfa8;
+      --w-card: #fff8ee;
+    }
+
+    body {
+      background: linear-gradient(180deg, #fff7e9 0%, #fdeed6 100%);
+      color: var(--w-ink);
+    }
+
+    .site-header {
+      background: linear-gradient(180deg, #f8e0c2 0%, #f0cf9f 100%);
+      border-bottom: 3px solid var(--w-accent);
+    }
+
+    .brand { color: var(--w-ink); }
+    .brand-seal { background: var(--w-accent); color: #fff8ef; }
+    .tagline { color: var(--w-ink-soft); }
+    .site-footer { border-top-color: var(--w-line); }
+
+    /* 作者区 */
+    .author-hero {
+      text-align: center;
+      margin: 56px 0 36px;
+    }
+    .author-hero h1 {
+      font-size: 34px;
+      letter-spacing: 5px;
+      margin: 0 0 12px;
+    }
+    .author-hero p {
+      color: var(--w-ink-soft);
+      font-size: 15px;
+      margin: 0 0 10px;
+    }
+    .author-sign {
+      font-family: var(--font-kai);
+      color: var(--w-accent);
+      font-size: 18px;
+    }
+
+    /* 作品列表 */
+    .works h2 {
+      font-size: 20px;
+      letter-spacing: 2px;
+      border-left: 4px solid var(--w-accent);
+      padding-left: 10px;
+      margin: 0 0 18px;
+    }
+    .work-card {
+      background: var(--w-card);
+      border: 1px solid var(--w-line);
+      border-radius: 10px;
+      padding: 22px 24px;
+      box-shadow: 0 2px 10px rgba(90, 60, 20, 0.06);
+    }
+    .work-card h3 {
+      margin: 0 0 8px;
+      font-size: 19px;
+      letter-spacing: 1px;
+    }
+    .work-badge {
+      display: inline-block;
+      background: var(--w-accent);
+      color: #fff;
+      font-size: 12px;
+      padding: 2px 12px;
+      border-radius: 12px;
+      margin-left: 8px;
+      vertical-align: middle;
+      letter-spacing: 1px;
+    }
+    .work-card p {
+      color: var(--w-ink-soft);
+      font-size: 14px;
+      margin: 8px 0 0;
+      line-height: 1.9;
+    }
+    .coming-soon {
+      color: var(--w-ink-soft);
+      font-size: 13px;
+      margin-top: 24px;
+      text-align: center;
+    }
+
+    /* 支持作者（复用主站样式，暖色微调） */
+    .support { background: #fff7ea; border-color: var(--w-line); }
+    .support-title { color: var(--w-ink); }
+    .qr-ph { background: #fffdf7; }
+    .footer-note { color: var(--w-ink-soft); }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html"><span class="brand-seal">書</span> 古籍文库</a>
+      <span class="tagline">作者手记 · 原创小说</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="author-hero">
+      <h1>✍️ 作者手记</h1>
+      <p>一个古文爱好者的自留地 —— 把古籍里的风骨，写进自己的故事里。</p>
+      <div class="author-sign">—— 佚名 · 写字的人</div>
+    </section>
+
+    <section class="works">
+      <h2>📚 原创作品</h2>
+      <div class="work-card">
+        <h3>《轩辕剑：查理曼的遗剑》<span class="work-badge">即将上线</span></h3>
+        <p>简介占位：轩辕剑与查理曼王朝的传说在此交汇，东方神器与西方帝国的命运相连。作品正在创作中，敬请期待。</p>
+      </div>
+      <p class="coming-soon">更多作品正在打磨中，欢迎常来看看。</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <!-- ============ 支持作者 ============ -->
+      <div class="support">
+        <p class="support-title">如果这些内容对你有帮助，请作者喝杯茶 ☕</p>
+        <div class="support-qr">
+          <!-- 爱发电：截图放到 网站/images/ 后，把占位块替换为 <img class="qr-img" src="../images/afdian-qr.png" alt="爱发电">（也可换成你的爱发电主页链接） -->
+          <div class="qr-slot qr-ph" title="爱发电（待上传）">
+            <span class="qr-label">爱发电</span>
+            <span class="qr-hint">待添加</span>
+          </div>
+          <!-- 微信收款码：把占位块替换为 <img class="qr-img" src="../images/wechat-qr.png" alt="微信收款码"> -->
+          <div class="qr-slot qr-ph" title="微信收款码（待上传）">
+            <span class="qr-label">微信收款码</span>
+            <span class="qr-hint">待添加</span>
+          </div>
+          <!-- 支付宝收款码：把占位块替换为 <img class="qr-img" src="../images/alipay-qr.png" alt="支付宝收款码"> -->
+          <div class="qr-slot qr-ph" title="支付宝收款码（待上传）">
+            <span class="qr-label">支付宝收款码</span>
+            <span class="qr-hint">待添加</span>
+          </div>
+        </div>
+      </div>
+      <!-- ============ /支持作者 ============ -->
+      <div class="footer-note">文本来源：Project Gutenberg 古登堡计划 · 内容仅供学习研究使用 · 原创内容 © 本站作者</div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>书目 · 古籍文库</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-seal">書</span> 古籍文库</a>
+      <span class="tagline" id="header-book"></span>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="crumb"><a href="index.html">书架</a> › <span id="crumb-book"></span></nav>
+    <h1 id="book-title" class="page-title"></h1>
+    <div class="book-notice">
+      <strong>📜 关于本版文本的说明</strong>
+      <p>本书文本来源于古登堡计划（Project Gutenberg）公版中文书，经志愿者多轮校对，可读性强，但非善本精校。</p>
+      <p>由于底本流传及数字化过程中的散佚，本版存在部分缺失。我们秉持"残缺如实标记"的原则，不补全、不冒充全本，暂以残本形式收录。</p>
+      <p>缺失卷次正在核对中，未来将对照书格（shuge.org）等高清影印本逐步补全。感谢您的理解与支持。</p>
+    </div>
+    <div class="book-toolbar">
+      <input id="search" type="search" placeholder="搜索篇目标题…" autocomplete="off">
+      <button class="btn" id="download-book" title="下载整本典籍为 TXT">⬇ 下载全书 TXT</button>
+      <span id="stat" class="stat"></span>
+    </div>
+    <div id="cat-list" class="cat-list"></div>
+    <div id="loading" class="notice">正在加载篇目…</div>
+    <div id="error" class="notice error" hidden></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <!-- ============ 支持作者 ============ -->
+      <div class="support">
+        <p class="support-title">如果这些内容对你有帮助，请作者喝杯茶 ☕</p>
+        <div class="support-qr">
+          <!-- 爱发电：截图放到 网站/images/ 后，把占位块替换为 <img class="qr-img" src="images/afdian-qr.png" alt="爱发电">（也可换成你的爱发电主页链接） -->
+          <div class="qr-slot qr-ph" title="爱发电（待上传）">
+            <span class="qr-label">爱发电</span>
+            <span class="qr-hint">待添加</span>
+          </div>
+          <!-- 微信收款码：把占位块替换为 <img class="qr-img" src="images/wechat-qr.png" alt="微信收款码"> -->
+          <div class="qr-slot qr-ph" title="微信收款码（待上传）">
+            <span class="qr-label">微信收款码</span>
+            <span class="qr-hint">待添加</span>
+          </div>
+          <!-- 支付宝收款码：把占位块替换为 <img class="qr-img" src="images/alipay-qr.png" alt="支付宝收款码"> -->
+          <div class="qr-slot qr-ph" title="支付宝收款码（待上传）">
+            <span class="qr-label">支付宝收款码</span>
+            <span class="qr-hint">待添加</span>
+          </div>
+        </div>
+      </div>
+      <!-- ============ /支持作者 ============ -->
+      <div class="footer-note">文本来源：Project Gutenberg 古登堡计划 · 内容仅供学习研究使用</div>
+    </div>
+  </footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/book.js"></script>
+</body>
+</html>

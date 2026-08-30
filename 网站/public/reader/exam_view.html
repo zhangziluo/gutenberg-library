@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>试卷预览 · AI 古文阅读器</title>
+<script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<style>
+  body { font-family: "Songti SC","STSong","SimSun","Microsoft YaHei",sans-serif; padding: 20px; background: #fff; color: #222; }
+  .toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  .exam-timer { color: green; font-weight: bold; }
+  .exam-timer.warning { color: orange; }
+  .exam-timer.danger { color: red; }
+  /* 交卷后：输入框干净禁用，页面仍可正常阅读（不再整体 pointer-events:none） */
+  #examContent input:disabled,
+  #examContent textarea:disabled { background: #f2f2f2; cursor: not-allowed; }
+  .exam-result {
+    display: block;
+    margin: 10px 0 16px;
+    padding: 10px 14px;
+    background: #eef7ee;
+    border-left: 4px solid #27ae60;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #2c662d;
+    font-weight: bold;
+  }
+  .options label { display: block; margin: 5px 0; }
+  .answer-key { display: none; margin-top: 10px; color: #555; background: #f9f9f9; padding: 10px; border-left: 4px solid #4CAF50; }
+  .exam-block { margin-bottom: 22px; }
+  .exam-block h3 { border-bottom: 2px solid #4a90d9; padding-bottom: 4px; margin-bottom: 10px; }
+  .exam-q { margin: 12px 0 16px; }
+  .exam-q .q-stem { font-weight: bold; margin-bottom: 6px; }
+  .fill-input { padding: 4px; margin-right: 6px; border: 1px solid #bbb; border-radius: 4px; }
+  .essay-input { width: 100%; padding: 6px; border: 1px solid #bbb; border-radius: 4px; }
+  .btn { padding: 8px 18px; background: #4a90d9; color: #fff; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; }
+  .btn:disabled { opacity: 0.6; cursor: wait; }
+  @media print {
+    .toolbar { display: none !important; }
+    body { padding: 0; }
+  }
+</style>
+</head>
+<body>
+  <div class="toolbar">
+    <div id="examTimer" class="exam-timer">⏱️ 剩余时间：--:--</div>
+    <button id="exportPdfBtn" class="btn">📄 导出 PDF</button>
+  </div>
+  <div id="printArea">
+    <h2 id="paperTitle">加载中...</h2>
+    <div id="paperMeta"></div>
+    <hr>
+    <div id="examContent"></div>
+  </div>
+  <button id="submitExam" class="btn" style="background:#e74c3c;margin-top:16px">交卷并看答案</button>
+
+
+<script>
+// ============ 0. 工具 ============
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+// ============ 1. 获取数据（URL 参数优先，兼容 sessionStorage 直传） ============
+function getExamData() {
+  const params = new URLSearchParams(window.location.search);
+  const b64 = params.get('data');
+  if (b64) {
+    try { return JSON.parse(decodeURIComponent(escape(atob(b64)))); } catch (e) { console.error('解析 URL 试卷数据失败', e); }
+  }
+  try {
+    const raw = sessionStorage.getItem('exam_data');
+    if (raw) return JSON.parse(raw);
+  } catch (e) { /* ignore */ }
+  return null;
+}
+
+// ============ 2. 渲染（兼容新版 sections 与旧版 questions 两种格式） ============
+function renderExam(examData) {
+  const container = document.getElementById('examContent');
+  container.innerHTML = '';
+  if (!examData) { container.innerHTML = '<p>❌ 试卷数据为空</p>'; return; }
+
+  if (Array.isArray(examData.sections)) {
+    // 新版格式（shiji_reader.html buildExamData 输出：{sections:[{type,items}]}）
+    let qNo = 0;
+    examData.sections.forEach((sec) => {
+      const block = document.createElement('div');
+      block.className = 'exam-block';
+      block.innerHTML = '<h3>' + esc(sec.type) + '</h3>';
+      (sec.items || []).forEach((q) => {
+        qNo++;
+        const item = document.createElement('div');
+        item.className = 'exam-q';
+        item.dataset.type = q.type || '';
+        item.dataset.answer = String(q.a != null ? q.a : '');
+        const stem = document.createElement('div');
+        stem.className = 'q-stem';
+        stem.textContent = qNo + '. ' + (q.question || '');
+        item.appendChild(stem);
+
+        if (Array.isArray(q.opts) && q.opts.length) {
+          q.opts.forEach((opt, j) => {
+            const label = document.createElement('label');
+            const radio = document.createElement('input');
+            radio.type = 'radio';
+            radio.name = 'q' + qNo;
+            radio.value = String.fromCharCode(65 + j);
+            label.appendChild(radio);
+            label.appendChild(document.createTextNode(' ' + opt));
+            item.appendChild(label);
+          });
+        } else if (q.type === 'fill') {
+          const n = Math.max(1, String(q.a || '').split('&&').length);
+          for (let i = 0; i < n; i++) {
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.className = 'fill-input';
+            input.placeholder = n > 1 ? '第' + (i + 1) + '空' : '请输入';
+            item.appendChild(input);
+          }
+        } else if (q.type === 'judge') {
+          [['对', '对'], ['错', '错']].forEach(function (pair) {
+            const l = document.createElement('label');
+            const r = document.createElement('input');
+            r.type = 'radio';
+            r.name = 'q' + qNo;
+            r.value = pair[0];
+            l.appendChild(r);
+            l.appendChild(document.createTextNode(' ' + pair[1]));
+            item.appendChild(l);
+          });
+        } else if (q.type === 'essay') {
+          const ta = document.createElement('textarea');
+          ta.className = 'essay-input';
+          ta.rows = 3;
+          ta.placeholder = '请输入你的答案...';
+          item.appendChild(ta);
+        }
+
+        const key = document.createElement('div');
+        key.className = 'answer-key';
+        key.innerHTML = '✅ 正确答案：' + esc(q.a != null ? q.a : '（未提供答案）') + '<br>💡 解析：' + esc(q.exp || '');
+        item.appendChild(key);
+        block.appendChild(item);
+      });
+      container.appendChild(block);
+    });
+    if (examData.withAnswer && Array.isArray(examData.answerSheet) && examData.answerSheet.length) {
+      const ansBlock = document.createElement('div');
+      ansBlock.className = 'exam-block';
+      ansBlock.innerHTML = '<h3>参考答案</h3>';
+      examData.answerSheet.forEach(s => {
+        const p = document.createElement('p');
+        p.style.margin = '4px 0';
+        p.textContent = s.no + '. ' + (s.a != null ? s.a : '（未提供答案）') + (s.exp ? '（' + s.exp + '）' : '');
+        ansBlock.appendChild(p);
+      });
+      container.appendChild(ansBlock);
+    }
+  } else if (Array.isArray(examData.questions)) {
+    // 旧版格式：{questions:[{text,type,options,score,correctAnswer,explanation}]}
+    examData.questions.forEach((q, index) => {
+      const block = document.createElement('div');
+      block.style.marginBottom = '20px';
+      let optionsHtml = '';
+      if (q.options && q.options.length) {
+        q.options.forEach((opt, i) => {
+          const letter = String.fromCharCode(65 + i);
+          optionsHtml += '<label><input type="radio" name="q' + index + '" value="' + letter + '"> ' + letter + '. ' + esc(opt) + '</label>';
+        });
+      }
+      block.innerHTML =
+        '<p><strong>' + (index + 1) + '. [' + esc(q.type || '选择题') + '] ' + esc(q.text) + '</strong> (' + (q.score || 2) + '分)</p>' +
+        '<div class="options">' + optionsHtml + '</div>' +
+        '<div class="answer-key" id="ans' + index + '">✅ 正确答案：' + esc(q.correctAnswer || '无') + ' <br>💡 解析：' + esc(q.explanation || '无') + '</div>';
+      container.appendChild(block);
+    });
+  } else {
+    container.innerHTML = '<p>❌ 试卷数据为空或格式错误</p>';
+  }
+}
+
+// ============ 3. 判分（客观题计分 + 显示答案 + 干净锁定输入） ============
+// 客观题对错判断：choice/judge 单选值精确匹配；fill 逐空匹配（多空 &&，每空多答案 |）
+function isAnswerCorrect(type, userValue, answer) {
+  const ans = String(answer).trim();
+  if (!userValue || !ans) return false;
+  if (type === 'choice' || type === 'judge') return String(userValue) === ans;
+  if (type === 'fill') {
+    const parts = ans.split('&&').map(p => p.split('|').map(x => x.trim()));
+    const vals = String(userValue).split('&&');
+    if (vals.length !== parts.length) return false;
+    return parts.every((alts, i) => alts.indexOf(vals[i]) >= 0);
+  }
+  return false;
+}
+
+function gradeExam() {
+  const examData = window._examData;
+  if (!examData) return;
+  if (Array.isArray(examData.questions)) {
+    let score = 0, total = 0;
+    examData.questions.forEach((q, index) => {
+      const ansEl = document.getElementById('ans' + index);
+      if (ansEl) ansEl.style.display = 'block';
+      const selected = document.querySelector('input[name="q' + index + '"]:checked');
+      const s = q.score || 2;
+      total += s;
+      if (selected && q.correctAnswer && selected.value === q.correctAnswer[0]) score += s;
+    });
+    document.getElementById('paperMeta').textContent = '本次得分：' + score + ' / ' + (total || examData.totalScore || '?');
+    document.getElementById('submitExam').disabled = true;
+  } else {
+    // 新版 sections：判客观题得分 + 显示全部答案 + 干净地锁定输入
+    let correct = 0, total = 0;
+    document.querySelectorAll('.exam-q').forEach(qEl => {
+      const type = qEl.dataset.type;
+      const answer = qEl.dataset.answer;
+      if (type === 'essay' || !answer) return; // 问答题/无答案不自动判分
+      total++;
+      let userValue = '';
+      if (type === 'choice' || type === 'judge') {
+        const checked = qEl.querySelector('input:checked');
+        userValue = checked ? checked.value : '';
+      } else if (type === 'fill') {
+        userValue = Array.from(qEl.querySelectorAll('input.fill-input')).map(i => i.value.trim()).join('&&');
+      }
+      if (isAnswerCorrect(type, userValue, answer)) correct++;
+    });
+
+    document.querySelectorAll('.answer-key').forEach(el => { el.style.display = 'block'; });
+    // 干净地禁用输入与按钮（不再整体 pointer-events:none，页面保持可读）
+    document.querySelectorAll('#examContent input, #examContent textarea, #submitExam').forEach(el => { el.disabled = true; });
+
+    // 结果横幅：自动交卷 / 手动交卷
+    const reason = window._autoSubmitted ? '⏰ 时间到！已自动交卷' : '✅ 已交卷';
+    const resultBox = document.createElement('div');
+    resultBox.className = 'exam-result';
+    resultBox.textContent = reason + '　客观题答对 ' + correct + ' / ' + total + ' 题' +
+      (total > 0 ? '' : '（本卷均为问答题，请对照参考答案自行核对）');
+    const meta = document.getElementById('paperMeta');
+    meta.parentNode.insertBefore(resultBox, meta.nextSibling);
+  }
+}
+
+// ============ 4. 倒计时（mm:ss，超过 1 小时显示 hh:mm:ss） ============
+function fmtTimer(totalSeconds) {
+  const h = Math.floor(totalSeconds / 3600);
+  const m = Math.floor((totalSeconds % 3600) / 60);
+  const s = totalSeconds % 60;
+  const mm = String(m).padStart(2, '0');
+  const ss = String(s).padStart(2, '0');
+  return h > 0 ? String(h).padStart(2, '0') + ':' + mm + ':' + ss : mm + ':' + ss;
+}
+
+function startTimer(durationMinutes) {
+  const totalSec = Math.max(1, Math.round((durationMinutes || 30) * 60));
+  let totalSeconds = totalSec;
+  const timerEl = document.getElementById('examTimer');
+  timerEl.textContent = '⏱️ 剩余时间：' + fmtTimer(totalSeconds);
+  const timer = setInterval(() => {
+    totalSeconds--;
+    if (totalSeconds < 0) { clearInterval(timer); return; }
+    timerEl.textContent = '⏱️ 剩余时间：' + fmtTimer(totalSeconds);
+    if (totalSeconds <= 300 && totalSeconds > 60) timerEl.className = 'exam-timer warning';
+    if (totalSeconds <= 60) timerEl.className = 'exam-timer danger';
+    if (totalSeconds <= 0) {
+      clearInterval(timer);
+      timerEl.textContent = '⏰ 时间到！正在自动交卷...';
+      window._autoSubmitted = true;
+      setTimeout(gradeExam, 500);
+    }
+  }, 1000);
+}
+
+// ============ 5. PDF 导出（jsPDF + html2canvas 栅格化 → 中文完美渲染） ============
+// html2canvas 不会渲染表单控件值，导出前把已填答案转为文字，确保 PDF 含用户作答
+async function exportPDF() {
+  const btn = document.getElementById('exportPdfBtn');
+  btn.disabled = true;
+  btn.textContent = '⏳ 正在生成 PDF…';
+  let clone = null;
+  try {
+    const printArea = document.getElementById('printArea');
+    // 克隆当前页面（保留已填答案 + 已展示的参考答案）
+    clone = printArea.cloneNode(true);
+    clone.id = 'pdf-export-clone';
+    clone.style.cssText = 'position:absolute;left:-9999px;top:0;width:' + printArea.offsetWidth + 'px;';
+    document.body.appendChild(clone);
+
+    // 把表单控件替换成文字表示，保证导出能看到作答
+    clone.querySelectorAll('.exam-q').forEach(qEl => {
+      const type = qEl.dataset.type;
+      if (type === 'choice' || type === 'judge') {
+        const checked = qEl.querySelector('input:checked');
+        if (checked && checked.closest('label')) {
+          const mark = document.createElement('span');
+          mark.style.cssText = 'color:#c0392b;font-weight:bold;';
+          mark.textContent = '　（你的选择）';
+          checked.closest('label').appendChild(mark);
+        }
+        qEl.querySelectorAll('input[type=radio]').forEach(r => { r.style.display = 'none'; });
+      } else if (type === 'fill') {
+        qEl.querySelectorAll('input.fill-input').forEach(inp => {
+          const span = document.createElement('span');
+          span.style.cssText = 'color:#c0392b;font-weight:bold;';
+          span.textContent = '　你的答案：' + (inp.value.trim() || '（未填写）');
+          inp.style.display = 'none';
+          inp.parentNode.insertBefore(span, inp.nextSibling);
+        });
+      } else if (type === 'essay') {
+        const ta = qEl.querySelector('textarea');
+        if (ta) {
+          const box = document.createElement('div');
+          box.style.cssText = 'color:#555;white-space:pre-wrap;background:#f9f9f9;padding:6px;border:1px solid #ddd;border-radius:4px;margin-top:6px;';
+          box.textContent = '你的答案：' + (ta.value.trim() || '（未填写）');
+          ta.style.display = 'none';
+          ta.parentNode.insertBefore(box, ta.nextSibling);
+        }
+      }
+    });
+
+    const canvas = await html2canvas(clone, {
+      scale: 2,
+      useCORS: true,
+      backgroundColor: '#ffffff',
+      logging: false
+    });
+    document.body.removeChild(clone);
+    clone = null;
+
+    const imgData = canvas.toDataURL('image/jpeg', 0.95);
+    const { jsPDF } = window.jspdf;
+    const pdf = new jsPDF('p', 'mm', 'a4');
+    const pw = pdf.internal.pageSize.getWidth();
+    const ph = pdf.internal.pageSize.getHeight();
+    const imgHeight = (canvas.height * pw) / canvas.width;
+    let left = imgHeight;
+    let pos = 0;
+    pdf.addImage(imgData, 'JPEG', 0, pos, pw, imgHeight);
+    left -= ph;
+    while (left > 0) {
+      pos -= ph;
+      pdf.addPage();
+      pdf.addImage(imgData, 'JPEG', 0, pos, pw, imgHeight);
+      left -= ph;
+    }
+    const title = (document.getElementById('paperTitle').textContent || '试卷').replace(/[\\/:*?"<>|]/g, '_');
+    pdf.save(title + '.pdf');
+  } catch (e) {
+    alert('导出失败：' + e.message);
+  } finally {
+    if (clone && clone.parentNode) clone.parentNode.removeChild(clone);
+    btn.disabled = false;
+    btn.textContent = '📄 导出 PDF';
+  }
+}
+
+// ============ 6. 初始化 ============
+window.onload = () => {
+  const examData = getExamData();
+  if (!examData) {
+    document.getElementById('paperTitle').textContent = '❌ 无法加载试卷数据';
+    document.getElementById('examContent').innerHTML = '<p>请从主页面重新打开试卷预览。</p>';
+    document.getElementById('examTimer').style.display = 'none';
+    return;
+  }
+  window._examData = examData;
+  window._autoSubmitted = false;
+  document.getElementById('paperTitle').textContent = examData.title || '自测卷';
+  document.getElementById('paperMeta').textContent = examData.sub || examData.source || 'AI 生成';
+  renderExam(examData);
+  startTimer(examData.duration || 30);
+  document.getElementById('exportPdfBtn').addEventListener('click', exportPDF);
+  document.getElementById('submitExam').addEventListener('click', () => {
+    window._autoSubmitted = false;
+    gradeExam();
+  });
+};
+</script>
+</body>
+</html>
+

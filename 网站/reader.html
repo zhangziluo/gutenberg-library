@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>阅读 · 古籍文库</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-seal">書</span> 古籍文库</a>
+      <span class="tagline" id="header-book"></span>
+    </div>
+  </header>
+
+  <main class="container reader-wrap">
+    <div class="reader-topbar">
+      <a class="btn" id="back-btn" href="#">← 返回目录</a>
+      <div class="reader-tools">
+        <button class="btn" id="download-txt" title="下载本篇正文为 TXT">⬇ TXT</button>
+      </div>
+    </div>
+
+    <!-- 阅读设置：字体 / 配色 / 背景与字色自定义（与 AI 阅读器共用 gjs:reading） -->
+    <div class="reading-settings">
+      <div class="rs-group">
+        <span class="rs-label">字体</span>
+        <button class="rs-btn" id="fontMinus" title="减小字号">A−</button>
+        <span class="rs-val" id="fontSizeVal">17</span>
+        <button class="rs-btn" id="fontPlus" title="增大字号">A+</button>
+      </div>
+      <div class="rs-group">
+        <span class="rs-label">配色</span>
+        <button class="scheme-btn" data-bg="#ffffff" data-fg="#222222" style="background:#ffffff;color:#222222" title="白底黑字">白</button>
+        <button class="scheme-btn" data-bg="#1e1e1e" data-fg="#e8e8e8" style="background:#1e1e1e;color:#e8e8e8" title="黑底白字">黑</button>
+        <button class="scheme-btn" data-bg="#c7edcc" data-fg="#222222" style="background:#c7edcc;color:#222222" title="护眼绿底黑字">绿</button>
+        <button class="scheme-btn active" data-bg="#f5ead0" data-fg="#3a3226" style="background:#f5ead0;color:#3a3226" title="羊皮纸底黑字">纸</button>
+      </div>
+      <div class="rs-group">
+        <span class="rs-label">背景</span>
+        <input type="color" id="bgPicker" class="rs-color" title="取色器">
+        <input type="text" id="bgHex" class="rs-hex" placeholder="#f5ead0" title="背景十六进制">
+        <input type="text" id="bgRgb" class="rs-rgb" placeholder="245,234,208" title="背景 RGB">
+      </div>
+      <div class="rs-group">
+        <span class="rs-label">字色</span>
+        <input type="color" id="fgPicker" class="rs-color" title="取色器">
+        <input type="text" id="fgHex" class="rs-hex" placeholder="#3a3226" title="字色十六进制">
+        <input type="text" id="fgRgb" class="rs-rgb" placeholder="58,50,38" title="字色 RGB">
+      </div>
+    </div>
+
+    <article class="reader" id="reader"></article>
+    <div class="reader-nav">
+      <a class="btn" id="prev-btn" href="#">← 上一篇</a>
+      <a class="btn" id="next-btn" href="#">下一篇 →</a>
+    </div>
+    <div id="loading" class="notice">正在加载正文…</div>
+    <div id="error" class="notice error" hidden></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <!-- ============ 支持作者 ============ -->
+      <div class="support">
+        <p class="support-title">如果这些内容对你有帮助，请作者喝杯茶 ☕</p>
+        <div class="support-qr">
+          <!-- 爱发电：截图放到 网站/images/ 后，把占位块替换为 <img class="qr-img" src="images/afdian-qr.png" alt="爱发电">（也可换成你的爱发电主页链接） -->
+          <div class="qr-slot qr-ph" title="爱发电（待上传）">
+            <span class="qr-label">爱发电</span>
+            <span class="qr-hint">待添加</span>
+          </div>
+          <!-- 微信收款码：把占位块替换为 <img class="qr-img" src="images/wechat-qr.png" alt="微信收款码"> -->
+          <div class="qr-slot qr-ph" title="微信收款码（待上传）">
+            <span class="qr-label">微信收款码</span>
+            <span class="qr-hint">待添加</span>
+          </div>
+          <!-- 支付宝收款码：把占位块替换为 <img class="qr-img" src="images/alipay-qr.png" alt="支付宝收款码"> -->
+          <div class="qr-slot qr-ph" title="支付宝收款码（待上传）">
+            <span class="qr-label">支付宝收款码</span>
+            <span class="qr-hint">待添加</span>
+          </div>
+        </div>
+      </div>
+      <!-- ============ /支持作者 ============ -->
+      <div class="footer-note">文本来源：Project Gutenberg 古登堡计划 · 内容仅供学习研究使用</div>
+    </div>
+  </footer>
+
+  <!-- AI 阅读模式悬浮按钮（右下角固定，滚动不消失；内联样式+onclick 保证不受缓存影响） -->
+  <button class="btn btn-ai-mode" id="ai-mode-btn" onclick="goAIMode()"
+          style="position:fixed;right:24px;bottom:28px;z-index:999;"
+          title="在 AI 阅读器中学习本篇（保留当前阅读位置）">🤖 AI 阅读模式</button>
+
+  <script>
+  // AI 阅读模式：跳转 AI 阅读器并保留当前阅读位置
+  // 内联定义，不依赖外部 JS 加载状态/缓存；正文与锚点直接从当前 DOM 提取
+  function goAIMode() {
+    var titleEl = document.querySelector('.reader-title');
+    var headerBook = document.getElementById('header-book');
+    var paras = Array.prototype.slice.call(document.querySelectorAll('#reader-body p'));
+    var title = titleEl ? titleEl.textContent.trim() : '古文篇目';
+    var text = paras.map(function (p) { return p.textContent; }).join('\n\n');
+
+    var anchor = '';
+    if (paras.length) {
+      var vh = window.innerHeight || 800;
+      var bestIdx = 0, bestDist = Infinity;
+      paras.forEach(function (p, i) {
+        var r = p.getBoundingClientRect();
+        if (r.bottom < 0 || r.top > vh) return;
+        var dist = Math.abs(r.top + r.height / 2 - vh * 0.4);
+        if (dist < bestDist) { bestDist = dist; bestIdx = i; }
+      });
+      anchor = paras[bestIdx].textContent.trim();
+    }
+
+    try {
+      sessionStorage.setItem('lib_selected', JSON.stringify({
+        title: title,
+        text: text,
+        source: headerBook ? headerBook.textContent.replace(/[《》]/g, '') : '古籍文库',
+        pos: anchor || ''
+      }));
+    } catch (e) { /* 隐私模式等异常忽略 */ }
+
+    // 相对路径：从 网站/reader.html 定位到 网站/public/reader/shiji_reader.html，
+    // 无论服务器根目录是项目根还是网站/ 都能生效
+    window.location.href = 'public/reader/shiji_reader.html';
+  }
+  </script>
+
+  <script src="js/common.js"></script>
+  <script src="js/reader.js"></script>
+</body>
+</html>

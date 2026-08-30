@@ -1,0 +1,17 @@
+# 依赖与构建产物
+node_modules/
+dist/
+.astro/
+
+# 环境变量（含 API Key，严禁提交）
+.env
+.env.*
+
+# 纯文本
+纯文本
+
+# macOS 系统文件
+.DS_Store
+
+# 日志
+*.log

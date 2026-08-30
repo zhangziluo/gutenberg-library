@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "api/chat.js":   { "memory": 256, "maxDuration": 25 },
+    "api/ctext.js":  { "memory": 256, "maxDuration": 25 }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy",        "value": "strict-origin-when-cross-origin" }
+      ]
+    }
+  ]
+}
