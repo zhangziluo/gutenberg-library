@@ -28,11 +28,13 @@ cp -R "$ROOT/文本/_site_data" "$DIST/文本/"
 # 3. AI 阅读器 → /reader/（复制真实文件，不依赖软链接）
 echo "==> 复制 AI 阅读器"
 cp -R "$ROOT/网站/public/reader" "$DIST/reader"
-rm -rf "$DIST/reader/functions"    # functions 统一放到输出根，交给 Cloudflare Pages 收集
+rm -rf "$DIST/reader/functions"    # functions 单独放到项目根（见下），阅读器目录内不含 functions
 
 # 4. Cloudflare Pages Functions（/api/* 路由）
-echo "==> 复制 Functions"
-cp -R "$ROOT/网站/public/reader/functions" "$DIST/functions"
+#    wrangler 直接上传时，/functions 必须位于项目根目录（不能放在 dist 静态目录内）
+echo "==> 复制 Functions 到项目根 functions/（供 wrangler 收集）"
+rm -rf "$ROOT/functions"
+cp -R "$ROOT/网站/public/reader/functions" "$ROOT/functions"
 
 # 5. Cloudflare 辅助文件（_headers / _redirects，如有则带上）
 for f in _headers _redirects; do
