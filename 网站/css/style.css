@@ -897,6 +897,17 @@ body {
   margin: 0 0 22px;
 }
 
+.jsz-more {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.jsz-more:hover {
+  text-decoration: underline;
+}
+
 .jsz-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -984,4 +995,135 @@ body {
   background: var(--accent-dark);
   transform: translateY(-1px);
 }
+
+/* ---------- 书库 · 经史子集 独立页（library.html） ---------- */
+.lib-wrap { max-width: 960px; }
+
+.lib-title {
+  font-size: 30px;
+  letter-spacing: 4px;
+  text-align: center;
+  margin: 26px 0 6px;
+}
+
+.lib-sub {
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 14px;
+  margin: 0 0 28px;
+}
+
+.lib-part { margin-bottom: 40px; }
+
+.lib-part-head {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.lib-part-name {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 6px;
+}
+
+.lib-part-desc {
+  color: var(--ink-soft);
+  font-size: 13px;
+}
+
+.lib-part-count {
+  margin-left: auto;
+  color: var(--ink-soft);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.lib-books {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.lib-book {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 18px 18px 14px;
+  background: var(--paper-light);
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--gold);
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.lib-book:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(60, 50, 30, 0.14);
+  border-color: var(--accent);
+}
+
+.lib-book-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.lib-book-name {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.lib-book-author {
+  color: var(--gold);
+  font-family: var(--font-kai);
+  font-size: 14px;
+}
+
+.lib-book-intro {
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.9;
+  flex: 1;
+  margin: 4px 0 6px;
+}
+
+.lib-book-meta {
+  color: var(--ink-soft);
+  font-size: 13px;
+}
+
+.lib-book-enter {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 14px;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 20px;
+  padding: 5px 16px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.lib-book:hover .lib-book-enter {
+  background: var(--accent);
+  color: #fff;
+}
+
+.lib-empty {
+  color: var(--ink-soft);
+  font-size: 14px;
+  padding: 18px;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+}
+
+.cat-lib { background: #eee5d2; color: var(--ink-soft); }
 

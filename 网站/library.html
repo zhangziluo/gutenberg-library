@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>书库 · 经史子集 · 古籍文库</title>
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/brand-icon.png" alt="古籍文库"> 古籍文库</a>
+      <div class="header-actions">
+        <span class="tagline">书库 · 经史子集</span>
+        <a class="tagline-link" href="index.html" title="返回首页">首页</a>
+        <a class="tagline-link" href="writing/" title="作者手记 · 原创小说">作者手记</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container lib-wrap">
+    <h1 class="lib-title">📚 书库 · 经史子集</h1>
+    <p class="lib-sub" id="lib-sub">四部分类 · 正在加载藏书目录…</p>
+    <div id="lib-parts"></div>
+    <div id="lib-uncat" class="lib-part"></div>
+    <div id="lib-error" class="notice error" hidden></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-note">文本来源：Project Gutenberg 古登堡计划 · 内容仅供学习研究使用</div>
+      <div class="footer-donate"><a href="sponsor.html">赞助</a></div>
+    </div>
+  </footer>
+
+  <script src="js/common.js"></script>
+  <script>
+  'use strict';
+  (async function () {
+    const DATA_BASE = '../文本/_site_data/';
+    const partsEl = document.getElementById('lib-parts');
+    const uncatEl = document.getElementById('lib-uncat');
+    const subEl = document.getElementById('lib-sub');
+    const errEl = document.getElementById('lib-error');
+
+    let catalog, books;
+    try {
+      [catalog, books] = await Promise.all([
+        loadJSON('assets/data/catalog.json'),
+        loadJSON(DATA_BASE + 'books.json')
+      ]);
+    } catch (e) {
+      errEl.hidden = false;
+      errEl.textContent = '无法加载藏书目录：' + e.message +
+        '。请通过本地 HTTP 服务器访问（python3 -m http.server）。';
+      return;
+    }
+
+    function esc(s) { return String(s).replace(/[&<>"']/g, c => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c])); }
+
+    function bookCard(item) {
+      const meta = books[item.book] || {};
+      const count = meta.section_count != null ? meta.section_count : '?';
+      const missing = (meta.missing && meta.missing.length) ? ` · 缺 ${meta.missing.length} 卷` : '';
+      return `
+        <a class="lib-book" href="book.html?book=${encodeURIComponent(item.book)}">
+          <div class="lib-book-head">
+            <span class="lib-book-name">${esc(item.book)}</span>
+            <span class="cat-tag cat-lib">${esc(item.cat)}</span>
+          </div>
+          <div class="lib-book-author">${esc(item.author || '佚名')} 著</div>
+          <p class="lib-book-intro">${esc(item.intro || '')}</p>
+          <div class="lib-book-meta">共 ${count} 篇${missing}</div>
+          <span class="lib-book-enter">进入阅读 →</span>
+        </a>`;
+    }
+
+    // 按 books.json 顺序补全：books.json 有而 catalog 未分类的书
+    const classified = new Set();
+    (catalog.parts || []).forEach(p => (p.books || []).forEach(b => classified.add(b.book)));
+    const uncat = Object.keys(books).filter(k => !classified.has(k));
+
+    const parts = (catalog.parts || []).map(part => {
+      const items = part.books || [];
+      return `
+        <section class="lib-part">
+          <div class="lib-part-head">
+            <span class="lib-part-name">${esc(part.bu)}</span>
+            <span class="lib-part-desc">${esc(part.desc || '')}</span>
+            <span class="lib-part-count">${items.length ? items.length + ' 种' : '暂缺'}</span>
+          </div>
+          ${items.length
+            ? `<div class="lib-books">${items.map(bookCard).join('')}</div>`
+            : `<div class="lib-empty">${esc(part.bu)}暂缺——后续补入（如四书五经、諸子百家等）。</div>`}
+        </section>`;
+    }).join('');
+
+    partsEl.innerHTML = parts;
+
+    if (uncat.length) {
+      uncatEl.innerHTML = `
+        <div class="lib-part-head">
+          <span class="lib-part-name">未分類</span>
+          <span class="lib-part-count">${uncat.length} 种</span>
+        </div>
+        <div class="lib-books">${uncat.map(b => bookCard({ book: b })).join('')}</div>`;
+    }
+
+    const total = Object.keys(books).length;
+    const byPart = (catalog.parts || []).map(p => p.books.length);
+    subEl.textContent = `四部分类 · 共 ${total} 种典籍（经 ${byPart[0] || 0} · 史 ${byPart[1] || 0} · 子 ${byPart[2] || 0} · 集 ${byPart[3] || 0}）`;
+  })();
+  </script>
+</body>
+</html>
