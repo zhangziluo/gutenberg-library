@@ -172,6 +172,9 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
 .chat-modes button:hover{border-color:#4a90d9;color:#4a90d9}
 .chat-modes button.active{background:#4a90d9;color:#fff;border-color:#4a90d9}
 .chat-hint{font-size:12px;color:#c96f2e;padding:4px 2px;line-height:1.5}
+.ai-toast{position:fixed;bottom:96px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.78);color:#fff;padding:8px 18px;border-radius:20px;font-size:13px;z-index:9999;opacity:0;pointer-events:none;transition:opacity .25s;max-width:82vw;text-align:center}
+.ai-toast.show{opacity:1}
+.ai-error{color:#7a5f2d;font-size:13px;background:#fbf3df;border:1px dashed #e3c9a6;border-radius:8px;padding:10px 12px;line-height:1.7}
 
 
 /* ===== 全屏态悬浮工具按钮组 ===== */
@@ -793,18 +796,76 @@ if (_pasteAreaEl) {
 
 // ========== AI 调用：统一走 prompt_templates.js 的 callAIChat（优先代理，fallback 直连） ==========
 
+// ===== AI 上下文控制：只发送 选中文本 / 可视区首段 / 当前句（≤2000 字），不发送整章 =====
+function getAIContext() {
+  let text = '';
+  // 1) 当前选中文本（仅在正文区选中时生效）
+  const sel = window.getSelection();
+  const rc = document.getElementById('readerContent');
+  if (sel && !sel.isCollapsed && rc && rc.contains(sel.anchorNode)) {
+    text = sel.toString().trim();
+  }
+  // 2) 可视区域内的第一个段落（句）
+  if (!text) {
+    const sents = document.querySelectorAll('#readerContent .sentence');
+    const vh = window.innerHeight || 800;
+    for (const el of sents) {
+      const r = el.getBoundingClientRect();
+      if (r.bottom > 0 && r.top < vh) { text = (el.textContent || '').trim(); break; }
+    }
+  }
+  // 3) 兜底：当前句
+  if (!text && state.sentences[state.currentIdx]) text = state.sentences[state.currentIdx].text;
+  // 4) 字数控制：>3000 截断到 2000 并提示；2000~3000 静默截到 2000
+  if (text.length > 3000) {
+    text = text.slice(0, 2000);
+    showToast('已自动截取当前段落');
+  } else if (text.length > 2000) {
+    text = text.slice(0, 2000);
+  }
+  return text.trim();
+}
+
+// 轻量 toast（不弹窗、不阻断，3s 自动消失）
+let toastEl = null, toastTimer = null;
+function showToast(msg, ms) {
+  if (!toastEl) {
+    toastEl = document.createElement('div');
+    toastEl.className = 'ai-toast';
+    document.body.appendChild(toastEl);
+  }
+  toastEl.textContent = msg;
+  toastEl.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function () { toastEl.classList.remove('show'); }, ms || 3000);
+}
+
+// 友好错误文案（不暴露原始报错）
+function friendlyError(e) {
+  const m = String((e && e.message) || '');
+  if (/api\s*key|invalid.*key|unauthorized|401|403/i.test(m)) return 'API Key 无效或已失效，请到设置里检查。';
+  if (/429|rate limit|too many|quota|insufficient|balance|billing/i.test(m)) return '请求太频繁或额度不足，请稍后再试。';
+  if (/timeout|timed out|network|fetch|503|502|504|408/i.test(m)) return '网络不太稳定，请稍后重试。';
+  if (/token|3000|too (large|long)|context|maximum/i.test(m)) return '内容超出单次处理上限，已自动截取当前段落，请重试。';
+  return 'AI 服务暂时不可用，请稍后再试。';
+}
+function friendlyErrorHtml(e) {
+  return '<p class="ai-error">' + friendlyError(e) + '</p>';
+}
+
 // ========== 学习卡片 ==========
 $('genCardBtn').addEventListener('click', async () => {
   // 实时从 DOM 读值，不依赖可能未同步的 state（修复 Windows 上误报）
   syncStateFromDom();
   const _hasText = state.sentences.length > 0 || document.querySelectorAll('#readerContent .sentence').length > 0;
   if (!_hasText) {
-    alert('请先导入文件');
+    showToast('请先导入文件');
     return;
   }
   quizArea.innerHTML = '<p style="font-size:13px">生成中...</p>';
   try {
-    const full = state.sentences.map(s => s.text).join('');
+    const full = getAIContext();
+    if (!full) { quizArea.innerHTML = '<p class="ai-error">请先导入文本，或选中/定位到想学习的段落。</p>'; return; }
     const r = await runMode('quiz', { text: full, title: state.title }, state.apiKey, aiProviderId(), aiModelName());
     const data = JSON.parse(r);
     assistContent.innerHTML = `<div class="trans-card"><h4>全文翻译</h4><p style="font-size:13px">${data.translation}</p></div>`;
@@ -818,7 +879,7 @@ $('genCardBtn').addEventListener('click', async () => {
       quizArea.appendChild(item);
     });
   } catch (e) {
-    quizArea.innerHTML = `<p style="color:red">生成失败: ${e.message}</p>`;
+    quizArea.innerHTML = friendlyErrorHtml(e);
   }
 });
 
@@ -832,15 +893,17 @@ document.querySelectorAll('.mode-bar button').forEach(b => {
       assistContent.innerHTML = '<p style="font-size:13px;color:#999">已切换为逐句翻译模式（阅读时自动触发）</p>';
       quizArea.innerHTML = '';
     } else if (m === 'deepdive') {
-      if (state.currentIdx >= 0) {
-        runMode('deepdive', { text: state.sentences[state.currentIdx].text, title: state.title }, state.apiKey, aiProviderId(), aiModelName())
+      const full = getAIContext();
+      if (full) {
+        runMode('deepdive', { text: full, title: state.title }, state.apiKey, aiProviderId(), aiModelName())
           .then(r => { assistContent.innerHTML = `<div class="trans-card"><h4>深度解析</h4><pre style="white-space:pre-wrap;font-size:13px">${r}</pre></div>`; })
-          .catch(e => { assistContent.innerHTML = `<p style="color:red">${e.message}</p>`; });
+          .catch(e => { assistContent.innerHTML = friendlyErrorHtml(e); });
       } else {
-        assistContent.innerHTML = '<p style="color:#999;font-size:13px">请将鼠标移到想精讲的句子上</p>';
+        assistContent.innerHTML = '<p style="color:#999;font-size:13px">请先选中文字，或将鼠标移到想精讲的句子上</p>';
       }
     } else if (m === 'relate') {
-      const full = state.sentences.map(s => s.text).join('').slice(0, 1500);
+      const full = getAIContext();
+      if (!full) { assistContent.innerHTML = '<p class="ai-error">请先导入文本，或选中/定位到想关联的段落。</p>'; return; }
       runMode('relate', { text: full, title: state.title }, state.apiKey, aiProviderId(), aiModelName())
         .then(r => {
           const d = JSON.parse(r);
@@ -850,7 +913,7 @@ document.querySelectorAll('.mode-bar button').forEach(b => {
           h += '</div>';
           assistContent.innerHTML = h || '<p style="color:#999">未找到关联篇目</p>';
         })
-        .catch(e => { assistContent.innerHTML = `<p style="color:red">${e.message}</p>`; });
+        .catch(e => { assistContent.innerHTML = friendlyErrorHtml(e); });
     } else if (m === 'quiz') {
       $('genCardBtn').click();
     }
@@ -986,7 +1049,11 @@ async function generatePaper() {
   examConfig.essay  = alloc.sEssay;
 
   const { diff } = getExamConfig();
-  const text = state.sentences.map(s => s.text).join('').slice(0, 3000);
+  const text = getAIContext();
+  if (!text) {
+    showToast('请先导入文本，或选中/定位到想测验的段落');
+    return null;
+  }
   const types = [
     { key: 'choice', name: '选择题', n: alloc.nChoice, s: alloc.sChoice,
       rule: '每题给出 A/B/C/D 四个选项，correctAnswer 填正确选项的字母（如 "B"）' },
@@ -1340,7 +1407,7 @@ ${items.map((it, i) => `${i + 1}. 题目：${it.question}\n得分点：${rubricT
   try {
     raw = await callAIChat('你是严格的阅卷老师，根据得分点(rubric)给学生答案打分。', prompt, state.apiKey, aiProviderId(), aiModelName());
   } catch (e) {
-    return items.map(() => ({ score: 0, total: 1, points: [], feedback: 'AI 判分失败：' + e.message }));
+    return items.map(() => ({ score: 0, total: 1, points: [], feedback: 'AI 判分失败：' + friendlyError(e) }));
   }
   // 解析 AI 返回的 JSON（容错：提取第一个 [ ... ] 数组）
   try {
@@ -1393,7 +1460,8 @@ function showScore(total, tier) {
 
 async function doExamPreview() { syncStateFromDom();
   $('examPreview').innerHTML = '<p style="font-size:13px">出题中...</p>'; try { const paper = await generatePaper();
-    renderExam(paper, $('examPreview')); } catch (e) { $('examPreview').innerHTML = `<p style="color:red">生成失败：${e.message}</p>` } }
+    if (!paper) return;
+    renderExam(paper, $('examPreview')); } catch (e) { $('examPreview').innerHTML = friendlyErrorHtml(e) } }
 
 // 把新试卷结构映射为 exam_view.html（打印/PDF）的旧格式
 function buildExamData(paper) { const { withAnswer } = getExamConfig(); const typeMeta = { choice: { label: '选择题', items: [] }, judge: { label: '判断题', items: [] }, fill: { label: '填空题', items: [] }, essay: { label: '问答题', items: [] } }; const answerSheet = [];
@@ -1405,7 +1473,9 @@ function buildExamData(paper) { const { withAnswer } = getExamConfig(); const ty
     answerSheet.push({ no: i + 1, a, exp: q.explanation }) });
   const sections = ['choice', 'judge', 'fill', 'essay'].filter(k => typeMeta[k].items.length > 0).map(k => ({ type: typeMeta[k].label, items: typeMeta[k].items })); return { title: paper.title || `《${state.title}》自测试卷`, sub: `共 ${paper.questions.length} 题`, sections, withAnswer, answerSheet, duration: 30 } }
 async function openExamPreview() { syncStateFromDom(); let paper = state._examPaper; if (!paper || !paper.questions) { try { $('examPreview').innerHTML = '<p style="font-size:13px">出题中...</p>';
-      paper = await generatePaper() } catch (e) { return alert('生成失败：' + e.message) } } const data = buildExamData(paper);
+      paper = await generatePaper() } catch (e) { showToast('试卷生成失败：' + friendlyError(e)); return } }
+  if (!paper) return;
+  const data = buildExamData(paper);
   sessionStorage.setItem('exam_data', JSON.stringify(data));
   window.open('exam_view.html', '_blank');
   closeExam() }
@@ -1748,7 +1818,7 @@ async function chatSend() {
     );
     appendChatMsg('ai', answer);
   } catch (e) {
-    appendChatMsg('ai', '⚠️ ' + e.message);
+    appendChatMsg('ai', '⚠️ ' + friendlyError(e));
   } finally {
     btn.disabled = false;
     $('chatStatus').textContent = '';
