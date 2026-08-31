@@ -145,6 +145,8 @@
   function openPanel() {
     open = true;
     panel.hidden = false;
+    // 章节页正文为异步渲染，打开面板时重新检测上下文
+    ctx = detectContext();
     showCtx();
     refreshKeyState();
     textEl.focus();

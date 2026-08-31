@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>阅读 · 古籍文库</title>
   <link rel="stylesheet" href="css/style.css">
+  <!-- opencc-js：简繁转换（同步转换，全量字典） -->
+  <script src="https://cdn.jsdelivr.net/npm/opencc-js@1.0.5/dist/umd/full.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -43,6 +45,12 @@
         <button class="scheme-btn" data-bg="#1e1e1e" data-fg="#e8e8e8" style="background:#1e1e1e;color:#e8e8e8" title="黑底白字">黑</button>
         <button class="scheme-btn" data-bg="#c7edcc" data-fg="#222222" style="background:#c7edcc;color:#222222" title="护眼绿底黑字">绿</button>
         <button class="scheme-btn active" data-bg="#f5ead0" data-fg="#3a3226" style="background:#f5ead0;color:#3a3226" title="羊皮纸底黑字">纸</button>
+      </div>
+      <div class="rs-group">
+        <span class="rs-label">简繁</span>
+        <button class="rs-btn textmode-btn active" data-mode="original" title="保持原文（繁体）">原文</button>
+        <button class="rs-btn textmode-btn" data-mode="toSimple" title="繁体转简体">繁→简</button>
+        <button class="rs-btn textmode-btn" data-mode="toTraditional" title="简体转繁体">简→繁</button>
       </div>
       <div class="rs-group">
         <span class="rs-label">背景</span>
@@ -85,21 +93,25 @@
   function goAIMode() {
     var titleEl = document.querySelector('.reader-title');
     var headerBook = document.getElementById('header-book');
-    var paras = Array.prototype.slice.call(document.querySelectorAll('#reader-body p'));
-    var title = titleEl ? titleEl.textContent.trim() : '古文篇目';
-    var text = paras.map(function (p) { return p.textContent; }).join('\n\n');
+    // 简繁转换只影响显示/复制/下载；送入 AI 的始终是原文（用户可在 AI 对话中自行决定）
+    var orig = window.__readerOriginal || null;
+    var parasEl = Array.prototype.slice.call(document.querySelectorAll('#reader-body p'));
+    var title = (orig && orig.title) ? orig.title : (titleEl ? titleEl.textContent.trim() : '古文篇目');
+    var parasArr = (orig && orig.paras && orig.paras.length) ? orig.paras
+      : parasEl.map(function (p) { return p.textContent; });
+    var text = parasArr.join('\n\n');
 
     var anchor = '';
-    if (paras.length) {
+    if (parasArr.length) {
       var vh = window.innerHeight || 800;
       var bestIdx = 0, bestDist = Infinity;
-      paras.forEach(function (p, i) {
+      parasEl.forEach(function (p, i) {
         var r = p.getBoundingClientRect();
         if (r.bottom < 0 || r.top > vh) return;
         var dist = Math.abs(r.top + r.height / 2 - vh * 0.4);
         if (dist < bestDist) { bestDist = dist; bestIdx = i; }
       });
-      anchor = paras[bestIdx].textContent.trim();
+      anchor = parasArr[bestIdx] ? parasArr[bestIdx].trim() : '';
     }
 
     try {

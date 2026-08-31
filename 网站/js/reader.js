@@ -55,30 +55,89 @@ const POS_PREFIX = 'gjs:pos:';
   document.getElementById('header-book').textContent = '《' + book.title + '》';
   document.getElementById('back-btn').href = bookUrl;
 
-  // ---- 正文 ----
-  const paras = (sec.paragraphs || []).map(p =>
-    `<p>${esc(p)}</p>`).join('') || '<p>（本篇无正文）</p>';
+  // ---- 简繁转换（opencc-js）：原文 / 繁→简 / 简→繁 ----
+  const TEXT_MODE_KEY = 'textMode';
+  const origParas = sec.paragraphs || [];
+  const origNotes = sec.notes || [];
 
-  // 独立注释层：史記【索隱述贊】等卷末注，单独成块展示
-  const notesHtml = (sec.notes && sec.notes.length) ? `
-    <div class="reader-notes">
-      <div class="reader-notes-title">〖索隱述贊〗卷末注疏 · 唐·司馬貞《史記索隱》</div>
-      ${sec.notes.map(n => `<p>${esc(n.replace(/^【索隱述贊】\s*/, ''))}</p>`).join('')}
-    </div>` : '';
+  function loadTextMode() {
+    try {
+      const v = localStorage.getItem(TEXT_MODE_KEY);
+      return (v === 'toSimple' || v === 'toTraditional') ? v : 'original';
+    } catch (e) { return 'original'; }
+  }
+  function saveTextMode(v) {
+    try { localStorage.setItem(TEXT_MODE_KEY, v); } catch (e) {}
+  }
 
-  reader.innerHTML = `
-    <div class="reader-head">
-      <span class="reader-cat cat-tag cat-${catStyle(sec.category_label)}">${esc(sec.category_label || '未分类')}</span>
-      <h2 class="reader-title">${esc(sec.title)}</h2>
-      <div class="reader-meta">
-        ${sec.source ? esc(sec.source) + ' · ' : ''}
-        ${sec.number != null ? ordinal(sec.number) + ' · ' : ''}
-        ${sec.char_count != null ? '约 ' + sec.char_count.toLocaleString() + ' 字 · ' : ''}
-        ${sec.para_count != null ? sec.para_count + ' 段' : ''}
+  let textMode = loadTextMode();
+  let converters = null;
+  function ensureConverters() {
+    if (converters) return converters;
+    converters = {};
+    if (typeof OpenCC !== 'undefined' && OpenCC.Converter) {
+      try {
+        converters.tw2cn = new OpenCC.Converter({ from: 'tw', to: 'cn' });
+        converters.cn2tw = new OpenCC.Converter({ from: 'cn', to: 'tw' });
+      } catch (e) { /* 转换器创建失败则维持原文 */ }
+    }
+    return converters;
+  }
+  function convertText(s) {
+    if (textMode === 'original' || !s) return s;
+    const c = ensureConverters();
+    try {
+      if (textMode === 'toSimple' && c.tw2cn) return c.tw2cn(s);
+      if (textMode === 'toTraditional' && c.cn2tw) return c.cn2tw(s);
+    } catch (e) { /* 转换失败回退原文 */ }
+    return s;
+  }
+  function displayParas() { return origParas.map(p => convertText(p)); }
+  function displayTitle() { return convertText(sec.title); }
+
+  // 正文渲染（正文 + 独立注释层），按 textMode 实时转换；原文始终只保留一份在内存
+  function renderReader() {
+    const paras = origParas.map(p => `<p>${esc(convertText(p))}</p>`).join('') || '<p>（本篇无正文）</p>';
+    const notesHtml = (origNotes.length) ? `
+      <div class="reader-notes">
+        <div class="reader-notes-title">〖索隱述贊〗卷末注疏 · 唐·司馬貞《史記索隱》</div>
+        ${origNotes.map(n => `<p>${esc(convertText(n.replace(/^【索隱述贊】\s*/, '')))}</p>`).join('')}
+      </div>` : '';
+
+    reader.innerHTML = `
+      <div class="reader-head">
+        <span class="reader-cat cat-tag cat-${catStyle(sec.category_label)}">${esc(sec.category_label || '未分类')}</span>
+        <h2 class="reader-title">${esc(convertText(sec.title))}</h2>
+        <div class="reader-meta">
+          ${sec.source ? esc(sec.source) + ' · ' : ''}
+          ${sec.number != null ? ordinal(sec.number) + ' · ' : ''}
+          ${sec.char_count != null ? '约 ' + sec.char_count.toLocaleString() + ' 字 · ' : ''}
+          ${sec.para_count != null ? sec.para_count + ' 段' : ''}
+        </div>
       </div>
-    </div>
-    <div class="reader-body" id="reader-body">${paras}</div>
-    ${notesHtml}`;
+      <div class="reader-body" id="reader-body">${paras}</div>
+      ${notesHtml}`;
+
+    // 供 goAIMode 使用：始终送原文（简繁转换不影响 AI 对话）
+    window.__readerOriginal = { title: sec.title, paras: origParas };
+
+    // 同步简繁按钮高亮
+    document.querySelectorAll('.textmode-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.mode === textMode);
+    });
+  }
+
+  renderReader();
+
+  // 简繁切换：即时重渲染；原文只请求一次，切换为前端即时转换
+  document.querySelectorAll('.textmode-btn').forEach(b => {
+    b.addEventListener('click', () => {
+      textMode = b.dataset.mode;
+      saveTextMode(textMode);
+      renderReader();
+      applyReading();
+    });
+  });
 
   // ---- 上一篇 / 下一篇 ----
   const prevBtn = document.getElementById('prev-btn');
@@ -102,7 +161,6 @@ const POS_PREFIX = 'gjs:pos:';
   // ---- 阅读设置：字体 / 配色 / 背景字色（与 AI 阅读器共用 gjs:reading） ----
   const READING_KEY = 'gjs:reading';
   const readerArticle = document.querySelector('.reader');
-  const body = document.getElementById('reader-body');
 
   let reading = { fontSize: 17, bg: '#f5ead0', fg: '#3a3226' };
 
@@ -119,13 +177,14 @@ const POS_PREFIX = 'gjs:pos:';
   }
 
   function applyReading() {
-    if (readerArticle && body) {
+    const curBody = document.getElementById('reader-body');
+    if (readerArticle && curBody) {
       readerArticle.style.background = reading.bg;
       readerArticle.style.color = reading.fg;
       const rgb = hexToRgbArr(reading.fg);
       readerArticle.style.borderColor = 'rgba(' + rgb.join(',') + ', 0.3)';
       readerArticle.style.setProperty('--line', 'rgba(' + rgb.join(',') + ', 0.3)');
-      body.style.fontSize = reading.fontSize + 'px';
+      curBody.style.fontSize = reading.fontSize + 'px';
     }
     document.getElementById('fontSizeVal').textContent = reading.fontSize;
     document.getElementById('bgPicker').value = reading.bg;
@@ -190,16 +249,16 @@ const POS_PREFIX = 'gjs:pos:';
     if (hex) { reading.fg = hex; applyReading(); }
   });
 
-  // ---- 下载本篇 TXT ----
+  // ---- 下载本篇 TXT（按当前简繁模式导出转换后文本） ----
   document.getElementById('download-txt').addEventListener('click', () => {
-    const text = (sec.paragraphs || []).join('\n\n');
-    const filename = sec.title.replace(/[\\/:*?"<>|]/g, '_') + '.txt';
+    const text = displayParas().join('\n\n');
+    const filename = displayTitle().replace(/[\\/:*?"<>|]/g, '_') + '.txt';
     downloadText(filename, text);
   });
 
-  // ---- 一键复制全文 ----
+  // ---- 一键复制全文（复制转换后的文本） ----
   document.getElementById('copy-text').addEventListener('click', async () => {
-    const text = (sec.title || '') + '\n\n' + (sec.paragraphs || []).join('\n\n');
+    const text = displayTitle() + '\n\n' + displayParas().join('\n\n');
     const btn = document.getElementById('copy-text');
     try {
       if (navigator.clipboard && navigator.clipboard.writeText) {

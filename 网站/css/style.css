@@ -584,6 +584,9 @@ body {
 }
 .rs-btn:hover{ background: #e6e6e6; }
 .rs-val{ font-size: 13px; color: #333; min-width: 22px; text-align: center; }
+/* 简繁转换按钮：自适应宽度 */
+.textmode-btn{ width: auto; height: auto; padding: 5px 10px; line-height: 1.2; }
+.textmode-btn.active{ background: var(--accent); color: #fff; border-color: var(--accent); }
 .scheme-btn{
   width: 30px; height: 30px;
   border-radius: 50%;
