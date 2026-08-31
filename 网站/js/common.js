@@ -108,5 +108,17 @@ function cnNum(n) {
     const ones = n % 10;
     return CN_DIGITS[tens] + '十' + (ones ? CN_DIGITS[ones] : '');
   }
+  if (n < 1000) {
+    const hundreds = Math.floor(n / 100);
+    const rest = n % 100;
+    let s = CN_DIGITS[hundreds] + '百';
+    if (rest) {
+      if (rest < 10) s += CN_DIGITS[rest];
+      else if (rest === 10) s += '十';
+      else if (rest < 20) s += '十' + CN_DIGITS[rest - 10];
+      else s += CN_DIGITS[Math.floor(rest / 10)] + '十' + (rest % 10 ? CN_DIGITS[rest % 10] : '');
+    }
+    return s;
+  }
   return String(n);
 }

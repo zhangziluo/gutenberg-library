@@ -114,6 +114,55 @@
   }
   </script>
 
+  <script>
+  // 轻量功能：选中正文文字 → 弹出「AI 解读」按钮，将所选片段送入 AI 阅读器
+  (function () {
+    var selBtn = null;
+    function hideBtn() { if (selBtn) { selBtn.remove(); selBtn = null; } }
+
+    document.addEventListener('mouseup', function () {
+      var sel = window.getSelection && window.getSelection();
+      if (!sel || sel.isCollapsed || !sel.toString().trim()) { hideBtn(); return; }
+      var body = document.getElementById('reader-body');
+      if (!body || !body.contains(sel.anchorNode) || !body.contains(sel.focusNode)) { hideBtn(); return; }
+      var txt = sel.toString().trim();
+      if (txt.length < 2) { hideBtn(); return; }
+      hideBtn();
+      var rect;
+      try { rect = sel.getRangeAt(0).getBoundingClientRect(); } catch (e) { return; }
+      selBtn = document.createElement('button');
+      selBtn.type = 'button';
+      selBtn.className = 'btn btn-sel-ai';
+      selBtn.textContent = '🤖 AI 解读选中文字';
+      selBtn.style.position = 'fixed';
+      selBtn.style.left = Math.max(8, Math.min(window.innerWidth - 170, rect.left + rect.width / 2 - 85)) + 'px';
+      selBtn.style.top = Math.max(8, rect.top - 48) + 'px';
+      selBtn.style.zIndex = '9999';
+      selBtn.addEventListener('click', function () {
+        var titleEl = document.querySelector('.reader-title');
+        var headerBook = document.getElementById('header-book');
+        var title = titleEl ? titleEl.textContent.trim() : '古籍篇目';
+        var source = headerBook ? headerBook.textContent.replace(/[《》]/g, '') : '古籍文库';
+        try {
+          sessionStorage.setItem('lib_selected', JSON.stringify({
+            title: title + ' · 选中解读',
+            text: txt,
+            source: source,
+            pos: ''
+          }));
+        } catch (err) { /* 隐私模式忽略 */ }
+        window.location.href = '/reader/shiji_reader.html';
+      });
+      document.body.appendChild(selBtn);
+    });
+
+    document.addEventListener('mousedown', function (e) {
+      if (selBtn && !selBtn.contains(e.target)) hideBtn();
+    });
+    window.addEventListener('scroll', hideBtn, true);
+  })();
+  </script>
+
   <script src="js/common.js"></script>
   <script src="js/reader.js"></script>
 </body>
