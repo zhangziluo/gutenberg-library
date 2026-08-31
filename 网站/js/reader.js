@@ -178,6 +178,11 @@ const POS_PREFIX = 'gjs:pos:';
 
   function applyReading() {
     const curBody = document.getElementById('reader-body');
+    // 自定义背景铺满整个阅读区（顶部导航栏以下）：header 为不透明渐变保持不变，
+    // body 背景 = 自定义色，主区 + 页脚整体显示自定义背景
+    document.body.style.background = reading.bg;
+    // 设置栏标签 / 页脚文字跟随字色，避免深色背景下看不清（顶部导航不受影响）
+    document.body.style.setProperty('--rs-fg', reading.fg);
     if (readerArticle && curBody) {
       readerArticle.style.background = reading.bg;
       readerArticle.style.color = reading.fg;

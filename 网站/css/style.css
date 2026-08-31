@@ -590,6 +590,12 @@ body {
 }
 .rs-btn:hover{ background: #e6e6e6; }
 .rs-val{ font-size: 13px; color: #333; min-width: 22px; text-align: center; }
+/* 阅读页自定义背景铺满阅读区时，设置栏标签 / 页脚文字跟随字色（--rs-fg 仅阅读页设置，顶部导航不受影响） */
+.reading-settings .rs-label,
+.reading-settings .rs-val,
+.site-footer {
+  color: var(--rs-fg, var(--ink-soft));
+}
 /* 简繁转换按钮：自适应宽度 */
 .textmode-btn{ width: auto; height: auto; padding: 5px 10px; line-height: 1.2; }
 .textmode-btn.active{ background: var(--accent); color: #fff; border-color: var(--accent); }
