@@ -33,34 +33,17 @@
     }
     .donate-title {
       display: inline-block;
-      font-size: 18px;
-      letter-spacing: 2px;
+      font-size: 20px;
+      letter-spacing: 3px;
+      line-height: 1.5;
       color: var(--ink);
       border-left: 4px solid var(--accent);
-      padding-left: 10px;
-      margin: 0 0 16px;
+      padding: 2px 6px 2px 14px;
+      margin: 0 0 18px;
     }
 
-    /* 爱发电：官方 leaflet iframe 嵌入（响应式宽度） */
-    .afdian-embed {
-      width: 100%;
-      max-width: 620px;
-      margin: 0 auto;
-      background: #fff;
-      border: 1px solid var(--line);
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: var(--shadow);
-    }
-    .afdian-iframe {
-      display: block;
-      width: 100%;
-      height: 420px;
-      border: 0;
-    }
-
-    /* 微信赞赏码：白底 + 四周 20px 内边距，点击查看大图 */
-    .wechat-reward {
+    /* 收款码展示（爱发电 / 微信通用）：白底 + 四周 20px 内边距，点击查看大图 */
+    .qr-panel {
       display: inline-block;
       background: #fff;
       padding: 20px;
@@ -68,14 +51,14 @@
       border-radius: 10px;
       box-shadow: var(--shadow);
     }
-    .reward-img {
+    .qr-img-lg {
       display: block;
       width: 300px;                  /* 桌面端 */
       max-width: 100%;
       image-rendering: crisp-edges;
       cursor: zoom-in;
     }
-    .reward-tip {
+    .qr-tip {
       color: var(--ink-soft);
       font-size: 12px;
       margin: 10px 0 0;
@@ -133,19 +116,18 @@
     }
     .modal-close:hover { background: #e0c9a0; color: var(--accent-dark); }
 
-    /* 移动端：赞赏码 240px，iframe 略矮 */
+    /* 移动端：收款码 240px */
     @media (max-width: 560px) {
       .sponsor-main { padding: 36px 16px 16px; }
       .sponsor-main h1 { font-size: 24px; }
-      .reward-img { width: 240px; }
-      .afdian-iframe { height: 380px; }
+      .qr-img-lg { width: 240px; }
     }
   </style>
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/favicon.svg" alt="古籍文库"> 古籍文库</a>
+      <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/brand-icon.png" alt="古籍文库"> 古籍文库</a>
       <span class="tagline">古登堡计划 · 繁体中文古籍在线阅读</span>
     </div>
   </header>
@@ -154,26 +136,22 @@
     <h1>☕ 支持作者</h1>
     <p class="sponsor-desc">如果这些内容对你有帮助，请作者喝杯茶 ☕</p>
 
-    <!-- 爱发电：官方 leaflet iframe 嵌入（slug 替换为你的实际值） -->
+    <!-- 爱发电：二维码（点击查看大图，也可前往爱发电主页） -->
     <section class="donate-block">
       <h2 class="donate-title">爱发电</h2>
-      <!-- 爱发电官方 leaflet 嵌入 -->
-      <div class="afdian-embed">
-        <iframe class="afdian-iframe"
-                src="https://afdian.com/leaflet/zhang409543901"
-                scrolling="no" frameborder="0" framespacing="0"
-                allowpaymentrequest="true" loading="lazy"
-                title="爱发电赞助"></iframe>
+      <div class="qr-panel">
+        <img class="qr-img-lg" src="assets/images/afdian-qr.png" alt="爱发电二维码">
       </div>
+      <p class="qr-tip">👆 点击图片可查看大图 · <a href="https://afdian.com/a/zhang409543901" target="_blank" rel="noopener noreferrer">前往爱发电主页</a></p>
     </section>
 
     <!-- 微信赞赏码：点击弹出大图 -->
     <section class="donate-block">
       <h2 class="donate-title">微信赞赏</h2>
-      <div class="wechat-reward">
-        <img class="reward-img" src="assets/images/wechat-reward.png" alt="微信赞赏码">
+      <div class="qr-panel">
+        <img class="qr-img-lg" src="assets/images/wechat-reward.png" alt="微信赞赏码">
       </div>
-      <p class="reward-tip">👆 点击图片可查看大图</p>
+      <p class="qr-tip">👆 点击图片可查看大图</p>
     </section>
 
     <!-- 感谢名单（预留区） -->
@@ -199,12 +177,12 @@
   </div>
 
   <script>
-  // 微信赞赏码：点击弹出大图预览；点遮罩 / ✕ / Esc 关闭
+  // 收款码：点击弹出大图预览；点遮罩 / ✕ / Esc 关闭
   (function () {
     var modal = document.getElementById('qrModal');
     var img = document.getElementById('qrModalImg');
     var closeBtn = document.getElementById('qrModalClose');
-    document.querySelectorAll('.reward-img').forEach(function (el) {
+    document.querySelectorAll('.qr-img-lg').forEach(function (el) {
       el.addEventListener('click', function () {
         img.src = el.src;
         modal.classList.add('show');

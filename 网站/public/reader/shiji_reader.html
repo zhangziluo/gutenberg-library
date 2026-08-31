@@ -10,23 +10,24 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;height:100vh;overflow:hidden}
-#app{display:flex;height:100vh}
-#sidebar{width:320px;flex:0 0 320px;background:#fff;border-right:1px solid #e0e0e0;padding:16px;overflow-y:auto}
+#app{display:grid;grid-template-columns:320px 1fr;grid-template-rows:1fr auto;grid-template-areas:"sidebar reader" "assistant assistant";height:100vh}
+#app.no-sidebar{grid-template-columns:1fr;grid-template-areas:"reader reader" "assistant assistant"}
+#sidebar{grid-area:sidebar;background:#fff;border-right:1px solid #e0e0e0;padding:16px;overflow-y:auto}
 #sidebar.closed{display:none}
 #sidebar h2{font-size:16px;margin-bottom:12px;color:#333}
-.file-btn{display:block;width:100%;padding:10px;margin-bottom:8px;background:#4a90d9;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px}
+.file-btn{display:block;width:100%;padding:10px;margin-bottom:8px;background:#4a90d9;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px;text-align:center}
 .file-btn:hover{background:#3a7bc8}
 .file-btn input{display:none}
 #fileInfo{font-size:12px;color:#666;margin-bottom:12px;padding:8px;background:#f9f9f9;border-radius:4px}
 .config-row{margin-bottom:10px}
 .config-row label{display:block;font-size:12px;color:#555;margin-bottom:4px}
 .config-row input,.config-row select{width:100%;padding:6px;border:1px solid #ddd;border-radius:4px;font-size:13px}
-#genCardBtn{width:100%;padding:10px;background:#e74c3c;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px;margin-top:8px}
+#genCardBtn{width:100%;padding:10px;background:#e74c3c;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px;margin-top:8px;text-align:center}
 #genCardBtn:hover{background:#c0392b}
-#examBtn{width:100%;padding:10px;background:#8e44ad;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px;margin-top:8px}
+#examBtn{width:100%;padding:10px;background:#8e44ad;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px;margin-top:8px;text-align:center}
 #examBtn:hover{background:#732d91}
 #status{font-size:11px;color:#999;margin-top:8px}
-#reader{flex:1;overflow-y:auto;padding:32px;background:#f5ead0}
+#reader{grid-area:reader;overflow-y:auto;padding:32px;background:#f5ead0}
 :root{--line-height:1.75;--bg:#f5ead0;--accent:#4a90d9}
 #readerContent{max-width:720px;margin:0 auto;line-height:var(--line-height);font-size:17px;color:#3a3226}
 #readerContent .sentence{display:block;position:relative;line-height:var(--line-height);cursor:pointer;padding:2px 4px;border-radius:3px;transition:background .2s}
@@ -36,8 +37,13 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
 #readerContent .sentence .inline-trans .trans-bai{display:block;color:#555}
 #readerContent .sentence .inline-trans .trans-notes{display:block;color:#888;margin-top:2px}
 #readerContent .sentence.active .inline-trans{display:block}
-#assistant{width:360px;flex:0 0 360px;background:#fafafa;border-left:1px solid #e0e0e0;padding:16px 16px 0;display:flex;flex-direction:column;overflow:hidden}
-/* 右侧 AI 助手固定常驻，不可收起 */
+#assistant{grid-area:assistant;height:320px;background:var(--assist-bg,#fafafa);border-top:1px solid #e0e0e0;padding:10px 16px 0;display:flex;flex-direction:column;overflow:hidden;--assist-font:14px;--assist-bg:#fafafa}
+/* 底部 AI 助手固定常驻，不可收起；字号/背景随自定义变量调整 */
+#assistant .assistant-scroll{font-size:var(--assist-font,14px)}
+#assistant .assistant-scroll .trans-card .tran,
+#assistant .assistant-scroll .trans-card .notes,
+#assistant .assistant-scroll .chat-msg,
+#assistant .assistant-scroll #assistContent{font-size:var(--assist-font,14px)}
 #assistant h3{font-size:14px;margin-bottom:10px;color:#333}
 .mode-bar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
 .mode-bar button{padding:6px 10px;border:1px solid #ddd;background:#fff;border-radius:16px;cursor:pointer;font-size:12px}
@@ -107,13 +113,14 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
 .drawer-close{flex-shrink:0;width:28px;height:28px;background:#f0f0f0;border:1px solid #ddd;border-radius:6px;cursor:pointer;font-size:13px;color:#666;line-height:1}
 .drawer-close:hover{background:#e3e3e3;color:#333}
 
-.reader-toolbar{position:sticky;top:0;display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;padding:8px;background:rgba(255,255,255,.94);border:1px solid #eee;border-radius:8px;z-index:20}
+.reader-toolbar{position:sticky;top:0;display:flex;gap:8px;flex-wrap:wrap;margin-bottom:0;padding:0 8px;background:rgba(255,255,255,.94);border:1px solid #eee;border-radius:8px;z-index:20;max-height:0;overflow:hidden;opacity:0;pointer-events:none;transition:max-height .3s ease,opacity .3s ease,padding .3s ease,margin-bottom .3s ease}
+.reader-toolbar.show{max-height:320px;opacity:1;pointer-events:auto;padding:8px;margin-bottom:14px}
 .tb-btn{padding:6px 14px;background:#fff;color:#4a90d9;border:1px solid #4a90d9;border-radius:6px;cursor:pointer;font-size:13px}
 .tb-btn:hover{background:#4a90d9;color:#fff}
 .tb-full{color:#e67e22;border-color:#e67e22}
 .tb-full:hover{background:#e67e22;color:#fff}
 
-.edge-zone{position:fixed;top:0;height:100vh;width:26px;display:none;align-items:center;justify-content:center;cursor:pointer;font-size:13px;color:#4a90d9;background:rgba(74,144,217,.12);z-index:80;transition:background .2s}
+.edge-zone{position:fixed;top:0;height:calc(100vh - 320px);width:26px;display:none;align-items:center;justify-content:center;cursor:pointer;font-size:13px;color:#4a90d9;background:rgba(74,144,217,.12);z-index:80;transition:background .2s}
 .edge-zone:hover{background:rgba(74,144,217,.32)}
 .edge-zone.show{display:flex}
 .edge-left{left:0;border-right:1px solid rgba(74,144,217,.25);border-radius:0 8px 8px 0}
@@ -130,6 +137,9 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
 .scheme-btn{width:30px;height:30px;border-radius:50%;border:2px solid transparent;cursor:pointer;font-size:11px;display:flex;align-items:center;justify-content:center;transition:border-color .15s}
 .scheme-btn:hover{border-color:#bbb}
 .scheme-btn.active{border-color:#4a90d9;box-shadow:0 0 0 2px rgba(74,144,217,.30)}
+.assist-bg-btn{width:30px;height:30px;border-radius:6px;border:2px solid transparent;cursor:pointer;font-size:11px;display:flex;align-items:center;justify-content:center;transition:border-color .15s}
+.assist-bg-btn:hover{border-color:#bbb}
+.assist-bg-btn.active{border-color:#4a90d9;box-shadow:0 0 0 2px rgba(74,144,217,.30)}
 .rs-color{width:34px;height:28px;padding:1px;border:1px solid #ddd;border-radius:6px;cursor:pointer;background:#fff}
 .rs-hex{width:76px;padding:4px 6px;border:1px solid #ddd;border-radius:6px;font-size:12px;color:#333}
 .rs-rgb{width:88px;padding:4px 6px;border:1px solid #ddd;border-radius:6px;font-size:12px;color:#333}
@@ -141,7 +151,7 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
 .chat-head{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:#555;font-weight:bold;margin-bottom:6px}
 .chat-clear{background:transparent;border:none;color:#999;cursor:pointer;font-size:11px;font-weight:normal;padding:2px 4px;border-radius:4px}
 .chat-clear:hover{color:#e74c3c;background:#fbeaea}
-.chat-body{max-height:200px;overflow-y:auto;display:flex;flex-direction:column;gap:6px;margin-bottom:8px}
+.chat-body{max-height:110px;overflow-y:auto;display:flex;flex-direction:column;gap:6px;margin-bottom:8px}
 .chat-msg{font-size:12px;line-height:1.6;padding:6px 9px;border-radius:8px;white-space:pre-wrap;word-break:break-word;max-width:92%}
 .chat-user{background:#4a90d9;color:#fff;align-self:flex-end}
 .chat-ai{background:#f1f1f1;color:#333;align-self:flex-start}
@@ -154,7 +164,7 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
 
 
 /* ===== 全屏态悬浮工具按钮组 ===== */
-.fab-group{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);display:none;gap:10px;align-items:center;z-index:95;background:rgba(255,255,255,.97);border:1px solid #ddd;border-radius:40px;padding:8px 14px;box-shadow:0 6px 22px rgba(0,0,0,.20)}
+.fab-group{position:fixed;bottom:340px;left:50%;transform:translateX(-50%);display:none;gap:10px;align-items:center;z-index:95;background:rgba(255,255,255,.97);border:1px solid #ddd;border-radius:40px;padding:8px 14px;box-shadow:0 6px 22px rgba(0,0,0,.20)}
 .fab-group.show{display:flex}
 .fab-btn{padding:9px 18px;background:#fff;color:#4a90d9;border:1px solid #4a90d9;border-radius:24px;cursor:pointer;font-size:14px;white-space:nowrap;transition:background .15s,color .15s}
 .fab-btn:hover{background:#4a90d9;color:#fff}
@@ -228,7 +238,7 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
     </div>
     <button id="genCardBtn">📝 生成学习卡片</button>
     <button id="examBtn">📄 出试卷</button>
-    <button id="exportPdfBtn" style="width:100%;padding:10px;background:#16a085;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px;margin-top:8px">📄 导出当前阅读 PDF</button>
+    <button id="exportPdfBtn" style="width:100%;padding:10px;background:#16a085;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:14px;margin-top:8px;text-align:center">📄 导出当前阅读 PDF</button>
     <div id="status">就绪</div>
   </div>
   <div id="reader">
@@ -267,6 +277,20 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
           <input type="color" id="fgPicker" class="rs-color" title="取色器">
           <input type="text" id="fgHex" class="rs-hex" placeholder="#222222" title="字色十六进制">
           <input type="text" id="fgRgb" class="rs-rgb" placeholder="34,34,34" title="字色 RGB">
+        </div>
+        <div class="rs-group">
+          <span class="rs-label">辅助字号</span>
+          <button class="rs-btn" id="assistFontMinus" title="减小辅助栏字号">A−</button>
+          <span class="rs-val" id="assistFontSizeVal">14</span>
+          <button class="rs-btn" id="assistFontPlus" title="增大辅助栏字号">A+</button>
+        </div>
+        <div class="rs-group">
+          <span class="rs-label">辅助背景</span>
+          <button class="assist-bg-btn active" data-bg="#fafafa" style="background:#fafafa" title="浅灰">淡</button>
+          <button class="assist-bg-btn" data-bg="#f0f6ff" style="background:#f0f6ff" title="淡蓝">蓝</button>
+          <button class="assist-bg-btn" data-bg="#fffdf7" style="background:#fffdf7" title="米白">米</button>
+          <button class="assist-bg-btn" data-bg="#e8f5e9" style="background:#e8f5e9" title="淡绿">绿</button>
+          <button class="assist-bg-btn" data-bg="#1e1e1e" style="background:#1e1e1e;color:#fff" title="暗色">暗</button>
         </div>
       </div>
     </div>
@@ -1432,6 +1456,7 @@ assistantEl.classList.remove('closed');
 
 function syncDrawerState() {
   const lc = sidebarEl.classList.contains('closed');
+  $('app').classList.toggle('no-sidebar', lc);
   edgeLeftEl.classList.toggle('show', lc);
   // 悬浮工具组：侧栏收起时显示
   fabGroup.classList.toggle('show', lc);
@@ -1473,7 +1498,7 @@ try {
 
 // ========== 阅读设置：字体 / 配色 / 背景与字色自定义 / 行宽 ==========
 const READING_KEY = 'gjs:reading';
-let reading = { fontSize: 17, bg: '#f5ead0', fg: '#3a3226', width: 720 };
+let reading = { fontSize: 17, bg: '#f5ead0', fg: '#3a3226', width: 720, assistFontSize: 14, assistBg: '#fafafa' };
 
 function hexToRgbStr(hex) {
   const m = String(hex).replace('#', '').trim().match(/^([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i);
@@ -1493,6 +1518,18 @@ function applyReading() {
   content.style.color = reading.fg;
   content.style.fontSize = reading.fontSize + 'px';
   document.documentElement.style.setProperty('--bg', reading.bg); // 内联翻译框背景跟随
+
+  // 辅助栏：字号与背景（底部 AI 助手）
+  const assist = $('assistant');
+  if (assist) {
+    assist.style.setProperty('--assist-font', reading.assistFontSize + 'px');
+    assist.style.setProperty('--assist-bg', reading.assistBg);
+  }
+  const afv = $('assistFontSizeVal');
+  if (afv) afv.textContent = reading.assistFontSize;
+  document.querySelectorAll('.assist-bg-btn').forEach(function (b) {
+    b.classList.toggle('active', b.dataset.bg === reading.assistBg);
+  });
 
   $('fontSizeVal').textContent = reading.fontSize;
   $('bgPicker').value = reading.bg;
@@ -1535,6 +1572,18 @@ $('widthRange').addEventListener('input', function (e) {
 $('fontMinus').addEventListener('click', function () { reading.fontSize = Math.max(12, reading.fontSize - 1); applyReading(); });
 $('fontPlus').addEventListener('click', function () { reading.fontSize = Math.min(40, reading.fontSize + 1); applyReading(); });
 
+// 辅助栏字号调节
+$('assistFontMinus').addEventListener('click', function () { reading.assistFontSize = Math.max(12, reading.assistFontSize - 1); applyReading(); });
+$('assistFontPlus').addEventListener('click', function () { reading.assistFontSize = Math.min(26, reading.assistFontSize + 1); applyReading(); });
+
+// 辅助栏背景
+document.querySelectorAll('.assist-bg-btn').forEach(function (b) {
+  b.addEventListener('click', function () {
+    reading.assistBg = b.dataset.bg;
+    applyReading();
+  });
+});
+
 // 四种配色方案
 document.querySelectorAll('.scheme-btn').forEach(function (b) {
   b.addEventListener('click', function () {
@@ -1573,6 +1622,8 @@ try {
   if (saved.bg && /^#[0-9a-fA-F]{6}$/.test(saved.bg)) reading.bg = saved.bg;
   if (saved.fg && /^#[0-9a-fA-F]{6}$/.test(saved.fg)) reading.fg = saved.fg;
   if (typeof saved.width === 'number') reading.width = Math.max(480, Math.min(1100, saved.width));
+  if (typeof saved.assistFontSize === 'number') reading.assistFontSize = Math.max(12, Math.min(26, saved.assistFontSize));
+  if (saved.assistBg && /^#[0-9a-fA-F]{6}$/.test(saved.assistBg)) reading.assistBg = saved.assistBg;
 } catch (e) {}
 applyReading();
 applyLineWidth();
@@ -1673,6 +1724,28 @@ $('chatInput').addEventListener('keydown', function (e) {
   }
 })();
 
+</script>
+
+<script>
+// 顶部界面自定义栏：默认收起；鼠标移近屏幕顶部边缘(60px)自动展开，移开后收起
+(function () {
+  var toolbar = document.querySelector('.reader-toolbar');
+  if (!toolbar) return;
+  var EDGE = 60;
+  var shown = false;
+  document.addEventListener('mousemove', function (e) {
+    var shouldShow = e.clientY <= EDGE || toolbar.contains(e.target);
+    if (shouldShow !== shown) {
+      shown = shouldShow;
+      toolbar.classList.toggle('show', shown);
+    }
+  });
+  // 触屏兜底：轻点顶部边缘展开（iPad / 手机，避免自定义栏永久隐藏）
+  document.addEventListener('touchstart', function (e) {
+    var t = e.touches && e.touches[0];
+    if (t && t.clientY <= 50) toolbar.classList.add('show');
+  }, { passive: true });
+})();
 </script>
 
 </body>
