@@ -16,7 +16,7 @@ mkdir -p "$DIST"
 
 # 1. 主站页面
 echo "==> 复制主站页面"
-cp -R "$ROOT/网站/index.html" "$ROOT/网站/book.html" "$ROOT/网站/reader.html" "$DIST/"
+cp -R "$ROOT/网站/index.html" "$ROOT/网站/book.html" "$ROOT/网站/reader.html" "$ROOT/网站/sponsor.html" "$DIST/"
 cp -R "$ROOT/网站/css" "$ROOT/网站/js" "$DIST/"
 cp -R "$ROOT/网站/writing" "$DIST/"
 

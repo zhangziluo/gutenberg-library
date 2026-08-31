@@ -566,3 +566,19 @@ body {
   font-size: 13px;
 }
 
+/* ---------- 页脚捐助链接 ---------- */
+.footer-donate {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+.footer-donate a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--accent);
+  transition: color 0.15s ease, border-bottom-color 0.15s ease;
+}
+.footer-donate a:hover {
+  color: var(--accent-dark);
+  border-bottom-color: var(--accent-dark);
+}
+

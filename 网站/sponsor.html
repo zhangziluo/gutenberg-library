@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>捐助 · 古籍文库</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ========== 捐助页：居中排版（移动端适配） ========== */
+    .sponsor-main {
+      max-width: 560px;
+      margin: 0 auto;
+      padding: 56px 20px 20px;
+      text-align: center;
+    }
+    .sponsor-main h1 {
+      font-size: 28px;
+      letter-spacing: 4px;
+      margin: 0 0 10px;
+    }
+    .sponsor-main .sponsor-desc {
+      color: var(--ink-soft);
+      font-size: 15px;
+      margin: 0 0 30px;
+      line-height: 1.9;
+    }
+    /* 复用主站的 .support 卡片（含二维码占位样式） */
+    .sponsor-main .support {
+      margin: 0;
+      background: var(--paper-light);
+      border: 1px solid var(--line);
+    }
+    .support-title {
+      font-size: 16px;
+      color: var(--ink);
+    }
+
+    /* 移动端：卡片内边距与二维码尺寸适当缩小 */
+    @media (max-width: 560px) {
+      .sponsor-main { padding: 36px 16px 16px; }
+      .sponsor-main h1 { font-size: 24px; }
+      .sponsor-main .support { padding: 20px 14px 16px; }
+      .sponsor-main .qr-slot { width: 104px; height: 104px; }
+      .sponsor-main .qr-img { width: 104px; height: 104px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-seal">書</span> 古籍文库</a>
+      <span class="tagline">古登堡计划 · 繁体中文古籍在线阅读</span>
+    </div>
+  </header>
+
+  <main class="sponsor-main">
+    <h1>☕ 支持作者</h1>
+    <p class="sponsor-desc">如果这些内容对你有帮助，请作者喝杯茶 ☕</p>
+
+    <div class="support">
+      <p class="support-title">扫码支持（微信 / 支付宝 / 爱发电）</p>
+      <div class="support-qr">
+        <!-- 爱发电：截图放到 网站/images/ 后，把占位块替换为 <img class="qr-img" src="images/afdian-qr.png" alt="爱发电">（也可换成你的爱发电主页链接） -->
+        <div class="qr-slot qr-ph" title="爱发电（待上传）">
+          <span class="qr-label">爱发电</span>
+          <span class="qr-hint">待添加</span>
+        </div>
+        <!-- 微信收款码：把占位块替换为 <img class="qr-img" src="images/wechat-qr.png" alt="微信收款码"> -->
+        <div class="qr-slot qr-ph" title="微信收款码（待上传）">
+          <span class="qr-label">微信收款码</span>
+          <span class="qr-hint">待添加</span>
+        </div>
+        <!-- 支付宝收款码：把占位块替换为 <img class="qr-img" src="images/alipay-qr.png" alt="支付宝收款码"> -->
+        <div class="qr-slot qr-ph" title="支付宝收款码（待上传）">
+          <span class="qr-label">支付宝收款码</span>
+          <span class="qr-hint">待添加</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-donate"><a href="sponsor.html">捐助</a></div>
+      <div class="footer-note">文本来源：Project Gutenberg 古登堡计划 · 内容仅供学习研究使用</div>
+    </div>
+  </footer>
+</body>
+</html>
