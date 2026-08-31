@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 新手指南 · 古籍文库</title>
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/brand-icon.png" alt="古籍文库"> 古籍文库</a>
+      <div class="header-actions">
+        <span class="tagline">AI 新手指南</span>
+        <a class="tagline-link" href="library.html" title="书库 · 经史子集">书库</a>
+        <a class="tagline-link" href="ai-settings.html" title="AI 设置">AI 设置</a>
+        <a class="tagline-link" href="writing/" title="作者手记 · 原创小说">作者手记</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container guide-wrap">
+    <h1 class="guide-title">📖 AI 新手指南</h1>
+    <p class="guide-sub">本站 AI 能力分两层：全局 AI 助手（全站通用）＋ 章节 AI 学习模式（沉浸式阅读）</p>
+
+    <section class="guide-card">
+      <h2>一、全局 AI 助手（全站通用）</h2>
+      <ul>
+        <li><b>在哪打开？</b> 任意页面左下角的 🤖 圆形按钮。</li>
+        <li><b>能做什么？</b> 三种模式：💬 通用问答（古籍常识、字词解释）、🈷 翻译（繁/文言 → 白话）、📚 书籍推荐（按兴趣荐书）。</li>
+        <li><b>章节上下文：</b> 在章节阅读页打开助手时，会自动带上「当前书名 · 作者 · 章节」作为上下文，提问会优先结合该章节。</li>
+        <li><b>需要配置：</b> 首次使用请先到 <a href="ai-settings.html">⚙ AI 设置</a> 填入你的 DeepSeek API Key（保存在本地浏览器）。</li>
+      </ul>
+    </section>
+
+    <section class="guide-card">
+      <h2>二、章节 AI 学习模式（阅读页内，独立使用）</h2>
+      <ul>
+        <li><b>入口 1：</b> 章节阅读页右下角「🤖 AI 阅读模式」按钮 —— 把当前整篇送入 AI 阅读器，保留阅读位置。</li>
+        <li><b>入口 2：</b> 在章节正文<b>选中一段文字</b>，会弹出「AI 解读选中文字」，只解读选中的片段。</li>
+        <li><b>AI 阅读器功能：</b> 逐句翻译、疑难字词精讲、深度学习（段落解读）、相关文史背景、智能测验（选择题 / 判断 / 填空 / 问答）、组卷练习与自动阅卷。</li>
+        <li><b>切换模型：</b> 阅读器左侧设置栏可选「站长提供的 DeepSeek V4-Flash（免费代理，限速限字数）」或「使用自己的 API Key」。</li>
+      </ul>
+    </section>
+
+    <section class="guide-card">
+      <h2>三、获取 DeepSeek API Key</h2>
+      <ol>
+        <li>打开 <a href="https://platform.deepseek.com/" target="_blank" rel="noopener">platform.deepseek.com</a> 注册并登录。</li>
+        <li>左侧「API Keys」→「创建 API Key」，复制 <code>sk-…</code> 格式的密钥。</li>
+        <li>回到本站 <a href="ai-settings.html">⚙ AI 设置</a> 粘贴保存，点「🧪 测试连接」验证。</li>
+      </ol>
+    </section>
+
+    <section class="guide-card">
+      <h2>四、常见问题</h2>
+      <ul>
+        <li><b>Key 安全吗？</b> 只存本地浏览器，直连 DeepSeek，不经本站服务器。</li>
+        <li><b>为什么有时提示限流？</b> 「站长提供」的代理有 60 秒 10 次的限制；改用自己的 Key 可解除。</li>
+        <li><b>输入过长？</b> 单次请求上限约 3000 token（约 5000 字），长文请分段落提问。</li>
+        <li><b>想换别的模型？</b> 到 AI 阅读器设置侧栏切换服务商（OpenAI / Qwen / Kimi / GLM / 豆包 / 自定义端点）。</li>
+      </ul>
+    </section>
+
+    <div class="settings-nav">
+      <a class="btn" href="ai-settings.html">⚙ 去配置 Key</a>
+      <a class="btn" href="library.html">📚 去书库逛逛</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-note">文本来源：Project Gutenberg 古登堡计划 · 内容仅供学习研究使用</div>
+      <div class="footer-donate"><a href="sponsor.html">赞助</a></div>
+    </div>
+  </footer>
+
+  <script src="js/global-ai.js"></script>
+</body>
+</html>

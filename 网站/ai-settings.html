@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 设置 · 古籍文库</title>
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/brand-icon.png" alt="古籍文库"> 古籍文库</a>
+      <div class="header-actions">
+        <span class="tagline">AI 设置</span>
+        <a class="tagline-link" href="library.html" title="书库 · 经史子集">书库</a>
+        <a class="tagline-link" href="ai-guide.html" title="AI 新手指南">AI 指南</a>
+        <a class="tagline-link" href="writing/" title="作者手记 · 原创小说">作者手记</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container settings-wrap">
+    <h1 class="settings-title">⚙ AI 设置</h1>
+    <p class="settings-sub">全局 AI 助手与章节 AI 学习模式共用同一把 Key</p>
+
+    <section class="settings-card">
+      <h2>DeepSeek API Key</h2>
+      <p class="settings-tip">
+        1. 到 <a href="https://platform.deepseek.com/" target="_blank" rel="noopener">platform.deepseek.com</a> 注册并创建 API Key（格式 <code>sk-…</code>）。<br>
+        2. 粘贴到下面并保存，即可在全站使用 AI 助手（问答 / 翻译 / 书籍推荐）与章节 AI 学习模式。
+      </p>
+      <div class="settings-row">
+        <input type="password" id="apiKey" class="settings-input" placeholder="sk-...（仅保存在你的浏览器本地）" autocomplete="off">
+      </div>
+      <div class="settings-row">
+        <button class="btn" id="saveKey">💾 保存 Key</button>
+        <button class="btn" id="testKey">🧪 测试连接</button>
+        <button class="btn" id="clearKey">🗑 清除 Key</button>
+      </div>
+      <div id="keyStatus" class="settings-status"></div>
+    </section>
+
+    <section class="settings-card">
+      <h2>隐私与安全</h2>
+      <ul class="settings-list">
+        <li><b>Key 只保存在你本机浏览器</b>（localStorage），不上传本站服务器，也不写入任何云端存储。</li>
+        <li>全局 AI 助手使用你的 Key <b>直连 DeepSeek 官方接口</b>；AI 阅读器也可选「站长提供」的免费代理（无需 Key，但限速、限字数）。</li>
+        <li>请勿在公共电脑上保存 Key；如需换用其他服务商（OpenAI、Qwen、Kimi、GLM、豆包、自定义端点），请到 AI 阅读器的设置侧栏切换。</li>
+        <li>所有 AI 请求都会消耗你自己的 DeepSeek 额度，请留意用量。</li>
+      </ul>
+    </section>
+
+    <div class="settings-nav">
+      <a class="btn" href="ai-guide.html">📖 查看 AI 新手指南</a>
+      <a class="btn" href="index.html">🏠 返回首页</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-note">文本来源：Project Gutenberg 古登堡计划 · 内容仅供学习研究使用</div>
+      <div class="footer-donate"><a href="sponsor.html">赞助</a></div>
+    </div>
+  </footer>
+
+  <script>
+  'use strict';
+  var KEY_STORAGE = 'guoxue_api_key';
+  var API_URL = 'https://api.deepseek.com/v1/chat/completions';
+  var input = document.getElementById('apiKey');
+  var statusEl = document.getElementById('keyStatus');
+
+  function getKey() { try { return (localStorage.getItem(KEY_STORAGE) || '').trim(); } catch (e) { return ''; } }
+  function setStatus(html, ok) {
+    statusEl.innerHTML = html;
+    statusEl.className = 'settings-status ' + (ok ? 'ok' : 'err');
+  }
+
+  // 恢复已保存的 Key（打码显示）
+  var saved = getKey();
+  if (saved) {
+    input.value = saved.length > 12 ? saved.slice(0, 6) + '••••••••' + saved.slice(-4) : saved;
+    input.dataset.masked = '1';
+  }
+  // 用户手动输入新 Key 时取消打码状态
+  input.addEventListener('input', function () { input.dataset.masked = '0'; });
+
+  document.getElementById('saveKey').addEventListener('click', function () {
+    var v = input.value.trim();
+    if (!v) { setStatus('请输入 API Key。', false); return; }
+    try { localStorage.setItem(KEY_STORAGE, v); } catch (e) { setStatus('保存失败（浏览器可能禁用了本地存储）。', false); return; }
+    input.dataset.masked = '1';
+    input.value = v.length > 12 ? v.slice(0, 6) + '••••••••' + v.slice(-4) : v;
+    setStatus('✅ Key 已保存到本地浏览器。现在可以打开右下角「🤖 AI 助手」提问，或在章节页使用 AI 学习模式。', true);
+  });
+
+  document.getElementById('clearKey').addEventListener('click', function () {
+    try { localStorage.removeItem(KEY_STORAGE); } catch (e) {}
+    input.value = '';
+    input.dataset.masked = '0';
+    setStatus('已清除 Key。', true);
+  });
+
+  document.getElementById('testKey').addEventListener('click', async function () {
+    var v = input.value.trim();
+    if (input.dataset.masked === '1') v = getKey();
+    if (!v) { setStatus('请先输入 API Key。', false); return; }
+    setStatus('正在测试连接…', true);
+    try {
+      var resp = await fetch(API_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + v },
+        body: JSON.stringify({ model: 'deepseek-chat', max_tokens: 20,
+          messages: [{ role: 'user', content: '请回复：连接成功' }] })
+      });
+      var data = {};
+      try { data = await resp.json(); } catch (e) {}
+      if (!resp.ok) {
+        var msg = (data.error && (data.error.message || data.error)) || ('HTTP ' + resp.status);
+        throw new Error(msg);
+      }
+      setStatus('✅ 连接成功！DeepSeek API 可用（' + (data.model || 'deepseek-chat') + '）。', true);
+    } catch (e) {
+      setStatus('❌ 连接失败：' + e.message + '（请检查 Key 是否正确、网络是否可用）。', false);
+    }
+  });
+  </script>
+  <script src="js/global-ai.js"></script>
+</body>
+</html>
