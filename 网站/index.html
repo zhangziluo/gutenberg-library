@@ -19,12 +19,58 @@
   </header>
 
   <main class="container">
-    <h1 class="page-title">书架</h1>
-    <p class="page-sub">请选择一部典籍开始阅读</p>
-    <div id="book-shelf" class="book-shelf"></div>
-    <div class="ai-entry"><a class="btn btn-ai" href="/reader/shiji_reader.html" target="_blank">🤖 打开 AI 古文阅读器</a></div>
-    <div id="loading" class="notice">正在加载书目…</div>
-    <div id="error" class="notice error" hidden></div>
+    <!-- 1. Hero -->
+    <section class="hero">
+      <h1 class="hero-title">用 AI 读懂繁体古籍</h1>
+      <p class="hero-sub">基于古登堡计划中文馆藏，AI 逐句解读、字词精讲、智能练习</p>
+      <div class="hero-cta">
+        <input type="text" id="hero-input" class="hero-input" placeholder="粘贴古文或古登堡链接，AI 帮你读懂">
+        <button id="start-read" class="hero-btn">开始解读</button>
+      </div>
+    </section>
+
+    <!-- 2. AI 领读 Demo（硬编码展示，不调 API） -->
+    <section class="demo">
+      <h2 class="demo-title">✨ AI 领读 Demo</h2>
+      <article class="demo-card">
+        <div class="demo-original">
+          <h3>《记承天寺夜游》· 苏轼 · 原文</h3>
+          <p>元丰六年十月十二日夜，解衣欲睡，月色入户，欣然起行。念无与为乐者，遂至承天寺寻张怀民。怀民亦未寝，相与步于中庭。庭下如积水空明，水中藻荇交横，盖竹柏影也。何夜无月？何处无竹柏？但少闲人如吾两人者耳。</p>
+        </div>
+        <div class="demo-trans">
+          <h3>白话翻译</h3>
+          <p>元丰六年十月十二日夜里，我解开衣服准备睡觉，月光照进屋里，便高兴地起身出门。想到没有和我一起游乐的人，就到承天寺去找张怀民。怀民也没有睡，我们便一起在庭院里散步。庭院中像积满清水般空明澄澈，水中水草纵横交错，原来是竹子和柏树的影子。哪一个夜晚没有月亮？哪里没有竹子和柏树？只是缺少像我们两个这样清闲的人罢了。</p>
+        </div>
+        <div class="demo-words">
+          <h3>疑难字词</h3>
+          <ul>
+            <li><b>念</b>：想到、考虑。</li>
+            <li><b>相与</b>：共同、一起。</li>
+            <li><b>闲人</b>：清闲之人，此处有自嘲兼自得的意味。</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <!-- 古文觀止 · AI 领读范本 -->
+    <section class="samples">
+      <h2 class="samples-title">📜 古文觀止 · AI 领读范本</h2>
+      <p class="samples-hint">点击任一篇，进入 AI 阅读器逐句领读</p>
+      <div class="samples-grid" id="gwz-samples"></div>
+    </section>
+
+    <!-- 3. 行动按钮 -->
+    <div class="shelf-cta">
+      <a class="btn-primary" href="#bookshelf">浏览全部典籍</a>
+    </div>
+
+    <!-- 4. 原书架（移到底部） -->
+    <section class="shelf-section" id="bookshelf">
+      <h2 class="shelf-title">或选择典籍开始阅读</h2>
+      <div id="book-shelf" class="book-shelf"></div>
+      <div id="loading" class="notice">正在加载书目…</div>
+      <div id="error" class="notice error" hidden></div>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -33,6 +79,22 @@
       <div class="footer-donate"><a href="sponsor.html">赞助</a></div>
     </div>
   </footer>
+
+  <script>
+  // 首页「开始解读」：把粘贴的文字直传给 AI 阅读器（lib_selected），回车也可触发
+  document.getElementById('start-read').addEventListener('click', function () {
+    var t = document.getElementById('hero-input').value.trim();
+    if (t) {
+      try {
+        sessionStorage.setItem('lib_selected', JSON.stringify({ title: '粘贴的文本', text: t, source: '首页粘贴', pos: '' }));
+      } catch (e) { /* 隐私模式等异常忽略 */ }
+    }
+    window.location.href = '/reader/shiji_reader.html';
+  });
+  document.getElementById('hero-input').addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') document.getElementById('start-read').click();
+  });
+  </script>
 
   <script src="js/common.js"></script>
   <script src="js/index.js"></script>

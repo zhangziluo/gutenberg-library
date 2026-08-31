@@ -597,3 +597,195 @@ body {
   border-bottom-color: var(--accent-dark);
 }
 
+/* ========== 首页 Hero ========== */
+.hero {
+  text-align: center;
+  padding: 64px 0 20px;
+}
+.hero-title {
+  font-size: 38px;
+  letter-spacing: 4px;
+  margin: 0 0 14px;
+  color: var(--ink);
+}
+.hero-sub {
+  color: var(--ink-soft);
+  font-size: 16px;
+  margin: 0 0 30px;
+  line-height: 1.8;
+}
+.hero-cta {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 620px;
+  margin: 0 auto;
+}
+.hero-input {
+  flex: 1;
+  min-width: 260px;
+  padding: 13px 16px;
+  font-size: 15px;
+  font-family: inherit;
+  color: var(--ink);
+  background: var(--paper-light);
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  outline: none;
+}
+.hero-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(158, 43, 37, 0.15);
+}
+.hero-btn {
+  padding: 13px 30px;
+  font-size: 15px;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: background 0.15s ease;
+}
+.hero-btn:hover { background: var(--accent-dark); }
+
+/* ========== 首页 AI 领读 Demo ========== */
+.demo {
+  margin: 48px auto 20px;
+  max-width: 760px;
+}
+.demo-title {
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin: 0 0 18px;
+}
+.demo-card {
+  background: var(--paper-light);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.demo-original,
+.demo-trans {
+  padding: 22px 28px;
+  border-bottom: 1px dashed var(--line);
+}
+.demo-words {
+  padding: 22px 28px;
+}
+.demo-original h3,
+.demo-trans h3,
+.demo-words h3 {
+  font-size: 14px;
+  color: var(--accent);
+  letter-spacing: 1px;
+  margin: 0 0 10px;
+}
+.demo-original p {
+  font-size: 17px;
+  line-height: 2.1;
+  text-align: justify;
+  margin: 0;
+}
+.demo-trans p {
+  font-size: 15px;
+  line-height: 2;
+  color: var(--ink-soft);
+  text-align: justify;
+  margin: 0;
+}
+.demo-words ul {
+  margin: 0;
+  padding-left: 1.3em;
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 2;
+}
+.demo-words b { color: var(--ink); }
+
+/* ========== 首页 古文觀止 · AI 领读范本 ========== */
+.samples {
+  max-width: 760px;
+  margin: 44px auto 0;
+}
+.samples-title {
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin: 0 0 18px;
+}
+.samples-hint {
+  color: var(--ink-soft);
+  font-size: 13px;
+  margin: -8px 0 14px;
+}
+.samples-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+.sample-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  background: var(--paper-light);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--ink);
+  text-align: left;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+.sample-item:hover {
+  background: #efe7d4;
+  border-color: var(--accent);
+}
+.sample-no {
+  color: var(--gold);
+  font-size: 13px;
+  flex-shrink: 0;
+}
+.sample-title {
+  font-weight: 600;
+}
+.sample-source {
+  color: var(--ink-soft);
+  font-size: 12px;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* ========== 首页 书架行动区 ========== */
+.shelf-cta {
+  text-align: center;
+  margin: 40px 0 8px;
+}
+.btn-primary {
+  display: inline-block;
+  padding: 13px 34px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+.btn-primary:hover { background: var(--accent-dark); }
+.shelf-section {
+  margin-top: 44px;
+}
+.shelf-title {
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 0 0 22px;
+  text-align: center;
+  color: var(--ink);
+}
+
