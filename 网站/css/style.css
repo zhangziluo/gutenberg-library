@@ -58,19 +58,14 @@ body {
   letter-spacing: 2px;
 }
 
-.brand-seal {
-  display: inline-block;
+.brand-icon {
   width: 34px;
   height: 34px;
-  line-height: 34px;
-  text-align: center;
-  font-size: 20px;
-  background: var(--accent);
-  color: #fdf8ec;
   border-radius: 6px;
   margin-right: 6px;
   vertical-align: middle;
-  font-family: var(--font-kai);
+  object-fit: cover;
+  background: #fff8ec;
 }
 
 .tagline {
@@ -518,29 +513,6 @@ body {
 .rs-color{ width: 34px; height: 28px; padding: 1px; border: 1px solid #ddd; border-radius: 6px; cursor: pointer; background: #fff; }
 .rs-hex{ width: 76px; padding: 4px 6px; border: 1px solid #ddd; border-radius: 6px; font-size: 12px; color: #333; }
 .rs-rgb{ width: 88px; padding: 4px 6px; border: 1px solid #ddd; border-radius: 6px; font-size: 12px; color: #333; }
-
-/* ---------- 作者手记入口（首页） ---------- */
-.writing-entry {
-  margin: 8px 0 26px;
-  text-align: center;
-}
-.btn-writing {
-  display: inline-block;
-  padding: 10px 26px;
-  font-size: 15px;
-  letter-spacing: 1px;
-  color: #fff;
-  background: #c96f2e;              /* 暖橙，与 AI 阅读器入口的朱红区分 */
-  border: 1px solid #c96f2e;
-  border-radius: 30px;
-  box-shadow: 0 3px 10px rgba(201, 111, 46, 0.28);
-  transition: background 0.15s ease, transform 0.15s ease;
-}
-.btn-writing:hover {
-  background: #a8531e;
-  color: #fff;
-  transform: translateY(-1px);
-}
 
 /* ---------- 支持作者 ---------- */
 .support {

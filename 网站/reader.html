@@ -9,7 +9,7 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html"><span class="brand-seal">書</span> 古籍文库</a>
+      <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/favicon.svg" alt="古籍文库"> 古籍文库</a>
       <span class="tagline" id="header-book"></span>
     </div>
   </header>
@@ -104,9 +104,9 @@
       }));
     } catch (e) { /* 隐私模式等异常忽略 */ }
 
-    // 相对路径：从 网站/reader.html 定位到 网站/public/reader/shiji_reader.html，
-    // 无论服务器根目录是项目根还是网站/ 都能生效
-    window.location.href = 'public/reader/shiji_reader.html';
+    // 统一跳转路径：与首页 AI 阅读器入口一致（部署后 AI 阅读器位于 /reader/ 下，
+    // 相对路径 public/reader/... 在 Cloudflare 上会 404，必须用绝对路径）
+    window.location.href = '/reader/shiji_reader.html';
   }
   </script>
 

@@ -9,7 +9,7 @@
   <style>
     /* ========== 捐助页：居中排版（移动端适配） ========== */
     .sponsor-main {
-      max-width: 560px;
+      max-width: 640px;
       margin: 0 auto;
       padding: 56px 20px 20px;
       text-align: center;
@@ -22,34 +22,130 @@
     .sponsor-main .sponsor-desc {
       color: var(--ink-soft);
       font-size: 15px;
-      margin: 0 0 30px;
+      margin: 0 0 34px;
       line-height: 1.9;
     }
-    /* 复用主站的 .support 卡片（含二维码占位样式） */
-    .sponsor-main .support {
-      margin: 0;
-      background: var(--paper-light);
-      border: 1px solid var(--line);
+
+    /* 捐款区块标题（古籍风：朱红竖线 + 衬线体） */
+    .donate-block {
+      margin: 0 0 40px;
+      text-align: center;
     }
-    .support-title {
-      font-size: 16px;
+    .donate-title {
+      display: inline-block;
+      font-size: 18px;
+      letter-spacing: 2px;
       color: var(--ink);
+      border-left: 4px solid var(--accent);
+      padding-left: 10px;
+      margin: 0 0 16px;
     }
 
-    /* 移动端：卡片内边距与二维码尺寸适当缩小 */
+    /* 爱发电：官方 leaflet iframe 嵌入（响应式宽度） */
+    .afdian-embed {
+      width: 100%;
+      max-width: 620px;
+      margin: 0 auto;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .afdian-iframe {
+      display: block;
+      width: 100%;
+      height: 420px;
+      border: 0;
+    }
+
+    /* 微信赞赏码：白底 + 四周 20px 内边距，点击查看大图 */
+    .wechat-reward {
+      display: inline-block;
+      background: #fff;
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      box-shadow: var(--shadow);
+    }
+    .reward-img {
+      display: block;
+      width: 300px;                  /* 桌面端 */
+      max-width: 100%;
+      image-rendering: crisp-edges;
+      cursor: zoom-in;
+    }
+    .reward-tip {
+      color: var(--ink-soft);
+      font-size: 12px;
+      margin: 10px 0 0;
+    }
+
+    /* 感谢名单（预留区） */
+    .thanks {
+      border-top: 1px dashed var(--line);
+      padding-top: 26px;
+      margin-top: 8px;
+    }
+    .thanks .donate-title { border-left-color: var(--gold); }
+    .thanks-empty {
+      color: var(--ink-soft);
+      font-size: 14px;
+    }
+
+    /* 大图预览（modal） */
+    .modal-mask {
+      position: fixed;
+      inset: 0;
+      background: rgba(40, 30, 15, 0.72);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+    }
+    .modal-mask.show { display: flex; }
+    .modal-box {
+      position: relative;
+      background: #fff;
+      padding: 24px;
+      border-radius: 10px;
+      box-shadow: 0 8px 30px rgba(0,0,0,.4);
+    }
+    .modal-box img {
+      display: block;
+      max-width: 88vw;
+      max-height: 82vh;
+      image-rendering: crisp-edges;
+    }
+    .modal-close {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 50%;
+      background: #eee;
+      color: #555;
+      cursor: pointer;
+      font-size: 14px;
+      line-height: 1;
+    }
+    .modal-close:hover { background: #e0c9a0; color: var(--accent-dark); }
+
+    /* 移动端：赞赏码 240px，iframe 略矮 */
     @media (max-width: 560px) {
       .sponsor-main { padding: 36px 16px 16px; }
       .sponsor-main h1 { font-size: 24px; }
-      .sponsor-main .support { padding: 20px 14px 16px; }
-      .sponsor-main .qr-slot { width: 104px; height: 104px; }
-      .sponsor-main .qr-img { width: 104px; height: 104px; }
+      .reward-img { width: 240px; }
+      .afdian-iframe { height: 380px; }
     }
   </style>
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html"><span class="brand-seal">書</span> 古籍文库</a>
+      <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/favicon.svg" alt="古籍文库"> 古籍文库</a>
       <span class="tagline">古登堡计划 · 繁体中文古籍在线阅读</span>
     </div>
   </header>
@@ -58,21 +154,33 @@
     <h1>☕ 支持作者</h1>
     <p class="sponsor-desc">如果这些内容对你有帮助，请作者喝杯茶 ☕</p>
 
-    <div class="support">
-      <p class="support-title">扫码支持（爱发电 / 微信赞赏）</p>
-      <div class="support-qr">
-        <!-- 爱发电二维码 -->
-        <div class="qr-item">
-          <div class="qr-slot"><img class="qr-img" src="assets/images/afdian-qr.png" alt="爱发电二维码"></div>
-          <div class="qr-caption">爱发电</div>
-        </div>
-        <!-- 微信赞赏码 -->
-        <div class="qr-item">
-          <div class="qr-slot"><img class="qr-img" src="assets/images/wechat-reward.png" alt="微信赞赏码"></div>
-          <div class="qr-caption">微信赞赏</div>
-        </div>
+    <!-- 爱发电：官方 leaflet iframe 嵌入（slug 替换为你的实际值） -->
+    <section class="donate-block">
+      <h2 class="donate-title">爱发电</h2>
+      <!-- 爱发电官方 leaflet 嵌入 -->
+      <div class="afdian-embed">
+        <iframe class="afdian-iframe"
+                src="https://afdian.com/leaflet/zhang409543901"
+                scrolling="no" frameborder="0" framespacing="0"
+                allowpaymentrequest="true" loading="lazy"
+                title="爱发电赞助"></iframe>
       </div>
-    </div>
+    </section>
+
+    <!-- 微信赞赏码：点击弹出大图 -->
+    <section class="donate-block">
+      <h2 class="donate-title">微信赞赏</h2>
+      <div class="wechat-reward">
+        <img class="reward-img" src="assets/images/wechat-reward.png" alt="微信赞赏码">
+      </div>
+      <p class="reward-tip">👆 点击图片可查看大图</p>
+    </section>
+
+    <!-- 感谢名单（预留区） -->
+    <section class="thanks">
+      <h2 class="donate-title">🙏 感谢名单</h2>
+      <p class="thanks-empty">感谢每一位支持者的支持，名单将在此公布。</p>
+    </section>
   </main>
 
   <footer class="site-footer">
@@ -81,5 +189,35 @@
       <div class="footer-donate"><a href="sponsor.html">赞助</a></div>
     </div>
   </footer>
+
+  <!-- 收款码大图预览 -->
+  <div class="modal-mask" id="qrModal">
+    <div class="modal-box">
+      <img id="qrModalImg" alt="收款码大图">
+      <button class="modal-close" id="qrModalClose" title="关闭">✕</button>
+    </div>
+  </div>
+
+  <script>
+  // 微信赞赏码：点击弹出大图预览；点遮罩 / ✕ / Esc 关闭
+  (function () {
+    var modal = document.getElementById('qrModal');
+    var img = document.getElementById('qrModalImg');
+    var closeBtn = document.getElementById('qrModalClose');
+    document.querySelectorAll('.reward-img').forEach(function (el) {
+      el.addEventListener('click', function () {
+        img.src = el.src;
+        modal.classList.add('show');
+      });
+    });
+    closeBtn.addEventListener('click', function () { modal.classList.remove('show'); });
+    modal.addEventListener('click', function (e) {
+      if (e.target === modal) modal.classList.remove('show');
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') modal.classList.remove('show');
+    });
+  })();
+  </script>
 </body>
 </html>
