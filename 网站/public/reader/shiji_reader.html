@@ -164,6 +164,14 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
 #chatSend{padding:6px 20px;background:#4a90d9;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:13px;white-space:nowrap}
 #chatSend:hover{background:#3a7bc8}
 #chatSend:disabled{opacity:.6;cursor:wait}
+.chat-modes{display:flex;gap:6px;margin-bottom:6px;flex-wrap:wrap}
+.chat-modes button{
+  font-size:12px;padding:4px 10px;border:1px solid #ccc;border-radius:14px;
+  background:#fff;color:#555;cursor:pointer;font-family:inherit;line-height:1.3;transition:background .15s,border-color .15s
+}
+.chat-modes button:hover{border-color:#4a90d9;color:#4a90d9}
+.chat-modes button.active{background:#4a90d9;color:#fff;border-color:#4a90d9}
+.chat-hint{font-size:12px;color:#c96f2e;padding:4px 2px;line-height:1.5}
 
 
 /* ===== 全屏态悬浮工具按钮组 ===== */
@@ -309,7 +317,14 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
       </div>
       <div class="chat-body" id="chatBody"></div>
       <div class="chat-input">
+        <!-- 问答输入模式：古文 / 翻译 / 通用（默认古文） -->
+        <div class="chat-modes" id="chatModes">
+          <button type="button" data-cmode="guwen" class="active" title="分析文言文：白话翻译 + 字词精讲">📜 古文</button>
+          <button type="button" data-cmode="translate" title="翻译：文言→白话 / 外文→中文">🈷 翻译</button>
+          <button type="button" data-cmode="general" title="通用问答：不限文体">💬 通用</button>
+        </div>
         <textarea id="chatInput" rows="2" placeholder="向 AI 提问…"></textarea>
+        <div class="chat-hint" id="chatHint" hidden></div>
         <div class="chat-actions">
           <span class="chat-status" id="chatStatus"></span>
           <button id="chatSend">发送</button>
@@ -1625,6 +1640,92 @@ function clearChat() {
   appendChatMsg('ai', '你好，我是古文学习助手 👋 可直接输入问题提问。');
 }
 
+// ===== 问答输入模式：古文 / 翻译 / 通用（默认古文） =====
+const CHAT_MODE_KEY = 'gjs:chatMode';
+const CHAT_MODES = {
+  guwen: {
+    system: '你是古文学习助手，请用简洁清晰的中文回答用户问题；涉及文言文时先给白话翻译，再解释字词要点。'
+  },
+  translate: {
+    system: '你是古籍翻译助手。把用户提供的文字翻译成现代白话/简体中文：文言文逐句翻译并连成通顺段落；外文（英、日等）译为中文。只输出译文与必要简注，不闲聊。'
+  },
+  general: {
+    system: '你是博学的中文知识助手，回答准确、条理清晰、简洁。涉及古籍时允许引原文并注明出处（书名·篇名）。'
+  }
+};
+
+let chatMode = 'guwen';
+try {
+  const saved = localStorage.getItem(CHAT_MODE_KEY);
+  if (saved === 'translate' || saved === 'general') chatMode = saved;
+} catch (e) {}
+let lastManualModeAt = 0;
+
+function updateChatModeUI() {
+  document.querySelectorAll('#chatModes button').forEach(function (b) {
+    b.classList.toggle('active', b.dataset.cmode === chatMode);
+  });
+}
+function setChatMode(m, manual) {
+  chatMode = m;
+  if (manual) lastManualModeAt = Date.now();
+  try { localStorage.setItem(CHAT_MODE_KEY, m); } catch (e) {}
+  updateChatModeUI();
+}
+document.querySelectorAll('#chatModes button').forEach(function (b) {
+  b.addEventListener('click', function () { setChatMode(b.dataset.cmode, true); });
+});
+
+// 简单文本类型检测：文言特征字 / 纯英文 / 日文假名 / 白话特征
+// 返回 'foreign'（外文）| 'classical'（文言）| 'modern'（白话）| ''（短文本/混合不判定）
+function detectTextType(text) {
+  const t = String(text || '').trim();
+  if (!t) return '';
+  const len = t.length;
+  if (len < 12) return '';                     // 短文本多为提问，不判定
+  const latin = (t.match(/[A-Za-z]/g) || []).length;
+  const kana = (t.match(/[\u3040-\u30ff\u31f0-\u31ff]/g) || []).length;
+  const classical = (t.match(/[之乎者也矣焉哉兮弗毋勿遂乃孰耳夫盍蓋其此彼曰云謂而則莫奚曷與]/g) || []).length;
+  const modern = (t.match(/[的了吗呢吧很在从把被这那是你我他啊喔哦啦]/g) || []).length;
+  if (latin / len > 0.35 || kana / len > 0.08) return 'foreign';
+  if (classical / len > 0.02) return 'classical';
+  if (len >= 20 && modern / len > 0.15) return 'modern';
+  return '';
+}
+
+let hintTimer = null;
+let autoSwitchCooldown = 0;
+function showChatHint(msg, ms) {
+  const el = $('chatHint');
+  if (!el) return;
+  el.textContent = msg;
+  el.hidden = false;
+  clearTimeout(hintTimer);
+  hintTimer = setTimeout(function () { el.hidden = true; }, ms || 4000);
+}
+// 检测到非古文（外文/白话）→ 自动切翻译模式 + 轻量提示；用户可手动切回古文
+function maybeAutoSwitch(text) {
+  if (chatMode !== 'guwen') return;
+  if (Date.now() - lastManualModeAt < 4000) return;   // 用户刚手动切换过，不抢
+  const type = detectTextType(text);
+  if (type === 'foreign' || type === 'modern') {
+    const now = Date.now();
+    if (now < autoSwitchCooldown) return;
+    setChatMode('translate', false);
+    autoSwitchCooldown = now + 6000;
+    showChatHint(type === 'foreign' ? '检测到外文，已切换为翻译模式' : '检测到非古文，已切换为翻译模式');
+  }
+}
+// 输入时防抖检测
+(function () {
+  const input = $('chatInput');
+  let timer = null;
+  input.addEventListener('input', function () {
+    clearTimeout(timer);
+    timer = setTimeout(function () { maybeAutoSwitch(input.value); }, 600);
+  });
+})();
+
 async function chatSend() {
   const input = $('chatInput');
   const q = input.value.trim();
@@ -1636,8 +1737,10 @@ async function chatSend() {
   $('chatStatus').textContent = 'AI 思考中…';
   try {
     syncStateFromDom();
+    // 发送前再检测一次（粘贴后立即发送也能生效）
+    maybeAutoSwitch(q);
     const answer = await callAIChat(
-      '你是古文学习助手，请用简洁清晰的中文回答用户问题；涉及文言文时先给白话翻译，再解释字词要点。',
+      CHAT_MODES[chatMode] ? CHAT_MODES[chatMode].system : CHAT_MODES.guwen.system,
       q,
       state.apiKey,
       aiProviderId(),
