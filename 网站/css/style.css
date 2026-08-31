@@ -248,7 +248,7 @@ body {
   transform: translateY(-1px);
 }
 
-/* AI 阅读模式悬浮按钮（右下角固定，滚动不消失） */
+/* 深度学习悬浮按钮（右下角固定，滚动不消失） */
 .btn-ai-mode {
   position: fixed;
   right: 24px;

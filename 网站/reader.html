@@ -74,13 +74,13 @@
     </div>
   </footer>
 
-  <!-- AI 阅读模式悬浮按钮（右下角固定，滚动不消失；内联样式+onclick 保证不受缓存影响） -->
+  <!-- 深度学习悬浮按钮（右下角固定，滚动不消失；内联样式+onclick 保证不受缓存影响） -->
   <button class="btn btn-ai-mode" id="ai-mode-btn" onclick="goAIMode()"
           style="position:fixed;right:24px;bottom:28px;z-index:999;"
-          title="在 AI 阅读器中学习本篇（保留当前阅读位置）">🤖 AI 阅读模式</button>
+          title="在 AI 阅读器中深度学习本篇（保留当前阅读位置）">🤖 深度学习</button>
 
   <script>
-  // AI 阅读模式：跳转 AI 阅读器并保留当前阅读位置
+  // 深度学习：跳转 AI 阅读器并保留当前阅读位置
   // 内联定义，不依赖外部 JS 加载状态/缓存；正文与锚点直接从当前 DOM 提取
   function goAIMode() {
     var titleEl = document.querySelector('.reader-title');
