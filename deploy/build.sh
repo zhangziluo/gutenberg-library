@@ -25,6 +25,10 @@ echo "==> 复制站点数据"
 mkdir -p "$DIST/文本"
 cp -R "$ROOT/文本/_site_data" "$DIST/文本/"
 
+# 2.5 图片资源（捐助页二维码等）
+echo "==> 复制图片资源"
+cp -R "$ROOT/网站/assets" "$DIST/assets"
+
 # 3. AI 阅读器 → /reader/（复制真实文件，不依赖软链接）
 echo "==> 复制 AI 阅读器"
 cp -R "$ROOT/网站/public/reader" "$DIST/reader"

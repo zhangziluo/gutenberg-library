@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>捐助 · 古籍文库</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
   <link rel="stylesheet" href="css/style.css">
   <style>
     /* ========== 捐助页：居中排版（移动端适配） ========== */
@@ -58,22 +60,17 @@
     <p class="sponsor-desc">如果这些内容对你有帮助，请作者喝杯茶 ☕</p>
 
     <div class="support">
-      <p class="support-title">扫码支持（微信 / 支付宝 / 爱发电）</p>
+      <p class="support-title">扫码支持（爱发电 / 微信赞赏）</p>
       <div class="support-qr">
-        <!-- 爱发电：截图放到 网站/images/ 后，把占位块替换为 <img class="qr-img" src="images/afdian-qr.png" alt="爱发电">（也可换成你的爱发电主页链接） -->
-        <div class="qr-slot qr-ph" title="爱发电（待上传）">
-          <span class="qr-label">爱发电</span>
-          <span class="qr-hint">待添加</span>
+        <!-- 爱发电二维码 -->
+        <div class="qr-item">
+          <div class="qr-slot"><img class="qr-img" src="assets/images/afdian-qr.png" alt="爱发电二维码"></div>
+          <div class="qr-caption">爱发电</div>
         </div>
-        <!-- 微信收款码：把占位块替换为 <img class="qr-img" src="images/wechat-qr.png" alt="微信收款码"> -->
-        <div class="qr-slot qr-ph" title="微信收款码（待上传）">
-          <span class="qr-label">微信收款码</span>
-          <span class="qr-hint">待添加</span>
-        </div>
-        <!-- 支付宝收款码：把占位块替换为 <img class="qr-img" src="images/alipay-qr.png" alt="支付宝收款码"> -->
-        <div class="qr-slot qr-ph" title="支付宝收款码（待上传）">
-          <span class="qr-label">支付宝收款码</span>
-          <span class="qr-hint">待添加</span>
+        <!-- 微信赞赏码 -->
+        <div class="qr-item">
+          <div class="qr-slot"><img class="qr-img" src="assets/images/wechat-reward.png" alt="微信赞赏码"></div>
+          <div class="qr-caption">微信赞赏</div>
         </div>
       </div>
     </div>
@@ -81,8 +78,8 @@
 
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-donate"><a href="sponsor.html">捐助</a></div>
       <div class="footer-note">文本来源：Project Gutenberg 古登堡计划 · 内容仅供学习研究使用</div>
+      <div class="footer-donate"><a href="sponsor.html">赞助</a></div>
     </div>
   </footer>
 </body>
