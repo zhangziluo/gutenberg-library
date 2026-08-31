@@ -1275,6 +1275,75 @@ body {
 .gai-foot a:hover { color: var(--accent); }
 #gai-clear { margin-left: auto; border: none; background: none; color: var(--ink-soft); font-size: 12px; cursor: pointer; font-family: inherit; }
 
+/* ---------- 阅读页划词：精确高亮 + 解释/操作浮窗 ---------- */
+.sel-layer { position: absolute; left: 0; top: 0; pointer-events: none; z-index: 50; }
+.sel-mark {
+  position: fixed;
+  background: rgba(255, 230, 0, 0.3);
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.sel-popup {
+  position: fixed;
+  z-index: 12000;
+  width: 300px;
+  max-width: calc(100vw - 24px);
+  background: #fffdf6;
+  border: 1px solid #e3cfa6;
+  border-radius: 10px;
+  box-shadow: 0 6px 24px rgba(60, 45, 20, 0.22);
+  padding: 10px 12px;
+  font-size: 13px;
+  animation: selFadeIn 0.2s ease;
+}
+@keyframes selFadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.sel-popup-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+.sel-popup-title { font-size: 12px; color: #8a6d2f; font-weight: 600; letter-spacing: 1px; }
+.sel-popup-close {
+  border: none; background: transparent; color: #8a6d2f; font-size: 16px;
+  cursor: pointer; line-height: 1; padding: 0 2px;
+}
+.sel-popup-close:hover { color: #c0392b; }
+.sel-popup-text {
+  max-height: 96px; overflow-y: auto; color: #4a3620; line-height: 1.7;
+  white-space: pre-wrap; word-break: break-word;
+}
+.sel-popup-actions { display: flex; gap: 8px; margin-top: 8px; }
+.sel-popup-btn {
+  flex: 1; padding: 6px 0; font-size: 13px; border: 1px solid #d9b98c;
+  background: #fff; color: #6d5320; border-radius: 6px; cursor: pointer; font-family: inherit;
+}
+.sel-popup-btn:hover { background: #f5e9d2; }
+.sel-popup-btn-ai { background: var(--accent); border-color: var(--accent); color: #fff; }
+.sel-popup-btn-ai:hover { background: var(--accent-dark); }
+
+.sel-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 11000;
+  display: none;
+}
+@media (max-width: 600px) {
+  .sel-popup {
+    position: fixed;
+    left: 0; right: 0; bottom: 0; top: auto;
+    width: auto; max-width: none;
+    border-radius: 12px 12px 0 0;
+    border-bottom: none;
+    animation: selSheetUp 0.2s ease;
+  }
+}
+@keyframes selSheetUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
 /* ---------- AI 设置 / AI 新手指南 页 ---------- */
 .settings-wrap, .guide-wrap { max-width: 720px; }
 .settings-title, .guide-title { font-size: 28px; text-align: center; letter-spacing: 3px; margin: 26px 0 6px; }
