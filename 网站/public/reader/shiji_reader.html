@@ -28,7 +28,7 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
 #examBtn:hover{background:#732d91}
 #status{font-size:11px;color:#999;margin-top:8px}
 #reader{grid-area:reader;overflow-y:auto;padding:32px;background:var(--reading-bg,#f5ead0)}
-:root{--line-height:1.75;--bg:#f5ead0;--accent:#4a90d9;--reading-font-size:17px;--reading-bg:#f5ead0;--reading-text-color:#3a3226}
+:root{--line-height:1.75;--bg:#f5ead0;--accent:#4a90d9;--reading-font-size:17px;--reading-bg:#f5ead0;--reading-text-color:#3a3226;--assist-h:320px}
 #readerContent{max-width:720px;margin:0 auto;line-height:var(--line-height);font-size:var(--reading-font-size,17px);color:var(--reading-text-color,#3a3226)}
 #readerContent .sentence{display:block;position:relative;line-height:var(--line-height);cursor:pointer;padding:2px 4px;border-radius:3px;transition:background .2s}
 #readerContent .sentence.para-start{margin-top:1.2em}
@@ -37,8 +37,11 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
 #readerContent .sentence .inline-trans .trans-bai{display:block;color:var(--reading-text-color)}
 #readerContent .sentence .inline-trans .trans-notes{display:block;color:var(--reading-text-color);opacity:.72;margin-top:2px}
 #readerContent .sentence.active .inline-trans{display:block}
-/* 底部 AI 助手固定常驻：文字大小/背景/字色与阅读区共用同一套 CSS 变量 */
-#assistant{grid-area:assistant;height:320px;background:var(--reading-bg,#fafafa);color:var(--reading-text-color,#333);font-size:var(--reading-font-size,14px);border-top:1px solid rgba(0,0,0,.15);padding:10px 16px 0;display:flex;flex-direction:column;overflow:hidden}
+/* 底部 AI 助手固定常驻：文字大小/背景/字色与阅读区共用同一套 CSS 变量；高度可拖拽调整 */
+#assistant{grid-area:assistant;position:relative;height:var(--assist-h,320px);background:var(--reading-bg,#fafafa);color:var(--reading-text-color,#333);font-size:var(--reading-font-size,14px);border-top:1px solid rgba(0,0,0,.15);padding:10px 16px 0;display:flex;flex-direction:column;overflow:hidden}
+/* 顶部拖拽调整高度条（桌面端） */
+.assist-resize{position:absolute;top:0;left:0;right:0;height:10px;cursor:ns-resize;z-index:5}
+.assist-resize:hover{background:rgba(74,144,217,.25)}
 #assistant .assistant-scroll{font-size:var(--reading-font-size,14px)}
 #assistant .trans-card{background:rgba(255,255,255,.32);border-color:rgba(0,0,0,.14);color:var(--reading-text-color)}
 #assistant .trans-card .orig,#assistant .trans-card .tran{color:var(--reading-text-color)}
@@ -117,15 +120,16 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
 .drawer-close{flex-shrink:0;width:28px;height:28px;background:#f0f0f0;border:1px solid #ddd;border-radius:6px;cursor:pointer;font-size:13px;color:#666;line-height:1}
 .drawer-close:hover{background:#e3e3e3;color:#333}
 
-.reader-toolbar{position:sticky;top:0;display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;padding:8px;background:rgba(255,255,255,.96);border:1px solid #eee;border-radius:8px;z-index:20}
-/* 阅读设置汉堡按钮（仅移动端显示） */
-.settings-toggle{display:none;position:fixed;top:10px;right:14px;z-index:30;width:44px;height:44px;align-items:center;justify-content:center;background:rgba(255,255,255,.96);border:1px solid #ddd;border-radius:8px;cursor:pointer;font-size:18px;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+.reader-toolbar{position:sticky;top:0;display:flex;gap:8px;flex-wrap:wrap;margin-bottom:0;padding:0 8px;background:rgba(255,255,255,.96);border:1px solid #eee;border-radius:8px;z-index:20;max-height:0;overflow:hidden;opacity:0;pointer-events:none;transition:max-height .3s ease,opacity .3s ease,padding .3s ease,margin-bottom .3s ease}
+.reader-toolbar.show{max-height:360px;opacity:1;pointer-events:auto;padding:8px;margin-bottom:14px}
+/* 阅读设置汉堡按钮（桌面 / 移动通用） */
+.settings-toggle{position:fixed;top:10px;right:14px;z-index:30;width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.96);border:1px solid #ddd;border-radius:8px;cursor:pointer;font-size:18px;box-shadow:0 2px 8px rgba(0,0,0,.12)}
 .tb-btn{padding:6px 14px;background:#fff;color:#4a90d9;border:1px solid #4a90d9;border-radius:6px;cursor:pointer;font-size:13px}
 .tb-btn:hover{background:#4a90d9;color:#fff}
 .tb-full{color:#e67e22;border-color:#e67e22}
 .tb-full:hover{background:#e67e22;color:#fff}
 
-.edge-zone{position:fixed;top:0;height:calc(100vh - 320px);width:26px;display:none;align-items:center;justify-content:center;cursor:pointer;font-size:13px;color:#4a90d9;background:rgba(74,144,217,.12);z-index:80;transition:background .2s}
+.edge-zone{position:fixed;top:0;height:calc(100vh - var(--assist-h,320px));width:26px;display:none;align-items:center;justify-content:center;cursor:pointer;font-size:13px;color:#4a90d9;background:rgba(74,144,217,.12);z-index:80;transition:background .2s}
 .edge-zone:hover{background:rgba(74,144,217,.32)}
 .edge-zone.show{display:flex}
 .edge-left{left:0;border-right:1px solid rgba(74,144,217,.25);border-radius:0 8px 8px 0}
@@ -145,7 +149,7 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
 .rs-range{width:120px;accent-color:#4a90d9;cursor:pointer;vertical-align:middle}
 
 /* ===== 右侧抽屉：内容滚动区 + 底部对话窗口 ===== */
-.assistant-scroll{flex:1;overflow-y:auto;padding-bottom:12px}
+.assistant-scroll{flex:1;min-height:0;overflow-y:auto;padding-bottom:12px}
 .chat-panel{flex-shrink:0;margin:0 -16px;padding:10px 12px 8px;border-top:1px solid #e0e0e0;background:#fff}
 .chat-head{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:#555;font-weight:bold;margin-bottom:6px}
 .chat-clear{background:transparent;border:none;color:#999;cursor:pointer;font-size:11px;font-weight:normal;padding:2px 4px;border-radius:4px}
@@ -172,9 +176,9 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
 
 /* ===== 移动端适配：自定义栏收起 + 汉堡按钮 + 触控尺寸 + iOS 防缩放 ===== */
 @media (max-width: 767px) {
-  .settings-toggle{display:flex}
-  .reader-toolbar{max-height:0;overflow:hidden;opacity:0;pointer-events:none;padding:0 8px;margin-bottom:0;transition:max-height .3s ease,opacity .3s ease,padding .3s ease,margin-bottom .3s ease}
-  .reader-toolbar.show{max-height:360px;opacity:1;pointer-events:auto;padding:8px;margin-bottom:14px}
+  #assistant{height:min(45vh,380px)}
+  .edge-zone{height:calc(100vh - min(45vh,380px))}
+  .assist-resize{display:none}
   .rs-range{width:110px}
   .chat-input textarea,.config-row input,.config-row select{font-size:16px}
   .file-btn,#genCardBtn,#examBtn,#exportPdfBtn,#chatSend,.tb-btn,.mode-bar button,.preset-btn{min-height:44px}
@@ -255,6 +259,7 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
     <div class="reader-toolbar">
       <button id="toggleSidebar" class="tb-btn" title="展开/收起侧栏">☰ 侧栏</button>
       <button id="toggleFullscreen" class="tb-btn tb-full" title="全屏阅读（收起侧栏）/ 还原布局">⤢ 全屏阅读</button>
+      <button class="tb-btn" id="copyFullText" title="一键复制全文">📋 复制全文</button>
 
       <!-- 阅读设置：文字大小 / 行宽 / 背景（阅读区与 AI 辅助栏统一） -->
       <div class="reading-settings">
@@ -280,6 +285,7 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
     <div id="readerContent"><p style="color:#999;text-align:center;margin-top:100px">请导入 TXT 或打开"在线文库"选一篇古籍</p></div>
   </div>
   <div id="assistant">
+    <div class="assist-resize" id="assistResize" title="拖动调整高度"></div>
     <div class="drawer-head">
       <h3>🤖 AI 辅助 <span id="assistMode"></span></h3>
     </div>
@@ -303,7 +309,7 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
       </div>
       <div class="chat-body" id="chatBody"></div>
       <div class="chat-input">
-        <textarea id="chatInput" rows="2" placeholder="向 AI 提问；在正文选中文字会自动带入…"></textarea>
+        <textarea id="chatInput" rows="2" placeholder="向 AI 提问…"></textarea>
         <div class="chat-actions">
           <span class="chat-status" id="chatStatus"></span>
           <button id="chatSend">发送</button>
@@ -499,21 +505,44 @@ function loadTxt(text, filename) {
 }
 
 function bindSentenceEvents() {
+  const isTouch = ('ontouchstart' in window) || navigator.maxTouchPoints > 0;
   state.sentences.forEach((s, i) => {
-    // 悬停感知：悬停满 HOVER_TIMEOUT 后按需翻译
-    s.elem.addEventListener('mouseenter', () => {
-      state.currentIdx = i;
-      clearTimeout(hoverTimer);
-      clearTimeout(s.hideTimer); // 重新进入：取消即将执行的关闭
-      hoverTimer = setTimeout(() => requestTranslation(i), CONFIG.HOVER_TIMEOUT);
-    });
-    // 鼠标移开：500ms 内关闭翻译框（若重新进入则取消关闭）
-    s.elem.addEventListener('mouseleave', () => {
-      clearTimeout(hoverTimer);
-      clearTimeout(s.hideTimer);
-      s.hideTimer = setTimeout(() => hideTranslation(i), 500);
-    });
+    if (isTouch) {
+      // 移动端：点按句子才展开/收起翻译，不随机弹出
+      s.elem.addEventListener('click', function (e) {
+        e.stopPropagation();
+        state.currentIdx = i;
+        if (s.elem.classList.contains('active')) {
+          hideTranslation(i);
+        } else {
+          state.sentences.forEach(function (o, j) { if (j !== i) hideTranslation(j); });
+          requestTranslation(i);
+        }
+      });
+    } else {
+      // 悬停感知：悬停满 HOVER_TIMEOUT 后按需翻译
+      s.elem.addEventListener('mouseenter', () => {
+        state.currentIdx = i;
+        clearTimeout(hoverTimer);
+        clearTimeout(s.hideTimer); // 重新进入：取消即将执行的关闭
+        hoverTimer = setTimeout(() => requestTranslation(i), CONFIG.HOVER_TIMEOUT);
+      });
+      // 鼠标移开：500ms 内关闭翻译框（若重新进入则取消关闭）
+      s.elem.addEventListener('mouseleave', () => {
+        clearTimeout(hoverTimer);
+        clearTimeout(s.hideTimer);
+        s.hideTimer = setTimeout(() => hideTranslation(i), 500);
+      });
+    }
   });
+  // 移动端：点按句子以外的区域关闭所有翻译
+  if (isTouch) {
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest || !e.target.closest('.sentence')) {
+        state.sentences.forEach(function (o, j) { hideTranslation(j); });
+      }
+    });
+  }
 }
 
 // 从古籍文库章节页跳转时，按段落文本锚点恢复阅读位置（定位到对应句子并居中滚动）
@@ -548,6 +577,7 @@ function restorePosition(anchor) {
 function onReaderScroll() {
   clearTimeout(idleTimer);
   idleTimer = setTimeout(() => {
+    if (('ontouchstart' in window) || navigator.maxTouchPoints > 0) return; // 移动端：不自动弹翻译
     const readerEl = $('reader');
     const rc = readerEl.getBoundingClientRect();
     const center = rc.top + rc.height / 2;
@@ -1592,7 +1622,7 @@ function clearChat() {
   chatHistory = [];
   saveChat();
   $('chatBody').innerHTML = '';
-  appendChatMsg('ai', '你好，我是古文学习助手 👋 在正文选中文字会自动带入这里，或直接输入问题。');
+  appendChatMsg('ai', '你好，我是古文学习助手 👋 可直接输入问题提问。');
 }
 
 async function chatSend() {
@@ -1631,9 +1661,11 @@ $('chatInput').addEventListener('keydown', function (e) {
   }
 });
 
-// 正文选中文字 → 自动带入问答输入框（默认行为）
+// 正文选中文字 → 自动带入问答输入框（仅桌面端；移动端默认关闭，避免手指误触复制）
 (function () {
   const rc = $('readerContent');
+  if (!rc) return;
+  if (('ontouchstart' in window) || navigator.maxTouchPoints > 0) return;
   function fillFromSelection() {
     const sel = window.getSelection();
     const txt = sel ? sel.toString().trim() : '';
@@ -1655,20 +1687,84 @@ $('chatInput').addEventListener('keydown', function (e) {
     });
     body.scrollTop = body.scrollHeight;
   } else {
-    appendChatMsg('ai', '你好，我是古文学习助手 👋 在正文选中文字会自动带入这里，或直接输入问题。');
+    appendChatMsg('ai', '你好，我是古文学习助手 👋 可直接输入问题提问。');
   }
 })();
 
 </script>
 
 <script>
-// 阅读设置栏：桌面端默认展开；移动端默认收起，点右上角 ⚙ 汉堡按钮展开/收起
+// 阅读设置栏：桌面端默认展开、移动端默认收起；右上角 ⚙ 汉堡按钮均可展开/收起
 (function () {
   var toolbar = document.querySelector('.reader-toolbar');
   var toggle = document.getElementById('settingsToggle');
   if (!toolbar || !toggle) return;
+  if (window.innerWidth >= 768) toolbar.classList.add('show'); // 桌面端默认展开
   toggle.addEventListener('click', function () {
     toolbar.classList.toggle('show');
+  });
+})();
+
+// 底部 AI 辅助栏：桌面端拖动顶部调整高度（写入 CSS 变量，边缘呼出条同步）
+(function () {
+  var assist = document.getElementById('assistant');
+  var handle = document.getElementById('assistResize');
+  if (!assist || !handle) return;
+  var dragging = false, startY = 0, startH = 0;
+  handle.addEventListener('mousedown', function (e) {
+    dragging = true;
+    startY = e.clientY;
+    startH = assist.offsetHeight;
+    e.preventDefault();
+    document.body.style.cursor = 'ns-resize';
+  });
+  document.addEventListener('mousemove', function (e) {
+    if (!dragging) return;
+    var h = startH - (e.clientY - startY); // 上拉增大
+    h = Math.max(140, Math.min(window.innerHeight - 90, h));
+    document.documentElement.style.setProperty('--assist-h', h + 'px');
+  });
+  document.addEventListener('mouseup', function () {
+    if (!dragging) return;
+    dragging = false;
+    document.body.style.cursor = '';
+  });
+})();
+
+// 一键复制全文（AI 阅读器）：拼接 #readerContent 句子原文（剔除内嵌翻译）
+(function () {
+  var btn = document.getElementById('copyFullText');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    var container = document.getElementById('readerContent');
+    var sentences = Array.prototype.slice.call(container.querySelectorAll('.sentence'));
+    var text = sentences.map(function (s) {
+      var clone = s.cloneNode(true);
+      var tr = clone.querySelector('.inline-trans');
+      if (tr) tr.remove();
+      return clone.textContent.trim();
+    }).filter(Boolean).join('\n');
+    if (!text) return alert('暂无正文可复制');
+    function fallbackCopy() {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+    }
+    function done() {
+      var old = btn.textContent;
+      btn.textContent = '✅ 已复制';
+      setTimeout(function () { btn.textContent = old; }, 1500);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(function () {
+        try { fallbackCopy(); done(); } catch (e) { alert('复制失败'); }
+      });
+    } else {
+      try { fallbackCopy(); done(); } catch (e) { alert('复制失败'); }
+    }
   });
 })();
 </script>

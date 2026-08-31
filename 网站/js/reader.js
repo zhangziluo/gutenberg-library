@@ -188,6 +188,31 @@ const POS_PREFIX = 'gjs:pos:';
     downloadText(filename, text);
   });
 
+  // ---- 一键复制全文 ----
+  document.getElementById('copy-text').addEventListener('click', async () => {
+    const text = (sec.title || '') + '\n\n' + (sec.paragraphs || []).join('\n\n');
+    const btn = document.getElementById('copy-text');
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(text);
+      } else {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+      }
+      const old = btn.textContent;
+      btn.textContent = '✅ 已复制';
+      setTimeout(() => { btn.textContent = old; }, 1500);
+    } catch (e) {
+      alert('复制失败：' + e.message);
+    }
+  });
+
   // （AI 阅读模式已由 reader.html 内联 goAIMode() + onclick 处理，此处不再重复绑定）
 
   window.scrollTo(0, 0);
