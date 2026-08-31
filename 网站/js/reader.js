@@ -59,6 +59,13 @@ const POS_PREFIX = 'gjs:pos:';
   const paras = (sec.paragraphs || []).map(p =>
     `<p>${esc(p)}</p>`).join('') || '<p>（本篇无正文）</p>';
 
+  // 独立注释层：史記【索隱述贊】等卷末注，单独成块展示
+  const notesHtml = (sec.notes && sec.notes.length) ? `
+    <div class="reader-notes">
+      <div class="reader-notes-title">〖索隱述贊〗卷末注疏 · 唐·司馬貞《史記索隱》</div>
+      ${sec.notes.map(n => `<p>${esc(n.replace(/^【索隱述贊】\s*/, ''))}</p>`).join('')}
+    </div>` : '';
+
   reader.innerHTML = `
     <div class="reader-head">
       <span class="reader-cat cat-tag cat-${catStyle(sec.category_label)}">${esc(sec.category_label || '未分类')}</span>
@@ -70,7 +77,8 @@ const POS_PREFIX = 'gjs:pos:';
         ${sec.para_count != null ? sec.para_count + ' 段' : ''}
       </div>
     </div>
-    <div class="reader-body" id="reader-body">${paras}</div>`;
+    <div class="reader-body" id="reader-body">${paras}</div>
+    ${notesHtml}`;
 
   // ---- 上一篇 / 下一篇 ----
   const prevBtn = document.getElementById('prev-btn');

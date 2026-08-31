@@ -105,7 +105,8 @@ def _extract_num(title, cat_list):
 
 
 def split_paragraphs(text):
-    """按空行分段；连续非空行合并为一个段落。"""
+    """按空行分段；连续非空行合并为一个段落。
+    返回 (main, notes)：以『【索隱述贊】』开头的段落到 notes（独立注释层，阅读页单独展示）。"""
     paragraphs = []
     current = []
     for line in text.split("\n"):
@@ -118,7 +119,10 @@ def split_paragraphs(text):
             current.append(s)
     if current:
         paragraphs.append("".join(current))
-    return [p for p in paragraphs if len(p) > 1]
+    paragraphs = [p for p in paragraphs if len(p) > 1]
+    notes = [p for p in paragraphs if p.startswith("【索隱述贊】")]
+    main = [p for p in paragraphs if not p.startswith("【索隱述贊】")]
+    return main, notes
 
 
 def process_book(book_name, config):
@@ -141,7 +145,7 @@ def process_book(book_name, config):
         cat_id = config["cat_ids"].get(cat_label) if cat_label else None
         num = config["num_from_title"](title)
 
-        paragraphs = split_paragraphs(content)
+        paragraphs, notes = split_paragraphs(content)
         sections.append({
             "book": book_name,
             "title": title,
@@ -149,6 +153,7 @@ def process_book(book_name, config):
             "category_label": cat_label,
             "number": num,
             "paragraphs": paragraphs,
+            "notes": notes,
             "char_count": sum(len(p) for p in paragraphs),
             "para_count": len(paragraphs),
         })

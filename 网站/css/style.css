@@ -435,6 +435,30 @@ body {
   text-indent: 2em;
 }
 
+/* 独立注释层：卷末注（如史記索隱述贊），与正文明显区分 */
+.reader-notes {
+  margin-top: 30px;
+  padding: 16px 18px;
+  border: 1px dashed var(--line);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.025);
+  color: var(--ink-soft);
+}
+
+.reader-notes-title {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--gold);
+  margin-bottom: 10px;
+}
+
+.reader-notes p {
+  margin: 0 0 10px;
+  text-align: justify;
+  line-height: 1.9;
+}
+
 .reader-nav {
   display: flex;
   justify-content: space-between;
