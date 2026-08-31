@@ -990,27 +990,6 @@ body {
 .cat-shi { background: #e5e8f0; color: #3c5673; }
 .cat-zi  { background: #e7e0ef; color: #5b3d86; }
 
-/* ---------- 阅读页：选中文字 → AI 解读 ---------- */
-.btn-sel-ai {
-  position: fixed;
-  padding: 8px 16px;
-  font-size: 14px;
-  letter-spacing: 1px;
-  color: #fff;
-  background: var(--accent);
-  border: 1px solid var(--accent);
-  border-radius: 24px;
-  box-shadow: 0 4px 14px rgba(158, 43, 37, 0.35);
-  cursor: pointer;
-  font-family: inherit;
-  transition: background 0.15s ease, transform 0.15s ease;
-}
-
-.btn-sel-ai:hover {
-  background: var(--accent-dark);
-  transform: translateY(-1px);
-}
-
 /* ---------- 书库 · 经史子集 独立页（library.html） ---------- */
 .lib-wrap { max-width: 960px; }
 

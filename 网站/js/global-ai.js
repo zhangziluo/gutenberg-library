@@ -215,6 +215,16 @@
     if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); }
   });
 
+  // 公开 API：阅读页选中文字时直接打开面板并预填输入框（可继续编辑或直接发送）
+  window.GAI = {
+    openWithText: function (text) {
+      if (text) textEl.value = text;
+      openPanel();
+      try { textEl.setSelectionRange(textEl.value.length, textEl.value.length); } catch (e) { /* 忽略 */ }
+      textEl.focus();
+    }
+  };
+
   showCtx();
 })();
 
