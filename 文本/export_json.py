@@ -104,6 +104,63 @@ def _extract_num(title, cat_list):
     return None
 
 
+# ---------------------------------------------------------------
+# 每书缺失篇目（仅标注，不补录）
+#   category 用本书分类；number 为通行本卷序；title 为篇名
+# ---------------------------------------------------------------
+MISSING = {
+    "史記": [
+        {"category": "本紀", "number": 9, "title": "呂太后本紀"},
+        {"category": "表", "number": 6, "title": "高祖功臣侯者年表"},
+        {"category": "列傳", "number": 26, "title": "刺客列傳"},
+    ],
+    "漢書": [
+        {"category": "傳", "number": 10, "title": "張陳王周傳"},
+    ],
+    "三國志": [
+        # 魏書 卷 11–30
+        {"category": "魏書", "number": 11, "title": "袁張涼國田王邴管傳"},
+        {"category": "魏書", "number": 12, "title": "崔毛徐何邢鮑司馬傳"},
+        {"category": "魏書", "number": 13, "title": "鍾繇華歆王朗傳"},
+        {"category": "魏書", "number": 14, "title": "程郭董劉蔣劉傳"},
+        {"category": "魏書", "number": 15, "title": "劉司馬梁張溫賈傳"},
+        {"category": "魏書", "number": 16, "title": "任蘇杜鄭倉傳"},
+        {"category": "魏書", "number": 17, "title": "張樂于張徐傳"},
+        {"category": "魏書", "number": 18, "title": "二李臧文呂許典二龐閻傳"},
+        {"category": "魏書", "number": 19, "title": "任城陳蕭王傳"},
+        {"category": "魏書", "number": 20, "title": "武文世王公傳"},
+        {"category": "魏書", "number": 21, "title": "王衛二劉傅傳"},
+        {"category": "魏書", "number": 22, "title": "桓二陳徐衛盧傳"},
+        {"category": "魏書", "number": 23, "title": "和常楊杜趙裴傳"},
+        {"category": "魏書", "number": 24, "title": "韓崔高孫王傳"},
+        {"category": "魏書", "number": 25, "title": "辛毗楊阜高堂隆傳"},
+        {"category": "魏書", "number": 26, "title": "滿田牽郭傳"},
+        {"category": "魏書", "number": 27, "title": "徐胡二王傳"},
+        {"category": "魏書", "number": 28, "title": "王毌丘諸葛鄧鍾傳"},
+        {"category": "魏書", "number": 29, "title": "方技傳"},
+        {"category": "魏書", "number": 30, "title": "烏丸鮮卑東夷傳"},
+        # 蜀書 卷 31–45（全書未收录）
+        {"category": "蜀書", "number": 31, "title": "劉二牧傳"},
+        {"category": "蜀書", "number": 32, "title": "先主傳"},
+        {"category": "蜀書", "number": 33, "title": "後主傳"},
+        {"category": "蜀書", "number": 34, "title": "二主妃子傳"},
+        {"category": "蜀書", "number": 35, "title": "諸葛亮傳"},
+        {"category": "蜀書", "number": 36, "title": "關張馬黃趙傳"},
+        {"category": "蜀書", "number": 37, "title": "龐統法正傳"},
+        {"category": "蜀書", "number": 38, "title": "許麋孫簡伊秦傳"},
+        {"category": "蜀書", "number": 39, "title": "董劉馬陳董呂傳"},
+        {"category": "蜀書", "number": 40, "title": "劉彭廖李劉魏楊傳"},
+        {"category": "蜀書", "number": 41, "title": "霍王向張楊費傳"},
+        {"category": "蜀書", "number": 42, "title": "杜周杜許孟來尹李譙郤傳"},
+        {"category": "蜀書", "number": 43, "title": "黃李呂馬王張傳"},
+        {"category": "蜀書", "number": 44, "title": "蔣琬費禕姜維傳"},
+        {"category": "蜀書", "number": 45, "title": "鄧張宗楊傳"},
+        # 吳書 卷 47
+        {"category": "吳書", "number": 47, "title": "吳主傳"},
+    ],
+}
+
+
 def split_paragraphs(text):
     """按空行分段；连续非空行合并为一个段落。
     返回 (main, notes)：以『【索隱述贊】』开头的段落到 notes（独立注释层，阅读页单独展示）。"""
@@ -218,6 +275,7 @@ def main():
             "section_count": len(sections),
             "categories": config["cat_order"],
             "sections": sections,
+            "missing": MISSING.get(book_name, []),
         }
 
     # ---- 输出 ----

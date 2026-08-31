@@ -6498,5 +6498,22 @@
       "char_count": 10342,
       "para_count": 95
     }
+  ],
+  "missing": [
+    {
+      "category": "本紀",
+      "number": 9,
+      "title": "呂太后本紀"
+    },
+    {
+      "category": "表",
+      "number": 6,
+      "title": "高祖功臣侯者年表"
+    },
+    {
+      "category": "列傳",
+      "number": 26,
+      "title": "刺客列傳"
+    }
   ]
 }

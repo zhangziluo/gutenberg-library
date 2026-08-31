@@ -296,6 +296,61 @@ body {
   background: #fbeee8;
 }
 
+/* ---------- 版本缺篇标注 ---------- */
+.missing-notice {
+  margin: 18px 0 26px;
+  padding: 16px 20px;
+  border: 1px solid #e3c9a6;
+  border-left: 4px solid #c89b3c;
+  border-radius: 8px;
+  background: #fbf6ea;
+  color: var(--ink);
+  font-size: 14px;
+}
+
+.missing-title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #8a6d2f;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.missing-body {
+  color: var(--ink-soft);
+  margin-bottom: 10px;
+  line-height: 1.8;
+}
+
+.missing-group,
+.missing-notice details {
+  margin: 6px 0;
+  line-height: 1.9;
+}
+
+.missing-cat {
+  display: inline-block;
+  padding: 0 8px;
+  margin-right: 6px;
+  font-size: 12px;
+  border-radius: 10px;
+  background: #e8dcbe;
+  color: #6d5320;
+  font-weight: 600;
+}
+
+.missing-notice summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #6d5320;
+}
+
+.missing-titles {
+  color: var(--ink-soft);
+  font-size: 13px;
+  margin-left: 6px;
+}
+
 
 
 /* ---------- 书目页 ---------- */
