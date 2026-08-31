@@ -422,7 +422,12 @@ body {
   text-decoration: none;
 
 /* ---------- 阅读器 ---------- */
-.reader-wrap { max-width: 760px; }
+.reader-wrap {
+  /* 电脑端阅读区宽度：clamp 自适应，居中显示；大屏最宽 1200px，避免一行过长或挤成一条 */
+  width: clamp(600px, 70vw, 1200px);
+  max-width: 100%;
+  margin: 0 auto;
+}
 
 .reader-topbar {
   display: flex;
@@ -488,6 +493,7 @@ body {
   margin: 0 0 12px;
   text-align: justify;
   text-indent: 2em;
+  line-height: 1.85;
 }
 
 /* 独立注释层：卷末注（如史記索隱述贊），与正文明显区分 */
