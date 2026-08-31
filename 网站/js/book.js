@@ -66,7 +66,7 @@
             ${s.number != null
               ? `<span class="section-num">第${cnNum(s.number)}</span>`
               : '<span class="section-num"></span>'}
-            <span>${esc(s.title)}</span>
+            <span>${esc(s.title)}${s.source ? `<span class="section-source"> · ${esc(s.source)}</span>` : ''}</span>
           </a>
         </li>`).join('');
 

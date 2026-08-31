@@ -64,6 +64,7 @@ const POS_PREFIX = 'gjs:pos:';
       <span class="reader-cat cat-tag cat-${catStyle(sec.category_label)}">${esc(sec.category_label || '未分类')}</span>
       <h2 class="reader-title">${esc(sec.title)}</h2>
       <div class="reader-meta">
+        ${sec.source ? esc(sec.source) + ' · ' : ''}
         ${sec.number != null ? ordinal(sec.number) + ' · ' : ''}
         ${sec.char_count != null ? '约 ' + sec.char_count.toLocaleString() + ' 字 · ' : ''}
         ${sec.para_count != null ? sec.para_count + ' 段' : ''}

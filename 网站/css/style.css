@@ -472,6 +472,13 @@ body {
   flex-shrink: 0;
 }
 
+.section-source {
+  color: var(--ink-soft);
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 2px;
+}
+
 /* ---------- 阅读设置：字体 / 配色 / 背景字色（与 AI 阅读器共用） ---------- */
 .reading-settings{
   display: flex;
