@@ -69,13 +69,17 @@
         '<button type="button" data-mode="recommend" class="gai-mode">📚 书籍推荐</button>' +
       '</div>' +
       '<div class="gai-msgs" id="gai-msgs"></div>' +
+      '<div class="gai-tip" id="gai-tip" hidden>' +
+        '<span class="gai-tip-icon">💡</span>' +
+        '<span class="gai-tip-text">您尚未设置 API key，请点击 <a href="/ai-guide.html">新手指南</a> 链接指导您申请</span>' +
+      '</div>' +
       '<div class="gai-input">' +
         '<textarea id="gai-text" rows="2" placeholder="问点什么…（Enter 发送，Shift+Enter 换行）"></textarea>' +
         '<button type="button" id="gai-send">发送</button>' +
       '</div>' +
       '<div class="gai-foot">' +
-        '<a href="ai-settings.html">⚙ AI 设置</a>' +
-        '<a href="ai-guide.html">📖 AI 新手指南</a>' +
+        '<a href="/ai-settings.html">⚙ AI 设置</a>' +
+        '<a href="/ai-guide.html">📖 AI 新手指南</a>' +
         '<button type="button" id="gai-clear">清空对话</button>' +
       '</div>' +
     '</div>';
@@ -89,6 +93,7 @@
   var textEl = document.getElementById('gai-text');
   var sendBtn = document.getElementById('gai-send');
   var clearBtn = document.getElementById('gai-clear');
+  var tipEl = document.getElementById('gai-tip');
 
   var mode = 'chat';
   var history = [];          // {role, content}
@@ -152,7 +157,25 @@
     textEl.focus();
   }
 
-  function closePanel() { open = false; panel.hidden = true; }
+  function closePanel() { open = false; panel.hidden = true; hideKeyTip(); }
+
+  // 未配置 Key 时：输入文字自动触发 💡 灯泡提示（自动消失，不阻断）
+  var tipTimer = null, lastTipAt = 0;
+  function hideKeyTip() {
+    if (tipEl) { tipEl.hidden = true; clearTimeout(tipTimer); }
+  }
+  function showKeyTip() {
+    if (!tipEl || getKey()) return;
+    tipEl.hidden = false;
+    clearTimeout(tipTimer);
+    tipTimer = setTimeout(function () { tipEl.hidden = true; lastTipAt = Date.now(); }, 5000);
+  }
+  textEl.addEventListener('input', function () {
+    if (getKey()) { hideKeyTip(); return; }
+    if (tipEl && tipEl.hidden === false) return;         // 已在显示中
+    if (Date.now() - lastTipAt < 10000) return;          // 冷却：避免每次按键都闪
+    if (textEl.value.trim()) showKeyTip();
+  });
 
   fab.addEventListener('click', function () { open ? closePanel() : openPanel(); });
   closeBtn.addEventListener('click', closePanel);
@@ -178,7 +201,7 @@
     var text = textEl.value.trim();
     if (!text) return;
     var key = getKey();
-    if (!key) { refreshKeyState(); textEl.value = ''; return; }
+    if (!key) { hideKeyTip(); refreshKeyState(); textEl.value = ''; return; }
     addMsg('user', text);
     history.push({ role: 'user', content: text });
     textEl.value = '';
