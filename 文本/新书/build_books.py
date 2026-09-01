@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-新书 5 部（古登堡）→ data/books/{key}.json
+新书（古登堡）→ data/books/{key}.json
   * 截取 START/END 之间正文；删除许可证/制作人员等元数据；保留繁体原样
   * 段落聚合：空行分段；段内行接续无空格拼接（适应 Gutenberg 折行）
   * 切分：
@@ -10,6 +10,12 @@
       易經        → 64 卦 + 繫辭上/下傳、說卦、序卦、雜卦 = 69 章
       木蘭奇女傳  → 序 + 32 回（删「附錄 編修記錄」）
       野草        → 24 篇（題辭 + 23 篇）
+      中國小說史略→ 題記 + 28 篇
+      朝花夕拾    → 10 篇（小引…後記）
+      南腔北調集  → 46 篇（删 BB 分隔行）
+      阿Q正傳     → 9 章（第X章，标题去全角空格）
+      彷徨        → 8 篇（本版缺 幸福的家庭/肥皂/弟兄）
+      狂人日記    → 整本 1 章
   * 同时生成 库索引 library-index.json（含分类）
 输出格式：
   { "book", "author", "category", "subcategory", "chapters": [{ "title", "content" }] }
@@ -235,8 +241,112 @@ def split_yecao(body, pieces):
 
 
 # ---------------------------------------------------------------
-# 书目配置
+# 鲁迅专题 6 本 · 新增切分器
 # ---------------------------------------------------------------
+RE_ZHANG = re.compile(r'^[ 　]*第([〇○零一二三四五六七八九十百]+)章[ 　]')
+RE_PIAN = re.compile(r'^第([〇○零一二三四五六七八九十百]+)篇[ 　]')
+RE_NOTE_MARK = re.compile(r'[〔【][0-9０-９]+[〕】]')
+RE_BB = re.compile(r'^B[ 　]*B$')
+
+
+def _trim(raw):
+    while raw and not raw[0].strip():
+        raw = raw[1:]
+    while raw and not raw[-1].strip():
+        raw = raw[:-1]
+    return raw
+
+
+def split_zhang(body):
+    """阿Q正傳：按「第X章　篇名」切分；标题去全角空格（優　勝　記　略 → 優勝記略）。"""
+    marks = []
+    for i, l in enumerate(body):
+        m = RE_ZHANG.match(l)
+        if m:
+            marks.append((i, cn_to_int(m.group(1))))
+    marks = sorted(set(marks))
+    chapters = []
+    for k, (idx, num) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        line = body[idx]
+        t = re.sub(r'　', '', line)
+        t = re.sub(r'^(.+?章)(.+)$', r'\1 \2', t).strip()
+        raw = _trim(body[idx + 1:end_idx])
+        chapters.append({'title': t, 'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
+
+def split_pian(body):
+    """中國小說史略：題記 + 第X篇；重复标题（第九篇）只取首个作边界，正文内重复篇名行剔除。"""
+    marks = []
+    seen = set()
+    for i, l in enumerate(body):
+        s = l.strip()
+        if s in ('題記', '後記', '附錄', '小引'):
+            if s in seen:
+                continue
+            seen.add(s)
+            marks.append((i, s))
+            continue
+        m = RE_PIAN.match(s)
+        if m:
+            if m.group(1) in seen:
+                continue
+            seen.add(m.group(1))
+            marks.append((i, re.sub(r'[ 　]+', ' ', s).strip()))
+    bound = {t for _, t in marks}
+    chapters = []
+    for k, (idx, title) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        raw = body[idx + 1:end_idx]
+        raw = [l for l in raw if re.sub(r'[ 　]+', ' ', l.strip()).strip() not in bound]
+        raw = [l for l in raw if not RE_BB.match(l.strip())]
+        raw = _trim(raw)
+        chapters.append({'title': title, 'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
+
+def split_pieces(body, pieces):
+    """按篇名列表切分（朝花夕拾/南腔北調集/彷徨）。
+    pieces: [(pattern, title)]，pattern 以 ^ 开头视为正则，否则精确匹配整行。
+    去重复相邻同篇名（南腔「題記」）；正文删 BB 分隔行与重复篇名行；标题去〔1〕角标。"""
+    marks = []
+    for i, l in enumerate(body):
+        s = l.strip()
+        for pat, title in pieces:
+            if pat.startswith('^'):
+                if re.search(pat, s):
+                    marks.append((i, title))
+                    break
+            else:
+                if s == pat:
+                    marks.append((i, title))
+                    break
+    # 去重：相邻同标题保留首个
+    dedup = []
+    for m in marks:
+        if dedup and dedup[-1][1] == m[1]:
+            continue
+        dedup.append(m)
+    marks = dedup
+    bound = {t for _, t in marks}
+    chapters = []
+    for k, (idx, title) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        raw = body[idx + 1:end_idx]
+        raw = [l for l in raw if l.strip() not in bound]
+        raw = [l for l in raw if not RE_BB.match(l.strip())]
+        raw = _trim(raw)
+        t = RE_NOTE_MARK.sub('', title).strip()
+        chapters.append({'title': t, 'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
+
+def split_single(body, title):
+    """整本不切分（狂人日記）。"""
+    raw = _trim(body)
+    return [{'title': title, 'content': '\n'.join(paragraphs(raw))}]
+
 BOOKS = [
     {
         'key': 'shanshui-qing', 'book': '山水情', 'author': '佚名',
@@ -277,6 +387,75 @@ BOOKS = [
                    '頹敗線的顫動', '立論', '死後', '這樣的戰士',
                    '聰明人和傻子和奴才', '臘葉', '淡淡的血痕中', '一覺'],
     },
+    {
+        'key': 'zhongguo-xiaoshuo-shilue', 'book': '中國小說史略', 'author': '魯迅',
+        'category': '近現代文學', 'subcategory': '魯迅專題',
+        'source': 'Project Gutenberg #25559', 'file': '中國小說史略.txt',
+        'split': 'pian',
+    },
+    {
+        'key': 'zhaohua-xishi', 'book': '朝花夕拾', 'author': '魯迅',
+        'category': '近現代文學', 'subcategory': '魯迅專題',
+        'source': 'Project Gutenberg #25271', 'file': '朝花夕拾.txt',
+        'split': 'pieces',
+        'pieces': [('小引', '小引'), ('狗·貓·鼠', '狗·貓·鼠'),
+                   ('阿長與山海經', '阿長與山海經'), ('《二十四孝圖》', '《二十四孝圖》'),
+                   ('五猖會', '五猖會'), ('無常', '無常'), ('瑣記', '瑣記'),
+                   ('藤野先生', '藤野先生'), ('范愛農', '范愛農'), ('后記', '后記')],
+    },
+    {
+        'key': 'nanqiang-beidiao-ji', 'book': '南腔北調集', 'author': '魯迅',
+        'category': '近現代文學', 'subcategory': '魯迅專題',
+        'source': 'Project Gutenberg #25346', 'file': '南腔北調集.txt',
+        'split': 'pieces',
+        'pieces': [
+            ('“非所計也”', '“非所計也”'), ('連環圖畫”辯護', '連環圖畫”辯護'),
+            ('“論語一年”', '“論語一年”'), ('“蜜蜂”与“蜜”', '“蜜蜂”与“蜜”'),
+            ('《木刻創作法》序', '《木刻創作法》序'), ('《守常全集》題記', '《守常全集》題記'),
+            ('《豎琴》前記', '《豎琴》前記'), ('《蕭伯納在上海》序', '《蕭伯納在上海》序'),
+            ('《一個人的受難》序', '《一個人的受難》序'), ('《自選集》自序', '《自選集》自序'),
+            ('《總退卻》序', '《總退卻》序'), ('大家降一級試試看', '大家降一級試試看'),
+            ('搗鬼心傳', '搗鬼心傳'), ('聲明', '聲明'), ('給文學社信', '給文學社信'),
+            ('關于翻譯', '關于翻譯'), ('關于婦女解放', '關于婦女解放'),
+            ('關于女人', '關于女人'), ('火', '火'), ('家庭為中國之基本', '家庭為中國之基本'),
+            ('經驗', '經驗'), ('看蕭和“看蕭的人們”記', '看蕭和“看蕭的人們”記'),
+            ('論“第三种人”', '論“第三种人”'), ('林克多《蘇聯聞見錄》序', '林克多《蘇聯聞見錄》序'),
+            ('論“赴難”和“逃難”', '論“赴難”和“逃難”'), ('論翻印木刻', '論翻印木刻'),
+            ('漫与', '漫与'), ('辱罵和恐嚇決不是戰斗', '辱罵和恐嚇決不是戰斗'),
+            ('沙', '沙'), ('世故三昧', '世故三昧'), ('誰的矛盾', '誰的矛盾'),
+            ('談金圣歎', '談金圣歎'), ('題記', '題記'), ('听說夢', '听說夢'),
+            ('為了忘卻的記念', '為了忘卻的記念'), ('我們不再受騙了', '我們不再受騙了'),
+            ('小品文的危机', '小品文的危机'), ('學生和玉佛', '學生和玉佛'),
+            ('諺語', '諺語'), ('謠言世家', '謠言世家'), ('由中國女人的腳', '由中國女人的腳'),
+            ('又論“第三种人”', '又論“第三种人”'), ('真假堂吉訶德', '真假堂吉訶德'),
+            ('祝《濤聲》', '祝《濤聲》'), ('上海的少女〔１〕', '上海的少女'),
+            ('作文秘訣', '作文秘訣'),
+        ],
+    },
+    {
+        'key': 'aq-zhengzhuan', 'book': '阿Q正傳', 'author': '魯迅',
+        'category': '近現代文學', 'subcategory': '魯迅專題',
+        'source': 'Project Gutenberg #25332', 'file': '阿Q正傳.txt',
+        'split': 'zhang',
+    },
+    {
+        'key': 'panghuang', 'book': '彷徨', 'author': '魯迅',
+        'category': '近現代文學', 'subcategory': '魯迅專題',
+        'source': 'Project Gutenberg #24042', 'file': '彷徨.txt',
+        'split': 'pieces',
+        'pieces': [
+            ('^祝福$', '祝福'), (r'^傷逝【1】\s*──', '傷逝──涓生的手記'),
+            ('^在酒樓上$', '在酒樓上'), ('^孤獨者$', '孤獨者'), ('^示眾$', '示眾'),
+            ('^高老夫子〔１〕$', '高老夫子'), ('^離婚$', '離婚'),
+            ('^長明燈〔１〕$', '長明燈'),
+        ],
+    },
+    {
+        'key': 'kuangren-riji', 'book': '狂人日記', 'author': '魯迅',
+        'category': '近現代文學', 'subcategory': '魯迅專題',
+        'source': 'Project Gutenberg #25297', 'file': '狂人日記.txt',
+        'split': 'single',
+    },
 ]
 
 SPLITTERS = {
@@ -284,6 +463,10 @@ SPLITTERS = {
     'shanhaijing': split_shanhaijing,
     'yijing': split_yijing,
     'yecao': split_yecao,
+    'zhang': split_zhang,
+    'pian': split_pian,
+    'pieces': split_pieces,
+    'single': split_single,
 }
 
 
@@ -298,8 +481,10 @@ def main():
                                 cfg.get('drop_prefix', False))
         elif cfg['split'] == 'shanhaijing':
             chapters = splitter(body, cfg['volumes'])
-        elif cfg['split'] == 'yecao':
+        elif cfg['split'] in ('yecao', 'pieces'):
             chapters = splitter(body, cfg['pieces'])
+        elif cfg['split'] == 'single':
+            chapters = splitter(body, cfg['book'])
         else:
             chapters = splitter(body)
 

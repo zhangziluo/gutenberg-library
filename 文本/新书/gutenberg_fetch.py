@@ -55,6 +55,48 @@ BOOKS = [
             'https://www.gutenberg.org/cache/epub/25242/pg25242.txt',
         ],
     },
+    {
+        'id': 25559, 'name': '中國小說史略',
+        'urls': [
+            'https://www.gutenberg.org/files/25559/25559-0.txt',
+            'https://www.gutenberg.org/cache/epub/25559/pg25559.txt',
+        ],
+    },
+    {
+        'id': 25271, 'name': '朝花夕拾',
+        'urls': [
+            'https://www.gutenberg.org/files/25271/25271-0.txt',
+            'https://www.gutenberg.org/cache/epub/25271/pg25271.txt',
+        ],
+    },
+    {
+        'id': 25346, 'name': '南腔北調集',
+        'urls': [
+            'https://www.gutenberg.org/files/25346/25346-0.txt',
+            'https://www.gutenberg.org/cache/epub/25346/pg25346.txt',
+        ],
+    },
+    {
+        'id': 25332, 'name': '阿Q正傳',
+        'urls': [
+            'https://www.gutenberg.org/files/25332/25332-0.txt',
+            'https://www.gutenberg.org/cache/epub/25332/pg25332.txt',
+        ],
+    },
+    {
+        'id': 24042, 'name': '彷徨',
+        'urls': [
+            'https://www.gutenberg.org/files/24042/24042-0.txt',
+            'https://www.gutenberg.org/cache/epub/24042/pg24042.txt',
+        ],
+    },
+    {
+        'id': 25297, 'name': '狂人日記',
+        'urls': [
+            'https://www.gutenberg.org/files/25297/25297-0.txt',
+            'https://www.gutenberg.org/cache/epub/25297/pg25297.txt',
+        ],
+    },
 ]
 
 UA = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) gutenberg-library/1.0'}

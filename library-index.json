@@ -68,6 +68,60 @@
           "chapters": 24,
           "source": "Project Gutenberg #25242",
           "path": "data/books/yecao.json"
+        },
+        {
+          "key": "zhongguo-xiaoshuo-shilue",
+          "book": "中國小說史略",
+          "author": "魯迅",
+          "subcategory": "魯迅專題",
+          "chapters": 29,
+          "source": "Project Gutenberg #25559",
+          "path": "data/books/zhongguo-xiaoshuo-shilue.json"
+        },
+        {
+          "key": "zhaohua-xishi",
+          "book": "朝花夕拾",
+          "author": "魯迅",
+          "subcategory": "魯迅專題",
+          "chapters": 10,
+          "source": "Project Gutenberg #25271",
+          "path": "data/books/zhaohua-xishi.json"
+        },
+        {
+          "key": "nanqiang-beidiao-ji",
+          "book": "南腔北調集",
+          "author": "魯迅",
+          "subcategory": "魯迅專題",
+          "chapters": 46,
+          "source": "Project Gutenberg #25346",
+          "path": "data/books/nanqiang-beidiao-ji.json"
+        },
+        {
+          "key": "aq-zhengzhuan",
+          "book": "阿Q正傳",
+          "author": "魯迅",
+          "subcategory": "魯迅專題",
+          "chapters": 9,
+          "source": "Project Gutenberg #25332",
+          "path": "data/books/aq-zhengzhuan.json"
+        },
+        {
+          "key": "panghuang",
+          "book": "彷徨",
+          "author": "魯迅",
+          "subcategory": "魯迅專題",
+          "chapters": 8,
+          "source": "Project Gutenberg #24042",
+          "path": "data/books/panghuang.json"
+        },
+        {
+          "key": "kuangren-riji",
+          "book": "狂人日記",
+          "author": "魯迅",
+          "subcategory": "魯迅專題",
+          "chapters": 1,
+          "source": "Project Gutenberg #25297",
+          "path": "data/books/kuangren-riji.json"
         }
       ]
     }
