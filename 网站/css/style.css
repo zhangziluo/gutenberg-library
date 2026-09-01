@@ -861,7 +861,52 @@ body {
   white-space: nowrap;
 }
 
-/* ========== 首页 书架行动区 ========== */
+/* ---------- 今日一句（全站句子池） ---------- */
+.daily-card {
+  max-width: 640px;
+  margin: 26px auto 10px;
+  padding: 22px 26px 18px;
+  background: var(--paper-light);
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--gold);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+.daily-loading,
+.daily-empty {
+  color: var(--ink-soft);
+  font-size: 14px;
+  text-align: center;
+  padding: 6px 0;
+}
+.daily-text {
+  font-family: var(--font-kai);
+  font-size: 22px;
+  line-height: 1.9;
+  text-align: center;
+  margin: 4px 0 10px;
+}
+.daily-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.daily-source {
+  color: var(--ink-soft);
+  font-size: 13px;
+}
+.daily-shuffle {
+  font-size: 13px;
+  padding: 6px 14px;
+}
+@media (max-width: 560px) {
+  .daily-text { font-size: 18px; }
+  .daily-meta { justify-content: center; }
+}
+
+/* ---------- 首页 书架行动区 ---------- */
 .shelf-cta {
   text-align: center;
   margin: 40px 0 8px;

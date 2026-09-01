@@ -47,6 +47,10 @@ for f in _headers _redirects; do
   fi
 done
 
+# 6. 句子池（今日一句：library/sentences/*.json + sentence-manifest.json）
+echo "==> 复制句子池"
+cp -R "$ROOT/网站/library" "$DIST/library"
+
 # 清理 macOS 垃圾文件
 find "$DIST" -name '.DS_Store' -delete
 

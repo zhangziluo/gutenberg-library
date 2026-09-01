@@ -1,0 +1,5 @@
+# 句子池静态缓存 1 天（今日一句：manifest + 分类文件）
+/library/sentences/*
+  Cache-Control: max-age=86400
+/library/sentence-manifest.json
+  Cache-Control: max-age=86400

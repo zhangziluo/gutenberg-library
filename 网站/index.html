@@ -32,6 +32,19 @@
       </div>
     </section>
 
+    <!-- 今日一句：全站句子池每日推荐 -->
+    <section class="daily-card" id="daily-sentence" aria-label="今日一句">
+      <div class="daily-loading" id="daily-loading">今日一句 · 正在加载…</div>
+      <div id="daily-content" hidden>
+        <p class="daily-text" id="daily-text"></p>
+        <div class="daily-meta">
+          <span class="daily-source" id="daily-source"></span>
+          <button class="btn daily-shuffle" id="daily-shuffle" title="从当前分类随机换一句">🔀 換一句</button>
+        </div>
+      </div>
+      <div class="daily-empty" id="daily-empty" hidden>今日暂无推荐</div>
+    </section>
+
     <!-- 2. AI 领读 Demo（硬编码展示，不调 API） -->
     <section class="demo">
       <h2 class="demo-title">✨ AI 领读 Demo</h2>
@@ -138,6 +151,7 @@
 
   <script src="js/common.js"></script>
   <script src="js/index.js"></script>
+  <script src="js/daily-sentence.js"></script>
   <script src="js/global-ai.js"></script>
 </body>
 </html>
