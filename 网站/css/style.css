@@ -1,5 +1,5 @@
 /* ============================================================
-   古籍文库 · 在线阅读 — 样式
+   一堆古书 · 在线阅读 — 样式
    ============================================================ */
 :root {
   --paper: #f6f1e4;        /* 纸色 */
@@ -674,6 +674,26 @@ body {
 .rs-hex{ width: 76px; padding: 4px 6px; border: 1px solid #ddd; border-radius: 6px; font-size: 12px; color: #333; }
 .rs-rgb{ width: 88px; padding: 4px 6px; border: 1px solid #ddd; border-radius: 6px; font-size: 12px; color: #333; }
 
+/* ---------- 羊皮纸材质背景（默认阅读主题，纯 CSS 渐变模拟，无需图片资源） ----------
+   当背景为默认羊皮纸色 #f5ead0 时启用：阅读正文区 / 阅读卡片 / 全局 AI 助手面板共用。
+   注意：JS 只设置 background-color，此纹理通过 background-image 叠加，互不冲突。 */
+body.reading-paper,
+.reader.reading-paper,
+#gai-root.gai-paper #gai-panel {
+  background-image:
+    /* 边缘暗角（更真实） */
+    radial-gradient(ellipse 160% 130% at 50% 50%, transparent 55%, rgba(126, 96, 56, 0.14) 100%),
+    /* 细微纸纤维纹理 */
+    repeating-linear-gradient(0deg, rgba(139, 107, 66, 0.045) 0 1px, transparent 1px 3px),
+    repeating-linear-gradient(90deg, rgba(139, 107, 66, 0.035) 0 1px, transparent 1px 4px),
+    /* 斑驳水渍 */
+    radial-gradient(ellipse 120px 90px at 15% 25%, rgba(176, 140, 92, 0.10), transparent 70%),
+    radial-gradient(ellipse 110px 150px at 82% 18%, rgba(140, 105, 60, 0.08), transparent 70%),
+    radial-gradient(ellipse 160px 110px at 68% 78%, rgba(196, 160, 108, 0.09), transparent 70%),
+    radial-gradient(ellipse 100px 130px at 30% 72%, rgba(120, 90, 50, 0.07), transparent 70%),
+    radial-gradient(ellipse 240px 180px at 50% 110%, rgba(150, 115, 70, 0.10), transparent 75%);
+}
+
 /* ---------- 支持作者 ---------- */
 .support {
   margin: 0 0 18px;
@@ -1258,6 +1278,20 @@ body {
 }
 
 /* ---------- 全局 AI 助手（global-ai.js） ---------- */
+/* 主题变量默认羊皮纸（#f5ead0 / #3a3226）；global-ai.js 读取阅读页自定义模板
+   （gjs:reading 的 bg/fg）后覆盖这些变量，全站通用。 */
+#gai-root {
+  --gai-bg: #f5ead0;
+  --gai-fg: #3a3226;
+  --gai-line: rgba(58, 50, 38, 0.3);
+  --gai-msg-bg: #faf3e0;
+  --gai-bubble-bg: #ffffff;
+  --gai-bubble-fg: #3a3226;
+  --gai-input-bg: rgba(255, 255, 255, 0.85);
+  --gai-ctx-bg: rgba(255, 255, 255, 0.35);
+  --gai-ctx-fg: #6d5320;
+}
+
 #gai-fab {
   position: fixed;
   left: 20px;
@@ -1285,8 +1319,9 @@ body {
   height: min(560px, 72vh);
   display: flex;
   flex-direction: column;
-  background: var(--paper-light);
-  border: 1px solid var(--line);
+  background-color: var(--gai-bg);
+  color: var(--gai-fg);
+  border: 1px solid var(--gai-line);
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(40, 30, 20, 0.25);
   overflow: hidden;
@@ -1315,20 +1350,20 @@ body {
 .gai-ctx {
   padding: 7px 14px;
   font-size: 12px;
-  color: #6d5320;
-  background: #fbf3df;
-  border-bottom: 1px dashed var(--line);
+  color: var(--gai-ctx-fg);
+  background: var(--gai-ctx-bg);
+  border-bottom: 1px dashed var(--gai-line);
 }
 
-.gai-modes { display: flex; gap: 6px; padding: 8px 10px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.gai-modes { display: flex; gap: 6px; padding: 8px 10px; border-bottom: 1px solid var(--gai-line); flex-wrap: wrap; }
 .gai-mode {
   font-size: 12px;
   padding: 5px 10px;
   border-radius: 16px;
   cursor: pointer;
-  border: 1px solid var(--line);
-  background: #fff;
-  color: var(--ink);
+  border: 1px solid var(--gai-line);
+  background: var(--gai-input-bg);
+  color: var(--gai-fg);
   font-family: inherit;
 }
 .gai-mode.active { background: var(--accent); color: #fff; border-color: var(--accent); }
@@ -1340,9 +1375,9 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background: #faf6ec;
+  background-color: var(--gai-msg-bg);
 }
-.gai-hint { font-size: 13px; color: var(--ink-soft); line-height: 1.9; }
+.gai-hint { font-size: 13px; color: var(--gai-fg); opacity: 0.75; line-height: 1.9; }
 .gai-hint a { color: var(--accent); }
 .gai-tip {
   display: flex;
@@ -1351,9 +1386,9 @@ body {
   padding: 6px 12px;
   font-size: 12px;
   line-height: 1.6;
-  color: #6d5320;
-  background: #fdf3d7;
-  border-bottom: 1px dashed #e8cf9c;
+  color: var(--gai-ctx-fg);
+  background: var(--gai-ctx-bg);
+  border-bottom: 1px dashed var(--gai-line);
 }
 .gai-tip[hidden] { display: none; }
 .gai-tip-icon { font-size: 14px; flex-shrink: 0; line-height: 1.4; }
@@ -1367,27 +1402,28 @@ body {
   border-radius: 10px;
   font-size: 14px;
   line-height: 1.85;
-  background: #fff;
-  border: 1px solid var(--line);
+  background: var(--gai-bubble-bg);
+  color: var(--gai-bubble-fg);
+  border: 1px solid var(--gai-line);
   max-width: 100%;
   word-break: break-word;
   white-space: pre-wrap;
 }
 .gai-msg.gai-user .gai-bubble { background: var(--accent); color: #fff; border-color: var(--accent); }
 
-.gai-input { display: flex; gap: 8px; padding: 10px; border-top: 1px solid var(--line); }
+.gai-input { display: flex; gap: 8px; padding: 10px; border-top: 1px solid var(--gai-line); }
 #gai-text {
   flex: 1;
   resize: none;
   min-height: 38px;
   max-height: 90px;
-  border: 1px solid var(--line);
+  border: 1px solid var(--gai-line);
   border-radius: 8px;
   padding: 8px 10px;
   font-size: 14px;
   font-family: inherit;
-  color: var(--ink);
-  background: #fff;
+  color: var(--gai-fg);
+  background: var(--gai-input-bg);
 }
 #gai-send {
   padding: 0 18px;
@@ -1399,17 +1435,100 @@ body {
   cursor: pointer;
   font-family: inherit;
 }
+
+/* AI 输入区按钮列：📝 保存为笔记 + 发送 */
+.gai-input-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.gai-input-btns #gai-send { flex: 1; }
+#gai-note {
+  padding: 2px 12px;
+  border: 1px solid var(--gai-line);
+  border-radius: 8px;
+  background: var(--gai-input-bg);
+  color: var(--gai-fg);
+  font-size: 14px;
+  line-height: 1.5;
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color 0.15s, color 0.15s;
+}
+#gai-note:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ---------- 📝 笔记编辑区（仿古黄 #F5F0E6 · 墨字 #3A3226 · 朱砂 #9E2B25） ---------- */
+.gai-note {
+  padding: 10px 12px;
+  border-top: 1px solid #9e2b25;
+  background: #f5f0e6;
+  color: #3a3226;
+  font-size: 13px;
+}
+.gai-note[hidden] { display: none; }
+.gai-note-head {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #9e2b25;
+  margin-bottom: 4px;
+}
+.gai-note-label { font-size: 12px; color: #6b6152; margin: 6px 0 4px; }
+.gai-note-src {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #6b6152;             /* 略灰 */
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px dashed #c9b896;
+  border-radius: 6px;
+  padding: 6px 8px;
+  max-height: 88px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+#gai-note-cmt {
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+  min-height: 52px;
+  max-height: 120px;
+  border: 1px solid #9e2b25;
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-size: 13px;
+  font-family: inherit;
+  color: #3a3226;
+  background: #fffaf0;
+  outline: none;
+}
+#gai-note-cmt:focus { box-shadow: 0 0 0 2px rgba(158, 43, 37, 0.18); }
+.gai-note-actions { display: flex; gap: 8px; margin-top: 8px; }
+.gai-note-actions button {
+  padding: 4px 16px;
+  font-size: 13px;
+  font-family: inherit;
+  border-radius: 6px;
+  cursor: pointer;
+  line-height: 1.6;
+}
+#gai-note-save { background: #9e2b25; color: #fff; border: 1px solid #9e2b25; }
+#gai-note-save:hover { background: #7d1f1a; border-color: #7d1f1a; }
+#gai-note-cancel { background: transparent; color: #9e2b25; border: 1px solid #9e2b25; }
+#gai-note-cancel:hover { background: rgba(158, 43, 37, 0.08); }
+
 .gai-foot {
   display: flex;
   gap: 12px;
   align-items: center;
   padding: 8px 12px;
-  border-top: 1px dashed var(--line);
+  border-top: 1px dashed var(--gai-line);
   font-size: 12px;
 }
-.gai-foot a { color: var(--ink-soft); text-decoration: none; }
-.gai-foot a:hover { color: var(--accent); }
-#gai-clear { margin-left: auto; border: none; background: none; color: var(--ink-soft); font-size: 12px; cursor: pointer; font-family: inherit; }
+.gai-foot a { color: var(--gai-fg); opacity: 0.72; text-decoration: none; }
+.gai-foot a:hover { color: var(--accent); opacity: 1; }
+#gai-clear { margin-left: auto; border: none; background: none; color: var(--gai-fg); opacity: 0.72; font-size: 12px; cursor: pointer; font-family: inherit; }
+#gai-clear:hover { color: var(--accent); opacity: 1; }
 
 /* AI 对话框预填确认 toast */
 .gai-toast {

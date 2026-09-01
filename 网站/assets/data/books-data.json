@@ -1,5 +1,5 @@
 {
-  "title": "古籍文库 · 统一分类数据源",
+  "title": "一堆古书 · 统一分类数据源",
   "updated": "2026-09-01",
   "categories": {
     "jing": "經部：儒家經典及歷代注疏（如《論語》《詩經》《易經》等）",
@@ -18,6 +18,39 @@
       "dynasty": "先秦（商周）",
       "description": "群經之首，中華文化的源頭。六十四卦涵蓋天地萬物變化之理，繫辭、說卦等十翼為儒家哲思之樞紐。",
       "sections": 69,
+      "cover": ""
+    },
+    {
+      "id": "sanzijing",
+      "title": "三字經",
+      "author": "佚名",
+      "category": "jing",
+      "subcategory": "",
+      "dynasty": "宋",
+      "description": "中國古代影響最大的蒙學讀物，三字一句，涵蓋倫理、歷史與常識。",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "baijiaxing",
+      "title": "百家姓",
+      "author": "佚名",
+      "category": "jing",
+      "subcategory": "",
+      "dynasty": "宋",
+      "description": "中國古代蒙學讀物，四字一句，收錄常見姓氏數百個。",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "liji",
+      "title": "禮記",
+      "author": "佚名",
+      "category": "jing",
+      "subcategory": "",
+      "dynasty": "先秦至漢",
+      "description": "儒家經典之一，記先秦禮制與禮學思想，內含《大學》《中庸》等名篇。",
+      "sections": 49,
       "cover": ""
     },
     {
@@ -51,6 +84,83 @@
       "dynasty": "清",
       "description": "清代演義小說：寫木蘭代父從軍、忠孝勇烈的傳奇故事。",
       "sections": 33,
+      "cover": ""
+    },
+    {
+      "id": "doupen-xianhua",
+      "title": "豆棚閒話",
+      "author": "艾衲居士",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清初",
+      "description": "清初話本小說集，十二則閒話借豆棚聚談起興，以古諷今、嬉笑怒罵。",
+      "sections": 13,
+      "cover": ""
+    },
+    {
+      "id": "xizhong-xi",
+      "title": "戲中戲",
+      "author": "李漁",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清",
+      "description": "李漁所作：譚楚玉與劉藐姑因戲結緣，歷盡磨難終成眷屬的故事。",
+      "sections": 7,
+      "cover": ""
+    },
+    {
+      "id": "bimu-yu",
+      "title": "比目魚",
+      "author": "李漁",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清",
+      "description": "李漁代表作：譚楚玉、劉藐姑以死殉情、死後化作比目魚的傳奇故事。",
+      "sections": 9,
+      "cover": ""
+    },
+    {
+      "id": "shigongan",
+      "title": "施公案",
+      "author": "佚名",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清",
+      "description": "清代公案俠義小說，敘施世綸審案斷獄、與黃天霸等俠客懲惡扶善。",
+      "sections": 526,
+      "cover": ""
+    },
+    {
+      "id": "haigongan",
+      "title": "海公案",
+      "author": "佚名",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "明",
+      "description": "明代公案小說，演海瑞為官斷案、剛正不阿、懲奸除惡的傳奇故事。",
+      "sections": 60,
+      "cover": ""
+    },
+    {
+      "id": "yandanzi",
+      "title": "燕丹子",
+      "author": "佚名",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "先秦",
+      "description": "先秦雜史小說，記燕太子丹使荊軻刺秦的故事，被譽為武俠小說之祖。",
+      "sections": 3,
+      "cover": ""
+    },
+    {
+      "id": "digongan",
+      "title": "狄公案",
+      "author": "佚名",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清",
+      "description": "清代公案小說，敘狄仁傑任昌平縣令時明察秋毫、屢破奇案。",
+      "sections": 64,
       "cover": ""
     },
     {

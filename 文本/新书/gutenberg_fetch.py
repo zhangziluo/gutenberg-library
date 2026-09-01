@@ -97,6 +97,77 @@ BOOKS = [
             'https://www.gutenberg.org/cache/epub/25297/pg25297.txt',
         ],
     },
+    # ---- 第二批新书（2026-09-01 入库） ----
+    {
+        'id': 25328, 'name': '豆棚閒話',
+        'urls': [
+            'https://www.gutenberg.org/files/25328/25328-0.txt',
+            'https://www.gutenberg.org/cache/epub/25328/pg25328.txt',
+        ],
+    },
+    {
+        'id': 24225, 'name': '戲中戲',
+        'urls': [
+            'https://www.gutenberg.org/files/24225/24225-0.txt',
+            'https://www.gutenberg.org/cache/epub/24225/pg24225.txt',
+        ],
+    },
+    {
+        'id': 27119, 'name': '比目魚',
+        'urls': [
+            'https://www.gutenberg.org/files/27119/27119-0.txt',
+            'https://www.gutenberg.org/cache/epub/27119/pg27119.txt',
+        ],
+    },
+    {
+        'id': 12479, 'name': '三字經',
+        'urls': [
+            'https://www.gutenberg.org/files/12479/12479-0.txt',
+            'https://www.gutenberg.org/cache/epub/12479/pg12479.txt',
+        ],
+    },
+    {
+        'id': 23825, 'name': '施公案',
+        'urls': [
+            'https://www.gutenberg.org/files/23825/23825-0.txt',
+            'https://www.gutenberg.org/cache/epub/23825/pg23825.txt',
+        ],
+    },
+    {
+        'id': 54494, 'name': '海公案',
+        'urls': [
+            'https://www.gutenberg.org/files/54494/54494-0.txt',
+            'https://www.gutenberg.org/cache/epub/54494/pg54494.txt',
+        ],
+    },
+    {
+        'id': 24068, 'name': '燕丹子',
+        'urls': [
+            'https://www.gutenberg.org/files/24068/24068-0.txt',
+            'https://www.gutenberg.org/cache/epub/24068/pg24068.txt',
+        ],
+    },
+    {
+        'id': 27686, 'name': '狄公案',
+        'urls': [
+            'https://www.gutenberg.org/files/27686/27686-0.txt',
+            'https://www.gutenberg.org/cache/epub/27686/pg27686.txt',
+        ],
+    },
+    {
+        'id': 25196, 'name': '百家姓',
+        'urls': [
+            'https://www.gutenberg.org/files/25196/25196-0.txt',
+            'https://www.gutenberg.org/cache/epub/25196/pg25196.txt',
+        ],
+    },
+    {
+        'id': 24048, 'name': '禮記',
+        'urls': [
+            'https://www.gutenberg.org/files/24048/24048-0.txt',
+            'https://www.gutenberg.org/cache/epub/24048/pg24048.txt',
+        ],
+    },
 ]
 
 UA = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) gutenberg-library/1.0'}

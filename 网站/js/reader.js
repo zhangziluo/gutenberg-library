@@ -56,7 +56,7 @@ const POS_PREFIX = 'gjs:pos:';
   const sec = sections[index];
   const bookUrl = 'book.html?book=' + encodeURIComponent(bookName);
 
-  document.title = sec.title + ' · 古籍文库';
+  document.title = sec.title + ' · 一堆古书';
   document.getElementById('header-book').textContent = '《' + book.title + '》';
   document.getElementById('back-btn').href = bookUrl;
 
@@ -197,13 +197,17 @@ const POS_PREFIX = 'gjs:pos:';
 
   function applyReading() {
     const curBody = document.getElementById('reader-body');
+    // 羊皮纸材质：仅默认羊皮纸色 #f5ead0 启用纹理，自定义色保持纯色
+    const paper = reading.bg.toLowerCase() === '#f5ead0';
     // 自定义背景铺满整个阅读区（顶部导航栏以下）：header 为不透明渐变保持不变，
-    // body 背景 = 自定义色，主区 + 页脚整体显示自定义背景
-    document.body.style.background = reading.bg;
+    // body 仅设 background-color，让 .reading-paper 的纹理渐变可叠加显示
+    document.body.style.backgroundColor = reading.bg;
+    document.body.classList.toggle('reading-paper', paper);
     // 设置栏标签 / 页脚文字跟随字色，避免深色背景下看不清（顶部导航不受影响）
     document.body.style.setProperty('--rs-fg', reading.fg);
     if (readerArticle && curBody) {
-      readerArticle.style.background = reading.bg;
+      readerArticle.style.backgroundColor = reading.bg;
+      readerArticle.classList.toggle('reading-paper', paper);
       readerArticle.style.color = reading.fg;
       const rgb = hexToRgbArr(reading.fg);
       readerArticle.style.borderColor = 'rgba(' + rgb.join(',') + ', 0.3)';
@@ -221,6 +225,8 @@ const POS_PREFIX = 'gjs:pos:';
       b.classList.toggle('active', b.dataset.bg === reading.bg && b.dataset.fg === reading.fg);
     });
     try { localStorage.setItem(READING_KEY, JSON.stringify(reading)); } catch (e) {}
+    // 全局 AI 助手与阅读页共用自定义模板：同页实时同步主题
+    if (window.GAI && window.GAI.theme) window.GAI.theme();
   }
 
   // 恢复上次设置（与 AI 阅读器共用，跨页同步）

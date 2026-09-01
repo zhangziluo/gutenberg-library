@@ -1,5 +1,5 @@
 {
-  "title": "古籍文库 · 数据书目索引",
+  "title": "一堆古书 · 数据书目索引",
   "description": "data/books/ 目录下的结构化书目（category: 經部/史部/子部/集部/近現代文學）",
   "generated": "2026-09-01",
   "categories": [
@@ -14,6 +14,33 @@
           "chapters": 69,
           "source": "Project Gutenberg #25501",
           "path": "data/books/yijing.json"
+        },
+        {
+          "key": "sanzijing",
+          "book": "三字經",
+          "author": "佚名",
+          "subcategory": "蒙學",
+          "chapters": 1,
+          "source": "Project Gutenberg #12479",
+          "path": "data/books/sanzijing.json"
+        },
+        {
+          "key": "baijiaxing",
+          "book": "百家姓",
+          "author": "佚名",
+          "subcategory": "蒙學",
+          "chapters": 1,
+          "source": "Project Gutenberg #25196",
+          "path": "data/books/baijiaxing.json"
+        },
+        {
+          "key": "liji",
+          "book": "禮記",
+          "author": "佚名",
+          "subcategory": "禮",
+          "chapters": 49,
+          "source": "Project Gutenberg #24048",
+          "path": "data/books/liji.json"
         }
       ]
     },
@@ -50,6 +77,69 @@
           "chapters": 33,
           "source": "Project Gutenberg #23938",
           "path": "data/books/mulan-qi-nv-zhuan.json"
+        },
+        {
+          "key": "doupen-xianhua",
+          "book": "豆棚閒話",
+          "author": "艾衲居士",
+          "subcategory": "小說家（話本）",
+          "chapters": 13,
+          "source": "Project Gutenberg #25328",
+          "path": "data/books/doupen-xianhua.json"
+        },
+        {
+          "key": "xizhong-xi",
+          "book": "戲中戲",
+          "author": "李漁",
+          "subcategory": "小說家",
+          "chapters": 7,
+          "source": "Project Gutenberg #24225",
+          "path": "data/books/xizhong-xi.json"
+        },
+        {
+          "key": "bimu-yu",
+          "book": "比目魚",
+          "author": "李漁",
+          "subcategory": "小說家",
+          "chapters": 9,
+          "source": "Project Gutenberg #27119",
+          "path": "data/books/bimu-yu.json"
+        },
+        {
+          "key": "shigongan",
+          "book": "施公案",
+          "author": "佚名",
+          "subcategory": "小說家（公案）",
+          "chapters": 526,
+          "source": "Project Gutenberg #23825",
+          "path": "data/books/shigongan.json"
+        },
+        {
+          "key": "haigongan",
+          "book": "海公案",
+          "author": "佚名",
+          "subcategory": "小說家（公案）",
+          "chapters": 60,
+          "source": "Project Gutenberg #54494",
+          "path": "data/books/haigongan.json"
+        },
+        {
+          "key": "yandanzi",
+          "book": "燕丹子",
+          "author": "佚名",
+          "subcategory": "小說家",
+          "chapters": 3,
+          "source": "Project Gutenberg #24068",
+          "path": "data/books/yandanzi.json"
+        },
+        {
+          "key": "digongan",
+          "book": "狄公案",
+          "author": "佚名",
+          "subcategory": "小說家（公案）",
+          "chapters": 64,
+          "source": "Project Gutenberg #27686",
+          "path": "data/books/digongan.json"
         }
       ]
     },

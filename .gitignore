@@ -3,6 +3,10 @@ node_modules/
 dist/
 .astro/
 
+# Python 缓存
+__pycache__/
+*.py[cod]
+
 # wrangler 直接上传时收集的 Functions（构建脚本从 网站/public/reader/functions 复制，勿提交）
 functions/
 

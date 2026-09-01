@@ -1,0 +1,17 @@
+{
+  // Cloudflare Pages 配置文件（_redirects / _headers）不是 Python 源码，
+  // 强制按纯文本打开，避免 VS Code 语言检测将其误判为 Python，从而消除 Pylance 的“应为表达式”误报。
+  "files.associations": {
+    "**/_redirects": "plaintext",
+    "**/_headers": "plaintext"
+  },
+  // 兜底：即使仍被识别为 Python，也将它们从 Pylance / Pyright 分析中排除。
+  // 注意：设置 exclude 会覆盖默认排除项，因此需显式补回默认值（node_modules、__pycache__、隐藏文件/目录）。
+  "python.analysis.exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/.*",
+    "**/_redirects",
+    "**/_headers"
+  ]
+}

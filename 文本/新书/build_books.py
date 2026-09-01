@@ -16,6 +16,16 @@
       阿Q正傳     → 9 章（第X章，标题去全角空格）
       彷徨        → 8 篇（本版缺 幸福的家庭/肥皂/弟兄）
       狂人日記    → 整本 1 章
+      豆棚閒話    → 弁言 + 12 則（第十則标记缺「十則」，特殊识别）
+      戲中戲      → 7 回（回目在标记行下一行）
+      比目魚      → 9 回
+      三字經      → 整本 1 章（删畸形书名行）
+      施公案      → 526 回（回目在下一行；位记数字；本版缺第457/469/482回）
+      海公案      → 60 回（本版止于第六十回）
+      燕丹子      → 卷上/中/下 3 卷
+      狄公案      → 64 回（位记数字）
+      百家姓      → 整本 1 章（删书名行）
+      禮記        → 49 篇（曲禮上第一…喪服四制第四十九）
   * 同时生成 库索引 library-index.json（含分类）
 输出格式：
   { "book", "author", "category", "subcategory", "chapters": [{ "title", "content" }] }
@@ -45,19 +55,24 @@ DIGIT = {'〇': 0, '○': 0, '零': 0, '一': 1, '二': 2, '三': 3, '四': 4,
 
 
 def cn_to_int(s):
-    """支持 十四/一四/一百 式的中文数字。"""
-    n = 0
-    if '百' in s:
-        i = s.index('百')
-        n += (DIGIT.get(s[i - 1], 1) if i > 0 else 1) * 100
-        s = s[i + 1:]
-    if '十' in s:
-        i = s.index('十')
-        n += (DIGIT.get(s[i - 1], 1) if i > 0 else 1) * 10
-        s = s[i + 1:]
-    if s:
-        n += DIGIT.get(s[0], 0)
-    return n
+    """支持 十四/一百 式传统中文数字，也支持 一○/一一/五二一 式位记数字
+    （施公案/狄公案等古登堡文本混用：一○=10、一○○=100、五二一=521）。"""
+    s = s.replace('〇', '○').replace('零', '○')
+    if '十' in s or '百' in s:
+        n = 0
+        if '百' in s:
+            i = s.index('百')
+            n += (DIGIT.get(s[i - 1], 1) if i > 0 else 1) * 100
+            s = s[i + 1:]
+        if '十' in s:
+            i = s.index('十')
+            n += (DIGIT.get(s[i - 1], 1) if i > 0 else 1) * 10
+            s = s[i + 1:]
+        if s:
+            n += DIGIT.get(s[0], 0)
+        return n
+    # 位记：一○=10、一一=11、五二一=521
+    return int(''.join(str(DIGIT[c]) for c in s)) if s else 0
 
 
 # ---------------------------------------------------------------
@@ -123,10 +138,11 @@ def paragraphs(body):
 # ---------------------------------------------------------------
 # 切分器
 # ---------------------------------------------------------------
-def split_hui(body, keep_prefix_title=None, cut_at=None, drop_prefix=False):
+def split_hui(body, keep_prefix_title=None, cut_at=None, drop_prefix=False, title_next=False):
     """按「第X回」切分；可选开头补一章（keep_prefix_title=「序」），
     可选从 cut_at 行起截断（如木蘭的「附錄」），
-    可选丢弃开头非回目行（drop_prefix，如山水情仅书题）。"""
+    可选丢弃开头非回目行（drop_prefix，如山水情仅书题），
+    title_next=True 时回目在标记行之后的下一个非空行（施公案/戲中戲）。"""
     if cut_at:
         for i, l in enumerate(body):
             if l.strip().startswith(cut_at):
@@ -137,13 +153,16 @@ def split_hui(body, keep_prefix_title=None, cut_at=None, drop_prefix=False):
         m = RE_HUI.match(l)
         if m:
             marks.append((i, cn_to_int(m.group(1)), l))
-    # 去重：相邻同号保留后者
+    # 去重：仅当两条同号标记之间无正文内容时才合并（保留后者）。
+    # 施公案「第一三四回」在正文中重复出现两次（各有内容），须如实保留两章。
     deduped = []
     for m in marks:
-        if deduped and deduped[-1][1] == m[1]:
-            deduped[-1] = m
-        else:
-            deduped.append(m)
+        if deduped:
+            prev_idx, prev_num, _ = deduped[-1]
+            if prev_num == m[1] and not any(body[j].strip() for j in range(prev_idx + 1, m[0])):
+                deduped[-1] = m
+                continue
+        deduped.append(m)
     marks = deduped
 
     chapters = []
@@ -157,7 +176,17 @@ def split_hui(body, keep_prefix_title=None, cut_at=None, drop_prefix=False):
     for k, (idx, num, line) in enumerate(marks):
         end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
         title = re.sub(r'[ \t]+', ' ', line).strip()
+        tline = None
+        if title_next:
+            for j in range(idx + 1, end_idx):
+                s = body[j].strip()
+                if s:
+                    title = title + ' ' + re.sub(r'[ \t]+', ' ', s)
+                    tline = j
+                    break
         raw = body[idx + 1:end_idx]
+        if tline is not None:                       # 回目并入标题后，从正文剔除该行
+            raw = raw[:tline - (idx + 1)] + raw[tline - (idx + 1) + 1:]
         while raw and not raw[0].strip():
             raw = raw[1:]
         while raw and not raw[-1].strip():
@@ -347,6 +376,68 @@ def split_single(body, title):
     raw = _trim(body)
     return [{'title': title, 'content': '\n'.join(paragraphs(raw))}]
 
+
+# ---------------------------------------------------------------
+# 第二批新书切分器
+# ---------------------------------------------------------------
+RE_ZE = re.compile(r'^[ 　]*第([〇○零一二三四五六七八九十百]+)[ 　]*則[ 　]*(.*)$')
+RE_ZE_MAL = re.compile(r'^[ 　]*第[ 　]{2,}([^ 　]{2,15})$')   # 豆棚閒話第十則缺「十則」，仅此一行
+RE_LIJI = re.compile(r'^[ 　]+([^　]{2,8}第[〇○零一二三四五六七八九十百]+)$')
+
+
+def split_ze(body, keep_prefix_title=None):
+    """豆棚閒話：按「第X則」切分；开头 弁言 单独成章；
+    第十則标记行缺「十則」（第      虎丘山賈清客聯盟）需特殊识别。"""
+    marks = []
+    for i, l in enumerate(body):
+        m = RE_ZE.match(l)
+        if m:
+            marks.append((i, m.group(2).strip() or re.sub(r'[ 　]+', ' ', l).strip()))
+            continue
+        m = RE_ZE_MAL.match(l)
+        if m:
+            marks.append((i, m.group(1)))
+    chapters = []
+    if marks and marks[0][0] > 0:
+        p = paragraphs(body[:marks[0][0]])
+        if p:
+            chapters.append({'title': keep_prefix_title or p[0][:20], 'content': '\n'.join(p)})
+    for k, (idx, title) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        raw = _trim(body[idx + 1:end_idx])
+        chapters.append({'title': title, 'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
+
+def split_juan(body, volumes):
+    """燕丹子：按 卷上/卷中/卷下 切分。"""
+    marks = []
+    for i, l in enumerate(body):
+        s = l.strip()
+        if s in volumes:
+            marks.append((i, s))
+    chapters = []
+    for k, (idx, name) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        raw = _trim(body[idx + 1:end_idx])
+        chapters.append({'title': name, 'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
+
+def split_liji(body):
+    """禮記：按「篇名第X」切分（曲禮上第一 … 喪服四制第四十九）。"""
+    marks = []
+    for i, l in enumerate(body):
+        m = RE_LIJI.match(l)
+        if m:
+            marks.append((i, m.group(1)))
+    chapters = []
+    for k, (idx, title) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        raw = _trim(body[idx + 1:end_idx])
+        chapters.append({'title': title, 'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
 BOOKS = [
     {
         'key': 'shanshui-qing', 'book': '山水情', 'author': '佚名',
@@ -456,6 +547,68 @@ BOOKS = [
         'source': 'Project Gutenberg #25297', 'file': '狂人日記.txt',
         'split': 'single',
     },
+    # ---- 第二批新书（2026-09-01 入库） ----
+    {
+        'key': 'doupen-xianhua', 'book': '豆棚閒話', 'author': '艾衲居士',
+        'category': '子部', 'subcategory': '小說家（話本）',
+        'source': 'Project Gutenberg #25328', 'file': '豆棚閒話.txt',
+        'split': 'ze', 'keep_prefix_title': '弁言',
+    },
+    {
+        'key': 'xizhong-xi', 'book': '戲中戲', 'author': '李漁',
+        'category': '子部', 'subcategory': '小說家',
+        'source': 'Project Gutenberg #24225', 'file': '戲中戲.txt',
+        'split': 'hui', 'title_next': True, 'drop_prefix': True,
+    },
+    {
+        'key': 'bimu-yu', 'book': '比目魚', 'author': '李漁',
+        'category': '子部', 'subcategory': '小說家',
+        'source': 'Project Gutenberg #27119', 'file': '比目魚.txt',
+        'split': 'hui', 'drop_prefix': True,
+    },
+    {
+        'key': 'sanzijing', 'book': '三字經', 'author': '佚名',
+        'category': '經部', 'subcategory': '蒙學',
+        'source': 'Project Gutenberg #12479', 'file': '三字經.txt',
+        'split': 'single', 'head_drop': 1,   # 删畸形书名行「三字經》」
+    },
+    {
+        'key': 'shigongan', 'book': '施公案', 'author': '佚名',
+        'category': '子部', 'subcategory': '小說家（公案）',
+        'source': 'Project Gutenberg #23825', 'file': '施公案.txt',
+        'split': 'hui', 'title_next': True, 'drop_prefix': True,
+    },
+    {
+        'key': 'haigongan', 'book': '海公案', 'author': '佚名',
+        'category': '子部', 'subcategory': '小說家（公案）',
+        'source': 'Project Gutenberg #54494', 'file': '海公案.txt',
+        'split': 'hui', 'drop_prefix': True,
+    },
+    {
+        'key': 'yandanzi', 'book': '燕丹子', 'author': '佚名',
+        'category': '子部', 'subcategory': '小說家',
+        'source': 'Project Gutenberg #24068', 'file': '燕丹子.txt',
+        'split': 'juan', 'head_drop': 1,      # 删书名行「燕丹子」
+        'volumes': ['燕丹子卷上', '燕丹子卷中', '燕丹子卷下'],
+    },
+    {
+        'key': 'digongan', 'book': '狄公案', 'author': '佚名',
+        'category': '子部', 'subcategory': '小說家（公案）',
+        'source': 'Project Gutenberg #27686', 'file': '狄公案.txt',
+        'split': 'hui', 'drop_prefix': True,
+    },
+    {
+        'key': 'baijiaxing', 'book': '百家姓', 'author': '佚名',
+        'category': '經部', 'subcategory': '蒙學',
+        'source': 'Project Gutenberg #25196', 'file': '百家姓.txt',
+        'split': 'single', 'head_drop': 1,    # 删书名行「百家姓」
+    },
+    {
+        'key': 'liji', 'book': '禮記', 'author': '佚名',
+        'category': '經部', 'subcategory': '禮',
+        'source': 'Project Gutenberg #24048', 'file': '禮記.txt',
+        'split': 'liji',
+    },
 ]
 
 SPLITTERS = {
@@ -467,6 +620,9 @@ SPLITTERS = {
     'pian': split_pian,
     'pieces': split_pieces,
     'single': split_single,
+    'ze': split_ze,
+    'juan': split_juan,
+    'liji': split_liji,
 }
 
 
@@ -475,14 +631,18 @@ def main():
     for cfg in BOOKS:
         lines = open(os.path.join(RAW, cfg['file']), encoding='utf-8-sig').read().split('\n')
         body = extract_body(lines)
+        if cfg.get('head_drop'):
+            body = body[cfg['head_drop']:]     # 删开头畸形书名行（三字經》/百家姓/燕丹子）
         splitter = SPLITTERS[cfg['split']]
         if cfg['split'] == 'hui':
             chapters = splitter(body, cfg.get('keep_prefix_title'), cfg.get('cut_at'),
-                                cfg.get('drop_prefix', False))
-        elif cfg['split'] == 'shanhaijing':
+                                cfg.get('drop_prefix', False), cfg.get('title_next', False))
+        elif cfg['split'] in ('shanhaijing', 'juan'):
             chapters = splitter(body, cfg['volumes'])
         elif cfg['split'] in ('yecao', 'pieces'):
             chapters = splitter(body, cfg['pieces'])
+        elif cfg['split'] == 'ze':
+            chapters = splitter(body, cfg.get('keep_prefix_title'))
         elif cfg['split'] == 'single':
             chapters = splitter(body, cfg['book'])
         else:
@@ -518,7 +678,7 @@ def main():
         for c in cat_order
     ]
     index = {
-        'title': '古籍文库 · 数据书目索引',
+        'title': '一堆古书 · 数据书目索引',
         'description': 'data/books/ 目录下的结构化书目（category: 經部/史部/子部/集部/近現代文學）',
         'generated': datetime.date.today().isoformat(),
         'categories': cats,

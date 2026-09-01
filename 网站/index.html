@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>古籍文庫 · 古登堡繁體古籍線上閱讀</title>
+  <title>一堆古书 | 没什么正经的，就是一堆古书</title>
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
   <link rel="stylesheet" href="css/style.css">
   <style>
@@ -33,6 +33,9 @@
       padding-bottom: 12px;
     }
     .brand { font-size: 21px; letter-spacing: 3px; color: var(--h-ink); white-space: nowrap; }
+    /* 首页 Logo 区：主标题 + 副标题（副标题为待定稿占位） */
+    .brand-wrap { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+    .brand-wrap .tagline { font-size: 13px; letter-spacing: 1px; }
     .main-nav { display: flex; gap: 30px; }
     .main-nav a {
       color: var(--h-soft); text-decoration: none; font-size: 15px; letter-spacing: 2px;
@@ -101,6 +104,125 @@
     }
     .qilin svg { width: 100%; height: 100%; display: block; }
 
+    /* ☯ 今日一卦：右下角胶囊按钮 + 向上弹出浮层（位于装饰麒麟上方，不遮挡其他按钮） */
+    #gua-root {
+      position: fixed;
+      right: 16px;
+      bottom: 76px;          /* 麒麟 bottom:16px + 高 48px + 间距 12px */
+      z-index: 1000;
+    }
+    #gua-btn {
+      display: block;
+      padding: 6px 14px;
+      border: 1px solid var(--h-accent);   /* 朱砂红 */
+      background: var(--h-bg);              /* 仿古黄 */
+      color: var(--h-ink);                  /* 深棕墨 */
+      font-size: 14px;
+      font-family: inherit;
+      letter-spacing: 1px;
+      border-radius: 999px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(60, 50, 30, 0.16);
+      transition: background .15s ease, transform .15s ease;
+    }
+    #gua-btn:hover { background: #efe4cf; transform: translateY(-1px); }
+    #gua-pop {
+      position: absolute;
+      right: 0;
+      bottom: 100%;
+      margin-bottom: 12px;
+      width: 340px;
+      max-width: calc(100vw - 32px);
+      background: var(--h-bg);              /* 仿古黄 */
+      border: 1px solid var(--h-accent);    /* 朱砂红 */
+      border-radius: 8px;
+      box-shadow: 0 10px 30px rgba(60, 50, 30, 0.25);
+      padding: 16px 18px;
+      text-align: left;
+      animation: gua-fade .2s ease;          /* 淡入 200ms */
+    }
+    #gua-pop[hidden] { display: none; }
+    @keyframes gua-fade { from { opacity: 0; } to { opacity: 1; } }
+    .gua-type { font-size: 15px; color: var(--h-ink); font-weight: 700; letter-spacing: 1px; margin-bottom: 8px; }
+    .gua-glyph { font-size: 22px; vertical-align: -2px; margin-left: 4px; }
+    .gua-body { font-size: 14px; line-height: 1.9; color: var(--h-ink); }
+    .gua-src { font-size: 12px; color: var(--h-soft); text-align: right; margin-top: 10px; }
+    .gua-actions {
+      display: flex; gap: 10px; justify-content: flex-end;
+      margin-top: 12px; padding-top: 10px;
+      border-top: 1px dashed var(--h-line);
+    }
+    .gua-actions button {
+      padding: 4px 14px;
+      border: 1px solid var(--h-accent);
+      background: transparent;
+      color: var(--h-accent);
+      font-size: 12px;
+      font-family: inherit;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: background .15s ease, color .15s ease;
+    }
+    .gua-actions button:hover { background: var(--h-accent); color: #fff; }
+    /* 「摇一卦」为主要动作：实底朱砂红 */
+    .gua-actions #gua-shake { background: var(--h-accent); color: #fff; border-color: var(--h-accent); }
+    .gua-actions #gua-shake:hover { background: #7d1f1a; }
+
+    /* 🪙 摇一卦：全屏半透明遮罩 + 铜钱 3D 翻飞 + 六爻 + 卦象结果 */
+    #shake-overlay {
+      position: fixed; inset: 0;
+      z-index: 30000;
+      background: rgba(58, 50, 38, 0.6);
+      display: flex; align-items: center; justify-content: center;
+      padding: 20px;
+      animation: gua-fade .2s ease;
+    }
+    #shake-overlay[hidden] { display: none; }
+    #shake-stage {
+      width: 340px; max-width: 100%;
+      background: var(--h-bg);
+      border: 1px solid var(--h-accent);
+      border-radius: 10px;
+      padding: 22px 20px 18px;
+      text-align: center;
+      box-shadow: 0 16px 46px rgba(0, 0, 0, 0.35);
+    }
+    .coin-wrap { perspective: 600px; display: inline-block; margin: 2px 0 10px; }
+    .coin-flip { position: relative; width: 48px; height: 48px; transform-style: preserve-3d; }
+    .coin-face {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      border-radius: 50%;
+      backface-visibility: hidden; -webkit-backface-visibility: hidden;
+    }
+    .coin-front { transform: rotateY(0deg); }
+    .coin-back { transform: rotateY(180deg); }
+    .coin-face svg { width: 100%; height: 100%; display: block; }
+    .shake-lines { display: flex; flex-direction: column; gap: 2px; min-height: 8px; margin-bottom: 8px; }
+    .yao-line { display: flex; justify-content: center; gap: 6px; margin: 3px 0; }
+    .yao-line span { display: block; background: #c0392b; border-radius: 2px; }
+    .yao-line.yang span { width: 88px; height: 6px; }   /* 阳：红色粗线 — */
+    .yao-line.yin span { width: 38px; height: 2px; }    /* 阴：两条红色细线 - - */
+    .shake-result[hidden] { display: none; }
+    .shake-gua { font-size: 16px; color: var(--h-ink); font-weight: 700; letter-spacing: 1px; }
+    .shake-unicode { font-size: 28px; vertical-align: -3px; margin-right: 6px; }
+    .shake-tuan { font-size: 14px; line-height: 1.9; color: var(--h-ink); margin-top: 8px; }
+    .shake-src { font-size: 12px; color: var(--h-soft); text-align: right; margin-top: 8px; }
+    .shake-actions {
+      display: flex; gap: 10px; justify-content: center;
+      margin-top: 14px; padding-top: 12px;
+      border-top: 1px dashed var(--h-line);
+    }
+    .shake-actions[hidden] { display: none; }
+    .shake-actions button {
+      padding: 6px 16px; font-size: 13px; font-family: inherit;
+      border: 1px solid var(--h-accent); border-radius: 999px;
+      background: transparent; color: var(--h-accent); cursor: pointer;
+      transition: background .15s ease, color .15s ease;
+    }
+    .shake-actions button:hover { background: var(--h-accent); color: #fff; }
+    .shake-actions #shake-again { background: var(--h-accent); color: #fff; }
+    .shake-actions #shake-again:hover { background: #7d1f1a; }
+
     @media (max-width: 640px) {
       .main-nav { gap: 18px; order: 3; width: 100%; justify-content: center; }
       .search-box { order: 2; }
@@ -114,7 +236,10 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/brand-icon.png" alt="古籍文庫"> 古籍文庫</a>
+      <div class="brand-wrap">
+        <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/brand-icon.png" alt="一堆古书"> 一堆古书</a>
+        <span class="tagline">没什么正经的，就是一堆古书</span>
+      </div>
       <nav class="main-nav">
         <a href="index.html" class="active">首頁</a>
         <a href="library.html">書庫</a>
@@ -159,7 +284,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-note">本站內容來自古登堡中文古籍計劃，依據 Project Gutenberg License 自由分發 · 內容僅供學習研究使用</div>
+      <div class="footer-note">文本来源：Project Gutenberg，依据 Project Gutenberg License 自由分发 · 内容仅供学习研究使用</div>
       <div class="footer-links">
         <a href="sponsor.html">捐助</a>
         <a href="links.html">相關鏈接</a>
@@ -200,9 +325,52 @@
     </svg>
   </div>
 
+  <!-- ☯ 今日一卦：右下角胶囊按钮 + 向上弹出浮层（数据见 js/daily-gua.js） -->
+  <div id="gua-root">
+    <button id="gua-btn" type="button" title="今日一卦 · 每日一签">☯ 今日一卦</button>
+    <div id="gua-pop" hidden></div>
+  </div>
+
+  <!-- 🪙 摇一卦：全屏遮罩 + 铜钱 3D 翻飞 + 六爻结果（逻辑见 js/daily-gua.js） -->
+  <div id="shake-overlay" hidden>
+    <div id="shake-stage">
+      <div class="coin-wrap">
+        <div class="coin-flip" id="shake-coin">
+          <div class="coin-face coin-front">
+            <svg viewBox="0 0 48 48" aria-hidden="true">
+              <circle cx="24" cy="24" r="21" fill="#C9A87A" stroke="#a8894f" stroke-width="2"/>
+              <rect x="17" y="20" width="14" height="14" fill="#C9A87A" stroke="#a8894f" stroke-width="2"/>
+              <rect x="19" y="22" width="10" height="10" fill="#7a5d2e"/>
+              <text x="24" y="17" text-anchor="middle" font-size="12" fill="#6b4f24" font-family="serif">文</text>
+            </svg>
+          </div>
+          <div class="coin-face coin-back">
+            <svg viewBox="0 0 48 48" aria-hidden="true">
+              <circle cx="24" cy="24" r="21" fill="#C9A87A" stroke="#a8894f" stroke-width="2"/>
+              <circle cx="24" cy="24" r="16" fill="none" stroke="#a8894f" stroke-width="1"/>
+              <rect x="17" y="20" width="14" height="14" fill="#C9A87A" stroke="#a8894f" stroke-width="2"/>
+              <rect x="19" y="22" width="10" height="10" fill="#7a5d2e"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="shake-lines" id="shake-lines"></div>
+      <div class="shake-result" id="shake-result" hidden>
+        <div class="shake-gua"><span class="shake-unicode" id="shake-unicode"></span><span id="shake-name"></span></div>
+        <div class="shake-tuan" id="shake-tuan"></div>
+        <div class="shake-src">——《易经》</div>
+      </div>
+      <div class="shake-actions" id="shake-actions" hidden>
+        <button type="button" id="shake-again">再看一次</button>
+        <button type="button" id="shake-close">关闭</button>
+      </div>
+    </div>
+  </div>
+
   <script src="js/common.js"></script>
   <script src="js/daily-sentence.js"></script>
   <script src="js/home-search.js"></script>
+  <script src="js/daily-gua.js"></script>
   <script src="js/global-ai.js"></script>
 </body>
 </html>

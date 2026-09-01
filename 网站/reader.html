@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>阅读 · 古籍文库</title>
+  <title>阅读 · 一堆古书</title>
   <link rel="stylesheet" href="css/style.css">
   <!-- opencc-js：简繁转换（同步转换，全量字典） -->
   <script src="https://cdn.jsdelivr.net/npm/opencc-js@1.0.5/dist/umd/full.js"></script>
@@ -11,7 +11,7 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/brand-icon.png" alt="古籍文库"> 古籍文库</a>
+      <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/brand-icon.png" alt="一堆古书"> 一堆古书</a>
       <div class="header-actions">
 <div class="search-box">
         <button id="search-toggle" type="button" title="搜索：書名 / 作者 / 分類" aria-label="搜索">🔍</button>
@@ -50,7 +50,7 @@
         <button class="scheme-btn" data-bg="#ffffff" data-fg="#222222" style="background:#ffffff;color:#222222" title="白底黑字">白</button>
         <button class="scheme-btn" data-bg="#1e1e1e" data-fg="#e8e8e8" style="background:#1e1e1e;color:#e8e8e8" title="黑底白字">黑</button>
         <button class="scheme-btn" data-bg="#c7edcc" data-fg="#222222" style="background:#c7edcc;color:#222222" title="护眼绿底黑字">绿</button>
-        <button class="scheme-btn active" data-bg="#f5ead0" data-fg="#3a3226" style="background:#f5ead0;color:#3a3226" title="羊皮纸底黑字">纸</button>
+        <button class="scheme-btn active" data-bg="#f5ead0" data-fg="#3a3226" style="background:#f5ead0;color:#3a3226" title="羊皮纸纹理底黑字（默认）">纸</button>
       </div>
       <div class="rs-group">
         <span class="rs-label">简繁</span>
@@ -124,7 +124,7 @@
       sessionStorage.setItem('lib_selected', JSON.stringify({
         title: title,
         text: text,
-        source: headerBook ? headerBook.textContent.replace(/[《》]/g, '') : '古籍文库',
+        source: headerBook ? headerBook.textContent.replace(/[《》]/g, '') : '一堆古书',
         pos: anchor || ''
       }));
     } catch (e) { /* 隐私模式等异常忽略 */ }
@@ -134,37 +134,6 @@
     window.location.href = '/reader/shiji_reader.html';
   }
   </script>
-
-    <script>
-  // 选中正文文字 → 自动复制到 AI 对话框输入框（不打断原生右键菜单与自由复制）
-  (function () {
-    var lastToastAt = 0;
-    function onSelect() {
-      var sel = window.getSelection();
-      if (!sel || sel.isCollapsed) return;
-      var body = document.getElementById('reader-body');
-      if (!body || !body.contains(sel.anchorNode) || !body.contains(sel.focusNode)) return;
-      var txt = sel.toString().trim();
-      if (txt.length < 2) return;
-      if (window.GAI && window.GAI.setDraft) window.GAI.setDraft(txt);
-      var panel = document.getElementById('gai-panel');
-      if ((!panel || panel.hidden) && Date.now() - lastToastAt > 4000 && window.GAI && window.GAI.toast) {
-        lastToastAt = Date.now();
-        window.GAI.toast('已复制到 AI 对话框 · 点左下角 🤖 打开');
-      }
-    }
-    document.addEventListener('mouseup', function (e) {
-      var panel = document.getElementById('gai-panel');
-      if (panel && panel.contains(e.target)) return;
-      onSelect();
-    });
-    // 键盘选中（Shift+方向键）
-    document.addEventListener('keyup', function (e) {
-      if (e.key === 'Shift' || e.key.indexOf('Arrow') === 0) onSelect();
-    });
-  })();
-  </script>
-
 
   <script src="js/common.js"></script>
   <script src="js/reader.js"></script>

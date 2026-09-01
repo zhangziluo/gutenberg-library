@@ -31,7 +31,7 @@
   }
 
   loading.hidden = true;
-  document.title = book.title + ' · 书目 · 古籍文库';
+  document.title = book.title + ' · 书目 · 一堆古书';
   document.getElementById('book-title').textContent = book.title;
   document.getElementById('crumb-book').textContent = book.title;
   document.getElementById('header-book').textContent = '《' + book.title + '》';

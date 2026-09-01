@@ -1,6 +1,6 @@
 #!/bin/bash
 # ============================================================
-# 古籍文库 · Cloudflare Pages 构建脚本
+# 一堆古书 · Cloudflare Pages 构建脚本
 # 将仓库整理为可直接托管的 dist/：
 #   主站(网站/) + 站点数据(文本/_site_data/) + AI 阅读器(/reader/) + Functions(/api/*)
 # Cloudflare 设置：构建命令 `bash deploy/build.sh`，输出目录 `dist`

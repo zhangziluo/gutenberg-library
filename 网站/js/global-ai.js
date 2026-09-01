@@ -1,5 +1,5 @@
 /* ============================================================
-   古籍文库 · 全局 AI 助手（全站浮动）
+   一堆古书 · 全局 AI 助手（全站浮动）
    - 通用问答 / 翻译 / 书籍推荐（DeepSeek，用户自填 Key）
    - 章节阅读页自动携带 当前章节标题 + 作者 + 书名 作为上下文
    - Key 复用 AI 阅读器存储键 guoxue_api_key（仅存浏览器本地）
@@ -11,6 +11,9 @@
   var KEY_STORAGE = 'guoxue_api_key';
   var API_URL = 'https://api.deepseek.com/v1/chat/completions';
   var MODEL = 'deepseek-chat';
+  var READING_KEY = 'gjs:reading';  // 阅读页自定义模板键（与阅读页 / AI 阅读器共用）
+  var PAPER_BG = '#f5ead0';         // 默认羊皮纸底色
+  var PAPER_FG = '#3a3226';         // 默认墨色文字
 
   // 书名 → 作者（与 catalog.json 保持一致；用于章节页上下文）
   var AUTHORS = {
@@ -21,7 +24,7 @@
 
   var MODES = {
     chat: {
-      system: '你是「古籍文库」（古登堡繁体古籍在线阅读站）的 AI 助手，精通中国古典文献：经史子集、二十四史、四大名著、古文選本。请用简体中文、简洁准确地回答；涉及原文时注明出处（书名·篇名）。'
+      system: '你是「一堆古书」（古登堡繁体古籍在线阅读站）的 AI 助手，精通中国古典文献：经史子集、二十四史、四大名著、古文選本。请用简体中文、简洁准确地回答；涉及原文时注明出处（书名·篇名）。'
     },
     translate: {
       system: '你是古籍白话翻译助手。把用户给出的繁体/文言原文逐句翻译成现代白话，语言通顺自然，人名、地名、典故保留原名，必要时用括号补充说明，不做额外发挥。'
@@ -75,7 +78,21 @@
       '</div>' +
       '<div class="gai-input">' +
         '<textarea id="gai-text" rows="2" placeholder="问点什么…（Enter 发送，Shift+Enter 换行）"></textarea>' +
-        '<button type="button" id="gai-send">发送</button>' +
+        '<div class="gai-input-btns">' +
+          '<button type="button" id="gai-note" title="📝 保存为笔记">📝</button>' +
+          '<button type="button" id="gai-send">发送</button>' +
+        '</div>' +
+      '</div>' +
+      '<div class="gai-note" id="gai-note-editor" hidden>' +
+        '<div class="gai-note-head">📝 保存为笔记</div>' +
+        '<div class="gai-note-label">原文</div>' +
+        '<div class="gai-note-src" id="gai-note-src"></div>' +
+        '<div class="gai-note-label">批注</div>' +
+        '<textarea id="gai-note-cmt" rows="2" placeholder="写点批注……"></textarea>' +
+        '<div class="gai-note-actions">' +
+          '<button type="button" id="gai-note-save">保存</button>' +
+          '<button type="button" id="gai-note-cancel">取消</button>' +
+        '</div>' +
       '</div>' +
       '<div class="gai-foot">' +
         '<a href="/ai-settings.html">⚙ AI 设置</a>' +
@@ -94,11 +111,71 @@
   var sendBtn = document.getElementById('gai-send');
   var clearBtn = document.getElementById('gai-clear');
   var tipEl = document.getElementById('gai-tip');
+  var noteBtn = document.getElementById('gai-note');
+  var noteEl = document.getElementById('gai-note-editor');
+  var noteSrcEl = document.getElementById('gai-note-src');
+  var noteCmtEl = document.getElementById('gai-note-cmt');
+  var noteSaveBtn = document.getElementById('gai-note-save');
+  var noteCancelBtn = document.getElementById('gai-note-cancel');
+
+  // ---------- 主题：跟随阅读页自定义模板（gjs:reading 的 bg/fg），默认羊皮纸 ----------
+  function hexToRgbArr(hex) {
+    var m = String(hex).replace('#', '').match(/^([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i);
+    if (!m) return [245, 234, 208];
+    return [parseInt(m[1], 16), parseInt(m[2], 16), parseInt(m[3], 16)];
+  }
+  function rgbaStr(rgb, a) { return 'rgba(' + rgb.join(',') + ',' + a + ')'; }
+
+  function applyTheme() {
+    var bg = PAPER_BG, fg = PAPER_FG;
+    try {
+      var saved = JSON.parse(localStorage.getItem(READING_KEY) || '{}');
+      if (saved && saved.bg && /^#[0-9a-fA-F]{6}$/.test(saved.bg)) bg = saved.bg;
+      if (saved && saved.fg && /^#[0-9a-fA-F]{6}$/.test(saved.fg)) fg = saved.fg;
+    } catch (e) { /* 解析失败则用默认羊皮纸 */ }
+    var rgbBg = hexToRgbArr(bg);
+    var lum = 0.299 * rgbBg[0] + 0.587 * rgbBg[1] + 0.114 * rgbBg[2];
+    var dark = lum < 128;                 // 深色主题（墨夜/黑底）反色适配
+    var paper = bg.toLowerCase() === PAPER_BG;
+    root.style.setProperty('--gai-bg', bg);
+    root.style.setProperty('--gai-fg', fg);
+    root.style.setProperty('--gai-line', rgbaStr(hexToRgbArr(fg), 0.3));
+    root.style.setProperty('--gai-bubble-bg', dark ? 'rgba(255,255,255,0.16)' : '#ffffff');
+    root.style.setProperty('--gai-bubble-fg', fg);
+    root.style.setProperty('--gai-input-bg', dark ? 'rgba(255,255,255,0.16)' : 'rgba(255,255,255,0.85)');
+    root.style.setProperty('--gai-msg-bg', dark ? 'rgba(0,0,0,0.18)' : 'rgba(255,255,255,0.45)');
+    root.style.setProperty('--gai-ctx-bg', dark ? 'rgba(255,255,255,0.08)' : 'rgba(255,255,255,0.35)');
+    root.style.setProperty('--gai-ctx-fg', dark ? 'rgba(255,255,255,0.85)' : '#6d5320');
+    root.classList.toggle('gai-dark', dark);
+    root.classList.toggle('gai-paper', paper);  // 默认羊皮纸底色 → 叠加羊皮纸纹理
+  }
+
+  // 其他标签页修改阅读模板时实时同步（同页内由阅读页 applyReading 主动调用 GAI.theme）
+  window.addEventListener('storage', function (e) {
+    if (e.key === READING_KEY) applyTheme();
+  });
 
   var mode = 'chat';
   var history = [];          // {role, content}
   var ctx = detectContext();
   var open = false;
+  var selectedText = '';     // 全站选中文字暂存（打开对话框时自动填入，填入后清空）
+
+  // ---------- 全站文字选中 → 存入全局变量（不劫持右键菜单 / 不影响原生复制） ----------
+  function captureSelection() {
+    if (open) return;                       // 对话框展开期间不记录（避免覆盖已填内容）
+    var sel = window.getSelection();
+    if (!sel || sel.isCollapsed) return;
+    var txt = sel.toString().trim();
+    if (txt.length < 2) return;             // 长度不足 2 不记录
+    if (panel && panel.contains(sel.anchorNode) && panel.contains(sel.focusNode)) return; // 对话框内选中不记录
+    selectedText = txt;
+  }
+  document.addEventListener('mouseup', captureSelection);
+  // 键盘选中（Shift+方向键）同样记录
+  document.addEventListener('keyup', function (e) {
+    if (e.key === 'Shift' || e.key.indexOf('Arrow') === 0) captureSelection();
+  });
 
   function esc(s) {
     return String(s).replace(/[&<>"']/g, function (c) {
@@ -148,16 +225,27 @@
   }
 
   function openPanel() {
+    applyTheme(); // 每次打开面板时同步阅读页自定义模板
     open = true;
     panel.hidden = false;
     // 章节页正文为异步渲染，打开面板时重新检测上下文
     ctx = detectContext();
     showCtx();
     refreshKeyState();
+    // 全站选中过文字 → 打开时自动填入输入框并清空变量（未选中则保持空白，正常聊天）
+    if (selectedText) {
+      textEl.value = selectedText;
+      selectedText = '';
+    }
     textEl.focus();
   }
 
-  function closePanel() { open = false; panel.hidden = true; hideKeyTip(); }
+  function closePanel() {
+    open = false;
+    panel.hidden = true;
+    hideKeyTip();
+    if (noteEl) noteEl.hidden = true;   // 收起时同时收起笔记编辑区
+  }
 
   // 未配置 Key 时：输入文字自动触发 💡 灯泡提示（自动消失，不阻断）
   var tipTimer = null, lastTipAt = 0;
@@ -190,6 +278,48 @@
   });
 
   clearBtn.addEventListener('click', function () { history = []; refreshKeyState(); });
+
+  // ---------- 📝 保存为笔记（纯前端，互不影响正常 AI 对话） ----------
+  var noteSrcText = '';    // 打开笔记区时「原文」的定格快照（保存用同一份）
+
+  function openNoteEditor() {
+    noteSrcText = textEl.value.trim();               // 原文 = 当前输入框中的文字（即刚才选中的文字）
+    noteSrcEl.textContent = noteSrcText || '暂无选中文字';
+    noteCmtEl.value = '';
+    noteEl.hidden = false;
+    noteCmtEl.focus();
+  }
+
+  function closeNoteEditor() {
+    noteEl.hidden = true;
+    noteCmtEl.value = '';
+  }
+
+  function pad2(n) { return String(n).padStart(2, '0'); }
+
+  function saveNote() {
+    var cmt = noteCmtEl.value.trim();
+    var body = '【原文】\n' + noteSrcText + '\n\n【批注】\n' + cmt + '\n\n——来自「一堆古书」\n';
+    var d = new Date();
+    var fileName = '笔记_' + d.getFullYear() + '-' + pad2(d.getMonth() + 1) + '-' + pad2(d.getDate()) +
+      '_' + pad2(d.getHours()) + '-' + pad2(d.getMinutes()) + '-' + pad2(d.getSeconds()) + '.txt';
+    var blob = new Blob([body], { type: 'text/plain;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = fileName;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+    // 下载完成后关闭笔记区，并清空 AI 输入框
+    closeNoteEditor();
+    textEl.value = '';
+  }
+
+  noteBtn.addEventListener('click', openNoteEditor);
+  noteSaveBtn.addEventListener('click', saveNote);
+  noteCancelBtn.addEventListener('click', closeNoteEditor);   // 取消：不下载、不清除输入框
 
   function buildSystem() {
     var base = MODES[mode] ? MODES[mode].system : MODES.chat.system;
@@ -254,7 +384,9 @@
 
   // 公开 API
   window.GAI = {
+    theme: applyTheme,
     openWithText: function (text) {
+      selectedText = '';   // 显式指定文本时，不再带入此前全站选中的文字
       if (text) textEl.value = text;
       openPanel();
       try { textEl.setSelectionRange(textEl.value.length, textEl.value.length); } catch (e) { /* 忽略 */ }
@@ -267,6 +399,7 @@
     toast: gaiToast
   };
 
+  applyTheme();
   showCtx();
 })();
 

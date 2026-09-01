@@ -148,6 +148,19 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
 .preset-btn.active{border-color:#4a90d9;box-shadow:0 0 0 2px rgba(74,144,217,.30)}
 .rs-range{width:120px;accent-color:#4a90d9;cursor:pointer;vertical-align:middle}
 
+/* ===== 羊皮纸材质背景（默认素纸 #f5ead0 时启用，纯 CSS 渐变模拟） ===== */
+#reader.paper,#assistant.paper{
+  background-image:
+    radial-gradient(ellipse 160% 130% at 50% 50%,transparent 55%,rgba(126,96,56,.14) 100%),
+    repeating-linear-gradient(0deg,rgba(139,107,66,.045) 0 1px,transparent 1px 3px),
+    repeating-linear-gradient(90deg,rgba(139,107,66,.035) 0 1px,transparent 1px 4px),
+    radial-gradient(ellipse 120px 90px at 15% 25%,rgba(176,140,92,.10),transparent 70%),
+    radial-gradient(ellipse 110px 150px at 82% 18%,rgba(140,105,60,.08),transparent 70%),
+    radial-gradient(ellipse 160px 110px at 68% 78%,rgba(196,160,108,.09),transparent 70%),
+    radial-gradient(ellipse 100px 130px at 30% 72%,rgba(120,90,50,.07),transparent 70%),
+    radial-gradient(ellipse 240px 180px at 50% 110%,rgba(150,115,70,.10),transparent 75%);
+}
+
 /* ===== 右侧抽屉：内容滚动区 + 底部对话窗口 ===== */
 .assistant-scroll{flex:1;min-height:0;overflow-y:auto;padding-bottom:12px}
 .chat-panel{flex-shrink:0;margin:0 -16px;padding:10px 12px 8px;border-top:1px solid #e0e0e0;background:#fff}
@@ -172,6 +185,26 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
 .chat-modes button:hover{border-color:#4a90d9;color:#4a90d9}
 .chat-modes button.active{background:#4a90d9;color:#fff;border-color:#4a90d9}
 .chat-hint{font-size:12px;color:#c96f2e;padding:4px 2px;line-height:1.5}
+.chat-actions-btns{display:flex;gap:8px;align-items:center;margin-left:auto}
+#chatNote{padding:6px 12px;background:#fff;color:#9e2b25;border:1px solid #9e2b25;border-radius:6px;cursor:pointer;font-size:13px;white-space:nowrap;font-family:inherit;line-height:1.4}
+#chatNote:hover{background:#9e2b25;color:#fff}
+/* 📝 笔记编辑区（仿古黄 #F5F0E6 · 墨字 #3A3226 · 朱砂 #9E2B25） */
+.note-editor{margin-top:8px;border:1px solid #9e2b25;border-radius:8px;background:#F5F0E6;color:#3A3226;padding:10px 12px;font-size:13px}
+.note-editor[hidden]{display:none}
+.note-editor-head{font-weight:bold;color:#9e2b25;margin-bottom:4px;font-size:13px;letter-spacing:1px}
+.note-editor-label{font-size:12px;color:#6b6152;margin:6px 0 4px}
+.note-editor-src{font-size:12px;line-height:1.7;color:#6b6152;background:rgba(255,255,255,.55);border:1px dashed #c9b896;border-radius:6px;padding:6px 8px;max-height:88px;overflow-y:auto;white-space:pre-wrap;word-break:break-word}
+.note-editor textarea{width:100%;box-sizing:border-box;resize:vertical;min-height:52px;max-height:120px;border:1px solid #9e2b25;border-radius:6px;padding:6px 8px;font-size:13px;font-family:inherit;color:#3A3226;background:#fffaf0;outline:none}
+.note-editor textarea:focus{box-shadow:0 0 0 2px rgba(158,43,37,.18)}
+.note-editor-actions{display:flex;gap:8px;margin-top:8px}
+.note-editor-actions button{padding:4px 16px;font-size:13px;font-family:inherit;border-radius:6px;cursor:pointer;line-height:1.6}
+#noteSave{background:#9e2b25;color:#fff;border:1px solid #9e2b25}
+#noteSave:hover{background:#7d1f1a;border-color:#7d1f1a}
+#noteCancel{background:transparent;color:#9e2b25;border:1px solid #9e2b25}
+#noteCancel:hover{background:rgba(158,43,37,.08)}
+/* 笔记区展开时压缩对话记录，避免溢出 */
+.chat-panel.note-open .chat-body{max-height:0;margin-bottom:0;overflow:hidden}
+.chat-panel.note-open .chat-modes{display:none}
 .ai-toast{position:fixed;bottom:96px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.78);color:#fff;padding:8px 18px;border-radius:20px;font-size:13px;z-index:9999;opacity:0;pointer-events:none;transition:opacity .25s;max-width:82vw;text-align:center}
 .ai-toast.show{opacity:1}
 .ai-error{color:#7a5f2d;font-size:13px;background:#fbf3df;border:1px dashed #e3c9a6;border-radius:8px;padding:10px 12px;line-height:1.7}
@@ -330,7 +363,22 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
         <div class="chat-hint" id="chatHint" hidden></div>
         <div class="chat-actions">
           <span class="chat-status" id="chatStatus"></span>
-          <button id="chatSend">发送</button>
+          <div class="chat-actions-btns">
+            <button id="chatNote" title="📝 保存为笔记">📝</button>
+            <button id="chatSend">发送</button>
+          </div>
+        </div>
+        <!-- 📝 笔记编辑区（纯前端，仿古黄底 / 墨字 / 朱砂边框） -->
+        <div class="note-editor" id="noteEditor" hidden>
+          <div class="note-editor-head">📝 保存为笔记</div>
+          <div class="note-editor-label">原文</div>
+          <div class="note-editor-src" id="noteEditorSrc"></div>
+          <div class="note-editor-label">批注</div>
+          <textarea id="noteEditorCmt" rows="2" placeholder="写点批注……"></textarea>
+          <div class="note-editor-actions">
+            <button id="noteSave">保存</button>
+            <button id="noteCancel">取消</button>
+          </div>
         </div>
       </div>
     </div>
@@ -407,7 +455,7 @@ const readerContent = $('readerContent'),
   quizArea = $('quizArea'),
   fileInfo = $('fileInfo');
 
-// 自动读取文库选中（含古籍文库跳转，d.pos 为阅读位置锚点）
+// 自动读取文库选中（含一堆古书章节页跳转，d.pos 为阅读位置锚点）
 // 注意：必须延迟到脚本全部执行完再载入——loadTxt/bindSentenceEvents 依赖的
 // transCache、CONFIG、hoverTimer 等 const/let 声明在本块之后，立即调用会触发暂存死区(TDZ)报错。
 const libSel = sessionStorage.getItem('lib_selected');
@@ -563,7 +611,7 @@ function bindSentenceEvents() {
   }
 }
 
-// 从古籍文库章节页跳转时，按段落文本锚点恢复阅读位置（定位到对应句子并居中滚动）
+// 从一堆古书章节页跳转时，按段落文本锚点恢复阅读位置（定位到对应句子并居中滚动）
 function restorePosition(anchor) {
   const a = String(anchor || '').trim();
   if (!a || !state.sentences.length) return;
@@ -1618,6 +1666,12 @@ function applyReading() {
   rootStyle.setProperty('--reading-text-color', reading.fg);
   rootStyle.setProperty('--bg', reading.bg); // 兼容旧内联翻译框引用
 
+  // 默认素纸色 → 阅读区与 AI 辅助栏启用羊皮纸材质
+  const paper = reading.bg.toLowerCase() === '#f5ead0';
+  const rdr = $('reader'), asst = $('assistant');
+  if (rdr) rdr.classList.toggle('paper', paper);
+  if (asst) asst.classList.toggle('paper', paper);
+
   const fsv = $('fontSizeVal');
   if (fsv) fsv.textContent = reading.fontSize;
   const fsr = $('fontSizeRange');
@@ -1841,12 +1895,58 @@ $('chatInput').addEventListener('keydown', function (e) {
   if (!rc) return;
   if (('ontouchstart' in window) || navigator.maxTouchPoints > 0) return;
   function fillFromSelection() {
+    if ($('noteEditor') && !$('noteEditor').hidden) return;  // 笔记编辑中不覆盖输入框
     const sel = window.getSelection();
     const txt = sel ? sel.toString().trim() : '';
-    if (txt) $('chatInput').value = txt;
+    if (txt.length >= 2) $('chatInput').value = txt;
   }
   rc.addEventListener('mouseup', fillFromSelection);
   rc.addEventListener('keyup', fillFromSelection);
+})();
+
+// 📝 保存为笔记（纯前端，不依赖后端；互不影响正常提问）
+(function () {
+  const editor = $('noteEditor'),
+    srcEl = $('noteEditorSrc'),
+    cmtEl = $('noteEditorCmt'),
+    chatPanel = document.querySelector('.chat-panel');
+  let srcText = '';   // 打开笔记区时「原文」的定格快照（保存用同一份）
+  function pad2(n) { return String(n).padStart(2, '0'); }
+  function openNoteEditor() {
+    srcText = $('chatInput').value.trim();
+    srcEl.textContent = srcText || '暂无选中文字';
+    cmtEl.value = '';
+    editor.hidden = false;
+    if (chatPanel) chatPanel.classList.add('note-open');
+    cmtEl.focus();
+  }
+  function closeNoteEditor() {
+    editor.hidden = true;
+    if (chatPanel) chatPanel.classList.remove('note-open');
+    cmtEl.value = '';
+  }
+  function saveNote() {
+    const cmt = cmtEl.value.trim();
+    const body = '【原文】\n' + srcText + '\n\n【批注】\n' + cmt + '\n\n——来自「一堆古书」\n';
+    const d = new Date();
+    const name = '笔记_' + d.getFullYear() + '-' + pad2(d.getMonth() + 1) + '-' + pad2(d.getDate()) +
+      '_' + pad2(d.getHours()) + '-' + pad2(d.getMinutes()) + '-' + pad2(d.getSeconds()) + '.txt';
+    const blob = new Blob([body], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = name;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+    // 下载完成后关闭笔记区，并清空问答输入框
+    closeNoteEditor();
+    $('chatInput').value = '';
+  }
+  $('chatNote').addEventListener('click', openNoteEditor);
+  $('noteSave').addEventListener('click', saveNote);
+  $('noteCancel').addEventListener('click', closeNoteEditor);   // 取消：不下载、不清输入框
 })();
 
 // 初始化：恢复上次对话记录；无记录则显示欢迎语
