@@ -238,14 +238,33 @@
     if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); }
   });
 
-  // 公开 API：阅读页选中文字时直接打开面板并预填输入框（可继续编辑或直接发送）
+  // 轻量 toast（预填确认提示）
+  var gaiToastEl = null, gaiToastTimer = null;
+  function gaiToast(msg, ms) {
+    if (!gaiToastEl) {
+      gaiToastEl = document.createElement('div');
+      gaiToastEl.className = 'gai-toast';
+      document.body.appendChild(gaiToastEl);
+    }
+    gaiToastEl.textContent = msg;
+    gaiToastEl.classList.add('show');
+    clearTimeout(gaiToastTimer);
+    gaiToastTimer = setTimeout(function () { gaiToastEl.classList.remove('show'); }, ms || 1800);
+  }
+
+  // 公开 API
   window.GAI = {
     openWithText: function (text) {
       if (text) textEl.value = text;
       openPanel();
       try { textEl.setSelectionRange(textEl.value.length, textEl.value.length); } catch (e) { /* 忽略 */ }
       textEl.focus();
-    }
+    },
+    // 只预填输入框，不打开面板、不抢焦点（保留页面选中，右键菜单可正常复制）
+    setDraft: function (text) {
+      if (text) textEl.value = text;
+    },
+    toast: gaiToast
   };
 
   showCtx();

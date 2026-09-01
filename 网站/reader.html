@@ -129,200 +129,36 @@
   }
   </script>
 
-  <script>
-  // 划词交互：精确高亮选中文字范围（Range API 覆盖 mark）+ 解释/操作浮窗（复制 / AI解读）
-  // 关闭：点击浮窗外空白（mousedown）/ Esc / 滚动超 50px / 浮窗右上角 ×；点浮窗内部不关闭
+    <script>
+  // 选中正文文字 → 自动复制到 AI 对话框输入框（不打断原生右键菜单与自由复制）
   (function () {
-    'use strict';
-    var markLayer = null, popup = null, overlay = null;
-    var selRange = null, scrollY0 = 0, rafId = 0;
-
-    function isSmall() { return window.innerWidth <= 600; }
-
-    function closeAll() {
-      if (markLayer) { markLayer.remove(); markLayer = null; }
-      if (popup) { popup.remove(); popup = null; }
-      if (overlay) overlay.style.display = 'none';
-      selRange = null;
-      try { window.getSelection().removeAllRanges(); } catch (e) { /* 忽略 */ }
-    }
-
-    function getSelInfo() {
+    var lastToastAt = 0;
+    function onSelect() {
       var sel = window.getSelection();
-      if (!sel || sel.isCollapsed) return null;
+      if (!sel || sel.isCollapsed) return;
       var body = document.getElementById('reader-body');
-      if (!body || !body.contains(sel.anchorNode) || !body.contains(sel.focusNode)) return null;
-      var text = sel.toString().trim();
-      if (text.length < 2) return null;   // 1-2 字不自动弹（避免划词误触）
-      var range;
-      try { range = sel.getRangeAt(0); } catch (e) { return null; }
-      var rs = range.getClientRects();
-      var rects = [];
-      for (var i = 0; i < rs.length; i++) {
-        var r = rs[i];
-        if (r.width < 1 || r.height < 1) continue;
-        rects.push({ left: r.left, top: r.top, width: r.width, height: r.height });
-      }
-      if (!rects.length) return null;
-      return { text: text, range: range, rects: rects };
-    }
-
-    // 用绝对定位 <mark> 精确覆盖选中区域（柔和高亮），不影响整行
-    function paintMarks(rects) {
-      if (!markLayer) {
-        markLayer = document.createElement('div');
-        markLayer.className = 'sel-layer';
-        document.body.appendChild(markLayer);
-      } else {
-        markLayer.innerHTML = '';
-      }
-      rects.forEach(function (r) {
-        var m = document.createElement('mark');
-        m.className = 'sel-mark';
-        m.style.left = r.left + 'px';
-        m.style.top = r.top + 'px';
-        m.style.width = r.width + 'px';
-        m.style.height = r.height + 'px';
-        markLayer.appendChild(m);
-      });
-    }
-
-    // 轻微滚动时重贴高亮位置（保持对准文字）
-    function refreshMarks() {
-      if (!popup || !selRange) return;
-      var rs = selRange.getClientRects();
-      var rects = [];
-      for (var i = 0; i < rs.length; i++) {
-        var r = rs[i];
-        if (r.width < 1 || r.height < 1) continue;
-        rects.push({ left: r.left, top: r.top, width: r.width, height: r.height });
-      }
-      paintMarks(rects);
-    }
-
-    function buildPopup(info) {
-      popup = document.createElement('div');
-      popup.className = 'sel-popup';
-
-      var head = document.createElement('div');
-      head.className = 'sel-popup-head';
-      head.innerHTML = '<span class="sel-popup-title">选中文字</span>';
-      var close = document.createElement('button');
-      close.type = 'button';
-      close.className = 'sel-popup-close';
-      close.title = '关闭';
-      close.innerHTML = '&times;';
-      head.appendChild(close);
-      popup.appendChild(head);
-
-      var textEl = document.createElement('div');
-      textEl.className = 'sel-popup-text';
-      textEl.textContent = info.text.length > 120 ? info.text.slice(0, 120) + '…' : info.text;
-      popup.appendChild(textEl);
-
-      var actions = document.createElement('div');
-      actions.className = 'sel-popup-actions';
-      var copyBtn = document.createElement('button');
-      copyBtn.type = 'button';
-      copyBtn.className = 'sel-popup-btn';
-      copyBtn.textContent = '📋 复制';
-      copyBtn.addEventListener('click', function () { copyText(info.text, copyBtn); });
-      var aiBtn = document.createElement('button');
-      aiBtn.type = 'button';
-      aiBtn.className = 'sel-popup-btn sel-popup-btn-ai';
-      aiBtn.textContent = '🤖 AI 解读';
-      aiBtn.addEventListener('click', function () {
-        if (window.GAI && window.GAI.openWithText) {
-          closeAll();
-          window.GAI.openWithText(info.text);   // 打开左侧 AI 窗口并预填
-        }
-      });
-      actions.appendChild(copyBtn);
-      actions.appendChild(aiBtn);
-      popup.appendChild(actions);
-
-      close.addEventListener('click', closeAll);
-      document.body.appendChild(popup);
-      positionPopup(info.rects);
-    }
-
-    function positionPopup(rects) {
-      if (!popup || isSmall()) return;   // 小屏为底部 sheet，由 CSS 定位
-      var vw = window.innerWidth;
-      var first = rects[0], last = rects[rects.length - 1];
-      var cx = first.left + (last.left + last.width - first.left) / 2;
-      var top = first.top - popup.offsetHeight - 10;
-      if (top < 8) top = last.top + last.height + 10;
-      popup.style.left = Math.max(8, Math.min(vw - popup.offsetWidth - 8, cx - popup.offsetWidth / 2)) + 'px';
-      popup.style.top = top + 'px';
-    }
-
-    function handleSelection() {
-      var info = getSelInfo();
-      if (!info) { closeAll(); return; }
-      closeAll();
-      selRange = info.range.cloneRange();
-      paintMarks(info.rects);
-      buildPopup(info);
-      scrollY0 = window.pageYOffset || 0;
-      if (isSmall()) {
-        if (!overlay) {
-          overlay = document.createElement('div');
-          overlay.className = 'sel-overlay';
-          overlay.addEventListener('mousedown', closeAll);
-          document.body.appendChild(overlay);
-        }
-        overlay.style.display = 'block';
+      if (!body || !body.contains(sel.anchorNode) || !body.contains(sel.focusNode)) return;
+      var txt = sel.toString().trim();
+      if (txt.length < 2) return;
+      if (window.GAI && window.GAI.setDraft) window.GAI.setDraft(txt);
+      var panel = document.getElementById('gai-panel');
+      if ((!panel || panel.hidden) && Date.now() - lastToastAt > 4000 && window.GAI && window.GAI.toast) {
+        lastToastAt = Date.now();
+        window.GAI.toast('已复制到 AI 对话框 · 点左下角 🤖 打开');
       }
     }
-
-    function copyText(text, btn) {
-      function done() {
-        var old = btn.textContent;
-        btn.textContent = '✅ 已复制';
-        setTimeout(function () { btn.textContent = old; }, 1500);
-      }
-      function fallback() {
-        var ta = document.createElement('textarea');
-        ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
-        document.body.appendChild(ta); ta.select();
-        try { document.execCommand('copy'); } catch (e) { /* 忽略 */ }
-        document.body.removeChild(ta);
-        done();
-      }
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(text).then(done).catch(fallback);
-      } else fallback();
-    }
-
     document.addEventListener('mouseup', function (e) {
       var panel = document.getElementById('gai-panel');
       if (panel && panel.contains(e.target)) return;
-      handleSelection();
+      onSelect();
     });
     // 键盘选中（Shift+方向键）
     document.addEventListener('keyup', function (e) {
-      if (e.key === 'Shift' || e.key.indexOf('Arrow') === 0) handleSelection();
+      if (e.key === 'Shift' || e.key.indexOf('Arrow') === 0) onSelect();
     });
-
-    // 关闭：点击浮窗外空白 / Esc / 滚动超 50px
-    document.addEventListener('mousedown', function (e) {
-      if (popup && !popup.contains(e.target)) closeAll();
-    });
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') closeAll();
-    });
-    window.addEventListener('scroll', function () {
-      if (!popup) return;
-      if (Math.abs((window.pageYOffset || 0) - scrollY0) > 50) {
-        closeAll();
-      } else {
-        cancelAnimationFrame(rafId);
-        rafId = requestAnimationFrame(refreshMarks);
-      }
-    }, true);
   })();
   </script>
+
 
   <script src="js/common.js"></script>
   <script src="js/reader.js"></script>
