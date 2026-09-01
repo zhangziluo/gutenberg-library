@@ -140,6 +140,15 @@
           "chapters": 64,
           "source": "Project Gutenberg #27686",
           "path": "data/books/digongan.json"
+        },
+        {
+          "key": "lv-mudan",
+          "book": "綠牡丹",
+          "author": "佚名",
+          "subcategory": "小說家（英雄傳奇）",
+          "chapters": 64,
+          "source": "Project Gutenberg #27330",
+          "path": "data/books/lv-mudan.json"
         }
       ]
     },

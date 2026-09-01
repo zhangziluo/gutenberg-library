@@ -26,6 +26,7 @@
       狄公案      → 64 回（位记数字）
       百家姓      → 整本 1 章（删书名行）
       禮記        → 49 篇（曲禮上第一…喪服四制第四十九）
+      綠牡丹      → 64 回（原文本「第二十一回」误作「二十一回」，已归一）
   * 同时生成 库索引 library-index.json（含分类）
 输出格式：
   { "book", "author", "category", "subcategory", "chapters": [{ "title", "content" }] }
@@ -438,6 +439,22 @@ def split_liji(body):
         chapters.append({'title': title, 'content': '\n'.join(paragraphs(raw))})
     return chapters
 
+
+RE_HUI_NO_DI = re.compile(r'^[ 　]*([〇○零一二三四五六七八九十百]+)回$')
+
+
+def normalize_hui_no_di(body):
+    """古登堡 #27330 綠牡丹：原文本「第二十一回」误作「二十一回」，统一为「第X回」。"""
+    out = []
+    for l in body:
+        m = RE_HUI_NO_DI.match(l)
+        if m:
+            out.append('第' + m.group(1) + '回')
+        else:
+            out.append(l)
+    return out
+
+
 BOOKS = [
     {
         'key': 'shanshui-qing', 'book': '山水情', 'author': '佚名',
@@ -609,6 +626,14 @@ BOOKS = [
         'source': 'Project Gutenberg #24048', 'file': '禮記.txt',
         'split': 'liji',
     },
+    # ---- 第三批新书（2026-09-01 入库） ----
+    {
+        'key': 'lv-mudan', 'book': '綠牡丹', 'author': '佚名',
+        'category': '子部', 'subcategory': '小說家（英雄傳奇）',
+        'source': 'Project Gutenberg #27330', 'file': '綠牡丹.txt',
+        'split': 'hui', 'title_next': True, 'drop_prefix': True,
+        'normalize_hui_no_di': True,   # 原文本「第二十一回」误作「二十一回」
+    },
 ]
 
 SPLITTERS = {
@@ -633,6 +658,8 @@ def main():
         body = extract_body(lines)
         if cfg.get('head_drop'):
             body = body[cfg['head_drop']:]     # 删开头畸形书名行（三字經》/百家姓/燕丹子）
+        if cfg.get('normalize_hui_no_di'):
+            body = normalize_hui_no_di(body)   # 綠牡丹「二十一回」→「第二十一回」
         splitter = SPLITTERS[cfg['split']]
         if cfg['split'] == 'hui':
             chapters = splitter(body, cfg.get('keep_prefix_title'), cfg.get('cut_at'),
