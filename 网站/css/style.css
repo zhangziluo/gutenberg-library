@@ -121,14 +121,14 @@ body {
 #search-input.open { width: 200px; padding: 5px 8px; border-bottom-color: var(--ink-soft); }
 #search-dropdown {
   position: absolute; top: 100%; right: 0; width: 340px; max-height: 340px; overflow-y: auto;
-  background: #fff; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--paper-light); border: 1px solid var(--line); border-radius: 8px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12); z-index: 120;
 }
 #search-dropdown a {
   display: block; padding: 10px 14px; border-bottom: 1px solid var(--line);
   text-decoration: none; color: var(--ink);
 }
-#search-dropdown a:hover { background: #f6f6f6; }
+#search-dropdown a:hover { background: var(--paper); }
 .s-name { font-size: 15px; }
 .s-name small { color: var(--ink-soft); font-size: 11px; margin-left: 8px; }
 .s-meta { color: var(--ink-soft); font-size: 12px; margin-top: 2px; }
@@ -136,7 +136,7 @@ body {
 
 /* 移动端搜索浮层 */
 #search-overlay {
-  position: fixed; inset: 0; background: #fff; z-index: 20000;
+  position: fixed; inset: 0; background: var(--paper-light); z-index: 20000;
   display: none; flex-direction: column; padding: 24px 20px;
 }
 #search-overlay.open { display: flex; }
