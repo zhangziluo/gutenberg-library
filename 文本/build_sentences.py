@@ -18,7 +18,6 @@ BASE = os.path.dirname(os.path.abspath(__file__))          # 文本/
 DATA = os.path.join(BASE, '_site_data')
 OUT_DIR = os.path.join(BASE, '..', '网站', 'library', 'sentences')
 MANIFEST_OUT = os.path.join(BASE, '..', '网站', 'library', 'sentence-manifest.json')
-MODERN_SRC = os.path.join(BASE, '作者手记', '2134.md')
 
 # 书 → (分类, bookId)
 BOOK_META = {
@@ -31,7 +30,7 @@ BOOK_META = {
     '紅樓夢': ('zi', 'honglou-meng'),
     '古文觀止': ('ji', 'gwz'),
 }
-CATS = ['jing', 'shi', 'zi', 'ji', 'modern']
+CATS = ['jing', 'shi', 'zi', 'ji']
 
 SENT_END = '。．！？；：'
 CLEAN_STRIP = ' \u3000，,、。．！？；：'
@@ -100,42 +99,6 @@ def build_for_book(book_name, cat, book_id):
                 })
     return recs
 
-def build_modern():
-    if not os.path.exists(MODERN_SRC):
-        return []
-    text = open(MODERN_SRC, encoding='utf-8').read()
-    text = re.sub(r'^#+[^\n]*\n', '', text, flags=re.M)
-    text = text.replace('**', '')
-    recs, seen = [], set()
-    units = []
-    buf = ''
-    for ch in text:
-        buf += ch
-        if ch in '。！？\n':
-            units.append(buf)
-            buf = ''
-    if buf.strip():
-        units.append(buf)
-    for si, u in enumerate(units):
-        for piece in re.split(r'[，,、；：]', u):
-            s = piece.strip(CLEAN_STRIP)
-            if not (5 <= len(s) <= 60):
-                continue
-            if s in seen:
-                continue
-            seen.add(s)
-            recs.append({
-                'id': f'author-notes-{si:03d}-{len(recs):03d}',
-                'text': s,
-                'book': '作者手记',
-                'bookId': 'author-notes',
-                'chapter': '作者手记',
-                'anchor': s,
-                'length': len(s),
-            })
-    return recs
-
-
 def gzip_size(recs):
     raw = json.dumps(recs, ensure_ascii=False).encode('utf-8')
     return len(gzip.compress(raw, 9))
@@ -156,9 +119,6 @@ def main():
         recs = build_for_book(book_name, cat, book_id)
         all_recs[cat].extend(recs)
         print(f'  {book_name} → {cat}: {len(recs)} 句')
-
-    all_recs['modern'] = build_modern()
-    print(f'  作者手记 → modern: {len(all_recs["modern"])} 句')
 
     manifest = {'generated': '2026-08-31', 'categories': []}
     for cat in CATS:
