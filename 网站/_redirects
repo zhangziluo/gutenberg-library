@@ -1,13 +1,8 @@
-# 分类页干净路由（保持 /category/jing 形式的 URL）
-/category/jing   /category/jing.html   200
-/category/shi    /category/shi.html    200
-/category/zi     /category/zi.html     200
-/category/ji     /category/ji.html     200
-/category/cong   /category/cong.html   200
-
 # 旧分类地址 → 新路由（301）
+# /category/jing 等由 Cloudflare Pages 自动 clean-URL 解析到 /category/jing.html
 /library/jing    /category/jing.html   301
 /library/shi     /category/shi.html    301
 /library/zi      /category/zi.html     301
 /library/ji      /category/ji.html     301
 /library/modern  /category/ji.html     301
+
