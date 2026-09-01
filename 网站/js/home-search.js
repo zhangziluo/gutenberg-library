@@ -57,7 +57,7 @@
     var tags = [];
     if (it.part) tags.push(it.part);
     if (it.cat) tags.push(it.cat);
-    return '<a href="book.html?book=' + encodeURIComponent(it.book) + '">' +
+    return '<a href="/book.html?book=' + encodeURIComponent(it.book) + '">' +
       '<div class="s-name">' + esc(it.book) + (it.author ? '<small>' + esc(it.author) + '</small>' : '') + '</div>' +
       '<div class="s-meta">' + esc(tags.join(' · ')) + (it.count != null ? ' · 共 ' + it.count + ' 篇' : '') + '</div></a>';
   }

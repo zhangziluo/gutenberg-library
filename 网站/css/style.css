@@ -106,6 +106,55 @@ body {
   }
 }
 
+/* ---------- 全站搜索（首页 + 所有页面头部） ---------- */
+.search-box { position: relative; display: flex; align-items: center; gap: 6px; }
+#search-toggle {
+  background: none; border: none; cursor: pointer; font-size: 16px;
+  color: var(--ink-soft); padding: 4px 6px; line-height: 1;
+}
+#search-toggle:hover { color: var(--ink); }
+#search-input {
+  width: 0; padding: 0; border: none; border-bottom: 1px solid transparent;
+  background: transparent; font-size: 14px; font-family: inherit; color: var(--ink);
+  outline: none; transition: width .22s ease, padding .22s ease, border-color .22s ease;
+}
+#search-input.open { width: 200px; padding: 5px 8px; border-bottom-color: var(--ink-soft); }
+#search-dropdown {
+  position: absolute; top: 100%; right: 0; width: 340px; max-height: 340px; overflow-y: auto;
+  background: #fff; border: 1px solid var(--line); border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12); z-index: 120;
+}
+#search-dropdown a {
+  display: block; padding: 10px 14px; border-bottom: 1px solid var(--line);
+  text-decoration: none; color: var(--ink);
+}
+#search-dropdown a:hover { background: #f6f6f6; }
+.s-name { font-size: 15px; }
+.s-name small { color: var(--ink-soft); font-size: 11px; margin-left: 8px; }
+.s-meta { color: var(--ink-soft); font-size: 12px; margin-top: 2px; }
+.s-empty { padding: 14px; color: var(--ink-soft); font-size: 13px; }
+
+/* 移动端搜索浮层 */
+#search-overlay {
+  position: fixed; inset: 0; background: #fff; z-index: 20000;
+  display: none; flex-direction: column; padding: 24px 20px;
+}
+#search-overlay.open { display: flex; }
+#search-overlay .ov-head { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+#search-input-m {
+  flex: 1; padding: 10px 12px; font-size: 16px; font-family: inherit;
+  border: 1px solid var(--line); border-radius: 8px; outline: none; color: var(--ink);
+}
+#search-close-m {
+  border: none; background: none; color: var(--ink-soft); font-size: 14px; cursor: pointer;
+  padding: 8px 6px;
+}
+#search-results-m { flex: 1; overflow-y: auto; }
+#search-results-m a {
+  display: block; padding: 12px 4px; border-bottom: 1px solid var(--line);
+  text-decoration: none; color: var(--ink);
+}
+
 /* ---------- 页脚 ---------- */
 .site-footer {
   margin-top: 60px;

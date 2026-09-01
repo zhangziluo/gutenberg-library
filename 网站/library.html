@@ -12,6 +12,12 @@
     <div class="container header-inner">
       <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/brand-icon.png" alt="古籍文库"> 古籍文库</a>
       <div class="header-actions">
+<div class="search-box">
+        <button id="search-toggle" type="button" title="搜索：書名 / 作者 / 分類" aria-label="搜索">🔍</button>
+        <input id="search-input" type="text" placeholder="搜書名 / 作者 / 分類" autocomplete="off" aria-label="搜索">
+        <div id="search-dropdown" hidden></div>
+      </div>
+
         <span class="tagline">书库 · 经史子集</span>
         <a class="tagline-link" href="index.html" title="返回首页">首页</a>
         <a class="tagline-link" href="ai-settings.html" title="AI 设置 · 配置 API Key">AI 设置</a>
@@ -117,5 +123,14 @@
   })();
   </script>
   <script src="js/global-ai.js"></script>
+<!-- 全站搜索移动端浮层 -->
+  <div id="search-overlay" role="dialog" aria-label="搜索">
+    <div class="ov-head">
+      <input id="search-input-m" type="text" placeholder="搜書名 / 作者 / 分類" autocomplete="off">
+      <button id="search-close-m" type="button">關閉</button>
+    </div>
+    <div id="search-results-m"></div>
+  </div>
+  <script src="js/home-search.js"></script>
 </body>
 </html>

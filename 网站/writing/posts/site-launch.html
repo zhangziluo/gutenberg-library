@@ -56,6 +56,12 @@
       <a class="brand" href="../../index.html"><img class="brand-icon" src="../../assets/images/brand-icon.png" alt="古籍文库"> 古籍文库</a>
       <span class="tagline">作者手记 · 网站相关的思考</span>
       <div class="header-actions">
+<div class="search-box">
+        <button id="search-toggle" type="button" title="搜索：書名 / 作者 / 分類" aria-label="搜索">🔍</button>
+        <input id="search-input" type="text" placeholder="搜書名 / 作者 / 分類" autocomplete="off" aria-label="搜索">
+        <div id="search-dropdown" hidden></div>
+      </div>
+
         <a class="tagline-link" href="../../library.html" title="书库 · 经史子集">书库</a>
         <a class="tagline-link" href="../../ai-settings.html" title="AI 设置 · 配置 API Key">AI 设置</a>
         <a class="tagline-link" href="../../ai-guide.html" title="AI 新手指南">AI 指南</a>
@@ -149,6 +155,15 @@
     </div>
   </footer>
   <script src="../../js/global-ai.js"></script>
+<!-- 全站搜索移动端浮层 -->
+  <div id="search-overlay" role="dialog" aria-label="搜索">
+    <div class="ov-head">
+      <input id="search-input-m" type="text" placeholder="搜書名 / 作者 / 分類" autocomplete="off">
+      <button id="search-close-m" type="button">關閉</button>
+    </div>
+    <div id="search-results-m"></div>
+  </div>
+  <script src="../../js/home-search.js"></script>
 </body>
 </html>
 

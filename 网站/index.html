@@ -36,33 +36,6 @@
       transition: color .15s ease;
     }
     .main-nav a:hover, .main-nav a.active { color: var(--h-ink); }
-    .search-box { position: relative; display: flex; align-items: center; gap: 6px; }
-    #search-toggle {
-      background: none; border: none; cursor: pointer; font-size: 17px;
-      color: var(--h-soft); padding: 4px 6px;
-    }
-    #search-toggle:hover { color: var(--h-ink); }
-    #search-input {
-      width: 0; padding: 0; border: none; border-bottom: 1px solid transparent;
-      background: transparent; font-size: 14px; font-family: inherit; color: var(--h-ink);
-      outline: none; transition: width .22s ease, padding .22s ease, border-color .22s ease;
-    }
-    #search-input.open { width: 200px; padding: 5px 8px; border-bottom-color: var(--h-soft); }
-    #search-dropdown {
-      position: absolute; top: 100%; right: 0; width: 340px; max-height: 340px; overflow-y: auto;
-      background: #fff; border: 1px solid var(--h-line); border-radius: 8px;
-      box-shadow: 0 10px 30px rgba(0,0,0,.12); z-index: 100;
-    }
-    #search-dropdown a {
-      display: block; padding: 10px 14px; border-bottom: 1px solid var(--h-line);
-      text-decoration: none; color: var(--h-ink);
-    }
-    #search-dropdown a:hover { background: #f6f6f6; }
-    .s-name { font-size: 15px; }
-    .s-name small { color: var(--h-soft); font-size: 11px; margin-left: 8px; }
-    .s-meta { color: var(--h-soft); font-size: 12px; margin-top: 2px; }
-    .s-empty { padding: 14px; color: var(--h-soft); font-size: 13px; }
-
     /* 每日一句 */
     .daily { max-width: 760px; margin: 110px auto 30px; text-align: center; }
     .daily-quote { font-size: 1.5rem; line-height: 2.1; letter-spacing: 1px; }
@@ -105,27 +78,6 @@
     .footer-links { margin-top: 8px; }
     .footer-links a { color: #999; text-decoration: none; margin: 0 10px; }
     .footer-links a:hover { color: var(--h-ink); }
-
-    /* 移动端搜索浮层 */
-    #search-overlay {
-      position: fixed; inset: 0; background: #fff; z-index: 20000;
-      display: none; flex-direction: column; padding: 24px 20px;
-    }
-    #search-overlay.open { display: flex; }
-    #search-overlay .ov-head { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
-    #search-input-m {
-      flex: 1; padding: 10px 12px; font-size: 16px; font-family: inherit;
-      border: 1px solid var(--h-line); border-radius: 8px; outline: none;
-    }
-    #search-close-m {
-      border: none; background: none; color: var(--h-soft); font-size: 14px; cursor: pointer;
-      padding: 8px 6px;
-    }
-    #search-results-m { flex: 1; overflow-y: auto; }
-    #search-results-m a {
-      display: block; padding: 12px 4px; border-bottom: 1px solid var(--h-line);
-      text-decoration: none; color: var(--h-ink);
-    }
 
     @media (max-width: 640px) {
       .main-nav { gap: 18px; order: 3; width: 100%; justify-content: center; }
