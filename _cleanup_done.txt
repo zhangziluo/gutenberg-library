@@ -1,18 +1,12 @@
-removed tmp_insp3.txt
-removed tmp_insp3_err.txt
-removed tmp_insp4.txt
-removed _chk_state.py
-status: D tmp_insp3.txt
- D tmp_insp3_err.txt
- D tmp_insp4.txt
-?? cleanup_stray.py
-commit: [main a93b136] 清理临时调试文件
- 4 files changed, 34 insertions(+), 1 deletion(-)
- create mode 100644 cleanup_stray.py
- delete mode 100644 tmp_insp3.txt
- delete mode 100644 tmp_insp3_err.txt
- delete mode 100644 tmp_insp4.txt
+absent tmp_insp3.txt
+absent tmp_insp3_err.txt
+absent tmp_insp4.txt
+removed _state_out.txt
+status: ?? _cleanup_done.txt
+commit: [main 04592e2] 清理临时调试文件
+ 1 file changed, 18 insertions(+)
+ create mode 100644 _cleanup_done.txt
 log:
+04592e2 清理临时调试文件
 a93b136 清理临时调试文件
 a706544 新书入库：山水情/山海經/易經/木蘭奇女傳/野草（data/books + library-index.json + footer 许可证署名）
-d4b2374 首页仿古古籍配色（宣纸/墨色/朱砂）+ 右下角麒麟装饰
