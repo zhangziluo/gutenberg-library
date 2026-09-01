@@ -1,0 +1,75 @@
+{
+  "title": "古籍文库 · 数据书目索引",
+  "description": "data/books/ 目录下的结构化书目（category: 經部/史部/子部/集部/近現代文學）",
+  "generated": "2026-09-01",
+  "categories": [
+    {
+      "name": "經部",
+      "books": [
+        {
+          "key": "yijing",
+          "book": "易經",
+          "author": "佚名",
+          "subcategory": "易",
+          "chapters": 69,
+          "source": "Project Gutenberg #25501",
+          "path": "data/books/yijing.json"
+        }
+      ]
+    },
+    {
+      "name": "史部",
+      "books": []
+    },
+    {
+      "name": "子部",
+      "books": [
+        {
+          "key": "shanshui-qing",
+          "book": "山水情",
+          "author": "佚名",
+          "subcategory": "小說家",
+          "chapters": 22,
+          "source": "Project Gutenberg #25146",
+          "path": "data/books/shanshui-qing.json"
+        },
+        {
+          "key": "shanhaijing",
+          "book": "山海經",
+          "author": "佚名",
+          "subcategory": "小說家（志怪·地理）",
+          "chapters": 18,
+          "source": "Project Gutenberg #25288",
+          "path": "data/books/shanhaijing.json"
+        },
+        {
+          "key": "mulan-qi-nv-zhuan",
+          "book": "木蘭奇女傳",
+          "author": "佚名",
+          "subcategory": "小說家",
+          "chapters": 33,
+          "source": "Project Gutenberg #23938",
+          "path": "data/books/mulan-qi-nv-zhuan.json"
+        }
+      ]
+    },
+    {
+      "name": "集部",
+      "books": []
+    },
+    {
+      "name": "近現代文學",
+      "books": [
+        {
+          "key": "yecao",
+          "book": "野草",
+          "author": "魯迅",
+          "subcategory": "魯迅專題",
+          "chapters": 24,
+          "source": "Project Gutenberg #25242",
+          "path": "data/books/yecao.json"
+        }
+      ]
+    }
+  ]
+}
