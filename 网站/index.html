@@ -3,155 +3,200 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>古籍文库 · 在线阅读</title>
+  <title>古籍文庫 · 古登堡繁體古籍線上閱讀</title>
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ===== 極簡首頁：留白 / 黑白灰 / 繁體優先 / 響應式 ===== */
+    :root {
+      --h-ink: #1f1f1f;
+      --h-soft: #777;
+      --h-line: #e6e6e6;
+      --h-bg: #fafafa;
+    }
+    body { background: var(--h-bg); color: var(--h-ink); }
+    .site-header {
+      background: #fff;
+      border-bottom: 1px solid var(--h-line);
+      box-shadow: none;
+    }
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+    .brand { font-size: 21px; letter-spacing: 3px; color: var(--h-ink); white-space: nowrap; }
+    .main-nav { display: flex; gap: 30px; }
+    .main-nav a {
+      color: var(--h-soft); text-decoration: none; font-size: 15px; letter-spacing: 2px;
+      transition: color .15s ease;
+    }
+    .main-nav a:hover, .main-nav a.active { color: var(--h-ink); }
+    .search-box { position: relative; display: flex; align-items: center; gap: 6px; }
+    #search-toggle {
+      background: none; border: none; cursor: pointer; font-size: 17px;
+      color: var(--h-soft); padding: 4px 6px;
+    }
+    #search-toggle:hover { color: var(--h-ink); }
+    #search-input {
+      width: 0; padding: 0; border: none; border-bottom: 1px solid transparent;
+      background: transparent; font-size: 14px; font-family: inherit; color: var(--h-ink);
+      outline: none; transition: width .22s ease, padding .22s ease, border-color .22s ease;
+    }
+    #search-input.open { width: 200px; padding: 5px 8px; border-bottom-color: var(--h-soft); }
+    #search-dropdown {
+      position: absolute; top: 100%; right: 0; width: 340px; max-height: 340px; overflow-y: auto;
+      background: #fff; border: 1px solid var(--h-line); border-radius: 8px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.12); z-index: 100;
+    }
+    #search-dropdown a {
+      display: block; padding: 10px 14px; border-bottom: 1px solid var(--h-line);
+      text-decoration: none; color: var(--h-ink);
+    }
+    #search-dropdown a:hover { background: #f6f6f6; }
+    .s-name { font-size: 15px; }
+    .s-name small { color: var(--h-soft); font-size: 11px; margin-left: 8px; }
+    .s-meta { color: var(--h-soft); font-size: 12px; margin-top: 2px; }
+    .s-empty { padding: 14px; color: var(--h-soft); font-size: 13px; }
+
+    /* 每日一句 */
+    .daily { max-width: 760px; margin: 110px auto 30px; text-align: center; }
+    .daily-quote { font-size: 1.5rem; line-height: 2.1; letter-spacing: 1px; }
+    .daily-quote::before, .daily-quote::after { color: var(--h-soft); }
+    .daily-source { color: var(--h-soft); font-size: 13px; margin-top: 20px; }
+    .daily-read {
+      display: inline-block; margin-top: 30px; padding: 11px 38px;
+      border: 1px solid var(--h-ink); border-radius: 30px;
+      color: var(--h-ink); text-decoration: none; font-size: 15px; letter-spacing: 2px;
+      transition: background .15s ease, color .15s ease;
+    }
+    .daily-read:hover { background: var(--h-ink); color: #fff; }
+    .daily-shuffle {
+      display: block; margin: 18px auto 0; background: none; border: none;
+      color: #aaa; font-size: 12px; cursor: pointer; font-family: inherit; letter-spacing: 1px;
+    }
+    .daily-shuffle:hover { color: var(--h-ink); }
+    .daily-empty, .daily-loading { color: var(--h-soft); font-size: 14px; }
+
+    /* 五部分类入口 */
+    .cat-entries {
+      display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;
+      margin: 70px 0 110px;
+    }
+    .cat-entry {
+      display: block; min-width: 128px; padding: 26px 18px; text-align: center;
+      border: 1px solid var(--h-line); border-radius: 12px; background: #fff;
+      color: var(--h-ink); text-decoration: none; font-size: 18px; letter-spacing: 4px;
+      transition: border-color .15s ease, transform .15s ease;
+    }
+    .cat-entry:hover { border-color: var(--h-ink); transform: translateY(-2px); }
+    .cat-entry small { display: block; color: var(--h-soft); font-size: 11px; letter-spacing: 1px; margin-top: 8px; }
+
+    /* 页脚 */
+    .site-footer {
+      border-top: 1px solid var(--h-line); background: transparent;
+      color: #999; font-size: 12px;
+    }
+    .site-footer .footer-note { color: #999; }
+    .footer-links { margin-top: 8px; }
+    .footer-links a { color: #999; text-decoration: none; margin: 0 10px; }
+    .footer-links a:hover { color: var(--h-ink); }
+
+    /* 移动端搜索浮层 */
+    #search-overlay {
+      position: fixed; inset: 0; background: #fff; z-index: 20000;
+      display: none; flex-direction: column; padding: 24px 20px;
+    }
+    #search-overlay.open { display: flex; }
+    #search-overlay .ov-head { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+    #search-input-m {
+      flex: 1; padding: 10px 12px; font-size: 16px; font-family: inherit;
+      border: 1px solid var(--h-line); border-radius: 8px; outline: none;
+    }
+    #search-close-m {
+      border: none; background: none; color: var(--h-soft); font-size: 14px; cursor: pointer;
+      padding: 8px 6px;
+    }
+    #search-results-m { flex: 1; overflow-y: auto; }
+    #search-results-m a {
+      display: block; padding: 12px 4px; border-bottom: 1px solid var(--h-line);
+      text-decoration: none; color: var(--h-ink);
+    }
+
+    @media (max-width: 640px) {
+      .main-nav { gap: 18px; order: 3; width: 100%; justify-content: center; }
+      .search-box { order: 2; }
+      .daily { margin-top: 70px; }
+      .daily-quote { font-size: 1.25rem; }
+      .cat-entries { flex-direction: column; align-items: center; }
+      .cat-entry { width: 76%; }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/brand-icon.png" alt="古籍文库"> 古籍文库</a>
-      <div class="header-actions">
-        <span class="tagline">古登堡计划 · 繁体中文古籍在线阅读</span>
-        <a class="tagline-link" href="library.html" title="书库 · 经史子集">书库</a>
-        <a class="tagline-link" href="ai-settings.html" title="AI 设置 · 配置 API Key">AI 设置</a>
-        <a class="tagline-link" href="ai-guide.html" title="AI 新手指南">AI 指南</a>
-        <a class="tagline-link" href="writing/" title="作者手记 · 原创小说">作者手记</a>
+      <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/brand-icon.png" alt="古籍文庫"> 古籍文庫</a>
+      <nav class="main-nav">
+        <a href="index.html" class="active">首頁</a>
+        <a href="library.html">書庫</a>
+        <a href="writing/">作者手記</a>
+      </nav>
+      <div class="search-box">
+        <button id="search-toggle" type="button" title="搜索：書名 / 作者 / 分類" aria-label="搜索">🔍</button>
+        <input id="search-input" type="text" placeholder="搜書名 / 作者 / 分類" autocomplete="off" aria-label="搜索">
+        <div id="search-dropdown" hidden></div>
       </div>
+    </div>
+    <!-- 移動端搜索浮層 -->
+    <div id="search-overlay" role="dialog" aria-label="搜索">
+      <div class="ov-head">
+        <input id="search-input-m" type="text" placeholder="搜書名 / 作者 / 分類" autocomplete="off">
+        <button id="search-close-m" type="button">關閉</button>
+      </div>
+      <div id="search-results-m"></div>
     </div>
   </header>
 
   <main class="container">
-    <!-- 1. Hero -->
-    <section class="hero">
-      <h1 class="hero-title">用 AI 读懂繁体古籍</h1>
-      <p class="hero-sub">基于古登堡计划中文馆藏，AI 逐句解读、字词精讲、智能练习</p>
-      <div class="hero-cta">
-        <input type="text" id="hero-input" class="hero-input" placeholder="粘贴古文或古登堡链接，AI 帮你读懂">
-        <button id="start-read" class="hero-btn">开始解读</button>
-      </div>
+    <!-- 每日一句：句子池按日期種子抽取 -->
+    <section class="daily" id="daily">
+      <p class="daily-loading" id="daily-loading">今日一句 · 載入中…</p>
+      <p class="daily-quote" id="daily-quote" hidden></p>
+      <p class="daily-source" id="daily-source" hidden></p>
+      <a class="daily-read" id="daily-read" href="#" hidden>開始閱讀 →</a>
+      <button class="daily-shuffle" id="daily-shuffle" type="button" hidden>換一句</button>
+      <p class="daily-empty" id="daily-empty" hidden>今日暫無推薦</p>
     </section>
 
-    <!-- 今日一句：全站句子池每日推荐 -->
-    <section class="daily-card" id="daily-sentence" aria-label="今日一句">
-      <div class="daily-loading" id="daily-loading">今日一句 · 正在加载…</div>
-      <div id="daily-content" hidden>
-        <p class="daily-text" id="daily-text"></p>
-        <div class="daily-meta">
-          <span class="daily-source" id="daily-source"></span>
-          <button class="btn daily-shuffle" id="daily-shuffle" title="从当前分类随机换一句">🔀 換一句</button>
-        </div>
-      </div>
-      <div class="daily-empty" id="daily-empty" hidden>今日暂无推荐</div>
-    </section>
-
-    <!-- 2. AI 领读 Demo（硬编码展示，不调 API） -->
-    <section class="demo">
-      <h2 class="demo-title">✨ AI 领读 Demo</h2>
-      <article class="demo-card">
-        <div class="demo-original">
-          <h3>《记承天寺夜游》· 苏轼 · 原文</h3>
-          <p>元丰六年十月十二日夜，解衣欲睡，月色入户，欣然起行。念无与为乐者，遂至承天寺寻张怀民。怀民亦未寝，相与步于中庭。庭下如积水空明，水中藻荇交横，盖竹柏影也。何夜无月？何处无竹柏？但少闲人如吾两人者耳。</p>
-        </div>
-        <div class="demo-trans">
-          <h3>白话翻译</h3>
-          <p>元丰六年十月十二日夜里，我解开衣服准备睡觉，月光照进屋里，便高兴地起身出门。想到没有和我一起游乐的人，就到承天寺去找张怀民。怀民也没有睡，我们便一起在庭院里散步。庭院中像积满清水般空明澄澈，水中水草纵横交错，原来是竹子和柏树的影子。哪一个夜晚没有月亮？哪里没有竹子和柏树？只是缺少像我们两个这样清闲的人罢了。</p>
-        </div>
-        <div class="demo-words">
-          <h3>疑难字词</h3>
-          <ul>
-            <li><b>念</b>：想到、考虑。</li>
-            <li><b>相与</b>：共同、一起。</li>
-            <li><b>闲人</b>：清闲之人，此处有自嘲兼自得的意味。</li>
-          </ul>
-        </div>
-      </article>
-    </section>
-
-    <!-- 古文觀止 · AI 领读范本 -->
-    <section class="samples">
-      <h2 class="samples-title">📜 古文觀止 · AI 领读范本</h2>
-      <p class="samples-hint">点击任一篇，进入 AI 阅读器逐句领读</p>
-      <div class="samples-grid" id="gwz-samples"></div>
-    </section>
-
-    <!-- 3. 行动按钮 -->
-    <div class="shelf-cta">
-      <a class="btn-primary" href="#bookshelf">浏览全部典籍</a>
-    </div>
-
-    <!-- 4. 原书架（移到底部） -->
-    <section class="shelf-section" id="bookshelf">
-      <h2 class="shelf-title">或选择典籍开始阅读</h2>
-      <div id="book-shelf" class="book-shelf"></div>
-      <div id="loading" class="notice">正在加载书目…</div>
-      <div id="error" class="notice error" hidden></div>
-    </section>
-
-    <!-- 5. 书库 · 经史子集（四大名著） -->
-    <section class="jsz-section" id="jingshizi">
-      <h2 class="jsz-title">📚 书库 · 经史子集</h2>
-      <p class="jsz-hint">四大名著 · 繁体原文 · 背景色自定义 / 字号可调 / 选中文字 AI 解读 ·
-        <a class="jsz-more" href="library.html" title="查看完整书库 · 经史子集">查看完整书库 →</a></p>
-      <div class="jsz-grid">
-        <a class="jsz-card" href="book.html?book=三國演義">
-          <span class="cat-tag cat-shi">史部 · 杂史</span>
-          <div class="jsz-name">三國演義</div>
-          <div class="jsz-author">羅貫中 著</div>
-          <p class="jsz-intro">中国古典四大名著之一：从桃园三结义到三分归晋，一部波澜壮阔的英雄史诗。</p>
-          <span class="jsz-enter">进入阅读 →</span>
-        </a>
-        <a class="jsz-card" href="book.html?book=水滸傳">
-          <span class="cat-tag cat-zi">子部 · 小说家</span>
-          <div class="jsz-name">水滸傳</div>
-          <div class="jsz-author">施耐庵 著</div>
-          <p class="jsz-intro">中国古典四大名著之一：一百零八好汉聚义梁山，替天行道，快意恩仇。</p>
-          <span class="jsz-enter">进入阅读 →</span>
-        </a>
-        <a class="jsz-card" href="book.html?book=西遊記">
-          <span class="cat-tag cat-zi">子部 · 小说家</span>
-          <div class="jsz-name">西遊記</div>
-          <div class="jsz-author">吳承恩 著</div>
-          <p class="jsz-intro">中国古典四大名著之一：唐僧师徒西天取经，历经九九八十一难的魔幻长篇。</p>
-          <span class="jsz-enter">进入阅读 →</span>
-        </a>
-        <a class="jsz-card" href="book.html?book=紅樓夢">
-          <span class="cat-tag cat-zi">子部 · 小说家</span>
-          <div class="jsz-name">紅樓夢</div>
-          <div class="jsz-author">曹雪芹 著</div>
-          <p class="jsz-intro">中国古典四大名著之首：以「一把辛酸泪」，写尽贾府兴衰与宝黛情缘。</p>
-          <span class="jsz-enter">进入阅读 →</span>
-        </a>
-      </div>
+    <!-- 五部分類入口 -->
+    <section class="cat-entries" aria-label="五部分類">
+      <a class="cat-entry" href="/library/jing">經部<small>易書詩禮春秋</small></a>
+      <a class="cat-entry" href="/library/shi">史部<small>正史·雜史</small></a>
+      <a class="cat-entry" href="/library/zi">子部<small>諸子·小說家</small></a>
+      <a class="cat-entry" href="/library/ji">集部<small>詩文總集</small></a>
+      <a class="cat-entry" href="/library/modern">近現代文學<small>現當代作品</small></a>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-note">文本来源：Project Gutenberg 古登堡计划 · 内容仅供学习研究使用</div>
-      <div class="footer-donate"><a href="sponsor.html">赞助</a></div>
+      <div class="footer-note">本站內容來自古登堡中文古籍計劃 · 內容僅供學習研究使用</div>
+      <div class="footer-links">
+        <a href="sponsor.html">捐助</a>
+        <a href="links.html">相關鏈接</a>
+      </div>
     </div>
   </footer>
 
-  <script>
-  // 首页「开始解读」：把粘贴的文字直传给 AI 阅读器（lib_selected），回车也可触发
-  document.getElementById('start-read').addEventListener('click', function () {
-    var t = document.getElementById('hero-input').value.trim();
-    if (t) {
-      try {
-        sessionStorage.setItem('lib_selected', JSON.stringify({ title: '粘贴的文本', text: t, source: '首页粘贴', pos: '' }));
-      } catch (e) { /* 隐私模式等异常忽略 */ }
-    }
-    window.location.href = '/reader/shiji_reader.html';
-  });
-  document.getElementById('hero-input').addEventListener('keydown', function (e) {
-    if (e.key === 'Enter') document.getElementById('start-read').click();
-  });
-  </script>
-
   <script src="js/common.js"></script>
-  <script src="js/index.js"></script>
   <script src="js/daily-sentence.js"></script>
+  <script src="js/home-search.js"></script>
   <script src="js/global-ai.js"></script>
 </body>
 </html>
+

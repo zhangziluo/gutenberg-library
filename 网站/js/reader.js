@@ -8,6 +8,7 @@ const POS_PREFIX = 'gjs:pos:';
 (async function () {
   const bookName = getParam('book') || '';
   const rawIndex = parseInt(getParam('index') || '0', 10);
+  const anchorParam = getParam('anchor') || '';
   const loading = document.getElementById('loading');
   const errorBox = document.getElementById('error');
   const reader = document.getElementById('reader');
@@ -39,8 +40,12 @@ const POS_PREFIX = 'gjs:pos:';
     return;
   }
 
-  // 非法 index 时回退到上次读到的位置
-  let index = (rawIndex >= 0 && rawIndex < sections.length) ? rawIndex : -1;
+  // 非法 index 时回退到上次读到的位置；anchor 定位优先（句子池跳转）
+  let index = -1;
+  if (anchorParam) {
+    index = sections.findIndex(s => (s.paragraphs || []).some(p => p.indexOf(anchorParam) >= 0));
+  }
+  if (index < 0 && rawIndex >= 0 && rawIndex < sections.length) index = rawIndex;
   if (index < 0) {
     const saved = parseInt(localStorage.getItem(POS_PREFIX + bookName) || '-1', 10);
     index = (saved >= 0 && saved < sections.length) ? saved : 0;
@@ -128,6 +133,20 @@ const POS_PREFIX = 'gjs:pos:';
   }
 
   renderReader();
+
+  // anchor 高亮：滚动到包含该句的段落并短暂高亮（句子池跳转）
+  if (anchorParam) {
+    setTimeout(() => {
+      const paras = document.querySelectorAll('#reader-body p');
+      for (const p of paras) {
+        if (p.textContent.indexOf(anchorParam) >= 0) {
+          p.classList.add('anchor-flash');
+          p.scrollIntoView({ block: 'center' });
+          break;
+        }
+      }
+    }, 60);
+  }
 
   // 简繁切换：即时重渲染；原文只请求一次，切换为前端即时转换
   document.querySelectorAll('.textmode-btn').forEach(b => {

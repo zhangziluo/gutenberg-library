@@ -496,6 +496,16 @@ body {
   line-height: 1.85;
 }
 
+/* 句子池 anchor 跳转：目标段落短暂高亮 */
+.anchor-flash {
+  animation: anchorFlash 3s ease;
+  border-radius: 3px;
+}
+@keyframes anchorFlash {
+  0% { background: rgba(255, 230, 0, 0.45); }
+  100% { background: transparent; }
+}
+
 /* 独立注释层：卷末注（如史記索隱述贊），与正文明显区分 */
 .reader-notes {
   margin-top: 30px;

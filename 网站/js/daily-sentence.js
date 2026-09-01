@@ -1,8 +1,9 @@
 /* ============================================================
-   今日一句 · 全站句子池
+   今日一句 · 全站句子池（极简首页版）
    - 每日 localStorage 缓存键 daily_sentence_YYYY-MM-DD，命中直接渲染
    - 未命中：fetch manifest → djb2(日期) 选分类 → fetch 分类文件
      → 同一哈希取模选句 → 存入 localStorage
+   - 句子以「」包裹，出处「—— 《书名》· 章节」，附「开始阅读 →」锚点链接
    - 「換一句」：从已加载分类文件纯随机选另一条
    - 降级：分类加载失败 fallback 另一分类；manifest 失败显示「今日暂无推荐」
    ============================================================ */
@@ -19,11 +20,10 @@
     String(d.getMonth() + 1).padStart(2, '0') + '-' +
     String(d.getDate()).padStart(2, '0');
 
-  var catData = null;   // 当前分类已加载的句子数组（供換一句）
+  var catData = null;
 
   function $(id) { return document.getElementById(id); }
 
-  // djb2 哈希（32 位无符号）
   function djb2(str) {
     var h = 5381;
     for (var i = 0; i < str.length; i++) {
@@ -35,18 +35,27 @@
 
   function render(rec) {
     if (!rec || !rec.text) return;
-    $('daily-text').textContent = rec.text;
-    var src = rec.book || '';
+    $('daily-quote').textContent = '「' + rec.text + '」';
+    var src = '—— 《' + rec.book + '》';
     if (rec.chapter && rec.chapter !== rec.book) src += ' · ' + rec.chapter;
-    $('daily-source').textContent = '—— ' + src;
+    $('daily-source').textContent = src;
+    // 「开始阅读 →」：跳转阅读页并带 anchor 高亮
+    $('daily-read').href = 'reader.html?book=' + encodeURIComponent(rec.book) +
+      '&anchor=' + encodeURIComponent(rec.anchor || rec.text);
     $('daily-loading').hidden = true;
     $('daily-empty').hidden = true;
-    $('daily-content').hidden = false;
+    $('daily-quote').hidden = false;
+    $('daily-source').hidden = false;
+    $('daily-read').hidden = false;
+    $('daily-shuffle').hidden = false;
   }
 
   function showEmpty() {
     $('daily-loading').hidden = true;
-    $('daily-content').hidden = true;
+    $('daily-quote').hidden = true;
+    $('daily-source').hidden = true;
+    $('daily-read').hidden = true;
+    $('daily-shuffle').hidden = true;
     $('daily-empty').hidden = false;
   }
 
@@ -58,7 +67,6 @@
     return arr;
   }
 
-  // 确保 catData 已加载（manifest 选分类 → 拉取；失败按序 fallback 另一分类）
   async function ensureCatData() {
     if (catData && catData.length) return;
     var hash = djb2(dateStr);
@@ -77,40 +85,36 @@
         catData = await loadCat(cat.category);
         return;
       } catch (e) {
-        tries++;   // fallback 到另一分类
+        tries++;
       }
     }
     throw new Error('no cat data');
   }
 
   function init() {
-    // 1) localStorage 命中直接渲染
     var cached = null;
     try { cached = JSON.parse(localStorage.getItem(CACHE_PREFIX + dateStr)); } catch (e) { /* 忽略 */ }
     if (cached && cached.text) {
       render(cached);
-      // 后台预载分类数据，供「換一句」使用
       ensureCatData().catch(function () { /* 忽略 */ });
       return;
     }
-    // 2) 未命中：按日期哈希选分类选句
     ensureCatData().then(function () {
       var rec = catData[djb2(dateStr) % catData.length];
       if (!rec) { showEmpty(); return; }
       try { localStorage.setItem(CACHE_PREFIX + dateStr, JSON.stringify(rec)); } catch (e) { /* 忽略 */ }
       render(rec);
     }).catch(function () {
-      showEmpty();   // manifest 失败 → 今日暂无推荐
+      showEmpty();
     });
   }
 
-  // 換一句：从已加载分类纯随机选另一条
   function doShuffle() {
     if (!catData || !catData.length) return;
-    var cur = $('daily-text').textContent;
+    var cur = $('daily-quote').textContent;
     var idx = Math.floor(Math.random() * catData.length);
     var guard = 0;
-    while (catData[idx] && catData[idx].text === cur && guard++ < catData.length) {
+    while (catData[idx] && ('「' + catData[idx].text + '」') === cur && guard++ < catData.length) {
       idx = (idx + 1) % catData.length;
     }
     if (catData[idx]) render(catData[idx]);
