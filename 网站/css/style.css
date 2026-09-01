@@ -1225,6 +1225,38 @@ body {
 
 .cat-lib { background: #eee5d2; color: var(--ink-soft); }
 
+/* ---------- 分类页（/category/*） ---------- */
+.cat-wrap { max-width: 960px; }
+.cat-back {
+  display: inline-block; margin-top: 24px; color: var(--accent);
+  text-decoration: none; font-size: 14px;
+}
+.cat-back:hover { text-decoration: underline; }
+.cat-head {
+  display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
+  border-bottom: 2px solid var(--gold); padding-bottom: 10px; margin: 14px 0 24px;
+}
+.cat-head h1 { font-size: 30px; letter-spacing: 6px; margin: 0; }
+.cat-head .cat-desc { color: var(--ink-soft); font-size: 13px; }
+.cat-empty {
+  color: var(--ink-soft); padding: 56px 24px; text-align: center;
+  border: 1px dashed var(--line); border-radius: 10px; font-size: 15px; letter-spacing: 1px;
+  background: var(--paper-light);
+}
+.cat-tag.cat-dyn {
+  background: var(--paper-light); border: 1px solid var(--line);
+  color: var(--ink-soft); font-size: 11px;
+}
+.lib-part-all {
+  margin-left: auto; color: var(--accent); text-decoration: none;
+  font-size: 13px; white-space: nowrap;
+}
+.lib-part-all:hover { text-decoration: underline; }
+.lib-sub-block {
+  font-size: 15px; color: var(--ink-soft); letter-spacing: 2px;
+  margin: 20px 0 10px; border-left: 3px solid var(--gold); padding-left: 10px;
+}
+
 /* ---------- 全局 AI 助手（global-ai.js） ---------- */
 #gai-fab {
   position: fixed;

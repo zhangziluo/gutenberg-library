@@ -19,24 +19,16 @@
 
   function isSmall() { return window.innerWidth <= 640; }
 
-  function buildIndex(catalog, books) {
-    var parts = catalog.parts || [];
-    var known = {};
-    parts.forEach(function (p) {
-      (p.books || []).forEach(function (b) {
-        known[b.book] = true;
-        items.push({
-          book: b.book,
-          author: b.author || '',
-          cat: b.cat || '',
-          part: p.bu || '',
-          count: (books[b.book] || {}).section_count
-        });
+  function buildIndex(data) {
+    var CAT_NAME = { jing: '經部', shi: '史部', zi: '子部', ji: '集部', cong: '叢部' };
+    (data.books || []).forEach(function (b) {
+      items.push({
+        book: b.title,
+        author: b.author || '',
+        cat: b.subcategory === 'modern' ? '現代文學' : (b.subcategory || ''),
+        part: CAT_NAME[b.category] || '',
+        count: b.sections
       });
-    });
-    Object.keys(books).forEach(function (k) {
-      if (known[k]) return;
-      items.push({ book: k, author: '', cat: '', part: '', count: books[k].section_count });
     });
   }
 
@@ -109,13 +101,9 @@
   closeM.addEventListener('click', function () { overlay.classList.remove('open'); });
 
   // ---- 初始化 ----
-  var DATA_BASE = '../文本/_site_data/';
-  Promise.all([
-    fetch('assets/data/catalog.json').then(function (r) { return r.json(); }),
-    fetch(DATA_BASE + 'books.json').then(function (r) { return r.json(); })
-  ]).then(function (res) {
-    buildIndex(res[0], res[1]);
-  }).catch(function () { /* 搜索不可用则静默 */ });
+  fetch('/assets/data/books-data.json').then(function (r) { return r.json(); })
+    .then(buildIndex)
+    .catch(function () { /* 搜索不可用则静默 */ });
 
   window.addEventListener('resize', function () { isMobile = isSmall(); });
   isMobile = isSmall();

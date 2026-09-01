@@ -1,0 +1,222 @@
+{
+  "title": "古籍文库 · 统一分类数据源",
+  "updated": "2026-09-01",
+  "categories": {
+    "jing": "經部：儒家經典及歷代注疏（如《論語》《詩經》《易經》等）",
+    "shi": "史部：各類史書（如《史記》《資治通鑒》等）",
+    "zi": "子部：諸子百家、科技、藝術、宗教等（如《老子》《孫子兵法》《本草綱目》等）",
+    "ji": "集部：歷代文人詩文、詞曲、文集（如《李太白集》《文選》等）；現代文學歸入本部下「現代文學」子分類",
+    "cong": "叢部：綜合性叢書（如《四庫全書》《永樂大典》等）"
+  },
+  "books": [
+    {
+      "id": "yijing",
+      "title": "易經",
+      "author": "佚名",
+      "category": "jing",
+      "subcategory": "",
+      "dynasty": "先秦（商周）",
+      "description": "群經之首，中華文化的源頭。六十四卦涵蓋天地萬物變化之理，繫辭、說卦等十翼為儒家哲思之樞紐。",
+      "sections": 69,
+      "cover": ""
+    },
+    {
+      "id": "shanshui-qing",
+      "title": "山水情",
+      "author": "佚名",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清初",
+      "description": "清初才子佳人小說：書生衛旭霞與閨秀的姻緣離合，文辭清麗。",
+      "sections": 22,
+      "cover": ""
+    },
+    {
+      "id": "shanhaijing",
+      "title": "山海經",
+      "author": "佚名",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "先秦",
+      "description": "上古奇書，記山川物產、神話異獸，是中國神話與地理的寶庫。",
+      "sections": 18,
+      "cover": ""
+    },
+    {
+      "id": "mulan-qi-nv-zhuan",
+      "title": "木蘭奇女傳",
+      "author": "佚名",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清",
+      "description": "清代演義小說：寫木蘭代父從軍、忠孝勇烈的傳奇故事。",
+      "sections": 33,
+      "cover": ""
+    },
+    {
+      "id": "yecao",
+      "title": "野草",
+      "author": "魯迅",
+      "category": "ji",
+      "subcategory": "modern",
+      "dynasty": "1927",
+      "description": "魯迅散文詩集，23 篇晦澀而深邃的心靈獨白，被譽為中國現代文學的「天書」。",
+      "sections": 24,
+      "cover": ""
+    },
+    {
+      "id": "zhongguo-xiaoshuo-shilue",
+      "title": "中國小說史略",
+      "author": "魯迅",
+      "category": "ji",
+      "subcategory": "modern",
+      "dynasty": "1923",
+      "description": "魯迅開創性的小說史專著，梳理中國小說自神話傳說至清末的源流。",
+      "sections": 29,
+      "cover": ""
+    },
+    {
+      "id": "zhaohua-xishi",
+      "title": "朝花夕拾",
+      "author": "魯迅",
+      "category": "ji",
+      "subcategory": "modern",
+      "dynasty": "1928",
+      "description": "魯迅回憶性散文集，重溫童年與師友，在溫情中見世相。",
+      "sections": 10,
+      "cover": ""
+    },
+    {
+      "id": "nanqiang-beidiao-ji",
+      "title": "南腔北調集",
+      "author": "魯迅",
+      "category": "ji",
+      "subcategory": "modern",
+      "dynasty": "1934",
+      "description": "魯迅雜文集，共 51 篇，針砭時事、議論文化，鋒芒畢露。",
+      "sections": 46,
+      "cover": ""
+    },
+    {
+      "id": "aq-zhengzhuan",
+      "title": "阿Q正傳",
+      "author": "魯迅",
+      "category": "ji",
+      "subcategory": "modern",
+      "dynasty": "1921",
+      "description": "魯迅中篇小說，以「精神勝利法」寫盡舊中國國民的靈魂創傷。",
+      "sections": 9,
+      "cover": ""
+    },
+    {
+      "id": "panghuang",
+      "title": "彷徨",
+      "author": "魯迅",
+      "category": "ji",
+      "subcategory": "modern",
+      "dynasty": "1926",
+      "description": "魯迅第二部小說集，收《祝福》《傷逝》《長明燈》等 11 篇（本版收 8 篇）。",
+      "sections": 8,
+      "cover": ""
+    },
+    {
+      "id": "kuangren-riji",
+      "title": "狂人日記",
+      "author": "魯迅",
+      "category": "ji",
+      "subcategory": "modern",
+      "dynasty": "1918",
+      "description": "中國現代文學第一篇白話小說，以狂人日記揭露「吃人」的禮教。",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "shiji",
+      "title": "史記",
+      "author": "司馬遷",
+      "category": "shi",
+      "subcategory": "",
+      "dynasty": "西漢",
+      "description": "二十四史之首。太史公「究天人之際，通古今之變，成一家之言」。",
+      "sections": 127,
+      "cover": ""
+    },
+    {
+      "id": "hanshu",
+      "title": "漢書",
+      "author": "班固",
+      "category": "shi",
+      "subcategory": "",
+      "dynasty": "東漢",
+      "description": "中國第一部紀傳體斷代史，上起漢高祖、下終王莽。",
+      "sections": 99,
+      "cover": ""
+    },
+    {
+      "id": "sanguozhi",
+      "title": "三國志",
+      "author": "陳壽",
+      "category": "shi",
+      "subcategory": "",
+      "dynasty": "西晉",
+      "description": "與《史記》《漢書》《後漢書》並稱「前四史」，記魏蜀吳三國鼎立。",
+      "sections": 29,
+      "cover": ""
+    },
+    {
+      "id": "sanguo-yanyi",
+      "title": "三國演義",
+      "author": "羅貫中",
+      "category": "shi",
+      "subcategory": "",
+      "dynasty": "明",
+      "description": "中國古典四大名著之一：從桃園三結義到三分歸晉，一部英雄史詩。",
+      "sections": 120,
+      "cover": ""
+    },
+    {
+      "id": "shuihu-zhuan",
+      "title": "水滸傳",
+      "author": "施耐庵",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "明",
+      "description": "四大名著之一：一百零八好漢聚義梁山，替天行道，快意恩仇。",
+      "sections": 71,
+      "cover": ""
+    },
+    {
+      "id": "xiyou-ji",
+      "title": "西遊記",
+      "author": "吳承恩",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "明",
+      "description": "四大名著之一：唐僧師徒西天取經、歷經九九八十一難的魔幻長篇。",
+      "sections": 100,
+      "cover": ""
+    },
+    {
+      "id": "honglou-meng",
+      "title": "紅樓夢",
+      "author": "曹雪芹",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清",
+      "description": "四大名著之首：以「一把辛酸淚」，寫盡賈府興衰與寶黛情緣。",
+      "sections": 120,
+      "cover": ""
+    },
+    {
+      "id": "guwen-guangzhi",
+      "title": "古文觀止",
+      "author": "吳楚材、吳調侯",
+      "category": "ji",
+      "subcategory": "",
+      "dynasty": "清（康熙年間）",
+      "description": "清代流傳最廣的古文選本，上起周秦、下迄明末，共 222 篇。",
+      "sections": 222,
+      "cover": ""
+    }
+  ]
+}

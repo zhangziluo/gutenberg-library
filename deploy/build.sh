@@ -19,6 +19,7 @@ echo "==> 复制主站页面"
 cp -R "$ROOT/网站/index.html" "$ROOT/网站/book.html" "$ROOT/网站/reader.html" "$ROOT/网站/sponsor.html" "$ROOT/网站/library.html" "$ROOT/网站/links.html" "$ROOT/网站/ai-settings.html" "$ROOT/网站/ai-guide.html" "$DIST/"
 cp -R "$ROOT/网站/css" "$ROOT/网站/js" "$DIST/"
 cp -R "$ROOT/网站/writing" "$DIST/"
+cp -R "$ROOT/网站/category" "$DIST/"
 
 # 2. 站点数据：页面位于根目录时，../文本/_site_data/ 解析为 /文本/_site_data/
 echo "==> 复制站点数据"

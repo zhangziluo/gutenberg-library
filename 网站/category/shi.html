@@ -3,23 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>經部 · 書庫 · 古籍文庫</title>
+  <title>史部 · 書庫 · 古籍文庫</title>
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-  <link rel="stylesheet" href="../../css/style.css">
-  <style>
-    .cat-wrap { max-width: 900px; }
-    .cat-back { display: inline-block; margin-top: 24px; color: var(--accent); text-decoration: none; font-size: 14px; }
-    .cat-back:hover { text-decoration: underline; }
-    .cat-head {
-      display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
-      border-bottom: 2px solid var(--gold); padding-bottom: 10px; margin: 14px 0 22px;
-    }
-    .cat-head h1 { font-size: 30px; letter-spacing: 6px; margin: 0; }
-    .cat-head .cat-desc { color: var(--ink-soft); font-size: 13px; }
-    .cat-empty { color: var(--ink-soft); padding: 48px 0; text-align: center; border: 1px dashed var(--line); border-radius: 8px; }
-  </style>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
-<body data-cat="jing">
+<body data-cat="shi">
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="../index.html"><img class="brand-icon" src="../assets/images/brand-icon.png" alt="古籍文庫"> 古籍文庫</a>
@@ -30,8 +18,8 @@
         <div id="search-dropdown" hidden></div>
       </div>
 
-        <span class="tagline">書庫 · 經部</span>
-        <a class="tagline-link" href="../library.html" title="書庫 · 經史子集">書庫</a>
+        <span class="tagline">書庫 · 史部</span>
+        <a class="tagline-link" href="../library.html" title="書庫 · 經史子集叢">書庫</a>
         <a class="tagline-link" href="../ai-settings.html" title="AI 設置 · 配置 API Key">AI 設置</a>
         <a class="tagline-link" href="../ai-guide.html" title="AI 新手指南">AI 指南</a>
         <a class="tagline-link" href="../index.html" title="返回首頁">首頁</a>
@@ -42,11 +30,10 @@
   <main class="container cat-wrap">
     <a class="cat-back" href="../library.html">← 返回書庫</a>
     <div class="cat-head">
-      <h1 id="cat-title">經部</h1>
+      <h1 id="cat-title">史部</h1>
       <span class="cat-desc" id="cat-desc"></span>
     </div>
-    <div class="lib-books" id="cat-books"></div>
-    <div class="cat-empty" id="cat-empty" hidden>該部暫無收錄書籍</div>
+    <div id="cat-body"></div>
   </main>
 
   <footer class="site-footer">
@@ -55,8 +42,10 @@
       <div class="footer-donate"><a href="../sponsor.html">贊助</a></div>
     </div>
   </footer>
-  <script src="../../js/cat.js"></script>
-  <script src="../../js/global-ai.js"></script>
+
+  <script src="../js/common.js"></script>
+  <script src="../js/category.js"></script>
+  <script src="../js/global-ai.js"></script>
 <!-- 全站搜索移动端浮层 -->
   <div id="search-overlay" role="dialog" aria-label="搜索">
     <div class="ov-head">
