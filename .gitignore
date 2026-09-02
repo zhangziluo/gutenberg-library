@@ -22,3 +22,6 @@ functions/
 
 # 日志
 *.log
+
+# 注音注释：合并前 _site_data 自动备份（勿入库）
+文本/新书/backups/

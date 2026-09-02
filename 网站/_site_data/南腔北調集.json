@@ -1329,5 +1329,6477 @@
         "〔１０〕“知恥近乎勇”語見《禮記·中庸》。"
       ]
     }
+  ],
+  "annotations": [
+    {
+      "word": "的",
+      "pinyin": "de",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "長",
+      "pinyin": "cháng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "澤",
+      "pinyin": "zé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "省",
+      "pinyin": "shěng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "得",
+      "pinyin": "dé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "解",
+      "pinyin": "jiě",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "了",
+      "pinyin": "liǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "什",
+      "pinyin": "shén",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "么",
+      "pinyin": "me",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "都",
+      "pinyin": "dōu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "從",
+      "pinyin": "cóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "重",
+      "pinyin": "zhòng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "落",
+      "pinyin": "luò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "隊",
+      "pinyin": "duì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "車",
+      "pinyin": "jū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "不",
+      "pinyin": "bù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "和",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "暴",
+      "pinyin": "bào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "似",
+      "pinyin": "sì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "些",
+      "pinyin": "xiē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "罷",
+      "pinyin": "bà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "還",
+      "pinyin": "huán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "大",
+      "pinyin": "dà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "倘",
+      "pinyin": "tǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "且",
+      "pinyin": "qiě",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "行",
+      "pinyin": "xíng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "覺",
+      "pinyin": "jué",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "說",
+      "pinyin": "shuō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "期",
+      "pinyin": "qī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "休",
+      "pinyin": "xiū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "家",
+      "pinyin": "jiā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "曾",
+      "pinyin": "céng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "孫",
+      "pinyin": "sūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "秘",
+      "pinyin": "mì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "度",
+      "pinyin": "dù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "稱",
+      "pinyin": "chēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "石",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "六",
+      "pinyin": "liù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "被",
+      "pinyin": "bèi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "參",
+      "pinyin": "cān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "會",
+      "pinyin": "huì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "提",
+      "pinyin": "tí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "地",
+      "pinyin": "dì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "南",
+      "pinyin": "nán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“非所計也”"
+    },
+    {
+      "word": "筵",
+      "pinyin": "yán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "便",
+      "pinyin": "biàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "員",
+      "pinyin": "yuán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "沒",
+      "pinyin": "méi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "埋",
+      "pinyin": "mái",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "著",
+      "pinyin": "zhù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "那",
+      "pinyin": "nà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "見",
+      "pinyin": "jiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "句",
+      "pinyin": "jù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "信",
+      "pinyin": "xìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "枝",
+      "pinyin": "zhī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "能",
+      "pinyin": "néng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "諢",
+      "pinyin": "hùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "汶",
+      "pinyin": "wèn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "抹",
+      "pinyin": "mǒ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "种",
+      "pinyin": "zhǒng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "若",
+      "pinyin": "ruò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "約",
+      "pinyin": "yuē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "穌",
+      "pinyin": "sū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "傳",
+      "pinyin": "chuán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "其",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "阿",
+      "pinyin": "ā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "強",
+      "pinyin": "qiáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "藏",
+      "pinyin": "cáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "佛",
+      "pinyin": "fó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "趣",
+      "pinyin": "qù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "助",
+      "pinyin": "zhù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "數",
+      "pinyin": "shù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "樂",
+      "pinyin": "lè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "訶",
+      "pinyin": "hē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "單",
+      "pinyin": "dān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "誰",
+      "pinyin": "shuí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "呢",
+      "pinyin": "ne",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "仇",
+      "pinyin": "chóu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "珂",
+      "pinyin": "kē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "勒",
+      "pinyin": "lè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "蛉",
+      "pinyin": "líng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "薄",
+      "pinyin": "báo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "她",
+      "pinyin": "tā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "屬",
+      "pinyin": "shǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "斐",
+      "pinyin": "fěi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "姊",
+      "pinyin": "zǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "景",
+      "pinyin": "jǐng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "淌",
+      "pinyin": "tǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "謁",
+      "pinyin": "yè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "奧",
+      "pinyin": "ào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "硐",
+      "pinyin": "dòng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "适",
+      "pinyin": "shì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "淖",
+      "pinyin": "nào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "骷",
+      "pinyin": "kū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "籩",
+      "pinyin": "biān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "潰",
+      "pinyin": "kuì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "价",
+      "pinyin": "jià",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "思",
+      "pinyin": "sī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "梵",
+      "pinyin": "fàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "琪",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "奇",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "契",
+      "pinyin": "qì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "旃",
+      "pinyin": "zhān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "洞",
+      "pinyin": "dòng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "万",
+      "pinyin": "wàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "迦",
+      "pinyin": "jiā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "牟",
+      "pinyin": "mù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "闍",
+      "pinyin": "dū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "伽",
+      "pinyin": "jiā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "丁",
+      "pinyin": "dīng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "頓",
+      "pinyin": "dùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "稹",
+      "pinyin": "zhěn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "鶯",
+      "pinyin": "yīng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "閒",
+      "pinyin": "xián",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "女",
+      "pinyin": "nǚ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "革",
+      "pinyin": "gé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "連環圖畫”辯護"
+    },
+    {
+      "word": "伯",
+      "pinyin": "bó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "氏",
+      "pinyin": "shì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "揭",
+      "pinyin": "jiē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "惡",
+      "pinyin": "è",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "莎",
+      "pinyin": "shā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "卜",
+      "pinyin": "bǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "疑",
+      "pinyin": "yí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "底",
+      "pinyin": "dǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "給",
+      "pinyin": "gěi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "哪",
+      "pinyin": "nǎ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "差",
+      "pinyin": "chà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "坏",
+      "pinyin": "huài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "驀",
+      "pinyin": "mò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "跳",
+      "pinyin": "tiào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "喝",
+      "pinyin": "hē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "親",
+      "pinyin": "qīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "模",
+      "pinyin": "mó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "嘲",
+      "pinyin": "cháo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "胥",
+      "pinyin": "xū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "識",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "辟",
+      "pinyin": "pì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "堡",
+      "pinyin": "bǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "摩",
+      "pinyin": "mó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "食",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "俏",
+      "pinyin": "qiào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "弟",
+      "pinyin": "dì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "歟",
+      "pinyin": "yú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "沌",
+      "pinyin": "dùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "塾",
+      "pinyin": "shú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "隸",
+      "pinyin": "lì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "毒",
+      "pinyin": "dú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "彈",
+      "pinyin": "dàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "盛",
+      "pinyin": "shèng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "般",
+      "pinyin": "bān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "祺",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "釗",
+      "pinyin": "zhāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "召",
+      "pinyin": "zhào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "縣",
+      "pinyin": "xiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "恫",
+      "pinyin": "dòng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "艫",
+      "pinyin": "lú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "紜",
+      "pinyin": "yún",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "戲",
+      "pinyin": "xì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "擇",
+      "pinyin": "zé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "血",
+      "pinyin": "xuè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "系",
+      "pinyin": "xì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "合",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "嗥",
+      "pinyin": "háo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "爪",
+      "pinyin": "zhuǎ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "齊",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "殖",
+      "pinyin": "zhí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "殷",
+      "pinyin": "yīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "蓋",
+      "pinyin": "gài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“論語一年”"
+    },
+    {
+      "word": "否",
+      "pinyin": "fǒu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“蜜蜂”与“蜜”"
+    },
+    {
+      "word": "涌",
+      "pinyin": "yǒng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“蜜蜂”与“蜜”"
+    },
+    {
+      "word": "弄",
+      "pinyin": "nòng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“蜜蜂”与“蜜”"
+    },
+    {
+      "word": "饉",
+      "pinyin": "jǐn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“蜜蜂”与“蜜”"
+    },
+    {
+      "word": "繁",
+      "pinyin": "fán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“蜜蜂”与“蜜”"
+    },
+    {
+      "word": "憮",
+      "pinyin": "wǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“蜜蜂”与“蜜”"
+    },
+    {
+      "word": "氓",
+      "pinyin": "máng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“蜜蜂”与“蜜”"
+    },
+    {
+      "word": "苜",
+      "pinyin": "mù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“蜜蜂”与“蜜”"
+    },
+    {
+      "word": "蓿",
+      "pinyin": "xu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“蜜蜂”与“蜜”"
+    },
+    {
+      "word": "仔",
+      "pinyin": "zǎi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“蜜蜂”与“蜜”"
+    },
+    {
+      "word": "調",
+      "pinyin": "diào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“蜜蜂”与“蜜”"
+    },
+    {
+      "word": "查",
+      "pinyin": "chá",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "“蜜蜂”与“蜜”"
+    },
+    {
+      "word": "衰",
+      "pinyin": "shuāi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《木刻創作法》序"
+    },
+    {
+      "word": "豈",
+      "pinyin": "qǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《木刻創作法》序"
+    },
+    {
+      "word": "縮",
+      "pinyin": "suō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《木刻創作法》序"
+    },
+    {
+      "word": "炮",
+      "pinyin": "pào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《木刻創作法》序"
+    },
+    {
+      "word": "駢",
+      "pinyin": "pián",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《木刻創作法》序"
+    },
+    {
+      "word": "朴",
+      "pinyin": "pǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《守常全集》題記"
+    },
+    {
+      "word": "柜",
+      "pinyin": "guì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《守常全集》題記"
+    },
+    {
+      "word": "廈",
+      "pinyin": "shà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《守常全集》題記"
+    },
+    {
+      "word": "祭",
+      "pinyin": "jì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《守常全集》題記"
+    },
+    {
+      "word": "梟",
+      "pinyin": "xiāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《守常全集》題記"
+    },
+    {
+      "word": "折",
+      "pinyin": "zhé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《守常全集》題記"
+    },
+    {
+      "word": "責",
+      "pinyin": "zé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《守常全集》題記"
+    },
+    {
+      "word": "區",
+      "pinyin": "qū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《守常全集》題記"
+    },
+    {
+      "word": "劼",
+      "pinyin": "jié",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《守常全集》題記"
+    },
+    {
+      "word": "挹",
+      "pinyin": "yì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《守常全集》題記"
+    },
+    {
+      "word": "柩",
+      "pinyin": "jiù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《守常全集》題記"
+    },
+    {
+      "word": "射",
+      "pinyin": "shè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《守常全集》題記"
+    },
+    {
+      "word": "墮",
+      "pinyin": "duò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "迫",
+      "pinyin": "pò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "扎",
+      "pinyin": "zhā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "剿",
+      "pinyin": "jiǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "洗",
+      "pinyin": "xǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "宛",
+      "pinyin": "wǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "莫",
+      "pinyin": "mò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "亡",
+      "pinyin": "wáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "勃",
+      "pinyin": "bó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "唬",
+      "pinyin": "hǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "幔",
+      "pinyin": "màn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "椋",
+      "pinyin": "liáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "恚",
+      "pinyin": "huì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "錚",
+      "pinyin": "zhēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "耄",
+      "pinyin": "mào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "暄",
+      "pinyin": "xuān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "娣",
+      "pinyin": "dì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "蛩",
+      "pinyin": "qióng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "謖",
+      "pinyin": "sù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "塞",
+      "pinyin": "sāi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "嵌",
+      "pinyin": "qiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "繆",
+      "pinyin": "móu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "驍",
+      "pinyin": "xiāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "妗",
+      "pinyin": "jìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "蝦",
+      "pinyin": "xiā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "藺",
+      "pinyin": "lìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "佟",
+      "pinyin": "tóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "臕",
+      "pinyin": "biāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "砉",
+      "pinyin": "huā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "色",
+      "pinyin": "sè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "莪",
+      "pinyin": "é",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "謨",
+      "pinyin": "mó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "括",
+      "pinyin": "kuò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "饕",
+      "pinyin": "tāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "迮",
+      "pinyin": "zé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "嚇",
+      "pinyin": "hè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "懟",
+      "pinyin": "duì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "笳",
+      "pinyin": "jiā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "髖",
+      "pinyin": "kuān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "硌",
+      "pinyin": "gè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "堋",
+      "pinyin": "péng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "哦",
+      "pinyin": "ò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "曖",
+      "pinyin": "ài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "紅",
+      "pinyin": "hóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《豎琴》前記"
+    },
+    {
+      "word": "丐",
+      "pinyin": "gài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "蹩",
+      "pinyin": "bié",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "癩",
+      "pinyin": "lài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "嘮",
+      "pinyin": "lào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "叨",
+      "pinyin": "dāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "凹",
+      "pinyin": "āo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "雯",
+      "pinyin": "wén",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "瞿",
+      "pinyin": "qú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "眄",
+      "pinyin": "miǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "渠",
+      "pinyin": "qú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "耒",
+      "pinyin": "lěi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "丞",
+      "pinyin": "chéng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "浚",
+      "pinyin": "jùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "禪",
+      "pinyin": "shàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "降",
+      "pinyin": "jiàng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "摑",
+      "pinyin": "guó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《蕭伯納在上海》序"
+    },
+    {
+      "word": "熟",
+      "pinyin": "shú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《一個人的受難》序"
+    },
+    {
+      "word": "冥",
+      "pinyin": "míng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《一個人的受難》序"
+    },
+    {
+      "word": "兌",
+      "pinyin": "duì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《一個人的受難》序"
+    },
+    {
+      "word": "校",
+      "pinyin": "xiào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《一個人的受難》序"
+    },
+    {
+      "word": "稽",
+      "pinyin": "jī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《一個人的受難》序"
+    },
+    {
+      "word": "彷",
+      "pinyin": "páng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《一個人的受難》序"
+    },
+    {
+      "word": "徨",
+      "pinyin": "huáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《一個人的受難》序"
+    },
+    {
+      "word": "乘",
+      "pinyin": "chéng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《一個人的受難》序"
+    },
+    {
+      "word": "厂",
+      "pinyin": "chǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《一個人的受難》序"
+    },
+    {
+      "word": "陶",
+      "pinyin": "táo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《一個人的受難》序"
+    },
+    {
+      "word": "賁",
+      "pinyin": "bì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《一個人的受難》序"
+    },
+    {
+      "word": "冒",
+      "pinyin": "mào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《一個人的受難》序"
+    },
+    {
+      "word": "追",
+      "pinyin": "zhuī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《一個人的受難》序"
+    },
+    {
+      "word": "忏",
+      "pinyin": "chàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《一個人的受難》序"
+    },
+    {
+      "word": "夾",
+      "pinyin": "jiā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "露",
+      "pinyin": "lù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "削",
+      "pinyin": "xiāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "吶",
+      "pinyin": "nà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "拘",
+      "pinyin": "jū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "兮",
+      "pinyin": "xī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "吾",
+      "pinyin": "wú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "朝",
+      "pinyin": "cháo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "拾",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "瞞",
+      "pinyin": "mán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "溥",
+      "pinyin": "pǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "洌",
+      "pinyin": "liè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "澹",
+      "pinyin": "dàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "紓",
+      "pinyin": "shū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "敦",
+      "pinyin": "dūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "綬",
+      "pinyin": "shòu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "虯",
+      "pinyin": "qiú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "剎",
+      "pinyin": "chà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "癖",
+      "pinyin": "pǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "朦",
+      "pinyin": "méng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "朧",
+      "pinyin": "lóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "卡",
+      "pinyin": "kǎ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "婭",
+      "pinyin": "yà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "育",
+      "pinyin": "yù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "沈",
+      "pinyin": "shěn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "鐸",
+      "pinyin": "duó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "宓",
+      "pinyin": "mì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "岑",
+      "pinyin": "cén",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "胂",
+      "pinyin": "shèn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "乩",
+      "pinyin": "jī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "熳",
+      "pinyin": "màn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "癐",
+      "pinyin": "guì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "獯",
+      "pinyin": "xūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "罄",
+      "pinyin": "qìng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "喬",
+      "pinyin": "qiáo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《自選集》自序"
+    },
+    {
+      "word": "趨",
+      "pinyin": "qū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《總退卻》序"
+    },
+    {
+      "word": "角",
+      "pinyin": "jiǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《總退卻》序"
+    },
+    {
+      "word": "嫖",
+      "pinyin": "piáo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《總退卻》序"
+    },
+    {
+      "word": "柏",
+      "pinyin": "bǎi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《總退卻》序"
+    },
+    {
+      "word": "拊",
+      "pinyin": "fǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《總退卻》序"
+    },
+    {
+      "word": "髀",
+      "pinyin": "bì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《總退卻》序"
+    },
+    {
+      "word": "邃",
+      "pinyin": "suì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《總退卻》序"
+    },
+    {
+      "word": "旖",
+      "pinyin": "yǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《總退卻》序"
+    },
+    {
+      "word": "旎",
+      "pinyin": "nǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "《總退卻》序"
+    },
+    {
+      "word": "剌",
+      "pinyin": "là",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "膀",
+      "pinyin": "bǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "璧",
+      "pinyin": "bì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "呵",
+      "pinyin": "hē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "澄",
+      "pinyin": "chéng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "愉",
+      "pinyin": "yú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "娼",
+      "pinyin": "chāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "儵",
+      "pinyin": "shū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "咀",
+      "pinyin": "zuǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "嚼",
+      "pinyin": "jiáo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "肋",
+      "pinyin": "lèi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "懿",
+      "pinyin": "yì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "旁",
+      "pinyin": "páng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "仰",
+      "pinyin": "yǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "蓀",
+      "pinyin": "sūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "誚",
+      "pinyin": "qiào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "噓",
+      "pinyin": "xū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "谷",
+      "pinyin": "gǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "鬢",
+      "pinyin": "bìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "狺",
+      "pinyin": "yín",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "絀",
+      "pinyin": "chù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "蟊",
+      "pinyin": "máo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "暉",
+      "pinyin": "huī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "栩",
+      "pinyin": "xǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "噴",
+      "pinyin": "pēn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "舐",
+      "pinyin": "shì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "赳",
+      "pinyin": "jiū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "蹉",
+      "pinyin": "cuō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "邪",
+      "pinyin": "xié",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "欒",
+      "pinyin": "luán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "莘",
+      "pinyin": "shēn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "泊",
+      "pinyin": "bó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "殍",
+      "pinyin": "piǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "卒",
+      "pinyin": "zú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "湯",
+      "pinyin": "tāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "碩",
+      "pinyin": "shuò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "囝",
+      "pinyin": "jiǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "薇",
+      "pinyin": "wēi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "夭",
+      "pinyin": "yāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "殤",
+      "pinyin": "shāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "大家降一級試試看"
+    },
+    {
+      "word": "蛇",
+      "pinyin": "shé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "搗鬼心傳"
+    },
+    {
+      "word": "拂",
+      "pinyin": "fú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "搗鬼心傳"
+    },
+    {
+      "word": "胖",
+      "pinyin": "pàng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "搗鬼心傳"
+    },
+    {
+      "word": "獠",
+      "pinyin": "liáo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "搗鬼心傳"
+    },
+    {
+      "word": "蛾",
+      "pinyin": "é",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "搗鬼心傳"
+    },
+    {
+      "word": "攢",
+      "pinyin": "zǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "搗鬼心傳"
+    },
+    {
+      "word": "飆",
+      "pinyin": "biāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "搗鬼心傳"
+    },
+    {
+      "word": "虹",
+      "pinyin": "hóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "搗鬼心傳"
+    },
+    {
+      "word": "棱",
+      "pinyin": "léng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "搗鬼心傳"
+    },
+    {
+      "word": "遯",
+      "pinyin": "dùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "搗鬼心傳"
+    },
+    {
+      "word": "褶",
+      "pinyin": "zhě",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "搗鬼心傳"
+    },
+    {
+      "word": "儻",
+      "pinyin": "tǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "搗鬼心傳"
+    },
+    {
+      "word": "瑛",
+      "pinyin": "yīng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "聲明"
+    },
+    {
+      "word": "奚",
+      "pinyin": "xī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "給文學社信"
+    },
+    {
+      "word": "痱",
+      "pinyin": "fèi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于翻譯"
+    },
+    {
+      "word": "麝",
+      "pinyin": "shè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于翻譯"
+    },
+    {
+      "word": "拚",
+      "pinyin": "pīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于翻譯"
+    },
+    {
+      "word": "尉",
+      "pinyin": "wèi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于翻譯"
+    },
+    {
+      "word": "剝",
+      "pinyin": "bāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于翻譯"
+    },
+    {
+      "word": "亟",
+      "pinyin": "jí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于翻譯"
+    },
+    {
+      "word": "俾",
+      "pinyin": "bǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于翻譯"
+    },
+    {
+      "word": "娜",
+      "pinyin": "nà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于翻譯"
+    },
+    {
+      "word": "圈",
+      "pinyin": "quān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于翻譯"
+    },
+    {
+      "word": "鳥",
+      "pinyin": "niǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于婦女解放"
+    },
+    {
+      "word": "桎",
+      "pinyin": "zhì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于婦女解放"
+    },
+    {
+      "word": "梏",
+      "pinyin": "gù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于婦女解放"
+    },
+    {
+      "word": "檳",
+      "pinyin": "bīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于婦女解放"
+    },
+    {
+      "word": "髻",
+      "pinyin": "jì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于女人"
+    },
+    {
+      "word": "脯",
+      "pinyin": "pú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于女人"
+    },
+    {
+      "word": "份",
+      "pinyin": "fèn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于女人"
+    },
+    {
+      "word": "髦",
+      "pinyin": "máo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于女人"
+    },
+    {
+      "word": "側",
+      "pinyin": "cè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "關于女人"
+    },
+    {
+      "word": "燧",
+      "pinyin": "suì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "火"
+    },
+    {
+      "word": "黯",
+      "pinyin": "àn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "火"
+    },
+    {
+      "word": "扛",
+      "pinyin": "káng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "火"
+    },
+    {
+      "word": "搶",
+      "pinyin": "qiāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "火"
+    },
+    {
+      "word": "嬴",
+      "pinyin": "yíng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "火"
+    },
+    {
+      "word": "斕",
+      "pinyin": "lán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "火"
+    },
+    {
+      "word": "雀",
+      "pinyin": "què",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "家庭為中國之基本"
+    },
+    {
+      "word": "券",
+      "pinyin": "quàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "家庭為中國之基本"
+    },
+    {
+      "word": "檐",
+      "pinyin": "yán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "家庭為中國之基本"
+    },
+    {
+      "word": "哼",
+      "pinyin": "hēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "家庭為中國之基本"
+    },
+    {
+      "word": "畜",
+      "pinyin": "chù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "家庭為中國之基本"
+    },
+    {
+      "word": "臾",
+      "pinyin": "yú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "家庭為中國之基本"
+    },
+    {
+      "word": "翛",
+      "pinyin": "xiāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "家庭為中國之基本"
+    },
+    {
+      "word": "飪",
+      "pinyin": "rèn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "經驗"
+    },
+    {
+      "word": "淨",
+      "pinyin": "jìng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "經驗"
+    },
+    {
+      "word": "儷",
+      "pinyin": "lì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "經驗"
+    },
+    {
+      "word": "裳",
+      "pinyin": "shang",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "經驗"
+    },
+    {
+      "word": "蠃",
+      "pinyin": "luǒ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "經驗"
+    },
+    {
+      "word": "蛖",
+      "pinyin": "máng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "經驗"
+    },
+    {
+      "word": "洵",
+      "pinyin": "xún",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "看蕭和“看蕭的人們”記"
+    },
+    {
+      "word": "孑",
+      "pinyin": "jié",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "看蕭和“看蕭的人們”記"
+    },
+    {
+      "word": "腊",
+      "pinyin": "là",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "看蕭和“看蕭的人們”記"
+    },
+    {
+      "word": "錮",
+      "pinyin": "gù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“第三种人”"
+    },
+    {
+      "word": "馮",
+      "pinyin": "féng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“第三种人”"
+    },
+    {
+      "word": "藎",
+      "pinyin": "jìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“第三种人”"
+    },
+    {
+      "word": "朊",
+      "pinyin": "ruǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“第三种人”"
+    },
+    {
+      "word": "臭",
+      "pinyin": "chòu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "林克多《蘇聯聞見錄》序"
+    },
+    {
+      "word": "鯁",
+      "pinyin": "gěng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“赴難”和“逃難”"
+    },
+    {
+      "word": "尾",
+      "pinyin": "wěi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“赴難”和“逃難”"
+    },
+    {
+      "word": "誥",
+      "pinyin": "gào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“赴難”和“逃難”"
+    },
+    {
+      "word": "諭",
+      "pinyin": "yù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“赴難”和“逃難”"
+    },
+    {
+      "word": "倭",
+      "pinyin": "wō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“赴難”和“逃難”"
+    },
+    {
+      "word": "羊",
+      "pinyin": "yáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“赴難”和“逃難”"
+    },
+    {
+      "word": "鋈",
+      "pinyin": "wù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“赴難”和“逃難”"
+    },
+    {
+      "word": "裰",
+      "pinyin": "duō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“赴難”和“逃難”"
+    },
+    {
+      "word": "飭",
+      "pinyin": "chì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“赴難”和“逃難”"
+    },
+    {
+      "word": "傀",
+      "pinyin": "kuǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“赴難”和“逃難”"
+    },
+    {
+      "word": "錛",
+      "pinyin": "bēn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論“赴難”和“逃難”"
+    },
+    {
+      "word": "箏",
+      "pinyin": "zhēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論翻印木刻"
+    },
+    {
+      "word": "蜻",
+      "pinyin": "qīng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論翻印木刻"
+    },
+    {
+      "word": "蜓",
+      "pinyin": "tíng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論翻印木刻"
+    },
+    {
+      "word": "瞰",
+      "pinyin": "kàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論翻印木刻"
+    },
+    {
+      "word": "隼",
+      "pinyin": "sǔn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "論翻印木刻"
+    },
+    {
+      "word": "朱",
+      "pinyin": "zhū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "漫与"
+    },
+    {
+      "word": "驊",
+      "pinyin": "huá",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "漫与"
+    },
+    {
+      "word": "暨",
+      "pinyin": "jì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "漫与"
+    },
+    {
+      "word": "核",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "漫与"
+    },
+    {
+      "word": "緝",
+      "pinyin": "jí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "漫与"
+    },
+    {
+      "word": "率",
+      "pinyin": "lǜ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "漫与"
+    },
+    {
+      "word": "郛",
+      "pinyin": "fú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "漫与"
+    },
+    {
+      "word": "貽",
+      "pinyin": "yí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "漫与"
+    },
+    {
+      "word": "韜",
+      "pinyin": "tāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "漫与"
+    },
+    {
+      "word": "芸",
+      "pinyin": "yún",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "辱罵和恐嚇決不是戰斗"
+    },
+    {
+      "word": "詈",
+      "pinyin": "lì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "辱罵和恐嚇決不是戰斗"
+    },
+    {
+      "word": "伺",
+      "pinyin": "sì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "辱罵和恐嚇決不是戰斗"
+    },
+    {
+      "word": "貉",
+      "pinyin": "mò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "辱罵和恐嚇決不是戰斗"
+    },
+    {
+      "word": "亨",
+      "pinyin": "hēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "辱罵和恐嚇決不是戰斗"
+    },
+    {
+      "word": "嬉",
+      "pinyin": "xī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "辱罵和恐嚇決不是戰斗"
+    },
+    {
+      "word": "楣",
+      "pinyin": "méi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "沙"
+    },
+    {
+      "word": "嘍",
+      "pinyin": "lóu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "沙"
+    },
+    {
+      "word": "猢",
+      "pinyin": "hú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "沙"
+    },
+    {
+      "word": "猻",
+      "pinyin": "sūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "沙"
+    },
+    {
+      "word": "螻",
+      "pinyin": "lóu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "沙"
+    },
+    {
+      "word": "填",
+      "pinyin": "tián",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "沙"
+    },
+    {
+      "word": "唳",
+      "pinyin": "lì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "沙"
+    },
+    {
+      "word": "謚",
+      "pinyin": "shì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "世故三昧"
+    },
+    {
+      "word": "鄤",
+      "pinyin": "màn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "世故三昧"
+    },
+    {
+      "word": "吁",
+      "pinyin": "xū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "世故三昧"
+    },
+    {
+      "word": "筌",
+      "pinyin": "quán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "世故三昧"
+    },
+    {
+      "word": "諦",
+      "pinyin": "dì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "世故三昧"
+    },
+    {
+      "word": "癮",
+      "pinyin": "yǐn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "世故三昧"
+    },
+    {
+      "word": "禎",
+      "pinyin": "zhēn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "世故三昧"
+    },
+    {
+      "word": "瀅",
+      "pinyin": "yíng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "世故三昧"
+    },
+    {
+      "word": "荃",
+      "pinyin": "quán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "世故三昧"
+    },
+    {
+      "word": "港",
+      "pinyin": "gǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "誰的矛盾"
+    },
+    {
+      "word": "滸",
+      "pinyin": "hǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "談金圣歎"
+    },
+    {
+      "word": "嵇",
+      "pinyin": "jī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "談金圣歎"
+    },
+    {
+      "word": "壑",
+      "pinyin": "hè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "談金圣歎"
+    },
+    {
+      "word": "藉",
+      "pinyin": "jiè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "談金圣歎"
+    },
+    {
+      "word": "咽",
+      "pinyin": "yàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "談金圣歎"
+    },
+    {
+      "word": "俅",
+      "pinyin": "qiú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "談金圣歎"
+    },
+    {
+      "word": "篦",
+      "pinyin": "bì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "談金圣歎"
+    },
+    {
+      "word": "詔",
+      "pinyin": "zhào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "談金圣歎"
+    },
+    {
+      "word": "訐",
+      "pinyin": "jié",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "談金圣歎"
+    },
+    {
+      "word": "劾",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "談金圣歎"
+    },
+    {
+      "word": "觴",
+      "pinyin": "shāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "談金圣歎"
+    },
+    {
+      "word": "噩",
+      "pinyin": "è",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "談金圣歎"
+    },
+    {
+      "word": "彭",
+      "pinyin": "péng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "談金圣歎"
+    },
+    {
+      "word": "僇",
+      "pinyin": "lù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "談金圣歎"
+    },
+    {
+      "word": "拓",
+      "pinyin": "tuò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "題記"
+    },
+    {
+      "word": "厥",
+      "pinyin": "jué",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "題記"
+    },
+    {
+      "word": "綜",
+      "pinyin": "zōng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "題記"
+    },
+    {
+      "word": "馥",
+      "pinyin": "fù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "題記"
+    },
+    {
+      "word": "盍",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "听說夢"
+    },
+    {
+      "word": "柢",
+      "pinyin": "dǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "听說夢"
+    },
+    {
+      "word": "忤",
+      "pinyin": "wǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "听說夢"
+    },
+    {
+      "word": "樵",
+      "pinyin": "qiáo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "听說夢"
+    },
+    {
+      "word": "皙",
+      "pinyin": "xī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "听說夢"
+    },
+    {
+      "word": "雩",
+      "pinyin": "yú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "听說夢"
+    },
+    {
+      "word": "喟",
+      "pinyin": "kuì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "听說夢"
+    },
+    {
+      "word": "摶",
+      "pinyin": "tuán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "听說夢"
+    },
+    {
+      "word": "碌",
+      "pinyin": "lù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "听說夢"
+    },
+    {
+      "word": "俞",
+      "pinyin": "yú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "听說夢"
+    },
+    {
+      "word": "寰",
+      "pinyin": "huán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "听說夢"
+    },
+    {
+      "word": "竦",
+      "pinyin": "sǒng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "勁",
+      "pinyin": "jìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "惴",
+      "pinyin": "zhuì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "尺",
+      "pinyin": "chǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "棍",
+      "pinyin": "gùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "鏗",
+      "pinyin": "kēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "偈",
+      "pinyin": "jì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "裊",
+      "pinyin": "niǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "謔",
+      "pinyin": "xuè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "薔",
+      "pinyin": "qiáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "銬",
+      "pinyin": "kào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "挈",
+      "pinyin": "qiè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "緇",
+      "pinyin": "zī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "頻",
+      "pinyin": "bīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "棣",
+      "pinyin": "dì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "檜",
+      "pinyin": "guì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "雋",
+      "pinyin": "jùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "鵂",
+      "pinyin": "xiū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "饌",
+      "pinyin": "zhuàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "鷙",
+      "pinyin": "zhì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "呱",
+      "pinyin": "guā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "觶",
+      "pinyin": "zhì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "陟",
+      "pinyin": "zhì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "為了忘卻的記念"
+    },
+    {
+      "word": "諛",
+      "pinyin": "yú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "峋",
+      "pinyin": "xún",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "誑",
+      "pinyin": "kuáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "諑",
+      "pinyin": "zhuó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "芙",
+      "pinyin": "fú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "舴",
+      "pinyin": "zé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "簿",
+      "pinyin": "bó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "睿",
+      "pinyin": "ruì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "鰨",
+      "pinyin": "tǎ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "簦",
+      "pinyin": "dēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "狻",
+      "pinyin": "suān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "拗",
+      "pinyin": "ào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "媧",
+      "pinyin": "wā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "竇",
+      "pinyin": "dòu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "蕙",
+      "pinyin": "huì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "愷",
+      "pinyin": "kǎi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "妍",
+      "pinyin": "yán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "蚩",
+      "pinyin": "chī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "我們不再受騙了"
+    },
+    {
+      "word": "屏",
+      "pinyin": "píng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "瓏",
+      "pinyin": "lóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "蟆",
+      "pinyin": "ma",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "蟾",
+      "pinyin": "chán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "蜍",
+      "pinyin": "chú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "腴",
+      "pinyin": "yú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "榻",
+      "pinyin": "tà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "挲",
+      "pinyin": "sā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "琥",
+      "pinyin": "hǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "珀",
+      "pinyin": "pò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "翡",
+      "pinyin": "fěi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "匕",
+      "pinyin": "bǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "獷",
+      "pinyin": "guǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "梢",
+      "pinyin": "shāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "龜",
+      "pinyin": "guī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "藪",
+      "pinyin": "sǒu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "笠",
+      "pinyin": "lì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "鑣",
+      "pinyin": "biāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "乾",
+      "pinyin": "qián",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "縝",
+      "pinyin": "zhěn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "躄",
+      "pinyin": "bì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "羲",
+      "pinyin": "xī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "絜",
+      "pinyin": "jié",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "嘌",
+      "pinyin": "piào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "逖",
+      "pinyin": "tì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "晏",
+      "pinyin": "yàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "弼",
+      "pinyin": "bì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "諫",
+      "pinyin": "jiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "岱",
+      "pinyin": "dài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "小品文的危机"
+    },
+    {
+      "word": "詎",
+      "pinyin": "jù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "學生和玉佛"
+    },
+    {
+      "word": "嗟",
+      "pinyin": "jiē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "學生和玉佛"
+    },
+    {
+      "word": "皓",
+      "pinyin": "hào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "諺語"
+    },
+    {
+      "word": "臂",
+      "pinyin": "bì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "諺語"
+    },
+    {
+      "word": "蜡",
+      "pinyin": "là",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "諺語"
+    },
+    {
+      "word": "佼",
+      "pinyin": "jiǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "諺語"
+    },
+    {
+      "word": "弒",
+      "pinyin": "shì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "諺語"
+    },
+    {
+      "word": "佶",
+      "pinyin": "jí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "諺語"
+    },
+    {
+      "word": "婢",
+      "pinyin": "bì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "諺語"
+    },
+    {
+      "word": "翥",
+      "pinyin": "zhù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "諺語"
+    },
+    {
+      "word": "徇",
+      "pinyin": "xùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "諺語"
+    },
+    {
+      "word": "桀",
+      "pinyin": "jié",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "諺語"
+    },
+    {
+      "word": "跖",
+      "pinyin": "zhí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "諺語"
+    },
+    {
+      "word": "枰",
+      "pinyin": "píng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "諺語"
+    },
+    {
+      "word": "弈",
+      "pinyin": "yì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "諺語"
+    },
+    {
+      "word": "淞",
+      "pinyin": "sōng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "飧",
+      "pinyin": "sūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "麂",
+      "pinyin": "jǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "懵",
+      "pinyin": "měng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "駙",
+      "pinyin": "fù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "褡",
+      "pinyin": "dā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "逯",
+      "pinyin": "lù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "邐",
+      "pinyin": "lǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "諞",
+      "pinyin": "piǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "鏐",
+      "pinyin": "liú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "苛",
+      "pinyin": "kē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "瑒",
+      "pinyin": "chàng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "獐",
+      "pinyin": "zhāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "驛",
+      "pinyin": "yì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "篾",
+      "pinyin": "miè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "妾",
+      "pinyin": "qiè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "謠言世家"
+    },
+    {
+      "word": "庵",
+      "pinyin": "ān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "屣",
+      "pinyin": "xǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "伎",
+      "pinyin": "jì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "儼",
+      "pinyin": "yǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "佞",
+      "pinyin": "nìng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "頡",
+      "pinyin": "jié",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "僉",
+      "pinyin": "qiān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "狷",
+      "pinyin": "juàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "膾",
+      "pinyin": "kuài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "匾",
+      "pinyin": "biǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "峙",
+      "pinyin": "zhì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "觳",
+      "pinyin": "hú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "櫬",
+      "pinyin": "chèn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "榛",
+      "pinyin": "zhēn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "瘢",
+      "pinyin": "bān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "髡",
+      "pinyin": "kūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "佚",
+      "pinyin": "yì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "妃",
+      "pinyin": "fēi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "跗",
+      "pinyin": "fū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "縑",
+      "pinyin": "jiān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "揄",
+      "pinyin": "yú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "袂",
+      "pinyin": "mèi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "躡",
+      "pinyin": "niè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "熹",
+      "pinyin": "xī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "悌",
+      "pinyin": "tì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "由中國女人的腳"
+    },
+    {
+      "word": "孚",
+      "pinyin": "fú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "又論“第三种人”"
+    },
+    {
+      "word": "泄",
+      "pinyin": "xiè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "又論“第三种人”"
+    },
+    {
+      "word": "祠",
+      "pinyin": "cí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "又論“第三种人”"
+    },
+    {
+      "word": "戇",
+      "pinyin": "zhuàng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "真假堂吉訶德"
+    },
+    {
+      "word": "掬",
+      "pinyin": "jū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "真假堂吉訶德"
+    },
+    {
+      "word": "禧",
+      "pinyin": "xǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "真假堂吉訶德"
+    },
+    {
+      "word": "賺",
+      "pinyin": "zhuàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "真假堂吉訶德"
+    },
+    {
+      "word": "斫",
+      "pinyin": "zhuó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "真假堂吉訶德"
+    },
+    {
+      "word": "庖",
+      "pinyin": "páo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "真假堂吉訶德"
+    },
+    {
+      "word": "篤",
+      "pinyin": "dǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "真假堂吉訶德"
+    },
+    {
+      "word": "敕",
+      "pinyin": "chì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "祝《濤聲》"
+    },
+    {
+      "word": "洒",
+      "pinyin": "sǎ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "祝《濤聲》"
+    },
+    {
+      "word": "繳",
+      "pinyin": "jiǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "祝《濤聲》"
+    },
+    {
+      "word": "汔",
+      "pinyin": "qì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "祝《濤聲》"
+    },
+    {
+      "word": "遐",
+      "pinyin": "xiá",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "祝《濤聲》"
+    },
+    {
+      "word": "嗔",
+      "pinyin": "chēn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "上海的少女"
+    },
+    {
+      "word": "饜",
+      "pinyin": "yàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "上海的少女"
+    },
+    {
+      "word": "恣",
+      "pinyin": "zì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "上海的少女"
+    },
+    {
+      "word": "奘",
+      "pinyin": "zàng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "上海的少女"
+    },
+    {
+      "word": "溺",
+      "pinyin": "nì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "上海的少女"
+    },
+    {
+      "word": "扈",
+      "pinyin": "hù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "上海的少女"
+    },
+    {
+      "word": "葸",
+      "pinyin": "xǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "上海的少女"
+    },
+    {
+      "word": "羿",
+      "pinyin": "yì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "作文秘訣"
+    },
+    {
+      "word": "俶",
+      "pinyin": "chù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "作文秘訣"
+    },
+    {
+      "word": "燔",
+      "pinyin": "fán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "作文秘訣"
+    },
+    {
+      "word": "柙",
+      "pinyin": "xiá",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "作文秘訣"
+    },
+    {
+      "word": "釵",
+      "pinyin": "chāi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "作文秘訣"
+    },
+    {
+      "word": "番",
+      "pinyin": "fān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "作文秘訣"
+    },
+    {
+      "word": "劭",
+      "pinyin": "shào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "作文秘訣"
+    },
+    {
+      "word": "虔",
+      "pinyin": "qián",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "作文秘訣"
+    }
   ]
 }

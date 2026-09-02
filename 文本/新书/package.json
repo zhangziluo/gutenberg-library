@@ -1,0 +1,1 @@
+{"name":"gutenberg-new-books","private":true,"version":"1.0.0","description":"古登堡新书入库工具链（含 pinyin-pro 注音）","dependencies":{"opencc-js":"^1.4.2","pinyin-pro":"^3.29.3"}}

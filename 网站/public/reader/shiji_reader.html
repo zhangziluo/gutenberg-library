@@ -7,6 +7,7 @@
 <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 <script src="prompt_templates.js"></script>
+<script src="../../js/annotation-lang.js"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;height:100vh;overflow:hidden}
@@ -304,6 +305,7 @@ body{font-family:-apple-system,"Microsoft YaHei",sans-serif;background:#f5f5f5;h
       <button id="toggleSidebar" class="tb-btn" title="展开/收起侧栏">☰ 侧栏</button>
       <button id="toggleFullscreen" class="tb-btn tb-full" title="全屏阅读（收起侧栏）/ 还原布局">⤢ 全屏阅读</button>
       <button class="tb-btn" id="copyFullText" title="一键复制全文">📋 复制全文</button>
+      <span class="reader-lang-wrap" data-ann-lang-host data-ann-label="注:"></span>
 
       <!-- 阅读设置：文字大小 / 行宽 / 背景（阅读区与 AI 辅助栏统一） -->
       <div class="reading-settings">
@@ -555,6 +557,60 @@ function renderSentences(sentences) {
   });
 }
 
+// ================= 注释语言 & 默认 AI 精讲卡 =================
+function annLangNow() {
+  try {
+    if (window.AnnLang) return AnnLang.get();
+    const v = localStorage.getItem('annotation_lang');
+    return (v === 'zh_cn' || v === 'zh_tw' || v === 'en') ? v : 'zh_tw';
+  } catch (e) { return 'zh_tw'; }
+}
+function annLangFull(l) {
+  return l === 'zh_cn' ? '簡體中文注釋' : l === 'en' ? 'English annotations' : '繁體中文注釋';
+}
+let annLastAI = null;      // 最近一次 AI 卡：{mode,text,title,lang}
+let annAutoTimer = null;
+// 精讲卡：按当前注释语言渲染（默认自动展示，无需点击）
+function renderDeepdiveCard(text) {
+  const full = (text && text.trim()) ? text : getAIContext();
+  if (!full) {
+    assistContent.innerHTML = '<p style="color:#999;font-size:13px">暂无正文可精讲：请先导入文本，或将鼠标定位到某句。</p>';
+    return;
+  }
+  assistContent.innerHTML = '<p style="font-size:13px;color:#999">AI 精讲生成中…</p>';
+  const payload = { text: full, title: state.title, lang: annLangNow() };
+  runMode('deepdive', payload, state.apiKey, aiProviderId(), aiModelName())
+    .then(r => {
+      annLastAI = Object.assign({ mode: 'deepdive' }, payload);
+      assistContent.innerHTML =
+        '<div class="trans-card"><div style="font-size:11px;color:#9E2B25;margin-bottom:4px">'
+        + '注释语言：' + annLangFull(payload.lang) + '</div>'
+        + '<h4>深度解析 · AI 精讲</h4>'
+        + '<pre style="white-space:pre-wrap;font-size:13px">' + r + '</pre></div>';
+    })
+    .catch(e => { assistContent.innerHTML = friendlyErrorHtml(e); });
+}
+// 文本导入后自动出一张默认精讲卡（无 Key 时给提示，不报错）
+function scheduleAutoDeepdive() {
+  clearTimeout(annAutoTimer);
+  annAutoTimer = setTimeout(function () {
+    if (!state.sentences.length) return;
+    if (!state.apiKey) {
+      assistContent.innerHTML =
+        '<p style="font-size:13px;color:#999">未配置 API Key：默认 AI 精讲卡暂不可用。请先在左侧 ⚙ 设置中填入 Key。</p>';
+      return;
+    }
+    renderDeepdiveCard('');
+  }, 400);
+}
+// 切注释语言 → 若已有精讲卡，用同一段文字按新语言重出（不刷新页面）
+document.addEventListener('annlangchange', function (e) {
+  const l = (e && e.detail && e.detail.lang) || annLangNow();
+  if (annLastAI && annLastAI.mode === 'deepdive' && state.sentences.length && state.apiKey) {
+    renderDeepdiveCard(annLastAI.text);
+  }
+});
+
 function loadTxt(text, filename) {
   state.mode = 'txt';
   state.currentIdx = -1;
@@ -568,6 +624,7 @@ function loadTxt(text, filename) {
   state.sentences = splitIntoSentences(text); // 只拆分，不翻译
   renderSentences(state.sentences);           // 只渲染原文
   bindSentenceEvents();
+  scheduleAutoDeepdive();                     // 默认出一张 AI 精讲卡（按当前注释语言）
 }
 
 function bindSentenceEvents() {
@@ -672,7 +729,7 @@ async function requestTranslation(idx) {
   if (translatingIdx === idx) return;
   translatingIdx = idx;
   try {
-    const r = await runMode('translate', { text: s.text, title: state.title }, state.apiKey, aiProviderId(), aiModelName());
+    const r = await runMode('translate', { text: s.text, title: state.title, lang: annLangNow() }, state.apiKey, aiProviderId(), aiModelName());
     const parsed = parseTranslation(r);
     transCache.set(idx, parsed);
     showTranslation(idx, parsed);
@@ -914,7 +971,7 @@ $('genCardBtn').addEventListener('click', async () => {
   try {
     const full = getAIContext();
     if (!full) { quizArea.innerHTML = '<p class="ai-error">请先导入文本，或选中/定位到想学习的段落。</p>'; return; }
-    const r = await runMode('quiz', { text: full, title: state.title }, state.apiKey, aiProviderId(), aiModelName());
+    const r = await runMode('quiz', { text: full, title: state.title, lang: annLangNow() }, state.apiKey, aiProviderId(), aiModelName());
     const data = JSON.parse(r);
     assistContent.innerHTML = `<div class="trans-card"><h4>全文翻译</h4><p style="font-size:13px">${data.translation}</p></div>`;
     quizArea.innerHTML = '<h4>检测题</h4>';
@@ -941,18 +998,12 @@ document.querySelectorAll('.mode-bar button').forEach(b => {
       assistContent.innerHTML = '<p style="font-size:13px;color:#999">已切换为逐句翻译模式（阅读时自动触发）</p>';
       quizArea.innerHTML = '';
     } else if (m === 'deepdive') {
-      const full = getAIContext();
-      if (full) {
-        runMode('deepdive', { text: full, title: state.title }, state.apiKey, aiProviderId(), aiModelName())
-          .then(r => { assistContent.innerHTML = `<div class="trans-card"><h4>深度解析</h4><pre style="white-space:pre-wrap;font-size:13px">${r}</pre></div>`; })
-          .catch(e => { assistContent.innerHTML = friendlyErrorHtml(e); });
-      } else {
-        assistContent.innerHTML = '<p style="color:#999;font-size:13px">请先选中文字，或将鼠标移到想精讲的句子上</p>';
-      }
+      // 默认精讲卡：按当前注释语言生成（scheduleAutoDeepdive/renderDeepdiveCard 共用）
+      renderDeepdiveCard('');
     } else if (m === 'relate') {
       const full = getAIContext();
       if (!full) { assistContent.innerHTML = '<p class="ai-error">请先导入文本，或选中/定位到想关联的段落。</p>'; return; }
-      runMode('relate', { text: full, title: state.title }, state.apiKey, aiProviderId(), aiModelName())
+      runMode('relate', { text: full, title: state.title, lang: annLangNow() }, state.apiKey, aiProviderId(), aiModelName())
         .then(r => {
           const d = JSON.parse(r);
           let h = '<div class="trans-card"><h4>跨篇关联</h4>';

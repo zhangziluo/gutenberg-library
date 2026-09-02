@@ -419,5 +419,2637 @@
         "〔５３〕　羲皇　指伏羲氏。傳說中我國上古時代的帝王。他的時代過去曾被形容為太平盛世。"
       ]
     }
+  ],
+  "annotations": [
+    {
+      "word": "給",
+      "pinyin": "gěi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "阿",
+      "pinyin": "ā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "傳",
+      "pinyin": "chuán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "不",
+      "pinyin": "bù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "了",
+      "pinyin": "liǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "見",
+      "pinyin": "jiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "的",
+      "pinyin": "de",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "從",
+      "pinyin": "cóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "於",
+      "pinyin": "wū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "誰",
+      "pinyin": "shuí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "瞭",
+      "pinyin": "liào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "彷",
+      "pinyin": "páng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "思",
+      "pinyin": "sī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "似",
+      "pinyin": "sì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "便",
+      "pinyin": "biàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "繁",
+      "pinyin": "fán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "家",
+      "pinyin": "jiā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "都",
+      "pinyin": "dōu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "合",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "麼",
+      "pinyin": "mó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "和",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "說",
+      "pinyin": "shuō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "那",
+      "pinyin": "nà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "呢",
+      "pinyin": "ne",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "倘",
+      "pinyin": "tǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "曾",
+      "pinyin": "céng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "大",
+      "pinyin": "dà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "諭",
+      "pinyin": "yù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "其",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "否",
+      "pinyin": "fǒu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "孫",
+      "pinyin": "sūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "著",
+      "pinyin": "zhù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "車",
+      "pinyin": "jū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "僭",
+      "pinyin": "jiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "稱",
+      "pinyin": "chēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "閒",
+      "pinyin": "xián",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "休",
+      "pinyin": "xiū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "句",
+      "pinyin": "jù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "得",
+      "pinyin": "dé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "地",
+      "pinyin": "dì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "什",
+      "pinyin": "shén",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "模",
+      "pinyin": "mó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "鏜",
+      "pinyin": "tāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "喝",
+      "pinyin": "hē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "還",
+      "pinyin": "huán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "長",
+      "pinyin": "cháng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "旁",
+      "pinyin": "páng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "些",
+      "pinyin": "xiē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "朱",
+      "pinyin": "zhū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "搶",
+      "pinyin": "qiāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "會",
+      "pinyin": "huì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "跳",
+      "pinyin": "tiào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "沒",
+      "pinyin": "méi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "被",
+      "pinyin": "bèi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "番",
+      "pinyin": "fān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "約",
+      "pinyin": "yuē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "提",
+      "pinyin": "tí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "氏",
+      "pinyin": "shì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "若",
+      "pinyin": "ruò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "弟",
+      "pinyin": "dì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "據",
+      "pinyin": "jù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "亡",
+      "pinyin": "wáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "查",
+      "pinyin": "chá",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "攷",
+      "pinyin": "kǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "信",
+      "pinyin": "xìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "行",
+      "pinyin": "xíng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "且",
+      "pinyin": "qiě",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "解",
+      "pinyin": "jiě",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "宿",
+      "pinyin": "sù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "能",
+      "pinyin": "néng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "癖",
+      "pinyin": "pǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "適",
+      "pinyin": "shì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一章 序"
+    },
+    {
+      "word": "角",
+      "pinyin": "jiǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "谷",
+      "pinyin": "gǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "祠",
+      "pinyin": "cí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "舂",
+      "pinyin": "chōng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "碌",
+      "pinyin": "lù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "仃",
+      "pinyin": "dīng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "薄",
+      "pinyin": "báo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "尺",
+      "pinyin": "chǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "呵",
+      "pinyin": "hē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "識",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "癩",
+      "pinyin": "lài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "紅",
+      "pinyin": "hóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "訥",
+      "pinyin": "nè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "噲",
+      "pinyin": "kuài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "祇",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "底",
+      "pinyin": "dǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "畜",
+      "pinyin": "chù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "豸",
+      "pinyin": "zhì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "六",
+      "pinyin": "liù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "覺",
+      "pinyin": "jué",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "愉",
+      "pinyin": "yú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "調",
+      "pinyin": "diào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "蹲",
+      "pinyin": "dūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "夾",
+      "pinyin": "jiā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "咳",
+      "pinyin": "hāi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "揭",
+      "pinyin": "jiē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "蓋",
+      "pinyin": "gài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "塞",
+      "pinyin": "sāi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "罷",
+      "pinyin": "bà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "戲",
+      "pinyin": "xì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "柢",
+      "pinyin": "dǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "樂",
+      "pinyin": "lè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "剌",
+      "pinyin": "là",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "般",
+      "pinyin": "bān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二章 優勝記略"
+    },
+    {
+      "word": "孀",
+      "pinyin": "shuāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "奇",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "親",
+      "pinyin": "qīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "佛",
+      "pinyin": "fó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "羊",
+      "pinyin": "yáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "箸",
+      "pinyin": "zhù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "醺",
+      "pinyin": "xūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "絡",
+      "pinyin": "luò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "洗",
+      "pinyin": "xǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "剝",
+      "pinyin": "bāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "蹌",
+      "pinyin": "qiāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "踉",
+      "pinyin": "liàng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "奚",
+      "pinyin": "xī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "落",
+      "pinyin": "luò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "覷",
+      "pinyin": "qù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "惡",
+      "pinyin": "è",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "女",
+      "pinyin": "nǚ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "仇",
+      "pinyin": "chóu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "棍",
+      "pinyin": "gùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "剎",
+      "pinyin": "chà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "膀",
+      "pinyin": "bǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "庵",
+      "pinyin": "ān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "愾",
+      "pinyin": "kài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "摩",
+      "pinyin": "mó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三章 續優勝記略"
+    },
+    {
+      "word": "降",
+      "pinyin": "jiàng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "哪",
+      "pinyin": "nǎ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "鼾",
+      "pinyin": "hān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "粘",
+      "pinyin": "nián",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "妲",
+      "pinyin": "dá",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "姒",
+      "pinyin": "sì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "弄",
+      "pinyin": "nòng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "貂",
+      "pinyin": "diāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "石",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "哦",
+      "pinyin": "ò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "嘮",
+      "pinyin": "lào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "叨",
+      "pinyin": "dāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "忐",
+      "pinyin": "tǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "忑",
+      "pinyin": "tè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "窐",
+      "pinyin": "wā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "哼",
+      "pinyin": "hēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "趣",
+      "pinyin": "qù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "重",
+      "pinyin": "zhòng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "祓",
+      "pinyin": "fú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "縊",
+      "pinyin": "yì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "檻",
+      "pinyin": "jiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "尿",
+      "pinyin": "niào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四章 戀愛的悲劇"
+    },
+    {
+      "word": "仔",
+      "pinyin": "zǎi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "省",
+      "pinyin": "shěng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "娼",
+      "pinyin": "chāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "嚕",
+      "pinyin": "lū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "丐",
+      "pinyin": "gài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "蹊",
+      "pinyin": "qī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "蹺",
+      "pinyin": "qiāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "份",
+      "pinyin": "fèn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "數",
+      "pinyin": "shù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "色",
+      "pinyin": "sè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "虹",
+      "pinyin": "hóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "冒",
+      "pinyin": "mào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "拂",
+      "pinyin": "fú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "拾",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "食",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "熟",
+      "pinyin": "shú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "疑",
+      "pinyin": "yí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "簌",
+      "pinyin": "sù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "枝",
+      "pinyin": "zhī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "芥",
+      "pinyin": "jiè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "縮",
+      "pinyin": "suō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "唷",
+      "pinyin": "yō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "追",
+      "pinyin": "zhuī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "嚇",
+      "pinyin": "hè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "嗥",
+      "pinyin": "háo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五章 生計問題"
+    },
+    {
+      "word": "矓",
+      "pinyin": "lóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "鈿",
+      "pinyin": "diàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "倌",
+      "pinyin": "guān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "檐",
+      "pinyin": "yán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "龜",
+      "pinyin": "guī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "赧",
+      "pinyin": "nǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "革",
+      "pinyin": "gé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "嚓",
+      "pinyin": "chā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "悚",
+      "pinyin": "sǒng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "差",
+      "pinyin": "chà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "價",
+      "pinyin": "jià",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "吁",
+      "pinyin": "xū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "踱",
+      "pinyin": "duó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "度",
+      "pinyin": "dù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "洞",
+      "pinyin": "dòng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六章 從中興到末路"
+    },
+    {
+      "word": "秘",
+      "pinyin": "mì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七章 革命"
+    },
+    {
+      "word": "盛",
+      "pinyin": "shèng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七章 革命"
+    },
+    {
+      "word": "折",
+      "pinyin": "zhé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七章 革命"
+    },
+    {
+      "word": "鳥",
+      "pinyin": "niǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七章 革命"
+    },
+    {
+      "word": "鏘",
+      "pinyin": "qiāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七章 革命"
+    },
+    {
+      "word": "惴",
+      "pinyin": "zhuì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七章 革命"
+    },
+    {
+      "word": "憮",
+      "pinyin": "wǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七章 革命"
+    },
+    {
+      "word": "藏",
+      "pinyin": "cáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七章 革命"
+    },
+    {
+      "word": "彈",
+      "pinyin": "dàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七章 革命"
+    },
+    {
+      "word": "炮",
+      "pinyin": "pào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七章 革命"
+    },
+    {
+      "word": "愕",
+      "pinyin": "è",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七章 革命"
+    },
+    {
+      "word": "縣",
+      "pinyin": "xiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八章 不准革命"
+    },
+    {
+      "word": "拗",
+      "pinyin": "ào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八章 不准革命"
+    },
+    {
+      "word": "單",
+      "pinyin": "dān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八章 不准革命"
+    },
+    {
+      "word": "雋",
+      "pinyin": "jùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八章 不准革命"
+    },
+    {
+      "word": "拆",
+      "pinyin": "chāi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八章 不准革命"
+    },
+    {
+      "word": "勁",
+      "pinyin": "jìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八章 不准革命"
+    },
+    {
+      "word": "唔",
+      "pinyin": "wú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八章 不准革命"
+    },
+    {
+      "word": "吆",
+      "pinyin": "yāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八章 不准革命"
+    },
+    {
+      "word": "懮",
+      "pinyin": "yōu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八章 不准革命"
+    },
+    {
+      "word": "怦",
+      "pinyin": "pēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八章 不准革命"
+    },
+    {
+      "word": "羲",
+      "pinyin": "xī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八章 不准革命"
+    },
+    {
+      "word": "毒",
+      "pinyin": "dú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八章 不准革命"
+    },
+    {
+      "word": "隊",
+      "pinyin": "duì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "丁",
+      "pinyin": "dīng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "乘",
+      "pinyin": "chéng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "俞",
+      "pinyin": "yú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "闔",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "隸",
+      "pinyin": "lì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "圈",
+      "pinyin": "quān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "儆",
+      "pinyin": "jǐng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "豈",
+      "pinyin": "qǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "惘",
+      "pinyin": "wǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "斫",
+      "pinyin": "zhuó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "咀",
+      "pinyin": "zuǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "嚼",
+      "pinyin": "jiáo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "參",
+      "pinyin": "cān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "校",
+      "pinyin": "xiào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "乾",
+      "pinyin": "qián",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "南",
+      "pinyin": "nán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "澄",
+      "pinyin": "chéng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "系",
+      "pinyin": "xì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "巷",
+      "pinyin": "xiàng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "馮",
+      "pinyin": "féng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "塾",
+      "pinyin": "shú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "區",
+      "pinyin": "qū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "彭",
+      "pinyin": "péng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "滸",
+      "pinyin": "hǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "卒",
+      "pinyin": "zú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "屬",
+      "pinyin": "shǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "遽",
+      "pinyin": "jù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "墮",
+      "pinyin": "duò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "髀",
+      "pinyin": "bì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "跛",
+      "pinyin": "bǒ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "祭",
+      "pinyin": "jì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "豕",
+      "pinyin": "shǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "殯",
+      "pinyin": "bìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "尾",
+      "pinyin": "wěi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "助",
+      "pinyin": "zhù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "殷",
+      "pinyin": "yīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "紂",
+      "pinyin": "zhòu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "妃",
+      "pinyin": "fēi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "衰",
+      "pinyin": "shuāi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "她",
+      "pinyin": "tā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "胤",
+      "pinyin": "yìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "雀",
+      "pinyin": "què",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "趨",
+      "pinyin": "qū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "禎",
+      "pinyin": "zhēn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "朝",
+      "pinyin": "cháo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "員",
+      "pinyin": "yuán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    },
+    {
+      "word": "蟾",
+      "pinyin": "chán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九章 大團圓"
+    }
   ]
 }

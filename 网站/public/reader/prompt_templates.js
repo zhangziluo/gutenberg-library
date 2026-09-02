@@ -49,10 +49,21 @@ const QUESTION_TYPES = [
 ];
 
 // 统一调用入口（system + user 两段式）
+// payload.lang: 'zh_cn' | 'zh_tw' | 'en' —— 指定 AI 输出语言（注释语言切换用）
+const ANN_OUTPUT_LANG = {
+  zh_cn: '简体中文',
+  zh_tw: '繁體中文',
+  en: 'English'
+};
 async function runMode(modeKey, payload, apiKey, provider, model) {
   const tpl = PROMPT_TEMPLATES[modeKey];
   if (!tpl) throw new Error("未知模式：" + modeKey);
-  const userMsg = tpl.build(payload.text, payload.title || "");
+  let userMsg = tpl.build(payload.text, payload.title || "");
+  const outLang = ANN_OUTPUT_LANG[payload.lang];
+  if (outLang) {
+    userMsg += "\n\n重要：所有输出内容（翻译、字词释义、解析、题面、选项、说明等）一律使用"
+      + outLang + " 书写，不要夹杂其他语言（专有名词如人名、地名可保留原文）。";
+  }
   return callAIChat(tpl.system, userMsg, apiKey, provider, model);
 }
 

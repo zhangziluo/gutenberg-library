@@ -74,5 +74,1347 @@
         "徐錫林：隱指徐錫麟(1873—1907)，字伯蓀，浙江紹興人，清末革命團體光復會的重要成員。一九○七年與秋瑾准備在浙、皖兩省同時起義。七月六日，他以安徽巡警處會辦兼巡警學堂監督身份為掩護，乘學堂舉行畢業典禮之機刺死安徽巡撫恩銘，率領學生攻佔軍械局，彈盡被捕，當日慘遭殺害，心肝被恩銘的衛隊挖出炒食。指『割股療親』，即割取自己的股肉煎藥，以醫治父母的重病。這是封建社會的一種愚孝行為。《宋史·選舉志一》：『上以孝取人，則勇者割股，怯者廬墓。』"
       ]
     }
+  ],
+  "annotations": [
+    {
+      "word": "其",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "闕",
+      "pinyin": "què",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "大",
+      "pinyin": "dà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "適",
+      "pinyin": "shì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "弟",
+      "pinyin": "dì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "地",
+      "pinyin": "dì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "見",
+      "pinyin": "jiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "不",
+      "pinyin": "bù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "蓋",
+      "pinyin": "gài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "迫",
+      "pinyin": "pò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "著",
+      "pinyin": "zhù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "色",
+      "pinyin": "sè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "絡",
+      "pinyin": "luò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "撮",
+      "pinyin": "cuō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "家",
+      "pinyin": "jiā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "於",
+      "pinyin": "wū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "識",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "的",
+      "pinyin": "de",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "了",
+      "pinyin": "liǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "那",
+      "pinyin": "nà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "呢",
+      "pinyin": "ne",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "得",
+      "pinyin": "dé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "沒",
+      "pinyin": "méi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "便",
+      "pinyin": "biàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "似",
+      "pinyin": "sì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "還",
+      "pinyin": "huán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "從",
+      "pinyin": "cóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "都",
+      "pinyin": "dōu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "什",
+      "pinyin": "shén",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "麼",
+      "pinyin": "mó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "仇",
+      "pinyin": "chóu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "說",
+      "pinyin": "shuō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "廿",
+      "pinyin": "niàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "簿",
+      "pinyin": "bó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "踹",
+      "pinyin": "chuài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "約",
+      "pinyin": "yuē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "且",
+      "pinyin": "qiě",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "會",
+      "pinyin": "huì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "給",
+      "pinyin": "gěi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "縣",
+      "pinyin": "xiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "被",
+      "pinyin": "bèi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "奇",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "女",
+      "pinyin": "nǚ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "獠",
+      "pinyin": "liáo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "宛",
+      "pinyin": "wǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "底",
+      "pinyin": "dǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "佃",
+      "pinyin": "diàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "惡",
+      "pinyin": "è",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "句",
+      "pinyin": "jù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "和",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "模",
+      "pinyin": "mó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "毒",
+      "pinyin": "dú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "思",
+      "pinyin": "sī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "圈",
+      "pinyin": "quān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "查",
+      "pinyin": "chá",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "仔",
+      "pinyin": "zǎi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "佛",
+      "pinyin": "fó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "豈",
+      "pinyin": "qǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "揣",
+      "pinyin": "chuāi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "瘠",
+      "pinyin": "jí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "罷",
+      "pinyin": "bà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "合",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "能",
+      "pinyin": "néng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "親",
+      "pinyin": "qīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "食",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "跳",
+      "pinyin": "tiào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "單",
+      "pinyin": "dān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "抹",
+      "pinyin": "mǒ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "六",
+      "pinyin": "liù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "戕",
+      "pinyin": "qiāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "解",
+      "pinyin": "jiě",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "勒",
+      "pinyin": "lè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "咽",
+      "pinyin": "yàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "否",
+      "pinyin": "fǒu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "嚇",
+      "pinyin": "hè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "懮",
+      "pinyin": "yōu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "嚼",
+      "pinyin": "jiáo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "瞞",
+      "pinyin": "mán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "紅",
+      "pinyin": "hóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "般",
+      "pinyin": "bān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "些",
+      "pinyin": "xiē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "疑",
+      "pinyin": "yí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "覷",
+      "pinyin": "qù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "覺",
+      "pinyin": "jué",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "檻",
+      "pinyin": "jiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "沈",
+      "pinyin": "shěn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "鳥",
+      "pinyin": "niǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "差",
+      "pinyin": "chà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "桀",
+      "pinyin": "jié",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "紂",
+      "pinyin": "zhòu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "誰",
+      "pinyin": "shuí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "癆",
+      "pinyin": "láo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "血",
+      "pinyin": "xuè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "舐",
+      "pinyin": "shì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "信",
+      "pinyin": "xìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "喝",
+      "pinyin": "hē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "重",
+      "pinyin": "zhòng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "彈",
+      "pinyin": "dàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "紮",
+      "pinyin": "zhā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "頓",
+      "pinyin": "dùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "乘",
+      "pinyin": "chéng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "熟",
+      "pinyin": "shú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "行",
+      "pinyin": "xíng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "吶",
+      "pinyin": "nà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "提",
+      "pinyin": "tí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "系",
+      "pinyin": "xì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "暴",
+      "pinyin": "bào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "露",
+      "pinyin": "lù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "度",
+      "pinyin": "dù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "參",
+      "pinyin": "cān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "員",
+      "pinyin": "yuán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "省",
+      "pinyin": "shěng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "稱",
+      "pinyin": "chēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "長",
+      "pinyin": "cháng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "曾",
+      "pinyin": "céng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "藏",
+      "pinyin": "cáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "拾",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "傳",
+      "pinyin": "chuán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "爨",
+      "pinyin": "cuàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "綽",
+      "pinyin": "chuò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "齊",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "殖",
+      "pinyin": "zhí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "鬣",
+      "pinyin": "liè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "調",
+      "pinyin": "diào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "據",
+      "pinyin": "jù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "朝",
+      "pinyin": "cháo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "麟",
+      "pinyin": "lín",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "伯",
+      "pinyin": "bó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "蓀",
+      "pinyin": "sūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "革",
+      "pinyin": "gé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "瑾",
+      "pinyin": "jǐn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "份",
+      "pinyin": "fèn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "率",
+      "pinyin": "lǜ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    },
+    {
+      "word": "隊",
+      "pinyin": "duì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "狂人日記"
+    }
   ]
 }

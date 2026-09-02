@@ -159,23 +159,37 @@
   var history = [];          // {role, content}
   var ctx = detectContext();
   var open = false;
-  var selectedText = '';     // 全站选中文字暂存（打开对话框时自动填入，填入后清空）
+  var selectedText = '';     // 选中文字暂存（选中时即时填入输入框；打开对话框时兜底再填一次）
 
-  // ---------- 全站文字选中 → 存入全局变量（不劫持右键菜单 / 不影响原生复制） ----------
+  // ---------- 选中正文 → 即时填入 AI 输入框 ----------
+  // 监听 selectionchange（mouseup / 键盘 Shift+方向键 均会触发），完全不依赖、不劫持 copy(Ctrl+C)。
+  // 不 preventDefault、不写剪贴板 → 系统复制行为不受任何干扰。
+  // 普通点击（含未来的「点击字词弹注释卡」）选区为空 → 直接跳过，二者互不冲突；
+  // 注释卡等浮层如需显式豁免，给元素加 class .word-card / .ann-card 或 data-ai-no-fill 即可。
+  var gaiFillTimer = null;
   function captureSelection() {
-    if (open) return;                       // 对话框展开期间不记录（避免覆盖已填内容）
+    if (open) return;                       // AI 面板展开期间不改写用户正在输入的内容
     var sel = window.getSelection();
-    if (!sel || sel.isCollapsed) return;
+    if (!sel || sel.isCollapsed) return;    // 纯点击 / 无选中 → 不处理
     var txt = sel.toString().trim();
     if (txt.length < 2) return;             // 长度不足 2 不记录
-    if (panel && panel.contains(sel.anchorNode) && panel.contains(sel.focusNode)) return; // 对话框内选中不记录
+    var n = sel.anchorNode;
+    var el = (n && n.nodeType === 1) ? n : (n && n.parentElement);
+    if (!el) return;
+    // 跳过：AI 面板/搜索框等表单控件内部、以及未来的注释卡浮层内的选中
+    if (el.closest && el.closest('#gai-root, input, textarea, select, .word-card, .ann-card, [data-ai-no-fill]')) return;
+    if (txt === selectedText && txt === textEl.value) return;  // 同一段文字已填入过 → 不重复提示
     selectedText = txt;
+    textEl.value = txt;                     // ① 即时填入 AI 输入框
+    gaiToast('已复制到 AI 助手…', 2000);     // ② 页面下方 Toast，约 2 秒自动消失
   }
-  document.addEventListener('mouseup', captureSelection);
-  // 键盘选中（Shift+方向键）同样记录
-  document.addEventListener('keyup', function (e) {
-    if (e.key === 'Shift' || e.key.indexOf('Arrow') === 0) captureSelection();
+  // 拖动/键盘逐字改变选区时会连续触发 selectionchange → 去抖到稳定后取值一次
+  document.addEventListener('selectionchange', function () {
+    if (gaiFillTimer) clearTimeout(gaiFillTimer);
+    gaiFillTimer = setTimeout(captureSelection, 90);
   });
+  // mouseup 兜底（个别浏览器在选区拖动刚结束时 selectionchange 滞后一拍）
+  document.addEventListener('mouseup', captureSelection);
 
   function esc(s) {
     return String(s).replace(/[&<>"']/g, function (c) {
@@ -232,7 +246,7 @@
     ctx = detectContext();
     showCtx();
     refreshKeyState();
-    // 全站选中过文字 → 打开时自动填入输入框并清空变量（未选中则保持空白，正常聊天）
+    // 打开面板兜底：选中文字已即时填入过输入框，这里再确认一次（未选中则保持空白，正常聊天）
     if (selectedText) {
       textEl.value = selectedText;
       selectedText = '';

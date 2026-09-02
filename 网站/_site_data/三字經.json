@@ -20,5 +20,877 @@
         "犬守夜，雞司晨。苟不學，曷為人。蠶吐絲，蜂釀蜜。人不學，不如物。幼而學，壯而行。上致君，下澤民。揚名聲，顯父母。光于前，裕於後。人遺子，金滿嬴。我教子，惟一經。勤有功，戲無益。戒之哉，宜勉力。"
       ]
     }
+  ],
+  "annotations": [
+    {
+      "word": "不",
+      "pinyin": "bù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "擇",
+      "pinyin": "zé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "杼",
+      "pinyin": "zhù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "竇",
+      "pinyin": "dòu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "琢",
+      "pinyin": "zhuó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "親",
+      "pinyin": "qīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "能",
+      "pinyin": "néng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "於",
+      "pinyin": "wū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "弟",
+      "pinyin": "dì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "長",
+      "pinyin": "cháng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "見",
+      "pinyin": "jiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "數",
+      "pinyin": "shù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "識",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "地",
+      "pinyin": "dì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "南",
+      "pinyin": "nán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "行",
+      "pinyin": "xíng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "信",
+      "pinyin": "xìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "菽",
+      "pinyin": "shū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "稷",
+      "pinyin": "jì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "六",
+      "pinyin": "liù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "食",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "羊",
+      "pinyin": "yáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "豕",
+      "pinyin": "shǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "畜",
+      "pinyin": "chù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "惡",
+      "pinyin": "è",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "匏",
+      "pinyin": "páo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "革",
+      "pinyin": "gé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "石",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "曾",
+      "pinyin": "céng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "孫",
+      "pinyin": "sūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "從",
+      "pinyin": "cóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "詁",
+      "pinyin": "gǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "句",
+      "pinyin": "jù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "說",
+      "pinyin": "shuō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "思",
+      "pinyin": "sī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "大",
+      "pinyin": "dà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "齊",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "熟",
+      "pinyin": "shú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "藏",
+      "pinyin": "cáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "謨",
+      "pinyin": "mó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "誥",
+      "pinyin": "gào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "奧",
+      "pinyin": "ào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "著",
+      "pinyin": "zhù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "樂",
+      "pinyin": "lè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "亡",
+      "pinyin": "wáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "傳",
+      "pinyin": "chuán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "氏",
+      "pinyin": "shì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "彀",
+      "pinyin": "gòu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "撮",
+      "pinyin": "cuō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "其",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "荀",
+      "pinyin": "xún",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "系",
+      "pinyin": "xì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "羲",
+      "pinyin": "xī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "稱",
+      "pinyin": "chēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "盛",
+      "pinyin": "shèng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "湯",
+      "pinyin": "tāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "家",
+      "pinyin": "jiā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "紂",
+      "pinyin": "zhòu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "墮",
+      "pinyin": "duò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "強",
+      "pinyin": "qiáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "嬴",
+      "pinyin": "yíng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "朝",
+      "pinyin": "cháo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "都",
+      "pinyin": "dōu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "迨",
+      "pinyin": "dài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "隋",
+      "pinyin": "suí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "禪",
+      "pinyin": "shàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "禎",
+      "pinyin": "zhēn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "訌",
+      "pinyin": "hòng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "據",
+      "pinyin": "jù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "和",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "廿",
+      "pinyin": "niàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "衰",
+      "pinyin": "shuāi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "若",
+      "pinyin": "ruò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "橐",
+      "pinyin": "tuó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "且",
+      "pinyin": "qiě",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "削",
+      "pinyin": "xiāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "角",
+      "pinyin": "jiǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "灝",
+      "pinyin": "hào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "泌",
+      "pinyin": "mì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "碁",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "奇",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "韞",
+      "pinyin": "yùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "女",
+      "pinyin": "nǚ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "晏",
+      "pinyin": "yàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "曷",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "澤",
+      "pinyin": "zé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    },
+    {
+      "word": "戲",
+      "pinyin": "xì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "三字經"
+    }
   ]
 }

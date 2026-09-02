@@ -996,5 +996,5037 @@
         "兒子俱各成了進士。廉清與二位夫人俱各高年而歿。一時科甲流芳，世世簪纓不絕，皆因廉小村行善，葛仙翁賜地報他，生出廉清。故書名曰：「麟兒報」。"
       ]
     }
+  ],
+  "annotations": [
+    {
+      "word": "莫",
+      "pinyin": "mò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "不",
+      "pinyin": "bù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "能",
+      "pinyin": "néng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "蕢",
+      "pinyin": "kuì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "得",
+      "pinyin": "dé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "似",
+      "pinyin": "sì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "其",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "僥",
+      "pinyin": "jiǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "於",
+      "pinyin": "wū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "若",
+      "pinyin": "ruò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "誰",
+      "pinyin": "shuí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "屬",
+      "pinyin": "shǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "吾",
+      "pinyin": "wú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "見",
+      "pinyin": "jiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "還",
+      "pinyin": "huán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "竺",
+      "pinyin": "zhú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "埋",
+      "pinyin": "mái",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "孫",
+      "pinyin": "sūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "食",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "降",
+      "pinyin": "jiàng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "思",
+      "pinyin": "sī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "大",
+      "pinyin": "dà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "地",
+      "pinyin": "dì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "渠",
+      "pinyin": "qú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "蚌",
+      "pinyin": "bàng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "櫪",
+      "pinyin": "lì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "渥",
+      "pinyin": "wò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "迥",
+      "pinyin": "jiǒng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "被",
+      "pinyin": "bèi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "惡",
+      "pinyin": "è",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "迫",
+      "pinyin": "pò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "沒",
+      "pinyin": "méi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "女",
+      "pinyin": "nǚ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "藏",
+      "pinyin": "cáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "識",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "弄",
+      "pinyin": "nòng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "奇",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "揆",
+      "pinyin": "kuí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "從",
+      "pinyin": "cóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "信",
+      "pinyin": "xìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "嗟",
+      "pinyin": "jiē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "麟",
+      "pinyin": "lín",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "樂",
+      "pinyin": "lè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "序"
+    },
+    {
+      "word": "數",
+      "pinyin": "shù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "石",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "說",
+      "pinyin": "shuō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "朝",
+      "pinyin": "cháo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "縣",
+      "pinyin": "xiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "氏",
+      "pinyin": "shì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "些",
+      "pinyin": "xiē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "行",
+      "pinyin": "xíng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "便",
+      "pinyin": "biàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "家",
+      "pinyin": "jiā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "著",
+      "pinyin": "zhù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "稱",
+      "pinyin": "chēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "且",
+      "pinyin": "qiě",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "惻",
+      "pinyin": "cè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "了",
+      "pinyin": "liǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "賺",
+      "pinyin": "zhuàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "的",
+      "pinyin": "de",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "助",
+      "pinyin": "zhù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "她",
+      "pinyin": "tā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "苧",
+      "pinyin": "zhù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "霏",
+      "pinyin": "fēi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "鳥",
+      "pinyin": "niǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "南",
+      "pinyin": "nán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "簷",
+      "pinyin": "yán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "雀",
+      "pinyin": "què",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "蓋",
+      "pinyin": "gài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "紅",
+      "pinyin": "hóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "乾",
+      "pinyin": "qián",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "都",
+      "pinyin": "dōu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "哪",
+      "pinyin": "nǎ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "什",
+      "pinyin": "shén",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "麼",
+      "pinyin": "mó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "榾",
+      "pinyin": "gǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "櫝",
+      "pinyin": "dú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "煨",
+      "pinyin": "wēi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "般",
+      "pinyin": "bān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "那",
+      "pinyin": "nà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "單",
+      "pinyin": "dān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "薄",
+      "pinyin": "báo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "洗",
+      "pinyin": "xǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "抹",
+      "pinyin": "mǒ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "拾",
+      "pinyin": "shí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "和",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "育",
+      "pinyin": "yù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "戲",
+      "pinyin": "xì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "期",
+      "pinyin": "qī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "度",
+      "pinyin": "dù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "番",
+      "pinyin": "fān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "覺",
+      "pinyin": "jué",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "揭",
+      "pinyin": "jiē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "熟",
+      "pinyin": "shú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "罷",
+      "pinyin": "bà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "露",
+      "pinyin": "lù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "摩",
+      "pinyin": "mó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "剝",
+      "pinyin": "bāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "解",
+      "pinyin": "jiě",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "伺",
+      "pinyin": "sì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "會",
+      "pinyin": "huì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "妳",
+      "pinyin": "nǎi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "噥",
+      "pinyin": "nóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "句",
+      "pinyin": "jù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "冒",
+      "pinyin": "mào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "倘",
+      "pinyin": "tǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "曾",
+      "pinyin": "céng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "色",
+      "pinyin": "sè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "衰",
+      "pinyin": "shuāi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "霽",
+      "pinyin": "jì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "箸",
+      "pinyin": "zhù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "柩",
+      "pinyin": "jiù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "親",
+      "pinyin": "qīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "價",
+      "pinyin": "jià",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "徜",
+      "pinyin": "cháng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "徉",
+      "pinyin": "yáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "仇",
+      "pinyin": "chóu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "參",
+      "pinyin": "cān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "劾",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "廒",
+      "pinyin": "áo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "妾",
+      "pinyin": "qiè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "炮",
+      "pinyin": "pào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "燄",
+      "pinyin": "yàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "霎",
+      "pinyin": "shà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "疑",
+      "pinyin": "yí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "鼇",
+      "pinyin": "áo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "嚇",
+      "pinyin": "hè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "蛇",
+      "pinyin": "shé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "乘",
+      "pinyin": "chéng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "忝",
+      "pinyin": "tiǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "飭",
+      "pinyin": "chì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "啻",
+      "pinyin": "chì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "鬟",
+      "pinyin": "huán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "齊",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "慇",
+      "pinyin": "yīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "懃",
+      "pinyin": "qín",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "呵",
+      "pinyin": "hē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "鳩",
+      "pinyin": "jiū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "重",
+      "pinyin": "zhòng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "趨",
+      "pinyin": "qū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "趣",
+      "pinyin": "qù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "閒",
+      "pinyin": "xián",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "合",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "據",
+      "pinyin": "jù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "祀",
+      "pinyin": "sì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "差",
+      "pinyin": "chà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "券",
+      "pinyin": "quàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "阡",
+      "pinyin": "qiān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "契",
+      "pinyin": "qì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "巷",
+      "pinyin": "xiàng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第一回 廉老兒念風雪冷濟饑人 葛神仙乘天災巧指吉地"
+    },
+    {
+      "word": "竇",
+      "pinyin": "dòu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "冑",
+      "pinyin": "zhòu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "麒",
+      "pinyin": "qí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "調",
+      "pinyin": "diào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "梢",
+      "pinyin": "shāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "伯",
+      "pinyin": "bó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "佛",
+      "pinyin": "fó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "旁",
+      "pinyin": "páng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "彷",
+      "pinyin": "páng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "折",
+      "pinyin": "zhé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "殯",
+      "pinyin": "bìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "落",
+      "pinyin": "luò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "廝",
+      "pinyin": "sī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "約",
+      "pinyin": "yuē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "鬣",
+      "pinyin": "liè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "宿",
+      "pinyin": "sù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "簪",
+      "pinyin": "zān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "洞",
+      "pinyin": "dòng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "倏",
+      "pinyin": "shū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "長",
+      "pinyin": "cháng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "六",
+      "pinyin": "liù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "拘",
+      "pinyin": "jū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "豈",
+      "pinyin": "qǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "搶",
+      "pinyin": "qiāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "夾",
+      "pinyin": "jiā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "棍",
+      "pinyin": "gùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "俸",
+      "pinyin": "fèng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "攝",
+      "pinyin": "shè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "擇",
+      "pinyin": "zé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "啞",
+      "pinyin": "yǎ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "吆",
+      "pinyin": "yāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "喝",
+      "pinyin": "hē",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "隸",
+      "pinyin": "lì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "強",
+      "pinyin": "qiáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "橛",
+      "pinyin": "jué",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "斛",
+      "pinyin": "hú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "誑",
+      "pinyin": "kuáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "刈",
+      "pinyin": "yì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "姪",
+      "pinyin": "zhí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "緝",
+      "pinyin": "jí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "追",
+      "pinyin": "zhuī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "責",
+      "pinyin": "zé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "戾",
+      "pinyin": "lì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "庵",
+      "pinyin": "ān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "亡",
+      "pinyin": "wáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "景",
+      "pinyin": "jǐng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "楣",
+      "pinyin": "méi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "尾",
+      "pinyin": "wěi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "爪",
+      "pinyin": "zhuǎ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "模",
+      "pinyin": "mó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "仰",
+      "pinyin": "yǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "俏",
+      "pinyin": "qiào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第二回 蔭功獲報老蚌生珠 明眼識人野蒹倚玉"
+    },
+    {
+      "word": "縞",
+      "pinyin": "gǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "角",
+      "pinyin": "jiǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "豕",
+      "pinyin": "shǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "俎",
+      "pinyin": "zǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "瞞",
+      "pinyin": "mán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "哂",
+      "pinyin": "shěn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "忖",
+      "pinyin": "cǔn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "傳",
+      "pinyin": "chuán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "琢",
+      "pinyin": "zhuó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "底",
+      "pinyin": "dǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "澤",
+      "pinyin": "zé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "提",
+      "pinyin": "tí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "裾",
+      "pinyin": "jū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "誚",
+      "pinyin": "qiào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "俟",
+      "pinyin": "sì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "稟",
+      "pinyin": "bǐng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "綾",
+      "pinyin": "líng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "叩",
+      "pinyin": "kòu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "馨",
+      "pinyin": "xīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "砥",
+      "pinyin": "dǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "礪",
+      "pinyin": "lì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "駑",
+      "pinyin": "nú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "駘",
+      "pinyin": "tái",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "拂",
+      "pinyin": "fú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "僭",
+      "pinyin": "jiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "鸞",
+      "pinyin": "luán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "嬉",
+      "pinyin": "xī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "盛",
+      "pinyin": "shèng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "璣",
+      "pinyin": "jī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "瑯",
+      "pinyin": "láng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "瀏",
+      "pinyin": "liú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "車",
+      "pinyin": "jū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "叨",
+      "pinyin": "dāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "殫",
+      "pinyin": "dān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "裘",
+      "pinyin": "qiú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "炫",
+      "pinyin": "xuàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "逄",
+      "pinyin": "páng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "皓",
+      "pinyin": "hào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "稽",
+      "pinyin": "jī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "叱",
+      "pinyin": "chì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "蛾",
+      "pinyin": "é",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "適",
+      "pinyin": "shì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第三回 六歲兒嘻戲動春卿 八座官絲蘿攀野老"
+    },
+    {
+      "word": "羈",
+      "pinyin": "jī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "側",
+      "pinyin": "cè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "恙",
+      "pinyin": "yàng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "份",
+      "pinyin": "fèn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "徇",
+      "pinyin": "xùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "佞",
+      "pinyin": "nìng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "秘",
+      "pinyin": "mì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "褊",
+      "pinyin": "biǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "虹",
+      "pinyin": "hóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "瓏",
+      "pinyin": "lóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "萼",
+      "pinyin": "è",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "芙",
+      "pinyin": "fú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "鶯",
+      "pinyin": "yīng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "枝",
+      "pinyin": "zhī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "勃",
+      "pinyin": "bó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "忒",
+      "pinyin": "tè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "謁",
+      "pinyin": "yè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "竽",
+      "pinyin": "yú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "弟",
+      "pinyin": "dì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "溺",
+      "pinyin": "nì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "鬢",
+      "pinyin": "bìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "羊",
+      "pinyin": "yáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "懵",
+      "pinyin": "měng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "玷",
+      "pinyin": "diàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "莠",
+      "pinyin": "yǒu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "頓",
+      "pinyin": "dùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "萱",
+      "pinyin": "xuān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "夭",
+      "pinyin": "yāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第四回 小書生移眉戲老師 蠢丈母變心逐嬌婿"
+    },
+    {
+      "word": "衾",
+      "pinyin": "qīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "皎",
+      "pinyin": "jiǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "妍",
+      "pinyin": "yán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "給",
+      "pinyin": "gěi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "蕙",
+      "pinyin": "huì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "朱",
+      "pinyin": "zhū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "貽",
+      "pinyin": "yí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "鵠",
+      "pinyin": "hú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "枘",
+      "pinyin": "ruì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "撮",
+      "pinyin": "cuō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "鼾",
+      "pinyin": "hān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "墮",
+      "pinyin": "duò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "諫",
+      "pinyin": "jiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "憚",
+      "pinyin": "dàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "逶",
+      "pinyin": "wēi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "迤",
+      "pinyin": "yǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "衽",
+      "pinyin": "rèn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "縭",
+      "pinyin": "lí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "卜",
+      "pinyin": "bǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "絳",
+      "pinyin": "jiàng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "萋",
+      "pinyin": "qī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "幃",
+      "pinyin": "wéi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "邇",
+      "pinyin": "ěr",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "墦",
+      "pinyin": "fán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "繁",
+      "pinyin": "fán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "徨",
+      "pinyin": "huáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "箴",
+      "pinyin": "zhēn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "韜",
+      "pinyin": "tāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "綸",
+      "pinyin": "lún",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "芥",
+      "pinyin": "jiè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "鯤",
+      "pinyin": "kūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "泮",
+      "pinyin": "pàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "驥",
+      "pinyin": "jì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "衿",
+      "pinyin": "jīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "枋",
+      "pinyin": "fāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "詡",
+      "pinyin": "xǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "荳",
+      "pinyin": "dòu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "蔻",
+      "pinyin": "kòu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "媸",
+      "pinyin": "chī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "菟",
+      "pinyin": "tú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "秣",
+      "pinyin": "mò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "殷",
+      "pinyin": "yīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "牝",
+      "pinyin": "pìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "驪",
+      "pinyin": "lí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "訌",
+      "pinyin": "hòng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "愕",
+      "pinyin": "è",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "卒",
+      "pinyin": "zú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "鑊",
+      "pinyin": "huò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "徵",
+      "pinyin": "zhǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "侃",
+      "pinyin": "kǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "綰",
+      "pinyin": "wǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "省",
+      "pinyin": "shěng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "塞",
+      "pinyin": "sāi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第五回 世情母勸嬌兒改節 貞心女勵良婿讀書"
+    },
+    {
+      "word": "蔓",
+      "pinyin": "màn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "鶚",
+      "pinyin": "è",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "蹉",
+      "pinyin": "cuō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "跎",
+      "pinyin": "tuó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "泄",
+      "pinyin": "xiè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "員",
+      "pinyin": "yuán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "楮",
+      "pinyin": "chǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "諢",
+      "pinyin": "hùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "隊",
+      "pinyin": "duì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "恣",
+      "pinyin": "zì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "砣",
+      "pinyin": "tuó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "窈",
+      "pinyin": "yǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "窕",
+      "pinyin": "tiǎo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "嬙",
+      "pinyin": "qiáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "顰",
+      "pinyin": "pín",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "蓽",
+      "pinyin": "bì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "姝",
+      "pinyin": "shū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "拆",
+      "pinyin": "chāi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "璞",
+      "pinyin": "pú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "畜",
+      "pinyin": "chù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "鷦",
+      "pinyin": "jiāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "鷯",
+      "pinyin": "liáo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "圈",
+      "pinyin": "quān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "填",
+      "pinyin": "tián",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "吶",
+      "pinyin": "nà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "撳",
+      "pinyin": "qìn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "攛",
+      "pinyin": "cuān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "忸",
+      "pinyin": "niǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "怩",
+      "pinyin": "ní",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第六回 美遇毛延斂娥眉而著鬼 驥逢伯樂展駿足以驚人"
+    },
+    {
+      "word": "鶉",
+      "pinyin": "chún",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "哽",
+      "pinyin": "gěng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "咽",
+      "pinyin": "yàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "衢",
+      "pinyin": "qú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "匙",
+      "pinyin": "chí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "踱",
+      "pinyin": "duó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "紮",
+      "pinyin": "zhā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "幘",
+      "pinyin": "zé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "縮",
+      "pinyin": "suō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "旌",
+      "pinyin": "jīng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "旄",
+      "pinyin": "máo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "逡",
+      "pinyin": "qūn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "愆",
+      "pinyin": "qiān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "浼",
+      "pinyin": "měi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "梓",
+      "pinyin": "zǐ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "闈",
+      "pinyin": "wéi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "趑",
+      "pinyin": "zī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "趄",
+      "pinyin": "jū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "否",
+      "pinyin": "fǒu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "谷",
+      "pinyin": "gǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "婭",
+      "pinyin": "yà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "逑",
+      "pinyin": "qiú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "臾",
+      "pinyin": "yú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "腴",
+      "pinyin": "yú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "泊",
+      "pinyin": "bó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第七回 幸小姐避金夫倉皇歧路 毛御史憐玉人接引同舟"
+    },
+    {
+      "word": "冥",
+      "pinyin": "míng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "削",
+      "pinyin": "xiāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "赳",
+      "pinyin": "jiū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "噴",
+      "pinyin": "pēn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "區",
+      "pinyin": "qū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "勒",
+      "pinyin": "lè",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "跤",
+      "pinyin": "jiāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "碌",
+      "pinyin": "lù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "捫",
+      "pinyin": "mén",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "釵",
+      "pinyin": "chāi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "笙",
+      "pinyin": "shēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "簫",
+      "pinyin": "xiāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "扛",
+      "pinyin": "káng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "閬",
+      "pinyin": "làng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "臂",
+      "pinyin": "bì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "悖",
+      "pinyin": "bèi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "休",
+      "pinyin": "xiū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "繫",
+      "pinyin": "xì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "喏",
+      "pinyin": "nuò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "縊",
+      "pinyin": "yì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第八回 報捷音行聘禮沒興一齊來 驚失女更盟有禍成雙至"
+    },
+    {
+      "word": "荀",
+      "pinyin": "xún",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九回 小解元才高察出舊仙名 俏媒婆事急充做新人嫁"
+    },
+    {
+      "word": "倩",
+      "pinyin": "qiàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九回 小解元才高察出舊仙名 俏媒婆事急充做新人嫁"
+    },
+    {
+      "word": "縈",
+      "pinyin": "yíng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九回 小解元才高察出舊仙名 俏媒婆事急充做新人嫁"
+    },
+    {
+      "word": "曷",
+      "pinyin": "hé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九回 小解元才高察出舊仙名 俏媒婆事急充做新人嫁"
+    },
+    {
+      "word": "匾",
+      "pinyin": "biǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九回 小解元才高察出舊仙名 俏媒婆事急充做新人嫁"
+    },
+    {
+      "word": "朦",
+      "pinyin": "méng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九回 小解元才高察出舊仙名 俏媒婆事急充做新人嫁"
+    },
+    {
+      "word": "朧",
+      "pinyin": "lóng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九回 小解元才高察出舊仙名 俏媒婆事急充做新人嫁"
+    },
+    {
+      "word": "踅",
+      "pinyin": "xué",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九回 小解元才高察出舊仙名 俏媒婆事急充做新人嫁"
+    },
+    {
+      "word": "幔",
+      "pinyin": "màn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九回 小解元才高察出舊仙名 俏媒婆事急充做新人嫁"
+    },
+    {
+      "word": "媾",
+      "pinyin": "gòu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九回 小解元才高察出舊仙名 俏媒婆事急充做新人嫁"
+    },
+    {
+      "word": "吱",
+      "pinyin": "zhī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第九回 小解元才高察出舊仙名 俏媒婆事急充做新人嫁"
+    },
+    {
+      "word": "查",
+      "pinyin": "chá",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十回 宦家爺喜聯才美借唱酬詩擇偶 窮途女怕露行藏設被窩計辭婚"
+    },
+    {
+      "word": "肴",
+      "pinyin": "yáo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十回 宦家爺喜聯才美借唱酬詩擇偶 窮途女怕露行藏設被窩計辭婚"
+    },
+    {
+      "word": "奩",
+      "pinyin": "lián",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十回 宦家爺喜聯才美借唱酬詩擇偶 窮途女怕露行藏設被窩計辭婚"
+    },
+    {
+      "word": "翩",
+      "pinyin": "piān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十回 宦家爺喜聯才美借唱酬詩擇偶 窮途女怕露行藏設被窩計辭婚"
+    },
+    {
+      "word": "黛",
+      "pinyin": "dài",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十回 宦家爺喜聯才美借唱酬詩擇偶 窮途女怕露行藏設被窩計辭婚"
+    },
+    {
+      "word": "孑",
+      "pinyin": "jié",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十回 宦家爺喜聯才美借唱酬詩擇偶 窮途女怕露行藏設被窩計辭婚"
+    },
+    {
+      "word": "輦",
+      "pinyin": "niǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十回 宦家爺喜聯才美借唱酬詩擇偶 窮途女怕露行藏設被窩計辭婚"
+    },
+    {
+      "word": "轂",
+      "pinyin": "gǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十回 宦家爺喜聯才美借唱酬詩擇偶 窮途女怕露行藏設被窩計辭婚"
+    },
+    {
+      "word": "娓",
+      "pinyin": "wěi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "喬",
+      "pinyin": "qiáo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "湟",
+      "pinyin": "huáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "毒",
+      "pinyin": "dú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "璧",
+      "pinyin": "bì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "儐",
+      "pinyin": "bīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "筵",
+      "pinyin": "yán",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "覿",
+      "pinyin": "dí",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "港",
+      "pinyin": "gǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "帷",
+      "pinyin": "wéi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "褪",
+      "pinyin": "tuì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "扳",
+      "pinyin": "bān",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "巹",
+      "pinyin": "jǐn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "裳",
+      "pinyin": "shang",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "膀",
+      "pinyin": "bǎng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "餚",
+      "pinyin": "yáo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "豁",
+      "pinyin": "huō",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十一回 幸小姐借溫存巧弄機關 廉解元因漫罵暗遭哄騙"
+    },
+    {
+      "word": "莎",
+      "pinyin": "shā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "朕",
+      "pinyin": "zhèn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "髫",
+      "pinyin": "tiáo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "諭",
+      "pinyin": "yù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "崢",
+      "pinyin": "zhēng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "嶸",
+      "pinyin": "róng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "敕",
+      "pinyin": "chì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "蠹",
+      "pinyin": "dù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "丁",
+      "pinyin": "dīng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "校",
+      "pinyin": "xiào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "尉",
+      "pinyin": "wèi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "嚕",
+      "pinyin": "lū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "挾",
+      "pinyin": "xié",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "闕",
+      "pinyin": "què",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "召",
+      "pinyin": "zhào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十二回 冷眼惑衣冠不識舊時人 熱心得情弊立救當場禍"
+    },
+    {
+      "word": "卦",
+      "pinyin": "guà",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "蹙",
+      "pinyin": "cù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "邪",
+      "pinyin": "xié",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "繆",
+      "pinyin": "móu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "唏",
+      "pinyin": "xī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "噓",
+      "pinyin": "xū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "膈",
+      "pinyin": "gé",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "奚",
+      "pinyin": "xī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "摛",
+      "pinyin": "chī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "觴",
+      "pinyin": "shāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "擢",
+      "pinyin": "zhuó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "夙",
+      "pinyin": "sù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "黼",
+      "pinyin": "fǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "黻",
+      "pinyin": "fú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "猷",
+      "pinyin": "yóu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "遑",
+      "pinyin": "huáng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "疆",
+      "pinyin": "jiāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "齎",
+      "pinyin": "jī",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十三回 幸小姐喬裝假病 廉狀元欽賜完婚"
+    },
+    {
+      "word": "淨",
+      "pinyin": "jìng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十四回 你為我奔我因你走同行不是伴 他把誰呼誰將他喚事急且相隨"
+    },
+    {
+      "word": "仔",
+      "pinyin": "zǎi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十四回 你為我奔我因你走同行不是伴 他把誰呼誰將他喚事急且相隨"
+    },
+    {
+      "word": "跳",
+      "pinyin": "tiào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十四回 你為我奔我因你走同行不是伴 他把誰呼誰將他喚事急且相隨"
+    },
+    {
+      "word": "阿",
+      "pinyin": "ā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十四回 你為我奔我因你走同行不是伴 他把誰呼誰將他喚事急且相隨"
+    },
+    {
+      "word": "摁",
+      "pinyin": "èn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十四回 你為我奔我因你走同行不是伴 他把誰呼誰將他喚事急且相隨"
+    },
+    {
+      "word": "驛",
+      "pinyin": "yì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十四回 你為我奔我因你走同行不是伴 他把誰呼誰將他喚事急且相隨"
+    },
+    {
+      "word": "尿",
+      "pinyin": "niào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十四回 你為我奔我因你走同行不是伴 他把誰呼誰將他喚事急且相隨"
+    },
+    {
+      "word": "釧",
+      "pinyin": "chuàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十四回 你為我奔我因你走同行不是伴 他把誰呼誰將他喚事急且相隨"
+    },
+    {
+      "word": "捲",
+      "pinyin": "juǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十四回 你為我奔我因你走同行不是伴 他把誰呼誰將他喚事急且相隨"
+    },
+    {
+      "word": "褡",
+      "pinyin": "dā",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十四回 你為我奔我因你走同行不是伴 他把誰呼誰將他喚事急且相隨"
+    },
+    {
+      "word": "褳",
+      "pinyin": "lián",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十四回 你為我奔我因你走同行不是伴 他把誰呼誰將他喚事急且相隨"
+    },
+    {
+      "word": "粥",
+      "pinyin": "zhōu",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十四回 你為我奔我因你走同行不是伴 他把誰呼誰將他喚事急且相隨"
+    },
+    {
+      "word": "矜",
+      "pinyin": "jīn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十五回 苦在心頭沒奈何庭前講理 喜從天降有商量閨內調情"
+    },
+    {
+      "word": "媛",
+      "pinyin": "yuàn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十五回 苦在心頭沒奈何庭前講理 喜從天降有商量閨內調情"
+    },
+    {
+      "word": "宛",
+      "pinyin": "wǎn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十五回 苦在心頭沒奈何庭前講理 喜從天降有商量閨內調情"
+    },
+    {
+      "word": "蜮",
+      "pinyin": "yù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十五回 苦在心頭沒奈何庭前講理 喜從天降有商量閨內調情"
+    },
+    {
+      "word": "嫜",
+      "pinyin": "zhāng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十五回 苦在心頭沒奈何庭前講理 喜從天降有商量閨內調情"
+    },
+    {
+      "word": "伉",
+      "pinyin": "kàng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十五回 苦在心頭沒奈何庭前講理 喜從天降有商量閨內調情"
+    },
+    {
+      "word": "儷",
+      "pinyin": "lì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十五回 苦在心頭沒奈何庭前講理 喜從天降有商量閨內調情"
+    },
+    {
+      "word": "昵",
+      "pinyin": "nì",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十五回 苦在心頭沒奈何庭前講理 喜從天降有商量閨內調情"
+    },
+    {
+      "word": "狎",
+      "pinyin": "xiá",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十五回 苦在心頭沒奈何庭前講理 喜從天降有商量閨內調情"
+    },
+    {
+      "word": "篤",
+      "pinyin": "dǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十六回 奇男子被巧瞞誤上小巫山 美佳人分說破明結大花燭"
+    },
+    {
+      "word": "雎",
+      "pinyin": "jū",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十六回 奇男子被巧瞞誤上小巫山 美佳人分說破明結大花燭"
+    },
+    {
+      "word": "誥",
+      "pinyin": "gào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十六回 奇男子被巧瞞誤上小巫山 美佳人分說破明結大花燭"
+    },
+    {
+      "word": "岑",
+      "pinyin": "cén",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十六回 奇男子被巧瞞誤上小巫山 美佳人分說破明結大花燭"
+    },
+    {
+      "word": "慍",
+      "pinyin": "yùn",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十六回 奇男子被巧瞞誤上小巫山 美佳人分說破明結大花燭"
+    },
+    {
+      "word": "屏",
+      "pinyin": "píng",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十六回 奇男子被巧瞞誤上小巫山 美佳人分說破明結大花燭"
+    },
+    {
+      "word": "鮫",
+      "pinyin": "jiāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十六回 奇男子被巧瞞誤上小巫山 美佳人分說破明結大花燭"
+    },
+    {
+      "word": "綃",
+      "pinyin": "xiāo",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十六回 奇男子被巧瞞誤上小巫山 美佳人分說破明結大花燭"
+    },
+    {
+      "word": "綹",
+      "pinyin": "liǔ",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十六回 奇男子被巧瞞誤上小巫山 美佳人分說破明結大花燭"
+    },
+    {
+      "word": "幗",
+      "pinyin": "guó",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十六回 奇男子被巧瞞誤上小巫山 美佳人分說破明結大花燭"
+    },
+    {
+      "word": "帔",
+      "pinyin": "pèi",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十六回 奇男子被巧瞞誤上小巫山 美佳人分說破明結大花燭"
+    },
+    {
+      "word": "瀆",
+      "pinyin": "dú",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十六回 奇男子被巧瞞誤上小巫山 美佳人分說破明結大花燭"
+    },
+    {
+      "word": "沐",
+      "pinyin": "mù",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十六回 奇男子被巧瞞誤上小巫山 美佳人分說破明結大花燭"
+    },
+    {
+      "word": "歿",
+      "pinyin": "mò",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": null,
+      "note": null,
+      "is_difficult": true,
+      "src": "第十六回 奇男子被巧瞞誤上小巫山 美佳人分說破明結大花燭"
+    }
   ]
 }
