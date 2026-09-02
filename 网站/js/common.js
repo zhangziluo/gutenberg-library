@@ -1,10 +1,10 @@
 /* ============================================================
    一堆古书 · 公共模块
-   数据目录：../文本/_site_data/
+   数据目录：_site_data/
    ============================================================ */
 'use strict';
 
-const DATA_BASE = '../文本/_site_data/';
+const DATA_BASE = '_site_data/';
 
 /** 加载 JSON（带错误信息） */
 async function loadJSON(url) {

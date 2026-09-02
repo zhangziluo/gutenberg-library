@@ -28,7 +28,7 @@ const POS_PREFIX = 'gjs:pos:';
     errorBox.hidden = false;
     errorBox.textContent =
       '无法加载《' + bookName + '》：' + e.message +
-      '。请确认文本/_site_data/' + bookName + '.json 存在，并通过本地 HTTP 服务器访问。';
+      '。请确认 _site_data/' + bookName + '.json 存在，并通过本地 HTTP 服务器访问。';
     return;
   }
 
