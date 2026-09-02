@@ -1,7 +1,7 @@
 {
   "title": "一堆古书 · 数据书目索引",
   "description": "data/books/ 目录下的结构化书目（category: 經部/史部/子部/集部/近現代文學）",
-  "generated": "2026-09-01",
+  "generated": "2026-09-02",
   "categories": [
     {
       "name": "經部",
@@ -41,6 +41,15 @@
           "chapters": 49,
           "source": "Project Gutenberg #24048",
           "path": "data/books/liji.json"
+        },
+        {
+          "key": "shijing",
+          "book": "詩經",
+          "author": "佚名",
+          "subcategory": "詩",
+          "chapters": 305,
+          "source": "Project Gutenberg #23873",
+          "path": "data/books/shijing.json"
         }
       ]
     },
@@ -149,6 +158,15 @@
           "chapters": 64,
           "source": "Project Gutenberg #27330",
           "path": "data/books/lv-mudan.json"
+        },
+        {
+          "key": "lin-er-bao",
+          "book": "麟兒報",
+          "author": "佚名",
+          "subcategory": "小說家（才子佳人）",
+          "chapters": 17,
+          "source": "Project Gutenberg #27399",
+          "path": "data/books/lin-er-bao.json"
         }
       ]
     },

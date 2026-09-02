@@ -27,6 +27,9 @@
       百家姓      → 整本 1 章（删书名行）
       禮記        → 49 篇（曲禮上第一…喪服四制第四十九）
       綠牡丹      → 64 回（原文本「第二十一回」误作「二十一回」，已归一）
+      詩經        → 305 篇（毛詩编号 1..305；章題「風雅頌卷名·詩名」消歧；
+                    剔卷名行/笙詩無辭註等无句读行）
+      麟兒報      → 序 + 16 回（回目行全角空格塌缩）
   * 同时生成 库索引 library-index.json（含分类）
 输出格式：
   { "book", "author", "category", "subcategory", "chapters": [{ "title", "content" }] }
@@ -47,7 +50,7 @@ END_RE = re.compile(r'END OF (?:THE|THIS) PROJECT GUTENBERG')
 RE_HUI = re.compile(r'^[ 　]*第([〇○零一二三四五六七八九十百]+)回(?=[ 　:：]|$)')
 RE_GUA = re.compile(r'^第[ 　]*([〇○零一二三四五六七八九十百]+)[ 　]*卦$')
 RE_BAO = re.compile(r'^《易經﹒([^》]+)》$')
-CREDIT_START = re.compile(r'^(Produced by|Prepared by|Transcribed by|Posted by|This file|Copyright|End of|Project Gutenberg|Release date|Title:|Author:|Language:|\[eBook)', re.I)
+CREDIT_START = re.compile(r'^(Produced by|Prepared by|Transcribed by|Posted by|This file|Copyright|End of|Project Gutenberg|Release date|Title:|Author:|Language:|书名[:：]|書名[:：]|\[eBook)', re.I)
 RE_DASH_ONLY = re.compile(r'^[-—=·_~]+$')
 RE_ASCII = re.compile(r"^[A-Za-z0-9 \t,.;:!?%$#@&*()\-–—_~/\\+=]+$")
 
@@ -455,6 +458,58 @@ def normalize_hui_no_di(body):
     return out
 
 
+# ---------------------------------------------------------------
+# 詩經（古登堡 #23873）：毛詩编号 1..305 通贯全書，诗头行如「1.  關睢」
+# （个别编号行中有点号前空格，如「226 .  采綠」）。诗名跨風雅頌重出
+# （柏舟/谷風/揚之水…），章題统一以「風雅頌卷名·詩名」消歧。
+# 诗与诗之间嵌有 卷名行（周南/邶風/鹿鳴之什…）、笙詩註
+# （南陔/白華/華黍/由庚/崇丘/由儀 +「笙詩無辭」）、編者註（說見小雅）
+# 等无句读行——凡无 、。！？：； 的行一律剔除，僅保留诗句。
+# ---------------------------------------------------------------
+RE_SJ = re.compile(r'^(\d+)\s*\.\s*(\S.*?)\s*$')
+
+SHIJING_REGIONS = [
+    (1, 11, '周南'), (12, 25, '召南'), (26, 44, '邶風'), (45, 54, '鄘風'),
+    (55, 64, '衛風'), (65, 74, '王風'), (75, 95, '鄭風'), (96, 106, '齊風'),
+    (107, 113, '魏風'), (114, 125, '唐風'), (126, 135, '秦風'),
+    (136, 145, '陳風'), (146, 149, '檜風'), (150, 153, '曹風'),
+    (154, 160, '豳風'), (161, 234, '小雅'), (235, 265, '大雅'),
+    (266, 296, '周頌'), (297, 300, '魯頌'), (301, 305, '商頌'),
+]
+
+
+def split_shijing(body):
+    marks = []
+    for i, l in enumerate(body):
+        m = RE_SJ.match(l)
+        if m:
+            marks.append((i, int(m.group(1)), m.group(2)))
+    chapters = []
+    for k, (idx, num, name) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        raw = []
+        for l in body[idx + 1:end_idx]:
+            s = l.strip()
+            if not s:
+                continue
+            core = re.sub(r'[。！？；，、]+$', '', s)
+            if core in ('笙詩無辭', '無辭', '南陔', '白華', '華黍', '由庚', '崇丘', '由儀'):
+                continue          # 笙詩有目無辭註（可带句号）
+            if not re.search(r'[、。！？：；]', s):
+                continue          # 卷名行/編者註（說見小雅等）/空行
+            raw.append(s)
+        region = '詩'
+        for a, b, rname in SHIJING_REGIONS:
+            if a <= num <= b:
+                region = rname
+                break
+        raw = _trim(raw)
+        chapters.append({'title': '%s·%s' % (region, name),
+                         'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
+
+
 BOOKS = [
     {
         'key': 'shanshui-qing', 'book': '山水情', 'author': '佚名',
@@ -634,6 +689,20 @@ BOOKS = [
         'split': 'hui', 'title_next': True, 'drop_prefix': True,
         'normalize_hui_no_di': True,   # 原文本「第二十一回」误作「二十一回」
     },
+    # ---- 第四批新书（2026-09-01 入库） ----
+    {
+        'key': 'shijing', 'book': '詩經', 'author': '佚名',
+        'category': '經部', 'subcategory': '詩',
+        'source': 'Project Gutenberg #23873', 'file': '詩經.txt',
+        'split': 'shijing',
+    },
+    {
+        'key': 'lin-er-bao', 'book': '麟兒報', 'author': '佚名',
+        'category': '子部', 'subcategory': '小說家（才子佳人）',
+        'source': 'Project Gutenberg #27399', 'file': '麟兒報.txt',
+        'split': 'hui', 'keep_prefix_title': '序',
+        'hui_title_clean': True,   # 回目行全角空格塌缩为单空格
+    },
 ]
 
 SPLITTERS = {
@@ -648,6 +717,7 @@ SPLITTERS = {
     'ze': split_ze,
     'juan': split_juan,
     'liji': split_liji,
+    'shijing': split_shijing,
 }
 
 
@@ -674,6 +744,11 @@ def main():
             chapters = splitter(body, cfg['book'])
         else:
             chapters = splitter(body)
+        if cfg.get('hui_title_clean'):
+            chapters = [
+                {'title': re.sub(r'[ 　]+', ' ', c['title']).strip(), 'content': c['content']}
+                for c in chapters
+            ]
 
         out = {
             'book': cfg['book'],

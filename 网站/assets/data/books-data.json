@@ -54,6 +54,17 @@
       "cover": ""
     },
     {
+      "id": "shijing",
+      "title": "詩經",
+      "author": "佚名",
+      "category": "jing",
+      "subcategory": "",
+      "dynasty": "西周至春秋",
+      "description": "中國最早的詩歌總集，收西周初年至春秋中葉詩歌三百零五篇，分風、雅、頌，儒家「五經」之一。",
+      "sections": 305,
+      "cover": ""
+    },
+    {
       "id": "shanshui-qing",
       "title": "山水情",
       "author": "佚名",
@@ -172,6 +183,17 @@
       "dynasty": "清（道光年間）",
       "description": "清代武俠英雄傳奇小說：敘駱宏勛、花振芳、鮑自安等豪傑於武周之世懲奸除惡、扶唐復國，恩怨江湖、快意恩仇。",
       "sections": 64,
+      "cover": ""
+    },
+    {
+      "id": "lin-er-bao",
+      "title": "麟兒報",
+      "author": "佚名",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清",
+      "description": "清代才子佳人小說：廉小村雪中濟丐仙得吉壤，生子廉清，與幸尚書之女歷盡波折終成眷屬，寓善惡果報之勸。",
+      "sections": 17,
       "cover": ""
     },
     {
