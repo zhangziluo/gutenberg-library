@@ -1585,3 +1585,49 @@ body.reading-paper,
 .settings-list li, .guide-card li { margin: 6px 0; line-height: 1.9; color: var(--ink); font-size: 14px; }
 .settings-nav { text-align: center; margin: 24px 0 10px; display: flex; gap: 14px; justify-content: center; }
 
+/* ============ 注释层（正文注释词 + 点击小卡） ============ */
+.ann-word {
+  border-bottom: 1px dotted rgba(158, 43, 37, .55);
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background .15s;
+}
+.ann-word:hover { background: rgba(158, 43, 37, .12); }
+.ann-hard { box-shadow: inset 0 -1px 0 rgba(158, 43, 37, .22); }
+.ann-pop {
+  position: fixed;
+  left: 50%;
+  bottom: 150px;
+  transform: translate(-50%, 8px);
+  width: min(440px, 84vw);
+  background: #fffdf7;
+  color: #3a3226;
+  border: 1px solid #d8cfba;
+  border-left: 4px solid #9E2B25;
+  border-radius: 10px;
+  padding: 10px 14px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, .16);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  z-index: 15000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .18s, transform .18s;
+}
+.ann-pop.show { opacity: 1; pointer-events: auto; transform: translate(-50%, 0); }
+.ann-pop-head { display: flex; align-items: baseline; gap: 10px; }
+.ann-pop-head b { font-size: 20px; color: #7d1f1a; }
+.ann-pop-py { color: #b48a3c; font-size: 13px; }
+.ann-pop-lang { margin-left: auto; font-size: 11px; color: #6b6152; }
+.ann-pop-body { margin-top: 6px; font-size: 14px; }
+.ann-pop-tag {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 11px;
+  color: #fff;
+  background: #9E2B25;
+  border-radius: 999px;
+  padding: 2px 8px;
+}
+

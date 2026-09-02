@@ -65,6 +65,67 @@ const POS_PREFIX = 'gjs:pos:';
   const origParas = sec.paragraphs || [];
   const origNotes = sec.notes || [];
 
+  // ---- 注释层：读取当前书 annotations（顶层数组：word/pinyin/zh_cn/zh_tw/en/…）----
+  const annList = book.annotations || [];
+  const annMap = new Map();
+  (annList || []).forEach(function (a) { if (a && a.word) annMap.set(a.word, a); });
+  // 贪心匹配键：按长度降序，避免长词被其中的单字注释截胡
+  const annKeys = Array.from(annMap.keys()).sort(function (x, y) { return y.length - x.length; });
+  // 首字索引：正文按首字取候选词，避免逐位置遍历整表
+  const annFirst = new Map();
+  annKeys.forEach(function (w) {
+    const c = w.charAt(0);
+    const arr = annFirst.get(c);
+    if (arr) arr.push(w); else annFirst.set(c, [w]);
+  });
+
+  function annLangNow() {
+    try { if (window.AnnLang) return AnnLang.get(); } catch (e) { /* 脚本未加载时走兜底 */ }
+    try {
+      const v = localStorage.getItem('annotation_lang');
+      return (v === 'zh_cn' || v === 'zh_tw' || v === 'en') ? v : 'zh_tw';
+    } catch (e) { return 'zh_tw'; }
+  }
+  function annGlossText(entry) {
+    if (!entry) return '';
+    const v = entry[annLangNow()];
+    return (typeof v === 'string' && v.trim()) ? v : '';
+  }
+  function annPlaceholder() {
+    const l = annLangNow();
+    return l === 'en' ? 'TBD' : l === 'zh_cn' ? '待补' : '待補';
+  }
+  function annLangLabel() {
+    const l = annLangNow();
+    return l === 'zh_cn' ? '简中' : l === 'en' ? 'EN' : '繁中';
+  }
+  /** 段落 HTML：按注释词表贪心打标；原文（繁/简视 textMode）不动，仅加包裹 span */
+  function buildParaHtml(orig) {
+    if (!orig) return '';
+    if (!annKeys.length) return esc(convertText(orig));
+    let out = '', i = 0, n = orig.length;
+    while (i < n) {
+      let hit = null;
+      const cands = annFirst.get(orig.charAt(i));
+      if (cands) {
+        for (let k = 0; k < cands.length; k++) {
+          const w = cands[k];
+          if (orig.startsWith(w, i)) { hit = w; break; }
+        }
+      }
+      if (hit) {
+        const e = annMap.get(hit);
+        out += '<span class="ann-word' + (e && e.is_difficult ? ' ann-hard' : '') + '" data-ann="' + esc(hit) + '">'
+          + esc(convertText(hit)) + '</span>';
+        i += hit.length;
+      } else {
+        out += esc(convertText(orig[i]));
+        i += 1;
+      }
+    }
+    return out;
+  }
+
   function loadTextMode() {
     try {
       const v = localStorage.getItem(TEXT_MODE_KEY);
@@ -102,7 +163,7 @@ const POS_PREFIX = 'gjs:pos:';
 
   // 正文渲染（正文 + 独立注释层），按 textMode 实时转换；原文始终只保留一份在内存
   function renderReader() {
-    const paras = origParas.map(p => `<p>${esc(convertText(p))}</p>`).join('') || '<p>（本篇无正文）</p>';
+    const paras = origParas.map(p => `<p>${buildParaHtml(p)}</p>`).join('') || '<p>（本篇无正文）</p>';
     const notesHtml = (origNotes.length) ? `
       <div class="reader-notes">
         <div class="reader-notes-title">〖索隱述贊〗卷末注疏 · 唐·司馬貞《史記索隱》</div>
@@ -133,6 +194,53 @@ const POS_PREFIX = 'gjs:pos:';
   }
 
   renderReader();
+
+  // ---- 注释小卡：点击正文注释词弹出；切语言仅更新文案，不刷新页面 ----
+  const annPopEl = document.createElement('div');
+  annPopEl.className = 'ann-pop';
+  document.body.appendChild(annPopEl);
+  let annPopWord = null;
+
+  function fillAnnPop(word, entry) {
+    const gloss = annGlossText(entry);
+    const py = (entry && entry.pinyin) ? entry.pinyin : '';
+    annPopEl.textContent = '';
+    const head = document.createElement('div');
+    head.className = 'ann-pop-head';
+    const w = document.createElement('b');
+    w.textContent = word;
+    head.appendChild(w);
+    if (py) { const p = document.createElement('span'); p.className = 'ann-pop-py'; p.textContent = py; head.appendChild(p); }
+    const lg = document.createElement('span'); lg.className = 'ann-pop-lang'; lg.textContent = annLangLabel(); head.appendChild(lg);
+    annPopEl.appendChild(head);
+    const body = document.createElement('div');
+    body.className = 'ann-pop-body';
+    body.textContent = gloss || (py ? py + ' · ' + annPlaceholder() : annPlaceholder());
+    annPopEl.appendChild(body);
+    if (entry && entry.is_difficult) {
+      const tag = document.createElement('div'); tag.className = 'ann-pop-tag'; tag.textContent = '重难字词';
+      annPopEl.appendChild(tag);
+    }
+    annPopEl.classList.add('show');
+  }
+  function showAnnPopByWord(word) {
+    const entry = annMap.get(word);
+    if (!entry) return;
+    annPopWord = word;
+    fillAnnPop(word, entry);
+  }
+  function hideAnnPop() { annPopWord = null; annPopEl.classList.remove('show'); }
+
+  reader.addEventListener('click', function (e) {
+    const w = e.target.closest('.ann-word');
+    if (w) { showAnnPopByWord(w.getAttribute('data-ann')); }
+    else if (!e.target.closest('.ann-pop')) { hideAnnPop(); }
+  });
+  document.addEventListener('scroll', hideAnnPop, true);
+  // 切注释语言 → 已打开的小卡即时换文案（正文/页面不刷新）
+  document.addEventListener('annlangchange', function () {
+    if (annPopWord && annMap.has(annPopWord)) showAnnPopByWord(annPopWord);
+  });
 
   // anchor 高亮：滚动到包含该句的段落并短暂高亮（句子池跳转）
   if (anchorParam) {

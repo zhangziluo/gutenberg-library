@@ -21,10 +21,10 @@ cp -R "$ROOT/网站/css" "$ROOT/网站/js" "$DIST/"
 cp -R "$ROOT/网站/writing" "$DIST/"
 cp -R "$ROOT/网站/category" "$DIST/"
 
-# 2. 站点数据：页面位于根目录时，../文本/_site_data/ 解析为 /文本/_site_data/
+# 2. 站点数据：数据已迁至 网站/_site_data，部署为站点根下 /_site_data/
+#    （前端 js/common.js DATA_BASE='_site_data/'，即请求 /_site_data/{书名}.json）
 echo "==> 复制站点数据"
-mkdir -p "$DIST/文本"
-cp -R "$ROOT/文本/_site_data" "$DIST/文本/"
+cp -R "$ROOT/网站/_site_data" "$DIST/_site_data"
 
 # 2.5 图片资源（捐助页二维码等）
 echo "==> 复制图片资源"
