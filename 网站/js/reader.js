@@ -99,6 +99,36 @@ const POS_PREFIX = 'gjs:pos:';
     const l = annLangNow();
     return l === 'zh_cn' ? '简中' : l === 'en' ? 'EN' : '繁中';
   }
+
+  // ---- 注释档位：新手/进阶/专家（字号 + 注释密度）----
+  const ANN_LEVEL_KEY = 'annLevel';
+  const ANN_LEVELS = {
+    beginner:      { label: '新手', font: 20, title: '大字号 + 全注释' },
+    intermediate:  { label: '进阶', font: 17, title: '中字号 + 多音注音/难字释义' },
+    expert:        { label: '专家', font: 15, title: '小字号 + 仅标重难字' }
+  };
+  function annLevelNow() {
+    try {
+      const v = localStorage.getItem(ANN_LEVEL_KEY);
+      if (v && ANN_LEVELS[v]) return v;
+    } catch (e) { /* 忽略 */ }
+    return 'beginner';
+  }
+  function annLevelSave(v) {
+    try { localStorage.setItem(ANN_LEVEL_KEY, v); } catch (e) {}
+  }
+  /** 当前档位是否给该注释词加下划线 */
+  function annLevelAllows(entry) {
+    const lv = annLevelNow();
+    if (lv === 'expert') return !!(entry && entry.rare);
+    return true;
+  }
+  /** 当前档位下注释卡正文是否展示完整释义（否则只展示读音提示） */
+  function annLevelFullGloss(entry) {
+    const lv = annLevelNow();
+    if (lv === 'intermediate') return !!(entry && entry.rare);
+    return true;
+  }
   /** 段落 HTML：按注释词表贪心打标；原文（繁/简视 textMode）不动，仅加包裹 span */
   function buildParaHtml(orig) {
     if (!orig) return '';
@@ -115,8 +145,13 @@ const POS_PREFIX = 'gjs:pos:';
       }
       if (hit) {
         const e = annMap.get(hit);
-        out += '<span class="ann-word' + (e && e.is_difficult ? ' ann-hard' : '') + '" data-ann="' + esc(hit) + '">'
-          + esc(convertText(hit)) + '</span>';
+        if (annLevelAllows(e)) {
+          out += '<span class="ann-word' + (e && e.is_difficult ? ' ann-hard' : '')
+            + (e && e.rare ? ' ann-rare' : '') + '" data-ann="' + esc(hit) + '">'
+            + esc(convertText(hit)) + '</span>';
+        } else {
+          out += esc(convertText(hit));
+        }
         i += hit.length;
       } else {
         out += esc(convertText(orig[i]));
@@ -215,10 +250,18 @@ const POS_PREFIX = 'gjs:pos:';
     annPopEl.appendChild(head);
     const body = document.createElement('div');
     body.className = 'ann-pop-body';
-    body.textContent = gloss || (py ? py + ' · ' + annPlaceholder() : annPlaceholder());
+    if (annLevelFullGloss(entry)) {
+      body.textContent = gloss || (py ? py + ' · ' + annPlaceholder() : annPlaceholder());
+    } else {
+      // 进阶档：常见多音字只给注音提示，不展开释义
+      body.textContent = (entry && entry.note) || '多音字，讀音須依文意而定。';
+    }
     annPopEl.appendChild(body);
-    if (entry && entry.is_difficult) {
-      const tag = document.createElement('div'); tag.className = 'ann-pop-tag'; tag.textContent = '重难字词';
+    if (entry && entry.rare) {
+      const tag = document.createElement('div'); tag.className = 'ann-pop-tag'; tag.textContent = '重難字';
+      annPopEl.appendChild(tag);
+    } else if (entry && entry.multi) {
+      const tag = document.createElement('div'); tag.className = 'ann-pop-tag'; tag.textContent = '多音字';
       annPopEl.appendChild(tag);
     }
     annPopEl.classList.add('show');
@@ -265,6 +308,27 @@ const POS_PREFIX = 'gjs:pos:';
       applyReading();
     });
   });
+
+  // 阅读模式切换（新手/进阶/专家：字号 + 注释密度）
+  function syncLevelButtons() {
+    const cur = annLevelNow();
+    document.querySelectorAll('.level-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.level === cur);
+    });
+  }
+  document.querySelectorAll('.level-btn').forEach(b => {
+    b.addEventListener('click', () => {
+      const lv = b.dataset.level;
+      annLevelSave(lv);
+      syncLevelButtons();
+      const meta = ANN_LEVELS[lv];
+      if (meta && reading) reading.fontSize = meta.font;
+      hideAnnPop();
+      renderReader();
+      applyReading();
+    });
+  });
+  syncLevelButtons();
 
   // ---- 上一篇 / 下一篇 ----
   const prevBtn = document.getElementById('prev-btn');

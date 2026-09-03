@@ -1630,4 +1630,9 @@ body.reading-paper,
   border-radius: 999px;
   padding: 2px 8px;
 }
+/* 三档阅读模式（新手/进阶/专家） */
+.level-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+/* 重难字下划线更深、更实，便于档位过滤时肉眼区分 */
+.ann-rare { border-bottom-style: solid; border-bottom-width: 1.5px; }
+.ann-rare:hover { background: rgba(158, 43, 37, .16); }
 

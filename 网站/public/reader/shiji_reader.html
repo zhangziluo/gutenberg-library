@@ -468,6 +468,8 @@ if (libSel) {
       state.title = d.title || '文库篇目';
       loadTxt(d.text, d.title || '文库篇目');
       fileInfo.innerHTML = `📚 ${d.title||'文库篇目'}（来自 ${d.source||'文库'}）<br>字数: ${d.text.length}`;
+      // 若来自「一堆古书」本地书库，抓取该书注音注释并叠加下划线
+      if (d.source) tryLoadLocalAnnotations(d.source);
       if (d.pos) { setTimeout(() => restorePosition(d.pos), 30); }
     } catch (e) { console.error('自动载入文库选中失败', e); }
   }, 0);
@@ -557,7 +559,157 @@ function renderSentences(sentences) {
   });
 }
 
-// ================= 注释语言 & 默认 AI 精讲卡 =================
+// ========== 「一堆古书」本地注音注释叠加（可选增强） ==========
+let localAnnMap = null;   // word -> annotation entry
+const localAnnFirst = new Map();
+let aiAnnPop = null;
+
+function aiAnnStyle() {
+  if (document.getElementById('ai-ann-style')) return;
+  const css = '' +
+    '#readerContent .ai-ann{border-bottom:1px dotted rgba(158,43,37,.55);cursor:pointer;border-radius:2px;transition:background .15s;}' +
+    '#readerContent .ai-ann:hover{background:rgba(158,43,37,.12);}' +
+    '#readerContent .ai-ann.ai-rare{border-bottom-style:solid;border-bottom-width:1.5px;}' +
+    '.ai-ann-pop{position:fixed;z-index:15000;width:min(440px,84vw);max-height:60vh;overflow:auto;' +
+    '  background:#fffdf7;color:#3a3226;border:1px solid #d8cfba;border-left:4px solid #9E2B25;border-radius:10px;' +
+    '  padding:10px 14px;box-shadow:0 6px 24px rgba(0,0,0,.16);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;' +
+    '  font-size:14px;line-height:1.7;opacity:0;pointer-events:none;transition:opacity .18s,transform .18s;}' +
+    '.ai-ann-pop.show{opacity:1;pointer-events:auto;}' +
+    '.ai-ann-pop .ah{display:flex;align-items:baseline;gap:10px;}' +
+    '.ai-ann-pop .ah b{font-size:20px;color:#7d1f1a;}' +
+    '.ai-ann-pop .ah .py{color:#b48a3c;font-size:13px;}' +
+    '.ai-ann-pop .ah .lg{margin-left:auto;font-size:11px;color:#6b6152;}' +
+    '.ai-ann-pop .bd{margin-top:6px;font-size:14px;}' +
+    '.ai-ann-pop .tag{display:inline-block;margin-top:8px;font-size:11px;color:#fff;background:#9E2B25;border-radius:999px;padding:2px 8px;}' +
+    '';
+  const st = document.createElement('style');
+  st.id = 'ai-ann-style';
+  st.textContent = css;
+  document.head.appendChild(st);
+}
+
+async function tryLoadLocalAnnotations(bookTitle) {
+  if (!bookTitle) return;
+  aiAnnStyle();
+  const clean = String(bookTitle).replace(/[《》「」『』]/g, '').trim();
+  const name = encodeURIComponent(clean);
+  const candidates = [
+    '_site_data/' + name + '.json',
+    '../_site_data/' + name + '.json',
+    '/网站/_site_data/' + name + '.json',
+    '/_site_data/' + name + '.json'
+  ];
+  for (const rel of candidates) {
+    try {
+      const r = await fetch(rel);
+      if (!r.ok) continue;
+      const book = await r.json();
+      const list = book.annotations || [];
+      if (!list.length) return;
+      localAnnMap = new Map();
+      list.forEach(a => {
+        if (!a || !a.word) return;
+        localAnnMap.set(a.word, a);
+      });
+      localAnnFirst.clear();
+      localAnnMap.forEach((a, w) => {
+        const c = w.charAt(0);
+        if (!localAnnFirst.has(c)) localAnnFirst.set(c, []);
+        localAnnFirst.get(c).push(w);
+      });
+      annotateAllSentences();
+      return;
+    } catch (e) { /* 该路径不可达时尝试下一条 */ }
+  }
+}
+
+function aiAnnAllows(e) {
+  try { if (localStorage.getItem('annLevel') === 'expert') return !!(e && e.rare); } catch (err) { /* 忽略 */ }
+  return true;
+}
+
+function escHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+function annotateAllSentences() {
+  if (!localAnnMap) return;
+  const spans = document.querySelectorAll('#readerContent .sentence');
+  for (const span of spans) {
+    const text = span.textContent;
+    let out = '', i = 0, n = text.length;
+    while (i < n) {
+      const c = text.charAt(i);
+      const e = localAnnMap.get(c);
+      if (e && aiAnnAllows(e)) {
+        out += '<span class="ai-ann' + (e.rare ? ' ai-rare' : '') + '" data-ann="' + escHtml(c) + '">' + escHtml(c) + '</span>';
+      } else {
+        out += escHtml(c);
+      }
+      i += 1;
+    }
+    span.innerHTML = out;
+  }
+}
+
+function aiAnnLangNow() {
+  try { if (window.AnnLang) return AnnLang.get(); } catch (e) { /* 兜底 */ }
+  try {
+    const v = localStorage.getItem('annotation_lang');
+    return (v === 'zh_cn' || v === 'zh_tw' || v === 'en') ? v : 'zh_tw';
+  } catch (e) { return 'zh_tw'; }
+}
+function aiAnnLangLabel() { const l = aiAnnLangNow(); return l === 'zh_cn' ? '简中' : l === 'en' ? 'English' : '繁中'; }
+function aiAnnPlaceholder() { const l = aiAnnLangNow(); return l === 'en' ? 'TBD' : l === 'zh_cn' ? '待补' : '待補'; }
+
+function aiAnnShow(word, ev) {
+  const e = localAnnMap && localAnnMap.get(word);
+  if (!e) return;
+  if (!aiAnnPop) {
+    aiAnnPop = document.createElement('div');
+    aiAnnPop.className = 'ai-ann-pop';
+    document.body.appendChild(aiAnnPop);
+  }
+  const lang = aiAnnLangNow();
+  const gloss = (typeof e[lang] === 'string' && e[lang].trim()) ? e[lang] : '';
+  const py = e.pinyin || '';
+  let isInt = false;
+  try { isInt = localStorage.getItem('annLevel') === 'intermediate'; } catch (err) { /* 忽略 */ }
+  const fullGloss = !(isInt && !e.rare);
+  let bodyText;
+  if (fullGloss) bodyText = gloss || (py ? py + ' · ' + aiAnnPlaceholder() : aiAnnPlaceholder());
+  else bodyText = e.note || '多音字，讀音須依文意而定。';
+  aiAnnPop.innerHTML = '<div class="ah"><b>' + escHtml(word) + '</b>' +
+    (py ? '<span class="py">' + escHtml(py) + '</span>' : '') +
+    '<span class="lg">' + escHtml(aiAnnLangLabel()) + '</span></div>' +
+    '<div class="bd">' + escHtml(bodyText) + '</div>' +
+    (e.rare ? '<span class="tag">重難字</span>' : (e.multi ? '<span class="tag">多音字</span>' : ''));
+  aiAnnPop.classList.add('show');
+  if (ev && typeof ev.clientX === 'number') {
+    const x = Math.min(ev.clientX, window.innerWidth - 460);
+    aiAnnPop.style.left = Math.max(8, x) + 'px';
+    aiAnnPop.style.top = Math.min(ev.clientY + 14, window.innerHeight - 160) + 'px';
+  }
+}
+
+document.addEventListener('click', function (ev) {
+  const t = ev.target && ev.target.closest ? ev.target.closest('.ai-ann') : null;
+  if (t) {
+    ev.stopPropagation();
+    aiAnnShow(t.getAttribute('data-ann'), ev);
+    return;
+  }
+  if (aiAnnPop && !(ev.target && ev.target.closest && ev.target.closest('.ai-ann-pop'))) {
+    aiAnnPop.classList.remove('show');
+  }
+}, true);
+document.addEventListener('annlangchange', function () {
+  if (aiAnnPop && aiAnnPop.classList.contains('show')) {
+    const w = aiAnnPop.querySelector('.ah b');
+    if (w) aiAnnShow(w.textContent, null);
+  }
+});
+
 function annLangNow() {
   try {
     if (window.AnnLang) return AnnLang.get();

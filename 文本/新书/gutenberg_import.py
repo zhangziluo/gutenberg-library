@@ -1015,6 +1015,16 @@ PIAN_KEYS = {'zhongguo-xiaoshuo-shilue', 'zhaohua-xishi', 'nanqiang-beidiao-ji',
              'yecao', 'panghuang'}
 
 
+def books_index_entry(title, book):
+    """books.json 只保留轻量目录字段（正文/注释在单书文件 _site_data/{書名}.json）。
+    原因：Cloudflare Pages 单文件上限 25 MiB；全量书库聚合含正文+注释会超限。"""
+    return {
+        'title': title,
+        'section_count': book.get('section_count', 0) or 0,
+        'categories': book.get('categories', []) or [],
+    }
+
+
 def reader_label(key):
     if key == 'yijing':
         return None  # 特殊处理
@@ -1148,7 +1158,7 @@ def merge_to_site():
             reader['annotations'] = raw.get('annotations', [])   # 统一前端口径：24本注释镜像到 _site_data
             with open(os.path.join(SITE_DATA, title + '.json'), 'w', encoding='utf-8') as f:
                 json.dump(reader, f, ensure_ascii=False, indent=2)
-            books_index[title] = reader
+            books_index[title] = books_index_entry(title, reader)   # books.json 仅存轻量目录
             merged_books.append({
                 'id': key, 'title': title, 'author': raw.get('author', '佚名'),
                 'category': ckey, 'subcategory': sub, 'dynasty': DYN.get(title, ''),
@@ -1265,7 +1275,7 @@ def annotate_catalog_books():
         with open(p, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         if title in books_index:
-            books_index[title] = data          # 聚合 books.json 同步注释
+            books_index[title] = books_index_entry(title, data)  # books.json 仅存轻量目录
         merge_pending(title, pending)
         changed = True
         print(f"  ✅ {title} → annotations {len(anns)} 条" +

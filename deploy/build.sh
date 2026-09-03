@@ -26,6 +26,10 @@ cp -R "$ROOT/网站/category" "$DIST/"
 echo "==> 复制站点数据"
 cp -R "$ROOT/网站/_site_data" "$DIST/_site_data"
 
+# 2.1 books.json 瘦身为轻量目录（正文/注释走单书文件，规避 Cloudflare Pages 25 MiB 单文件上限）
+echo "==> 重建轻量书库目录 books.json"
+python3 "$ROOT/文本/新书/slim_books_index.py" "$DIST/_site_data"
+
 # 2.5 图片资源（捐助页二维码等）
 echo "==> 复制图片资源"
 cp -R "$ROOT/网站/assets" "$DIST/assets"
