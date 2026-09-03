@@ -46,11 +46,14 @@ rm -rf "$ROOT/functions"
 cp -R "$ROOT/网站/public/reader/functions" "$ROOT/functions"
 
 # 5. Cloudflare 辅助文件（_headers / _redirects，如有则带上）
-for f in _headers _redirects; do
-  if [ -f "$ROOT/网站/$f" ]; then
-    cp "$ROOT/网站/$f" "$DIST/$f"
-  fi
-done
+if [ -f "$ROOT/网站/_headers" ]; then
+  cp "$ROOT/网站/_headers" "$DIST/_headers"
+fi
+if [ -f "$ROOT/网站/_redirects" ]; then
+  # dist 布局中 /reader/ 是真实目录（public/reader → dist/reader），
+  # 故剔除「网站根目录」部署专用的一条 /reader/* 重写，避免自相冲突。
+  grep -v '/reader/' "$ROOT/网站/_redirects" > "$DIST/_redirects" || true
+fi
 
 # 6. 句子池（今日一句：library/sentences/*.json + sentence-manifest.json）
 echo "==> 复制句子池"

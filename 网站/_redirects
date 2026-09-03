@@ -6,3 +6,8 @@
 /library/ji      /category/ji.html     301
 /library/modern  /category/ji.html     301
 
+
+# AI 阅读器（网站根目录部署）：/reader/* 重写到 public/reader/*
+# 若改用 dist 部署（dist/reader 为真实目录），deploy/build.sh 会自动剔除本规则。
+/reader/*  /public/reader/:splat  200
+
