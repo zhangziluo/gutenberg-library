@@ -1,12 +1,15 @@
 # Active Context（当前状态与下一步）
 
 ## 当前（进行中）
+- ✅ **全站页脚新增兄弟站点链接「日程编辑与提醒器」→ `https://ics-editor.zhang409543901.workers.dev/`**：
+  - 覆盖 15 个带页脚的页面（首页/书页/阅读/文库/链接/赞助/AI 指南/AI 设置/分类×5/写作×2）；首页追加进既有 `.footer-links`，其余页在 `.footer-note` 与 `.footer-donate` 之间新建一行 `.footer-links`。
+  - `css/style.css` 新增 `.footer-links` 通用样式（13px、ink-soft、hover 主题色）；`dist/` 已由 `deploy/build.sh` 重建、与 `网站/` 逐字节一致。
 - ✅ 古籍站点注释显示已修复：下划线注释 + 点击卡片，**三语释义（简体/繁体/英文）已上线**。
   - 覆盖：简体 86%、繁体 86%、英文 93.6%（25934 条注释）；420 个最高频字为人工精编。
 - ✅ 阅读页三档模式（新手/进阶/专家）、AI 阅读器下划线注释层均已实现。
 - ✅ Cloudflare 25 MiB 限制已规避：`books.json` 瘦身为轻量索引。
 - ✅ AI 阅读器跳转修复：`/reader/* → /public/reader/*` 200 重写已推送（等待线上验证）。
-- 📦 最近提交：`f472ab9`（/reader 重写）；上一提交 `dcca110`（books.json 瘦身 + 三语释义数据）。
+- 📦 最近提交：`feat` 页脚兄弟链接 + `docs` memory bank 同步（本次）；上一提交 `83e1ca2`（memory bank 初始化）。
 
 ## 下一步（规划）
 - **古登堡中文书入库（Gutendex API）**：
