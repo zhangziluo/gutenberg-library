@@ -761,6 +761,21 @@ body.reading-paper,
   font-size: 13px;
 }
 
+/* ---------- 页脚通用链接（兄弟站点链接） ---------- */
+.footer-links {
+  margin-top: 6px;
+  font-size: 13px;
+}
+.footer-links a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  margin: 0 8px;
+  transition: color 0.15s ease;
+}
+.footer-links a:hover {
+  color: var(--accent);
+}
+
 /* ---------- 页脚捐助链接 ---------- */
 .footer-donate {
   margin-bottom: 6px;
