@@ -6,32 +6,32 @@
   <title>📝 网站日志 · 一堆古书</title>
   <link rel="stylesheet" href="../css/style.css">
   <style>
-    /* ========== 作者个人空间 · 暖色主题 ========== */
+    /* ========== 作者个人空间 · 与主站统一视觉 ========== */
     :root {
-      --w-ink: #4a3620;          /* 暖褐墨 */
-      --w-ink-soft: #8a6a4a;
-      --w-accent: #c96f2e;       /* 暖橙 */
-      --w-accent-dark: #a8531e;
-      --w-line: #e8cfa8;
-      --w-card: #fff8ee;
+      --w-ink: #1a1a1a;          /* 墨色 */
+      --w-ink-soft: #888888;     /* 说明小字 */
+      --w-accent: #9e2b25;       /* 朱砂红 */
+      --w-accent-dark: #7d1f1a;
+      --w-line: #e9e5df;         /* 极淡中性分隔 */
+      --w-card: #ffffff;         /* 卡片白底 */
     }
 
     body {
-      background: linear-gradient(180deg, #fff7e9 0%, #fdeed6 100%);
+      background: #faf8f5;
       color: var(--w-ink);
     }
 
     .site-header {
-      background: linear-gradient(180deg, #f8e0c2 0%, #f0cf9f 100%);
-      border-bottom: 3px solid var(--w-accent);
+      background: transparent;
+      border-bottom: none;
     }
 
     .brand { color: var(--w-ink); }
-    .brand-icon { background: #fff8ec; }
+    .brand-icon { background: var(--w-card); }
     .tagline { color: var(--w-ink-soft); }
     .tagline-link { color: var(--w-ink-soft); }
     .tagline-link:hover { color: var(--w-accent); }
-    .site-footer { border-top-color: var(--w-line); }
+    .site-footer { border-top: none; }
 
     /* 作者区 */
     .author-hero {
@@ -49,8 +49,8 @@
       margin: 0 0 10px;
     }
     .author-sign {
-      font-family: var(--font-kai);
-      color: var(--w-accent);
+      font-family: var(--font-serif);
+      color: var(--w-ink-soft);
       font-size: 18px;
     }
 
@@ -58,16 +58,12 @@
     .works h2 {
       font-size: 20px;
       letter-spacing: 2px;
-      border-left: 4px solid var(--w-accent);
-      padding-left: 10px;
       margin: 0 0 18px;
     }
     .work-card {
       background: var(--w-card);
-      border: 1px solid var(--w-line);
-      border-radius: 10px;
+      border-radius: 12px;
       padding: 22px 24px;
-      box-shadow: 0 2px 10px rgba(90, 60, 20, 0.06);
     }
     .work-card h3 {
       margin: 0 0 8px;
@@ -76,8 +72,8 @@
     }
     .work-badge {
       display: inline-block;
-      background: var(--w-accent);
-      color: #fff;
+      background: #f0ece6;
+      color: #888888;
       font-size: 12px;
       padding: 2px 12px;
       border-radius: 12px;
@@ -103,16 +99,12 @@
     .section-title {
       font-size: 20px;
       letter-spacing: 2px;
-      border-left: 4px solid var(--w-accent);
-      padding-left: 10px;
       margin: 0 0 18px;
     }
     .note {
       background: var(--w-card);
-      border: 1px solid var(--w-line);
-      border-radius: 10px;
+      border-radius: 12px;
       padding: 26px 28px;
-      box-shadow: 0 2px 10px rgba(90, 60, 20, 0.06);
     }
     .note-title {
       font-size: 22px;
@@ -121,10 +113,8 @@
     }
     .note h4 {
       font-size: 16px;
-      color: var(--w-accent-dark);
+      color: var(--w-ink);
       margin: 22px 0 8px;
-      padding-bottom: 4px;
-      border-bottom: 1px dashed var(--w-line);
     }
     .note p {
       color: var(--w-ink-soft);
@@ -156,12 +146,10 @@
     .column h2 {
       font-size: 19px;
       letter-spacing: 2px;
-      border-left: 4px solid var(--w-accent);
-      padding-left: 10px;
       margin: 0 0 12px;
     }
     .column ul { list-style: none; margin: 0; padding: 0; }
-    .column li { padding: 8px 0; border-bottom: 1px dashed var(--w-line); }
+    .column li { padding: 8px 0; }
     .column li:last-child { border-bottom: none; }
     .column a {
       color: var(--w-ink);
@@ -171,7 +159,7 @@
     }
     .column a:hover { color: var(--w-accent); }
     .column .col-tag {
-      display: inline-block; background: var(--w-accent); color: #fff;
+      display: inline-block; background: #f0ece6; color: #888888;
       font-size: 11px; padding: 1px 8px; border-radius: 10px; margin-left: 6px; vertical-align: middle;
     }
     .column .col-empty { color: var(--w-ink-soft); font-size: 13px; }

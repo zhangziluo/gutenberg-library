@@ -12,8 +12,8 @@
   var API_URL = 'https://api.deepseek.com/v1/chat/completions';
   var MODEL = 'deepseek-chat';
   var READING_KEY = 'gjs:reading';  // 阅读页自定义模板键（与阅读页共用）
-  var PAPER_BG = '#f5ead0';         // 默认羊皮纸底色
-  var PAPER_FG = '#3a3226';         // 默认墨色文字
+  var PAPER_BG = '#faf8f5';         // 默认暖白底色
+  var PAPER_FG = '#1a1a1a';         // 默认墨色文字
 
   // 书名 → 作者（与 catalog.json 保持一致；用于章节页上下文）
   var AUTHORS = {
@@ -118,10 +118,10 @@
   var noteSaveBtn = document.getElementById('gai-note-save');
   var noteCancelBtn = document.getElementById('gai-note-cancel');
 
-  // ---------- 主题：跟随阅读页自定义模板（gjs:reading 的 bg/fg），默认羊皮纸 ----------
+  // ---------- 主题：跟随阅读页自定义模板（gjs:reading 的 bg/fg），默认暖白 ----------
   function hexToRgbArr(hex) {
     var m = String(hex).replace('#', '').match(/^([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i);
-    if (!m) return [245, 234, 208];
+    if (!m) return [250, 248, 245];
     return [parseInt(m[1], 16), parseInt(m[2], 16), parseInt(m[3], 16)];
   }
   function rgbaStr(rgb, a) { return 'rgba(' + rgb.join(',') + ',' + a + ')'; }
@@ -136,7 +136,6 @@
     var rgbBg = hexToRgbArr(bg);
     var lum = 0.299 * rgbBg[0] + 0.587 * rgbBg[1] + 0.114 * rgbBg[2];
     var dark = lum < 128;                 // 深色主题（墨夜/黑底）反色适配
-    var paper = bg.toLowerCase() === PAPER_BG;
     root.style.setProperty('--gai-bg', bg);
     root.style.setProperty('--gai-fg', fg);
     root.style.setProperty('--gai-line', rgbaStr(hexToRgbArr(fg), 0.3));
@@ -145,9 +144,8 @@
     root.style.setProperty('--gai-input-bg', dark ? 'rgba(255,255,255,0.16)' : 'rgba(255,255,255,0.85)');
     root.style.setProperty('--gai-msg-bg', dark ? 'rgba(0,0,0,0.18)' : 'rgba(255,255,255,0.45)');
     root.style.setProperty('--gai-ctx-bg', dark ? 'rgba(255,255,255,0.08)' : 'rgba(255,255,255,0.35)');
-    root.style.setProperty('--gai-ctx-fg', dark ? 'rgba(255,255,255,0.85)' : '#6d5320');
+    root.style.setProperty('--gai-ctx-fg', dark ? 'rgba(255,255,255,0.85)' : '#888888');
     root.classList.toggle('gai-dark', dark);
-    root.classList.toggle('gai-paper', paper);  // 默认羊皮纸底色 → 叠加羊皮纸纹理
   }
 
   // 其他标签页修改阅读模板时实时同步（同页内由阅读页 applyReading 主动调用 GAI.theme）

@@ -37,8 +37,6 @@
       letter-spacing: 3px;
       line-height: 1.5;
       color: var(--ink);
-      border-left: 4px solid var(--accent);
-      padding: 2px 6px 2px 14px;
       margin: 0 0 18px;
     }
 
@@ -47,9 +45,7 @@
       display: inline-block;
       background: #fff;
       padding: 20px;
-      border: 1px solid var(--line);
-      border-radius: 10px;
-      box-shadow: var(--shadow);
+      border-radius: 12px;
     }
     .qr-img-lg {
       display: block;
@@ -66,11 +62,9 @@
 
     /* 感谢名单（预留区） */
     .thanks {
-      border-top: 1px dashed var(--line);
       padding-top: 26px;
       margin-top: 8px;
     }
-    .thanks .donate-title { border-left-color: var(--gold); }
     .thanks-empty {
       color: var(--ink-soft);
       font-size: 14px;
@@ -108,13 +102,13 @@
       height: 30px;
       border: none;
       border-radius: 50%;
-      background: #eee;
-      color: #555;
+      background: #f0ece6;
+      color: var(--ink);
       cursor: pointer;
       font-size: 14px;
       line-height: 1;
     }
-    .modal-close:hover { background: #e0c9a0; color: var(--accent-dark); }
+    .modal-close:hover { background: #e4dfd8; color: var(--accent); }
 
     /* 移动端：收款码 240px */
     @media (max-width: 560px) {

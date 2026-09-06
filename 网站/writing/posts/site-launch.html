@@ -6,23 +6,23 @@
   <title>#1：一个纯文科生，四天，30 块钱，做了一个 AI 古文阅读站 · 网站日志</title>
   <link rel="stylesheet" href="../../css/style.css">
   <style>
-    /* ========== 作者个人空间 · 暖色主题（与网站日志首页一致） ========== */
+    /* ========== 作者个人空间 · 与主站统一视觉 ========== */
     :root {
-      --w-ink: #4a3620;
-      --w-ink-soft: #8a6a4a;
-      --w-accent: #c96f2e;
-      --w-accent-dark: #a8531e;
-      --w-line: #e8cfa8;
-      --w-card: #fff8ee;
+      --w-ink: #1a1a1a;          /* 墨色 */
+      --w-ink-soft: #888888;     /* 说明小字 */
+      --w-accent: #9e2b25;       /* 朱砂红 */
+      --w-accent-dark: #7d1f1a;
+      --w-line: #e9e5df;         /* 极淡中性分隔 */
+      --w-card: #ffffff;         /* 卡片白底 */
     }
-    body { background: linear-gradient(180deg, #fff7e9 0%, #fdeed6 100%); color: var(--w-ink); }
-    .site-header { background: linear-gradient(180deg, #f8e0c2 0%, #f0cf9f 100%); border-bottom: 3px solid var(--w-accent); }
+    body { background: #faf8f5; color: var(--w-ink); }
+    .site-header { background: transparent; border-bottom: none; }
     .brand { color: var(--w-ink); }
-    .brand-icon { background: #fff8ec; }
+    .brand-icon { background: var(--w-card); }
     .tagline { color: var(--w-ink-soft); }
     .tagline-link { color: var(--w-ink-soft); }
     .tagline-link:hover { color: var(--w-accent); }
-    .site-footer { border-top-color: var(--w-line); }
+    .site-footer { border-top: none; }
     .footer-note { color: var(--w-ink-soft); }
 
     .post-wrap { max-width: 720px; }
@@ -30,21 +30,19 @@
     .post-back:hover { text-decoration: underline; }
     .post-head { margin: 10px 0 22px; }
     .post-cat {
-      display: inline-block; background: var(--w-accent); color: #fff;
+      display: inline-block; background: #f0ece6; color: #888888;
       font-size: 12px; padding: 2px 12px; border-radius: 12px; letter-spacing: 1px; margin-bottom: 10px;
     }
     .post-title { font-size: 26px; letter-spacing: 1px; margin: 0 0 8px; line-height: 1.5; }
     .post-meta { color: var(--w-ink-soft); font-size: 13px; }
     .post-body {
       background: var(--w-card);
-      border: 1px solid var(--w-line);
-      border-radius: 12px;
+      border-radius: 14px;
       padding: 30px 34px;
-      box-shadow: 0 2px 10px rgba(90, 60, 20, 0.06);
     }
-    .post-body h4 { font-size: 17px; color: var(--w-accent-dark); margin: 24px 0 8px; padding-bottom: 4px; border-bottom: 1px dashed var(--w-line); }
-    .post-body p { color: var(--w-ink-soft); font-size: 15px; line-height: 2; margin: 0 0 12px; text-align: justify; }
-    .post-body ul { color: var(--w-ink-soft); font-size: 15px; line-height: 1.9; padding-left: 1.5em; margin: 0 0 12px; }
+    .post-body h4 { font-size: 17px; color: var(--w-ink); margin: 24px 0 8px; }
+    .post-body p { color: var(--w-ink); font-size: 15px; line-height: 2; margin: 0 0 12px; text-align: justify; }
+    .post-body ul { color: var(--w-ink); font-size: 15px; line-height: 1.9; padding-left: 1.5em; margin: 0 0 12px; }
     .post-body li { margin-bottom: 4px; }
     .post-body .note-bold { margin-top: 18px; }
     .post-nav { display: flex; justify-content: space-between; margin: 24px 0 8px; }

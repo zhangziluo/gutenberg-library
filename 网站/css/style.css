@@ -2,17 +2,16 @@
    一堆古书 · 在线阅读 — 样式
    ============================================================ */
 :root {
-  --paper: #f6f1e4;        /* 纸色 */
-  --paper-light: #fdfaf2;
-  --ink: #3a3226;          /* 墨色 */
-  --ink-soft: #6b6152;
-  --accent: #9e2b25;       /* 朱红 */
-  --accent-dark: #7d1f1a;
-  --gold: #b48a3c;
-  --line: #d8cfba;
-  --shadow: 0 2px 10px rgba(60, 50, 30, 0.08);
-  --font-serif: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
-  --font-kai: "Kaiti SC", "STKaiti", "KaiTi", "DFKai-SB", serif;
+  --paper: #faf8f5;        /* 暖白背景 */
+  --paper-light: #ffffff;  /* 卡片 / 面板 */
+  --ink: #1a1a1a;          /* 墨色正文 */
+  --ink-soft: #888888;     /* 注释 / 说明小字 */
+  --accent: #9e2b25;       /* 朱砂红：仅链接 / 强调 / 小墨 */
+  --accent-dark: #7d1f1a;  /* 朱砂红 hover */
+  --line: #e9e5df;         /* 极淡中性分隔线（功能边框） */
+  --shadow: 0 2px 10px rgba(26, 26, 26, 0.05);
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-serif: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif; /* 古籍正文：宋体 / 明体 */
 }
 
 * { box-sizing: border-box; }
@@ -21,10 +20,11 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
+  font-size: 15px;
   color: var(--ink);
   background: var(--paper);
-  line-height: 1.8;
+  line-height: 1.7;
 }
 
 .container {
@@ -35,9 +35,9 @@ body {
 
 /* ---------- 顶栏 ---------- */
 .site-header {
-  background: linear-gradient(180deg, #e8dcc0, #dfd1b0);
-  border-bottom: 3px solid var(--gold);
-  box-shadow: var(--shadow);
+  background: transparent;
+  border-bottom: none;
+  box-shadow: none;
 }
 
 .header-inner {
@@ -65,7 +65,7 @@ body {
   margin-right: 6px;
   vertical-align: middle;
   object-fit: cover;
-  background: #fff8ec;
+  background: var(--paper-light);
 }
 
 .tagline {
@@ -159,7 +159,6 @@ body {
 .site-footer {
   margin-top: 60px;
   padding: 18px 0 30px;
-  border-top: 1px solid var(--line);
   color: var(--ink-soft);
   font-size: 13px;
   text-align: center;
@@ -193,20 +192,18 @@ body {
 
 /* ---------- 文本说明便签 ---------- */
 .book-notice {
-  background: #fef9e7;               /* 淡米黄 */
-  border-left: 4px solid #e67e22;    /* 左竖线装饰 */
-  border-radius: 6px;
+  background: #f5f2ed;
+  border-radius: 8px;
   padding: 12px 16px;
   margin: 18px 0 8px;
   font-size: 13px;
-  color: #555;
+  color: var(--ink);
   line-height: 1.9;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
 
 .book-notice strong {
   font-size: 14px;
-  color: #7a4a1e;
+  color: var(--ink);
 }
 
 .book-notice p {
@@ -223,22 +220,20 @@ body {
 .book-card {
   display: block;
   background: var(--paper-light);
-  border: 1px solid var(--line);
-  border-left: 6px solid var(--accent);
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 22px 18px;
   text-decoration: none;
   color: var(--ink);
-  box-shadow: var(--shadow);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .book-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 18px rgba(60, 50, 30, 0.14);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(26, 26, 26, 0.06);
 }
 
 .book-card-title {
+  font-family: var(--font-serif);
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 4px;
@@ -253,50 +248,45 @@ body {
 
 .book-card-cats { display: flex; flex-wrap: wrap; gap: 6px; }
 
-/* ---------- 分类标签 ---------- */
+/* ---------- 分类标签（统一中性，不再按部类着色） ---------- */
 .cat-tag {
   display: inline-block;
   font-size: 12px;
-  padding: 1px 8px;
+  line-height: 1.4;
+  padding: 2px 9px;
   border-radius: 20px;
-  background: #eee5d2;
-  color: var(--ink-soft);
+  background: #f0ece6;
+  color: #888888;
+  font-weight: 500;
 }
 
-.cat-ji, .cat-benji { background: #f3e0d3; color: #8a3b2a; }
-.cat-biao { background: #e5e8f0; color: #3c5673; }
-.cat-shu  { background: #e2efe2; color: #2f6b3a; }
-.cat-shijia { background: #f2ead3; color: #8a6d2f; }
-.cat-liezhuan, .cat-zhuan { background: #e7e0ef; color: #5b3d86; }
-.cat-zhi { background: #dfe9ea; color: #2c6b70; }
-.cat-wei { background: #f0e2d2; color: #8a4a20; }
-.cat-wu  { background: #e0e9f0; color: #2d4d7a; }
+.cat-ji, .cat-benji, .cat-biao, .cat-shu, .cat-shijia,
+.cat-liezhuan, .cat-zhuan, .cat-zhi, .cat-wei, .cat-wu {
+  background: #f0ece6;
+  color: #888888;
+}
 
 /* ---------- 提示条 ---------- */
 .notice {
   padding: 22px;
   text-align: center;
   color: var(--ink-soft);
-  background: var(--paper-light);
-  border: 1px dashed var(--line);
+  background: #f5f2ed;
   border-radius: 8px;
   margin: 20px 0;
 }
 
 .notice.error {
   color: var(--accent);
-  border-color: var(--accent);
-  background: #fbeee8;
+  background: #fbf0ee;
 }
 
 /* ---------- 版本缺篇标注 ---------- */
 .missing-notice {
   margin: 18px 0 26px;
   padding: 16px 20px;
-  border: 1px solid #e3c9a6;
-  border-left: 4px solid #c89b3c;
   border-radius: 8px;
-  background: #fbf6ea;
+  background: #f5f2ed;
   color: var(--ink);
   font-size: 14px;
 }
@@ -304,7 +294,7 @@ body {
 .missing-title {
   font-weight: 700;
   font-size: 15px;
-  color: #8a6d2f;
+  color: var(--ink);
   letter-spacing: 1px;
   margin-bottom: 8px;
 }
@@ -326,16 +316,17 @@ body {
   padding: 0 8px;
   margin-right: 6px;
   font-size: 12px;
+  line-height: 1.6;
   border-radius: 10px;
-  background: #e8dcbe;
-  color: #6d5320;
+  background: #f0ece6;
+  color: #888888;
   font-weight: 600;
 }
 
 .missing-notice summary {
   cursor: pointer;
   font-weight: 600;
-  color: #6d5320;
+  color: var(--ink);
 }
 
 .missing-titles {
@@ -371,8 +362,8 @@ body {
 
 #search:focus {
   outline: none;
-  border-color: var(--gold);
-  box-shadow: 0 0 0 2px rgba(180, 138, 60, 0.25);
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(158, 43, 37, 0.12);
 }
 
 .stat { color: var(--ink-soft); font-size: 14px; }
@@ -383,7 +374,6 @@ body {
   display: flex;
   align-items: baseline;
   gap: 12px;
-  border-bottom: 2px solid var(--gold);
   padding-bottom: 6px;
   margin-bottom: 14px;
 }
@@ -445,19 +435,17 @@ body {
   transition: background 0.15s ease;
 }
 
-.btn:hover { background: #efe7d4; }
+.btn:hover { background: #f0ece6; }
 
 .reader {
   background: var(--paper-light);
-  border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: 12px;
   padding: 40px 44px;
-  box-shadow: var(--shadow);
+  box-shadow: 0 4px 24px rgba(26, 26, 26, 0.05);
 }
 
 .reader-head {
   text-align: center;
-  border-bottom: 1px dashed var(--line);
   padding-bottom: 18px;
   margin-bottom: 26px;
 }
@@ -471,6 +459,7 @@ body {
 }
 
 .reader-title {
+  font-family: var(--font-serif);
   font-size: 28px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -483,6 +472,7 @@ body {
 }
 
 .reader-body p {
+  font-family: var(--font-serif);
   margin: 0 0 12px;
   text-align: justify;
   text-indent: 2em;
@@ -495,29 +485,29 @@ body {
   border-radius: 3px;
 }
 @keyframes anchorFlash {
-  0% { background: rgba(255, 230, 0, 0.45); }
+  0% { background: rgba(158, 43, 37, 0.14); }
   100% { background: transparent; }
 }
 
 /* 独立注释层：卷末注（如史記索隱述贊），与正文明显区分 */
 .reader-notes {
   margin-top: 30px;
-  padding: 16px 18px;
-  border: 1px dashed var(--line);
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.025);
-  color: var(--ink-soft);
+  padding: 18px 20px;
+  border-radius: 10px;
+  background: #f5f2ed;
+  color: var(--ink);
 }
 
 .reader-notes-title {
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 1px;
-  color: var(--gold);
+  color: var(--accent);
   margin-bottom: 10px;
 }
 
 .reader-notes p {
+  font-family: var(--font-serif);
   margin: 0 0 10px;
   text-align: justify;
   line-height: 1.9;
@@ -550,13 +540,12 @@ body {
 }
 
 .section-item a:hover {
-  background: #efe7d4;
+  background: #f0ece6;
 }
 
 .section-num {
   font-size: 12px;
-  color: var(--gold);
-  font-family: var(--font-kai);
+  color: var(--ink-soft);
   flex-shrink: 0;
 }
 
@@ -576,23 +565,22 @@ body {
   padding: 10px 12px;
   margin: 0 0 14px;
   background: var(--paper-light);
-  border: 1px solid var(--line);
   border-radius: 8px;
 }
 .rs-group{ display: flex; align-items: center; gap: 6px; }
 .rs-label{ font-size: 12px; color: var(--ink-soft); white-space: nowrap; }
 .rs-btn{
   width: 28px; height: 28px;
-  background: #f4f4f4;
-  border: 1px solid #ddd;
+  background: #f0ece6;
+  border: 1px solid #e5e1da;
   border-radius: 6px;
   cursor: pointer;
   font-size: 13px;
   line-height: 1;
-  color: #333;
+  color: #1a1a1a;
 }
-.rs-btn:hover{ background: #e6e6e6; }
-.rs-val{ font-size: 13px; color: #333; min-width: 22px; text-align: center; }
+.rs-btn:hover{ background: #e4dfd9; }
+.rs-val{ font-size: 13px; color: #1a1a1a; min-width: 22px; text-align: center; }
 /* 阅读页自定义背景铺满阅读区时，设置栏标签 / 页脚文字跟随字色（--rs-fg 仅阅读页设置，顶部导航不受影响） */
 .reading-settings .rs-label,
 .reading-settings .rs-val,
@@ -612,38 +600,19 @@ body {
   align-items: center;
   justify-content: center;
 }
-.scheme-btn:hover{ border-color: #bbb; }
+.scheme-btn:hover{ border-color: #c9c4be; }
 .scheme-btn.active{ border-color: var(--accent); box-shadow: 0 0 0 2px rgba(158, 43, 37, 0.25); }
-.rs-color{ width: 34px; height: 28px; padding: 1px; border: 1px solid #ddd; border-radius: 6px; cursor: pointer; background: #fff; }
-.rs-hex{ width: 76px; padding: 4px 6px; border: 1px solid #ddd; border-radius: 6px; font-size: 12px; color: #333; }
-.rs-rgb{ width: 88px; padding: 4px 6px; border: 1px solid #ddd; border-radius: 6px; font-size: 12px; color: #333; }
+.rs-color{ width: 34px; height: 28px; padding: 1px; border: 1px solid #e5e1da; border-radius: 6px; cursor: pointer; background: #fff; }
+.rs-hex{ width: 76px; padding: 4px 6px; border: 1px solid #e5e1da; border-radius: 6px; font-size: 12px; color: #1a1a1a; }
+.rs-rgb{ width: 88px; padding: 4px 6px; border: 1px solid #e5e1da; border-radius: 6px; font-size: 12px; color: #1a1a1a; }
 
-/* ---------- 羊皮纸材质背景（默认阅读主题，纯 CSS 渐变模拟，无需图片资源） ----------
-   当背景为默认羊皮纸色 #f5ead0 时启用：阅读正文区 / 阅读卡片 / 全局 AI 助手面板共用。
-   注意：JS 只设置 background-color，此纹理通过 background-image 叠加，互不冲突。 */
-body.reading-paper,
-.reader.reading-paper,
-#gai-root.gai-paper #gai-panel {
-  background-image:
-    /* 边缘暗角（更真实） */
-    radial-gradient(ellipse 160% 130% at 50% 50%, transparent 55%, rgba(126, 96, 56, 0.14) 100%),
-    /* 细微纸纤维纹理 */
-    repeating-linear-gradient(0deg, rgba(139, 107, 66, 0.045) 0 1px, transparent 1px 3px),
-    repeating-linear-gradient(90deg, rgba(139, 107, 66, 0.035) 0 1px, transparent 1px 4px),
-    /* 斑驳水渍 */
-    radial-gradient(ellipse 120px 90px at 15% 25%, rgba(176, 140, 92, 0.10), transparent 70%),
-    radial-gradient(ellipse 110px 150px at 82% 18%, rgba(140, 105, 60, 0.08), transparent 70%),
-    radial-gradient(ellipse 160px 110px at 68% 78%, rgba(196, 160, 108, 0.09), transparent 70%),
-    radial-gradient(ellipse 100px 130px at 30% 72%, rgba(120, 90, 50, 0.07), transparent 70%),
-    radial-gradient(ellipse 240px 180px at 50% 110%, rgba(150, 115, 70, 0.10), transparent 75%);
-}
+/* 背景一律纯色，不再使用羊皮纸/纸纤维渐变纹理。 */
 
 /* ---------- 支持作者 ---------- */
 .support {
   margin: 0 0 18px;
   padding: 24px 20px 20px;
   background: var(--paper-light);
-  border: 1px solid var(--line);
   border-radius: 10px;
   text-align: center;
 }
@@ -682,8 +651,7 @@ body.reading-paper,
   color: var(--ink-soft);
 }
 .qr-ph {
-  border: 2px dashed var(--line);
-  background: #fffdf7;
+  background: #f5f2ed;
 }
 .qr-label {
   font-size: 13px;
@@ -702,7 +670,7 @@ body.reading-paper,
 }
 .footer-note {
   color: var(--ink-soft);
-  font-size: 13px;
+  font-size: 12px;
 }
 
 /* ---------- 页脚通用链接（兄弟站点链接） ---------- */
@@ -802,15 +770,12 @@ body.reading-paper,
 }
 .demo-card {
   background: var(--paper-light);
-  border: 1px solid var(--line);
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: var(--shadow);
 }
 .demo-original,
 .demo-trans {
   padding: 22px 28px;
-  border-bottom: 1px dashed var(--line);
 }
 .demo-words {
   padding: 22px 28px;
@@ -824,6 +789,7 @@ body.reading-paper,
   margin: 0 0 10px;
 }
 .demo-original p {
+  font-family: var(--font-serif);
   font-size: 17px;
   line-height: 2.1;
   text-align: justify;
@@ -871,21 +837,19 @@ body.reading-paper,
   gap: 10px;
   padding: 14px 16px;
   background: var(--paper-light);
-  border: 1px solid var(--line);
   border-radius: 8px;
   cursor: pointer;
   font-family: inherit;
   font-size: 15px;
   color: var(--ink);
   text-align: left;
-  transition: background 0.15s ease, border-color 0.15s ease;
+  transition: background 0.15s ease;
 }
 .sample-item:hover {
-  background: #efe7d4;
-  border-color: var(--accent);
+  background: #f5f2ed;
 }
 .sample-no {
-  color: var(--gold);
+  color: var(--ink-soft);
   font-size: 13px;
   flex-shrink: 0;
 }
@@ -905,10 +869,7 @@ body.reading-paper,
   margin: 26px auto 10px;
   padding: 22px 26px 18px;
   background: var(--paper-light);
-  border: 1px solid var(--line);
-  border-left: 5px solid var(--gold);
-  border-radius: 10px;
-  box-shadow: var(--shadow);
+  border-radius: 12px;
 }
 .daily-loading,
 .daily-empty {
@@ -918,7 +879,7 @@ body.reading-paper,
   padding: 6px 0;
 }
 .daily-text {
-  font-family: var(--font-kai);
+  font-family: var(--font-serif);
   font-size: 22px;
   line-height: 1.9;
   text-align: center;
@@ -977,7 +938,6 @@ body.reading-paper,
 .jsz-section {
   margin-top: 48px;
   padding-top: 10px;
-  border-top: 1px dashed var(--line);
 }
 
 .jsz-title {
@@ -1018,21 +978,19 @@ body.reading-paper,
   gap: 6px;
   padding: 20px 20px 16px;
   background: var(--paper-light);
-  border: 1px solid var(--line);
   border-radius: 10px;
   text-decoration: none;
   color: var(--ink);
-  box-shadow: var(--shadow);
-  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .jsz-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 18px rgba(60, 50, 30, 0.14);
-  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(26, 26, 26, 0.06);
 }
 
 .jsz-name {
+  font-family: var(--font-serif);
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 6px;
@@ -1040,9 +998,9 @@ body.reading-paper,
 }
 
 .jsz-author {
-  color: var(--gold);
+  color: var(--ink-soft);
   font-size: 14px;
-  font-family: var(--font-kai);
+  font-family: var(--font-serif);
 }
 
 .jsz-intro {
@@ -1070,8 +1028,7 @@ body.reading-paper,
 }
 
 /* 经史子集 · 四部标签 */
-.cat-shi { background: #e5e8f0; color: #3c5673; }
-.cat-zi  { background: #e7e0ef; color: #5b3d86; }
+.cat-shi, .cat-zi { background: #f0ece6; color: #888888; }
 
 /* ---------- 书库 · 经史子集 独立页（library.html） ---------- */
 .lib-wrap { max-width: 960px; }
@@ -1096,7 +1053,6 @@ body.reading-paper,
   display: flex;
   align-items: baseline;
   gap: 14px;
-  border-bottom: 2px solid var(--gold);
   padding-bottom: 8px;
   margin-bottom: 16px;
 }
@@ -1131,19 +1087,15 @@ body.reading-paper,
   gap: 6px;
   padding: 18px 18px 14px;
   background: var(--paper-light);
-  border: 1px solid var(--line);
-  border-left: 5px solid var(--gold);
   border-radius: 8px;
   text-decoration: none;
   color: var(--ink);
-  box-shadow: var(--shadow);
-  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .lib-book:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 18px rgba(60, 50, 30, 0.14);
-  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(26, 26, 26, 0.06);
 }
 
 .lib-book-head {
@@ -1154,14 +1106,15 @@ body.reading-paper,
 }
 
 .lib-book-name {
+  font-family: var(--font-serif);
   font-size: 22px;
   font-weight: 700;
   letter-spacing: 3px;
 }
 
 .lib-book-author {
-  color: var(--gold);
-  font-family: var(--font-kai);
+  color: var(--ink-soft);
+  font-family: var(--font-serif);
   font-size: 14px;
 }
 
@@ -1198,11 +1151,11 @@ body.reading-paper,
   color: var(--ink-soft);
   font-size: 14px;
   padding: 18px;
-  border: 1px dashed var(--line);
+  background: #f5f2ed;
   border-radius: 8px;
 }
 
-.cat-lib { background: #eee5d2; color: var(--ink-soft); }
+.cat-lib { background: #f0ece6; color: #888888; }
 
 /* ---------- 分类页（/category/*） ---------- */
 .cat-wrap { max-width: 960px; }
@@ -1213,17 +1166,17 @@ body.reading-paper,
 .cat-back:hover { text-decoration: underline; }
 .cat-head {
   display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap;
-  border-bottom: 2px solid var(--gold); padding-bottom: 10px; margin: 14px 0 24px;
+  padding-bottom: 10px; margin: 14px 0 24px;
 }
 .cat-head h1 { font-size: 30px; letter-spacing: 6px; margin: 0; }
 .cat-head .cat-desc { color: var(--ink-soft); font-size: 13px; }
 .cat-empty {
   color: var(--ink-soft); padding: 56px 24px; text-align: center;
-  border: 1px dashed var(--line); border-radius: 10px; font-size: 15px; letter-spacing: 1px;
-  background: var(--paper-light);
+  border-radius: 10px; font-size: 15px; letter-spacing: 1px;
+  background: #f5f2ed;
 }
 .cat-tag.cat-dyn {
-  background: var(--paper-light); border: 1px solid var(--line);
+  background: transparent;
   color: var(--ink-soft); font-size: 11px;
 }
 .lib-part-all {
@@ -1233,22 +1186,22 @@ body.reading-paper,
 .lib-part-all:hover { text-decoration: underline; }
 .lib-sub-block {
   font-size: 15px; color: var(--ink-soft); letter-spacing: 2px;
-  margin: 20px 0 10px; border-left: 3px solid var(--gold); padding-left: 10px;
+  margin: 20px 0 10px;
 }
 
 /* ---------- 全局 AI 助手（global-ai.js） ---------- */
-/* 主题变量默认羊皮纸（#f5ead0 / #3a3226）；global-ai.js 读取阅读页自定义模板
+/* 主题变量默认暖白（#faf8f5 / #1a1a1a）；global-ai.js 读取阅读页自定义模板
    （gjs:reading 的 bg/fg）后覆盖这些变量，全站通用。 */
 #gai-root {
-  --gai-bg: #f5ead0;
-  --gai-fg: #3a3226;
-  --gai-line: rgba(58, 50, 38, 0.3);
-  --gai-msg-bg: #faf3e0;
+  --gai-bg: #ffffff;
+  --gai-fg: #1a1a1a;
+  --gai-line: rgba(26, 26, 26, 0.14);
+  --gai-msg-bg: #faf8f5;
   --gai-bubble-bg: #ffffff;
-  --gai-bubble-fg: #3a3226;
-  --gai-input-bg: rgba(255, 255, 255, 0.85);
-  --gai-ctx-bg: rgba(255, 255, 255, 0.35);
-  --gai-ctx-fg: #6d5320;
+  --gai-bubble-fg: #1a1a1a;
+  --gai-input-bg: #ffffff;
+  --gai-ctx-bg: #f7f4ef;
+  --gai-ctx-fg: #888888;
 }
 
 #gai-fab {
@@ -1355,7 +1308,7 @@ body.reading-paper,
 .gai-tip-text a:hover { text-decoration: underline; }
 .gai-msg { display: flex; flex-direction: column; max-width: 100%; }
 .gai-msg.gai-user { align-items: flex-end; }
-.gai-ai-name { font-size: 11px; color: var(--gold); margin-bottom: 3px; }
+.gai-ai-name { font-size: 11px; color: var(--accent); margin-bottom: 3px; }
 .gai-bubble {
   padding: 8px 12px;
   border-radius: 10px;
@@ -1416,12 +1369,12 @@ body.reading-paper,
 }
 #gai-note:hover { border-color: var(--accent); color: var(--accent); }
 
-/* ---------- 📝 笔记编辑区（仿古黄 #F5F0E6 · 墨字 #3A3226 · 朱砂 #9E2B25） ---------- */
+/* ---------- 📝 笔记编辑区（暖白底 · 墨字 · 朱砂仅用于状态强调） ---------- */
 .gai-note {
   padding: 10px 12px;
-  border-top: 1px solid #9e2b25;
-  background: #f5f0e6;
-  color: #3a3226;
+  border-top: 1px solid var(--line);
+  background: #faf8f5;
+  color: var(--ink);
   font-size: 13px;
 }
 .gai-note[hidden] { display: none; }
@@ -1429,16 +1382,15 @@ body.reading-paper,
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 1px;
-  color: #9e2b25;
+  color: var(--accent);
   margin-bottom: 4px;
 }
-.gai-note-label { font-size: 12px; color: #6b6152; margin: 6px 0 4px; }
+.gai-note-label { font-size: 12px; color: var(--ink-soft); margin: 6px 0 4px; }
 .gai-note-src {
   font-size: 12px;
   line-height: 1.7;
-  color: #6b6152;             /* 略灰 */
-  background: rgba(255, 255, 255, 0.55);
-  border: 1px dashed #c9b896;
+  color: var(--ink-soft);
+  background: #ffffff;
   border-radius: 6px;
   padding: 6px 8px;
   max-height: 88px;
@@ -1452,13 +1404,13 @@ body.reading-paper,
   resize: vertical;
   min-height: 52px;
   max-height: 120px;
-  border: 1px solid #9e2b25;
+  border: 1px solid var(--line);
   border-radius: 6px;
   padding: 6px 8px;
   font-size: 13px;
   font-family: inherit;
-  color: #3a3226;
-  background: #fffaf0;
+  color: var(--ink);
+  background: #ffffff;
   outline: none;
 }
 #gai-note-cmt:focus { box-shadow: 0 0 0 2px rgba(158, 43, 37, 0.18); }
@@ -1515,16 +1467,14 @@ body.reading-paper,
 .settings-sub, .guide-sub { text-align: center; color: var(--ink-soft); font-size: 14px; margin: 0 0 26px; }
 .settings-card, .guide-card {
   background: var(--paper-light);
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  padding: 20px 22px;
+  border-radius: 12px;
+  padding: 22px 24px;
   margin-bottom: 18px;
-  box-shadow: var(--shadow);
 }
 .settings-card h2, .guide-card h2 { font-size: 18px; margin: 0 0 10px; }
 .settings-tip { color: var(--ink-soft); font-size: 14px; line-height: 1.9; margin: 0 0 14px; }
 .settings-tip a, .guide-card a { color: var(--accent); }
-.settings-tip code, .guide-card code { background: #efe7d4; padding: 1px 6px; border-radius: 4px; }
+.settings-tip code, .guide-card code { background: #f0ece6; padding: 1px 6px; border-radius: 4px; }
 .settings-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
 .settings-input {
   flex: 1;
@@ -1559,14 +1509,12 @@ body.reading-paper,
   bottom: 150px;
   transform: translate(-50%, 8px);
   width: min(440px, 84vw);
-  background: #fffdf7;
-  color: #3a3226;
-  border: 1px solid #d8cfba;
-  border-left: 4px solid #9E2B25;
-  border-radius: 10px;
-  padding: 10px 14px;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, .16);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #ffffff;
+  color: var(--ink);
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: 0 12px 32px rgba(26, 26, 26, 0.18);
+  font-family: var(--font-sans);
   font-size: 14px;
   line-height: 1.7;
   z-index: 15000;
@@ -1576,10 +1524,10 @@ body.reading-paper,
 }
 .ann-pop.show { opacity: 1; pointer-events: auto; transform: translate(-50%, 0); }
 .ann-pop-head { display: flex; align-items: baseline; gap: 10px; }
-.ann-pop-head b { font-size: 20px; color: #7d1f1a; }
-.ann-pop-py { color: #b48a3c; font-size: 13px; }
-.ann-pop-lang { margin-left: auto; font-size: 11px; color: #6b6152; }
-.ann-pop-body { margin-top: 6px; font-size: 14px; }
+.ann-pop-head b { font-family: var(--font-serif); font-size: 20px; color: var(--ink); }
+.ann-pop-py { color: var(--ink-soft); font-size: 12px; }
+.ann-pop-lang { margin-left: auto; font-size: 12px; color: var(--ink-soft); }
+.ann-pop-body { margin-top: 6px; font-size: 14px; line-height: 1.5; }
 .ann-pop-tag {
   display: inline-block;
   margin-top: 8px;

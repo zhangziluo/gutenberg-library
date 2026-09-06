@@ -350,7 +350,7 @@ const POS_PREFIX = 'gjs:pos:';
   const READING_KEY = 'gjs:reading';
   const readerArticle = document.querySelector('.reader');
 
-  let reading = { fontSize: 17, bg: '#f5ead0', fg: '#3a3226' };
+  let reading = { fontSize: 17, bg: '#faf8f5', fg: '#1a1a1a' };
 
   function hexToRgbArr(hex) {
     const m = String(hex).replace('#', '').match(/^([0-9a-f]{2})([0-9a-f]{2})([0-9a-f]{2})$/i);
@@ -366,17 +366,12 @@ const POS_PREFIX = 'gjs:pos:';
 
   function applyReading() {
     const curBody = document.getElementById('reader-body');
-    // 羊皮纸材质：仅默认羊皮纸色 #f5ead0 启用纹理，自定义色保持纯色
-    const paper = reading.bg.toLowerCase() === '#f5ead0';
-    // 自定义背景铺满整个阅读区（顶部导航栏以下）：header 为不透明渐变保持不变，
-    // body 仅设 background-color，让 .reading-paper 的纹理渐变可叠加显示
+    // 背景一律纯色，不叠加羊皮纸纹理（视觉规范：纯暖白或用户自定义色）
     document.body.style.backgroundColor = reading.bg;
-    document.body.classList.toggle('reading-paper', paper);
     // 设置栏标签 / 页脚文字跟随字色，避免深色背景下看不清（顶部导航不受影响）
     document.body.style.setProperty('--rs-fg', reading.fg);
     if (readerArticle && curBody) {
       readerArticle.style.backgroundColor = reading.bg;
-      readerArticle.classList.toggle('reading-paper', paper);
       readerArticle.style.color = reading.fg;
       const rgb = hexToRgbArr(reading.fg);
       readerArticle.style.borderColor = 'rgba(' + rgb.join(',') + ', 0.3)';
@@ -402,8 +397,13 @@ const POS_PREFIX = 'gjs:pos:';
   try {
     const saved = JSON.parse(localStorage.getItem(READING_KEY) || '{}');
     if (typeof saved.fontSize === 'number') reading.fontSize = Math.max(12, Math.min(40, saved.fontSize));
-    if (saved.bg && /^#[0-9a-fA-F]{6}$/.test(saved.bg)) reading.bg = saved.bg;
-    if (saved.fg && /^#[0-9a-fA-F]{6}$/.test(saved.fg)) reading.fg = saved.fg;
+    if (saved.bg && /^#[0-9a-fA-F]{6}$/.test(saved.bg)) {
+      // 旧版「羊皮纸 #f5ead0」→ 新暖白 #faf8f5（视觉统一迁移）
+      reading.bg = (saved.bg.toLowerCase() === '#f5ead0') ? '#faf8f5' : saved.bg;
+    }
+    if (saved.fg && /^#[0-9a-fA-F]{6}$/.test(saved.fg)) {
+      reading.fg = (saved.fg.toLowerCase() === '#3a3226') ? '#1a1a1a' : saved.fg;
+    }
   } catch (e) {}
   applyReading();
 

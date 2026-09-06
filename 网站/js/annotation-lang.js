@@ -63,12 +63,12 @@
     var css = '' +
       '.reader-lang-wrap{display:inline-flex;align-items:center;margin:0 2px;}' +
       '.ann-lang{display:inline-flex;align-items:center;gap:2px;padding:2px;' +
-      '  background:rgba(255,255,255,.55);border:1px solid var(--line,#d8cfba);border-radius:999px;' +
+      '  background:rgba(255,255,255,.55);border:1px solid var(--line,#e9e5df);border-radius:999px;' +
       '  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;' +
       '  font-size:12px;line-height:1;vertical-align:middle;' +
       '  box-shadow:0 1px 3px rgba(0,0,0,.06);}' +
-      '.ann-lang .ann-lang-cap{font-size:11px;color:#6b6152;padding:0 4px 0 2px;letter-spacing:.5px;}' +
-      '.ann-lang button{border:1px solid transparent;background:transparent;color:#3a3226;' +
+      '.ann-lang .ann-lang-cap{font-size:11px;color:#888888;padding:0 4px 0 2px;letter-spacing:.5px;}' +
+      '.ann-lang button{border:1px solid transparent;background:transparent;color:#1a1a1a;' +
       '  padding:4px 8px;border-radius:999px;cursor:pointer;font:inherit;transition:background .18s,color .18s;}' +
       '.ann-lang button:hover{background:rgba(158,43,37,.08);}' +
       '.ann-lang button.active{background:#9E2B25;color:#fff;}' +
