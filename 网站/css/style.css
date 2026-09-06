@@ -272,62 +272,6 @@ body {
 .cat-wei { background: #f0e2d2; color: #8a4a20; }
 .cat-wu  { background: #e0e9f0; color: #2d4d7a; }
 
-/* ---------- AI 阅读器入口 ---------- */
-.ai-entry {
-  margin: 30px 0 10px;
-  text-align: center;
-}
-
-.btn-ai {
-  display: inline-block;
-  padding: 12px 30px;
-  font-size: 17px;
-  letter-spacing: 1px;
-  color: #fff;
-  background: var(--accent);
-  border: 1px solid var(--accent);
-  border-radius: 30px;
-  box-shadow: 0 3px 10px rgba(158, 43, 37, 0.28);
-  transition: background 0.15s ease, transform 0.15s ease;
-}
-
-.btn-ai:hover {
-  background: var(--accent-dark);
-  color: #fff;
-  transform: translateY(-1px);
-}
-
-/* 深度学习悬浮按钮（右下角固定，滚动不消失） */
-.btn-ai-mode {
-  position: fixed;
-  right: 24px;
-  bottom: 28px;
-  z-index: 999;
-  padding: 14px 30px;
-  font-size: 17px;
-  letter-spacing: 1px;
-  border-radius: 34px;
-  color: #fff;
-  background: #16a085;
-  border-color: #16a085;
-  box-shadow: 0 4px 14px rgba(22, 160, 133, 0.35);
-}
-
-.btn-ai-mode:hover {
-  background: #12806a;
-  color: #fff;
-  transform: translateY(-1px);
-}
-
-@media (max-width: 560px) {
-  .btn-ai-mode {
-    right: 16px;
-    bottom: 18px;
-    padding: 12px 22px;
-    font-size: 15px;
-  }
-}
-
 /* ---------- 提示条 ---------- */
 .notice {
   padding: 22px;
@@ -623,7 +567,7 @@ body {
   margin-left: 2px;
 }
 
-/* ---------- 阅读设置：字体 / 配色 / 背景字色（与 AI 阅读器共用） ---------- */
+/* ---------- 阅读设置：字体 / 配色 / 背景字色（全局 AI 助手主题同步） ---------- */
 .reading-settings{
   display: flex;
   flex-wrap: wrap;

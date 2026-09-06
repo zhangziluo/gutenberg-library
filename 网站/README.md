@@ -7,12 +7,9 @@
 
 | 页面 | 地址 | 说明 |
 |------|------|------|
-| 书架 | `index.html` | 三本书入口 + AI 古文阅读器入口 |
+| 首页 | `index.html` | 每日一句、经史子集分类入口、今日一卦 |
 | 书目 | `book.html?book=史記` | 按分类分组的篇目列表，支持搜索 |
 | 阅读 | `reader.html?book=史記&index=3` | 正文阅读，上一篇/下一篇、字号调节、进度记忆 |
-| AI 阅读器 | `/reader/shiji_reader.html` | AI 古文阅读器（`public/reader/`，见下） |
-
-> **`/reader/` 路径说明**：AI 阅读器实际位于 `public/reader/`。本地运行时，项目根目录的 `reader` 软链接将其映射为 `/reader/`，与部署到 Astro（`public/` → 根路径）或 Vercel 后的地址一致。
 
 ## 如何运行
 
@@ -41,18 +38,17 @@ python3 export_json.py
 
 ```
 古登堡—在线阅读网站项目/
-├── reader -> 网站/public/reader   软链接（本地把 AI 阅读器映射为 /reader/）
 └── 网站/
-    ├── index.html          书架
+    ├── index.html          首页（每日一句 + 五部分类入口）
     ├── book.html           书目（按分类分组 + 搜索）
     ├── reader.html         阅读器（上一篇/下一篇、字号、进度记忆）
+    ├── ai-settings.html    AI 设置（全局 AI 助手 API Key）
+    ├── ai-guide.html       AI 新手指南
     ├── css/style.css       样式
     ├── js/
     │   ├── common.js       公共：数据加载、排序、工具函数
-    │   ├── index.js        书架逻辑
     │   ├── book.js         书目逻辑
     │   └── reader.js       阅读逻辑
-    ├── public/reader/      AI 古文阅读器（Vercel 可部署，详见其 README.deploy.md）
     └── 启动站点.command     一键启动脚本（macOS）
 ```
 

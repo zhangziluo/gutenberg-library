@@ -16,5 +16,4 @@
 ## 其它关键模式
 - **注释三语释义**：annotation 条目 = `word/pinyin/zh_cn/zh_tw/en/note/multi/rare`；释义来源「人工精编 override > 新华字典自动 > CC-CEDICT 英文」，生成见 `fill_glosses.py`。
 - **三档阅读模式**：新手/进阶/专家 = 字号 + 注释密度；档位存 localStorage(`annLevel`)，前端按 `rare/multi` 过滤。
-- **AI 阅读器路径**：线上 `/reader/*` → 200 重写至 `public/reader/*`；本地走项目根 `reader` 软链接。
-- **构建双布局**：`网站` 根目录（Cloudflare 直出）与 `dist`（build.sh 产出）两套并存，路径类改动需同时兼容（如 `_redirects` 的 /reader 重写只在网站布局需要）。
+- **构建双布局**：`网站` 根目录（Cloudflare 直出）与 `dist`（build.sh 产出）两套并存，路径类改动需同时兼容。

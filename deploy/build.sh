@@ -2,7 +2,7 @@
 # ============================================================
 # 一堆古书 · Cloudflare Pages 构建脚本
 # 将仓库整理为可直接托管的 dist/：
-#   主站(网站/) + 站点数据(文本/_site_data/) + AI 阅读器(/reader/) + Functions(/api/*)
+#   主站(网站/) + 站点数据(网站/_site_data/)
 # Cloudflare 设置：构建命令 `bash deploy/build.sh`，输出目录 `dist`
 # ============================================================
 set -euo pipefail
@@ -34,28 +34,15 @@ python3 "$ROOT/文本/新书/slim_books_index.py" "$DIST/_site_data"
 echo "==> 复制图片资源"
 cp -R "$ROOT/网站/assets" "$DIST/assets"
 
-# 3. AI 阅读器 → /reader/（复制真实文件，不依赖软链接）
-echo "==> 复制 AI 阅读器"
-cp -R "$ROOT/网站/public/reader" "$DIST/reader"
-rm -rf "$DIST/reader/functions"    # functions 单独放到项目根（见下），阅读器目录内不含 functions
-
-# 4. Cloudflare Pages Functions（/api/* 路由）
-#    wrangler 直接上传时，/functions 必须位于项目根目录（不能放在 dist 静态目录内）
-echo "==> 复制 Functions 到项目根 functions/（供 wrangler 收集）"
-rm -rf "$ROOT/functions"
-cp -R "$ROOT/网站/public/reader/functions" "$ROOT/functions"
-
-# 5. Cloudflare 辅助文件（_headers / _redirects，如有则带上）
+# 3. Cloudflare 辅助文件（_headers / _redirects，如有则带上）
 if [ -f "$ROOT/网站/_headers" ]; then
   cp "$ROOT/网站/_headers" "$DIST/_headers"
 fi
 if [ -f "$ROOT/网站/_redirects" ]; then
-  # dist 布局中 /reader/ 是真实目录（public/reader → dist/reader），
-  # 故剔除「网站根目录」部署专用的一条 /reader/* 重写，避免自相冲突。
-  grep -v '/reader/' "$ROOT/网站/_redirects" > "$DIST/_redirects" || true
+  cp "$ROOT/网站/_redirects" "$DIST/_redirects"
 fi
 
-# 6. 句子池（今日一句：library/sentences/*.json + sentence-manifest.json）
+# 4. 句子池（今日一句：library/sentences/*.json + sentence-manifest.json）
 echo "==> 复制句子池"
 cp -R "$ROOT/网站/library" "$DIST/library"
 

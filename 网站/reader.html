@@ -23,7 +23,7 @@
         <a class="tagline-link" href="library.html" title="书库 · 经史子集">书库</a>
         <a class="tagline-link" href="ai-settings.html" title="AI 设置 · 配置 API Key">AI 设置</a>
         <a class="tagline-link" href="ai-guide.html" title="AI 新手指南">AI 指南</a>
-        <a class="tagline-link" href="writing/" title="作者手记 · 原创小说">作者手记</a>
+        <a class="tagline-link" href="writing/" title="网站日志">网站日志</a>
       </div>
     </div>
   </header>
@@ -38,7 +38,7 @@
       </div>
     </div>
 
-    <!-- 阅读设置：字体 / 配色 / 背景与字色自定义（与 AI 阅读器共用 gjs:reading） -->
+    <!-- 阅读设置：字体 / 配色 / 背景与字色自定义（全局 AI 助手主题同步用 gjs:reading） -->
     <div class="reading-settings">
       <div class="rs-group">
         <span class="rs-label">字体</span>
@@ -91,57 +91,10 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-note">文本来源：Project Gutenberg，依据 Project Gutenberg License 自由分发 · 内容仅供学习研究使用</div>
-      <div class="footer-links"><a href="https://ics-editor.zhang409543901.workers.dev/" target="_blank" rel="noopener">日程编辑与提醒器</a></div>
+      <div class="footer-links"><a href="mailto:409543901@qq.com">联系</a><a href="https://mydream-4y4.pages.dev/" target="_blank" rel="noopener">站长的创作站点</a><a href="https://ics-editor.zhang409543901.workers.dev/" target="_blank" rel="noopener">日程编辑与提醒器</a></div>
       <div class="footer-donate"><a href="sponsor.html">赞助</a></div>
     </div>
   </footer>
-
-  <!-- 深度学习悬浮按钮（右下角固定，滚动不消失；内联样式+onclick 保证不受缓存影响） -->
-  <button class="btn btn-ai-mode" id="ai-mode-btn" onclick="goAIMode()"
-          style="position:fixed;right:24px;bottom:28px;z-index:999;"
-          title="在 AI 阅读器中深度学习本篇（保留当前阅读位置）">🤖 深度学习</button>
-
-  <script>
-  // 深度学习：跳转 AI 阅读器并保留当前阅读位置
-  // 内联定义，不依赖外部 JS 加载状态/缓存；正文与锚点直接从当前 DOM 提取
-  function goAIMode() {
-    var titleEl = document.querySelector('.reader-title');
-    var headerBook = document.getElementById('header-book');
-    // 简繁转换只影响显示/复制/下载；送入 AI 的始终是原文（用户可在 AI 对话中自行决定）
-    var orig = window.__readerOriginal || null;
-    var parasEl = Array.prototype.slice.call(document.querySelectorAll('#reader-body p'));
-    var title = (orig && orig.title) ? orig.title : (titleEl ? titleEl.textContent.trim() : '古文篇目');
-    var parasArr = (orig && orig.paras && orig.paras.length) ? orig.paras
-      : parasEl.map(function (p) { return p.textContent; });
-    var text = parasArr.join('\n\n');
-
-    var anchor = '';
-    if (parasArr.length) {
-      var vh = window.innerHeight || 800;
-      var bestIdx = 0, bestDist = Infinity;
-      parasEl.forEach(function (p, i) {
-        var r = p.getBoundingClientRect();
-        if (r.bottom < 0 || r.top > vh) return;
-        var dist = Math.abs(r.top + r.height / 2 - vh * 0.4);
-        if (dist < bestDist) { bestDist = dist; bestIdx = i; }
-      });
-      anchor = parasArr[bestIdx] ? parasArr[bestIdx].trim() : '';
-    }
-
-    try {
-      sessionStorage.setItem('lib_selected', JSON.stringify({
-        title: title,
-        text: text,
-        source: headerBook ? headerBook.textContent.replace(/[《》]/g, '') : '一堆古书',
-        pos: anchor || ''
-      }));
-    } catch (e) { /* 隐私模式等异常忽略 */ }
-
-    // 统一跳转路径：与首页 AI 阅读器入口一致（部署后 AI 阅读器位于 /reader/ 下，
-    // 相对路径 public/reader/... 在 Cloudflare 上会 404，必须用绝对路径）
-    window.location.href = '/reader/shiji_reader.html';
-  }
-  </script>
 
   <script src="js/common.js"></script>
   <script src="js/reader.js"></script>

@@ -2,7 +2,7 @@
    一堆古书 · 全局 AI 助手（全站浮动）
    - 通用问答 / 翻译 / 书籍推荐（DeepSeek，用户自填 Key）
    - 章节阅读页自动携带 当前章节标题 + 作者 + 书名 作为上下文
-   - Key 复用 AI 阅读器存储键 guoxue_api_key（仅存浏览器本地）
+   - Key 存储键 guoxue_api_key（仅存浏览器本地）
    引入：<script src="js/global-ai.js"></script>（放在 </body> 前）
    ============================================================ */
 (function () {
@@ -11,7 +11,7 @@
   var KEY_STORAGE = 'guoxue_api_key';
   var API_URL = 'https://api.deepseek.com/v1/chat/completions';
   var MODEL = 'deepseek-chat';
-  var READING_KEY = 'gjs:reading';  // 阅读页自定义模板键（与阅读页 / AI 阅读器共用）
+  var READING_KEY = 'gjs:reading';  // 阅读页自定义模板键（与阅读页共用）
   var PAPER_BG = '#f5ead0';         // 默认羊皮纸底色
   var PAPER_FG = '#3a3226';         // 默认墨色文字
 

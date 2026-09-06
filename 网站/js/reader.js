@@ -219,9 +219,6 @@ const POS_PREFIX = 'gjs:pos:';
       <div class="reader-body" id="reader-body">${paras}</div>
       ${notesHtml}`;
 
-    // 供 goAIMode 使用：始终送原文（简繁转换不影响 AI 对话）
-    window.__readerOriginal = { title: sec.title, paras: origParas };
-
     // 同步简繁按钮高亮
     document.querySelectorAll('.textmode-btn').forEach(b => {
       b.classList.toggle('active', b.dataset.mode === textMode);
@@ -349,7 +346,7 @@ const POS_PREFIX = 'gjs:pos:';
     nextBtn.style.pointerEvents = 'none';
   }
 
-  // ---- 阅读设置：字体 / 配色 / 背景字色（与 AI 阅读器共用 gjs:reading） ----
+  // ---- 阅读设置：字体 / 配色 / 背景字色（gjs:reading） ----
   const READING_KEY = 'gjs:reading';
   const readerArticle = document.querySelector('.reader');
 
@@ -401,7 +398,7 @@ const POS_PREFIX = 'gjs:pos:';
     if (window.GAI && window.GAI.theme) window.GAI.theme();
   }
 
-  // 恢复上次设置（与 AI 阅读器共用，跨页同步）
+  // 恢复上次设置（与全局 AI 助手主题跨页同步）
   try {
     const saved = JSON.parse(localStorage.getItem(READING_KEY) || '{}');
     if (typeof saved.fontSize === 'number') reading.fontSize = Math.max(12, Math.min(40, saved.fontSize));
@@ -482,8 +479,6 @@ const POS_PREFIX = 'gjs:pos:';
       alert('复制失败：' + e.message);
     }
   });
-
-  // （AI 阅读模式已由 reader.html 内联 goAIMode() + onclick 处理，此处不再重复绑定）
 
   window.scrollTo(0, 0);
 })();

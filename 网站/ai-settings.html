@@ -21,20 +21,20 @@
         <span class="tagline">AI 设置</span>
         <a class="tagline-link" href="library.html" title="书库 · 经史子集">书库</a>
         <a class="tagline-link" href="ai-guide.html" title="AI 新手指南">AI 指南</a>
-        <a class="tagline-link" href="writing/" title="作者手记 · 原创小说">作者手记</a>
+        <a class="tagline-link" href="writing/" title="网站日志">网站日志</a>
       </div>
     </div>
   </header>
 
   <main class="container settings-wrap">
     <h1 class="settings-title">⚙ AI 设置</h1>
-    <p class="settings-sub">全局 AI 助手与章节 AI 学习模式共用同一把 Key</p>
+    <p class="settings-sub">全局 AI 助手使用的 Key 仅保存在你的本地浏览器</p>
 
     <section class="settings-card">
       <h2>DeepSeek API Key</h2>
       <p class="settings-tip">
         1. 到 <a href="https://platform.deepseek.com/" target="_blank" rel="noopener">platform.deepseek.com</a> 注册并创建 API Key（格式 <code>sk-…</code>）。<br>
-        2. 粘贴到下面并保存，即可在全站使用 AI 助手（问答 / 翻译 / 书籍推荐）与章节 AI 学习模式。
+        2. 粘贴到下面并保存，即可在全站使用 AI 助手（问答 / 翻译 / 书籍推荐）。
       </p>
       <div class="settings-row">
         <input type="password" id="apiKey" class="settings-input" placeholder="sk-...（仅保存在你的浏览器本地）" autocomplete="off">
@@ -51,8 +51,8 @@
       <h2>隐私与安全</h2>
       <ul class="settings-list">
         <li><b>Key 只保存在你本机浏览器</b>（localStorage），不上传本站服务器，也不写入任何云端存储。</li>
-        <li>全局 AI 助手使用你的 Key <b>直连 DeepSeek 官方接口</b>；AI 阅读器也可选「站长提供」的免费代理（无需 Key，但限速、限字数）。</li>
-        <li>请勿在公共电脑上保存 Key；如需换用其他服务商（OpenAI、Qwen、Kimi、GLM、豆包、自定义端点），请到 AI 阅读器的设置侧栏切换。</li>
+        <li>全局 AI 助手使用你的 Key <b>直连 DeepSeek 官方接口</b>（请求不经本站服务器）。</li>
+        <li>请勿在公共电脑上保存 Key。</li>
         <li>所有 AI 请求都会消耗你自己的 DeepSeek 额度，请留意用量。</li>
       </ul>
     </section>
@@ -66,7 +66,7 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-note">文本来源：Project Gutenberg，依据 Project Gutenberg License 自由分发 · 内容仅供学习研究使用</div>
-      <div class="footer-links"><a href="https://ics-editor.zhang409543901.workers.dev/" target="_blank" rel="noopener">日程编辑与提醒器</a></div>
+      <div class="footer-links"><a href="mailto:409543901@qq.com">联系</a><a href="https://mydream-4y4.pages.dev/" target="_blank" rel="noopener">站长的创作站点</a><a href="https://ics-editor.zhang409543901.workers.dev/" target="_blank" rel="noopener">日程编辑与提醒器</a></div>
       <div class="footer-donate"><a href="sponsor.html">赞助</a></div>
     </div>
   </footer>
@@ -99,7 +99,7 @@
     try { localStorage.setItem(KEY_STORAGE, v); } catch (e) { setStatus('保存失败（浏览器可能禁用了本地存储）。', false); return; }
     input.dataset.masked = '1';
     input.value = v.length > 12 ? v.slice(0, 6) + '••••••••' + v.slice(-4) : v;
-    setStatus('✅ Key 已保存到本地浏览器。现在可以打开右下角「🤖 AI 助手」提问，或在章节页使用 AI 学习模式。', true);
+    setStatus('✅ Key 已保存到本地浏览器。现在可以打开右下角「🤖 AI 助手」提问了。', true);
   });
 
   document.getElementById('clearKey').addEventListener('click', function () {
