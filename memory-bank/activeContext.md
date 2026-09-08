@@ -1,6 +1,22 @@
 # Active Context（当前状态与下一步）
 
 ## 当前（进行中）
+- ✅ **第七批古登堡中文书批量入库（10 本，2026-09-08）**：书库 50 → **60 本**。
+  - 入库书目：隋唐演義#23835（褚人穫，100回，源文简体）、論語#23839（20篇）、滬語開路#62791（1915 沪语会话读本，跳封面+英文引言自 Exercise 1. 起）、白圭志#27023（16回）、孟子字義疏證#25360（戴震，序+卷上中下）、安樂集#24106（道綽，卷上下；文件开头别书残文已剔除，卷名页眉去重）、鄧析子#7215（無厚/轉辭 2 篇）、醉醒石#24027（15回）、唐鍾馗平鬼傳#27329（16回）、春秋繁露#25385（董仲舒，79 实篇+3 闕，跳过卷首目录）。
+  - 新增子类：歷史演義/四書/名家/春秋；滬語開路归近現代文學·語言讀本。
+  - `gutenberg_import.py` 新增切分器：`split_lunyu`（論語 篇名第X）、`split_juan_sc`（卷上/中/下，去页眉重复、剔除/剥离【全書…頁】【Ewell…頁】页码标记）、`split_fanlu`（春秋繁露缩进篇题 82 篇）；EBOOK_ID/BOOKS/DYN/DESC/reader_label/SPLITTERS 扩充。
+  - `fill_glosses.py` 已重跑；`data/books/`、`library-index.json`、`网站/_site_data/`、`books.json`、`books-data.json`、`dist/`（build.sh 重建）均已更新。
+- ✅ **第六批古登堡中文书批量入库（10 本，2026-09-08）**：书库 40 → **50 本**。
+  - 入库书目：飛跎全傳#27331（序+32回）、佛說四十二章經#23585（首本佛经，單章）、洛神賦#24041（曹植，單章）、晁氏儒言#43014（晁說之，單章）、水滸後傳#25217（40回）、幼學瓊林#52269（33篇/蒙學）、治世餘聞#26932（8卷，库内首本史部书）、琵琶記#25246（高明，42出）、雪月梅傳#26739（自序+50回）、龍川詞#26873（陳亮，單章）。
+  - 新增分类子类：釋家/儒家/雜史/戲曲/賦/詞；治世餘聞入史部、幼學瓊林入經部·蒙學、琵琶記入集部·戲曲。
+  - `gutenberg_import.py` 新增切分器：`split_chu`（琵琶記第X出）、`split_juan_num`（治世餘聞第X卷）、`split_yxql`（幼學瓊林按 33 篇名；原文本用「叔侄/女子」而非「叔姪/婦女」）；EBOOK_ID/BOOKS/DYN/DESC/reader_label/SPLITTERS 扩充。
+  - `fill_glosses.py` 已重跑：wordbank 5804 词条；全库回填 zh 50666 / zh_tw 50666 / en 54997。
+  - `data/books/`、`library-index.json`、`网站/_site_data/`、`books.json`、`books-data.json`、`dist/`（build.sh 重建）均已更新。
+- ✅ **第五批古登堡中文书批量入库（8 本，2026-09-08）**：书库 32 → **40 本**。
+  - 入库书目：天豹圖#26904（41章）、梁公九諫#26886（序+九諫）、長恨歌#25352（白居易，库内首本集部书）、李娃傳#24051（白行簡）、玉樓春#25422、引鳳蕭#26921、今古奇觀#24230（80 卷，此古登堡足本卷一连八十）、後西遊記#27332（Book 2，正文自第二十二回起，至第四十回止）。
+  - `gutenberg_import.py` 新增：`split_jian`（梁公九諫「第X諫」）、`split_juans`（今古奇觀「第X卷」）、`drop_until_heading`（书名/作者行截断至「序」标题）、`normalize_fe_punct`（李娃傳 FE5x 小型标点归全角）；EBOOK_ID/BOOKS/DYN/DESC/reader_label/SPLITTERS 均已扩充。
+  - `fill_glosses.py` 已重跑：wordbank 5614 词条；全库回填 zh 41850 / zh_tw 41850 / en 45393；新书简体释义覆盖率约 80–95%（李娃傳 汧 等极生僻字无新华字典条目，仅有 CEDICT 英文）。
+  - `data/books/`、`library-index.json`、`网站/_site_data/`、`books.json`、`books-data.json`、`dist/`（build.sh 重建）均已更新。
 - ✅ **全站页脚新增兄弟站点链接「日程编辑与提醒器」→ `https://ics-editor.zhang409543901.workers.dev/`**：
   - 覆盖 15 个带页脚的页面（首页/书页/阅读/文库/链接/赞助/AI 指南/AI 设置/分类×5/写作×2）；首页追加进既有 `.footer-links`，其余页在 `.footer-note` 与 `.footer-donate` 之间新建一行 `.footer-links`。
   - `css/style.css` 新增 `.footer-links` 通用样式（13px、ink-soft、hover 主题色）；`dist/` 已由 `deploy/build.sh` 重建、与 `网站/` 逐字节一致。

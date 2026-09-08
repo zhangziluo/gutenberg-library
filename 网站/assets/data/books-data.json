@@ -1,6 +1,6 @@
 {
   "title": "一堆古书 · 统一分类数据源",
-  "updated": "2026-09-02",
+  "updated": "2026-09-08",
   "categories": {
     "jing": "經部：儒家經典及歷代注疏（如《論語》《詩經》《易經》等）",
     "shi": "史部：各類史書（如《史記》《資治通鑒》等）",
@@ -62,6 +62,61 @@
       "dynasty": "西周至春秋",
       "description": "中國最早的詩歌總集，收西周初年至春秋中葉詩歌三百零五篇，分風、雅、頌，儒家「五經」之一。",
       "sections": 305,
+      "cover": ""
+    },
+    {
+      "id": "youxue-qionglin",
+      "title": "幼學瓊林",
+      "author": "程允升",
+      "category": "jing",
+      "subcategory": "",
+      "dynasty": "明末清初",
+      "description": "明清蒙學百科讀物：天文地輿、人事科第、鳥獸花木無所不包，駢文四字朗朗上口，昔日蒙童必讀。",
+      "sections": 33,
+      "cover": ""
+    },
+    {
+      "id": "lunyu",
+      "title": "論語",
+      "author": "孔子",
+      "category": "jing",
+      "subcategory": "",
+      "dynasty": "春秋",
+      "description": "儒家核心經典：孔子與弟子及時人問答之語錄，凡二十篇，宋儒列為「四書」之首。",
+      "sections": 20,
+      "cover": ""
+    },
+    {
+      "id": "mengzi-ziyi-shuzheng",
+      "title": "孟子字義疏證",
+      "author": "戴震",
+      "category": "jing",
+      "subcategory": "",
+      "dynasty": "清（乾隆年間）",
+      "description": "清戴震訓詁名篇：就理、天道、性、才、道、仁義禮智等字疏證《孟子》，力闢宋儒理學之非。",
+      "sections": 4,
+      "cover": ""
+    },
+    {
+      "id": "chunqiu-fanlu",
+      "title": "春秋繁露",
+      "author": "董仲舒",
+      "category": "jing",
+      "subcategory": "",
+      "dynasty": "西漢",
+      "description": "西漢董仲舒經學哲學著作：以陰陽五行推演《春秋》大義，暢發天人感應、君權神授之說。",
+      "sections": 79,
+      "cover": ""
+    },
+    {
+      "id": "zhishi-yuwen",
+      "title": "治世餘聞",
+      "author": "陳洪謨",
+      "category": "shi",
+      "subcategory": "",
+      "dynasty": "明",
+      "description": "明陳洪謨筆記：記弘治一朝朝章國故與宮闈舊聞，多可補正史之闕。",
+      "sections": 8,
       "cover": ""
     },
     {
@@ -197,6 +252,248 @@
       "cover": ""
     },
     {
+      "id": "tianbao-tu",
+      "title": "天豹圖",
+      "author": "佚名",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清",
+      "description": "清代英雄傳奇小說：李榮春仗義疏財、施碧霞賣身葬母，眾豪傑除奸扶正、終保忠良的故事。",
+      "sections": 41,
+      "cover": ""
+    },
+    {
+      "id": "lianggong-jiujian",
+      "title": "梁公九諫",
+      "author": "佚名",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "宋",
+      "description": "宋人話本：演梁公狄仁傑九次力諫武則天、力保廬陵王復位，忠肝義膽、直言極諫。",
+      "sections": 10,
+      "cover": ""
+    },
+    {
+      "id": "liwa-zhuan",
+      "title": "李娃傳",
+      "author": "白行簡",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "唐",
+      "description": "唐傳奇名篇，白行簡作：滎陽公子與長安名妓李娃悲歡離合、終諧伉儷，曲盡世情。",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "yulou-chun",
+      "title": "玉樓春",
+      "author": "白雲道人",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清",
+      "description": "清代才子佳人小說：邵卞嘉父子為奸相盧杞所構陷，歷盡離亂，終得團圓昭雪。",
+      "sections": 24,
+      "cover": ""
+    },
+    {
+      "id": "yinfeng-xiao",
+      "title": "引鳳蕭",
+      "author": "半雲友",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清",
+      "description": "清代才子佳人小說：白眉仙才華絕艷而淡泊功名，於新政風波、家國離亂中守志不移。",
+      "sections": 16,
+      "cover": ""
+    },
+    {
+      "id": "jingu-qiguan",
+      "title": "今古奇觀",
+      "author": "抱甕老人",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "明末",
+      "description": "明代話本小說選集，抱甕老人輯，收話本四十篇，市井百態、勸懲勸善，膾炙人口。",
+      "sections": 80,
+      "cover": ""
+    },
+    {
+      "id": "hou-xiyouji",
+      "title": "後西遊記",
+      "author": "佚名",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "明末清初",
+      "description": "《西遊記》續書：唐半偈、小行者、豬一戒、沙彌師徒四人西天求解，嬉笑怒罵、別開生面。",
+      "sections": 19,
+      "cover": ""
+    },
+    {
+      "id": "feituo-quanzhuan",
+      "title": "飛跎全傳",
+      "author": "鄒必顯",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清（嘉慶）",
+      "description": "清代神怪諷世小說：敘「跎子」石信出世、進寶封王，滿紙諧謔市語，嬉笑怒罵。",
+      "sections": 33,
+      "cover": ""
+    },
+    {
+      "id": "foshuo-sishierzhang-jing",
+      "title": "佛說四十二章經",
+      "author": "佚名",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "東漢",
+      "description": "東漢迦葉摩騰、竺法蘭所譯、現存最早漢傳佛經之一：收佛言四十二章，明心見性、斷欲去愛。",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "chaoshi-ruyan",
+      "title": "晁氏儒言",
+      "author": "晁說之",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "宋",
+      "description": "宋晁說之論學之作：辨王安石《新經義》《字說》之失，侃侃不撓，誠儒者之言。",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "shuihu-houzhuan",
+      "title": "水滸後傳",
+      "author": "陳忱",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清初",
+      "description": "清初陳忱續《水滸》：梁山殘部感舊重聚，抗金報國、遠遁海外，寄寓故國之思。",
+      "sections": 40,
+      "cover": ""
+    },
+    {
+      "id": "xueyuemei-zhuan",
+      "title": "雪月梅傳",
+      "author": "陳朗",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清",
+      "description": "清代才子佳人小說：岑秀才歷雪姐、月娥、小梅諸緣，兼寫豪傑報應、勸懲果報。",
+      "sections": 51,
+      "cover": ""
+    },
+    {
+      "id": "suitang-yanyi",
+      "title": "隋唐演義",
+      "author": "褚人穫",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清",
+      "description": "清代講史演義巨著：自隋文帝平陳寫至唐明皇還都，秦瓊、程咬金、單雄信諸豪傑事蹟，膾炙人口。",
+      "sections": 100,
+      "cover": ""
+    },
+    {
+      "id": "baigui-zhi",
+      "title": "白圭志",
+      "author": "崔象川",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清（道光年間）",
+      "description": "清代才子佳人小說：張庭瑞與楊菊英歷經離散奇緣，女扮男裝之蘭英登科揚名，奇情迭出。",
+      "sections": 16,
+      "cover": ""
+    },
+    {
+      "id": "anle-ji",
+      "title": "安樂集",
+      "author": "道綽",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "隋末唐初",
+      "description": "唐道綽淨土宗要典：以十二大門廣引經論，明念佛往生之教，勸歸西方安樂淨土。",
+      "sections": 2,
+      "cover": ""
+    },
+    {
+      "id": "dengxizi",
+      "title": "鄧析子",
+      "author": "鄧析",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "春秋",
+      "description": "舊題春秋鄭人鄧析所作：《無厚》《轉辭》二篇，尚形名之辯，開刑名法家先聲。",
+      "sections": 2,
+      "cover": ""
+    },
+    {
+      "id": "zuixing-shi",
+      "title": "醉醒石",
+      "author": "東魯古狂生",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "明末",
+      "description": "明末話本小說集：凡十五回，寫世態人情、因果報應，取「醉之以酒而醒之以石」之義。",
+      "sections": 15,
+      "cover": ""
+    },
+    {
+      "id": "tang-zhongkui-pinggui-zhuan",
+      "title": "唐鍾馗平鬼傳",
+      "author": "東山雲中道人",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "清",
+      "description": "清代神魔小說：鍾馗蒙閻君封為平鬼大元帥，率神荼、鬱壘遍斬世間無恥惡鬼。",
+      "sections": 16,
+      "cover": ""
+    },
+    {
+      "id": "changhen-ge",
+      "title": "長恨歌",
+      "author": "白居易",
+      "category": "ji",
+      "subcategory": "",
+      "dynasty": "唐",
+      "description": "白居易長篇敘事詩，詠唐玄宗與楊貴妃生離死別之情，纏綿悱惻，千古傳誦。",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "luoshen-fu",
+      "title": "洛神賦",
+      "author": "曹植",
+      "category": "ji",
+      "subcategory": "",
+      "dynasty": "三國魏",
+      "description": "曹植辭賦名篇：記黃初三年過洛水，夢遇洛神宓妃，驚鴻一瞥、人神殊途，文采斐然。",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "pipa-ji",
+      "title": "琵琶記",
+      "author": "高明",
+      "category": "ji",
+      "subcategory": "",
+      "dynasty": "元末明初",
+      "description": "元高明南戲經典：蔡伯喈、趙五娘夫婦悲歡離合，孝義動人，被譽為「南戲之祖」。",
+      "sections": 42,
+      "cover": ""
+    },
+    {
+      "id": "longchuan-ci",
+      "title": "龍川詞",
+      "author": "陳亮",
+      "category": "ji",
+      "subcategory": "",
+      "dynasty": "南宋",
+      "description": "南宋陳亮詞集：豪放俊邁，寄恢復中原之志，〈念奴嬌·登多景樓〉尤為千古名篇。",
+      "sections": 1,
+      "cover": ""
+    },
+    {
       "id": "yecao",
       "title": "野草",
       "author": "魯迅",
@@ -270,6 +567,17 @@
       "subcategory": "modern",
       "dynasty": "1918",
       "description": "中國現代文學第一篇白話小說，以狂人日記揭露「吃人」的禮教。",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "huyu-kailu",
+      "title": "滬語開路",
+      "author": "柯羅福特、羅林森",
+      "category": "ji",
+      "subcategory": "modern",
+      "dynasty": "1915（民國四年）",
+      "description": "一九一五年上海美華書館印行滬語會話讀本：供在滬外僑與傳教士學習上海方言，附英文說明與對話練習。",
       "sections": 1,
       "cover": ""
     },

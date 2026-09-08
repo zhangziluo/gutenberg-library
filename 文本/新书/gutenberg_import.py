@@ -50,6 +50,17 @@ EBOOK_ID = {
     '戲中戲': 24225, '比目魚': 27119, '三字經': 12479, '施公案': 23825,
     '海公案': 54494, '燕丹子': 24068, '狄公案': 27686, '百家姓': 25196,
     '禮記': 24048, '綠牡丹': 27330, '詩經': 23873, '麟兒報': 27399,
+    # ---- 第五批新书（2026-09-08 批量入库） ----
+    '天豹圖': 26904, '梁公九諫': 26886, '長恨歌': 25352, '李娃傳': 24051,
+    '玉樓春': 25422, '引鳳蕭': 26921, '今古奇觀': 24230, '後西遊記': 27332,
+    # ---- 第六批新书（2026-09-08 批量入库） ----
+    '飛跎全傳': 27331, '佛說四十二章經': 23585, '洛神賦': 24041, '晁氏儒言': 43014,
+    '水滸後傳': 25217, '幼學瓊林': 52269, '治世餘聞': 26932, '琵琶記': 25246,
+    '雪月梅傳': 26739, '龍川詞': 26873,
+    # ---- 第七批新书（2026-09-08 批量入库） ----
+    '隋唐演義': 23835, '論語': 23839, '滬語開路': 62791, '白圭志': 27023,
+    '孟子字義疏證': 25360, '安樂集': 24106, '鄧析子': 7215, '醉醒石': 24027,
+    '唐鍾馗平鬼傳': 27329, '春秋繁露': 25385,
 }
 
 START_RE = re.compile(r'START OF (?:THE|THIS) PROJECT GUTENBERG')
@@ -392,6 +403,15 @@ def split_single(body, title):
 # 第二批新书切分器
 # ---------------------------------------------------------------
 RE_ZE = re.compile(r'^[ 　]*第([〇○零一二三四五六七八九十百]+)[ 　]*則[ 　]*(.*)$')
+RE_JIAN = re.compile(r'^[ 　]*第([〇○零一二三四五六七八九十百]+)[ 　]*諫[ 　]*(.*)$')   # 梁公九諫：第X諫
+RE_JUAN_N = re.compile(r'^[ 　]*第([〇○零一二三四五六七八九十百]+)[ 　]*卷[ 　]*$')     # 今古奇觀/治世餘聞：第X卷
+RE_CHU = re.compile(r'^[ 　]*第([〇○零一二三四五六七八九十百]+)[ 　]*出(?=[ 　:：]|$)')   # 琵琶記：第X出
+RE_LUNYU = re.compile(r'^[ 　]*([^　]{1,8})第([〇○零一二三四五六七八九十百]+)$')          # 論語：學而第一
+RE_JUAN_XC = re.compile(r'^(.{1,12})卷(上|中|下)[ 　]*$')                                # 卷上/卷中/卷下
+RE_FANLU = re.compile(r'^[ 　]+([^　]{1,12})第([〇○零一二三四五六七八九十百]+)[ 　]*$')   # 春秋繁露正文篇题（须缩进）
+RE_JQ_CN = re.compile(r'^[ 　]*卷第([〇○零一二三四五六七八九十百]+)[ 　]*$')              # 春秋繁露：卷第一…
+RE_JQ_QUE = re.compile(r'^[ 　]*第([〇○零一二三四五六七八九十百]+)[〔\[(]?闕[〕\]）)]?[ 　]*$')  # 春秋繁露：第X[闕]
+RE_PAGE_REF = re.compile(r'^【(全書|Ewell)[^】]*】(?:【Ewell[^】]*】)*[ 　]*$')            # 疏證：页码标记行
 RE_ZE_MAL = re.compile(r'^[ 　]*第[ 　]{2,}([^ 　]{2,15})$')   # 豆棚閒話第十則缺「十則」，仅此一行
 RE_LIJI = re.compile(r'^[ 　]+([^　]{2,8}第[〇○零一二三四五六七八九十百]+)$')
 
@@ -416,6 +436,201 @@ def split_ze(body, keep_prefix_title=None):
     for k, (idx, title) in enumerate(marks):
         end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
         raw = _trim(body[idx + 1:end_idx])
+        chapters.append({'title': title, 'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
+
+def split_jian(body, keep_prefix_title=None):
+    """梁公九諫：按「第X諫」切分；开头「序」单独成章。"""
+    marks = []
+    for i, l in enumerate(body):
+        m = RE_JIAN.match(l)
+        if m:
+            title = m.group(2).strip() or re.sub(r'[ 　]+', ' ', l).strip()
+            marks.append((i, title))
+    chapters = []
+    if marks and marks[0][0] > 0:
+        p = paragraphs(body[:marks[0][0]])
+        if p:
+            chapters.append({'title': keep_prefix_title or p[0][:20], 'content': '\n'.join(p)})
+    for k, (idx, title) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        raw = _trim(body[idx + 1:end_idx])
+        chapters.append({'title': title, 'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
+
+def split_juans(body):
+    """今古奇觀：按「第X卷」切分；卷名（故事名）在标记行的下一非空行。"""
+    marks = []
+    for i, l in enumerate(body):
+        m = RE_JUAN_N.match(l)
+        if m:
+            marks.append((i, cn_to_int(m.group(1)), l))
+    marks = sorted(set(marks))
+    chapters = []
+    for k, (idx, num, line) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        title = re.sub(r'[ 　]+', ' ', line).strip()
+        tline = None
+        for j in range(idx + 1, end_idx):
+            s = body[j].strip()
+            if s:
+                title = title + ' ' + re.sub(r'[ 　]+', ' ', s)
+                tline = j
+                break
+        raw = body[idx + 1:end_idx]
+        if tline is not None:
+            raw = raw[:tline - (idx + 1)] + raw[tline - (idx + 1) + 1:]
+        raw = _trim(raw)
+        chapters.append({'title': title, 'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
+
+def split_chu(body, keep_prefix_title=None, cut_at=None, drop_prefix=False, title_next=False):
+    """琵琶記：按「第X出」切分（出目同行），与 split_hui 同构（正则换「出」）。"""
+    if cut_at:
+        for i, l in enumerate(body):
+            if l.strip().startswith(cut_at):
+                body = body[:i]
+                break
+    marks = []
+    for i, l in enumerate(body):
+        m = RE_CHU.match(l)
+        if m:
+            marks.append((i, cn_to_int(m.group(1)), l))
+    deduped = []
+    for m in marks:
+        if deduped:
+            prev_idx, prev_num, _ = deduped[-1]
+            if prev_num == m[1] and not any(body[j].strip() for j in range(prev_idx + 1, m[0])):
+                deduped[-1] = m
+                continue
+        deduped.append(m)
+    marks = deduped
+    chapters = []
+    if marks and marks[0][0] > 0:
+        p = paragraphs(body[:marks[0][0]])
+        if p and not drop_prefix:
+            chapters.append({'title': keep_prefix_title or p[0][:20], 'content': '\n'.join(p)})
+    for k, (idx, num, line) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        title = re.sub(r'[ \t]+', ' ', line).strip()
+        raw = _trim(body[idx + 1:end_idx])
+        chapters.append({'title': title, 'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
+
+def split_juan_num(body):
+    """治世餘聞：按「第X卷」切分；卷号行本身作标题（无子标题行）。"""
+    marks = []
+    for i, l in enumerate(body):
+        m = RE_JUAN_N.match(l)
+        if m:
+            marks.append((i, re.sub(r'[ 　]+', ' ', l).strip()))
+    chapters = []
+    for k, (idx, title) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        raw = _trim(body[idx + 1:end_idx])
+        chapters.append({'title': title, 'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
+
+# 幼學瓊林（#52269）：卷内按 33 篇名切分（天文/地輿/歲時…花木）
+YXQL_PIAN = ['天文', '地輿', '歲時', '朝廷', '文臣', '武職',
+             '祖孫父子', '兄弟', '夫婦', '叔侄', '師生', '朋友賓主',
+             '婚姻', '女子', '外戚', '老幼壽誕', '身體', '衣服',
+             '人事', '飲食', '宮室', '器用', '珍寶', '貧富',
+             '疾病死喪', '文事', '科第', '制作', '技藝', '訟獄',
+             '釋道鬼神', '鳥獸', '花木']
+
+
+def split_yxql(body, pieces):
+    """幼學瓊林：按 33 篇名切分；「卷一~卷四」卷号行不产生章节并自内容剔除。"""
+    marks = []
+    for i, l in enumerate(body):
+        s = l.strip()
+        if RE_JUAN_N.match(s):
+            continue
+        if s in pieces:
+            marks.append((i, s))
+    bound = set(pieces)
+    chapters = []
+    for k, (idx, title) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        raw = body[idx + 1:end_idx]
+        raw = [l for l in raw if not RE_JUAN_N.match(l.strip())]
+        raw = [l for l in raw if l.strip() not in bound]
+        raw = _trim(raw)
+        chapters.append({'title': title, 'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
+
+def split_lunyu(body):
+    """論語：按「學而第一…堯曰第二十」篇题切分（每篇下为编号章句）。"""
+    marks = []
+    for i, l in enumerate(body):
+        m = RE_LUNYU.match(l)
+        if m:
+            marks.append((i, re.sub(r'[ 　]+', ' ', l).strip()))
+    chapters = []
+    for k, (idx, title) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        raw = _trim(body[idx + 1:end_idx])
+        chapters.append({'title': title, 'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
+
+def split_juan_sc(body, keep_prefix_title=None, drop_prefix=False):
+    """孟子字義疏證/安樂集：按「卷上/卷中/卷下」切分（前缀可单独成章）；
+    同一卷名重复出现（古籍排版页眉/页脚）只取首次作边界，正文剔除独立卷名行与页码标记行。"""
+    marks = []
+    seen = set()
+    for i, l in enumerate(body):
+        m = RE_JUAN_XC.match(l)
+        if m:
+            name = m.group(2)
+            if name in seen:
+                continue
+            seen.add(name)
+            marks.append((i, re.sub(r'[ 　]+', ' ', l).strip()))
+    chapters = []
+    if marks and marks[0][0] > 0:
+        pre = [re.sub(r'【(?:全書|Ewell)[^】]*】', '', l)
+               for l in body[:marks[0][0]]
+               if not (RE_PAGE_REF.match(l.strip()) or RE_DASH_ONLY.match(l.strip())
+                       or RE_JUAN_XC.match(l.strip()))]
+        if keep_prefix_title and pre and pre[0].strip() == keep_prefix_title:
+            pre = pre[1:]
+        p = paragraphs(pre)
+        if p and not drop_prefix:
+            chapters.append({'title': keep_prefix_title or p[0][:20], 'content': '\n'.join(p)})
+    for k, (idx, title) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        raw = body[idx + 1:end_idx]
+        raw = [re.sub(r'【(?:全書|Ewell)[^】]*】', '', l) for l in raw]
+        raw = [l for l in raw if not (RE_PAGE_REF.match(l.strip()) or RE_DASH_ONLY.match(l.strip())
+                                      or RE_JUAN_XC.match(l.strip()))]
+        raw = _trim(raw)
+        chapters.append({'title': title, 'content': '\n'.join(paragraphs(raw))})
+    return chapters
+
+
+def split_fanlu(body):
+    """春秋繁露：按正文缩进篇题「楚莊王第一…天道施第八十二」切 82 篇；
+    跳过开篇目录（未缩进行），剔除「卷第一…卷十七」与「第X[闕]」行。"""
+    marks = []
+    for i, l in enumerate(body):
+        m = RE_FANLU.match(l)
+        if m and m.group(1) != '卷':
+            marks.append((i, re.sub(r'[ 　]+', ' ', l).strip()))
+    chapters = []
+    for k, (idx, title) in enumerate(marks):
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        raw = body[idx + 1:end_idx]
+        raw = [l for l in raw if not (RE_JQ_CN.match(l.strip()) or RE_JQ_QUE.match(l.strip())
+                                      or RE_FANLU.match(l) and RE_FANLU.match(l).group(1) == '卷')]
+        raw = _trim(raw)
         chapters.append({'title': title, 'content': '\n'.join(paragraphs(raw))})
     return chapters
 
@@ -463,6 +678,25 @@ def normalize_hui_no_di(body):
         else:
             out.append(l)
     return out
+
+
+# 李娃傳（#24051）等个别古登堡中文本使用 FE5x 小型标点（﹔﹕﹖﹗﹐），
+# 段落聚合依赖全角句读（。！？」：；），故归一为全角。
+FE_PUNCT = {'﹔': '；', '﹕': '：', '﹖': '？', '﹗': '！', '﹐': '，', '﹑': '、',
+            '﹒': '。', '﹞': '」', '﹝': '「'}
+
+
+def normalize_fe_punct(body):
+    return [''.join(FE_PUNCT.get(c, c) for c in l) for l in body]
+
+
+def drop_until_heading(body, heading):
+    """天豹圖/梁公九諫：正文以「书名/作者」行开头，书名下方才是「序」标题；
+    丢弃到「序」标题为止，使 keep_prefix_title 前缀成章时不含书名作者残留。"""
+    for k, l in enumerate(body):
+        if l.strip() == heading or l.strip().startswith(heading + ' '):
+            return body[k:]
+    return body
 
 
 # ---------------------------------------------------------------
@@ -710,6 +944,183 @@ BOOKS = [
         'split': 'hui', 'keep_prefix_title': '序',
         'hui_title_clean': True,   # 回目行全角空格塌缩为单空格
     },
+    # ---- 第五批新书（2026-09-08 批量入库） ----
+    {
+        'key': 'tianbao-tu', 'book': '天豹圖', 'author': '佚名',
+        'category': '子部', 'subcategory': '小說家（英雄傳奇）',
+        'source': 'Project Gutenberg #26904', 'file': '天豹圖.txt',
+        'split': 'hui', 'keep_prefix_title': '序', 'drop_until': '序',
+        'hui_title_clean': True,
+    },
+    {
+        'key': 'lianggong-jiujian', 'book': '梁公九諫', 'author': '佚名',
+        'category': '子部', 'subcategory': '小說家（話本）',
+        'source': 'Project Gutenberg #26886', 'file': '梁公九諫.txt',
+        'split': 'jian', 'keep_prefix_title': '序', 'drop_until': '序',
+    },
+    {
+        'key': 'changhen-ge', 'book': '長恨歌', 'author': '白居易',
+        'category': '集部', 'subcategory': '詩',
+        'source': 'Project Gutenberg #25352', 'file': '長恨歌.txt',
+        'split': 'single', 'head_drop': 1,   # 删书名/作者行「長恨歌    白居易」
+    },
+    {
+        'key': 'liwa-zhuan', 'book': '李娃傳', 'author': '白行簡',
+        'category': '子部', 'subcategory': '小說家（傳奇）',
+        'source': 'Project Gutenberg #24051', 'file': '李娃傳.txt',
+        'split': 'single',
+        'normalize_fe_punct': True,   # 原文本用 FE5x 小型标点（﹔﹕﹖﹗），归一并保证段落
+    },
+    {
+        'key': 'yulou-chun', 'book': '玉樓春', 'author': '白雲道人',
+        'category': '子部', 'subcategory': '小說家（才子佳人）',
+        'source': 'Project Gutenberg #25422', 'file': '玉樓春.txt',
+        'split': 'hui', 'drop_prefix': True, 'hui_title_clean': True,
+    },
+    {
+        'key': 'yinfeng-xiao', 'book': '引鳳蕭', 'author': '半雲友',
+        'category': '子部', 'subcategory': '小說家（才子佳人）',
+        'source': 'Project Gutenberg #26921', 'file': '引鳳蕭.txt',
+        'split': 'hui', 'drop_prefix': True, 'hui_title_clean': True,
+    },
+    {
+        'key': 'jingu-qiguan', 'book': '今古奇觀', 'author': '抱甕老人',
+        'category': '子部', 'subcategory': '小說家（話本）',
+        'source': 'Project Gutenberg #24230', 'file': '今古奇觀.txt',
+        'split': 'juans', 'hui_title_clean': True,
+    },
+    {
+        'key': 'hou-xiyouji', 'book': '後西遊記', 'author': '佚名',
+        'category': '子部', 'subcategory': '小說家（神魔）',
+        'source': 'Project Gutenberg #27332', 'file': '後西遊記.txt',
+        'split': 'hui', 'title_next': True, 'drop_prefix': True,
+        'hui_title_clean': True,
+    },
+    # ---- 第六批新书（2026-09-08 批量入库） ----
+    {
+        'key': 'feituo-quanzhuan', 'book': '飛跎全傳', 'author': '鄒必顯',
+        'category': '子部', 'subcategory': '小說家（神魔）',
+        'source': 'Project Gutenberg #27331', 'file': '飛跎全傳.txt',
+        'split': 'hui', 'title_next': True, 'keep_prefix_title': '序',
+        'drop_until': '序', 'hui_title_clean': True,
+    },
+    {
+        'key': 'foshuo-sishierzhang-jing', 'book': '佛說四十二章經', 'author': '佚名',
+        'category': '子部', 'subcategory': '釋家',
+        'source': 'Project Gutenberg #23585', 'file': '佛說四十二章經.txt',
+        'split': 'single', 'head_drop': 3,   # 删书名行/空行 + 「後漢摩騰、竺法蘭共譯」
+    },
+    {
+        'key': 'luoshen-fu', 'book': '洛神賦', 'author': '曹植',
+        'category': '集部', 'subcategory': '賦',
+        'source': 'Project Gutenberg #24041', 'file': '洛神賦.txt',
+        'split': 'single', 'head_drop': 3,   # 删书名行/空行 + 「作者：曹植」
+    },
+    {
+        'key': 'chaoshi-ruyan', 'book': '晁氏儒言', 'author': '晁說之',
+        'category': '子部', 'subcategory': '儒家',
+        'source': 'Project Gutenberg #43014', 'file': '晁氏儒言.txt',
+        'split': 'single', 'head_drop': 1,   # 删书名行「晁氏儒言」
+    },
+    {
+        'key': 'shuihu-houzhuan', 'book': '水滸後傳', 'author': '陳忱',
+        'category': '子部', 'subcategory': '小說家（英雄傳奇）',
+        'source': 'Project Gutenberg #25217', 'file': '水滸後傳.txt',
+        'split': 'hui', 'hui_title_clean': True,
+    },
+    {
+        'key': 'youxue-qionglin', 'book': '幼學瓊林', 'author': '程允升',
+        'category': '經部', 'subcategory': '蒙學',
+        'source': 'Project Gutenberg #52269', 'file': '幼學瓊林.txt',
+        'split': 'yxql', 'pieces': YXQL_PIAN,
+    },
+    {
+        'key': 'zhishi-yuwen', 'book': '治世餘聞', 'author': '陳洪謨',
+        'category': '史部', 'subcategory': '雜史',
+        'source': 'Project Gutenberg #26932', 'file': '治世餘聞.txt',
+        'split': 'juan_num',
+    },
+    {
+        'key': 'pipa-ji', 'book': '琵琶記', 'author': '高明',
+        'category': '集部', 'subcategory': '戲曲',
+        'source': 'Project Gutenberg #25246', 'file': '琵琶記.txt',
+        'split': 'chu', 'drop_prefix': True, 'hui_title_clean': True,
+    },
+    {
+        'key': 'xueyuemei-zhuan', 'book': '雪月梅傳', 'author': '陳朗',
+        'category': '子部', 'subcategory': '小說家（才子佳人）',
+        'source': 'Project Gutenberg #26739', 'file': '雪月梅傳.txt',
+        'split': 'hui', 'keep_prefix_title': '自序',
+        'drop_until': '自序', 'hui_title_clean': True,
+    },
+    {
+        'key': 'longchuan-ci', 'book': '龍川詞', 'author': '陳亮',
+        'category': '集部', 'subcategory': '詞',
+        'source': 'Project Gutenberg #26873', 'file': '龍川詞.txt',
+        'split': 'single', 'head_drop': 1,   # 删作者行「陳亮 著」
+    },
+    # ---- 第七批新书（2026-09-08 批量入库） ----
+    {
+        'key': 'suitang-yanyi', 'book': '隋唐演義', 'author': '褚人穫',
+        'category': '子部', 'subcategory': '小說家（歷史演義）',
+        'source': 'Project Gutenberg #23835', 'file': '隋唐演義.txt',
+        'split': 'hui', 'drop_prefix': True, 'hui_title_clean': True,
+    },
+    {
+        'key': 'lunyu', 'book': '論語', 'author': '孔子',
+        'category': '經部', 'subcategory': '四書',
+        'source': 'Project Gutenberg #23839', 'file': '論語.txt',
+        'split': 'lunyu', 'head_drop': 1,   # 删顶部误置的重复章句行
+    },
+    {
+        'key': 'huyu-kailu', 'book': '滬語開路', 'author': '柯羅福特、羅林森',
+        'category': '近現代文學', 'subcategory': '語言讀本',
+        'source': 'Project Gutenberg #62791', 'file': '滬語開路.txt',
+        'split': 'single', 'head_drop': 68,   # 跳封面页与英文引言，正文自「Exercise 1.」起
+    },
+    {
+        'key': 'baigui-zhi', 'book': '白圭志', 'author': '崔象川',
+        'category': '子部', 'subcategory': '小說家（才子佳人）',
+        'source': 'Project Gutenberg #27023', 'file': '白圭志.txt',
+        'split': 'hui', 'drop_prefix': True, 'hui_title_clean': True,
+    },
+    {
+        'key': 'mengzi-ziyi-shuzheng', 'book': '孟子字義疏證', 'author': '戴震',
+        'category': '經部', 'subcategory': '四書',
+        'source': 'Project Gutenberg #25360', 'file': '孟子字義疏證.txt',
+        'split': 'juan_sc', 'keep_prefix_title': '序', 'drop_until': '序',
+    },
+    {
+        'key': 'anle-ji', 'book': '安樂集', 'author': '道綽',
+        'category': '子部', 'subcategory': '釋家',
+        'source': 'Project Gutenberg #24106', 'file': '安樂集.txt',
+        'split': 'juan_sc', 'drop_until': '安樂集卷上',
+    },
+    {
+        'key': 'dengxizi', 'book': '鄧析子', 'author': '鄧析',
+        'category': '子部', 'subcategory': '名家',
+        'source': 'Project Gutenberg #7215', 'file': '鄧析子.txt',
+        'split': 'pieces',
+        'pieces': [('無厚篇', '無厚篇'), ('轉辭篇', '轉辭篇')],
+    },
+    {
+        'key': 'zuixing-shi', 'book': '醉醒石', 'author': '東魯古狂生',
+        'category': '子部', 'subcategory': '小說家（話本）',
+        'source': 'Project Gutenberg #24027', 'file': '醉醒石.txt',
+        'split': 'hui', 'drop_prefix': True, 'hui_title_clean': True,
+    },
+    {
+        'key': 'tang-zhongkui-pinggui-zhuan', 'book': '唐鍾馗平鬼傳', 'author': '東山雲中道人',
+        'category': '子部', 'subcategory': '小說家（神魔）',
+        'source': 'Project Gutenberg #27329', 'file': '唐鍾馗平鬼傳.txt',
+        'split': 'hui', 'drop_prefix': True, 'hui_title_clean': True,
+    },
+    {
+        'key': 'chunqiu-fanlu', 'book': '春秋繁露', 'author': '董仲舒',
+        'category': '經部', 'subcategory': '春秋',
+        'source': 'Project Gutenberg #25385', 'file': '春秋繁露.txt',
+        'split': 'fanlu',
+    },
 ]
 
 SPLITTERS = {
@@ -722,7 +1133,15 @@ SPLITTERS = {
     'pieces': split_pieces,
     'single': split_single,
     'ze': split_ze,
+    'jian': split_jian,
     'juan': split_juan,
+    'juans': split_juans,
+    'chu': split_chu,
+    'juan_num': split_juan_num,
+    'yxql': split_yxql,
+    'lunyu': split_lunyu,
+    'juan_sc': split_juan_sc,
+    'fanlu': split_fanlu,
     'liji': split_liji,
     'shijing': split_shijing,
 }
@@ -1029,15 +1448,25 @@ def reader_label(key):
     if key == 'yijing':
         return None  # 特殊处理
     if key in ('shanshui-qing', 'mulan-qi-nv-zhuan', 'xizhong-xi', 'bimu-yu',
-               'shigongan', 'haigongan', 'digongan', 'lv-mudan', 'lin-er-bao'):
+               'shigongan', 'haigongan', 'digongan', 'lv-mudan', 'lin-er-bao',
+               'tianbao-tu', 'yulou-chun', 'yinfeng-xiao', 'hou-xiyouji',
+               'feituo-quanzhuan', 'shuihu-houzhuan', 'xueyuemei-zhuan',
+               'suitang-yanyi', 'baigui-zhi', 'zuixing-shi',
+               'tang-zhongkui-pinggui-zhuan'):
         return '回目'
-    if key in ('shanhaijing', 'yandanzi'):
+    if key in ('shanhaijing', 'yandanzi', 'jingu-qiguan', 'zhishi-yuwen',
+               'mengzi-ziyi-shuzheng', 'anle-ji'):
         return '卷'
+    if key == 'lianggong-jiujian':
+        return '諫'
+    if key == 'pipa-ji':
+        return '出'
     if key == 'aq-zhengzhuan':
         return '章'
     if key in ('doupen-xianhua',):
         return '則'
-    if key in ('liji', 'shijing'):
+    if key in ('liji', 'shijing', 'youxue-qionglin', 'lunyu', 'dengxizi',
+               'chunqiu-fanlu'):
         return '篇'
     if key in PIAN_KEYS:
         return '篇目'
@@ -1082,6 +1511,18 @@ DYN = {
     '施公案': '清', '海公案': '明', '燕丹子': '先秦', '狄公案': '清',
     '百家姓': '宋', '禮記': '先秦至漢', '綠牡丹': '清（道光年間）',
     '詩經': '西周至春秋', '麟兒報': '清',
+    # 第五批新书（2026-09-08 批量入库）
+    '天豹圖': '清', '梁公九諫': '宋', '長恨歌': '唐', '李娃傳': '唐',
+    '玉樓春': '清', '引鳳蕭': '清', '今古奇觀': '明末', '後西遊記': '明末清初',
+    # 第六批新书（2026-09-08 批量入库）
+    '飛跎全傳': '清（嘉慶）', '佛說四十二章經': '東漢', '洛神賦': '三國魏',
+    '晁氏儒言': '宋', '水滸後傳': '清初', '幼學瓊林': '明末清初',
+    '治世餘聞': '明', '琵琶記': '元末明初', '雪月梅傳': '清',
+    '龍川詞': '南宋',
+    # 第七批新书（2026-09-08 批量入库）
+    '隋唐演義': '清', '論語': '春秋', '滬語開路': '1915（民國四年）', '白圭志': '清（道光年間）',
+    '孟子字義疏證': '清（乾隆年間）', '安樂集': '隋末唐初', '鄧析子': '春秋',
+    '醉醒石': '明末', '唐鍾馗平鬼傳': '清', '春秋繁露': '西漢',
     '史記': '西漢', '漢書': '東漢', '三國志': '西晉', '三國演義': '明',
     '水滸傳': '明', '西遊記': '明', '紅樓夢': '清', '古文觀止': '清（康熙年間）',
 }
@@ -1110,6 +1551,37 @@ DESC = {
     '綠牡丹': '清代武俠英雄傳奇小說：敘駱宏勛、花振芳、鮑自安等豪傑於武周之世懲奸除惡、扶唐復國，恩怨江湖、快意恩仇。',
     '詩經': '中國最早的詩歌總集，收西周初年至春秋中葉詩歌三百零五篇，分風、雅、頌，儒家「五經」之一。',
     '麟兒報': '清代才子佳人小說：廉小村雪中濟丐仙得吉壤，生子廉清，與幸尚書之女歷盡波折終成眷屬，寓善惡果報之勸。',
+    # 第五批新书（2026-09-08 批量入库）
+    '天豹圖': '清代英雄傳奇小說：李榮春仗義疏財、施碧霞賣身葬母，眾豪傑除奸扶正、終保忠良的故事。',
+    '梁公九諫': '宋人話本：演梁公狄仁傑九次力諫武則天、力保廬陵王復位，忠肝義膽、直言極諫。',
+    '長恨歌': '白居易長篇敘事詩，詠唐玄宗與楊貴妃生離死別之情，纏綿悱惻，千古傳誦。',
+    '李娃傳': '唐傳奇名篇，白行簡作：滎陽公子與長安名妓李娃悲歡離合、終諧伉儷，曲盡世情。',
+    '玉樓春': '清代才子佳人小說：邵卞嘉父子為奸相盧杞所構陷，歷盡離亂，終得團圓昭雪。',
+    '引鳳蕭': '清代才子佳人小說：白眉仙才華絕艷而淡泊功名，於新政風波、家國離亂中守志不移。',
+    '今古奇觀': '明代話本小說選集，抱甕老人輯，收話本四十篇，市井百態、勸懲勸善，膾炙人口。',
+    '後西遊記': '《西遊記》續書：唐半偈、小行者、豬一戒、沙彌師徒四人西天求解，嬉笑怒罵、別開生面。',
+    # 第六批新书（2026-09-08 批量入库）
+    '飛跎全傳': '清代神怪諷世小說：敘「跎子」石信出世、進寶封王，滿紙諧謔市語，嬉笑怒罵。',
+    '佛說四十二章經': '東漢迦葉摩騰、竺法蘭所譯、現存最早漢傳佛經之一：收佛言四十二章，明心見性、斷欲去愛。',
+    '洛神賦': '曹植辭賦名篇：記黃初三年過洛水，夢遇洛神宓妃，驚鴻一瞥、人神殊途，文采斐然。',
+    '晁氏儒言': '宋晁說之論學之作：辨王安石《新經義》《字說》之失，侃侃不撓，誠儒者之言。',
+    '水滸後傳': '清初陳忱續《水滸》：梁山殘部感舊重聚，抗金報國、遠遁海外，寄寓故國之思。',
+    '幼學瓊林': '明清蒙學百科讀物：天文地輿、人事科第、鳥獸花木無所不包，駢文四字朗朗上口，昔日蒙童必讀。',
+    '治世餘聞': '明陳洪謨筆記：記弘治一朝朝章國故與宮闈舊聞，多可補正史之闕。',
+    '琵琶記': '元高明南戲經典：蔡伯喈、趙五娘夫婦悲歡離合，孝義動人，被譽為「南戲之祖」。',
+    '雪月梅傳': '清代才子佳人小說：岑秀才歷雪姐、月娥、小梅諸緣，兼寫豪傑報應、勸懲果報。',
+    '龍川詞': '南宋陳亮詞集：豪放俊邁，寄恢復中原之志，〈念奴嬌·登多景樓〉尤為千古名篇。',
+    # 第七批新书（2026-09-08 批量入库）
+    '隋唐演義': '清代講史演義巨著：自隋文帝平陳寫至唐明皇還都，秦瓊、程咬金、單雄信諸豪傑事蹟，膾炙人口。',
+    '論語': '儒家核心經典：孔子與弟子及時人問答之語錄，凡二十篇，宋儒列為「四書」之首。',
+    '滬語開路': '一九一五年上海美華書館印行滬語會話讀本：供在滬外僑與傳教士學習上海方言，附英文說明與對話練習。',
+    '白圭志': '清代才子佳人小說：張庭瑞與楊菊英歷經離散奇緣，女扮男裝之蘭英登科揚名，奇情迭出。',
+    '孟子字義疏證': '清戴震訓詁名篇：就理、天道、性、才、道、仁義禮智等字疏證《孟子》，力闢宋儒理學之非。',
+    '安樂集': '唐道綽淨土宗要典：以十二大門廣引經論，明念佛往生之教，勸歸西方安樂淨土。',
+    '鄧析子': '舊題春秋鄭人鄧析所作：《無厚》《轉辭》二篇，尚形名之辯，開刑名法家先聲。',
+    '醉醒石': '明末話本小說集：凡十五回，寫世態人情、因果報應，取「醉之以酒而醒之以石」之義。',
+    '唐鍾馗平鬼傳': '清代神魔小說：鍾馗蒙閻君封為平鬼大元帥，率神荼、鬱壘遍斬世間無恥惡鬼。',
+    '春秋繁露': '西漢董仲舒經學哲學著作：以陰陽五行推演《春秋》大義，暢發天人感應、君權神授之說。',
     '史記': '二十四史之首。太史公「究天人之際，通古今之變，成一家之言」。',
     '漢書': '中國第一部紀傳體斷代史，上起漢高祖、下終王莽。',
     '三國志': '與《史記》《漢書》《後漢書》並稱「前四史」，記魏蜀吳三國鼎立。',
@@ -1215,18 +1687,24 @@ def _build_one(cfg):
     body = extract_body(lines)
     if cfg.get('head_drop'):
         body = body[cfg['head_drop']:]     # 删开头畸形书名行（三字經》/百家姓/燕丹子）
+    if cfg.get('drop_until'):
+        body = drop_until_heading(body, cfg['drop_until'])   # 天豹圖/梁公九諫：丢弃书名/作者行至「序」标题
     if cfg.get('normalize_hui_no_di'):
         body = normalize_hui_no_di(body)   # 綠牡丹「二十一回」→「第二十一回」
+    if cfg.get('normalize_fe_punct'):
+        body = normalize_fe_punct(body)    # 李娃傳 FE5x 小型标点 → 全角
     splitter = SPLITTERS[cfg['split']]
-    if cfg['split'] == 'hui':
+    if cfg['split'] in ('hui', 'chu'):
         chapters = splitter(body, cfg.get('keep_prefix_title'), cfg.get('cut_at'),
                             cfg.get('drop_prefix', False), cfg.get('title_next', False))
     elif cfg['split'] in ('shanhaijing', 'juan'):
         chapters = splitter(body, cfg['volumes'])
-    elif cfg['split'] in ('yecao', 'pieces'):
+    elif cfg['split'] in ('yecao', 'pieces', 'yxql'):
         chapters = splitter(body, cfg['pieces'])
-    elif cfg['split'] == 'ze':
+    elif cfg['split'] in ('ze', 'jian'):
         chapters = splitter(body, cfg.get('keep_prefix_title'))
+    elif cfg['split'] == 'juan_sc':
+        chapters = splitter(body, cfg.get('keep_prefix_title'), cfg.get('drop_prefix', False))
     elif cfg['split'] == 'single':
         chapters = splitter(body, cfg['book'])
     else:

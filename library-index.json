@@ -1,7 +1,7 @@
 {
   "title": "一堆古书 · 数据书目索引",
   "description": "data/books/ 目录下的结构化书目（category: 經部/史部/子部/集部/近現代文學）",
-  "generated": "2026-09-02",
+  "generated": "2026-09-08",
   "categories": [
     {
       "name": "經部",
@@ -50,12 +50,58 @@
           "chapters": 305,
           "source": "Project Gutenberg #23873",
           "path": "data/books/shijing.json"
+        },
+        {
+          "key": "youxue-qionglin",
+          "book": "幼學瓊林",
+          "author": "程允升",
+          "subcategory": "蒙學",
+          "chapters": 33,
+          "source": "Project Gutenberg #52269",
+          "path": "data/books/youxue-qionglin.json"
+        },
+        {
+          "key": "lunyu",
+          "book": "論語",
+          "author": "孔子",
+          "subcategory": "四書",
+          "chapters": 20,
+          "source": "Project Gutenberg #23839",
+          "path": "data/books/lunyu.json"
+        },
+        {
+          "key": "mengzi-ziyi-shuzheng",
+          "book": "孟子字義疏證",
+          "author": "戴震",
+          "subcategory": "四書",
+          "chapters": 4,
+          "source": "Project Gutenberg #25360",
+          "path": "data/books/mengzi-ziyi-shuzheng.json"
+        },
+        {
+          "key": "chunqiu-fanlu",
+          "book": "春秋繁露",
+          "author": "董仲舒",
+          "subcategory": "春秋",
+          "chapters": 79,
+          "source": "Project Gutenberg #25385",
+          "path": "data/books/chunqiu-fanlu.json"
         }
       ]
     },
     {
       "name": "史部",
-      "books": []
+      "books": [
+        {
+          "key": "zhishi-yuwen",
+          "book": "治世餘聞",
+          "author": "陳洪謨",
+          "subcategory": "雜史",
+          "chapters": 8,
+          "source": "Project Gutenberg #26932",
+          "path": "data/books/zhishi-yuwen.json"
+        }
+      ]
     },
     {
       "name": "子部",
@@ -167,12 +213,211 @@
           "chapters": 17,
           "source": "Project Gutenberg #27399",
           "path": "data/books/lin-er-bao.json"
+        },
+        {
+          "key": "tianbao-tu",
+          "book": "天豹圖",
+          "author": "佚名",
+          "subcategory": "小說家（英雄傳奇）",
+          "chapters": 41,
+          "source": "Project Gutenberg #26904",
+          "path": "data/books/tianbao-tu.json"
+        },
+        {
+          "key": "lianggong-jiujian",
+          "book": "梁公九諫",
+          "author": "佚名",
+          "subcategory": "小說家（話本）",
+          "chapters": 10,
+          "source": "Project Gutenberg #26886",
+          "path": "data/books/lianggong-jiujian.json"
+        },
+        {
+          "key": "liwa-zhuan",
+          "book": "李娃傳",
+          "author": "白行簡",
+          "subcategory": "小說家（傳奇）",
+          "chapters": 1,
+          "source": "Project Gutenberg #24051",
+          "path": "data/books/liwa-zhuan.json"
+        },
+        {
+          "key": "yulou-chun",
+          "book": "玉樓春",
+          "author": "白雲道人",
+          "subcategory": "小說家（才子佳人）",
+          "chapters": 24,
+          "source": "Project Gutenberg #25422",
+          "path": "data/books/yulou-chun.json"
+        },
+        {
+          "key": "yinfeng-xiao",
+          "book": "引鳳蕭",
+          "author": "半雲友",
+          "subcategory": "小說家（才子佳人）",
+          "chapters": 16,
+          "source": "Project Gutenberg #26921",
+          "path": "data/books/yinfeng-xiao.json"
+        },
+        {
+          "key": "jingu-qiguan",
+          "book": "今古奇觀",
+          "author": "抱甕老人",
+          "subcategory": "小說家（話本）",
+          "chapters": 80,
+          "source": "Project Gutenberg #24230",
+          "path": "data/books/jingu-qiguan.json"
+        },
+        {
+          "key": "hou-xiyouji",
+          "book": "後西遊記",
+          "author": "佚名",
+          "subcategory": "小說家（神魔）",
+          "chapters": 19,
+          "source": "Project Gutenberg #27332",
+          "path": "data/books/hou-xiyouji.json"
+        },
+        {
+          "key": "feituo-quanzhuan",
+          "book": "飛跎全傳",
+          "author": "鄒必顯",
+          "subcategory": "小說家（神魔）",
+          "chapters": 33,
+          "source": "Project Gutenberg #27331",
+          "path": "data/books/feituo-quanzhuan.json"
+        },
+        {
+          "key": "foshuo-sishierzhang-jing",
+          "book": "佛說四十二章經",
+          "author": "佚名",
+          "subcategory": "釋家",
+          "chapters": 1,
+          "source": "Project Gutenberg #23585",
+          "path": "data/books/foshuo-sishierzhang-jing.json"
+        },
+        {
+          "key": "chaoshi-ruyan",
+          "book": "晁氏儒言",
+          "author": "晁說之",
+          "subcategory": "儒家",
+          "chapters": 1,
+          "source": "Project Gutenberg #43014",
+          "path": "data/books/chaoshi-ruyan.json"
+        },
+        {
+          "key": "shuihu-houzhuan",
+          "book": "水滸後傳",
+          "author": "陳忱",
+          "subcategory": "小說家（英雄傳奇）",
+          "chapters": 40,
+          "source": "Project Gutenberg #25217",
+          "path": "data/books/shuihu-houzhuan.json"
+        },
+        {
+          "key": "xueyuemei-zhuan",
+          "book": "雪月梅傳",
+          "author": "陳朗",
+          "subcategory": "小說家（才子佳人）",
+          "chapters": 51,
+          "source": "Project Gutenberg #26739",
+          "path": "data/books/xueyuemei-zhuan.json"
+        },
+        {
+          "key": "suitang-yanyi",
+          "book": "隋唐演義",
+          "author": "褚人穫",
+          "subcategory": "小說家（歷史演義）",
+          "chapters": 100,
+          "source": "Project Gutenberg #23835",
+          "path": "data/books/suitang-yanyi.json"
+        },
+        {
+          "key": "baigui-zhi",
+          "book": "白圭志",
+          "author": "崔象川",
+          "subcategory": "小說家（才子佳人）",
+          "chapters": 16,
+          "source": "Project Gutenberg #27023",
+          "path": "data/books/baigui-zhi.json"
+        },
+        {
+          "key": "anle-ji",
+          "book": "安樂集",
+          "author": "道綽",
+          "subcategory": "釋家",
+          "chapters": 2,
+          "source": "Project Gutenberg #24106",
+          "path": "data/books/anle-ji.json"
+        },
+        {
+          "key": "dengxizi",
+          "book": "鄧析子",
+          "author": "鄧析",
+          "subcategory": "名家",
+          "chapters": 2,
+          "source": "Project Gutenberg #7215",
+          "path": "data/books/dengxizi.json"
+        },
+        {
+          "key": "zuixing-shi",
+          "book": "醉醒石",
+          "author": "東魯古狂生",
+          "subcategory": "小說家（話本）",
+          "chapters": 15,
+          "source": "Project Gutenberg #24027",
+          "path": "data/books/zuixing-shi.json"
+        },
+        {
+          "key": "tang-zhongkui-pinggui-zhuan",
+          "book": "唐鍾馗平鬼傳",
+          "author": "東山雲中道人",
+          "subcategory": "小說家（神魔）",
+          "chapters": 16,
+          "source": "Project Gutenberg #27329",
+          "path": "data/books/tang-zhongkui-pinggui-zhuan.json"
         }
       ]
     },
     {
       "name": "集部",
-      "books": []
+      "books": [
+        {
+          "key": "changhen-ge",
+          "book": "長恨歌",
+          "author": "白居易",
+          "subcategory": "詩",
+          "chapters": 1,
+          "source": "Project Gutenberg #25352",
+          "path": "data/books/changhen-ge.json"
+        },
+        {
+          "key": "luoshen-fu",
+          "book": "洛神賦",
+          "author": "曹植",
+          "subcategory": "賦",
+          "chapters": 1,
+          "source": "Project Gutenberg #24041",
+          "path": "data/books/luoshen-fu.json"
+        },
+        {
+          "key": "pipa-ji",
+          "book": "琵琶記",
+          "author": "高明",
+          "subcategory": "戲曲",
+          "chapters": 42,
+          "source": "Project Gutenberg #25246",
+          "path": "data/books/pipa-ji.json"
+        },
+        {
+          "key": "longchuan-ci",
+          "book": "龍川詞",
+          "author": "陳亮",
+          "subcategory": "詞",
+          "chapters": 1,
+          "source": "Project Gutenberg #26873",
+          "path": "data/books/longchuan-ci.json"
+        }
+      ]
     },
     {
       "name": "近現代文學",
@@ -239,6 +484,15 @@
           "chapters": 1,
           "source": "Project Gutenberg #25297",
           "path": "data/books/kuangren-riji.json"
+        },
+        {
+          "key": "huyu-kailu",
+          "book": "滬語開路",
+          "author": "柯羅福特、羅林森",
+          "subcategory": "語言讀本",
+          "chapters": 1,
+          "source": "Project Gutenberg #62791",
+          "path": "data/books/huyu-kailu.json"
         }
       ]
     }
