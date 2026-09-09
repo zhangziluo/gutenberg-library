@@ -1,0 +1,971 @@
+﻿The Project Gutenberg EBook of Cai Gen Tan, by Zi Cheng Hong
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: Cai Gen Tan
+
+Author: Zi Cheng Hong
+
+Release Date: December 27, 2007 [EBook #24050]
+
+Language: Chinese
+
+Character set encoding: UTF-8
+
+*** START OF THIS PROJECT GUTENBERG EBOOK CAI GEN TAN ***
+
+
+
+
+Produced by Kai Hong Fang
+
+
+
+
+
+菜根譚
+
+明 洪自誠 著
+
+棲守道德者，寂寞一時；依附權勢者，淒涼萬古。故達人觀物外之物，思身後之身，寧
+受一時之寂寞，毋取萬古之淒涼。
+
+涉世淺，點染亦淺；歷事深，機械亦深。故君子與其練達，不若樸魯；與其曲謹，不若
+疏狂。
+
+君子之心事，天青日白，不可使人不知。君子之才華，玉韞珠藏，不可使人易知。
+
+勢利紛華，不近者為潔，近之而不染者為尤潔；智巧機械，不知者為高，知之而不用者
+為尤高。
+
+耳中常聞逆耳之言，心中常有拂心之事，纔是進德修行的砥石。若言言悅耳，事事快心
+，便把此生埋在鴆毒中矣。
+
+怒雨疾風，禽鳥戚戚；光風霽日，草木欣欣。可見天地不可一日無和氣，人心不可一日
+無喜神。
+
+醲肥辛甘非真味，真味只是淡；神奇卓異非至人，至人只是常。
+
+天地寂然不動，而氣機無一息少停；日月晝夜奔馳，而貞明則萬古不易。故君子閒時要
+有喫緊的心思，忙處要有悠閒的趣味。
+
+夜深人靜，獨坐觀心，始覺妄窮而真獨露，每於此中得大機趣；既覺真現而妄難逃，又
+於此中得大慚忸。
+
+恩裏由來生害，故快意時，須早回頭；敗後或反成功，故拂心處，莫便放手。
+
+藜口莧腸者，多冰玉清潔；袞衣玉食者，甘婢膝奴顏。蓋志以澹泊明，而節從肥甘喪也
+。
+
+面前的田地要放得寬，使人無不平之歎；身後的惠澤要流得長，使人有不匱之思。
+
+徑路窄處，留一步與人行；滋味濃的，減三分讓人嗜。此是涉世一極安樂法。
+
+作人無甚高遠事業，擺脫得俗情，便入名流；為學無甚增益工夫，減除得物累，便超聖
+境。
+
+交友須帶三分俠氣，做人要存一點素心。
+
+寵利毋居人前，德業毋落人後；受享毋踰分外，修為毋減分中。
+
+處世讓一步為高，退步即進步的張本；待人寬一分是福，利人實利己的根基。
+
+蓋世功勞，當不得一個矜字；彌天罪過，當不得一個悔字。
+
+完名美節，不宜獨任，分些與人，可以遠害全身；辱行污名，不宜全推，引些歸己，可
+以韜光養德。
+
+事事留個有餘不盡的意思，便造物不能忌我，鬼神不能損我。若業必求滿，功必求盈者
+，不生內變，必召外憂。
+
+家庭有個真佛，日用有種真道。人能誠心和氣，愉色婉言，使父母兄弟間，形骸兩釋，
+意氣交流，勝於調息觀心萬倍矣。
+
+好動者，雲電風燈；嗜寂者，死灰槁木。須定雲止水中，有魚躍鳶飛氣象，纔是有道的
+心體。
+
+攻人之惡，毋太嚴，要思其堪受；教人之善，毋過高，當使其可從。
+
+糞蟲至穢，變為蟬而飲露於秋風；腐草無光，化為螢而耀採於夏月。固知潔常自污出，
+明每從晦生也。
+
+矜高倨傲，無非客氣，降伏得客氣下，而後正氣伸；情欲意識，盡屬妄心，消殺得妄心
+盡，而後真心現。
+
+飽後思味，則濃淡之境都消；色後思淫，則男女之見盡絕。故人常以事後之悔悟，破臨
+事之癡迷，則性定而動無不正。
+
+居軒冕之中，不可無山林的氣味；處林泉之下，須要懷廊廟的經綸。
+
+處世不必邀功，無過便是功；與人不求感德，無怨便是德。
+
+憂勤是美德，太苦則無以適性怡情；澹泊是高風，太枯則無以濟人利物。
+
+人至事窮勢蹙，宜原其初心；士當行滿功成，要觀其末路。
+
+富貴家宜寬厚，而反忌刻，是富貴而貧賤其行矣，如何能享？聰明人宜斂藏，而反炫耀
+，是聰明而愚懵其病矣，如何不敗？
+
+居卑而後知登高之為危，處晦而後知向明之太露；守靜而後知好動之過勞，養默而後知
+多言之為躁。
+
+放得功名富貴之心下，便可脫凡；放得道德仁義之心下，纖可入聖。
+
+利慾未盡害心，意見乃害心之蟊賊；聲色未必障道，聰明乃障道之藩屏。
+
+人情反覆，世路崎嶇。行不去處，須知退一步之法；行得去處，務加讓三分之功。
+
+待小人，不難於嚴，而難於不惡；待君子，不難於恭，而難於有禮。
+
+寧守渾噩而黜聰明，留些正氣還天地；寧謝紛華而甘澹泊，遺個清名在乾坤。
+
+降魔者，先降自心，心伏，則群邪退聽；馭橫者，先馭此氣，氣平，則外橫不侵。
+
+教弟子，如養閨女，最要嚴出入，謹交遊。若一接近匪人，是清淨田中，下一不淨種子
+，便終身難植嘉禾矣。
+
+慾路上事，毋樂其便而姑為染指，一染指便深入萬仞；理路上事，無憚其難而稍為退步
+，一退步便遠隔千山。
+
+念頭濃者，自待厚，待人亦厚，處處皆濃；念頭淡者，自待薄，待人亦薄，處處皆淡。
+故君子居常嗜好，不可太濃豔，亦不宜太枯寂。
+
+彼富我仁，彼爵我義，君子固不為君相所牢籠；人定勝天，志壹動氣，君子亦不受造物
+之陶鑄。
+
+立身不高一步立，如塵裏振衣，泥中濯足，如何超達；處世不退一步處，如飛蛾投燭，
+羝羊觸藩，如何安樂。
+
+學者要收拾精神，併歸一路。如修德而留意於事功名譽，必無實詣；讀書而寄興於吟詠
+風雅，定不深心。
+
+人人有個大慈悲，維摩屠劊無二心也；處處有種真趣味，金屋茅簷非兩地也。只是慾蔽
+情封，當面錯過，便咫尺千里矣。
+
+進德修道，要個木石的念頭，若一有欣羨，便趨慾境；濟世經邦，要段雲水的趣味，若
+一有貪著，便墮危機。
+
+吉人無論作用安詳，即夢寐神魂，無非和氣；凶人無論行事狠戾，即聲音笑貌，渾是殺
+機。
+
+肝受病，則目不能視；腎受病，則耳不能聽；病受於人所不見，必發於人所共見。故君
+子欲無得罪於昭昭，先無得罪於冥冥。
+
+福莫福於少事，禍莫禍於多心。唯苦事者，方知少事之為福；唯平心者，始知多心之為
+禍。
+
+處治世宜方，處亂世宜圓，處叔季之世，當方圓並用；待善人宜寬，待惡人宜嚴，待庸
+眾之人，當寬嚴互存。
+
+我有功於人不可念，而過則不可不念；人有恩於我不可忘，而怨則不可不忘。
+
+施恩者，內不見己，外不見人，則鬥粟可當萬鍾之惠；利物者，計己之施，責人之報，
+雖百鎰難成一文之功。
+
+人之際遇，有齊有不齊，而能使己獨齊乎？己之情理，有順有不順，而能使人皆順乎？
+以此相觀對治，亦是一方便法門。
+
+心地清淨，方可讀書學古。不然，見一善行，竊以濟私，聞一善言，假以覆短，是又藉
+寇兵而齎盜糧矣。
+
+奢者富而不足，何如儉者貧而有餘；能者勞而府怨，何如拙者逸而全真。
+
+讀書不見聖賢，為鉛槧傭；居官不愛子民，為衣冠盜；講學不尚躬行，為口頭禪；立業
+不思種德，為眼前花。
+
+人心有一部真文章，都被殘編斷簡封錮了；有一部真鼓吹，都被妖姬豔舞湮沒了。學者
+須掃除外物，直覓本來，纔有個真受用。
+
+苦心中，常得悅心之趣；得意時，須防失意之悲。
+
+富貴名譽，自道德來者，如山林中花，自是舒餘繁衍；自功業來者，如盆檻中花，便有
+遷徙廢興；若以權力得者，如瓶鉢中花，其根不值，其萎可立而待矣。
+
+春至時和，花尚舖一段好色，鳥且囀幾句好音。士君子幸值清時，復遇溫飽，不思立好
+言，行好事，雖是在世百年，恰似未生一日。
+
+學者有段競業的心思，又要有段瀟灑的趣味。若一味斂束清苦，是有秋殺，無春生，何
+以發育萬物。
+
+真廉無廉名，圖名者正所以為貪；大巧無巧術，用術者乃所以為拙。
+
+欹器以滿覆，撲滿以空全。故君子寧居無不居有，寧處缺不處完。
+
+名根未拔者，縱輕千乘甘一瓢，總墮塵情；客氣未融者，雖澤四海利萬世，終為賸技。
+
+心體光明，暗室中有青天；念頭暗昧，白日下生厲鬼。
+
+人知名位為樂，不知無名無位之樂為最真；人知飢寒為憂，那知不飢不寒之憂為更甚。
+
+為惡而畏人知，惡中猶有善路；為善而急人知，善處即是惡根。
+
+天之機緘不測。抑而伸，伸而抑，皆是播弄英雄，顛倒豪傑處。君子只是逆來順受，居
+安思危，天亦無所施其技倆矣。
+
+燥性者火熾，遇物則焚；寡恩者冰清，逢物必殺；凝滯固執者，如死水腐木，生機已絕
+。俱難建功業而延福祇。
+
+福不可邀，養喜神，以為召福之本而已；禍不可避，去殺機，以為遠禍之方而已。
+
+十語九中，未必稱奇，一語不中，則愆尤駢集；十謀九成，未必歸功，一謀不成，則訾
+議叢興。君子所以寧默毋躁，寧拙毋巧。
+
+天地之氣，暖則生，寒則殺。故性氣清冷者，受享亦涼薄。唯和氣熱心之人，其福亦厚
+，其澤亦長。
+
+天理路上甚寬，稍游心，胸中便覺高明廣大；人欲路上甚窄，纔寄跡，眼前俱是荊棘泥
+塗。
+
+一苦一樂相磨鍊，鍊極而成福者，其福始久；一疑一信相參勘，勘極而成知者，其知始
+真。
+
+心不可不虛，虛則義理來居；心不可不實，實則物欲不入。
+
+地之穢者多生物，水之清者常無魚。故君子當存含垢納污之量，不可持好潔獨行之操。
+
+泛駕之馬可就馳驅，躍冶之金終歸型範。只一優游不振，便終身無個進步。白沙雲：
+「為人多病未足羞，一生無病是吾憂。」真確論也。
+
+人只一會貪私，便銷剛為柔，塞智為昏，變恩為慘，染潔為污，壞了一生人品。故古人
+以不貪為寶，所以度越一世。
+
+耳目聞見為外賊，情欲意識為內賊。只是主人翁惺惺不昧，獨坐中堂，賊便化為家人矣
+
+圖未就之功，不如保已成之業；悔既往之失，不如防將來之非。
+
+氣象要高曠，而不可疏狂；心思要縝密，而不可瑣屑；趣味要沖澹，而不可偏枯；操守
+要嚴明，而不可激烈。
+
+風來疏竹，風過而竹不留聲；雁度寒潭，雁去而潭不留影。故君子事來而心始現，事去
+而心隨空。
+
+清能有容，仁能善斷；明不傷察，直不過矯。是謂蜜餞不甜，海味不鹹，纔是懿德。
+
+貧家淨掃地，貧女淨梳頭，景花雖不豔麗，氣度自是風雅。士君子一當窮愁寥落，奈何
+輒自廢弛哉。
+
+閒中不放過，忙處有受用；靜中不落空，動處有受用；暗中不欺隱，明處有受用。
+
+念頭起處，纔覺向慾路上去，便輓從理路上來。一起便覺，一覺便轉，此是轉禍為福，
+起死回生的關頭，切莫輕易放過。
+
+靜中念慮澄澈，見心之真體；閒中氣象從容，識心之真機；淡中意趣沖夷，得心之真味
+。觀心證道，無如此三者。
+
+靜中靜非真靜，動處靜得來，纔是性天之真境；樂纔樂非真樂，苦中樂得來，纔見心體
+之真機。
+
+捨己毋處其疑，處其疑，即所舍之志多愧矣；施人無責其報，責其報，並所施之心俱非
+矣。
+
+天薄我以福，吾厚吾德以迓之；天勞我以形，吾逸吾心以補之；天阨我以遇，吾亨吾道
+以通之。天且奈我何哉。
+
+貞士無心徼福，天即就無心處牖其衷；憸人著意避禍，天即就著意中奪其魄。可見天之
+機權最神，人之智巧何益。
+
+聲妓晚歲從良，一世之煙花無礙；貞婦白頭失守，半生之消苦俱非。語雲：「看人只看
+後半截。」真名言也。
+
+平民肯種德施惠，便是無位的公相；士夫徒貪權市寵，竟成有爵的乞人。
+
+問祖宗之德澤，吾身所享者是，當念其積累之難；問子孫之福祉，吾身所貽者是，要思
+其傾覆之易。
+
+君子而詐善，無異小人之肆惡；君子而改節，不及小人之自新。
+
+家人有過，不宜暴怒，不宜輕棄。此事難言，借他事隱諷之；今日不悟，俟來日再警之
+。如春風解凍，如和氣消冰，纔是家庭的型範。
+
+此心常看得圓滿，天下自無缺憾之世界；此心常放得寬平，天下自無險側之人情。
+
+澹泊之士，必為濃豔者所疑；檢飾之人，多為放肆者所忌。君子處此，固不可少變其操
+履，亦不可露其鋒芒。
+
+居逆境中，周身皆鍼砭藥石，砥節勵行而不覺；處順境內，滿前盡兵刃戈矛，銷膏糜骨
+而不知。
+
+生長富貴叢中的，嗜慾如猛火，權勢如烈燄。若不帶些清冷氣味，其火燄若不焚人，必
+將自爍矣。
+
+人心一真，便霜可飛，城可摧，金石可貫。若偽妄之人，行骸徒具，真己已亡，對人則
+面目可憎，獨居則形影自媿。
+
+文章做到極處，無有他奇，只是恰好；人品做到極處，無有他異，只是本然。
+
+以幻跡言，無論功名富貴，即肢體亦屬委形；以真境言，無論父母兄弟，即萬物皆吾一
+體。人能看得破，認得真，纔可以任天下之負擔，亦可脫世間之韁鎖。
+
+爽口之味，皆爛腸腐骨之藥，五分便無殃；快心之事，悉敗身喪德之媒，五分便無悔。
+
+不責人小過，不發人陰私，不念人舊惡。三者可以養德，亦可以遠害。
+
+士君子持身不可輕，輕則物能撓我，而無悠閑鎮定之趣；用意不可重，重則我為物泥，
+而無瀟灑活潑之機。
+
+天地有萬古，此身不再得；人生只百年，此日最易過。幸生其間者，不可不知有生之樂
+，亦不可不懷虛生之憂。
+
+怨因德彰，故使人德我，不若德怨之兩忘；仇因恩立，故使人知恩，不若恩仇之俱泯。
+
+老來疾病，都是壯時招的；衰後罪孽，都是盛時作的。故持盈履滿，君子尤兢兢焉。
+
+市私恩，不如扶公議；結新知，不如敦舊好；立榮名，不如種隱德；尚奇節，不如謹庸
+行。
+
+公道正論，不可犯手，一犯，則貽羞萬世；權門私竇，不可著腳，一著，則點汗終身。
+
+曲意而使人喜，不若直躬而使人忌；無善而致人譽，不若無惡而致人毀。
+
+處父兄骨肉之變，宜從容，不宜激烈；遇朋友交遊之失，宜剴切，不宜優游。
+
+小處不滲漏，暗處不欺隱，末路不怠荒，纔是個真正英雄。
+
+千金難結一時之歡，一飯竟致終身之感。蓋愛重反為仇，薄極反成喜也。
+
+藏巧於拙，用晦而明，寓清之濁，以屈為伸，真涉世之一壺，藏身之三窟也。
+
+衰颯的景象，就在盛滿中；發生的機緘，即在零落內。故君子居安，宜操一心以慮患；
+處變，當堅百忍以圖成。
+
+驚奇喜異者，無遠大之識；苦節獨行者，非恆久之操。
+
+當怒火慾水正騰沸處，明明知得，又明明犯著。知的是誰，犯的又是誰，此處能猛然轉
+念，邪魔便為真君矣。
+
+毋偏信而為姦所欺，毋自任而為氣所使。毋以己之長而形人之短，毋因己之拙而忌人之
+能。
+
+人之短處，要曲為彌縫，如暴而揚之，是以短攻短；人有頑的，要善為化誨，如忿而疾
+之，是以頑濟頑。
+
+遇沈沈不語之士，且莫輸心；見悻悻自好之人，尤須防口。
+
+念頭昏散處，要知提醒；念頭喫緊時，要知放下。不然恐去昏昏之病，又來憧憧之擾矣
+。
+
+霽日青天，倏變為迅雷震電；疾風怒雨，倏轉為朗月晴空。氣機何嘗有一毫凝滯，太虛
+何嘗有一毫障塞，人之心體，亦當如是。
+
+勝私制慾之功，有曰識不早，力不易者，有曰識得破，忍不過者。蓋識是一顆照魔的明
+珠，力是一把斬魔的慧劍，兩不可少也。
+
+覺人之詐，不形於言；受人之侮，不動於色。此中有無窮意味，亦有無窮受用。
+
+橫逆困窮是煅煉豪傑的一副鑪錘，能受其煅煉，則身心交益，不受其煅煉，則身心交損
+。
+
+吾身一小天地也，使喜怒不愆，好惡有則，便是燮理的工夫；天地一大父母也，使民無
+怨咨，物無氛疹，亦是敦睦的氣象。
+
+害人之心不可有，防人之心不可無，此戒疏於慮也；寧受人之欺，毋逆人之詐，此儆傷
+於察也；二語並存，精明而渾厚矣。
+
+毋因群疑而阻獨見，毋任己意而廢人言，毋私小惠而傷大體，毋借公論以快私情。
+
+善人未能急親，不宜預揚，恐來讒譖之姦；惡人未能輕去，不宜先發，恐遭媒孽之禍。
+
+青天白日的節義，自暗室屋漏中培來；旋乾轉坤的經綸，自臨深履薄處繅出。
+
+父慈子孝，兄友弟恭，縱做到極處，俱是合當如此，著不得一毫感激的念頭。如施者任
+德，受者懷恩，便是路人，便成市道矣。
+
+有妍必有醜為之對，我不誇妍，誰能醜我；有潔必有污為之仇，我不好潔，誰能污我。
+
+炎涼之態，富貴更甚於貧賤；妒忌之心，骨肉尤狠於外人。此處若不當以冷腸，御以平
+氣，鮮不日坐煩惱障中矣。
+
+功過不容少混，混則人懷惰墮之心；恩仇不可太明，明則人起攜貳之志。
+
+爵位不宜太盛，太盛則危；能事不宜盡畢，盡畢則衰；行誼不宜過高，過高則謗興而毀
+來。
+
+惡忌陰，善忌陽，故惡之顯者禍淺，而隱者禍深；善之顯者功小，而隱者功大。
+
+德者才之主，才者德之奴。有才無德，如家無主而奴用事矣，幾何不魍魎猖狂。
+
+鋤姦杜倖，要放他一條去路。若使之一無所容，譬如塞鼠穴者，一切去路都塞盡，則一
+切好物俱咬破矣。
+
+當與人同過，不當與人同功，同功則相忌；可與人共患難，不可與人共安樂，安樂則相
+仇。
+
+士君子，貧不能濟物者，遇人癡迷處，出一言提醒之；遇人急難處，出一言解救之，亦
+是無量功德。
+
+飢則附，飽則颺；燠則趨，寒則棄，人情通患也。
+
+君子宜淨拭冷眼，慎毋輕動剛腸。
+
+德隨量進，量由識長。故欲厚其德，不可不弘其量；欲弘其量，不可不大其識。
+
+一鐙熒然，萬籟無聲，此吾人初入宴寂時也；曉夢初醒，群動未起，此吾人初出混沌處
+也。乘此而一念迴光，炯然返照，始知耳目口鼻皆桎梏，而情慾嗜好悉機械矣。
+
+反己者，觸事皆成藥石；尤人者，動念即是戈矛。一以闢眾善之路，一以導諸惡之源，
+相去霄壤矣。
+
+事業文章隨身銷毀，而精神萬古如新；功名富貴逐世轉移，而氣節千載一日。君子信不
+當以彼易此也。
+
+魚網之設，鴻則罹其中；螳螂之貪，雀又乘其後。機裏藏機，變外生變，智巧何足恃哉
+。
+
+作人無點真懇念頭，便成個花子，事事皆虛；涉世無段圓活機趣，便是個木人，處處有
+礙。
+
+水不波則自定，鑑不翳則自明，故心無可清，去其混之者，而清自現；樂不必尋，去其
+苦之者，而樂自存。
+
+有一念犯鬼神之禁，一言而傷天地之和，一事而釀子孫之禍者，最宜切戒。
+
+事有急之不白者，寬之或自明，毋躁急以速其忿；人有操之不從者，縱之或自化，毋操
+切以益其頑。
+
+節義傲青雲，文章高白雪，若不以性情陶鎔之，終為血氣之私，技能之末。
+
+謝事當謝於正盛之時，居身宜居於獨後之地。
+
+謹德須謹於至微之事，施恩務施於不報之人。
+
+交市人，不如友山翁；謁朱門，不如親白屋；聽街談巷語，不如聞牧唱樵歌；談今人失
+
+德過差，不如述古人嘉言懿行。
+
+德者事業之基，未有基不固而棟宇堅久者。
+
+心者後嗣之本，未有本不立而枝葉茂榮者。
+
+前人雲：「拋卻自家無盡藏，沿門持鉢效貧兒。」又雲：「暴富貧兒休說夢，誰家竈裏
+火無煙？」一箴自昧所有，一箴自誇所有，可為學人切戒。
+
+道是一重公眾物事，當隨人而接引。學是一個尋常家飯，當隨事而講求。
+
+信人者，人未必盡誠，己則獨誠矣；疑人者，人未必皆詐，己則先詐矣。
+
+念頭寬厚的，如春風煦育，萬物遭之而生；念頭忌刻的，如朔雪陰凝，萬物遭之而死。
+
+為善不見其益，如草裏東瓜，自應暗長；為惡不見其損，如庭前春雪，勢必潛消。
+
+遇故舊之交，意氣要愈新；處隱微之地，心跡宜愈顯；待衰朽的輩，恩禮當愈隆。
+
+勤者敏於德義，而世人借勤以濟其貧；儉者淡於貨利，而世人假儉以飾其吝。君子持身
+之符，反為小人營私之具矣。惜哉。
+
+憑意興作為者，隨作則隨止，豈是不退之車輪；從情識解悟者，有悟則有迷，終非常明
+之燈燭。
+
+人之過誤宜恕，而在己則不可恕；己之困辱宜忍，而在人則不可忍。
+
+能脫俗便是奇，作意尚奇者，不為奇而為異；不合污便是清，矯情求清者，不為清而為
+激。
+
+恩宜自淡而濃，先濃後淡者，人忘其惠；威宜自嚴而寬，先寬後嚴者，人怨其酷。
+
+心虛則性現，不息心而求見性，如撥波覓月；意淨則心清，不了意而求明心，如索鏡增
+塵。
+
+我貴而人奉之，奉此峨冠大帶也；我賤而人侮之，侮此布衣草履也。然則原非奉我，我
+胡為喜？原非侮我，我胡為怒？
+
+「為鼠常留飯，憐蛾不點燈」，古人此等念頭，今人學之，便是一點生生之機。無此，
+便所謂土木形骸而已。
+
+心體便是天體，一念之喜，景星慶雲；一念之怒，震雷暴雨；一念之慈，和風甘露；一
+念之嚴，烈日秋霜；何者所感，只要隨起隨滅，廓然無礙，便與太虛同體。
+
+無事時，心易昏昧，宜寂寂而照以惺惺；有事時，心易奔逸，宜惺惺以而主以寂寂。
+
+議事者，身在事外，宜悉利害之情；任事者，身居事中，當絕利害之慮。
+
+士君子處權門要路，操履要嚴明，心氣要和易，毋詭隨而陷腥羶之黨，亦毋矯激而忘蜂
+蠆之危。
+
+標節義者，必以節義受謗；榜道學者，常因道學招尤；故君子不近惡事，亦不立善名，
+只要和氣渾然，纔是居身之寶。
+
+遇欺詐的人，以誠心感動之；遇暴戾的人，以和氣薰蒸之；遇傾邪私曲的人，以名義氣
+節激礪之；天下之人，無不入我陶冶中矣。
+
+一念慈祥，可以醞釀兩間和氣；寸心潔白，可以昭垂百代清芬。
+
+陰謀怪習，異行奇能，俱是涉世的禍胎。殺身的利器，只一個庸德庸行，便可以完混沌
+而召和平。
+
+語雲：「登山耐側路，踏雪耐危橋。」一耐字極有意味。如傾險之人情，坎坷之世道，
+若不得一耐字撐持過去，幾何不墮入榛莽坑塹哉。
+
+誇逞功業，炫耀文章，皆是靠外物做人。不知心體瑩然，本來不失，即無寸功隻字，亦
+自有堂堂正正做人處。
+
+忙裏要偷閑，須先向閑時討個把柄；鬧中要取靜，須先從靜裏立個根基；不然，未有不
+因境而遷，隨時而靡者。
+
+不昧己心，不盡人情，不竭物力；三者可以為天地立心，為生民立命，為子孫造福。
+
+居官有二語，曰：「惟公則生明，惟廉則生威。」居家有二語，曰：「惟恕則情平，惟
+儉則用足。」
+
+處富貴之地，要知貧賤的痛癢；當少壯之時，須念衰老的辛酸。
+
+持身不可太皎潔，一切污辱垢穢，要茹納些；與人不可太分明，一切善惡賢愚，要包容
+得。
+
+休與小人仇讎，小人自有對頭；休向君子諂媚，君子原無私惠。
+
+縱欲之病可醫，而執理之病難醫；事物之障可除，而義理之障難除。
+
+磨礪當如百煉之金，急就者，必非邃養；施為宜似千鈞之弩，輕發者，決無宏功。
+
+寧為小人所忌毀，毋為小人所媚悅；寧為君子所責備，毋為君子所包容。
+
+好利者，軼出於道義之外，其害顯而淺；好名者，竄入於道義之中，其害隱而深。
+
+受人之恩，雖深不報，怨則淺亦報之；聞人之惡，雖隱不疑，善則顯亦疑之。此刻之極
+，薄之尤也，宜切戒之。
+
+讒夫毀士，如寸雲蔽日，不久自明；媚子阿人，似隙風侵肌，無疾亦損。
+
+山之高峻處無木，而谿谷迴環則草木叢生；水之湍急處無魚，而淵潭停蓄則魚鼈聚集。
+
+此高絕之行，褊急之衷，君子重有戒焉。
+
+建功立業者，多圓融之士；僨事失機者，必執拗之人。
+
+處世不必與俗同，亦不宜與俗異；作事不必令人喜，亦不可令人憎。
+
+日既暮而猶煙霞絢爛，歲將晚而更橙橘芳馨。故末路晚年，君子更宜精神百倍。
+
+鷹立如睡，虎行似病，正是他攫鳥噬人法術。故君子要聰明不露，才華不逞，纔有任重
+道遠的力量。
+
+儉，美德也，過儉則為慳吝，為鄙嗇，反傷雅道；讓，懿行也，過讓則為足恭，為曲謹
+，多出機心。
+
+毋憂拂意，毋喜快心，毋恃久安，毋憚初難。
+
+宴飲之樂多，不是個好人家；聲華之習勝，不是個好士子；名位之念重，不是個好臣工
+。
+
+世人以心愜處為樂，卻被樂心引入苦處；達士以心拂處為樂，終由苦心換得樂來。
+
+居盈滿者，如水之將溢未溢，切忌再加一滴；處危急者，如木之將折未折，切忌再加一
+搦。
+
+冷眼觀人，冷耳聽語，冷情當感，冷心思理。
+
+仁人心地寬舒，便福厚而慶長，事事成個寬舒氣象；鄙夫念頭迫促，便福薄而澤短，事
+事得個迫促規模。
+
+聞惡不可就惡，恐為讒夫洩怒；聞善不可急親，恐引姦人進身。
+
+性躁心粗者，一事無成；心和氣平者，百福自集。
+
+用人不宜刻，刻則思效者去；交友不宜濫，濫則貢諛者來。
+
+風斜雨急處，要立得腳定；花濃柳豔處，要著得眼高；路危徑險處，要回得頭早。
+
+節義之人濟以和衷，纔不啟忿爭之路；功名之士承以謙德，方不開嫉妒之門。
+
+士大夫居官，不可竿牘無節，要使人難見，以杜倖端；居鄉不可崖岸太高，要使人易見
+，以敦舊好。
+
+大人不可不畏，畏大人則無放逸之心；小民亦不可不畏，畏小民則無豪橫之習。
+
+事稍拂逆，便思不如我的人，則尤怨自消；心稍怠荒，便思勝似我的人，則精神自奮。
+
+不可乘喜而輕諾，不可因醉而生嗔，不可乘快而多事，不可因倦而鮮終。
+
+善讀書者，要讀到手舞足蹈處，方不落筌蹄；善觀物者，要觀到心融神洽時，方不泥跡
+象。
+
+天賢一人，以誨眾人之愚，而世反逞其所長，以形人之短；天富一人，以濟眾人之困，
+而世反挾其所有，以凌人之貧。真天之戮民哉。
+
+至人何思何慮，愚人不識不知，可與論學亦可與建功。唯中材的人，多一番思慮知識，
+便多一番臆度猜疑，事事難與下手。
+
+口乃心之門，守口不密，洩盡真機；意乃心之足，防意不嚴，走盡邪蹊。
+
+責人者，原無過於有過之中，則情平；責己者，求有過於無過之內，則德進。
+
+赤子者，大人之胚胎；秀才者，宰相之基礎。此時若火力不到，陶鑄不純，他日涉世立
+朝，終難成個令器。
+
+君子處患難而不憂，當宴遊而益加惕慮；遇權豪而不懼，對惸獨而反若驚心。
+
+桃李雖豔，何如松蒼柏翠之堅貞；梨杏雖甘，何如橘綠橙黃之馨冽。信乎，濃夭不及淡
+久，早秀不如晚成也。
+
+風恬浪靜中，見人生之真境；味淡聲希處，識心體之本然。
+
+
+
+
+
+
+End of the Project Gutenberg EBook of Cai Gen Tan, by Zi Cheng Hong
+
+*** END OF THIS PROJECT GUTENBERG EBOOK CAI GEN TAN ***
+
+***** This file should be named 24050-0.txt or 24050-0.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.org/2/4/0/5/24050/
+
+Produced by Kai Hong Fang
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, is critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including checks, online payments and credit card donations.
+To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

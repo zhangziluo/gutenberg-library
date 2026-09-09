@@ -1,0 +1,835 @@
+﻿The Project Gutenberg EBook of Bao Po Zi, by Hong Ge
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+
+Title: Bao Po Zi
+
+Author: Hong Ge
+
+Release Date: June 4, 2008 [EBook #25696]
+
+Language: Chinese
+
+Character set encoding: UTF-8
+
+*** START OF THIS PROJECT GUTENBERG EBOOK BAO PO ZI ***
+
+
+
+
+Produced by Wang Yu Min
+
+
+
+
+《抱朴子》
+
+ 「 抱朴子曰：命之修短，實由所值，受氣結胎，各有星宿。天道無為，任物
+自然，無親無疏，無彼無此也。命屬生星，則其人必好仙道，求之亦必得也。
+命屬死星，則其人亦不信仙道，不信仙道，則亦不自修其事。所樂善否，判於
+所稟，移易予奪，非天所能。」
+
+
+
+《抱朴子‧塞難》
+      「按《仙經》以為諸得仙者，皆其壽命偶值神仙之氣，自然所稟。故胞
+胎之中，已含信道之性，即其有識，則心好其事，必招明師而其法，不然，則
+不信不求，求亦不得也。」《抱朴子‧辯問》
+      「《玉鈐經》主命原曰：人之吉凶，制在結胎受氣之日，皆上得列宿之
+精。其值聖宿則聖，值賢宿則賢，值文宿則文，值武宿則武，值富宿則富，值
+賤宿則賤，值貧宿則貧，值壽宿則壽，值仙宿則仙。…為人生本有定命，張車
+子之說是也。苟不受神仙之命，則必無好仙之心…此豈非天命之所使然乎。」
+
+
+
+《抱朴子‧辯問》
+      「 按《易內戒》、《赤松子經》、《河圖記命符》皆云：天地有司過
+之神，隨人所犯輕重，以奪其算，算減則人貧耗疾病，屢逢憂患，算盡則人死
+，諸應奪算者有數百事，不可具論。又言身中有三尸，…欲使人早死，此尸當
+得作鬼，自放縱游行。享人祭酹。是以每到庚辛之日，則上天白司命，道人所
+為過失…。」
+
+
+《抱朴子‧微旨》
+      「但有惡心而無惡跡者奪算，而惡事而損於人者奪紀，若算紀未盡而自
+死者，皆殃及子孫也。」
+
+
+
+《抱朴子‧微旨》
+      「 仙法欲靜寂無為…，仙法欲令愛逮蠢蠕…，仙法欲止絕臭腥…，仙
+法欲溥愛八方…彼二主徒有好仙之名，而無修道之實，所知淺事，不能悉行。
+要妙深秘，又不得聞。又不得有道之士，為和成仙藥已與之。」
+
+
+
+《抱朴子‧論仙》
+     「 抱朴子曰：要道不煩，所為鮮耳。但患志之不立，信之不篤，何憂於
+人理之廢乎？」
+
+
+
+《抱朴子‧釋滯》
+     「 故曰非長生難也，聞道難也；非聞道難也，行之難也；非行之難也，
+終之難也。」
+
+
+
+《抱朴子‧極言》
+      「 抱朴子曰：天地之大德曰「生」，好物者也。是以道家之所致秘而重者
+，莫過乎長生之方。故血盟乃傳，傳非其人，戒在先罰。先師不敢以輕易受人
+，須人求知至勤者，…求之不篤者，安可炫其沽以告之在？。」
+
+
+
+《抱朴子‧勤求》
+      「 抱朴子曰：欲求神仙，為當得其至要。至要者在於寶精、行氣、服
+一大藥便足，亦不用多也。然此三事，復有深淺，不值明師，不經勤苦，亦不
+可倉促而近知也。」
+
+
+
+《抱朴子‧釋滯》
+      「或得要道之訣，或值不群之師，而猶恨於老妻弱子……愛習之情卒難
+遣，而絕俗之志未易果。」
+
+
+《抱朴子‧論仙》
+  「承師問道，不得其人，委去則遲遲冀於有獲，守以施己竟無所成，須費是
+妨功，後雖痛悔，亦不及已。事閒淺進之事由不可坐知，況神仙之事乎？雖聖
+雖明，莫猶自曉，非可以歷思得也，非可以觸類求也。誠須所師，必深必博，
+…所從學者，不得遠識淵潭之門而值孤陋寡聞之人，彼所知素狹源短流促，倒
+裝與人則不捨，分損以授，則淺薄無其能，其所寶宿已不精，若復料者以教人
+，亦安能有所成？」
+
+
+《抱朴子‧祛惑》
+      「或問曰：「為道者當先立功德，審然否？」抱朴子答曰：有之。按
+
+
+《玉鈐經‧中篇》
+云：立功為上，除過次之，…欲求仙者，要當以忠孝和順仁信為本。若德行
+不修，而但務方術，皆不得長生也。行惡事大者，司命奪記…又云：人欲地
+仙，當立善三百；欲天仙，立千二百善。若有千一百九十九善，而忽復中行
+一惡，則盡失前善，乃當復更善數耳。…又云：積善未滿，雖服仙藥，亦無
+益也。」
+
+
+
+《抱朴子‧對俗》
+     「然覽諸道戒，無不云欲求長生者，必欲積善立功，慈心於物，恕己及
+人…如此乃為有德，受福於天，所作必成，求仙可冀也。」
+
+
+《抱朴子‧微旨》
+      「 或曰：審其神仙可以學致，翻然凌霄，背俗離世，蒸嘗之禮，莫知
+修奉，先鬼有之，其不餓乎！」抱朴子曰：蓋聞身體不傷，為之終孝，況得
+仙道…，先鬼有知，將蒙我榮，…然則今之學仙者，自皆有子弟，以成祭祀
+，祭祀之事，何緣便絕。」
+
+
+ 《抱朴子‧對俗》
+      「 抱朴子曰：聞先師云：仙人或升天，或住地，要於具長生，去留各
+從其所好耳。…彭祖言：天上多尊官大神，新仙者為卑所奉事者非一，但更勞
+苦。故不足役役於登天，而只人間八百餘年也。」
+
+
+ 《抱朴子‧對俗》
+      「抱朴子曰：余考覽養生之書，鳩集久視之方，…莫不皆以還丹金液為
+大要者焉。然則此二事，蓋仙道之極也。服此而不仙，則古來無仙矣。」
+
+
+ 《抱朴子‧金丹》
+      「 或問曰：「世有服食藥物，行氣導引，不免死者，何也？」抱朴子
+曰：不得金丹，但服草木之藥及修小術者，可以延年遲死耳，不得仙。會但
+之服草藥，而不知還年之術，則終無久生之理也。或不曉戴神符，行禁戒，
+思身神，守真一，則只可令內疾不起，風濕不犯耳。若卒有惡強邪，山精水
+毒害之，則便死也。或不得入山之法，令山神為之作禍，則妖鬼試之，猛獸
+傷之溪毒擊之，蛇蝮螫之，至多死事，非一條也。」
+
+
+《抱朴子‧極言》231
+      「 夫長生仙方，則為有金丹；守形卻惡，則獨有真一。古人猶重之。
+仙經曰：九轉丹，金液經，守一訣，皆在崑崙五城之內，藏以玉函，刻以金
+札，封以紫泥，印以中章焉。」
+
+
+
+ 《抱朴子‧地真》
+      「傳丹經不得其人，身必不吉，若有篤信者，可將合藥以分之，莫輕
+以其方傳之也。…為神丹既成，不但久生，又可以做黃金。…祭當別稱金各
+檢署之。…不先以金祀神，必遭殃咎。」
+
+
+
+《抱朴子‧金丹》
+    「 第一禁，務令俗人之不信道者謗訕評毀之，必不成也。鄭君言所以爾
+者，和此大要皆當祭，記則太乙、元君、老君、玄女皆來鑑省。…而邪氣得
+進，藥不成也。…不與俗人相見，爾乃可作大藥。」
+
+
+
+《抱朴子‧金丹》
+    「 抱朴子曰：金液太乙所服而仙，不減九丹矣，…老子受之於元君。元
+君曰：此道至重，百世一出，藏之石室，合之，皆齋戒百日，不得與俗人相
+往來，於名山之側，別立精舍，百日成，服一兩便仙。」
+
+
+
+《抱朴子‧金丹》
+  「 抱朴子曰：《神農》四經曰：上藥令人身安命延，生為天神，遨游上下
+，使役萬靈，體生羽毛，行廚立至。五芝及耳丹砂、玉札、曾青、雄黃、雌黃
+、雲母、太乙禹餘糧，各可單服之，皆令人飛行長生，中藥養性，下藥除病，
+能令毒蟲不加，猛獸不犯，惡氣不行，眾妖併辟。」
+
+
+
+ 《抱朴子‧仙藥》
+「 仙藥之上者為丹砂，次者為黃金，次則為白銀，次則諸芝，次則五玉，次則
+雲母、次者明珠、…。」
+
+
+
+ 《抱朴子‧仙藥》
+「《餌丹砂法》，丹砂一斤…，令可丸，服如麻子三丸，日在。四十日，腹中百
+病癒，三尸去；服之百日，肌骨堅強，；服之千日，司命削死籍，與天地相保…
+。」
+
+
+
+《抱朴子‧仙藥》
+  「 《兩儀子餌消黃金法》…，食一斤金，壽弊天地，食半斤金，五兩，千二
+百歲，無多少，便可餌之。當以王相之日，作之神良，勿傳人，傳人，藥不成不
+神也。」
+
+
+《抱朴子‧仙藥》
+     「 又銀但不及金玉耳，可以地仙也。」
+
+
+
+《抱朴子‧仙藥》
+    「 欲求芝草，入名山，必以三月九月，此山開出神藥之月也，勿以山很日
+，比以天時輔，三奇會尤佳。出三奇吉門到山，須六陰之日，明堂之時，帶靈
+寶符，牽白犬，抱白雞，以白鹽一斗，及開山符檄，著大石上，執吳唐草一把
+以入山，山神喜，必得芝。」
+
+
+
+《抱朴子‧仙藥》
+
+ 玉石：
+「玉亦仙藥，但難得耳。《玉經》曰：服金者壽如金，服玉者壽如玉。又曰：
+服玄真者，其命不極。玄真者，玉之別名。」
+
+
+《抱朴子‧仙藥》
+「 又雲母有五，而人多不能分別之，…，服之一年，則百病除，三年久服，
+老公反成童子，五年不闕，可以役使鬼神，入火不燒，入水不濡，踐棘而不
+傷膚，與仙人相見。」
+
+
+《抱朴子‧仙藥》
+  「又雄黃當得武當都山所出者，純而無雜，其赤如雞冠，… 服之皆令人
+長生，百病除，三尸下，班痕滅，白髮黑，…。」
+
+
+ 《抱朴子‧仙藥》
+   「 道書雖言欲得長生，腸中當清，欲得不死腸中無滓。又云，食草者善
+走而愚，時肉者多力而悍，食穀者智而不壽，食氣者神明不死。此乃行氣者
+一家之偏說耳，不可孤用也。…若遭世荒，隱竄山林，之此法者，則可以不
+餓死。其不然也，則無急斷，急既無可大益。」
+
+
+ 《抱朴子‧雜應》
+   「 夫長生得道者，莫不皆由服藥吞氣，而達之者而不妄也。」
+
+
+《抱朴子‧雜應》
+     「 或曰：「敢問欲修長生之道，何所禁忌？」抱朴子曰：禁忌之至急
+，在不傷不損而已。」
+
+
+《抱朴子‧微旨》
+     「 夫人所以死者，諸欲所損也，老也，百並所害也，毒餓所中也，邪
+氣所傷也，風冷所犯也。今導引行氣，還精補腦，食飲有度，興居有節，將
+服藥物，思神守一，柱天禁戒，帶佩符印，傷生之徒，一切遠之，如此則通
+，可以免此六害。」
+
+
+
+《抱朴子‧至理》
+  「 有吳普者，從華陀受五禽之戲，以代道引，猶得百餘歲。此皆藥術
+之至淺，尚能知此，況於用其妙者耶？」
+
+
+《抱朴子‧至理》
+  「 抱朴子曰：服藥雖為長生之本，若能兼行氣者，其益甚速，若不得
+藥，但行氣而盡其理者，亦得數百歲。」
+
+
+《抱朴子‧至理》
+   「夫人在氣中，氣在人中，善行氣者，內以養身，外以去惡，然百姓日
+用而不知焉。」
+
+
+《抱朴子‧至理》
+  「 其大要者，胎息而已。得胎息者，能不以鼻口噓吸，如在胞胎之中，
+則道成矣。…又行氣大要，不欲多食及食生菜肥鮮之物，令人氣強難閉。」
+
+
+《抱朴子‧釋塞》
+     「 九丹金液，最是仙主，然事大費重，不可卒辦也。寶精愛氣最其急
+也，並將服小藥以延年命，學近術以辟邪惡，乃可間接精微矣。」
+
+
+《抱朴子‧微旨》
+    「房中之法十餘家，或以補救傷損，或以攻治眾病，或以採陰益陽，或
+以延年益壽，其大要在於還精補腦之一事耳。」
+
+
+
+《抱朴子‧釋滯》
+  「 抱朴子曰：凡為道合藥，及避亂隱居者，莫不入山。然不知入山法者，
+多遇禍害。…《玉鈐經》云，欲入名山，不可不知遁甲之秘術，而不為人委
+屈說其事也。」
+
+
+《抱朴子‧登涉》
+  「吾聞知於師云：道術諸經，所思存念作，可以去惡防身者，乃有數千法
+。如含影藏行…不可勝計，亦各有效也。然或乃思作數千物以自衛，率多煩
+難，足以大勞人意。若知守一之道則一切除卻此輩，故曰能知一則萬事畢者
+也。」
+  「若乃憎善好事殺，口是心非，背向詞異，反戾直正……，越井跨灶，晦
+歌朔哭。凡有一事，則是一罪。說凡大極小的各種過錯種類」。
+  「 第一禁，務令俗人之不信道者謗訕評毀之，必不成也。鄭君言所以爾者
+，和此大要皆當祭，記則太乙、元君、老君、玄女皆來鑑省。…而邪氣得進，
+藥不成也。」
+
+
+《抱朴子‧金丹》
+  「鄭君言所以爾者，和此大要皆當祭，記則太乙、元君、老君、玄女皆來
+鑑省。…而邪氣得進，藥不成也。」
+
+
+ 《抱朴子‧微旨》
+「 抱朴子曰：凡學道，當階淺以涉深，由易以及難，志
+成堅果，無所不濟，疑則無功，非一事也。」
+
+
+  《抱朴子‧金丹》
+「 抱朴子曰：余考覽養生之書，鳩集久視之方，…莫
+不皆以還丹金液為大要者焉。然則此二事，蓋仙道之極也。服此而不仙，則
+古來無仙矣。」
+
+
+  《抱朴子‧微旨》
+「 抱朴子曰：凡學道，當階淺以涉深，由易以及難，志
+成堅果，無所不濟，疑則無功，非一事也。」
+
+
+  《抱朴子‧釋滯》
+「 抱朴子曰：欲求神仙，為當得其至要。至要者在於寶
+精、行氣、服一大藥便足，亦不用多也。然此三事，復有深淺，不值明師，
+不經勤苦，亦不可倉促而近知也。」
+
+
+  《抱朴子‧論仙》
+「 或得要道之訣，或值不群之師，而猶恨於老妻弱子
+……愛習之情卒難遣，而絕俗之志未易果。」
+
+
+   《抱朴子‧辨問》
+「 夫道家寶秘仙術，弟子之中，猶當檢擇，致經彌
+久，然後告知以要訣。」
+
+
+  《抱朴子‧勤求》
+「 夫人生先受精神於天地，後稟氣血於父母，然不得
+明師，告知以度世之道，則無由免死，鑿石有餘焰，年命以凋頹矣。由此
+論文，明師之恩，誠為過於天地，重於父母多矣，可不崇之乎？可不求知乎？」
+
+
+  《抱朴子‧勤求》
+「諸虛名之道士，既善為誑詐，以欺學者；又多護短匿
+愚，恥於不知，陽若以博涉已足…，人自不能聞見神明，而神明之聞見之甚
+易也。」
+
+
+    《抱朴子‧微旨》
+「 夫天高而聽卑，而無不鑑，行善不怠，必得吉報。
+」與 「 是故非積善陰德，不足以感神明，非誠心款契，不足以結師友…。」
+
+
+ 《抱朴子‧金丹》
+「又曰：長生之道，不在導引與曲伸也，升仙之要，在
+神丹也。」
+
+
+  《抱朴子‧微旨》
+「 九丹金液，最是仙主，然事大費重，不可卒辦也。寶
+精愛氣最其急也，並將服小藥以延年命，學近術以辟邪惡，乃可間接精微矣。」
+
+
+  《抱朴子‧金丹》
+「 抱朴子曰：按《皇帝九鼎神丹經》曰…受之者以金人
+金魚投於東流水之中以為約，歃血為盟，無神仙之骨，亦不可得見此道也。」
+
+
+  《抱朴子‧金丹》
+「 抱朴子曰：按《皇帝九鼎神丹經》曰：皇帝服之，…。
+合丹當於名山之中，無人之地，結伴不過三人，先齋百日，沐浴五香，致加精
+潔，務近穢物，即與俗人往來，又不令不信到者知之，謗毀神藥，藥不成矣。」
+
+
+ 《抱朴子‧金丹》
+「 抱朴子曰：按《皇帝九鼎神丹經》曰：皇帝服之，…。
+成則舉家皆仙，不但一身耳。世人不合神丹，反信草木之藥，…不能自生，何
+能生人乎？」  九鼎神丹.
+
+
+《抱朴子‧金丹》
+「抱朴子曰：按《皇帝九鼎神丹經》… 九丹者，長生之要，…合時又當祭，
+祭自有圖法一卷耳。第一丹名曰丹華。…凡此九丹，得一丹便仙，凡服九丹
+，欲升天則去，欲且止人間亦任意，皆能出入無間，不可得知害矣。」太清神丹
+
+
+《抱朴子‧金丹》
+「 近代漢末新野陰君，和此太清丹得仙。…做此太清丹，小為難合於九鼎，
+然是白日升天之上法也。合之當先作…乃可起火耳。一轉之丹…若取九轉之
+丹…神光五色及化為為還丹。」
+
+
+《抱朴子‧金丹》
+「又有九光丹，與九轉丹異法，大都相似耳。…人生宿命，盛衰壽夭，富貴
+貧賤皆知之也，其法俱在《太清經》中卷耳。」
+
+
+  《抱朴子‧金丹》
+「又按《仙經》，可以精思和做仙藥者，有華山、泰山、霍山、恆山、嵩山
+、少室山、…，此皆是正神在其山中，其中或有地仙之人，上皆生芝草，可
+以避大兵大難，不但於中以合藥也。…若不得登此諸山者，海中大島嶼，亦
+可合藥。」
+
+
+  《抱朴子‧金丹》
+「 抱朴子曰：其次有《餌黃金法》，雖不及金液，亦遠不比他藥也。…可
+引之張之如皮，皆地仙法耳。」
+
+
+  《抱朴子‧雜應》
+「 景帝問之：可復堪幾時？春言無限，可數十年，但恐老死，不憂飢也。
+乃罷遣之。按如春言，是為斷穀不能延年可知也。」。
+
+
+  《抱朴子‧辨問》
+「…，內室反聽，呼吸導引，常齋久潔，入室練形，登山採藥，數息思神，
+斷穀清腸哉？至於仙者，唯須篤志至信，勤而不怠，能恬能靜，便可多才也
+。有入俗之高真，乃為道之重累也。得合一大藥，知守一養神之要，則長生
+久視，豈若聖人所修為者云勻支無限乎？」
+
+
+  《抱朴子‧雜應》「 或問聰耳之道。抱朴子曰：能龍導虎引，熊精龜咽
+，燕飛蛇曲鳥伸，天俯地仰…。」
+
+
+  《抱朴子‧辨問》「 …亦焉能閉聰掩明，內室反聽，呼吸導引，常齋久
+潔，入室練形…，知守一養神之要，則長生久視，豈若聖人所修為者云勻
+支無限乎？」
+
+
+  《抱朴子‧辨問》
+「 …亦焉能閉聰掩明，內室反聽，呼吸導引，常齋久
+潔，入室練形，登山採藥，數息思神，斷穀清腸哉？至於仙者，唯須篤志
+至信，勤而不怠，能恬能靜，便可多才也。有入俗之高真，乃為道之重累
+也。得合一大藥，知守一養神之要，則長生久視，豈若聖人所修為者云勻
+支無限乎？」
+
+
+  《抱朴子‧對俗》「 《仙經》曰；服丹守一，與天相畢，還精胎息，
+延壽無極。」
+
+
+  《抱朴子‧微旨》中「 善其術者，則能卻走馬以補腦，還陰丹於朱腸
+，採玉液於金池，…令人老有美色，終其所稟之天年。」
+
+
+  《抱朴子‧微旨》「所為術者，內修形神使延年愈疾，外攘邪惡，使禍
+害不干。」
+
+
+  《抱朴子‧登涉》 「 抱朴子曰：入名山，以甲子開除日，以甲子開除日
+，以五色繒各五吋，懸大石上，所求必得。又曰：入山宜知六甲密祝：「
+臨兵鬥者，皆陣列前行」。凡九字，常當密祝之，無所不辟，要到不煩，此
+之謂也。」
+
+
+
+
+
+
+End of the Project Gutenberg EBook of Bao Po Zi, by Hong Ge
+
+*** END OF THIS PROJECT GUTENBERG EBOOK BAO PO ZI ***
+
+***** This file should be named 25696-0.txt or 25696-0.zip *****
+This and all associated files of various formats will be found in:
+        https://www.gutenberg.org/2/5/6/9/25696/
+
+Produced by Wang Yu Min
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+https://gutenberg.org/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.org
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, is critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at https://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+https://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at https://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit https://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including including checks, online payments and credit card
+donations.  To donate, please visit: https://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart was the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+
+Most people start at our Web site which has the main PG search facility:
+
+     https://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.

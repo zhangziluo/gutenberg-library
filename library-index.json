@@ -1,7 +1,7 @@
 {
   "title": "一堆古书 · 数据书目索引",
   "description": "data/books/ 目录下的结构化书目（category: 經部/史部/子部/集部/近現代文學）",
-  "generated": "2026-09-08",
+  "generated": "2026-09-09",
   "categories": [
     {
       "name": "經部",
@@ -100,6 +100,42 @@
           "chapters": 8,
           "source": "Project Gutenberg #26932",
           "path": "data/books/zhishi-yuwen.json"
+        },
+        {
+          "key": "pg23948",
+          "book": "高士傳",
+          "author": "皇甫謐",
+          "subcategory": "傳記",
+          "chapters": 1,
+          "source": "Project Gutenberg #23948",
+          "path": "data/books/pg23948.json"
+        },
+        {
+          "key": "pg27218",
+          "book": "臺灣外紀",
+          "author": "江日昇",
+          "subcategory": "雜史",
+          "chapters": 30,
+          "source": "Project Gutenberg #27218",
+          "path": "data/books/pg27218.json"
+        },
+        {
+          "key": "pg27581",
+          "book": "吳船錄",
+          "author": "范成大",
+          "subcategory": "地理",
+          "chapters": 1,
+          "source": "Project Gutenberg #27581",
+          "path": "data/books/pg27581.json"
+        },
+        {
+          "key": "pg24143",
+          "book": "星槎勝覽",
+          "author": "費信",
+          "subcategory": "地理",
+          "chapters": 1,
+          "source": "Project Gutenberg #24143",
+          "path": "data/books/pg24143.json"
         }
       ]
     },
@@ -375,6 +411,321 @@
           "chapters": 16,
           "source": "Project Gutenberg #27329",
           "path": "data/books/tang-zhongkui-pinggui-zhuan.json"
+        },
+        {
+          "key": "pg25696",
+          "book": "抱朴子",
+          "author": "葛洪",
+          "subcategory": "道家",
+          "chapters": 1,
+          "source": "Project Gutenberg #25696",
+          "path": "data/books/pg25696.json"
+        },
+        {
+          "key": "pg25368",
+          "book": "西京雜記",
+          "author": "葛洪（舊題）",
+          "subcategory": "小說家（筆記）",
+          "chapters": 6,
+          "source": "Project Gutenberg #25368",
+          "path": "data/books/pg25368.json"
+        },
+        {
+          "key": "pg52278",
+          "book": "幽明錄",
+          "author": "劉義慶",
+          "subcategory": "小說家（志怪）",
+          "chapters": 1,
+          "source": "Project Gutenberg #52278",
+          "path": "data/books/pg52278.json"
+        },
+        {
+          "key": "pg52280",
+          "book": "明鏡公案",
+          "author": "佚名",
+          "subcategory": "小說家（公案）",
+          "chapters": 1,
+          "source": "Project Gutenberg #52280",
+          "path": "data/books/pg52280.json"
+        },
+        {
+          "key": "pg7216",
+          "book": "公孫龍子",
+          "author": "公孫龍",
+          "subcategory": "名家",
+          "chapters": 1,
+          "source": "Project Gutenberg #7216",
+          "path": "data/books/pg7216.json"
+        },
+        {
+          "key": "pg7367",
+          "book": "管子",
+          "author": "管仲（舊題）",
+          "subcategory": "法家",
+          "chapters": 1,
+          "source": "Project Gutenberg #7367",
+          "path": "data/books/pg7367.json"
+        },
+        {
+          "key": "pg24058",
+          "book": "穆天子传",
+          "author": "佚名（郭璞注）",
+          "subcategory": "小說家（志怪）",
+          "chapters": 1,
+          "source": "Project Gutenberg #24058",
+          "path": "data/books/pg24058.json"
+        },
+        {
+          "key": "pg52271",
+          "book": "漢武帝別國洞冥記",
+          "author": "郭憲（舊題）",
+          "subcategory": "小說家（志怪）",
+          "chapters": 1,
+          "source": "Project Gutenberg #52271",
+          "path": "data/books/pg52271.json"
+        },
+        {
+          "key": "pg25262",
+          "book": "日知錄",
+          "author": "顧炎武",
+          "subcategory": "儒家",
+          "chapters": 1,
+          "source": "Project Gutenberg #25262",
+          "path": "data/books/pg25262.json"
+        },
+        {
+          "key": "pg26872",
+          "book": "海上花列傳",
+          "author": "韓邦慶",
+          "subcategory": "小說家（狹邪）",
+          "chapters": 64,
+          "source": "Project Gutenberg #26872",
+          "path": "data/books/pg26872.json"
+        },
+        {
+          "key": "pg24049",
+          "book": "韩非子",
+          "author": "韓非",
+          "subcategory": "法家",
+          "chapters": 1,
+          "source": "Project Gutenberg #24049",
+          "path": "data/books/pg24049.json"
+        },
+        {
+          "key": "pg26931",
+          "book": "風月夢",
+          "author": "邗上蒙人",
+          "subcategory": "小說家（狹邪）",
+          "chapters": 32,
+          "source": "Project Gutenberg #26931",
+          "path": "data/books/pg26931.json"
+        },
+        {
+          "key": "pg7209",
+          "book": "鬼谷子",
+          "author": "王詡（舊題）",
+          "subcategory": "縱橫家",
+          "chapters": 1,
+          "source": "Project Gutenberg #7209",
+          "path": "data/books/pg7209.json"
+        },
+        {
+          "key": "pg24050",
+          "book": "菜根譚",
+          "author": "洪應明",
+          "subcategory": "儒家",
+          "chapters": 1,
+          "source": "Project Gutenberg #24050",
+          "path": "data/books/pg24050.json"
+        },
+        {
+          "key": "pg24040",
+          "book": "菜根譚前後集",
+          "author": "洪應明",
+          "subcategory": "儒家",
+          "chapters": 1,
+          "source": "Project Gutenberg #24040",
+          "path": "data/books/pg24040.json"
+        },
+        {
+          "key": "pg25236",
+          "book": "筠州黃檗山斷際禪師傳法心要",
+          "author": "黃檗希運",
+          "subcategory": "釋家",
+          "chapters": 1,
+          "source": "Project Gutenberg #25236",
+          "path": "data/books/pg25236.json"
+        },
+        {
+          "key": "pg23914",
+          "book": "山水小牘",
+          "author": "皇甫枚",
+          "subcategory": "小說家（筆記）",
+          "chapters": 2,
+          "source": "Project Gutenberg #23914",
+          "path": "data/books/pg23914.json"
+        },
+        {
+          "key": "pg24098",
+          "book": "金剛般若波羅蜜經",
+          "author": "鳩摩羅什（譯）",
+          "subcategory": "釋家",
+          "chapters": 1,
+          "source": "Project Gutenberg #24098",
+          "path": "data/books/pg24098.json"
+        },
+        {
+          "key": "pg54777",
+          "book": "天妃顯聖錄",
+          "author": "佚名",
+          "subcategory": "道家",
+          "chapters": 1,
+          "source": "Project Gutenberg #54777",
+          "path": "data/books/pg54777.json"
+        },
+        {
+          "key": "pg7218",
+          "book": "三略",
+          "author": "黃石公（舊題）",
+          "subcategory": "兵家",
+          "chapters": 1,
+          "source": "Project Gutenberg #7218",
+          "path": "data/books/pg7218.json"
+        },
+        {
+          "key": "pg23855",
+          "book": "明夷待訪錄",
+          "author": "黃宗羲",
+          "subcategory": "儒家",
+          "chapters": 1,
+          "source": "Project Gutenberg #23855",
+          "path": "data/books/pg23855.json"
+        },
+        {
+          "key": "pg26920",
+          "book": "鹽鐵論",
+          "author": "桓寬",
+          "subcategory": "儒家",
+          "chapters": 1,
+          "source": "Project Gutenberg #26920",
+          "path": "data/books/pg26920.json"
+        },
+        {
+          "key": "pg27753",
+          "book": "一枕奇",
+          "author": "華陽散人",
+          "subcategory": "小說家（話本）",
+          "chapters": 1,
+          "source": "Project Gutenberg #27753",
+          "path": "data/books/pg27753.json"
+        },
+        {
+          "key": "pg23844",
+          "book": "六祖壇經",
+          "author": "慧能（述）",
+          "subcategory": "釋家",
+          "chapters": 1,
+          "source": "Project Gutenberg #23844",
+          "path": "data/books/pg23844.json"
+        },
+        {
+          "key": "pg23814",
+          "book": "賈誼新書",
+          "author": "賈誼",
+          "subcategory": "儒家",
+          "chapters": 1,
+          "source": "Project Gutenberg #23814",
+          "path": "data/books/pg23814.json"
+        },
+        {
+          "key": "pg25369",
+          "book": "金石緣",
+          "author": "佚名",
+          "subcategory": "小說家（才子佳人）",
+          "chapters": 24,
+          "source": "Project Gutenberg #25369",
+          "path": "data/books/pg25369.json"
+        },
+        {
+          "key": "pg23817",
+          "book": "閱微草堂筆記",
+          "author": "紀昀",
+          "subcategory": "小說家（志怪）",
+          "chapters": 1,
+          "source": "Project Gutenberg #23817",
+          "path": "data/books/pg23817.json"
+        },
+        {
+          "key": "pg27108",
+          "book": "醒夢駢言",
+          "author": "佚名",
+          "subcategory": "小說家（話本）",
+          "chapters": 12,
+          "source": "Project Gutenberg #27108",
+          "path": "data/books/pg27108.json"
+        },
+        {
+          "key": "pg23915",
+          "book": "虬髯客傳",
+          "author": "杜光庭（舊題）",
+          "subcategory": "小說家（傳奇）",
+          "chapters": 1,
+          "source": "Project Gutenberg #23915",
+          "path": "data/books/pg23915.json"
+        },
+        {
+          "key": "pg27582",
+          "book": "喻世明言",
+          "author": "馮夢龍",
+          "subcategory": "小說家（話本）",
+          "chapters": 1,
+          "source": "Project Gutenberg #27582",
+          "path": "data/books/pg27582.json"
+        },
+        {
+          "key": "pg57227",
+          "book": "平妖傳",
+          "author": "羅貫中、馮夢龍",
+          "subcategory": "小說家（神魔）",
+          "chapters": 40,
+          "source": "Project Gutenberg #57227",
+          "path": "data/books/pg57227.json"
+        },
+        {
+          "key": "pg25349",
+          "book": "東周列國志",
+          "author": "馮夢龍、蔡元放",
+          "subcategory": "小說家（歷史演義）",
+          "chapters": 28,
+          "source": "Project Gutenberg #25349",
+          "path": "data/books/pg25349.json"
+        },
+        {
+          "key": "pg24141",
+          "book": "警世通言",
+          "author": "馮夢龍",
+          "subcategory": "小說家（話本）",
+          "chapters": 1,
+          "source": "Project Gutenberg #24141",
+          "path": "data/books/pg24141.json"
+        },
+        {
+          "key": "pg27207",
+          "book": "封氏聞見記",
+          "author": "封演",
+          "subcategory": "雜家",
+          "chapters": 10,
+          "source": "Project Gutenberg #27207",
+          "path": "data/books/pg27207.json"
+        },
+        {
+          "key": "pg25362",
+          "book": "搜神記",
+          "author": "干寶",
+          "subcategory": "小說家（志怪）",
+          "chapters": 20,
+          "source": "Project Gutenberg #25362",
+          "path": "data/books/pg25362.json"
         }
       ]
     },
@@ -416,6 +767,33 @@
           "chapters": 1,
           "source": "Project Gutenberg #26873",
           "path": "data/books/longchuan-ci.json"
+        },
+        {
+          "key": "pg52276",
+          "book": "竇娥冤",
+          "author": "關漢卿",
+          "subcategory": "戲曲",
+          "chapters": 1,
+          "source": "Project Gutenberg #52276",
+          "path": "data/books/pg52276.json"
+        },
+        {
+          "key": "pg52323",
+          "book": "唐诗三百首",
+          "author": "蘅塘退士（孫洙）編",
+          "subcategory": "總集",
+          "chapters": 1,
+          "source": "Project Gutenberg #52323",
+          "path": "data/books/pg52323.json"
+        },
+        {
+          "key": "pg52270",
+          "book": "長生殿",
+          "author": "洪昇",
+          "subcategory": "戲曲",
+          "chapters": 1,
+          "source": "Project Gutenberg #52270",
+          "path": "data/books/pg52270.json"
         }
       ]
     },

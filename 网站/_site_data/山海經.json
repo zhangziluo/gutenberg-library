@@ -1251,9 +1251,7 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "其",
@@ -1263,9 +1261,7 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "食",
@@ -1275,9 +1271,7 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "不",
@@ -1287,9 +1281,7 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "谷",
@@ -1299,9 +1291,7 @@
       "en": "grain；corn；surname Gu",
       "note": "多音字，可讀「gu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "禺",
@@ -1311,9 +1301,7 @@
       "en": "(archaic) district；(old) type of monkey",
       "note": "多音字，可讀「yu/ou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "行",
@@ -1323,9 +1311,7 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "育",
@@ -1335,9 +1321,7 @@
       "en": "to have children；to raise or bring up；to educate",
       "note": "多音字，可讀「yu/yo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "瘕",
@@ -1347,9 +1331,7 @@
       "en": "obstruction in the intestine",
       "note": "多音字，可讀「jia/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "爰",
@@ -1359,9 +1341,7 @@
       "en": "surname Yuan；therefore；consequently",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "蝮",
@@ -1371,9 +1351,7 @@
       "en": "insect；poisonous snake (archaic)",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "蛇",
@@ -1383,9 +1361,7 @@
       "en": "snake；serpent；CL:條|条[tiao2]",
       "note": "多音字，可讀「she/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "尾",
@@ -1395,9 +1371,7 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "孫",
@@ -1407,9 +1381,7 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "龜",
@@ -1419,9 +1391,7 @@
       "en": "turtle, tortoise; cuckold",
       "note": "多音字，可讀「gui/jun/qiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "鳥",
@@ -1431,9 +1401,7 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "虺",
@@ -1443,9 +1411,7 @@
       "en": "sick；with no ambition；mythical venomous snake",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "底",
@@ -1455,9 +1421,7 @@
       "en": "bottom; base；background; foundation；copy (of a manuscript or receipt etc) kept as a record",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "柢",
@@ -1467,9 +1431,7 @@
       "en": "foundation；root",
       "note": "多音字，可讀「di/chi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "鮭",
@@ -1479,9 +1441,7 @@
       "en": "salmon; Spheroides vermicularis",
       "note": "多音字，可讀「gui/xie/wa/kui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "髦",
@@ -1491,9 +1451,7 @@
       "en": "fashionable, in vogue; mane, flowing hair",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "牝",
@@ -1503,9 +1461,7 @@
       "en": "(of a bird, animal or plant) female；keyhole；valley",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "羊",
@@ -1515,9 +1471,7 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "六",
@@ -1527,9 +1481,7 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "隹",
@@ -1539,9 +1491,7 @@
       "en": "short-tailed bird; sparrow",
       "note": "多音字，可讀「zhui/cui/wei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "能",
@@ -1551,9 +1501,7 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "鳩",
@@ -1563,9 +1511,7 @@
       "en": "pigeon; to collect, to assemble",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "若",
@@ -1575,9 +1521,7 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "呵",
@@ -1587,9 +1531,7 @@
       "en": "(bound form) to scold；to expel breath；(onom.) laughter (usu. reduplicated)",
       "note": "多音字，可讀「he/a」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "澤",
@@ -1599,9 +1541,7 @@
       "en": "pool；pond；(of metals etc) luster",
       "note": "多音字，可讀「ze/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "石",
@@ -1611,9 +1551,7 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "祠",
@@ -1623,9 +1561,7 @@
       "en": "shrine；to offer a sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "璋",
@@ -1635,9 +1571,7 @@
       "en": "jade tablet used in ceremonies, shaped like the left or right half of a \"gui\" 圭[gui1], also given to male infants to play with",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "瘞",
@@ -1647,9 +1581,7 @@
       "en": "bury；sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "糈",
@@ -1659,9 +1591,7 @@
       "en": "official pay；sacrificial rice",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "菅",
@@ -1671,9 +1601,7 @@
       "en": "(grass)；Themeda forsbali",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "囟",
@@ -1683,9 +1611,7 @@
       "en": "fontanel (gap between the bones of an infant's skull)",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "長",
@@ -1695,9 +1621,7 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "豚",
@@ -1707,9 +1631,7 @@
       "en": "suckling pig",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "見",
@@ -1719,9 +1641,7 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "縣",
@@ -1731,9 +1651,7 @@
       "en": "county；(Japan) prefecture",
       "note": "多音字，可讀「xian/xuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "鴟",
@@ -1743,9 +1661,7 @@
       "en": "kite, horned owl; wine cups",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "朱",
@@ -1755,9 +1671,7 @@
       "en": "surname Zhu；vermilion；(bound form) cinnabar",
       "note": "多音字，可讀「zhu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "大",
@@ -1767,9 +1681,7 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "彘",
@@ -1779,9 +1691,7 @@
       "en": "swine",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "鬣",
@@ -1791,9 +1701,7 @@
       "en": "a man's whiskers; a horse's mane; a fish's fin",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "囗",
@@ -1803,9 +1711,7 @@
       "en": "enclosure",
       "note": "多音字，可讀「wei/guo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "斫",
@@ -1815,9 +1721,7 @@
       "en": "to chop；to hack；to carve wood",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "繇",
@@ -1827,9 +1731,7 @@
       "en": "folk-song；forced labor",
       "note": "多音字，可讀「yao/you/zhou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "瞿",
@@ -1839,9 +1741,7 @@
       "en": "surname Qu；startled；Taiwan pr. [ju4]",
       "note": "多音字，可讀「qu/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "句",
@@ -1851,9 +1751,7 @@
       "en": "sentence；clause；phrase",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "區",
@@ -1863,9 +1761,7 @@
       "en": "area；region；district",
       "note": "多音字，可讀「qu/ou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "苕",
@@ -1875,9 +1771,7 @@
       "en": "reed grass；Chinese trumpet vine (Campsis grandiflora) (old)",
       "note": "多音字，可讀「tiao/shao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "豕",
@@ -1887,9 +1781,7 @@
       "en": "hog；swine",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "會",
@@ -1899,9 +1791,7 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "稽",
@@ -1911,9 +1801,7 @@
       "en": "surname Ji；(bound form) to examine; to check (against records)；(literary) to delay; to linger",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "溴",
@@ -1923,9 +1811,7 @@
       "en": "bromine (chemistry)",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "洵",
@@ -1935,9 +1821,7 @@
       "en": "truly；whirlpool",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "閼",
@@ -1947,9 +1831,7 @@
       "en": "to block, to obstruct, to stop up",
       "note": "多音字，可讀「e/yan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "芘",
@@ -1959,9 +1841,7 @@
       "en": "Malva sylvestris",
       "note": "多音字，可讀「pi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "蠃",
@@ -1971,9 +1851,7 @@
       "en": "solitary wasp; paper wasp",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "梓",
@@ -1983,9 +1861,7 @@
       "en": "Chinese catalpa (Catalpa ovata), a tree that serves as a symbol of one's hometown and whose wood is used to make various items；(bound form) printing blocks",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "杞",
@@ -1995,9 +1871,7 @@
       "en": "Qi, a Zhou Dynasty vassal state；surname Qi；Chinese wolfberry shrub (Lycium chinense)",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "滂",
@@ -2007,9 +1881,7 @@
       "en": "rushing (water)",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "角",
@@ -2019,9 +1891,7 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "車",
@@ -2031,9 +1901,7 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "兕",
@@ -2043,9 +1911,7 @@
       "en": "animal cited in ancient texts, resembling a buffalo (some say rhinoceros or female rhinoceros)",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "蛟",
@@ -2055,9 +1921,7 @@
       "en": "a legendary dragon with the ability to control rain and floods；see also 蛟龍|蛟龙[jiao1 long2]",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "膺",
@@ -2067,9 +1931,7 @@
       "en": "breast；receive",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "信",
@@ -2079,9 +1941,7 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "牖",
@@ -2091,9 +1951,7 @@
       "en": "to enlighten；lattice window",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "髯",
@@ -2103,9 +1961,7 @@
       "en": "mustache, beard",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "誆",
@@ -2115,9 +1971,7 @@
       "en": "to mislead；to swindle",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "旄",
@@ -2127,9 +1981,7 @@
       "en": "banner decorated with animal's tail",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "夾",
@@ -2139,9 +1991,7 @@
       "en": "to press from either side；to place in between；to sandwich",
       "note": "多音字，可讀「jia/ga/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "鯖",
@@ -2151,9 +2001,7 @@
       "en": "mackerel",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "鮒",
@@ -2163,9 +2011,7 @@
       "en": "carp; Carassicus auratus",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "梟",
@@ -2175,9 +2021,7 @@
       "en": "owl；valiant；trafficker",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "飴",
@@ -2187,9 +2031,7 @@
       "en": "syrup; sweet-meat, sweet-cake",
       "note": "多音字，可讀「yi/si」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "血",
@@ -2199,9 +2041,7 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "輒",
@@ -2211,9 +2051,7 @@
       "en": "often, readily; scattered; the weapon-rack of a chariot",
       "note": null,
       "is_difficult": true,
-      "src": "南山經",
-      "multi": false,
-      "rare": true
+      "src": "南山經"
     },
     {
       "word": "宛",
@@ -2223,9 +2061,7 @@
       "en": "surname Wan；winding；as if",
       "note": "多音字，可讀「wan/yuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "南山經",
-      "multi": true,
-      "rare": false
+      "src": "南山經"
     },
     {
       "word": "洗",
@@ -2235,9 +2071,7 @@
       "en": "to wash; to bathe；to develop (photographs)；to shuffle (cards etc)",
       "note": "多音字，可讀「xi/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "渠",
@@ -2247,9 +2081,7 @@
       "en": "surname Qu；(artificial) stream; canal; drain; ditch (CL:條|条[tiao2])；(literary) big; great",
       "note": "多音字，可讀「qu/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "暴",
@@ -2259,9 +2091,7 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "削",
@@ -2271,9 +2101,7 @@
       "en": "to peel with a knife；to pare；to cut (a ball at tennis etc)",
       "note": "多音字，可讀「xiao/xue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "仞",
@@ -2283,9 +2111,7 @@
       "en": "unit of length used in ancient times, equal to 7 or 8 Chinese feet 尺[chi3]",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "莫",
@@ -2295,9 +2121,7 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "磬",
@@ -2307,9 +2131,7 @@
       "en": "chime stones, ancient percussion instrument made of stone or jade pieces hung in a row and struck as a xylophone",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "雩",
@@ -2319,9 +2141,7 @@
       "en": "to offer a sacrifice for rain",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "孚",
@@ -2331,9 +2151,7 @@
       "en": "to trust；to believe in",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "萆",
@@ -2343,9 +2161,7 @@
       "en": "castor seed",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "喙",
@@ -2355,9 +2171,7 @@
       "en": "beak；snout；mouth",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "赭",
@@ -2367,9 +2181,7 @@
       "en": "ocher",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "鶉",
@@ -2379,9 +2191,7 @@
       "en": "quail; Turnix species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "癘",
@@ -2391,9 +2201,7 @@
       "en": "ulcer；plague",
       "note": "多音字，可讀「li/lai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "喬",
@@ -2403,9 +2211,7 @@
       "en": "surname Qiao；tall",
       "note": "多音字，可讀「qiao/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "樗",
@@ -2415,9 +2221,7 @@
       "en": "simaroubaceae",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "枳",
@@ -2427,9 +2231,7 @@
       "en": "(orange)；hedge thorn",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "薰",
@@ -2439,9 +2241,7 @@
       "en": "fragrance；warm；to educate",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "臭",
@@ -2451,9 +2251,7 @@
       "en": "stench；smelly；to smell (bad)",
       "note": "多音字，可讀「chou/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "蘼",
@@ -2463,9 +2261,7 @@
       "en": "millet",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "臂",
@@ -2475,9 +2271,7 @@
       "en": "arm",
       "note": "多音字，可讀「bi/bei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "橐",
@@ -2487,9 +2281,7 @@
       "en": "sack；tube open at both ends；(onom.) footsteps",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "楮",
@@ -2499,9 +2291,7 @@
       "en": "Broussonetia kasinoki",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "柞",
@@ -2511,9 +2301,7 @@
       "en": "oak；Quercus serrata",
       "note": "多音字，可讀「zha/zuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "涔",
@@ -2523,9 +2311,7 @@
       "en": "overflow；rainwater；tearful",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "番",
@@ -2535,9 +2321,7 @@
       "en": "(bound form) foreign (non-Chinese); barbarian；classifier for processes or actions that take time and effort；(classifier) a kind; a sort",
       "note": "多音字，可讀「fan/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "塚",
@@ -2547,9 +2331,7 @@
       "en": "burial mound (variant of 冢[zhong3])",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "沔",
@@ -2559,9 +2341,7 @@
       "en": "inundation；name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "湯",
@@ -2571,9 +2351,7 @@
       "en": "surname Tang；soup；hot or boiling water",
       "note": "多音字，可讀「tang/shang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "枝",
@@ -2583,9 +2361,7 @@
       "en": "branch；classifier for sticks, rods, pencils etc",
       "note": "多音字，可讀「zhi/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "羆",
@@ -2595,9 +2371,7 @@
       "en": "brown bear",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "蕙",
@@ -2607,9 +2381,7 @@
       "en": "Coumarouna odorata",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "桔",
@@ -2619,9 +2391,7 @@
       "en": "orange, tangerine",
       "note": "多音字，可讀「ju/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "櫟",
@@ -2631,9 +2401,7 @@
       "en": "oak；Quercus serrata",
       "note": "多音字，可讀「li/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "癭",
@@ -2643,9 +2411,7 @@
       "en": "goiter；knob on tree",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "薔",
@@ -2655,9 +2421,7 @@
       "en": "rose",
       "note": "多音字，可讀「qiang/se」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "毒",
@@ -2667,9 +2431,7 @@
       "en": "poison；to poison；poisonous",
       "note": "多音字，可讀「du/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "芨",
@@ -2679,9 +2441,7 @@
       "en": "Bletilla hyacinthina (mucilaginous)；Acronym for the Chinese Elder tree 菫草",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "數",
@@ -2691,9 +2451,7 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "鸚",
@@ -2703,9 +2461,7 @@
       "en": "parrot",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "鵡",
@@ -2715,9 +2471,7 @@
       "en": "species of parrot",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "瑜",
@@ -2727,9 +2481,7 @@
       "en": "excellence；luster of gems",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "樽",
@@ -2739,9 +2491,7 @@
       "en": "goblet；bottle；wine-jar",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "屬",
@@ -2751,9 +2501,7 @@
       "en": "category；genus (taxonomy)；family members",
       "note": "多音字，可讀「shu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "鈐",
@@ -2763,9 +2511,7 @@
       "en": "lock, latch; to stamp, to seal",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "冒",
@@ -2775,9 +2521,7 @@
       "en": "surname Mao；to emit; to give off; to send out (or up, forth)；to brave; to face",
       "note": "多音字，可讀「mao/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "涇",
@@ -2787,9 +2531,7 @@
       "en": "Jing River",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "馨",
@@ -2799,9 +2541,7 @@
       "en": "fragrant, aromatic",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "女",
@@ -2811,9 +2551,7 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "翟",
@@ -2823,9 +2561,7 @@
       "en": "surname Zhai",
       "note": "多音字，可讀「zhai/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "鸞",
@@ -2835,9 +2571,7 @@
       "en": "fabulous bird",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "堊",
@@ -2847,9 +2581,7 @@
       "en": "to whitewash；to plaster",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "稷",
@@ -2859,9 +2591,7 @@
       "en": "millet；God of cereals worshiped by ancient rulers；minister of agriculture",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "麋",
@@ -2871,9 +2601,7 @@
       "en": "elk; surname",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "吾",
@@ -2883,9 +2611,7 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "員",
@@ -2895,9 +2621,7 @@
       "en": "(bound form) person engaged in a certain field of activity；(bound form) member；classifier for military generals",
       "note": "多音字，可讀「yuan/yun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "鳧",
@@ -2907,9 +2631,7 @@
       "en": "wild duck; teal; swim",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "得",
@@ -2919,9 +2641,7 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "饗",
@@ -2931,9 +2651,7 @@
       "en": "banquet; to host a banquet",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "色",
@@ -2943,9 +2661,7 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "瑾",
@@ -2955,9 +2671,7 @@
       "en": "brilliancy (of gems)",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "和",
@@ -2967,9 +2681,7 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "地",
@@ -2979,9 +2691,7 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "奇",
@@ -2991,9 +2701,7 @@
       "en": "strange；odd；weird",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "丕",
@@ -3003,9 +2711,7 @@
       "en": "grand",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "葆",
@@ -3015,9 +2721,7 @@
       "en": "dense foliage；to cover",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "鷂",
@@ -3027,9 +2731,7 @@
       "en": "sparrow hawk; Circus species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "鶚",
@@ -3039,9 +2741,7 @@
       "en": "osprey, fishhawk",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "爪",
@@ -3051,9 +2751,7 @@
       "en": "(coll.) foot of an animal or bird；(coll.) foot supporting a cooking pot etc",
       "note": "多音字，可讀「zhua/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "鵠",
@@ -3063,9 +2761,7 @@
       "en": "swan",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "皴",
@@ -3075,9 +2771,7 @@
       "en": "chapped；cracked",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "鰩",
@@ -3087,9 +2781,7 @@
       "en": "the nautilus; the ray",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "穰",
@@ -3099,9 +2791,7 @@
       "en": "surname Rang；abundant；stalk of grain",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "藏",
@@ -3111,9 +2801,7 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "了",
@@ -3123,9 +2811,7 @@
       "en": "to finish；(used with 得[de2] or 不[bu4] after a verb to express (im)possibility, as in 忘不了[wang4 bu5 liao3] \"cannot forget\")；(literary) (usually followed by a negative such as 無|无[wu2] or 不[bu4]) completely (not); entirely (not); (not) in the least",
       "note": "多音字，可讀「le/liao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "徇",
@@ -3135,9 +2821,7 @@
       "en": "to give in to；to be swayed by (personal considerations etc)；Taiwan pr. [xun2]",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "勃",
@@ -3147,9 +2831,7 @@
       "en": "flourishing；prosperous；suddenly",
       "note": "多音字，可讀「bo/bei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "都",
@@ -3159,9 +2841,7 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "囿",
@@ -3171,9 +2851,7 @@
       "en": "park；to limit；be limited to",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "螻",
@@ -3183,9 +2861,7 @@
       "en": "see 螻蛄|蝼蛄[lou2 gu1]",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "核",
@@ -3195,9 +2871,7 @@
       "en": "pit；stone；nucleus",
       "note": "多音字，可讀「he/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "溺",
@@ -3207,9 +2881,7 @@
       "en": "to drown；to indulge；addicted to",
       "note": "多音字，可讀「ni/niao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "樂",
@@ -3219,9 +2891,7 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "嬴",
@@ -3231,9 +2901,7 @@
       "en": "surname Ying",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "乘",
@@ -3243,9 +2911,7 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "昊",
@@ -3255,9 +2921,7 @@
       "en": "surname Hao；vast and limitless；the vast sky",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "氏",
@@ -3267,9 +2931,7 @@
       "en": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")；(bound form) maiden name; née (as in 李王氏[Li3 Wang2 shi4] \"Mrs. Li, née Wang\")；(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "景",
@@ -3279,9 +2941,7 @@
       "en": "surname Jing；(bound form) scenery；circumstance",
       "note": "多音字，可讀「jing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "莪",
@@ -3291,9 +2951,7 @@
       "en": "zedoary (Curcuma zedoaria), plant rhizome similar to turmeric",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "疑",
@@ -3303,9 +2961,7 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "彳",
@@ -3315,9 +2971,7 @@
       "en": "step with the left foot (Kangxi radical 60)；see also 彳亍[chi4 chu4]",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "耆",
@@ -3327,9 +2981,7 @@
       "en": "man of sixty or seventy",
       "note": "多音字，可讀「qi/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "敦",
@@ -3339,9 +2991,7 @@
       "en": "kindhearted；place name",
       "note": "多音字，可讀「dun/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "識",
@@ -3351,9 +3001,7 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "蓐",
@@ -3363,9 +3011,7 @@
       "en": "mat；rushes",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "紅",
@@ -3375,9 +3021,7 @@
       "en": "surname Hong；red；popular",
       "note": "多音字，可讀「hong/gong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "癉",
@@ -3387,9 +3031,7 @@
       "en": "(disease)；to hate",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "茆",
@@ -3399,9 +3041,7 @@
       "en": "thatch；type of water plant；(dialect) loess hills",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "蕃",
@@ -3411,9 +3051,7 @@
       "en": "foreign (non-Chinese)；luxuriant；flourishing",
       "note": "多音字，可讀「fan/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "茈",
@@ -3423,9 +3061,7 @@
       "en": "Common Gromwell or European stoneseed (Lithospermum officinale)",
       "note": "多音字，可讀「zi/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "罷",
@@ -3435,9 +3071,7 @@
       "en": "to stop；to cease；to dismiss",
       "note": "多音字，可讀「ba/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "硌",
@@ -3447,9 +3081,7 @@
       "en": "(coll.) (of sth hard or rough) to press against some part of one's body causing discomfort (like a small stone in one's shoe)；to hurt；to chafe",
       "note": "多音字，可讀「ge/luo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "榛",
@@ -3459,9 +3091,7 @@
       "en": "(bound form) hazelnut tree (Corylus heterophylla)",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "扈",
@@ -3471,9 +3101,7 @@
       "en": "surname Hu；retinue",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "雉",
@@ -3483,9 +3111,7 @@
       "en": "pheasant; crenellated wall",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "芎",
@@ -3495,9 +3121,7 @@
       "en": "Taiwan pr. [qiong1]",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "於",
@@ -3507,9 +3131,7 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "柏",
@@ -3519,9 +3141,7 @@
       "en": "surname Bai；Taiwan pr. [Bo2]；cedar",
       "note": "多音字，可讀「bai/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "革",
@@ -3531,9 +3151,7 @@
       "en": "leather, animal hide; to reform; to remove",
       "note": "多音字，可讀「ge/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "瞇",
@@ -3543,9 +3161,7 @@
       "en": "to narrow one's eyes；to squint；(dialect) to take a nap",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "皋",
@@ -3555,9 +3171,7 @@
       "en": "bank；marsh；high riverbank",
       "note": "多音字，可讀「gao/hao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": false
+      "src": "西山經"
     },
     {
       "word": "銚",
@@ -3567,9 +3181,7 @@
       "en": "hoe; spear; surname",
       "note": "多音字，可讀「diao/tiao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "西山經",
-      "multi": true,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "崦",
@@ -3579,9 +3191,7 @@
       "en": "name of a mountain in Gansu",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "嵫",
@@ -3591,9 +3201,7 @@
       "en": "see 崦嵫[Yan1 zi1]",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "砥",
@@ -3603,9 +3211,7 @@
       "en": "baffle (pier)；whetstone",
       "note": null,
       "is_difficult": true,
-      "src": "西山經",
-      "multi": false,
-      "rare": true
+      "src": "西山經"
     },
     {
       "word": "單",
@@ -3615,9 +3221,7 @@
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": false
+      "src": "北山經"
     },
     {
       "word": "疣",
@@ -3627,9 +3231,7 @@
       "en": "nodule；wart",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "彭",
@@ -3639,9 +3241,7 @@
       "en": "surname Peng",
       "note": "多音字，可讀「peng/bang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": false
+      "src": "北山經"
     },
     {
       "word": "譙",
@@ -3651,9 +3251,7 @@
       "en": "surname Qiao；drum tower；ridicule",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "豸",
@@ -3663,9 +3261,7 @@
       "en": "worm-like invertebrate；mythical animal (see 獬豸[xie4 zhi4])；radical in Chinese characters (Kangxi radical 153)",
       "note": "多音字，可讀「zhi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "亙",
@@ -3675,9 +3271,7 @@
       "en": "extending all the way across；running all the way through",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "涿",
@@ -3687,9 +3281,7 @@
       "en": "to trickle, to dribble, to drip",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "虢",
@@ -3699,9 +3291,7 @@
       "en": "surname Guo；Guo, a kinship group whose members held dukedoms within the Zhou Dynasty realm, including Western Guo 西虢國|西虢国[Xi1 Guo2 guo2] and Eastern Guo 東虢國|东虢国[Dong1 Guo2 guo2]",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "椐",
@@ -3711,9 +3301,7 @@
       "en": "Zelkowa acuminata",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "菟",
@@ -3723,9 +3311,7 @@
       "en": "dodder (Cuscuta sinensis, a parasitic vine with seeds having medicinal uses)；also called 菟絲子|菟丝子",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "蔓",
@@ -3735,9 +3321,7 @@
       "en": "creeper；to spread",
       "note": "多音字，可讀「man/wan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": false
+      "src": "北山經"
     },
     {
       "word": "訾",
@@ -3747,9 +3331,7 @@
       "en": "surname Zi；to calculate；to assess",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "犍",
@@ -3759,9 +3341,7 @@
       "en": "bullock；castrated bull；to castrate livestock",
       "note": "多音字，可讀「jian/qian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "吒",
@@ -3771,9 +3351,7 @@
       "en": "used for the sound \"zha\" in the names of certain legendary figures (e.g. 哪吒[Ne2 zha1])；Taiwan pr. [zha4]",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "嗌",
@@ -3783,9 +3361,7 @@
       "en": "(literary) to choke; to have a blockage in the throat；Taiwan pr. [yi4]",
       "note": "多音字，可讀「ai/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "柘",
@@ -3795,9 +3371,7 @@
       "en": "a thorny tree；sugarcane；Cudrania triloba",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "那",
@@ -3807,9 +3381,7 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": false
+      "src": "北山經"
     },
     {
       "word": "竦",
@@ -3819,9 +3391,7 @@
       "en": "respectful；horrified；to raise (one's shoulders)",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "柝",
@@ -3831,9 +3401,7 @@
       "en": "watchman's rattle",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "薨",
@@ -3843,9 +3411,7 @@
       "en": "death of a prince；swarming",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "窳",
@@ -3855,9 +3421,7 @@
       "en": "bad；useless；weak",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "差",
@@ -3867,9 +3431,7 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": false
+      "src": "北山經"
     },
     {
       "word": "閭",
@@ -3879,9 +3441,7 @@
       "en": "a village of twenty-five families",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "麟",
@@ -3891,9 +3451,7 @@
       "en": "female unicorn",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "叱",
@@ -3903,9 +3461,7 @@
       "en": "to scold；shout at；to hoot at",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "岐",
@@ -3915,9 +3471,7 @@
       "en": "surname Qi；also used in place names",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "鮪",
@@ -3927,9 +3481,7 @@
       "en": "little tuna; Euthynnus alletteratus",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "孛",
@@ -3939,9 +3491,7 @@
       "en": "comet",
       "note": "多音字，可讀「bei/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "曷",
@@ -3951,9 +3501,7 @@
       "en": "why；how；when",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "邛",
@@ -3963,9 +3511,7 @@
       "en": "mound; in distress",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "暨",
@@ -3975,9 +3521,7 @@
       "en": "(literary) and; as well as；(literary) up to; as far as (as in 暨今[ji4 jin1] \"up to now\")",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "亍",
@@ -3987,9 +3531,7 @@
       "en": "to step with the right foot (used in 彳亍[chi4 chu4])",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "洹",
@@ -3999,9 +3541,7 @@
       "en": "name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "璧",
@@ -4011,9 +3551,7 @@
       "en": "jade annulus",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "還",
@@ -4023,9 +3561,7 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": false
+      "src": "北山經"
     },
     {
       "word": "澠",
@@ -4035,9 +3571,7 @@
       "en": "name of a river in Shandong",
       "note": "多音字，可讀「mian/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "賁",
@@ -4047,9 +3581,7 @@
       "en": "bright",
       "note": "多音字，可讀「bi/ben」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "薄",
@@ -4059,9 +3591,7 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": false
+      "src": "北山經"
     },
     {
       "word": "謁",
@@ -4071,9 +3601,7 @@
       "en": "to visit (a superior)",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "戾",
@@ -4083,9 +3611,7 @@
       "en": "to bend；to violate；to go against",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "汜",
@@ -4095,9 +3621,7 @@
       "en": "stream which returns after branching",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "洳",
@@ -4107,9 +3631,7 @@
       "en": "damp；boggy；marshy",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "綦",
@@ -4119,9 +3641,7 @@
       "en": "dark gray；superlative；variegated",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "滏",
@@ -4131,9 +3651,7 @@
       "en": "name of a river in Hebei",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "堙",
@@ -4143,9 +3661,7 @@
       "en": "bury；mound；to dam",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "芍",
@@ -4155,9 +3671,7 @@
       "en": "Chinese peony；Paeonia albiflora or lactiflora",
       "note": "多音字，可讀「shao/que」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": false
+      "src": "北山經"
     },
     {
       "word": "洧",
@@ -4167,9 +3681,7 @@
       "en": "name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "黽",
@@ -4179,9 +3691,7 @@
       "en": "frog, toad; to strive, to endeavor",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "氐",
@@ -4191,9 +3701,7 @@
       "en": "name of an ancient tribe；foundation；on the whole",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "虍",
@@ -4203,9 +3711,7 @@
       "en": "stripes of a tiger；\"tiger\" radical in Chinese characters (Kangxi radical 141)",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "沱",
@@ -4215,9 +3721,7 @@
       "en": "tearful；to branch (of river)",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "戲",
@@ -4227,9 +3731,7 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": false
+      "src": "北山經"
     },
     {
       "word": "般",
@@ -4239,9 +3741,7 @@
       "en": "sort；kind；class",
       "note": "多音字，可讀「ban/bo/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": false
+      "src": "北山經"
     },
     {
       "word": "乾",
@@ -4251,9 +3751,7 @@
       "en": "surname Qian；one of the Eight Trigrams 八卦[ba1 gua4], symbolizing heaven；male principle",
       "note": "多音字，可讀「qian/gan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": false
+      "src": "北山經"
     },
     {
       "word": "碣",
@@ -4263,9 +3761,7 @@
       "en": "stone tablet",
       "note": "多音字，可讀「jie/ya」，須依文意斷音。",
       "is_difficult": true,
-      "src": "北山經",
-      "multi": true,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "廿",
@@ -4275,9 +3771,7 @@
       "en": "twenty",
       "note": null,
       "is_difficult": true,
-      "src": "北山經",
-      "multi": false,
-      "rare": true
+      "src": "北山經"
     },
     {
       "word": "敕",
@@ -4287,9 +3781,7 @@
       "en": "imperial orders",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "從",
@@ -4299,9 +3791,7 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "東山經",
-      "multi": true,
-      "rare": false
+      "src": "東山經"
     },
     {
       "word": "箴",
@@ -4311,9 +3801,7 @@
       "en": "to warn；to admonish",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "濼",
@@ -4323,9 +3811,7 @@
       "en": "name of a river",
       "note": "多音字，可讀「luo/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "東山經",
-      "multi": true,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "羸",
@@ -4335,9 +3821,7 @@
       "en": "entangled；lean",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "涮",
@@ -4347,9 +3831,7 @@
       "en": "to rinse; to swish (in water)；to trick; to fool sb；to cook by dipping finely sliced ingredients briefly in boiling water or soup (generally done at the dining table)",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "嶧",
@@ -4359,9 +3841,7 @@
       "en": "name of hills in Shandong",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "蜃",
@@ -4371,9 +3851,7 @@
       "en": "giant clam；(mythology) clam-monster said to breathe out a vapor that forms a mirage of buildings",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "珧",
@@ -4383,9 +3861,7 @@
       "en": "mother-of-pearl",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "礪",
@@ -4395,9 +3871,7 @@
       "en": "grind；sandstone",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "澧",
@@ -4407,9 +3881,7 @@
       "en": "Lishui River in north Hunan, flowing into Lake Dongting 洞庭湖[Dong4 ting2 Hu2]；surname Li",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "犰",
@@ -4419,9 +3891,7 @@
       "en": "armadillo",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "狳",
@@ -4431,9 +3901,7 @@
       "en": "armadillo",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "螽",
@@ -4443,9 +3911,7 @@
       "en": "(grasshopper)；Gompsocleis mikado",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "鶘",
@@ -4455,9 +3921,7 @@
       "en": "pelican",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "射",
@@ -4467,9 +3931,7 @@
       "en": "to shoot；to launch；to allude to",
       "note": "多音字，可讀「she/ye/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "東山經",
-      "multi": true,
-      "rare": false
+      "src": "東山經"
     },
     {
       "word": "緱",
@@ -4479,9 +3941,7 @@
       "en": "surname Gou；rope attached to a sword hilt；(archaic) hilt",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "攸",
@@ -4491,9 +3951,7 @@
       "en": "distant, far；adverbial prefix",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "恝",
@@ -4503,9 +3961,7 @@
       "en": "indifferent",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "糸",
@@ -4515,9 +3971,7 @@
       "en": "fine silk；Kangxi radical 120",
       "note": "多音字，可讀「mi/si」，須依文意斷音。",
       "is_difficult": true,
-      "src": "東山經",
-      "multi": true,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "踵",
@@ -4527,9 +3981,7 @@
       "en": "to arrive；to follow；heel",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "合",
@@ -4539,9 +3991,7 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "東山經",
-      "multi": true,
-      "rare": false
+      "src": "東山經"
     },
     {
       "word": "瘧",
@@ -4551,9 +4001,7 @@
       "en": "malaria",
       "note": "多音字，可讀「nüe/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "東山經",
-      "multi": true,
-      "rare": false
+      "src": "東山經"
     },
     {
       "word": "芑",
@@ -4563,9 +4011,7 @@
       "en": "Panicum miliaceum",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "丞",
@@ -4575,9 +4021,7 @@
       "en": "deputy",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "鬲",
@@ -4587,9 +4031,7 @@
       "en": "earthen pot, iron cauldron",
       "note": "多音字，可讀「ge/li」，須依文意斷音。",
       "is_difficult": true,
-      "src": "東山經",
-      "multi": true,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "剡",
@@ -4599,9 +4041,7 @@
       "en": "sharp",
       "note": "多音字，可讀「yan/shan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "東山經",
-      "multi": true,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "楨",
@@ -4611,9 +4051,7 @@
       "en": "(old) privet (genus Ligustrum)；(bound form) (old) wooden support placed at the ends of a wall during construction; (fig.) mainstay; pillar; backbone",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "蜚",
@@ -4623,9 +4061,7 @@
       "en": "cockroach",
       "note": null,
       "is_difficult": true,
-      "src": "東山經",
-      "multi": false,
-      "rare": true
+      "src": "東山經"
     },
     {
       "word": "的",
@@ -4635,9 +4071,7 @@
       "en": "of; ~'s (possessive particle)；(used after an attribute when it modifies a noun)；(used at the end of a declarative sentence for emphasis)",
       "note": "多音字，可讀「de/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "東山經",
-      "multi": true,
-      "rare": false
+      "src": "東山經"
     },
     {
       "word": "籜",
@@ -4647,9 +4081,7 @@
       "en": "sheath around joints of bamboo",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "懵",
@@ -4659,9 +4091,7 @@
       "en": "(bound form) confused; ignorant",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "褚",
@@ -4671,9 +4101,7 @@
       "en": "surname Chu",
       "note": "多音字，可讀「chu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "痤",
@@ -4683,9 +4111,7 @@
       "en": "acne",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "菽",
@@ -4695,9 +4121,7 @@
       "en": "legumes (peas and beans)",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "鐙",
@@ -4707,9 +4131,7 @@
       "en": "lamp; a kind of cooking vessel",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "莨",
@@ -4719,9 +4141,7 @@
       "en": "Scopalia japonica maxin",
       "note": "多音字，可讀「lang/liang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "茜",
@@ -4731,9 +4151,7 @@
       "en": "(bound form) Indian madder; munjeet (Rubia cordifolia)；(bound form) madder red; dark red; alizarin crimson",
       "note": "多音字，可讀「qian/xi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "渚",
@@ -4743,9 +4161,7 @@
       "en": "islet；bank",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "畛",
@@ -4755,9 +4171,7 @@
       "en": "border；boundary；field-path",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "荀",
@@ -4767,9 +4181,7 @@
       "en": "surname Xun；(archaic) name of a plant mentioned in ancient texts；name of a state that existed during the Zhou dynasty in present-day Shanxi",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "泠",
@@ -4779,9 +4191,7 @@
       "en": "surname Ling；sound of water flowing",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "貉",
@@ -4791,9 +4201,7 @@
       "en": "old term for northern peoples；silent",
       "note": "多音字，可讀「mo/he/hao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "茇",
@@ -4803,9 +4211,7 @@
       "en": "betel",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "濠",
@@ -4815,9 +4221,7 @@
       "en": "trench",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "葶",
@@ -4827,9 +4231,7 @@
       "en": "Draba nemerosa bebe carpa",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "苧",
@@ -4839,9 +4241,7 @@
       "en": "limonene；(literary) tangled; in disarray",
       "note": "多音字，可讀「zhu/ning」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "雒",
@@ -4851,9 +4251,7 @@
       "en": "fearful; a black horse with a white mane",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "芫",
@@ -4863,9 +4261,7 @@
       "en": "lilac daphne (Daphne genkwa), used in Chinese herbal medicine",
       "note": "多音字，可讀「yuan/yan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "朝",
@@ -4875,9 +4271,7 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "隗",
@@ -4887,9 +4281,7 @@
       "en": "high, lofty; surname",
       "note": "多音字，可讀「wei/kui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "璇",
@@ -4899,9 +4291,7 @@
       "en": "(jade)",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "縞",
@@ -4911,9 +4301,7 @@
       "en": "plain white silk",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "螫",
@@ -4923,9 +4311,7 @@
       "en": "(literary) (of a bee or spider etc) to sting or bite",
       "note": "多音字，可讀「shi/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "禳",
@@ -4935,9 +4321,7 @@
       "en": "sacrifice for avoiding calamity",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "帙",
@@ -4947,9 +4331,7 @@
       "en": "surname Zhi；book cover；(classifier) ten years",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "觴",
@@ -4959,9 +4341,7 @@
       "en": "feast；goblet",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "俞",
@@ -4971,9 +4351,7 @@
       "en": "surname Yu；yes (used by Emperor or ruler)；OK",
       "note": "多音字，可讀「yu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "陂",
@@ -4983,9 +4361,7 @@
       "en": "dam, embankment; reservoir",
       "note": "多音字，可讀「bei/po/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "櫨",
@@ -4995,9 +4371,7 @@
       "en": "capital (of column)；smoke tree",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "鑫",
@@ -5007,9 +4381,7 @@
       "en": "prosperity; used in names of people and shops",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "甾",
@@ -5019,9 +4391,7 @@
       "en": "steroid nucleus",
       "note": "多音字，可讀「zai/zi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "祭",
@@ -5031,9 +4401,7 @@
       "en": "to offer a sacrifice to (gods or ancestors)；(in classical novels) to recite an incantation to activate a magic weapon; to wield (sth magic)；(bound form) ceremony",
       "note": "多音字，可讀「ji/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "休",
@@ -5043,9 +4411,7 @@
       "en": "surname Xiu；to rest；to stop doing sth for a period of time",
       "note": "多音字，可讀「xiu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "蓍",
@@ -5055,9 +4421,7 @@
       "en": "yarrow (Achillea millefolium)",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "夙",
@@ -5067,9 +4431,7 @@
       "en": "morning；early；long-held",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "胥",
@@ -5079,9 +4441,7 @@
       "en": "surname Xu；all；assist",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "扁",
@@ -5091,9 +4451,7 @@
       "en": "flat；(coll.) to beat (sb) up",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "厥",
@@ -5103,9 +4461,7 @@
       "en": "to faint；to lose consciousness；his",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "霆",
@@ -5115,9 +4471,7 @@
       "en": "a sudden peal of thunder",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "鱖",
@@ -5127,9 +4481,7 @@
       "en": "mandarin fish",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "逵",
@@ -5139,9 +4491,7 @@
       "en": "thoroughfare, crossroads",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "衢",
@@ -5151,9 +4501,7 @@
       "en": "thoroughfare",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "奧",
@@ -5163,9 +4511,7 @@
       "en": "(bound form) Austria (abbr. for 奧地利|奥地利[Ao4 di4 li4])；(bound form) Olympics (abbr. for 奧林匹克|奥林匹克[Ao4 lin2 pi3 ke4])；obscure",
       "note": "多音字，可讀「ao/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "亢",
@@ -5175,9 +4521,7 @@
       "en": "surname Kang；Kang, one of the 28 constellations；high",
       "note": "多音字，可讀「kang/hang/gang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "陘",
@@ -5187,9 +4531,7 @@
       "en": "defile, gorge, mountain pass",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "夭",
@@ -5199,9 +4541,7 @@
       "en": "(bound form) to die prematurely (also pr. [yao3])；(literary) (of vegetation) luxuriant；(bound form) to die prematurely (also pr. [yao3]) (variant of 夭[yao1])",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "杼",
@@ -5211,9 +4551,7 @@
       "en": "shuttle of a loom",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "睢",
@@ -5223,9 +4561,7 @@
       "en": "surname Sui；to stare",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "橘",
@@ -5235,9 +4571,7 @@
       "en": "mandarin orange (Citrus reticulata)；tangerine",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "鮫",
@@ -5247,9 +4581,7 @@
       "en": "shark",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "鑊",
@@ -5259,9 +4591,7 @@
       "en": "cauldron, large iron pot",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "麂",
@@ -5271,9 +4601,7 @@
       "en": "a species of deer",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "鴆",
@@ -5283,9 +4611,7 @@
       "en": "a bird resembling the secretary falcon",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "綸",
@@ -5295,9 +4621,7 @@
       "en": "to classify；to twist silk；silk thread",
       "note": "多音字，可讀「lun/guan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "且",
@@ -5307,9 +4631,7 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "痼",
@@ -5319,9 +4641,7 @@
       "en": "obstinate disease；(of passion, hobbies) long-term",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "召",
@@ -5331,9 +4651,7 @@
       "en": "to call together；to summon；to convene",
       "note": "多音字，可讀「zhao/shao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "疆",
@@ -5343,9 +4661,7 @@
       "en": "border；boundary",
       "note": "多音字，可讀「jiang/qiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "萑",
@@ -5355,9 +4671,7 @@
       "en": "a kind of reed",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "岷",
@@ -5367,9 +4681,7 @@
       "en": "name of a river in Sichuan",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "夔",
@@ -5379,9 +4691,7 @@
       "en": "one-legged mountain demon of Chinese mythology；Chinese mythical figure who invented music and dancing；Chinese rain god",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "崍",
@@ -5391,9 +4701,7 @@
       "en": "name of a mountain in Sichuan",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "猷",
@@ -5403,9 +4711,7 @@
       "en": "to plan；to scheme",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "賈",
@@ -5415,9 +4721,7 @@
       "en": "surname Jia",
       "note": "多音字，可讀「jia/gu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "繁",
@@ -5427,9 +4731,7 @@
       "en": "complicated；many；in great numbers",
       "note": "多音字，可讀「fan/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "繢",
@@ -5439,9 +4741,7 @@
       "en": "multicolor；to draw",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "鵒",
@@ -5451,9 +4751,7 @@
       "en": "mynah; Acridotheres tristis",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "滎",
@@ -5463,9 +4761,7 @@
       "en": "a county in Henan; the sound of waves crashing",
       "note": "多音字，可讀「xing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "溲",
@@ -5475,9 +4771,7 @@
       "en": "to urinate",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "舳",
@@ -5487,9 +4781,7 @@
       "en": "poopdeck；stern of boat",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "唷",
@@ -5499,9 +4791,7 @@
       "en": "(interjection expressing surprise) Oh!；My!；final particle expressing exhortation, admiration etc",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "貊",
@@ -5511,9 +4801,7 @@
       "en": "name of a wild tribe；silent",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "躡",
@@ -5523,9 +4811,7 @@
       "en": "to walk on tiptoe；to walk quietly；to tread (on)",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "瘢",
@@ -5535,9 +4821,7 @@
       "en": "mark；scar on the skin",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "湟",
@@ -5547,9 +4831,7 @@
       "en": "name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "醵",
@@ -5559,9 +4841,7 @@
       "en": "to contribute for drinks; to pool money",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "諂",
@@ -5571,9 +4851,7 @@
       "en": "to flatter；to cajole",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "湎",
@@ -5583,9 +4861,7 @@
       "en": "drunk, flushed",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "嗝",
@@ -5595,9 +4871,7 @@
       "en": "hiccup；belch",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "櫧",
@@ -5607,9 +4881,7 @@
       "en": "Quercus glanca",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "堇",
@@ -5619,9 +4891,7 @@
       "en": "clay；violet (plant)",
       "note": "多音字，可讀「jin/qin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "苴",
@@ -5631,9 +4901,7 @@
       "en": "surname Ju；(hemp)；sack cloth",
       "note": "多音字，可讀「ju/cha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "蝟",
@@ -5643,9 +4911,7 @@
       "en": "(bound form) hedgehog",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "思",
@@ -5655,9 +4921,7 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "頡",
@@ -5667,9 +4931,7 @@
       "en": "contest; to fly, to soar",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "鞢",
@@ -5679,9 +4941,7 @@
       "en": null,
       "note": "多音字，可讀「xie/die」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "熨",
@@ -5691,9 +4951,7 @@
       "en": "an iron；to iron",
       "note": "多音字，可讀「yun/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "漇",
@@ -5703,9 +4961,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "鯢",
@@ -5715,9 +4971,7 @@
       "en": "salamander; Cryptobranchus japonicus",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "尺",
@@ -5727,9 +4981,7 @@
       "en": "a Chinese foot；one-third of a meter；a ruler",
       "note": "多音字，可讀「chi/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "嫗",
@@ -5739,9 +4991,7 @@
       "en": "old woman；to brood over；to protect",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "萱",
@@ -5751,9 +5001,7 @@
       "en": "orange day-lily (Hemerocallis flava)",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "搕",
@@ -5763,9 +5011,7 @@
       "en": "to strike；to take in the hand",
       "note": "多音字，可讀「ke/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "杳",
@@ -5775,9 +5021,7 @@
       "en": "dark and quiet；disappear",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "洞",
@@ -5787,9 +5031,7 @@
       "en": "cave；hole；zero (unambiguous spoken form when spelling out numbers)",
       "note": "多音字，可讀「dong/tong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "伯",
@@ -5799,9 +5041,7 @@
       "en": "father's elder brother；senior；paternal elder uncle",
       "note": "多音字，可讀「bo/bai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "稱",
@@ -5811,9 +5051,7 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "沅",
@@ -5823,9 +5061,7 @@
       "en": "Yuan river in Guizhou and Hunan",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "瀟",
@@ -5835,9 +5071,7 @@
       "en": "(of water) deep and clear",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "鴞",
@@ -5847,9 +5081,7 @@
       "en": "owl",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "麝",
@@ -5859,9 +5091,7 @@
       "en": "musk deer",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "臧",
@@ -5871,9 +5101,7 @@
       "en": "surname Zang；good；right",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "蓋",
@@ -5883,9 +5111,7 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "鎩",
@@ -5895,9 +5121,7 @@
       "en": "spear; to injure",
       "note": null,
       "is_difficult": true,
-      "src": "中山經",
-      "multi": false,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "禪",
@@ -5907,9 +5131,7 @@
       "en": "to abdicate",
       "note": "多音字，可讀「shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": true
+      "src": "中山經"
     },
     {
       "word": "家",
@@ -5919,9 +5141,7 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "中山經",
-      "multi": true,
-      "rare": false
+      "src": "中山經"
     },
     {
       "word": "陬",
@@ -5931,9 +5151,7 @@
       "en": "corner, cranny, niche",
       "note": null,
       "is_difficult": true,
-      "src": "海外南經",
-      "multi": false,
-      "rare": true
+      "src": "海外南經"
     },
     {
       "word": "彗",
@@ -5943,9 +5161,7 @@
       "en": "broom",
       "note": null,
       "is_difficult": true,
-      "src": "海外南經",
-      "multi": false,
-      "rare": true
+      "src": "海外南經"
     },
     {
       "word": "脛",
@@ -5955,9 +5171,7 @@
       "en": "lower part of leg",
       "note": null,
       "is_difficult": true,
-      "src": "海外南經",
-      "multi": false,
-      "rare": true
+      "src": "海外南經"
     },
     {
       "word": "羿",
@@ -5967,9 +5181,7 @@
       "en": "surname Yi；name of a legendary archer (also called 后羿[Hou4 Yi4])",
       "note": null,
       "is_difficult": true,
-      "src": "海外南經",
-      "multi": false,
-      "rare": true
+      "src": "海外南經"
     },
     {
       "word": "嚳",
@@ -5979,9 +5191,7 @@
       "en": "one of the five legendary emperors, also called 高辛氏[Gao1 xin1 shi4]",
       "note": null,
       "is_difficult": true,
-      "src": "海外南經",
-      "multi": false,
-      "rare": true
+      "src": "海外南經"
     },
     {
       "word": "咽",
@@ -5991,9 +5201,7 @@
       "en": "throat; pharynx；narrow pass；to swallow",
       "note": "多音字，可讀「yan/ye」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海外南經",
-      "multi": true,
-      "rare": false
+      "src": "海外南經"
     },
     {
       "word": "翳",
@@ -6003,9 +5211,7 @@
       "en": "feather screen；to screen；to shade",
       "note": null,
       "is_difficult": true,
-      "src": "海外西經",
-      "multi": false,
-      "rare": true
+      "src": "海外西經"
     },
     {
       "word": "璜",
@@ -6015,9 +5221,7 @@
       "en": "semicircular jade ornament",
       "note": null,
       "is_difficult": true,
-      "src": "海外西經",
-      "multi": false,
-      "rare": true
+      "src": "海外西經"
     },
     {
       "word": "肱",
@@ -6027,9 +5231,7 @@
       "en": "upper arm；arm",
       "note": null,
       "is_difficult": true,
-      "src": "海外西經",
-      "multi": false,
-      "rare": true
+      "src": "海外西經"
     },
     {
       "word": "旁",
@@ -6039,9 +5241,7 @@
       "en": "one side；other；different",
       "note": "多音字，可讀「pang/bang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海外西經",
-      "multi": true,
-      "rare": false
+      "src": "海外西經"
     },
     {
       "word": "俎",
@@ -6051,9 +5251,7 @@
       "en": "a stand for food at sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "海外西經",
-      "multi": false,
-      "rare": true
+      "src": "海外西經"
     },
     {
       "word": "亡",
@@ -6063,9 +5261,7 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海外西經",
-      "multi": true,
-      "rare": false
+      "src": "海外西經"
     },
     {
       "word": "鄣",
@@ -6075,9 +5271,7 @@
       "en": "an ancient city in Jiangsu province",
       "note": null,
       "is_difficult": true,
-      "src": "海外西經",
-      "multi": false,
-      "rare": true
+      "src": "海外西經"
     },
     {
       "word": "露",
@@ -6087,9 +5281,7 @@
       "en": "dew; leak; bare, exposed; to reveal, to show",
       "note": "多音字，可讀「lu/lou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海外西經",
-      "multi": true,
-      "rare": false
+      "src": "海外西經"
     },
     {
       "word": "綮",
@@ -6099,9 +5291,7 @@
       "en": "embroidered banner",
       "note": "多音字，可讀「qing/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海外北經",
-      "multi": true,
-      "rare": true
+      "src": "海外北經"
     },
     {
       "word": "瞑",
@@ -6111,9 +5301,7 @@
       "en": "to close (the eyes)",
       "note": null,
       "is_difficult": true,
-      "src": "海外北經",
-      "multi": false,
-      "rare": true
+      "src": "海外北經"
     },
     {
       "word": "汆",
@@ -6123,9 +5311,7 @@
       "en": "quick-boil；to boil for a short time",
       "note": null,
       "is_difficult": true,
-      "src": "海外北經",
-      "multi": false,
-      "rare": true
+      "src": "海外北經"
     },
     {
       "word": "折",
@@ -6135,9 +5321,7 @@
       "en": "to turn sth over；to turn upside down；to tip sth out (of a container)",
       "note": "多音字，可讀「zhe/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海外北經",
-      "multi": true,
-      "rare": false
+      "src": "海外北經"
     },
     {
       "word": "拘",
@@ -6147,9 +5331,7 @@
       "en": "to capture；to restrain；to constrain",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海外北經",
-      "multi": true,
-      "rare": false
+      "src": "海外北經"
     },
     {
       "word": "據",
@@ -6159,9 +5341,7 @@
       "en": "according to；to act in accordance with；to depend on",
       "note": "多音字，可讀「ju/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海外北經",
-      "multi": true,
-      "rare": false
+      "src": "海外北經"
     },
     {
       "word": "顓",
@@ -6171,9 +5351,7 @@
       "en": "good, honest, simple; respectful",
       "note": null,
       "is_difficult": true,
-      "src": "海外北經",
-      "multi": false,
-      "rare": true
+      "src": "海外北經"
     },
     {
       "word": "頊",
@@ -6183,9 +5361,7 @@
       "en": "anxious, grieving",
       "note": null,
       "is_difficult": true,
-      "src": "海外北經",
-      "multi": false,
-      "rare": true
+      "src": "海外北經"
     },
     {
       "word": "嬪",
@@ -6195,9 +5371,7 @@
       "en": "imperial concubine",
       "note": null,
       "is_difficult": true,
-      "src": "海外北經",
-      "multi": false,
-      "rare": true
+      "src": "海外北經"
     },
     {
       "word": "蛩",
@@ -6207,9 +5381,7 @@
       "en": "anxious；grasshopper；a cricket",
       "note": null,
       "is_difficult": true,
-      "src": "海外北經",
-      "multi": false,
-      "rare": true
+      "src": "海外北經"
     },
     {
       "word": "強",
@@ -6219,9 +5391,7 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海外北經",
-      "multi": true,
-      "rare": false
+      "src": "海外北經"
     },
     {
       "word": "珥",
@@ -6231,9 +5401,7 @@
       "en": "pearl or jade earring",
       "note": null,
       "is_difficult": true,
-      "src": "海外北經",
-      "multi": false,
-      "rare": true
+      "src": "海外北經"
     },
     {
       "word": "嗟",
@@ -6243,9 +5411,7 @@
       "en": "sigh；also pr. [jue1]",
       "note": null,
       "is_difficult": true,
-      "src": "海外東經",
-      "multi": false,
-      "rare": true
+      "src": "海外東經"
     },
     {
       "word": "啖",
@@ -6255,9 +5421,7 @@
       "en": "to eat；to taste；to entice (using bait)",
       "note": null,
       "is_difficult": true,
-      "src": "海外東經",
-      "multi": false,
-      "rare": true
+      "src": "海外東經"
     },
     {
       "word": "妾",
@@ -6267,9 +5431,7 @@
       "en": "concubine；I, your servant (deprecatory self-reference for women)",
       "note": null,
       "is_difficult": true,
-      "src": "海外東經",
-      "multi": false,
-      "rare": true
+      "src": "海外東經"
     },
     {
       "word": "詔",
@@ -6279,9 +5441,7 @@
       "en": "(literary) to admonish；(bound form) imperial edict",
       "note": null,
       "is_difficult": true,
-      "src": "海外東經",
-      "multi": false,
-      "rare": true
+      "src": "海外東經"
     },
     {
       "word": "校",
@@ -6291,9 +5451,7 @@
       "en": "(bound form) school; college；(bound form) (military) field officer",
       "note": "多音字，可讀「xiao/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海外東經",
-      "multi": true,
-      "rare": false
+      "src": "海外東經"
     },
     {
       "word": "尉",
@@ -6303,9 +5461,7 @@
       "en": "surname Wei；military officer",
       "note": "多音字，可讀「wei/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海外東經",
-      "multi": true,
-      "rare": false
+      "src": "海外東經"
     },
     {
       "word": "省",
@@ -6315,9 +5471,7 @@
       "en": "to save; to economize; to be frugal；to omit; to delete; to leave out；province",
       "note": "多音字，可讀「sheng/xing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海外東經",
-      "multi": true,
-      "rare": false
+      "src": "海外東經"
     },
     {
       "word": "甌",
@@ -6327,9 +5481,7 @@
       "en": "old name for Wenzhou City 溫州市|温州市[Wen1 zhou1 shi4] in Zhejiang 浙江[Zhe4 jiang1]；(pottery) bowl or drinking vessel",
       "note": null,
       "is_difficult": true,
-      "src": "海內南經",
-      "multi": false,
-      "rare": true
+      "src": "海內南經"
     },
     {
       "word": "朐",
@@ -6339,9 +5491,7 @@
       "en": "surname Qu",
       "note": "多音字，可讀「qu/xu/chun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內南經",
-      "multi": true,
-      "rare": true
+      "src": "海內南經"
     },
     {
       "word": "契",
@@ -6351,9 +5501,7 @@
       "en": "to carve；carved words；to agree",
       "note": "多音字，可讀「qi/qie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內南經",
-      "multi": true,
-      "rare": false
+      "src": "海內南經"
     },
     {
       "word": "欒",
@@ -6363,9 +5511,7 @@
       "en": "surname Luan；Koelreuteria paniculata",
       "note": null,
       "is_difficult": true,
-      "src": "海內南經",
-      "multi": false,
-      "rare": true
+      "src": "海內南經"
     },
     {
       "word": "阿",
@@ -6375,9 +5521,7 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": true,
-      "rare": false
+      "src": "大荒南經"
     },
     {
       "word": "汔",
@@ -6387,9 +5531,7 @@
       "en": "near",
       "note": null,
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": false,
-      "rare": true
+      "src": "大荒南經"
     },
     {
       "word": "重",
@@ -6399,9 +5541,7 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": true,
-      "rare": false
+      "src": "大荒南經"
     },
     {
       "word": "緡",
@@ -6411,9 +5551,7 @@
       "en": "cord；fishing-line；string of coins",
       "note": null,
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": false,
-      "rare": true
+      "src": "大荒南經"
     },
     {
       "word": "降",
@@ -6423,9 +5561,7 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": true,
-      "rare": false
+      "src": "大荒南經"
     },
     {
       "word": "穡",
@@ -6435,9 +5571,7 @@
       "en": "gather in harvest",
       "note": null,
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": false,
-      "rare": true
+      "src": "大荒南經"
     },
     {
       "word": "蜮",
@@ -6447,9 +5581,7 @@
       "en": "(Chinese mythology) creature that lives underwater and spits sand to make people ill",
       "note": null,
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": false,
-      "rare": true
+      "src": "大荒南經"
     },
     {
       "word": "嗤",
@@ -6459,9 +5591,7 @@
       "en": "laugh at；jeer；scoff at",
       "note": null,
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": false,
-      "rare": true
+      "src": "大荒南經"
     },
     {
       "word": "桎",
@@ -6471,9 +5601,7 @@
       "en": "fetters",
       "note": null,
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": false,
-      "rare": true
+      "src": "大荒南經"
     },
     {
       "word": "梏",
@@ -6483,9 +5611,7 @@
       "en": "braces (med.)；fetters；manacles",
       "note": null,
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": false,
-      "rare": true
+      "src": "大荒南經"
     },
     {
       "word": "僥",
@@ -6495,9 +5621,7 @@
       "en": "by mere luck",
       "note": "多音字，可讀「jiao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": true,
-      "rare": false
+      "src": "大荒南經"
     },
     {
       "word": "鼬",
@@ -6507,9 +5631,7 @@
       "en": "weasel, mustela itatis",
       "note": null,
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": false,
-      "rare": true
+      "src": "大荒南經"
     },
     {
       "word": "壑",
@@ -6519,9 +5641,7 @@
       "en": "gully；ravine；Taiwan pr. [huo4]",
       "note": null,
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": false,
-      "rare": true
+      "src": "大荒南經"
     },
     {
       "word": "鯀",
@@ -6531,9 +5651,7 @@
       "en": "giant fish; Gun, mythical father of the emperor Yu",
       "note": null,
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": false,
-      "rare": true
+      "src": "大荒南經"
     },
     {
       "word": "琰",
@@ -6543,9 +5661,7 @@
       "en": "gem；glitter of gems",
       "note": null,
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": false,
-      "rare": true
+      "src": "大荒南經"
     },
     {
       "word": "苣",
@@ -6555,9 +5671,7 @@
       "en": "Taiwan pr. [ju4]",
       "note": "多音字，可讀「ju/qu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": true,
-      "rare": true
+      "src": "大荒南經"
     },
     {
       "word": "羲",
@@ -6567,9 +5681,7 @@
       "en": "same as Fuxi 伏羲[Fu2 xi1], a mythical emperor；surname Xi",
       "note": null,
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": false,
-      "rare": true
+      "src": "大荒南經"
     },
     {
       "word": "騅",
@@ -6579,9 +5691,7 @@
       "en": "piebald horse",
       "note": null,
       "is_difficult": true,
-      "src": "大荒南經",
-      "multi": false,
-      "rare": true
+      "src": "大荒南經"
     },
     {
       "word": "系",
@@ -6591,9 +5701,7 @@
       "en": "to connect；to relate to；to tie up",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內西經",
-      "multi": true,
-      "rare": false
+      "src": "海內西經"
     },
     {
       "word": "解",
@@ -6603,9 +5711,7 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內西經",
-      "multi": true,
-      "rare": false
+      "src": "海內西經"
     },
     {
       "word": "酆",
@@ -6615,9 +5721,7 @@
       "en": "the name of a Zhou-period state",
       "note": null,
       "is_difficult": true,
-      "src": "海內西經",
-      "multi": false,
-      "rare": true
+      "src": "海內西經"
     },
     {
       "word": "檻",
@@ -6627,9 +5731,7 @@
       "en": "banister；balustrade；cage for animal or prisoner",
       "note": "多音字，可讀「jian/kan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內西經",
-      "multi": true,
-      "rare": false
+      "src": "海內西經"
     },
     {
       "word": "琪",
@@ -6639,9 +5741,7 @@
       "en": "(literary) fine jade",
       "note": null,
       "is_difficult": true,
-      "src": "海內西經",
-      "multi": false,
-      "rare": true
+      "src": "海內西經"
     },
     {
       "word": "兌",
@@ -6651,9 +5751,7 @@
       "en": "surname Dui；to cash；to exchange",
       "note": "多音字，可讀「dui/rui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內西經",
-      "multi": true,
-      "rare": false
+      "src": "海內西經"
     },
     {
       "word": "伺",
@@ -6663,9 +5761,7 @@
       "en": "to watch；to wait；to examine",
       "note": "多音字，可讀「si/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內西經",
-      "multi": true,
-      "rare": false
+      "src": "海內西經"
     },
     {
       "word": "隼",
@@ -6675,9 +5771,7 @@
       "en": "falcon, eagle; an aquiline nose",
       "note": null,
       "is_difficult": true,
-      "src": "海內西經",
-      "multi": false,
-      "rare": true
+      "src": "海內西經"
     },
     {
       "word": "髻",
@@ -6687,9 +5781,7 @@
       "en": "bun, topknot",
       "note": null,
       "is_difficult": true,
-      "src": "海內北經",
-      "multi": false,
-      "rare": true
+      "src": "海內北經"
     },
     {
       "word": "被",
@@ -6699,9 +5791,7 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內北經",
-      "multi": true,
-      "rare": false
+      "src": "海內北經"
     },
     {
       "word": "蛾",
@@ -6711,9 +5801,7 @@
       "en": "(bound form) moth",
       "note": "多音字，可讀「e/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內北經",
-      "multi": true,
-      "rare": false
+      "src": "海內北經"
     },
     {
       "word": "騶",
@@ -6723,9 +5811,7 @@
       "en": "mounted escort; groom",
       "note": null,
       "is_difficult": true,
-      "src": "海內北經",
-      "multi": false,
-      "rare": true
+      "src": "海內北經"
     },
     {
       "word": "倭",
@@ -6735,9 +5821,7 @@
       "en": "dwarf；Japanese (derog.) (old)",
       "note": "多音字，可讀「wo/wei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內北經",
-      "multi": true,
-      "rare": true
+      "src": "海內北經"
     },
     {
       "word": "便",
@@ -6747,9 +5831,7 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內北經",
-      "multi": true,
-      "rare": false
+      "src": "海內北經"
     },
     {
       "word": "璽",
@@ -6759,9 +5841,7 @@
       "en": "ruler's seal",
       "note": null,
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": false,
-      "rare": true
+      "src": "海內東經"
     },
     {
       "word": "奐",
@@ -6771,9 +5851,7 @@
       "en": "surname Huan；excellent",
       "note": null,
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": false,
-      "rare": true
+      "src": "海內東經"
     },
     {
       "word": "邪",
@@ -6783,9 +5861,7 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": true,
-      "rare": false
+      "src": "海內東經"
     },
     {
       "word": "汶",
@@ -6795,9 +5871,7 @@
       "en": "Wen River in northwest Sichuan (same as 汶川)；classical name of river in Shandong, used to refer to Qi 齊國|齐国",
       "note": "多音字，可讀「wen/men」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": true,
-      "rare": true
+      "src": "海內東經"
     },
     {
       "word": "崆",
@@ -6807,9 +5881,7 @@
       "en": "name of a mountain",
       "note": null,
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": false,
-      "rare": true
+      "src": "海內東經"
     },
     {
       "word": "峒",
@@ -6819,9 +5891,7 @@
       "en": "cave；cavern",
       "note": "多音字，可讀「dong/tong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": true,
-      "rare": true
+      "src": "海內東經"
     },
     {
       "word": "鄢",
@@ -6831,9 +5901,7 @@
       "en": "a district in Henan province",
       "note": null,
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": false,
-      "rare": true
+      "src": "海內東經"
     },
     {
       "word": "期",
@@ -6843,9 +5911,7 @@
       "en": "period；cycle；a period of time",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": true,
-      "rare": false
+      "src": "海內東經"
     },
     {
       "word": "郅",
@@ -6855,9 +5921,7 @@
       "en": "to grow, to flourish; superlative",
       "note": null,
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": false,
-      "rare": true
+      "src": "海內東經"
     },
     {
       "word": "鐔",
@@ -6867,9 +5931,7 @@
       "en": "dagger, dirk, short-sword",
       "note": null,
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": false,
-      "rare": true
+      "src": "海內東經"
     },
     {
       "word": "雋",
@@ -6879,9 +5941,7 @@
       "en": "superior, outstanding, talented",
       "note": "多音字，可讀「jun/juan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": true,
-      "rare": true
+      "src": "海內東經"
     },
     {
       "word": "贛",
@@ -6891,9 +5951,7 @@
       "en": "abbr. for Jiangxi Province 江西省[Jiang1 xi1 Sheng3]；Gan River in Jiangxi Province 江西省[Jiang1 xi1 Sheng3]",
       "note": "多音字，可讀「gan/gong/zhuang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": true,
-      "rare": false
+      "src": "海內東經"
     },
     {
       "word": "泗",
@@ -6903,9 +5961,7 @@
       "en": "river in Shandong；nasal mucus",
       "note": null,
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": false,
-      "rare": true
+      "src": "海內東經"
     },
     {
       "word": "潢",
@@ -6915,9 +5971,7 @@
       "en": "dye paper；lake；pond",
       "note": "多音字，可讀「huang/guang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": true,
-      "rare": true
+      "src": "海內東經"
     },
     {
       "word": "潦",
@@ -6927,9 +5981,7 @@
       "en": "flooded；heavy rain",
       "note": "多音字，可讀「liao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內東經",
-      "multi": true,
-      "rare": false
+      "src": "海內東經"
     },
     {
       "word": "晏",
@@ -6939,9 +5991,7 @@
       "en": "surname Yan；late；quiet",
       "note": null,
       "is_difficult": true,
-      "src": "大荒東經",
-      "multi": false,
-      "rare": true
+      "src": "大荒東經"
     },
     {
       "word": "瞀",
@@ -6951,9 +6001,7 @@
       "en": "indistinct vision；dim",
       "note": null,
       "is_difficult": true,
-      "src": "大荒東經",
-      "multi": false,
-      "rare": true
+      "src": "大荒東經"
     },
     {
       "word": "羝",
@@ -6963,9 +6011,7 @@
       "en": "billy goat；ram",
       "note": null,
       "is_difficult": true,
-      "src": "大荒東經",
-      "multi": false,
-      "rare": true
+      "src": "大荒東經"
     },
     {
       "word": "芥",
@@ -6975,9 +6021,7 @@
       "en": "mustard",
       "note": "多音字，可讀「jie/gai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒東經",
-      "multi": true,
-      "rare": false
+      "src": "大荒東經"
     },
     {
       "word": "猗",
@@ -6987,9 +6031,7 @@
       "en": "(interj.)",
       "note": null,
       "is_difficult": true,
-      "src": "大荒東經",
-      "multi": false,
-      "rare": true
+      "src": "大荒東經"
     },
     {
       "word": "曾",
@@ -6999,9 +6041,7 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒東經",
-      "multi": true,
-      "rare": false
+      "src": "大荒東經"
     },
     {
       "word": "盛",
@@ -7011,9 +6051,7 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒東經",
-      "multi": true,
-      "rare": false
+      "src": "大荒東經"
     },
     {
       "word": "沒",
@@ -7023,9 +6061,7 @@
       "en": "(negative prefix for verbs) have not; not",
       "note": "多音字，可讀「mei/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒東經",
-      "multi": true,
-      "rare": false
+      "src": "大荒東經"
     },
     {
       "word": "橛",
@@ -7035,9 +6071,7 @@
       "en": "a peg；low post",
       "note": null,
       "is_difficult": true,
-      "src": "大荒東經",
-      "multi": false,
-      "rare": true
+      "src": "大荒東經"
     },
     {
       "word": "媧",
@@ -7047,9 +6081,7 @@
       "en": "surname Wa；sister of legendary emperor Fuxi 伏羲[Fu2 xi1]",
       "note": null,
       "is_difficult": true,
-      "src": "大荒西經",
-      "multi": false,
-      "rare": true
+      "src": "大荒西經"
     },
     {
       "word": "淖",
@@ -7059,9 +6091,7 @@
       "en": "surname Nao；slush；mud",
       "note": "多音字，可讀「nao/chuo/zhuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒西經",
-      "multi": true,
-      "rare": false
+      "src": "大荒西經"
     },
     {
       "word": "袂",
@@ -7071,9 +6101,7 @@
       "en": "sleeve of a robe",
       "note": null,
       "is_difficult": true,
-      "src": "大荒西經",
-      "multi": false,
-      "rare": true
+      "src": "大荒西經"
     },
     {
       "word": "廾",
@@ -7083,9 +6111,7 @@
       "en": "hands joined",
       "note": null,
       "is_difficult": true,
-      "src": "大荒西經",
-      "multi": false,
-      "rare": true
+      "src": "大荒西經"
     },
     {
       "word": "仰",
@@ -7095,9 +6121,7 @@
       "en": "surname Yang；to face upward；to look up",
       "note": "多音字，可讀「yang/ang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒西經",
-      "multi": true,
-      "rare": false
+      "src": "大荒西經"
     },
     {
       "word": "肴",
@@ -7107,9 +6131,7 @@
       "en": "meat dishes；mixed viands",
       "note": null,
       "is_difficult": true,
-      "src": "大荒西經",
-      "multi": false,
-      "rare": true
+      "src": "大荒西經"
     },
     {
       "word": "鏖",
@@ -7119,9 +6141,7 @@
       "en": "to fight to the death; to engage in a fierce battle",
       "note": null,
       "is_difficult": true,
-      "src": "大荒西經",
-      "multi": false,
-      "rare": true
+      "src": "大荒西經"
     },
     {
       "word": "鏊",
@@ -7131,9 +6151,7 @@
       "en": "a flat iron cooking-plate for cakes",
       "note": null,
       "is_difficult": true,
-      "src": "大荒西經",
-      "multi": false,
-      "rare": true
+      "src": "大荒西經"
     },
     {
       "word": "屏",
@@ -7143,9 +6161,7 @@
       "en": "(standing) screen",
       "note": "多音字，可讀「ping/bing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒西經",
-      "multi": true,
-      "rare": false
+      "src": "大荒西經"
     },
     {
       "word": "虔",
@@ -7155,9 +6171,7 @@
       "en": "to act with reverence；reverent",
       "note": null,
       "is_difficult": true,
-      "src": "大荒西經",
-      "multi": false,
-      "rare": true
+      "src": "大荒西經"
     },
     {
       "word": "桀",
@@ -7167,9 +6181,7 @@
       "en": "(emperor of Xia dynasty)；cruel",
       "note": null,
       "is_difficult": true,
-      "src": "大荒西經",
-      "multi": false,
-      "rare": true
+      "src": "大荒西經"
     },
     {
       "word": "沈",
@@ -7179,9 +6191,7 @@
       "en": "surname Shen；short name for 瀋陽|沈阳[Shen3 yang2]；(literary) juice",
       "note": "多音字，可讀「shen/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒北經",
-      "multi": true,
-      "rare": false
+      "src": "大荒北經"
     },
     {
       "word": "蛭",
@@ -7191,9 +6201,7 @@
       "en": "fluke；leech；hirudinea",
       "note": null,
       "is_difficult": true,
-      "src": "大荒北經",
-      "multi": false,
-      "rare": true
+      "src": "大荒北經"
     },
     {
       "word": "齊",
@@ -7203,9 +6211,7 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒北經",
-      "multi": true,
-      "rare": false
+      "src": "大荒北經"
     },
     {
       "word": "綽",
@@ -7215,9 +6221,7 @@
       "en": "(bound form) ample; spacious；(literary) graceful",
       "note": "多音字，可讀「chuo/chao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒北經",
-      "multi": true,
-      "rare": false
+      "src": "大荒北經"
     },
     {
       "word": "儋",
@@ -7227,9 +6231,7 @@
       "en": "carry",
       "note": null,
       "is_difficult": true,
-      "src": "大荒北經",
-      "multi": false,
-      "rare": true
+      "src": "大荒北經"
     },
     {
       "word": "追",
@@ -7239,9 +6241,7 @@
       "en": "to pursue, to chase after; to expel",
       "note": "多音字，可讀「zhui/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒北經",
-      "multi": true,
-      "rare": false
+      "src": "大荒北經"
     },
     {
       "word": "湮",
@@ -7251,9 +6251,7 @@
       "en": "(literary) to sink into oblivion；(literary) to silt up；Taiwan pr. [yin1]",
       "note": "多音字，可讀「yan/yin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒北經",
-      "multi": true,
-      "rare": true
+      "src": "大荒北經"
     },
     {
       "word": "魃",
@@ -7263,9 +6261,7 @@
       "en": "drought demon",
       "note": null,
       "is_difficult": true,
-      "src": "大荒北經",
-      "multi": false,
-      "rare": true
+      "src": "大荒北經"
     },
     {
       "word": "畜",
@@ -7275,9 +6271,7 @@
       "en": "livestock；domesticated animal；domestic animal",
       "note": "多音字，可讀「chu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒北經",
-      "multi": true,
-      "rare": false
+      "src": "大荒北經"
     },
     {
       "word": "瀆",
@@ -7287,9 +6281,7 @@
       "en": "disrespectful；(literary) ditch",
       "note": "多音字，可讀「du/dou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒北經",
-      "multi": true,
-      "rare": true
+      "src": "大荒北經"
     },
     {
       "word": "弄",
@@ -7299,9 +6291,7 @@
       "en": "to do；to manage；to handle",
       "note": "多音字，可讀「nong/long」，須依文意斷音。",
       "is_difficult": true,
-      "src": "大荒北經",
-      "multi": true,
-      "rare": false
+      "src": "大荒北經"
     },
     {
       "word": "偎",
@@ -7311,9 +6301,7 @@
       "en": "to cuddle",
       "note": null,
       "is_difficult": true,
-      "src": "海內經",
-      "multi": false,
-      "rare": true
+      "src": "海內經"
     },
     {
       "word": "擢",
@@ -7323,9 +6311,7 @@
       "en": "to pull out；to select；to promote",
       "note": null,
       "is_difficult": true,
-      "src": "海內經",
-      "multi": false,
-      "rare": true
+      "src": "海內經"
     },
     {
       "word": "叵",
@@ -7335,9 +6321,7 @@
       "en": "not；thereupon",
       "note": null,
       "is_difficult": true,
-      "src": "海內經",
-      "multi": false,
-      "rare": true
+      "src": "海內經"
     },
     {
       "word": "絡",
@@ -7347,9 +6331,7 @@
       "en": "net-like object；to hold sth in place with a net；to wind",
       "note": "多音字，可讀「luo/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內經",
-      "multi": true,
-      "rare": false
+      "src": "海內經"
     },
     {
       "word": "陶",
@@ -7359,9 +6341,7 @@
       "en": "pottery, ceramics",
       "note": "多音字，可讀「tao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內經",
-      "multi": true,
-      "rare": false
+      "src": "海內經"
     },
     {
       "word": "參",
@@ -7371,9 +6351,7 @@
       "en": "to take part in；to participate；to join",
       "note": "多音字，可讀「can/shen/cen/san」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內經",
-      "multi": true,
-      "rare": false
+      "src": "海內經"
     },
     {
       "word": "枸",
@@ -7383,9 +6361,7 @@
       "en": "bent；crooked",
       "note": "多音字，可讀「gou/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內經",
-      "multi": true,
-      "rare": true
+      "src": "海內經"
     },
     {
       "word": "旃",
@@ -7395,9 +6371,7 @@
       "en": "felt；silken banner",
       "note": null,
       "is_difficult": true,
-      "src": "海內經",
-      "multi": false,
-      "rare": true
+      "src": "海內經"
     },
     {
       "word": "淠",
@@ -7407,9 +6381,7 @@
       "en": "luxuriant (of water plants)",
       "note": "多音字，可讀「pi/pei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內經",
-      "multi": true,
-      "rare": true
+      "src": "海內經"
     },
     {
       "word": "瘛",
@@ -7419,9 +6391,7 @@
       "en": "Taiwan pr. [qi4]",
       "note": null,
       "is_difficult": true,
-      "src": "海內經",
-      "multi": false,
-      "rare": true
+      "src": "海內經"
     },
     {
       "word": "嶷",
@@ -7431,9 +6401,7 @@
       "en": "name of a mountain in Hunan",
       "note": null,
       "is_difficult": true,
-      "src": "海內經",
-      "multi": false,
-      "rare": true
+      "src": "海內經"
     },
     {
       "word": "殳",
@@ -7443,9 +6411,7 @@
       "en": "surname Shu；ancient staff-like weapon made of bamboo or wood；\"weapon\" radical in Chinese characters (Kangxi radical 79), occurring in 段, 毅, 殺 etc",
       "note": null,
       "is_difficult": true,
-      "src": "海內經",
-      "multi": false,
-      "rare": true
+      "src": "海內經"
     },
     {
       "word": "奚",
@@ -7455,9 +6421,7 @@
       "en": "surname Xi；(literary) what?；where?",
       "note": null,
       "is_difficult": true,
-      "src": "海內經",
-      "multi": false,
-      "rare": true
+      "src": "海內經"
     },
     {
       "word": "卒",
@@ -7467,9 +6431,7 @@
       "en": "soldier；servant；to finish",
       "note": "多音字，可讀「zu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "海內經",
-      "multi": true,
-      "rare": false
+      "src": "海內經"
     }
   ]
 }

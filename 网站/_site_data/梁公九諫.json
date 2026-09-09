@@ -143,9 +143,7 @@
       "en": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")；(bound form) maiden name; née (as in 李王氏[Li3 Wang2 shi4] \"Mrs. Li, née Wang\")；(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "不",
@@ -155,9 +153,7 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "能",
@@ -167,9 +163,7 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "朝",
@@ -179,9 +173,7 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "稱",
@@ -191,9 +183,7 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "僭",
@@ -203,9 +193,7 @@
       "en": "(bound form) to overstep one's authority",
       "note": null,
       "is_difficult": true,
-      "src": "序",
-      "multi": false,
-      "rare": true
+      "src": "序"
     },
     {
       "word": "徙",
@@ -215,9 +203,7 @@
       "en": "(literary) to change one's residence",
       "note": null,
       "is_difficult": true,
-      "src": "序",
-      "multi": false,
-      "rare": true
+      "src": "序"
     },
     {
       "word": "女",
@@ -227,9 +213,7 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "於",
@@ -239,9 +223,7 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "孫",
@@ -251,9 +233,7 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "傳",
@@ -263,9 +243,7 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "姪",
@@ -275,9 +253,7 @@
       "en": "brother's son; nephew",
       "note": null,
       "is_difficult": true,
-      "src": "序",
-      "multi": false,
-      "rare": true
+      "src": "序"
     },
     {
       "word": "思",
@@ -287,9 +263,7 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "燄",
@@ -299,9 +273,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "序",
-      "multi": false,
-      "rare": true
+      "src": "序"
     },
     {
       "word": "且",
@@ -311,9 +283,7 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "豈",
@@ -323,9 +293,7 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "稷",
@@ -335,9 +303,7 @@
       "en": "millet；God of cereals worshiped by ancient rulers；minister of agriculture",
       "note": null,
       "is_difficult": true,
-      "src": "序",
-      "multi": false,
-      "rare": true
+      "src": "序"
     },
     {
       "word": "諫",
@@ -347,9 +313,7 @@
       "en": "surname Jian；to remonstrate；to admonish",
       "note": null,
       "is_difficult": true,
-      "src": "序",
-      "multi": false,
-      "rare": true
+      "src": "序"
     },
     {
       "word": "召",
@@ -359,9 +323,7 @@
       "en": "to call together；to summon；to convene",
       "note": "多音字，可讀「zhao/shao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "還",
@@ -371,9 +333,7 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "得",
@@ -383,9 +343,7 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "祚",
@@ -395,9 +353,7 @@
       "en": "blessing；the throne",
       "note": null,
       "is_difficult": true,
-      "src": "序",
-      "multi": false,
-      "rare": true
+      "src": "序"
     },
     {
       "word": "洗",
@@ -407,9 +363,7 @@
       "en": "to wash; to bathe；to develop (photographs)；to shuffle (cards etc)",
       "note": "多音字，可讀「xi/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "夾",
@@ -419,9 +373,7 @@
       "en": "to press from either side；to place in between；to sandwich",
       "note": "多音字，可讀「jia/ga/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "地",
@@ -431,9 +383,7 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "其",
@@ -443,9 +393,7 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "參",
@@ -455,9 +403,7 @@
       "en": "to take part in；to participate；to join",
       "note": "多音字，可讀「can/shen/cen/san」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "闕",
@@ -467,9 +413,7 @@
       "en": "palace; watchtower",
       "note": null,
       "is_difficult": true,
-      "src": "序",
-      "multi": false,
-      "rare": true
+      "src": "序"
     },
     {
       "word": "愆",
@@ -479,9 +423,7 @@
       "en": "fault；transgression",
       "note": null,
       "is_difficult": true,
-      "src": "序",
-      "multi": false,
-      "rare": true
+      "src": "序"
     },
     {
       "word": "率",
@@ -491,9 +433,7 @@
       "en": "(bound form) ratio; rate; proportion；to lead；to command",
       "note": "多音字，可讀「lü/shuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "倘",
@@ -503,9 +443,7 @@
       "en": "if; supposing; in case",
       "note": "多音字，可讀「tang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "序",
-      "multi": true,
-      "rare": false
+      "src": "序"
     },
     {
       "word": "會",
@@ -515,9 +453,7 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "大",
@@ -527,9 +463,7 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "敕",
@@ -539,9 +473,7 @@
       "en": "imperial orders",
       "note": null,
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": false,
-      "rare": true
+      "src": "第一諫"
     },
     {
       "word": "朕",
@@ -551,9 +483,7 @@
       "en": "(used by an emperor or king) I; me; we (royal \"we\")；(literary) omen",
       "note": null,
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": false,
-      "rare": true
+      "src": "第一諫"
     },
     {
       "word": "員",
@@ -563,9 +493,7 @@
       "en": "(bound form) person engaged in a certain field of activity；(bound form) member；classifier for military generals",
       "note": "多音字，可讀「yuan/yun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "若",
@@ -575,9 +503,7 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "見",
@@ -587,9 +513,7 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "解",
@@ -599,9 +523,7 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "似",
@@ -611,9 +533,7 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "鳩",
@@ -623,9 +543,7 @@
       "en": "pigeon; to collect, to assemble",
       "note": null,
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": false,
-      "rare": true
+      "src": "第一諫"
     },
     {
       "word": "鸞",
@@ -635,9 +553,7 @@
       "en": "fabulous bird",
       "note": null,
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": false,
-      "rare": true
+      "src": "第一諫"
     },
     {
       "word": "螻",
@@ -647,9 +563,7 @@
       "en": "see 螻蛄|蝼蛄[lou2 gu1]",
       "note": null,
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": false,
-      "rare": true
+      "src": "第一諫"
     },
     {
       "word": "琢",
@@ -659,9 +573,7 @@
       "en": "to cut (gems)",
       "note": "多音字，可讀「zhuo/zuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "蔞",
@@ -671,9 +583,7 @@
       "en": "Arthemisia vulgaris；piper betel",
       "note": null,
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": false,
-      "rare": true
+      "src": "第一諫"
     },
     {
       "word": "食",
@@ -683,9 +593,7 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "家",
@@ -695,9 +603,7 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "長",
@@ -707,9 +613,7 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "合",
@@ -719,9 +623,7 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "枝",
@@ -731,9 +633,7 @@
       "en": "branch；classifier for sticks, rods, pencils etc",
       "note": "多音字，可讀「zhi/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "據",
@@ -743,9 +643,7 @@
       "en": "according to；to act in accordance with；to depend on",
       "note": "多音字，可讀「ju/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "仰",
@@ -755,9 +653,7 @@
       "en": "surname Yang；to face upward；to look up",
       "note": "多音字，可讀「yang/ang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "祭",
@@ -767,9 +663,7 @@
       "en": "to offer a sacrifice to (gods or ancestors)；(in classical novels) to recite an incantation to activate a magic weapon; to wield (sth magic)；(bound form) ceremony",
       "note": "多音字，可讀「ji/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "乾",
@@ -779,9 +673,7 @@
       "en": "surname Qian；one of the Eight Trigrams 八卦[ba1 gua4], symbolizing heaven；male principle",
       "note": "多音字，可讀「qian/gan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一諫",
-      "multi": true,
-      "rare": false
+      "src": "第一諫"
     },
     {
       "word": "單",
@@ -791,9 +683,7 @@
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二諫",
-      "multi": true,
-      "rare": false
+      "src": "第二諫"
     },
     {
       "word": "數",
@@ -803,9 +693,7 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二諫",
-      "multi": true,
-      "rare": false
+      "src": "第二諫"
     },
     {
       "word": "度",
@@ -815,9 +703,7 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二諫",
-      "multi": true,
-      "rare": false
+      "src": "第二諫"
     },
     {
       "word": "什",
@@ -827,9 +713,7 @@
       "en": "what",
       "note": "多音字，可讀「shen/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": true,
-      "rare": false
+      "src": "第三諫"
     },
     {
       "word": "麼",
@@ -839,9 +723,7 @@
       "en": "interrogative particle",
       "note": "多音字，可讀「mo/me」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": true,
-      "rare": false
+      "src": "第三諫"
     },
     {
       "word": "麒",
@@ -851,9 +733,7 @@
       "en": "mythical unicorn",
       "note": null,
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": false,
-      "rare": true
+      "src": "第三諫"
     },
     {
       "word": "麟",
@@ -863,9 +743,7 @@
       "en": "female unicorn",
       "note": null,
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": false,
-      "rare": true
+      "src": "第三諫"
     },
     {
       "word": "岱",
@@ -875,9 +753,7 @@
       "en": "Mt Tai in Shandong；same as 泰山",
       "note": null,
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": false,
-      "rare": true
+      "src": "第三諫"
     },
     {
       "word": "麩",
@@ -887,9 +763,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": false,
-      "rare": true
+      "src": "第三諫"
     },
     {
       "word": "都",
@@ -899,9 +773,7 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": true,
-      "rare": false
+      "src": "第三諫"
     },
     {
       "word": "紇",
@@ -911,9 +783,7 @@
       "en": "tassels",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": true,
-      "rare": true
+      "src": "第三諫"
     },
     {
       "word": "色",
@@ -923,9 +793,7 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": true,
-      "rare": false
+      "src": "第三諫"
     },
     {
       "word": "龜",
@@ -935,9 +803,7 @@
       "en": "turtle, tortoise; cuckold",
       "note": "多音字，可讀「gui/jun/qiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": true,
-      "rare": false
+      "src": "第三諫"
     },
     {
       "word": "南",
@@ -947,9 +813,7 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": true,
-      "rare": false
+      "src": "第三諫"
     },
     {
       "word": "角",
@@ -959,9 +823,7 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": true,
-      "rare": false
+      "src": "第三諫"
     },
     {
       "word": "鱷",
@@ -971,9 +833,7 @@
       "en": "alligator",
       "note": null,
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": false,
-      "rare": true
+      "src": "第三諫"
     },
     {
       "word": "佛",
@@ -983,9 +843,7 @@
       "en": "Buddha; Buddhism (abbr. for 佛陀[Fo2 tuo2])",
       "note": "多音字，可讀「fo/fu/bi/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": true,
-      "rare": false
+      "src": "第三諫"
     },
     {
       "word": "石",
@@ -995,9 +853,7 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": true,
-      "rare": false
+      "src": "第三諫"
     },
     {
       "word": "泄",
@@ -1007,9 +863,7 @@
       "en": "(bound form) to leak out; to discharge; (fig.) to divulge",
       "note": "多音字，可讀「xie/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": true,
-      "rare": false
+      "src": "第三諫"
     },
     {
       "word": "的",
@@ -1019,9 +873,7 @@
       "en": "of; ~'s (possessive particle)；(used after an attribute when it modifies a noun)；(used at the end of a declarative sentence for emphasis)",
       "note": "多音字，可讀「de/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三諫",
-      "multi": true,
-      "rare": false
+      "src": "第三諫"
     },
     {
       "word": "說",
@@ -1031,9 +883,7 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四諫",
-      "multi": true,
-      "rare": false
+      "src": "第四諫"
     },
     {
       "word": "從",
@@ -1043,9 +893,7 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四諫",
-      "multi": true,
-      "rare": false
+      "src": "第四諫"
     },
     {
       "word": "親",
@@ -1055,9 +903,7 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四諫",
-      "multi": true,
-      "rare": false
+      "src": "第四諫"
     },
     {
       "word": "撮",
@@ -1067,9 +913,7 @@
       "en": "to pick up (a powder etc) with the fingertips；to scoop up；to collect together",
       "note": "多音字，可讀「cuo/zuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五諫",
-      "multi": true,
-      "rare": false
+      "src": "第五諫"
     },
     {
       "word": "車",
@@ -1079,9 +923,7 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五諫",
-      "multi": true,
-      "rare": false
+      "src": "第五諫"
     },
     {
       "word": "行",
@@ -1091,9 +933,7 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五諫",
-      "multi": true,
-      "rare": false
+      "src": "第五諫"
     },
     {
       "word": "覺",
@@ -1103,9 +943,7 @@
       "en": "to feel；to find that；thinking",
       "note": "多音字，可讀「jue/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五諫",
-      "multi": true,
-      "rare": false
+      "src": "第五諫"
     },
     {
       "word": "助",
@@ -1115,9 +953,7 @@
       "en": "to help；to assist",
       "note": "多音字，可讀「zhu/chu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五諫",
-      "multi": true,
-      "rare": false
+      "src": "第五諫"
     },
     {
       "word": "蓋",
@@ -1127,9 +963,7 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五諫",
-      "multi": true,
-      "rare": false
+      "src": "第五諫"
     },
     {
       "word": "降",
@@ -1139,9 +973,7 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五諫",
-      "multi": true,
-      "rare": false
+      "src": "第五諫"
     },
     {
       "word": "重",
@@ -1151,9 +983,7 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五諫",
-      "multi": true,
-      "rare": false
+      "src": "第五諫"
     },
     {
       "word": "莫",
@@ -1163,9 +993,7 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五諫",
-      "multi": true,
-      "rare": false
+      "src": "第五諫"
     },
     {
       "word": "否",
@@ -1175,9 +1003,7 @@
       "en": "to negate；to deny；not",
       "note": "多音字，可讀「fou/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五諫",
-      "multi": true,
-      "rare": false
+      "src": "第五諫"
     },
     {
       "word": "盛",
@@ -1187,9 +1013,7 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五諫",
-      "multi": true,
-      "rare": false
+      "src": "第五諫"
     },
     {
       "word": "著",
@@ -1199,9 +1023,7 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第六諫",
-      "multi": true,
-      "rare": false
+      "src": "第六諫"
     },
     {
       "word": "被",
@@ -1211,9 +1033,7 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第六諫",
-      "multi": true,
-      "rare": false
+      "src": "第六諫"
     },
     {
       "word": "頻",
@@ -1223,9 +1043,7 @@
       "en": "frequency; repeatedly, again and again",
       "note": "多音字，可讀「bin/pin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第六諫",
-      "multi": true,
-      "rare": false
+      "src": "第六諫"
     },
     {
       "word": "鸚",
@@ -1235,9 +1053,7 @@
       "en": "parrot",
       "note": null,
       "is_difficult": true,
-      "src": "第七諫",
-      "multi": false,
-      "rare": true
+      "src": "第七諫"
     },
     {
       "word": "鵡",
@@ -1247,9 +1063,7 @@
       "en": "species of parrot",
       "note": null,
       "is_difficult": true,
-      "src": "第七諫",
-      "multi": false,
-      "rare": true
+      "src": "第七諫"
     },
     {
       "word": "折",
@@ -1259,9 +1073,7 @@
       "en": "to turn sth over；to turn upside down；to tip sth out (of a container)",
       "note": "多音字，可讀「zhe/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第七諫",
-      "multi": true,
-      "rare": false
+      "src": "第七諫"
     },
     {
       "word": "便",
@@ -1271,9 +1083,7 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第七諫",
-      "multi": true,
-      "rare": false
+      "src": "第七諫"
     },
     {
       "word": "祗",
@@ -1283,9 +1093,7 @@
       "en": "respectful (ly)",
       "note": null,
       "is_difficult": true,
-      "src": "第七諫",
-      "multi": false,
-      "rare": true
+      "src": "第七諫"
     },
     {
       "word": "綸",
@@ -1295,9 +1103,7 @@
       "en": "to classify；to twist silk；silk thread",
       "note": "多音字，可讀「lun/guan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第七諫",
-      "multi": true,
-      "rare": false
+      "src": "第七諫"
     },
     {
       "word": "隋",
@@ -1307,9 +1113,7 @@
       "en": "the Sui dynasty; surname",
       "note": "多音字，可讀「sui/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第七諫",
-      "multi": true,
-      "rare": false
+      "src": "第七諫"
     },
     {
       "word": "竇",
@@ -1319,9 +1123,7 @@
       "en": "surname Dou；(literary) hole; aperture；(anatomy) cavity; sinus",
       "note": null,
       "is_difficult": true,
-      "src": "第七諫",
-      "multi": false,
-      "rare": true
+      "src": "第七諫"
     },
     {
       "word": "冒",
@@ -1331,9 +1133,7 @@
       "en": "surname Mao；to emit; to give off; to send out (or up, forth)；to brave; to face",
       "note": "多音字，可讀「mao/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第七諫",
-      "multi": true,
-      "rare": false
+      "src": "第七諫"
     },
     {
       "word": "邪",
@@ -1343,9 +1143,7 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第七諫",
-      "multi": true,
-      "rare": false
+      "src": "第七諫"
     },
     {
       "word": "佞",
@@ -1355,9 +1153,7 @@
       "en": "to flatter；flattery",
       "note": null,
       "is_difficult": true,
-      "src": "第七諫",
-      "multi": false,
-      "rare": true
+      "src": "第七諫"
     },
     {
       "word": "徵",
@@ -1367,9 +1163,7 @@
       "en": "4th note in the ancient Chinese pentatonic scale 五音[wu3 yin1], corresponding to sol",
       "note": "多音字，可讀「zhi/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八諫",
-      "multi": true,
-      "rare": false
+      "src": "第八諫"
     },
     {
       "word": "螳",
@@ -1379,9 +1173,7 @@
       "en": "praying mantis",
       "note": null,
       "is_difficult": true,
-      "src": "第八諫",
-      "multi": false,
-      "rare": true
+      "src": "第八諫"
     },
     {
       "word": "螂",
@@ -1391,9 +1183,7 @@
       "en": "mantis, dung beetle",
       "note": null,
       "is_difficult": true,
-      "src": "第八諫",
-      "multi": false,
-      "rare": true
+      "src": "第八諫"
     },
     {
       "word": "戲",
@@ -1403,9 +1193,7 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八諫",
-      "multi": true,
-      "rare": false
+      "src": "第八諫"
     },
     {
       "word": "祔",
@@ -1415,9 +1203,7 @@
       "en": "worship ancestors",
       "note": null,
       "is_difficult": true,
-      "src": "第八諫",
-      "multi": false,
-      "rare": true
+      "src": "第八諫"
     },
     {
       "word": "熟",
@@ -1427,9 +1213,7 @@
       "en": "ripe; mature；thoroughly cooked; done；familiar; acquainted",
       "note": "多音字，可讀「shu/shou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八諫",
-      "multi": true,
-      "rare": false
+      "src": "第八諫"
     },
     {
       "word": "疆",
@@ -1439,9 +1223,7 @@
       "en": "border；boundary",
       "note": "多音字，可讀「jiang/qiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八諫",
-      "multi": true,
-      "rare": false
+      "src": "第八諫"
     },
     {
       "word": "褰",
@@ -1451,9 +1233,7 @@
       "en": "to lift (clothes, sheets)；lower garments",
       "note": null,
       "is_difficult": true,
-      "src": "第八諫",
-      "multi": false,
-      "rare": true
+      "src": "第八諫"
     },
     {
       "word": "跳",
@@ -1463,9 +1243,7 @@
       "en": "to jump；to hop；to skip over",
       "note": "多音字，可讀「tiao/tao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八諫",
-      "multi": true,
-      "rare": false
+      "src": "第八諫"
     },
     {
       "word": "裾",
@@ -1475,9 +1253,7 @@
       "en": "garment",
       "note": null,
       "is_difficult": true,
-      "src": "第八諫",
-      "multi": false,
-      "rare": true
+      "src": "第八諫"
     },
     {
       "word": "韜",
@@ -1487,9 +1263,7 @@
       "en": "sheath, scabbard, bow case",
       "note": null,
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": false,
-      "rare": true
+      "src": "第九諫"
     },
     {
       "word": "隊",
@@ -1499,9 +1273,7 @@
       "en": "team, group, band, army unit; measure word for groups of people",
       "note": "多音字，可讀「dui/zhui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": true,
-      "rare": false
+      "src": "第九諫"
     },
     {
       "word": "豁",
@@ -1511,9 +1283,7 @@
       "en": "opening；stake all；sacrifice",
       "note": "多音字，可讀「huo/hua」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": true,
-      "rare": false
+      "src": "第九諫"
     },
     {
       "word": "咽",
@@ -1523,9 +1293,7 @@
       "en": "throat; pharynx；narrow pass；to swallow",
       "note": "多音字，可讀「yan/ye」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": true,
-      "rare": false
+      "src": "第九諫"
     },
     {
       "word": "殞",
@@ -1535,9 +1303,7 @@
       "en": "(literary) to perish; to die",
       "note": null,
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": false,
-      "rare": true
+      "src": "第九諫"
     },
     {
       "word": "拊",
@@ -1547,9 +1313,7 @@
       "en": "pat",
       "note": null,
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": false,
-      "rare": true
+      "src": "第九諫"
     },
     {
       "word": "誰",
@@ -1559,9 +1323,7 @@
       "en": "who；also pr. [shui2]",
       "note": "多音字，可讀「shui/shei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": true,
-      "rare": false
+      "src": "第九諫"
     },
     {
       "word": "藏",
@@ -1571,9 +1333,7 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": true,
-      "rare": false
+      "src": "第九諫"
     },
     {
       "word": "疑",
@@ -1583,9 +1343,7 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": true,
-      "rare": false
+      "src": "第九諫"
     },
     {
       "word": "沈",
@@ -1595,9 +1353,7 @@
       "en": "surname Shen；short name for 瀋陽|沈阳[Shen3 yang2]；(literary) juice",
       "note": "多音字，可讀「shen/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": true,
-      "rare": false
+      "src": "第九諫"
     },
     {
       "word": "尾",
@@ -1607,9 +1363,7 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": true,
-      "rare": false
+      "src": "第九諫"
     },
     {
       "word": "岫",
@@ -1619,9 +1373,7 @@
       "en": "cave；mountain peak",
       "note": null,
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": false,
-      "rare": true
+      "src": "第九諫"
     },
     {
       "word": "吾",
@@ -1631,9 +1383,7 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": true,
-      "rare": false
+      "src": "第九諫"
     },
     {
       "word": "番",
@@ -1643,9 +1393,7 @@
       "en": "(bound form) foreign (non-Chinese); barbarian；classifier for processes or actions that take time and effort；(classifier) a kind; a sort",
       "note": "多音字，可讀「fan/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": true,
-      "rare": false
+      "src": "第九諫"
     },
     {
       "word": "丕",
@@ -1655,9 +1403,7 @@
       "en": "grand",
       "note": null,
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": false,
-      "rare": true
+      "src": "第九諫"
     },
     {
       "word": "閒",
@@ -1667,9 +1413,7 @@
       "en": "leisure, idle time; tranquil, peaceful, calm",
       "note": "多音字，可讀「xian/jian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": true,
-      "rare": false
+      "src": "第九諫"
     },
     {
       "word": "挾",
@@ -1679,9 +1423,7 @@
       "en": "(bound form) to clasp under the arm；(bound form) to coerce；(bound form) to harbor (resentment etc)",
       "note": "多音字，可讀「xie/jia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": true,
-      "rare": false
+      "src": "第九諫"
     },
     {
       "word": "霆",
@@ -1691,9 +1433,7 @@
       "en": "a sudden peal of thunder",
       "note": null,
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": false,
-      "rare": true
+      "src": "第九諫"
     },
     {
       "word": "蕘",
@@ -1703,9 +1443,7 @@
       "en": "fuel；grass",
       "note": null,
       "is_difficult": true,
-      "src": "第九諫",
-      "multi": false,
-      "rare": true
+      "src": "第九諫"
     }
   ]
 }

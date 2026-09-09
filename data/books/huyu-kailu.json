@@ -18,9 +18,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "否",
@@ -30,9 +28,7 @@
       "en": "to negate；to deny；not",
       "note": "多音字，可讀「fou/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "蓋",
@@ -42,9 +38,7 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "那",
@@ -54,9 +48,7 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "能",
@@ -66,9 +58,7 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "句",
@@ -78,9 +68,7 @@
       "en": "sentence；clause；phrase",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "儂",
@@ -90,9 +78,7 @@
       "en": "you (Wu dialect)；I, me (classical)",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "沒",
@@ -102,9 +88,7 @@
       "en": "(negative prefix for verbs) have not; not",
       "note": "多音字，可讀「mei/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "得",
@@ -114,9 +98,7 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "會",
@@ -126,9 +108,7 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "呌",
@@ -138,9 +118,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "咾",
@@ -150,9 +128,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "大",
@@ -162,9 +138,7 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "朝",
@@ -174,9 +148,7 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "嘸",
@@ -186,9 +158,7 @@
       "en": "perplexed；astonished",
       "note": "多音字，可讀「fu/m」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "曾",
@@ -198,9 +168,7 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "㕭",
@@ -210,9 +178,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "呢",
@@ -222,9 +188,7 @@
       "en": "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")；(sentence-final particle) indicating that a state or situation still holds；(discourse particle) used to mark a slight pause or emphasis in speech",
       "note": "多音字，可讀「ne/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "枱",
@@ -234,9 +198,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "六",
@@ -246,9 +208,7 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "女",
@@ -258,9 +218,7 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "囝",
@@ -270,9 +228,7 @@
       "en": "child",
       "note": "多音字，可讀「jian/nan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "囡",
@@ -282,9 +238,7 @@
       "en": "child；daughter",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "羊",
@@ -294,9 +248,7 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "橘",
@@ -306,9 +258,7 @@
       "en": "mandarin orange (Citrus reticulata)；tangerine",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "崽",
@@ -318,9 +268,7 @@
       "en": "child；young animal",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "見",
@@ -330,9 +278,7 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "裳",
@@ -342,9 +288,7 @@
       "en": "lower garment；skirts；petticoats",
       "note": "多音字，可讀「shang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "孫",
@@ -354,9 +298,7 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "地",
@@ -366,9 +308,7 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "着",
@@ -378,9 +318,7 @@
       "en": "aspect particle indicating action in progress or ongoing state",
       "note": "多音字，可讀「zhe/zhuo/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "脚",
@@ -390,9 +328,7 @@
       "en": "foot；leg (of an animal or an object)；base (of an object)",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "思",
@@ -402,9 +338,7 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "爲",
@@ -414,9 +348,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "不",
@@ -426,9 +358,7 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "阿",
@@ -438,9 +368,7 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "伲",
@@ -450,9 +378,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "車",
@@ -462,9 +388,7 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "從",
@@ -474,9 +398,7 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "躱",
@@ -486,9 +408,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "長",
@@ -498,9 +418,7 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "倘",
@@ -510,9 +428,7 @@
       "en": "if; supposing; in case",
       "note": "多音字，可讀「tang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "爿",
@@ -522,9 +438,7 @@
       "en": "classifier for strips of land or bamboo, shops, factories etc；slit bamboo or chopped wood (dialect)",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "柚",
@@ -534,9 +448,7 @@
       "en": "pomelo (Citrus maxima or C. grandis)；shaddock；oriental grapefruit",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "掽",
@@ -546,9 +458,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "家",
@@ -558,9 +468,7 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "信",
@@ -570,9 +478,7 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "識",
@@ -582,9 +488,7 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "南",
@@ -594,9 +498,7 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "顔",
@@ -606,9 +508,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "且",
@@ -618,9 +518,7 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "拏",
@@ -630,9 +528,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "壷",
@@ -642,9 +538,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "若",
@@ -654,9 +548,7 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "還",
@@ -666,9 +558,7 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "說",
@@ -678,9 +568,7 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "差",
@@ -690,9 +578,7 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "郞",
@@ -702,9 +588,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "㑚",
@@ -714,9 +598,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "忒",
@@ -726,9 +608,7 @@
       "en": "to err；to change",
       "note": "多音字，可讀「te/tei/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "伯",
@@ -738,9 +618,7 @@
       "en": "father's elder brother；senior；paternal elder uncle",
       "note": "多音字，可讀「bo/bai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "底",
@@ -750,9 +628,7 @@
       "en": "bottom; base；background; foundation；copy (of a manuscript or receipt etc) kept as a record",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "舘",
@@ -762,9 +638,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "勃",
@@ -774,9 +648,7 @@
       "en": "flourishing；prosperous；suddenly",
       "note": "多音字，可讀「bo/bei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "幷",
@@ -786,9 +658,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "重",
@@ -798,9 +668,7 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "壗",
@@ -810,9 +678,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "奇",
@@ -822,9 +688,7 @@
       "en": "strange；odd；weird",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "趣",
@@ -834,9 +698,7 @@
       "en": "interesting；to interest",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "强",
@@ -846,9 +708,7 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "著",
@@ -858,9 +718,7 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "戲",
@@ -870,9 +728,7 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "彀",
@@ -882,9 +738,7 @@
       "en": "to draw a bow to the full；the range of a bow and arrow",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "淸",
@@ -894,9 +748,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "怏",
@@ -906,9 +758,7 @@
       "en": "discontented",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "孛",
@@ -918,9 +768,7 @@
       "en": "comet",
       "note": "多音字，可讀「bei/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "䟿",
@@ -930,9 +778,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "倏",
@@ -942,9 +788,7 @@
       "en": "sudden；abrupt；Taiwan pr. [shu4]",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "石",
@@ -954,9 +798,7 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "丁",
@@ -966,9 +808,7 @@
       "en": "surname Ding；male adult；the 4th of the 10 Heavenly Stems 天干[tian1 gan1]",
       "note": "多音字，可讀「ding/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "落",
@@ -978,9 +818,7 @@
       "en": "to fall or drop；(of the sun) to set；(of a tide) to go out",
       "note": "多音字，可讀「luo/la/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "擡",
@@ -990,9 +828,7 @@
       "en": "to raise, to lift, to carry",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "淨",
@@ -1002,9 +838,7 @@
       "en": "clean；completely；only",
       "note": "多音字，可讀「jing/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "便",
@@ -1014,9 +848,7 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "蘋",
@@ -1026,9 +858,7 @@
       "en": "clover fern (Marsilea quadrifolia)",
       "note": "多音字，可讀「pin/ping」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "菓",
@@ -1038,9 +868,7 @@
       "en": "fruit (old variant of 果[guo3])",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "紅",
@@ -1050,9 +878,7 @@
       "en": "surname Hong；red；popular",
       "note": "多音字，可讀「hong/gong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "蛇",
@@ -1062,9 +888,7 @@
       "en": "snake；serpent；CL:條|条[tiao2]",
       "note": "多音字，可讀「she/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "逿",
@@ -1074,9 +898,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "約",
@@ -1086,9 +908,7 @@
       "en": "to make an appointment；to invite；approximately",
       "note": "多音字，可讀「yue/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "解",
@@ -1098,9 +918,7 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "色",
@@ -1110,9 +928,7 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "乾",
@@ -1122,9 +938,7 @@
       "en": "surname Qian；one of the Eight Trigrams 八卦[ba1 gua4], symbolizing heaven；male principle",
       "note": "多音字，可讀「qian/gan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "豈",
@@ -1134,9 +948,7 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "偸",
@@ -1146,9 +958,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "角",
@@ -1158,9 +968,7 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "眞",
@@ -1170,9 +978,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "和",
@@ -1182,9 +988,7 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "尙",
@@ -1194,9 +998,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "寳",
@@ -1206,9 +1008,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "搶",
@@ -1218,9 +1018,7 @@
       "en": "(literary) to knock against (esp. to knock one's head on the ground in grief or rage)；opposite in direction; contrary；to fight over",
       "note": "多音字，可讀「qiang/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "鄕",
@@ -1230,9 +1028,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "廿",
@@ -1242,9 +1038,7 @@
       "en": "twenty",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "俸",
@@ -1254,9 +1048,7 @@
       "en": "(bound form) salary; stipend",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "獹",
@@ -1266,9 +1058,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "掮",
@@ -1278,9 +1068,7 @@
       "en": "to carry on the shoulder",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "瘏",
@@ -1290,9 +1078,7 @@
       "en": "be injured；ill (of animals)",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "薄",
@@ -1302,9 +1088,7 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "弄",
@@ -1314,9 +1098,7 @@
       "en": "to do；to manage；to handle",
       "note": "多音字，可讀「nong/long」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "賺",
@@ -1326,9 +1108,7 @@
       "en": "to earn；to make a profit",
       "note": "多音字，可讀「zhuan/zuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "折",
@@ -1338,9 +1118,7 @@
       "en": "to turn sth over；to turn upside down；to tip sth out (of a container)",
       "note": "多音字，可讀「zhe/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "栅",
@@ -1350,9 +1128,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "匙",
@@ -1362,9 +1138,7 @@
       "en": "spoon",
       "note": "多音字，可讀「chi/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "洞",
@@ -1374,9 +1148,7 @@
       "en": "cave；hole；zero (unambiguous spoken form when spelling out numbers)",
       "note": "多音字，可讀「dong/tong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "幢",
@@ -1386,9 +1158,7 @@
       "en": "classifier for buildings (Taiwan pr. [chuang2])；(archaic) curtain hung over boat or carriage windows",
       "note": "多音字，可讀「zhuang/chuang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "浜",
@@ -1398,9 +1168,7 @@
       "en": "stream；creek",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "嚇",
@@ -1410,9 +1178,7 @@
       "en": "to scare；to intimidate；to threaten",
       "note": "多音字，可讀「he/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "査",
@@ -1422,9 +1188,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "囥",
@@ -1434,9 +1198,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "窵",
@@ -1446,9 +1208,7 @@
       "en": "(literary) distant；deep；profound",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "萁",
@@ -1458,9 +1218,7 @@
       "en": "stalks of pulse",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "扛",
@@ -1470,9 +1228,7 @@
       "en": "to carry on one's shoulder；(fig.) to take on (a burden, duty etc)",
       "note": "多音字，可讀「kang/gang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "稱",
@@ -1482,9 +1238,7 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "尺",
@@ -1494,9 +1248,7 @@
       "en": "a Chinese foot；one-third of a meter；a ruler",
       "note": "多音字，可讀「chi/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "省",
@@ -1506,9 +1258,7 @@
       "en": "to save; to economize; to be frugal；to omit; to delete; to leave out；province",
       "note": "多音字，可讀「sheng/xing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "鎗",
@@ -1518,9 +1268,7 @@
       "en": null,
       "note": "多音字，可讀「qiang/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "鬭",
@@ -1530,9 +1278,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "骰",
@@ -1542,9 +1288,7 @@
       "en": "die, dice",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "兎",
@@ -1554,9 +1298,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "鷄",
@@ -1566,9 +1308,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "被",
@@ -1578,9 +1318,7 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "齷",
@@ -1590,9 +1328,7 @@
       "en": "narrow, small-minded; dirty (1)",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "齪",
@@ -1602,9 +1338,7 @@
       "en": "narrow, small-minded; dirty (2)",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "浄",
@@ -1614,9 +1348,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "胛",
@@ -1626,9 +1358,7 @@
       "en": "shoulder blade",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "銃",
@@ -1638,9 +1368,7 @@
       "en": "ancient weapon; blunderbuss",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "傳",
@@ -1650,9 +1378,7 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "屛",
@@ -1662,9 +1388,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "跽",
@@ -1674,9 +1398,7 @@
       "en": "kneel",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "憦",
@@ -1686,9 +1408,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "單",
@@ -1698,9 +1418,7 @@
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "簿",
@@ -1710,9 +1428,7 @@
       "en": "a book；a register；account-book",
       "note": "多音字，可讀「bo/bu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "罷",
@@ -1722,9 +1438,7 @@
       "en": "to stop；to cease；to dismiss",
       "note": "多音字，可讀「ba/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "合",
@@ -1734,9 +1448,7 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "仔",
@@ -1746,9 +1458,7 @@
       "en": "(dialect) (bound form) young man",
       "note": "多音字，可讀「zai/zi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "旣",
@@ -1758,9 +1468,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "調",
@@ -1770,9 +1478,7 @@
       "en": "to transfer；to move (troops or cadres)；to investigate",
       "note": "多音字，可讀「diao/tiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "朴",
@@ -1782,9 +1488,7 @@
       "en": "(bound form) plain; simple；Taiwan pr. [pu2]",
       "note": "多音字，可讀「pu/po/piao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "適",
@@ -1794,9 +1498,7 @@
       "en": "match, comfortable; just",
       "note": "多音字，可讀「shi/di/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "兌",
@@ -1806,9 +1508,7 @@
       "en": "surname Dui；to cash；to exchange",
       "note": "多音字，可讀「dui/rui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "啞",
@@ -1818,9 +1518,7 @@
       "en": "(onom.) sound of cawing；sound of infant learning to talk；mute; dumb; incapable of speech",
       "note": "多音字，可讀「ya/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "齾",
@@ -1830,9 +1528,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "碌",
@@ -1842,9 +1538,7 @@
       "en": "Taiwan pr. [lu4]",
       "note": "多音字，可讀「lu/liu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "凈",
@@ -1854,9 +1548,7 @@
       "en": "clean, pure; to cleanse",
       "note": "多音字，可讀「jing/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "撢",
@@ -1866,9 +1558,7 @@
       "en": "to dust",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "滙",
@@ -1878,9 +1568,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "行",
@@ -1890,9 +1578,7 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "鈿",
@@ -1902,9 +1588,7 @@
       "en": "hairpin; gold-inlaid item; filigree",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "價",
@@ -1914,9 +1598,7 @@
       "en": "price；value；(chemistry) valence",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "塞",
@@ -1926,9 +1608,7 @@
       "en": "to plug; to stop up; to stuff in；(bound form) a stopper; a cork；(bound form) strategic stronghold",
       "note": "多音字，可讀「sai/se」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "熟",
@@ -1938,9 +1618,7 @@
       "en": "ripe; mature；thoroughly cooked; done；familiar; acquainted",
       "note": "多音字，可讀「shu/shou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "喔",
@@ -1950,9 +1628,7 @@
       "en": "(onom.) cry of a rooster (usu. reduplicated)；Taiwan pr. [wo4]",
       "note": "多音字，可讀「wo/o」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "咳",
@@ -1962,9 +1638,7 @@
       "en": "sound of sighing；(interjection expressing surprise, sorrow, regret, disappointment etc) oh；damn",
       "note": "多音字，可讀「hai/ke」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "櫳",
@@ -1974,9 +1648,7 @@
       "en": "(literary) window；(literary) cage for animals",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "度",
@@ -1986,9 +1658,7 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "閒",
@@ -1998,9 +1668,7 @@
       "en": "leisure, idle time; tranquil, peaceful, calm",
       "note": "多音字，可讀「xian/jian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "助",
@@ -2010,9 +1678,7 @@
       "en": "to help；to assist",
       "note": "多音字，可讀「zhu/chu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "朶",
@@ -2022,9 +1688,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "隊",
@@ -2034,9 +1698,7 @@
       "en": "team, group, band, army unit; measure word for groups of people",
       "note": "多音字，可讀「dui/zhui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "摜",
@@ -2046,9 +1708,7 @@
       "en": "to fling；to fall；to wear",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "追",
@@ -2058,9 +1718,7 @@
       "en": "to pursue, to chase after; to expel",
       "note": "多音字，可讀「zhui/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "晏",
@@ -2070,9 +1728,7 @@
       "en": "surname Yan；late；quiet",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "寃",
@@ -2082,9 +1738,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "血",
@@ -2094,9 +1748,7 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "寗",
@@ -2106,9 +1758,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "圈",
@@ -2118,9 +1768,7 @@
       "en": "circle; ring; loop；(fig.) social circle; niche group; community; fandom；classifier for loops, orbits, laps",
       "note": "多音字，可讀「quan/juan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "賅",
@@ -2130,9 +1778,7 @@
       "en": "surname Gai；complete；full",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "禀",
@@ -2142,9 +1788,7 @@
       "en": "to make a report (to a superior)；to give；to endow",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "樂",
@@ -2154,9 +1798,7 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "甏",
@@ -2166,9 +1808,7 @@
       "en": "a squat jar for holding wine, sauces etc",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "提",
@@ -2178,9 +1818,7 @@
       "en": "to carry (hanging down from the hand)；to lift；to put forward",
       "note": "多音字，可讀「ti/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     },
     {
       "word": "偌",
@@ -2190,9 +1828,7 @@
       "en": "so；such；to such a degree",
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "塲",
@@ -2202,9 +1838,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": false,
-      "rare": true
+      "src": "滬語開路"
     },
     {
       "word": "柏",
@@ -2214,9 +1848,7 @@
       "en": "surname Bai；Taiwan pr. [Bo2]；cedar",
       "note": "多音字，可讀「bai/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "滬語開路",
-      "multi": true,
-      "rare": false
+      "src": "滬語開路"
     }
   ]
 }

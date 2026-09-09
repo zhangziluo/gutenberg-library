@@ -18,9 +18,19 @@
       3) 网站/_site_data/{书名}.json      阅读器格式 + 更新 books.json
       4) 网站/assets/data/books-data.json 统一分类数据源（合并 catalog.json 主书）
 
-用法：
-  python3 gutenberg_import.py              # 处理全部 BOOKS
-  python3 gutenberg_import.py 詩經 麟兒報   # 仅处理指定书名
+两种模式：
+  ① 精简模式（默认切分 + 自动元数据，一键批量）：
+       python3 gutenberg_import.py --ids 新书.txt     # 每行一个古登堡编号
+       可选：--split auto|hui|zhang|…  --category 子部  --subcategory 古籍（自动导入）
+       标题/作者自动取自 本地(EBOOK_ID/raw 头部) → 古登堡 API；书号对应的
+       导入配置（key 为 pg{编号}）持久化于 quick_books.json，后续全量运行一并入库。
+       书名非中文的编号会跳过（防止英文/罗马化书名进入中文书库）。
+       失败（无中文书名/下载失败/缺原文/切分为空/处理异常等）单独记入
+       项目根 logs/gutenberg_import.log；单本失败只跳过、不中断整批，
+       运行结束按失败编号去重打印汇总（重复/已入库视为跳过、不计失败）。
+  ② 精细模式（现有手动配置，需调切分参数时用）：
+       python3 gutenberg_import.py              # 处理全部 BOOKS
+       python3 gutenberg_import.py 詩經 麟兒報   # 仅处理指定书名
 """
 import os
 import re
@@ -1525,6 +1535,20 @@ DYN = {
     '醉醒石': '明末', '唐鍾馗平鬼傳': '清', '春秋繁露': '西漢',
     '史記': '西漢', '漢書': '東漢', '三國志': '西晉', '三國演義': '明',
     '水滸傳': '明', '西遊記': '明', '紅樓夢': '清', '古文觀止': '清（康熙年間）',
+    # ---- 第八批新书（2026-09-09 批量入库，42 本自动导入） ----
+    '抱朴子': '東晉', '西京雜記': '東晉（舊題漢）', '幽明錄': '南朝宋', '明鏡公案': '明',
+    '公孫龍子': '戰國', '竇娥冤': '元', '管子': '戰國（託名管仲）', '穆天子传': '先秦',
+    '漢武帝別國洞冥記': '漢（舊題）', '日知錄': '明末清初', '海上花列傳': '晚清（1892）',
+    '韩非子': '戰國', '風月夢': '清（道光年間）', '鬼谷子': '戰國（舊題）',
+    '唐诗三百首': '清（乾隆年間）', '長生殿': '清（康熙年間）', '菜根譚': '明（萬曆年間）',
+    '菜根譚前後集': '明（萬曆年間）', '筠州黃檗山斷際禪師傳法心要': '唐', '山水小牘': '唐末五代',
+    '高士傳': '西晉', '金剛般若波羅蜜經': '東晉（姚秦譯）', '天妃顯聖錄': '清（乾隆刻本）',
+    '三略': '秦漢之際（舊題黃石公）', '明夷待訪錄': '清初', '鹽鐵論': '西漢',
+    '一枕奇': '明末清初', '六祖壇經': '唐', '臺灣外紀': '清（康熙年間）',
+    '賈誼新書': '西漢', '金石緣': '清（乾隆年間）', '閱微草堂筆記': '清（乾隆年間）',
+    '醒夢駢言': '清（乾隆年間）', '虬髯客傳': '唐末', '吳船錄': '南宋',
+    '星槎勝覽': '明（正統年間）', '喻世明言': '明（天啟年間）', '平妖傳': '明',
+    '東周列國志': '明末清初', '警世通言': '明（天啟年間）', '封氏聞見記': '唐', '搜神記': '東晉',
 }
 DESC = {
     '易經': '群經之首，中華文化的源頭。六十四卦涵蓋天地萬物變化之理，繫辭、說卦等十翼為儒家哲思之樞紐。',
@@ -1590,6 +1614,49 @@ DESC = {
     '西遊記': '四大名著之一：唐僧師徒西天取經、歷經九九八十一難的魔幻長篇。',
     '紅樓夢': '四大名著之首：以「一把辛酸淚」，寫盡賈府興衰與寶黛情緣。',
     '古文觀止': '清代流傳最廣的古文選本，上起周秦、下迄明末，共 222 篇。',
+    # ---- 第八批新书（2026-09-09 批量入库，42 本自动导入） ----
+    '抱朴子': '東晉葛洪撰道教名著：內篇論神仙方藥、養生延年，外篇評時政得失、人間世事，為道教思想集大成之作。',
+    '西京雜記': '舊題東晉葛洪輯西漢雜史佚聞：記長安宮室苑囿、奇珍異事、典章制度，多為後世小說戲曲所取材。',
+    '幽明錄': '南朝宋劉義慶撰志怪小說集：記幽冥鬼神、因果報應之事，為六朝志怪名著。',
+    '明鏡公案': '明代公案小說集：記官吏審案斷獄故事，明鏡高懸、懲惡勸善。',
+    '公孫龍子': '戰國名家公孫龍之作：白馬非馬、堅白同異之辨，開中國古代邏輯思辨之先聲。',
+    '竇娥冤': '元關漢卿雜劇名作：竇娥蒙冤負屈、感天動地、六月飛雪，為元雜劇悲劇之最。',
+    '管子': '舊題齊相管仲、實戰國學者託名之作：富國強兵、禮法並用，涵政治、經濟、軍事、哲學諸端。',
+    '穆天子传': '先秦古書：記周穆王西征遊歷、會見西王母之傳說，開中國遊仙小說先河。',
+    '漢武帝別國洞冥記': '舊題東漢郭憲撰志怪小說：記漢武帝求仙及別國異域珍異之事，辭采瑰麗。',
+    '日知錄': '清顧炎武積數十年學問而成之筆記：經義、史學、吏治、財賦、輿地無所不包，開清代樸學先聲。',
+    '海上花列傳': '晚清韓邦慶吳語小說：以上海妓院為舞臺寫十里洋場世相，為吳語文學開山之作。',
+    '韩非子': '戰國韓非法家集大成之作：主法、術、勢兼治，《五蠹》《說難》等篇膾炙人口。',
+    '風月夢': '晚清狹邪小說：寫揚州鹽商子弟冶遊嫖妓、傾家蕩產之世情悲歡，市語方言鮮活。',
+    '鬼谷子': '舊題戰國鬼谷子撰縱橫家書：捭闔、揣摩、權謀之術，為縱橫家與謀略學之祖。',
+    '唐诗三百首': '清蘅塘退士（孫洙）編唐詩選本：五七言古近體兼備，選詩精當，為最流行之唐詩啟蒙讀物。',
+    '長生殿': '清洪昇傳奇名作：寫唐明皇與楊貴妃生死相戀，兼寓家國興亡之慨，與《桃花扇》並稱。',
+    '菜根譚': '明洪應明格言集：融儒釋道三家，論修身、處世、出世之道，簡練雋永，膾炙人口。',
+    '菜根譚前後集': '明洪應明《菜根譚》別本（古登堡另版）：前後兩集錄處世修身語錄。',
+    '筠州黃檗山斷際禪師傳法心要': '唐黃檗希運禪師法語：直指「無心」見性之旨，為臨濟宗重要典籍。',
+    '山水小牘': '唐末皇甫枚筆記小說集：多記晚唐神怪軼事、仙蹤靈異，筆致清麗（題名或作《三水小牘》）。',
+    '高士傳': '西晉皇甫謐撰：輯上古至魏晉隱逸高潔之士近百人，為中國隱逸傳記之祖。',
+    '金剛般若波羅蜜經': '姚秦鳩摩羅什譯大乘要典：「應無所住而生其心」，禪宗與民間持誦最廣之佛經。',
+    '天妃顯聖錄': '清代刻本記媽祖（天妃）顯聖事蹟：護漕救難、感應靈異，為媽祖信仰之重要文獻。',
+    '三略': '舊題黃石公撰兵書：上中下三略論政略與用兵，與《六韜》並傳，為武經七書之一。',
+    '明夷待訪錄': '清初黃宗羲政論名篇：《原君》《原臣》痛斥君主專制，倡「天下為主、君為客」，具啟蒙思想。',
+    '鹽鐵論': '西漢桓寬錄昭帝鹽鐵會議：桑弘羊與賢良文學辯論國家經濟政策，為漢代政論之淵藪。',
+    '一枕奇': '明末清初華陽散人擬話本小說：借市井故事寫人情世態、勸懲果報。',
+    '六祖壇經': '唐禪宗六祖慧能說法、弟子法海集錄：明心見性、頓悟成佛之旨，唯一稱「經」之中國佛教撰述。',
+    '臺灣外紀': '清江日昇撰臺灣史事：自鄭芝龍、鄭成功至鄭克塽、施琅平臺，備記明鄭興亡始末。',
+    '賈誼新書': '西漢賈誼政論雜著：《過秦》《治安》諸篇論秦亡漢興、治國之策，議論風發，文采冠絕。',
+    '金石緣': '清代才子佳人小說：寫林愛珠、金玉之悲歡離合與善惡果報之世情故事。',
+    '閱微草堂筆記': '清紀昀晚年志怪筆記：談狐說鬼而寓勸懲，文筆簡淡雋永，與《聊齋誌異》並稱。',
+    '醒夢駢言': '清代話本小說集：凡十二回，寫家庭倫常、因果報應，警醒世人、如夢方覺。',
+    '虬髯客傳': '唐末杜光庭（舊題）傳奇名篇：風塵三俠虬髯客、李靖、紅拂女，豪俠傳奇之典範。',
+    '吳船錄': '南宋范成大出蜀紀行之作：記沿途名勝古蹟、風土人情，為宋代遊記名著。',
+    '星槎勝覽': '明費信記隨鄭和下西洋見聞：四十四國風土物產、航路道里，為海上絲路重要文獻。',
+    '喻世明言': '明馮夢龍「三言」之首：收話本四十篇，市井傳奇、人情世態，膾炙人口。',
+    '平妖傳': '明羅貫中、馮夢龍神魔小說：敘聖姑姑、蛋子和尚等妖狐亂世與文彥博平妖故事。',
+    '東周列國志': '明末清初歷史演義：自周幽王烽火戲諸侯至秦始皇一統，列國紛爭、波瀾壯闊。',
+    '警世通言': '明馮夢龍「三言」之一：收話本四十篇，《杜十娘怒沉百寶箱》等名篇即出於此。',
+    '封氏聞見記': '唐封演筆記：記唐代掌故、典制、風俗、藝文，考據精審，史料價值甚高。',
+    '搜神記': '東晉干寶撰志怪小說集：搜輯神仙鬼怪、靈異感應之事，集六朝志怪之大成。',
 }
 CATALOG_ID = {
     '史記': 'shiji', '漢書': 'hanshu', '三國志': 'sanguozhi', '三國演義': 'sanguo-yanyi',
@@ -1768,65 +1835,468 @@ def annotate_catalog_books():
                   f"词库命中 {r['wordbank_hits']} | 注释 {r['annotations']} 条 | 待补 {r['pending']}")
 
 
+# ============================================================
+# 精简模式（--ids 书号列表）：
+#   本地元数据(EBOOK_ID/BOOKS/raw 头部) → 古登堡 API 自动补全
+#   书名/作者；默认切分 auto 一键跑完；配置持久化 quick_books.json
+# ============================================================
+QUICK_FILE = os.path.join(BASE, 'quick_books.json')
+
+# 失败单独记日志：logs/gutenberg_import.log（追加、带时间戳；写失败不阻断主流程）。
+# 同一编号若在多阶段失败（如下载失败后再缺 raw）日志会各记一行作审计，
+# 汇总时 _print_failure_summary 按编号去重计数。
+FAILURE_LOG = os.path.join(ROOT, 'logs', 'gutenberg_import.log')
+_FAILED = []
+
+
+def log_failure(book_id, reason, detail=''):
+    """把一个编号/书名的失败写入 logs/gutenberg_import.log，并暂存 _FAILED 供末尾汇总。"""
+    ts = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    line = f'{ts}  #{book_id}  {reason}' + (f'  （{detail}）' if detail else '')
+    _FAILED.append((str(book_id), reason))
+    try:
+        os.makedirs(os.path.dirname(FAILURE_LOG), exist_ok=True)
+        with open(FAILURE_LOG, 'a', encoding='utf-8') as f:
+            f.write(line + '\n')
+    except Exception as e:
+        print(f'  ⚠️ 失败日志写入异常：{e}')
+
+
+def _print_failure_summary():
+    """本次运行失败编号汇总（按编号去重），无失败则安静返回。"""
+    if not _FAILED:
+        return
+    fails = sorted({fid for fid, _ in _FAILED})
+    print(f"\n❌ 失败 {len(fails)} 个编号 → 详见 {os.path.relpath(FAILURE_LOG, ROOT)}")
+    for fid in fails:
+        print(f"   ✗ #{fid}")
+
+
+_ID_RE = re.compile(r'(\d{1,8})')
+_RAW_TITLE_RE = re.compile(r'^\s*(?:Title|书名|書名)\s*[:：]\s*(.+?)\s*$', re.I)
+_RAW_AUTHOR_RE = re.compile(r'^\s*(?:Author|作者)\s*[:：]\s*(.+?)\s*$', re.I)
+_PG_LAST = [0.0]
+
+
+def _cjk(s):
+    return bool(s and CJK_RE.search(s))
+
+
+def _pg_pace(gap=5.0):
+    """网络请求节流：与正文下载同规范（间隔 ≥5s、顺序、不并行）。"""
+    remain = gap - (time.time() - _PG_LAST[0])
+    if remain > 0:
+        print(f'  ⏳ 间隔 {remain:.0f}s…')
+        time.sleep(remain)
+    _PG_LAST[0] = time.time()
+
+
+def _read_bytes_lines(path):
+    raw = open(path, 'rb').read()
+    for enc in ('utf-8-sig', 'gb18030', 'big5'):
+        try:
+            return raw.decode(enc).splitlines()
+        except (UnicodeDecodeError, LookupError):
+            continue
+    return raw.decode('utf-8', 'replace').splitlines()
+
+
+def parse_id_list(path):
+    """书号列表：每行一个古登堡编号；容忍 pg/URL/空白行；# 开头整行为注释。"""
+    ids = []
+    for raw in _read_bytes_lines(path):
+        line = raw.strip()
+        if not line:
+            continue
+        if line.startswith('#') and not re.match(r'#\s*\d', line):
+            continue                      # 纯注释行
+        m = _ID_RE.search(line)
+        if not m:
+            continue
+        gid = str(int(m.group(1)))
+        if gid not in ids:
+            ids.append(gid)
+    return ids
+
+
+def book_urls_by_id(gid):
+    """files/{id}.txt → files/{id}-0.txt → cache/epub/pg{id}.txt 依序尝试。"""
+    return [
+        f'https://www.gutenberg.org/files/{gid}/{gid}.txt',
+        f'https://www.gutenberg.org/files/{gid}/{gid}-0.txt',
+        f'https://www.gutenberg.org/cache/epub/{gid}/pg{gid}.txt',
+    ]
+
+
+def download_by_id(gid):
+    """按编号下载到 raw/{gid}.txt；已存在非空则跳过（间隔 ≥5s）。"""
+    out = os.path.join(RAW, gid + '.txt')
+    if os.path.exists(out) and os.path.getsize(out) > 0:
+        print(f'  · 已存在，跳过下载：raw/{gid}.txt')
+        return True
+    _pg_pace()
+    print(f'  ⬇ 下载 #{gid} → raw/{gid}.txt')
+    for i, url in enumerate(book_urls_by_id(gid)):
+        data = fetch_url(url)
+        if data:
+            with open(out, 'wb') as f:
+                f.write(data)
+            tag = '首选' if i == 0 else '备用-0' if i == 1 else '备用-cache'
+            print(f'    成功（{tag}） {len(data)} 字节')
+            return True
+        print(f'    链接不可用: {url}')
+    print(f'  ✗ 下载失败：#{gid}')
+    log_failure(gid, '下载失败', 'files/{id}.txt → files/{id}-0.txt → cache/epub/pg{id}.txt 三链接均不可用')
+    return False
+
+
+def meta_from_raw_file(gid):
+    """本地元数据：raw/{gid}.txt 头部 Title/Author（起始标记前 120 行内）。"""
+    p = os.path.join(RAW, gid + '.txt')
+    if not (os.path.exists(p) and os.path.getsize(p) > 0):
+        return None, None
+    title = author = None
+    for line in _read_bytes_lines(p)[:120]:
+        if line.strip().startswith('*** START'):
+            break
+        if title is None:
+            m = _RAW_TITLE_RE.match(line)
+            if m:
+                title = m.group(1).strip()
+        if author is None:
+            m = _RAW_AUTHOR_RE.match(line)
+            if m:
+                author = m.group(1).strip()
+        if title is not None and author is not None:
+            break
+    return (title or None), (author or None)
+
+
+def _clean_author(a):
+    if not a:
+        return None
+    s = a.strip()
+    s = re.sub(r'\s*[（(][^）)]*[-–]?\d{4}[^）)]*[）)]$', '', s).strip()   # 年代尾缀
+    s = re.sub(r'[,，]\s*[^,，]*\d{3,4}[^,，]*$', '', s).strip()          # ", 18xx-19xx"
+    s = re.sub(r'[\s。．.;;]+$', '', s).strip()
+    if s.lower() in ('anonymous', 'unknown'):
+        return None
+    return s or None
+
+
+def meta_from_api(gid):
+    """古登堡 JSON 接口（?format=json）兜底元数据。
+    实测返回形态 ['', [中文书名], [作者], […]]，作者多缺省（佚名）。"""
+    _pg_pace()
+    data = fetch_url(f'https://www.gutenberg.org/ebooks/{gid}?format=json')
+    if not data:
+        return {}
+    try:
+        j = json.loads(data.decode('utf-8', 'replace'))
+    except Exception:
+        return {}
+    title = author = None
+    if isinstance(j, dict):
+        title = j.get('title')
+        names = [a.get('name') for a in (j.get('authors') or [])
+                 if isinstance(a, dict) and a.get('name')]
+        author = names[0] if names else None
+    elif isinstance(j, list) and len(j) >= 2:
+        def first(items):
+            return next((str(x).strip() for x in (items or [])
+                         if isinstance(x, str) and x.strip()), None)
+        title = first(j[1])
+        if len(j) > 2:
+            author = first(j[2])
+    if isinstance(title, str):
+        title = title.strip()
+    if isinstance(author, str):
+        author = _clean_author(author)
+    return {'title': title or None, 'author': author or None}
+
+
+def detect_split(body):
+    """默认切分规则：数正文标题行，回/章/出/則/篇/卷 取出现最多者；
+    命中 <2 次或未识别 → 整本 single（后续可 --split 覆盖或转精细模式微调）。"""
+    counts = {'hui': 0, 'zhang': 0, 'chu': 0, 'ze': 0, 'pian': 0, 'juan_num': 0}
+    for l in body:
+        s = l.strip()
+        if RE_HUI.match(s):
+            counts['hui'] += 1
+        elif RE_ZHANG.match(s):
+            counts['zhang'] += 1
+        elif RE_CHU.match(s):
+            counts['chu'] += 1
+        elif RE_ZE.match(s):
+            counts['ze'] += 1
+        elif RE_PIAN.match(s):
+            counts['pian'] += 1
+        elif RE_JUAN_N.match(s):
+            counts['juan_num'] += 1
+    order = ('hui', 'zhang', 'chu', 'ze', 'pian', 'juan_num')
+    best = max(order, key=counts.get) if any(counts.values()) else None
+    return best if (best and counts[best] >= 2) else 'single'
+
+
+def _resolve_quick(gid, defaults, split_opt='auto', allow_download=True):
+    """把一个书号解析为可入库配置 cfg：
+    ① 本地已知编号 → 复用 BOOKS 精细配置；
+    ② 否则本地 raw 头部 → 古登堡 API 拉标题/作者，按默认切分规则生成配置。
+    返回 cfg 或 None（书名非中文/下载失败等跳过）。"""
+    # ① 本地元数据优先：EBOOK_ID/BOOKS 已知书号直接复用其手动配置
+    for c in BOOKS:
+        if EBOOK_ID.get(c['book']) == int(gid):
+            print(f'  ✅ #{gid} 命中本地精细配置（BOOKS）：{c["book"]}')
+            return c
+    # ①.b 历史精简配置命中（quick_books.json 已导入过的编号）→ 幂等复用，离线也可重跑
+    for c in (_load_json(QUICK_FILE, []) or []):
+        if isinstance(c, dict) and c.get('gid') == gid:
+            print(f'  ✅ #{gid} 命中历史精简配置（quick_books.json）：{c.get("book")}')
+            return c
+    # ② 本地 raw 已存在 → 先解析头部元数据
+    ltitle, lauthor = meta_from_raw_file(gid)
+    title = ltitle if _cjk(ltitle) else None
+    author = _clean_author(lauthor)
+    # 补齐原文（--no-download 时只允许用本地已下载文件）
+    raw_path = os.path.join(RAW, gid + '.txt')
+    if allow_download and not (os.path.exists(raw_path) and os.path.getsize(raw_path) > 0):
+        download_by_id(gid)
+    if title is None or author is None:
+        ltitle2, lauthor2 = meta_from_raw_file(gid)
+        if title is None and _cjk(ltitle2):
+            title = ltitle2
+        if author is None:
+            author = _clean_author(lauthor2)
+    # ③ 古登堡 API 兜底（本地解析缺失时）
+    if title is None or author is None:
+        meta = meta_from_api(gid)
+        if title is None and _cjk(meta.get('title')):
+            title = meta['title']
+        if author is None and meta.get('author'):
+            author = meta['author']
+    if not title:
+        print(f'  ✗ #{gid}：无法确认中文书名（本地无 raw 元数据且 API 不可用），跳过')
+        log_failure(gid, '无法确认中文书名', '本地 raw 头部元数据与古登堡 API 均不可用，或书名为非中文')
+        return None
+    if not (os.path.exists(raw_path) and os.path.getsize(raw_path) > 0):
+        print(f'  ✗ #{gid}：缺少原文 raw/{gid}.txt，跳过（可用 --no-download 仅处理已有本地文件）')
+        log_failure(gid, '缺少原文', f'raw/{gid}.txt 不存在或为空')
+        return None
+    if any(c['book'] == title for c in BOOKS):
+        print(f'  ✗ #{gid} 书名「{title}」已在 BOOKS 精细配置中，请勿重复导入，跳过')
+        return None
+    # 默认切分规则
+    split = split_opt
+    if split == 'auto':
+        body = extract_body(_read_bytes_lines(raw_path))
+        split = detect_split(body)
+        print(f'  ↻ 默认切分识别：{split}')
+    cfg = {
+        'key': 'pg' + gid,
+        'book': title,
+        'author': author or '佚名',
+        'category': defaults.get('category', '子部'),
+        'subcategory': defaults.get('subcategory', '古籍（自动导入）'),
+        'source': f'Project Gutenberg #{gid}',
+        'file': gid + '.txt',
+        'split': split,
+        'gid': gid,
+    }
+    if split in ('hui', 'chu'):
+        cfg['drop_prefix'] = True          # 丢弃首个回目标记前的封面/序残留
+        cfg['hui_title_clean'] = True
+    print(f"  ✅ #{gid} → {title}（作者：{cfg['author']}）key={cfg['key']} split={split}")
+    return cfg
+
+
+def _load_quick_configs():
+    """入库全集 = BOOKS（手动，优先） + quick_books.json（精简历史）。"""
+    quick = _load_json(QUICK_FILE, []) or []
+    quick = [c for c in quick if isinstance(c, dict) and c.get('key')]
+    out = list(BOOKS)
+    keys = {c['key'] for c in out}
+    books = {c['book'] for c in out}
+    for c in quick:
+        if c['key'] in keys or c.get('book') in books:
+            continue
+        out.append(c)
+        keys.add(c['key'])
+        books.add(c.get('book'))
+    return out
+
+
+def _save_quick_configs(configs):
+    """把 BOOKS 之外的动态配置持久化（保证后续全量运行/站点合并不丢精简书）。"""
+    extra = [c for c in configs if c.get('gid')]
+    with open(QUICK_FILE, 'w', encoding='utf-8') as f:
+        json.dump(extra, f, ensure_ascii=False, indent=2)
+    print(f'  💾 精简配置已持久化 → {os.path.relpath(QUICK_FILE, BASE)}')
+
+
+
 def main():
-    flags = {a for a in sys.argv[1:] if a.startswith('--')}
-    names = [a for a in sys.argv[1:] if not a.startswith('--')]
-    do_annotate = '--no-annotate' not in flags
-    do_merge = '--no-merge' not in flags
-    do_download = '--no-download' not in flags
-    do_catalog = '--catalog' in flags
+    # ---- 参数解析：支持取值参数（--ids FILE / --split auto / --category …） ----
+    pos, flags, opts = [], set(), {}
+    VALUE_FLAGS = ('ids', 'list', 'id-list', 'split', 'category', 'subcategory')
+    argv = sys.argv[1:]
+    i = 0
+    while i < len(argv):
+        a = argv[i]
+        if not a.startswith('--'):
+            pos.append(a)
+            i += 1
+            continue
+        body = a[2:]
+        if '=' in body:
+            k, v = body.split('=', 1)
+            if k in VALUE_FLAGS:
+                opts[k] = v
+            else:
+                flags.add(k)
+            i += 1
+            continue
+        if body in VALUE_FLAGS:
+            if i + 1 >= len(argv):
+                print(f'✗ 参数 --{body} 需要值')
+                return
+            opts[body] = argv[i + 1]
+            i += 2
+            continue
+        flags.add(body)
+        i += 1
+
+    quick_file = opts.get('ids') or opts.get('list') or opts.get('id-list')
+    do_annotate = 'no-annotate' not in flags
+    do_merge = 'no-merge' not in flags
+    do_download = 'no-download' not in flags
+    do_catalog = 'catalog' in flags
+
+    # 精细模式（手动书名/BOOKS）与精简模式（--ids 书号列表）互斥
+    if pos and quick_file:
+        print('✗ 不能同时传书名与 --ids；精细：python3 gutenberg_import.py [书名…]；'
+              '精简：python3 gutenberg_import.py --ids 列表.txt')
+        return
+
+    # 入库配置全集 = 手动 BOOKS + 精简模式历史配置（quick_books.json）
+    configs = _load_quick_configs()
+
+    if quick_file:
+        if not os.path.exists(quick_file):
+            print(f'✗ 找不到书号列表文件：{quick_file}')
+            return
+        ids = parse_id_list(quick_file)
+        if not ids:
+            print(f'✗ 书号列表为空或格式不符：{quick_file}（每行一个古登堡编号）')
+            return
+        split_opt = opts.get('split', 'auto')
+        if split_opt != 'auto' and split_opt not in SPLITTERS:
+            print(f'✗ 未知切分规则：{split_opt}（可选 auto 或 {", ".join(sorted(SPLITTERS))}）')
+            return
+        quick_defaults = {
+            'category': opts.get('category', '子部'),
+            'subcategory': opts.get('subcategory', '古籍（自动导入）'),
+        }
+        added, targets = [], []
+        for gid in ids:
+            cfg = _resolve_quick(gid, quick_defaults, split_opt, do_download)
+            if cfg is None:
+                continue
+            if any(c['key'] == cfg['key'] for c in configs):   # 已在配置（含 BOOKS 已知书号）
+                if cfg['book'] not in targets:
+                    targets.append(cfg['book'])
+                continue
+            if any(c['book'] == cfg['book'] for c in configs):
+                print(f'  ⚠️ #{gid} 书名「{cfg["book"]}」已入库，跳过（同名不同版请改用精细模式）')
+                continue
+            configs.append(cfg)
+            added.append(cfg)
+            targets.append(cfg['book'])
+        if added:
+            _save_quick_configs(configs)
+        names = targets
+        if not names:
+            print('== 精简导入：无可处理的编号（详见上方提示）==')
+            _print_failure_summary()
+            return
+        print(f'  精简模式：本次处理 {len(names)} 本（列表 {len(ids)} 个编号）')
+    else:
+        names = pos
+        if not names:
+            names = [] if do_catalog else [cfg['book'] for cfg in configs]
+
     if names:
         targets = names
     else:
-        targets = [] if do_catalog else [cfg['book'] for cfg in BOOKS]
+        targets = []
 
     reports = {}
     built = {}
 
-    # 0) 补齐缺失的 raw（顺序下载、间隔 ≥5s、不并行、已存在跳过）
+    # 0) 补齐缺失的 raw（顺序下载、间隔 ≥5s、不并行、已存在跳过；精简编号走 gid 下载器）
     if do_download:
         last = None
-        for cfg in BOOKS:
+        for cfg in configs:
             if cfg['book'] not in targets:
                 continue
             rp = os.path.join(RAW, cfg['file'])
             if os.path.exists(rp) and os.path.getsize(rp) > 0:
                 continue
-            if last:
-                gap = 5 - (time.time() - last)
-                if gap > 0:
-                    print(f'  ⏳ 间隔 {gap:.0f}s…')
-                    time.sleep(gap)
-            download_book(cfg['book'])
-            last = time.time()
+            if cfg.get('gid'):
+                download_by_id(cfg['gid'])
+            else:
+                if last:
+                    gap = 5 - (time.time() - last)
+                    if gap > 0:
+                        print(f'  ⏳ 间隔 {gap:.0f}s…')
+                        time.sleep(gap)
+                download_book(cfg['book'])
+                last = time.time()
 
     # 1) 目标书：清洗→切分→注音注释→写 data/books/{key}.json
-    for cfg in BOOKS:
+    #    逐本 try/except：任何一本失败只记日志并跳过，不中断整批（汇总见 _print_failure_summary）
+    ok_n = 0
+    for cfg in configs:
         if cfg['book'] not in targets:
             continue
+        id_label = cfg.get('gid') or cfg['key']
         rp = os.path.join(RAW, cfg['file'])
         if not (os.path.exists(rp) and os.path.getsize(rp) > 0):
             print(f"  ✗ 缺 raw：{cfg['book']}（请联网下载或补齐 raw/{cfg['file']}）")
+            log_failure(id_label, '缺少原文', f'raw/{cfg["file"]} 不存在或为空')
             continue
-        out = _build_one(cfg)
-        chapters = out['chapters']
-        ann_note = ''
-        if do_annotate:
-            anns, pending = annotate_book(cfg, chapters, reports)
-            out['annotations'] = anns
-            n_pend = merge_pending(cfg['key'], pending)
-            ann_note = f" | 注释 {len(anns)} 条" + (f"（待补 +{n_pend}）" if n_pend else '')
-        p = os.path.join(OUT_DIR, cfg['key'] + '.json')
-        with open(p, 'w', encoding='utf-8') as f:
-            json.dump(out, f, ensure_ascii=False, indent=2)
-        total = sum(len(c['content']) for c in chapters)
-        print(f"✅ {cfg['book']} ({cfg['key']}) → {os.path.relpath(p, ROOT)}")
-        print(f"   {len(chapters)} 章 | 约 {total:,} 字 | 首章: {chapters[0]['title'][:30]} | 末章: {chapters[-1]['title'][:30]}{ann_note}")
-        built[cfg['key']] = out
+        try:
+            out = _build_one(cfg)
+            chapters = out['chapters']
+            if not chapters:
+                print(f"  ✗ 切分为空：{cfg['book']}（{cfg['key']}，split={cfg.get('split')}），跳过")
+                log_failure(id_label, '切分为空（0 章）',
+                            f"split={cfg.get('split')}，需改 --split 或转精细模式微调")
+                continue
+            ann_note = ''
+            if do_annotate:
+                anns, pending = annotate_book(cfg, chapters, reports)
+                out['annotations'] = anns
+                n_pend = merge_pending(cfg['key'], pending)
+                ann_note = f" | 注释 {len(anns)} 条" + (f"（待补 +{n_pend}）" if n_pend else '')
+            p = os.path.join(OUT_DIR, cfg['key'] + '.json')
+            with open(p, 'w', encoding='utf-8') as f:
+                json.dump(out, f, ensure_ascii=False, indent=2)
+            total = sum(len(c['content']) for c in chapters)
+            print(f"✅ {cfg['book']} ({cfg['key']}) → {os.path.relpath(p, ROOT)}")
+            print(f"   {len(chapters)} 章 | 约 {total:,} 字 | 首章: {chapters[0]['title'][:30]} | 末章: {chapters[-1]['title'][:30]}{ann_note}")
+            built[cfg['key']] = out
+            ok_n += 1
+        except Exception as e:
+            print(f"  ✗ 处理失败：{cfg['book']}（{cfg['key']}）— {e}")
+            log_failure(id_label, '处理异常', repr(e))
 
-    # 2) library-index.json（全量 BOOKS；本次未处理的从 data/books 磁盘读）
+    if _FAILED:
+        print(f'\n  （成功 {ok_n} 本；失败明细：）')
+    _print_failure_summary()
+
+    # 2) library-index.json（全量 BOOKS + 精简配置；本次未处理的从 data/books 磁盘读）
     index_cats = {}
-    for cfg in BOOKS:
+    for cfg in configs:
         out = built.get(cfg['key'])
         if out is None:
             disk = os.path.join(OUT_DIR, cfg['key'] + '.json')
