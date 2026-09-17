@@ -290,7 +290,9 @@
       "en": "to connect；to relate to；to tie up",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "港",
@@ -300,7 +302,9 @@
       "en": "Hong Kong (abbr. for 香港[Xiang1 gang3])；surname Gang；harbor",
       "note": "多音字，可讀「gang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祠",
@@ -310,7 +314,9 @@
       "en": "shrine；to offer a sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湄",
@@ -320,7 +326,9 @@
       "en": "(literary) shore; coast; bank",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "大",
@@ -330,7 +338,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奇",
@@ -340,7 +350,9 @@
       "en": "strange；odd；weird",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蓋",
@@ -350,7 +362,9 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "地",
@@ -360,7 +374,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "吾",
@@ -370,7 +386,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "漭",
@@ -380,7 +398,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "崒",
@@ -390,7 +410,9 @@
       "en": "rocky peaks；lofty and dangerous",
       "note": "多音字，可讀「zu/cui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "石",
@@ -400,7 +422,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "巉",
@@ -410,7 +434,9 @@
       "en": "(literary) steep; rugged; jagged; precipitous",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "妃",
@@ -420,7 +446,9 @@
       "en": "imperial concubine",
       "note": "多音字，可讀「fei/pei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "於",
@@ -430,7 +458,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "其",
@@ -440,7 +470,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "豈",
@@ -450,7 +482,9 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "都",
@@ -460,7 +494,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "女",
@@ -470,7 +506,9 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "降",
@@ -480,7 +518,9 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "長",
@@ -490,7 +530,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "傳",
@@ -500,7 +542,9 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "度",
@@ -510,7 +554,9 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "屬",
@@ -520,7 +566,9 @@
       "en": "category；genus (taxonomy)；family members",
       "note": "多音字，可讀「shu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "得",
@@ -530,7 +578,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "著",
@@ -540,7 +590,9 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "家",
@@ -550,7 +602,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "溺",
@@ -560,7 +614,9 @@
       "en": "to drown；to indulge；addicted to",
       "note": "多音字，可讀「ni/niao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "艤",
@@ -570,7 +626,9 @@
       "en": "to moor a boat to the bank",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "賈",
@@ -580,7 +638,9 @@
       "en": "surname Jia",
       "note": "多音字，可讀「jia/gu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "舸",
@@ -590,7 +650,9 @@
       "en": "barge",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朝",
@@ -600,7 +662,9 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "泊",
@@ -610,7 +674,9 @@
       "en": "to moor (a boat)；to park (a vehicle)；(literary) calm; quiet; peaceful",
       "note": "多音字，可讀「bo/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "若",
@@ -620,7 +686,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瀑",
@@ -630,7 +698,9 @@
       "en": "waterfall",
       "note": "多音字，可讀「pu/bao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "飆",
@@ -640,7 +710,9 @@
       "en": "whirlwind (1)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "南",
@@ -650,7 +722,9 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "澤",
@@ -660,7 +734,9 @@
       "en": "pool；pond；(of metals etc) luster",
       "note": "多音字，可讀「ze/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "亙",
@@ -670,7 +746,9 @@
       "en": "extending all the way across；running all the way through",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "不",
@@ -680,7 +758,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洊",
@@ -690,7 +770,9 @@
       "en": "flowing water；successive",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璇",
@@ -700,7 +782,9 @@
       "en": "(jade)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曦",
@@ -710,7 +794,9 @@
       "en": "(literary) sunlight (usu. in early morning)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "噫",
@@ -720,7 +806,9 @@
       "en": "yeah (interjection of approval)；to belch",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祀",
@@ -730,7 +818,9 @@
       "en": "to sacrifice；to offer libation to",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "行",
@@ -740,7 +830,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "乾",
@@ -750,7 +842,9 @@
       "en": "surname Qian；one of the Eight Trigrams 八卦[ba1 gua4], symbolizing heaven；male principle",
       "note": "多音字，可讀「qian/gan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "覺",
@@ -760,7 +854,9 @@
       "en": "to feel；to find that；thinking",
       "note": "多音字，可讀「jue/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "悚",
@@ -770,7 +866,9 @@
       "en": "frightened",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "忝",
@@ -780,7 +878,9 @@
       "en": "to shame",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "匕",
@@ -790,7 +890,9 @@
       "en": "dagger；ladle；ancient type of spoon",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鬯",
@@ -800,7 +902,9 @@
       "en": "sacrificial wine; unhindered",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "庥",
@@ -810,7 +914,9 @@
       "en": "protection；shade",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "疆",
@@ -820,7 +926,9 @@
       "en": "border；boundary",
       "note": "多音字，可讀「jiang/qiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "闕",
@@ -830,7 +938,9 @@
       "en": "palace; watchtower",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "盥",
@@ -840,7 +950,9 @@
       "en": "to wash (especially hands)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "俟",
@@ -850,7 +962,9 @@
       "en": "(literary) to wait for",
       "note": "多音字，可讀「si/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "梓",
@@ -860,7 +974,9 @@
       "en": "Chinese catalpa (Catalpa ovata), a tree that serves as a symbol of one's hometown and whose wood is used to make various items；(bound form) printing blocks",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "孫",
@@ -870,7 +986,9 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "俞",
@@ -880,7 +998,9 @@
       "en": "surname Yu；yes (used by Emperor or ruler)；OK",
       "note": "多音字，可讀「yu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沐",
@@ -890,7 +1010,9 @@
       "en": "to bathe；to cleanse；to receive",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乘",
@@ -900,7 +1022,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "信",
@@ -910,7 +1034,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "愕",
@@ -920,7 +1046,9 @@
       "en": "startled",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "且",
@@ -930,7 +1058,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "疑",
@@ -940,7 +1070,9 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "莫",
@@ -950,7 +1082,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鬻",
@@ -960,7 +1094,9 @@
       "en": "to vend, sell",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祇",
@@ -970,7 +1106,9 @@
       "en": "god of the earth",
       "note": "多音字，可讀「qi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "蜃",
@@ -980,7 +1118,9 @@
       "en": "giant clam；(mythology) clam-monster said to breathe out a vapor that forms a mirage of buildings",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鰲",
@@ -990,7 +1130,9 @@
       "en": "huge sea turtle",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "檣",
@@ -1000,7 +1142,9 @@
       "en": "boom；mast",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "楫",
@@ -1010,7 +1154,9 @@
       "en": "oar (archaic)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "見",
@@ -1020,7 +1166,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "能",
@@ -1030,7 +1178,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "溟",
@@ -1040,7 +1190,9 @@
       "en": "to drizzle；sea",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貺",
@@ -1050,7 +1202,9 @@
       "en": "to bestow；to confer",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "悖",
@@ -1060,7 +1214,9 @@
       "en": "to go against；to be contrary to；perverse",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "狃",
@@ -1070,7 +1226,9 @@
       "en": "accustomed to",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邪",
@@ -1080,7 +1238,9 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "射",
@@ -1090,7 +1250,9 @@
       "en": "to shoot；to launch；to allude to",
       "note": "多音字，可讀「she/ye/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "倏",
@@ -1100,7 +1262,9 @@
       "en": "sudden；abrupt；Taiwan pr. [shu4]",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "氏",
@@ -1110,7 +1274,9 @@
       "en": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")；(bound form) maiden name; née (as in 李王氏[Li3 Wang2 shi4] \"Mrs. Li, née Wang\")；(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "擢",
@@ -1120,7 +1286,9 @@
       "en": "to pull out；to select；to promote",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曾",
@@ -1130,7 +1298,9 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "厥",
@@ -1140,7 +1310,9 @@
       "en": "to faint；to lose consciousness；his",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "圯",
@@ -1150,7 +1322,9 @@
       "en": "bridge, bank",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "軼",
@@ -1160,7 +1334,9 @@
       "en": "to surpass, to overtake, to excel",
       "note": "多音字，可讀「yi/die」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "說",
@@ -1170,7 +1346,9 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "便",
@@ -1180,7 +1358,9 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "怡",
@@ -1190,7 +1370,9 @@
       "en": "harmony；pleased",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諭",
@@ -1200,7 +1382,9 @@
       "en": "order (from above)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祭",
@@ -1210,7 +1394,9 @@
       "en": "to offer a sacrifice to (gods or ancestors)；(in classical novels) to recite an incantation to activate a magic weapon; to wield (sth magic)；(bound form) ceremony",
       "note": "多音字，可讀「ji/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "助",
@@ -1220,7 +1406,9 @@
       "en": "to help；to assist",
       "note": "多音字，可讀「zhu/chu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "解",
@@ -1230,7 +1418,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "棹",
@@ -1240,7 +1430,9 @@
       "en": "oar (archaic)；scull；paddle",
       "note": "多音字，可讀「zhao/zhuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "期",
@@ -1250,7 +1442,9 @@
       "en": "period；cycle；a period of time",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諳",
@@ -1260,7 +1454,9 @@
       "en": "to be versed in；to know well",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "塹",
@@ -1270,7 +1466,9 @@
       "en": "(bound form) moat; chasm",
       "note": "多音字，可讀「qian/jian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稽",
@@ -1280,7 +1478,9 @@
       "en": "surname Ji；(bound form) to examine; to check (against records)；(literary) to delay; to linger",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "峙",
@@ -1290,7 +1490,9 @@
       "en": "(literary) to tower aloft",
       "note": "多音字，可讀「zhi/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "淼",
@@ -1300,7 +1502,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹴",
@@ -1310,7 +1514,9 @@
       "en": "carefully；to kick；to tread on",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "熠",
@@ -1320,7 +1526,9 @@
       "en": "to glow；to flash",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "差",
@@ -1330,7 +1538,9 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "藉",
@@ -1340,7 +1550,9 @@
       "en": "(literary) cushion; mat；(literary) to put some padding underneath",
       "note": "多音字，可讀「jie/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "恙",
@@ -1350,7 +1562,9 @@
       "en": "sickness",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "重",
@@ -1360,7 +1574,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "丕",
@@ -1370,7 +1586,9 @@
       "en": "grand",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稱",
@@ -1380,7 +1598,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "景",
@@ -1390,7 +1610,9 @@
       "en": "surname Jing；(bound form) scenery；circumstance",
       "note": "多音字，可讀「jing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "詎",
@@ -1400,7 +1622,9 @@
       "en": "how (interj. of surprise)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貤",
@@ -1410,7 +1634,9 @@
       "en": "to promote；to reward",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "盛",
@@ -1420,7 +1646,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蟒",
@@ -1430,7 +1658,9 @@
       "en": "python",
       "note": "多音字，可讀「mang/meng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "麟",
@@ -1440,7 +1670,9 @@
       "en": "female unicorn",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "焻",
@@ -1450,7 +1682,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "識",
@@ -1460,7 +1694,9 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "和",
@@ -1470,7 +1706,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "給",
@@ -1480,7 +1718,9 @@
       "en": "to；for；for the benefit of",
       "note": "多音字，可讀「gei/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "六",
@@ -1490,7 +1730,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "淳",
@@ -1500,7 +1742,9 @@
       "en": "genuine；pure；honest",
       "note": "多音字，可讀「chun/zhun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "剿",
@@ -1510,7 +1754,9 @@
       "en": "to destroy；to extirpate",
       "note": "多音字，可讀「jiao/chao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "追",
@@ -1520,7 +1766,9 @@
       "en": "to pursue, to chase after; to expel",
       "note": "多音字，可讀「zhui/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "禧",
@@ -1530,7 +1778,9 @@
       "en": "joy",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "甸",
@@ -1540,7 +1790,9 @@
       "en": "surname Dian；suburbs or outskirts；one of the five degrees of official mourning attire in dynastic China",
       "note": "多音字，可讀「dian/tian/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "強",
@@ -1550,7 +1802,9 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "漕",
@@ -1560,7 +1814,9 @@
       "en": "to transport (esp. grain) by water；(literary) watercourse; canal",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "敕",
@@ -1570,7 +1826,9 @@
       "en": "imperial orders",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "孚",
@@ -1580,7 +1838,9 @@
       "en": "to trust；to believe in",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "樂",
@@ -1590,7 +1850,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "番",
@@ -1600,7 +1862,9 @@
       "en": "(bound form) foreign (non-Chinese); barbarian；classifier for processes or actions that take time and effort；(classifier) a kind; a sort",
       "note": "多音字，可讀「fan/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "縣",
@@ -1610,7 +1874,9 @@
       "en": "county；(Japan) prefecture",
       "note": "多音字，可讀「xian/xuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "員",
@@ -1620,7 +1886,9 @@
       "en": "(bound form) person engaged in a certain field of activity；(bound form) member；classifier for military generals",
       "note": "多音字，可讀「yuan/yun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "廈",
@@ -1630,7 +1898,9 @@
       "en": "(bound form) tall building; mansion；(bound form) rear annex; lean-to；Taiwan pr. [xia4]",
       "note": "多音字，可讀「sha/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "叨",
@@ -1640,7 +1910,9 @@
       "en": "garrulous",
       "note": "多音字，可讀「dao/tao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "賷",
@@ -1650,7 +1922,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詔",
@@ -1660,7 +1934,9 @@
       "en": "(literary) to admonish；(bound form) imperial edict",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "誥",
@@ -1670,7 +1946,9 @@
       "en": "to enjoin；to grant (a title)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瀆",
@@ -1680,7 +1958,9 @@
       "en": "disrespectful；(literary) ditch",
       "note": "多音字，可讀「du/dou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "裨",
@@ -1690,7 +1970,9 @@
       "en": "to benefit；to aid；advantageous",
       "note": "多音字，可讀「bi/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "數",
@@ -1700,7 +1982,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "亶",
@@ -1710,7 +1994,9 @@
       "en": "surname Dan；sincere",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "參",
@@ -1720,7 +2006,9 @@
       "en": "to take part in；to participate；to join",
       "note": "多音字，可讀「can/shen/cen/san」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "懋",
@@ -1730,7 +2018,9 @@
       "en": "to be hardworking；luxuriant；splendid",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朕",
@@ -1740,7 +2030,9 @@
       "en": "(used by an emperor or king) I; me; we (royal \"we\")；(literary) omen",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "休",
@@ -1750,7 +2042,9 @@
       "en": "surname Xiu；to rest；to stop doing sth for a period of time",
       "note": "多音字，可讀「xiu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "濯",
@@ -1760,7 +2054,9 @@
       "en": "to wash；to cleanse of evil",
       "note": "多音字，可讀「zhuo/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "遑",
@@ -1770,7 +2066,9 @@
       "en": "leisurely; hurried, anxious",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "提",
@@ -1780,7 +2078,9 @@
       "en": "to carry (hanging down from the hand)；to lift；to put forward",
       "note": "多音字，可讀「ti/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "戲",
@@ -1790,7 +2090,9 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "調",
@@ -1800,7 +2102,9 @@
       "en": "to transfer；to move (troops or cadres)；to investigate",
       "note": "多音字，可讀「diao/tiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "暘",
@@ -1810,7 +2114,9 @@
       "en": "rising sun；sunshine",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "區",
@@ -1820,7 +2126,9 @@
       "en": "area；region；district",
       "note": "多音字，可讀「qu/ou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "綸",
@@ -1830,7 +2138,9 @@
       "en": "to classify；to twist silk；silk thread",
       "note": "多音字，可讀「lun/guan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "旌",
@@ -1840,7 +2150,9 @@
       "en": "banner；make manifest",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "僉",
@@ -1850,7 +2162,9 @@
       "en": "all",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祗",
@@ -1860,7 +2174,9 @@
       "en": "respectful (ly)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "懿",
@@ -1870,7 +2186,9 @@
       "en": "(literary) exemplary; virtuous",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曷",
@@ -1880,7 +2198,9 @@
       "en": "why；how；when",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "燮",
@@ -1890,7 +2210,9 @@
       "en": "surname Xie；to blend；to adjust",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淨",
@@ -1900,7 +2222,9 @@
       "en": "clean；completely；only",
       "note": "多音字，可讀「jing/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "暵",
@@ -1910,7 +2234,9 @@
       "en": "dry；hot",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "爰",
@@ -1920,7 +2246,9 @@
       "en": "surname Yuan；therefore；consequently",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "聿",
@@ -1930,7 +2258,9 @@
       "en": "(arch. introductory particle)；then；and then",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "食",
@@ -1940,7 +2270,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仰",
@@ -1950,7 +2282,9 @@
       "en": "surname Yang；to face upward；to look up",
       "note": "多音字，可讀「yang/ang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "攸",
@@ -1960,7 +2294,9 @@
       "en": "distant, far；adverbial prefix",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "會",
@@ -1970,7 +2306,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "舳",
@@ -1980,7 +2318,9 @@
       "en": "poopdeck；stern of boat",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "偕",
@@ -1990,7 +2330,9 @@
       "en": "in company with",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "奚",
@@ -2000,7 +2342,9 @@
       "en": "surname Xi；(literary) what?；where?",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "醴",
@@ -2010,7 +2354,9 @@
       "en": "sweet wine; sweet spring water",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "歆",
@@ -2020,7 +2366,9 @@
       "en": "pleased；moved",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "斁",
@@ -2030,7 +2378,9 @@
       "en": "to be weary of",
       "note": "多音字，可讀「yi/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "繇",
@@ -2040,7 +2390,9 @@
       "en": "folk-song；forced labor",
       "note": "多音字，可讀「yao/you/zhou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "禋",
@@ -2050,7 +2402,9 @@
       "en": "sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "丁",
@@ -2060,7 +2414,9 @@
       "en": "surname Ding；male adult；the 4th of the 10 Heavenly Stems 天干[tian1 gan1]",
       "note": "多音字，可讀「ding/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "露",
@@ -2070,7 +2426,9 @@
       "en": "dew; leak; bare, exposed; to reveal, to show",
       "note": "多音字，可讀「lu/lou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "艎",
@@ -2080,7 +2438,9 @@
       "en": "fast ship；see 艅艎, large warship",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "渥",
@@ -2090,7 +2450,9 @@
       "en": "to enrich；to moisten",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "碩",
@@ -2100,7 +2462,9 @@
       "en": "(bound form) large; big；(bound form) master's degree (abbr. for 碩士|硕士[shuo4 shi4])",
       "note": "多音字，可讀「shuo/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "偃",
@@ -2110,7 +2474,9 @@
       "en": "surname Yan；to lie supine；to stop",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "颶",
@@ -2120,7 +2486,9 @@
       "en": "cyclone, gale, typhoon",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "侔",
@@ -2130,7 +2498,9 @@
       "en": "similar；comparable；equal",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "育",
@@ -2140,7 +2510,9 @@
       "en": "to have children；to raise or bring up；to educate",
       "note": "多音字，可讀「yu/yo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "穹",
@@ -2150,7 +2522,9 @@
       "en": "vault；dome；the sky",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瀚",
@@ -2160,7 +2534,9 @@
       "en": "ocean；vastness",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "膺",
@@ -2170,7 +2546,9 @@
       "en": "breast；receive",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "兮",
@@ -2180,7 +2558,9 @@
       "en": "(particle in old Chinese similar to 啊)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "潺",
@@ -2190,7 +2570,9 @@
       "en": "flow；trickle (of water)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湲",
@@ -2200,7 +2582,9 @@
       "en": "rushing (water)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繽",
@@ -2210,7 +2594,9 @@
       "en": "abundant, diverse, variegated",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "旄",
@@ -2220,7 +2606,9 @@
       "en": "banner decorated with animal's tail",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "絪",
@@ -2230,7 +2618,9 @@
       "en": "generative force；magic emanation",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "縕",
@@ -2240,7 +2630,9 @@
       "en": "orange color；hemp；vague",
       "note": "多音字，可讀「yun/wen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "徼",
@@ -2250,7 +2642,9 @@
       "en": "by mere luck；boundary；to go around",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "罔",
@@ -2260,7 +2654,9 @@
       "en": "to deceive；there is none",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鸞",
@@ -2270,7 +2666,9 @@
       "en": "fabulous bird",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "觴",
@@ -2280,7 +2678,9 @@
       "en": "feast；goblet",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蠲",
@@ -2290,7 +2690,9 @@
       "en": "(literary) to remit; to exempt；(literary) millipede；(literary) to manifest",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "虔",
@@ -2300,7 +2702,9 @@
       "en": "to act with reverence；reverent",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祉",
@@ -2310,7 +2714,9 @@
       "en": "felicity",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "篤",
@@ -2320,7 +2726,9 @@
       "en": "(bound form) sincere; genuine；(bound form) (of an illness) serious",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "輦",
@@ -2330,7 +2738,9 @@
       "en": "hand-cart; to transport by carriage",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "寰",
@@ -2340,7 +2750,9 @@
       "en": "large domain；extensive region",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "劻",
@@ -2350,7 +2762,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "勷",
@@ -2360,7 +2774,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "毓",
@@ -2370,7 +2786,9 @@
       "en": "(literary) to produce; to foster; to nurture",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "俾",
@@ -2380,7 +2798,9 @@
       "en": "to cause；to enable；phonetic bi",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "適",
@@ -2390,7 +2810,9 @@
       "en": "match, comfortable; just",
       "note": "多音字，可讀「shi/di/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "璋",
@@ -2400,7 +2822,9 @@
       "en": "jade tablet used in ceremonies, shaped like the left or right half of a \"gui\" 圭[gui1], also given to male infants to play with",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剌",
@@ -2410,7 +2834,9 @@
       "en": "perverse；unreasonable；absurd",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朱",
@@ -2420,7 +2846,9 @@
       "en": "surname Zhu；vermilion；(bound form) cinnabar",
       "note": "多音字，可讀「zhu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "焯",
@@ -2430,7 +2858,9 @@
       "en": "to blanch; to parboil",
       "note": "多音字，可讀「chao/zhuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "夙",
@@ -2440,7 +2870,9 @@
       "en": "morning；early；long-held",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "餉",
@@ -2450,7 +2882,9 @@
       "en": "rations and pay for soldiers",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "欻",
@@ -2460,7 +2894,9 @@
       "en": "(onom.) crashing sound",
       "note": "多音字，可讀「chua/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "鑣",
@@ -2470,7 +2906,9 @@
       "en": "bit, bridle; to ride",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "率",
@@ -2480,7 +2918,9 @@
       "en": "(bound form) ratio; rate; proportion；to lead；to command",
       "note": "多音字，可讀「lü/shuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "彭",
@@ -2490,7 +2930,9 @@
       "en": "surname Peng",
       "note": "多音字，可讀「peng/bang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "翊",
@@ -2500,7 +2942,9 @@
       "en": "assist；ready to fly；respect",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "醮",
@@ -2510,7 +2954,9 @@
       "en": "to anoint, to perform a rite; Daoist or Buddhist ceremony",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嵩",
@@ -2520,7 +2966,9 @@
       "en": "Mt Song in Henan；(literary) (of mountains) lofty",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "巽",
@@ -2530,7 +2978,9 @@
       "en": "to obey；one of the Eight Trigrams 八卦[ba1 gua4], symbolizing wood and wind；☴",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "合",
@@ -2540,7 +2990,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "噓",
@@ -2550,7 +3002,9 @@
       "en": "to exhale slowly；to hiss；hush!",
       "note": "多音字，可讀「xu/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "饗",
@@ -2560,7 +3014,9 @@
       "en": "banquet; to host a banquet",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "底",
@@ -2570,7 +3026,9 @@
       "en": "bottom; base；background; foundation；copy (of a manuscript or receipt etc) kept as a record",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "齎",
@@ -2580,7 +3038,9 @@
       "en": "gift, present; offering",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "禡",
@@ -2590,7 +3050,9 @@
       "en": "(arch.) religious ritual on setting out for war",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貔",
@@ -2600,7 +3062,9 @@
       "en": "see 貔貅[pi2 xiu1], composite mythical animal (originally 貔 was the male)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貅",
@@ -2610,7 +3074,9 @@
       "en": "see 貔貅[pi2 xiu1], composite mythical animal (originally 貅 was the female)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "謨",
@@ -2620,7 +3086,9 @@
       "en": "plan；to practice",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "柁",
@@ -2630,7 +3098,9 @@
       "en": "main beam of roof",
       "note": "多音字，可讀「tuo/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "鳥",
@@ -2640,7 +3110,9 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "殫",
@@ -2650,7 +3122,9 @@
       "en": "entirely；to exhaust",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "尾",
@@ -2660,7 +3134,9 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "落",
@@ -2670,7 +3146,9 @@
       "en": "to fall or drop；(of the sun) to set；(of a tide) to go out",
       "note": "多音字，可讀「luo/la/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "椗",
@@ -2680,7 +3158,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "那",
@@ -2690,7 +3170,9 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "咋",
@@ -2700,7 +3182,9 @@
       "en": "dialectal equivalent of 怎麼|怎么[zen3 me5]；Taiwan pr. [ze2]",
       "note": "多音字，可讀「za/ze/zha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "據",
@@ -2710,7 +3194,9 @@
       "en": "according to；to act in accordance with；to depend on",
       "note": "多音字，可讀「ju/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瘠",
@@ -2720,7 +3206,9 @@
       "en": "barren；lean",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "洵",
@@ -2730,7 +3218,9 @@
       "en": "truly；whirlpool",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "焜",
@@ -2740,7 +3230,9 @@
       "en": "brilliant",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愆",
@@ -2750,7 +3242,9 @@
       "en": "fault；transgression",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "還",
@@ -2760,7 +3254,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "思",
@@ -2770,7 +3266,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "呵",
@@ -2780,7 +3278,9 @@
       "en": "(bound form) to scold；to expel breath；(onom.) laughter (usu. reduplicated)",
       "note": "多音字，可讀「he/a」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嵌",
@@ -2790,7 +3290,9 @@
       "en": "to inlay；to embed；Taiwan pr. [qian1]",
       "note": "多音字，可讀「qian/kan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "墮",
@@ -2800,7 +3302,9 @@
       "en": "to fall; to sink；(fig.) to degenerate",
       "note": "多音字，可讀「duo/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "尺",
@@ -2810,7 +3314,9 @@
       "en": "a Chinese foot；one-third of a meter；a ruler",
       "note": "多音字，可讀「chi/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "睿",
@@ -2820,7 +3326,9 @@
       "en": "astute；perspicacious；farsighted",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "暴",
@@ -2830,7 +3338,9 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "浚",
@@ -2840,7 +3350,9 @@
       "en": "to dredge (a river)",
       "note": "多音字，可讀「jun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弁",
@@ -2850,7 +3362,9 @@
       "en": "(old) cap (garment)；military officer of low rank (in former times)；preceding",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "俸",
@@ -2860,7 +3374,9 @@
       "en": "(bound form) salary; stipend",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扒",
@@ -2870,7 +3386,9 @@
       "en": "to peel；to skin；to tear",
       "note": "多音字，可讀「ba/pa」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -2880,7 +3398,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "昊",
@@ -2890,7 +3410,9 @@
       "en": "surname Hao；vast and limitless；the vast sky",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邸",
@@ -2900,7 +3422,9 @@
       "en": "official residence",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "陬",
@@ -2910,7 +3434,9 @@
       "en": "corner, cranny, niche",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "趨",
@@ -2920,7 +3446,9 @@
       "en": "to hasten；to hurry；to walk fast",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "颭",
@@ -2930,7 +3458,9 @@
       "en": "to sway in the wind",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冥",
@@ -2940,7 +3470,9 @@
       "en": "dark；deep；stupid",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稷",
@@ -2950,7 +3482,9 @@
       "en": "millet；God of cereals worshiped by ancient rulers；minister of agriculture",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "馨",
@@ -2960,7 +3494,9 @@
       "en": "fragrant, aromatic",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "匾",
@@ -2970,7 +3506,9 @@
       "en": "horizontal rectangular inscribed tablet hung over a door or on a wall；shallow round woven bamboo basket",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "徵",
@@ -2980,7 +3518,9 @@
       "en": "4th note in the ancient Chinese pentatonic scale 五音[wu3 yin1], corresponding to sol",
       "note": "多音字，可讀「zhi/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "省",
@@ -2990,7 +3530,9 @@
       "en": "to save; to economize; to be frugal；to omit; to delete; to leave out；province",
       "note": "多音字，可讀「sheng/xing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "迨",
@@ -3000,7 +3542,9 @@
       "en": "while, until; to seize, to arrest",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "色",
@@ -3010,7 +3554,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "驃",
@@ -3020,7 +3566,9 @@
       "en": "charger, steed; swift, valiant",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "親",
@@ -3030,7 +3578,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "卒",
@@ -3040,7 +3590,9 @@
       "en": "soldier；servant；to finish",
       "note": "多音字，可讀「zu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "頻",
@@ -3050,7 +3602,9 @@
       "en": "frequency; repeatedly, again and again",
       "note": "多音字，可讀「bin/pin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "伯",
@@ -3060,7 +3614,9 @@
       "en": "father's elder brother；senior；paternal elder uncle",
       "note": "多音字，可讀「bo/bai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "血",
@@ -3070,7 +3626,9 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "被",
@@ -3080,7 +3638,9 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "歿",
@@ -3090,7 +3650,9 @@
       "en": "to end；to die",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "叩",
@@ -3100,7 +3662,9 @@
       "en": "to knock；to kowtow；to knock",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "覲",
@@ -3110,7 +3674,9 @@
       "en": "(history) to have an audience with the Emperor",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鯢",
@@ -3120,7 +3686,9 @@
       "en": "salamander; Cryptobranchus japonicus",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "查",
@@ -3130,7 +3698,9 @@
       "en": "to research；to check；to investigate",
       "note": "多音字，可讀「cha/zha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "召",
@@ -3140,7 +3710,9 @@
       "en": "to call together；to summon；to convene",
       "note": "多音字，可讀「zhao/shao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "擇",
@@ -3150,7 +3722,9 @@
       "en": "to select；to choose；to pick over",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宸",
@@ -3160,7 +3734,9 @@
       "en": "imperial apartments",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "圉",
@@ -3170,7 +3746,9 @@
       "en": "horse stable；frontier",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "胤",
@@ -3180,7 +3758,9 @@
       "en": "descendant；heir；offspring",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愨",
@@ -3190,7 +3770,9 @@
       "en": "honest",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "單",
@@ -3200,7 +3782,9 @@
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祧",
@@ -3210,7 +3794,9 @@
       "en": "ancestral hall",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "敦",
@@ -3220,7 +3806,9 @@
       "en": "kindhearted；place name",
       "note": "多音字，可讀「dun/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "寤",
@@ -3230,7 +3818,9 @@
       "en": "to awake from sleep",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "紅",
@@ -3240,7 +3830,9 @@
       "en": "surname Hong；red；popular",
       "note": "多音字，可讀「hong/gong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "氤",
@@ -3250,7 +3842,9 @@
       "en": "fog, mist",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "氳",
@@ -3260,7 +3854,9 @@
       "en": "prosperity; the breath of life; the spirit of harmony",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "塾",
@@ -3270,7 +3866,9 @@
       "en": "private school",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "佛",
@@ -3280,7 +3878,9 @@
       "en": "Buddha; Buddhism (abbr. for 佛陀[Fo2 tuo2])",
       "note": "多音字，可讀「fo/fu/bi/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "儼",
@@ -3290,7 +3890,9 @@
       "en": "majestic；dignified",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "窈",
@@ -3300,7 +3902,9 @@
       "en": "(literary) deep; profound; dim (variant of 杳[yao3])",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "窕",
@@ -3310,7 +3914,9 @@
       "en": "quiet and secluded；gentle, graceful, and elegant",
       "note": "多音字，可讀「tiao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "秘",
@@ -3320,7 +3926,9 @@
       "en": "secret；secretary",
       "note": "多音字，可讀「mi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "閒",
@@ -3330,7 +3938,9 @@
       "en": "leisure, idle time; tranquil, peaceful, calm",
       "note": "多音字，可讀「xian/jian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "頓",
@@ -3340,7 +3950,9 @@
       "en": "to pause; to bow; to arrange",
       "note": "多音字，可讀「dun/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "挾",
@@ -3350,7 +3962,9 @@
       "en": "(bound form) to clasp under the arm；(bound form) to coerce；(bound form) to harbor (resentment etc)",
       "note": "多音字，可讀「xie/jia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "阿",
@@ -3360,7 +3974,9 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沒",
@@ -3370,7 +3986,9 @@
       "en": "(negative prefix for verbs) have not; not",
       "note": "多音字，可讀「mei/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "似",
@@ -3380,7 +3998,9 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "夾",
@@ -3390,7 +4010,9 @@
       "en": "to press from either side；to place in between；to sandwich",
       "note": "多音字，可讀「jia/ga/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "杉",
@@ -3400,7 +4022,9 @@
       "en": "China fir；Cunninghamia lanceolata；also pr. [sha1]",
       "note": "多音字，可讀「shan/sha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "旁",
@@ -3410,7 +4034,9 @@
       "en": "one side；other；different",
       "note": "多音字，可讀「pang/bang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "堘",
@@ -3420,7 +4046,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "熟",
@@ -3430,7 +4058,9 @@
       "en": "ripe; mature；thoroughly cooked; done；familiar; acquainted",
       "note": "多音字，可讀「shu/shou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "葩",
@@ -3440,7 +4070,9 @@
       "en": "corolla of flower",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "槎",
@@ -3450,7 +4082,9 @@
       "en": "a raft made of bamboo or wood；to fell trees；to hew",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳧",
@@ -3460,7 +4094,9 @@
       "en": "wild duck; teal; swim",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "濡",
@@ -3470,7 +4106,9 @@
       "en": "dilatory；to moisten",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "簷",
@@ -3480,7 +4118,9 @@
       "en": "edge, brim; the eaves of a house",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "驄",
@@ -3490,7 +4130,9 @@
       "en": "buckskin horse",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "秣",
@@ -3500,7 +4142,9 @@
       "en": "feed a horse with grain；horse feed",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "翳",
@@ -3510,7 +4154,9 @@
       "en": "feather screen；to screen；to shade",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "霾",
@@ -3520,7 +4166,9 @@
       "en": "fog, mist; smoke, smog; dust storm",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澍",
@@ -3530,7 +4178,9 @@
       "en": "moisture；timely rain",
       "note": "多音字，可讀「shu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "叱",
@@ -3540,7 +4190,9 @@
       "en": "to scold；shout at；to hoot at",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遽",
@@ -3550,7 +4202,9 @@
       "en": "rapid, sudden, unexpected",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "車",
@@ -3560,7 +4214,9 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拂",
@@ -3570,7 +4226,9 @@
       "en": "to flick；to brush off；(of a breeze) to brush lightly over",
       "note": "多音字，可讀「fu/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "覡",
@@ -3580,7 +4238,9 @@
       "en": "wizard",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "絡",
@@ -3590,7 +4250,9 @@
       "en": "net-like object；to hold sth in place with a net；to wind",
       "note": "多音字，可讀「luo/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "皈",
@@ -3600,7 +4262,9 @@
       "en": "to comply with；to follow",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "枻",
@@ -3610,7 +4274,9 @@
       "en": "oar；stand for correcting a bow",
       "note": "多音字，可讀「yi/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "霽",
@@ -3620,7 +4286,9 @@
       "en": "to subside; to clear up after a storm; to stop being angry",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "輳",
@@ -3630,7 +4298,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "跳",
@@ -3640,7 +4310,9 @@
       "en": "to jump；to hop；to skip over",
       "note": "多音字，可讀「tiao/tao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "煦",
@@ -3650,7 +4322,9 @@
       "en": "balmy；nicely warm；cozy",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澄",
@@ -3660,7 +4334,9 @@
       "en": "surname Cheng；clear；limpid",
       "note": "多音字，可讀「cheng/deng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "罛",
@@ -3670,7 +4346,9 @@
       "en": "large fishing net",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "晏",
@@ -3680,7 +4358,9 @@
       "en": "surname Yan；late；quiet",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "豚",
@@ -3690,7 +4370,9 @@
       "en": "suckling pig",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泓",
@@ -3700,7 +4382,9 @@
       "en": "clear；vast and deep；classifier for a body of clear water",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "晷",
@@ -3710,7 +4394,9 @@
       "en": "sundial",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "髯",
@@ -3720,7 +4406,9 @@
       "en": "mustache, beard",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蛇",
@@ -3730,7 +4418,9 @@
       "en": "snake；serpent；CL:條|条[tiao2]",
       "note": "多音字，可讀「she/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "攝",
@@ -3740,7 +4430,9 @@
       "en": "(bound form) to take in; to absorb; to assimilate；to capture (video or still images)；(literary) to conserve (one's health)",
       "note": "多音字，可讀「she/nie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "粘",
@@ -3750,7 +4442,9 @@
       "en": "to glue; to paste；to adhere; to stick to",
       "note": "多音字，可讀「nian/zhan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祲",
@@ -3760,7 +4454,9 @@
       "en": "evil force",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "懺",
@@ -3770,7 +4466,9 @@
       "en": "(bound form) to feel remorse；(bound form) scripture read to atone for sb's sins (from Sanskrit \"ksama\")",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "菖",
@@ -3780,7 +4478,9 @@
       "en": "see 菖蒲[chang1 pu2]",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瘥",
@@ -3790,7 +4490,9 @@
       "en": "to recover from disease",
       "note": "多音字，可讀「chai/cuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "拚",
@@ -3800,7 +4502,9 @@
       "en": "to strive for；to struggle；to disregard",
       "note": "多音字，可讀「pin/pan/fan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鷦",
@@ -3810,7 +4514,9 @@
       "en": "wren",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鷯",
@@ -3820,7 +4526,9 @@
       "en": "wren",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "唧",
@@ -3830,7 +4538,9 @@
       "en": "(onom.) to pump (water)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "兀",
@@ -3840,7 +4550,9 @@
       "en": "surname Wu；(literary) rising to a height; towering；(literary) bald; bare",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "霪",
@@ -3850,7 +4562,9 @@
       "en": "monsoon; a long and heavy rain",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "罹",
@@ -3860,7 +4574,9 @@
       "en": "happen to；sorrow；suffer from",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "戾",
@@ -3870,7 +4586,9 @@
       "en": "to bend；to violate；to go against",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "虯",
@@ -3880,7 +4598,9 @@
       "en": "young dragon with horns",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "戟",
@@ -3890,7 +4610,9 @@
       "en": "halberd；long-handled weapon with pointed tip and crescent blade；combined spear and battle-ax",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稔",
@@ -3900,7 +4622,9 @@
       "en": "(literary) ripe grain; ripe; harvest; year；(literary) very familiar with; well acquainted with",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蓼",
@@ -3910,7 +4634,9 @@
       "en": "polygonum；smartweed",
       "note": "多音字，可讀「liao/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "靂",
@@ -3920,7 +4646,9 @@
       "en": "thunderclap, crashing thunder",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "折",
@@ -3930,7 +4658,9 @@
       "en": "to turn sth over；to turn upside down；to tip sth out (of a container)",
       "note": "多音字，可讀「zhe/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "噴",
@@ -3940,7 +4670,9 @@
       "en": "to spout; to spurt; to spray; to puff；(slang) to criticize scathingly (esp. online)；(of a smell) strong",
       "note": "多音字，可讀「pen/fen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "薄",
@@ -3950,7 +4682,9 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "孛",
@@ -3960,7 +4694,9 @@
       "en": "comet",
       "note": "多音字，可讀「bei/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "杳",
@@ -3970,7 +4706,9 @@
       "en": "dark and quiet；disappear",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "姝",
@@ -3980,7 +4718,9 @@
       "en": "pretty woman",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遨",
@@ -3990,7 +4730,9 @@
       "en": "to ramble, to roam; to travel for pleasure",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "佇",
@@ -4000,7 +4742,9 @@
       "en": "to stand for a long time；to wait；to look forward to",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宥",
@@ -4010,7 +4754,9 @@
       "en": "to forgive；to help；profound",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "姊",
@@ -4020,7 +4766,9 @@
       "en": "older sister；Taiwan pr. [jie3]",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "岫",
@@ -4030,7 +4778,9 @@
       "en": "cave；mountain peak",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "靄",
@@ -4040,7 +4790,9 @@
       "en": "fog, haze; calm, peaceful",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "旻",
@@ -4050,7 +4802,9 @@
       "en": "heaven",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "皎",
@@ -4060,7 +4814,9 @@
       "en": "bright；white",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "欷",
@@ -4070,7 +4826,9 @@
       "en": "to sob",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "虹",
@@ -4080,7 +4838,9 @@
       "en": "rainbow",
       "note": "多音字，可讀「hong/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洞",
@@ -4090,7 +4850,9 @@
       "en": "cave；hole；zero (unambiguous spoken form when spelling out numbers)",
       "note": "多音字，可讀「dong/tong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "碇",
@@ -4100,7 +4862,9 @@
       "en": "anchor",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貲",
@@ -4110,7 +4874,9 @@
       "en": "to estimate；to fine (archaic)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "模",
@@ -4120,7 +4886,9 @@
       "en": "to imitate；model；norm",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "枝",
@@ -4130,7 +4898,9 @@
       "en": "branch；classifier for sticks, rods, pencils etc",
       "note": "多音字，可讀「zhi/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "廡",
@@ -4140,7 +4910,9 @@
       "en": "small rooms facing or to the side of the main hall or veranda",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "楂",
@@ -4150,7 +4922,9 @@
       "en": "Chinese hawthorn",
       "note": "多音字，可讀「zha/cha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "伺",
@@ -4160,7 +4934,9 @@
       "en": "to watch；to wait；to examine",
       "note": "多音字，可讀「si/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拾",
@@ -4170,7 +4946,9 @@
       "en": "to pick up；to collate or arrange；ten (banker's anti-fraud numeral)",
       "note": "多音字，可讀「shi/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "燁",
@@ -4180,7 +4958,9 @@
       "en": "blaze of fire；glorious",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嘖",
@@ -4190,7 +4970,9 @@
       "en": "(interj. of admiration or of disgust)；to click one's tongue；to attempt to (find an opportunity to) speak",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藏",
@@ -4200,7 +4982,9 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "屏",
@@ -4210,7 +4994,9 @@
       "en": "(standing) screen",
       "note": "多音字，可讀「ping/bing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瀕",
@@ -4220,7 +5006,9 @@
       "en": "to approach；to border on；near",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瘳",
@@ -4230,7 +5018,9 @@
       "en": "to convalesce；to recover；to heal",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "啻",
@@ -4240,7 +5030,9 @@
       "en": "only (classical, usually follows negative or question words)；(not) just",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "甃",
@@ -4250,7 +5042,9 @@
       "en": "brickwork of well",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "丞",
@@ -4260,7 +5054,9 @@
       "en": "deputy",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "谷",
@@ -4270,7 +5066,9 @@
       "en": "grain；corn；surname Gu",
       "note": "多音字，可讀「gu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "軿",
@@ -4280,7 +5078,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "幡",
@@ -4290,7 +5090,9 @@
       "en": "banner",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "䑸",
@@ -4300,7 +5102,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "潰",
@@ -4310,7 +5114,9 @@
       "en": "(bound form) (of floodwaters) to break through a dam or dike；(bound form) to break through (a military encirclement)；(bound form) to be routed; to be overrun; to fall to pieces",
       "note": "多音字，可讀「kui/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "戌",
@@ -4320,7 +5126,9 @@
       "en": "11th earthly branch: 7-9 p.m., 9th solar month (8th October-6th November), year of the Dog；ancient Chinese compass point: 300°",
       "note": "多音字，可讀「xu/qu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "魃",
@@ -4330,7 +5138,9 @@
       "en": "drought demon",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "甌",
@@ -4340,7 +5150,9 @@
       "en": "old name for Wenzhou City 溫州市|温州市[Wen1 zhou1 shi4] in Zhejiang 浙江[Zhe4 jiang1]；(pottery) bowl or drinking vessel",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "潦",
@@ -4350,7 +5162,9 @@
       "en": "flooded；heavy rain",
       "note": "多音字，可讀「liao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "滂",
@@ -4360,7 +5174,9 @@
       "en": "rushing (water)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "沱",
@@ -4370,7 +5186,9 @@
       "en": "tearful；to branch (of river)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "廩",
@@ -4380,7 +5198,9 @@
       "en": "government granary",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "匱",
@@ -4390,7 +5210,9 @@
       "en": "surname Kui；to lack；lacking",
       "note": "多音字，可讀「kui/gui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "賑",
@@ -4400,7 +5222,9 @@
       "en": "to provide relief；to aid",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "矜",
@@ -4410,7 +5234,9 @@
       "en": "to boast；to esteem；to sympathize",
       "note": "多音字，可讀「jin/guan/qin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "桀",
@@ -4420,7 +5246,9 @@
       "en": "(emperor of Xia dynasty)；cruel",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "艫",
@@ -4430,7 +5258,9 @@
       "en": "bow of ship",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹂",
@@ -4440,7 +5270,9 @@
       "en": "trample",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "躪",
@@ -4450,7 +5282,9 @@
       "en": "to trample, to oppress; to overrun",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "塞",
@@ -4460,7 +5294,9 @@
       "en": "to plug; to stop up; to stuff in；(bound form) a stopper; a cork；(bound form) strategic stronghold",
       "note": "多音字，可讀「sai/se」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "渠",
@@ -4470,7 +5306,9 @@
       "en": "surname Qu；(artificial) stream; canal; drain; ditch (CL:條|条[tiao2])；(literary) big; great",
       "note": "多音字，可讀「qu/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "貽",
@@ -4480,7 +5318,9 @@
       "en": "to present；to bequeath",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "楨",
@@ -4490,7 +5330,9 @@
       "en": "(old) privet (genus Ligustrum)；(bound form) (old) wooden support placed at the ends of a wall during construction; (fig.) mainstay; pillar; backbone",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "揆",
@@ -4500,7 +5342,9 @@
       "en": "consider；estimate",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "隸",
@@ -4510,7 +5354,9 @@
       "en": "subservient; servant",
       "note": "多音字，可讀「li/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "馮",
@@ -4520,7 +5366,9 @@
       "en": "to gallop; by dint of; surname",
       "note": "多音字，可讀「feng/ping」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "靨",
@@ -4530,7 +5378,9 @@
       "en": "dimples",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "炮",
@@ -4540,7 +5390,9 @@
       "en": "to prepare herbal medicine by roasting or parching (in a pan)；cannon；CL:座[zuo4]",
       "note": "多音字，可讀「pao/bao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "獗",
@@ -4550,7 +5402,9 @@
       "en": "wild, violent; unruly, lawless",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "楯",
@@ -4560,7 +5414,9 @@
       "en": "draw forth；horizontal railing",
       "note": "多音字，可讀「dun/shun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "馘",
@@ -4570,7 +5426,9 @@
       "en": "to cut off the left ear; to tally the enemy's dead",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鏘",
@@ -4580,7 +5438,9 @@
       "en": "clang; jingle, tinkle",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "旆",
@@ -4590,7 +5450,9 @@
       "en": "pennant；streamer",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鐃",
@@ -4600,7 +5462,9 @@
       "en": "cymbals, hand-bell; to disturb",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "闔",
@@ -4610,7 +5474,9 @@
       "en": "to close; whole, entire, all",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "尉",
@@ -4620,7 +5486,9 @@
       "en": "surname Wei；military officer",
       "note": "多音字，可讀「wei/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "艮",
@@ -4630,7 +5498,9 @@
       "en": "blunt；tough；chewy",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "價",
@@ -4640,7 +5510,9 @@
       "en": "price；value；(chemistry) valence",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "怏",
@@ -4650,7 +5522,9 @@
       "en": "discontented",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弟",
@@ -4660,7 +5534,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "殄",
@@ -4670,7 +5546,9 @@
       "en": "to exterminate",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鎔",
@@ -4680,7 +5558,9 @@
       "en": "mold; to fuse, to melt, to smelt",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "埔",
@@ -4690,7 +5570,9 @@
       "en": "arena; market; plain; port",
       "note": "多音字，可讀「pu/bu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "磔",
@@ -4700,7 +5582,9 @@
       "en": "old term for the right-falling stroke in Chinese characters (e.g. the last stroke of 大[da4]), now called 捺[na4]；sound made by birds (onom.)；(literary) to dismember (form of punishment)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "勒",
@@ -4710,7 +5594,9 @@
       "en": "(literary) bridle; halter; headstall；to rein in；to compel; to force",
       "note": "多音字，可讀「le/lei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "楮",
@@ -4720,7 +5606,9 @@
       "en": "Broussonetia kasinoki",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宛",
@@ -4730,7 +5618,9 @@
       "en": "surname Wan；winding；as if",
       "note": "多音字，可讀「wan/yuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "陟",
@@ -4740,7 +5630,9 @@
       "en": "to climb; to advance; progress",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "驛",
@@ -4750,7 +5642,9 @@
       "en": "relay station",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "份",
@@ -4760,7 +5654,9 @@
       "en": "classifier for gifts, newspaper, magazine, papers, reports, contracts etc",
       "note": "多音字，可讀「fen/bin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鼉",
@@ -4770,7 +5666,9 @@
       "en": "large reptile, water lizard",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蛟",
@@ -4780,7 +5678,9 @@
       "en": "a legendary dragon with the ability to control rain and floods；see also 蛟龍|蛟龙[jiao1 long2]",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "磯",
@@ -4790,7 +5690,9 @@
       "en": "breakwater；jetty",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "珀",
@@ -4800,7 +5702,9 @@
       "en": "amber",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湯",
@@ -4810,7 +5714,9 @@
       "en": "surname Tang；soup；hot or boiling water",
       "note": "多音字，可讀「tang/shang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "豁",
@@ -4820,7 +5726,9 @@
       "en": "opening；stake all；sacrifice",
       "note": "多音字，可讀「huo/hua」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宿",
@@ -4830,7 +5738,9 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "痾",
@@ -4840,7 +5750,9 @@
       "en": "(literary) disease；also pr. [e1]",
       "note": "多音字，可讀「ke/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "奕",
@@ -4850,7 +5762,9 @@
       "en": "abundant；graceful",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "暹",
@@ -4860,7 +5774,9 @@
       "en": "sunrise",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "颯",
@@ -4870,7 +5786,9 @@
       "en": "bleak; melancholy; the howl of the wind",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "萑",
@@ -4880,7 +5798,9 @@
       "en": "a kind of reed",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "苻",
@@ -4890,7 +5810,9 @@
       "en": "Angelica anomala",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "巔",
@@ -4900,7 +5822,9 @@
       "en": "summit",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "覘",
@@ -4910,7 +5834,9 @@
       "en": "to observe；to spy on；Taiwan pr. [zhan1]",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鯤",
@@ -4920,7 +5846,9 @@
       "en": "spawn; roe; fry",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "倭",
@@ -4930,7 +5858,9 @@
       "en": "dwarf；Japanese (derog.) (old)",
       "note": "多音字，可讀「wo/wei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "翥",
@@ -4940,7 +5870,9 @@
       "en": "to soar",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "樵",
@@ -4950,7 +5882,9 @@
       "en": "firewood；gather wood",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繂",
@@ -4960,7 +5894,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臾",
@@ -4970,7 +5906,9 @@
       "en": "surname Yu；a moment；little while",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "忭",
@@ -4980,7 +5918,9 @@
       "en": "(literary) happy; delighted",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "咫",
@@ -4990,7 +5930,9 @@
       "en": "8 in. length unit of Zhou dynasty",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "爪",
@@ -5000,7 +5942,9 @@
       "en": "(coll.) foot of an animal or bird；(coll.) foot supporting a cooking pot etc",
       "note": "多音字，可讀「zhua/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "卜",
@@ -5010,7 +5954,9 @@
       "en": "surname Bu；(bound form) to divine",
       "note": "多音字，可讀「bu/bo/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "盍",
@@ -5020,7 +5966,9 @@
       "en": "why not",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "磴",
@@ -5030,7 +5978,9 @@
       "en": "cliff-ledge；stone step",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "迫",
@@ -5040,7 +5990,9 @@
       "en": "to persecute；to oppress；embarrassed",
       "note": "多音字，可讀「po/pai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "槁",
@@ -5050,7 +6002,9 @@
       "en": "dried up；dried up (wood)；dead tree",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蠹",
@@ -5060,7 +6014,9 @@
       "en": "insect that eats into books, clothing etc；moth-eaten；worm-eaten",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "了",
@@ -5070,7 +6026,9 @@
       "en": "to finish；(used with 得[de2] or 不[bu4] after a verb to express (im)possibility, as in 忘不了[wang4 bu5 liao3] \"cannot forget\")；(literary) (usually followed by a negative such as 無|无[wu2] or 不[bu4]) completely (not); entirely (not); (not) in the least",
       "note": "多音字，可讀「le/liao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "迤",
@@ -5080,7 +6038,9 @@
       "en": "winding, meandering",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "舡",
@@ -5090,7 +6050,9 @@
       "en": "boat；ship",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "責",
@@ -5100,7 +6062,9 @@
       "en": "duty；responsibility；to reproach",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "遴",
@@ -5110,7 +6074,9 @@
       "en": "to select, to choose; surname",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "仔",
@@ -5120,7 +6086,9 @@
       "en": "(dialect) (bound form) young man",
       "note": "多音字，可讀「zai/zi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "桔",
@@ -5130,7 +6098,9 @@
       "en": "orange, tangerine",
       "note": "多音字，可讀「ju/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "屯",
@@ -5140,7 +6110,9 @@
       "en": "to station (soldiers)；to store up；village",
       "note": "多音字，可讀「tun/zhun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "爨",
@@ -5150,7 +6122,9 @@
       "en": "surname Cuan；cooking-stove；to cook",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "徂",
@@ -5160,7 +6134,9 @@
       "en": "to go；to reach",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "校",
@@ -5170,7 +6146,9 @@
       "en": "(bound form) school; college；(bound form) (military) field officer",
       "note": "多音字，可讀「xiao/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鮫",
@@ -5180,7 +6158,9 @@
       "en": "shark",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亢",
@@ -5190,7 +6170,9 @@
       "en": "surname Kang；Kang, one of the 28 constellations；high",
       "note": "多音字，可讀「kang/hang/gang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "徙",
@@ -5200,7 +6182,9 @@
       "en": "(literary) to change one's residence",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "廛",
@@ -5210,7 +6194,9 @@
       "en": "market place",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "堙",
@@ -5220,7 +6206,9 @@
       "en": "bury；mound；to dam",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "罄",
@@ -5230,7 +6218,9 @@
       "en": "to use up；to exhaust；empty",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曩",
@@ -5240,7 +6230,9 @@
       "en": "in former times",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "饔",
@@ -5250,7 +6242,9 @@
       "en": "breakfast; to eat prepared food",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "歟",
@@ -5260,7 +6254,9 @@
       "en": "(literary) (final particle similar to 嗎|吗[ma5], 呢[ne5] or 啊[a1])",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "攄",
@@ -5270,7 +6266,9 @@
       "en": "set forth；to spread",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愫",
@@ -5280,7 +6278,9 @@
       "en": "guileless；sincere",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "綆",
@@ -5290,7 +6290,9 @@
       "en": "(literary) well rope (for drawing water)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "挹",
@@ -5300,7 +6302,9 @@
       "en": "(literary) to scoop up; to ladle out；(literary) to draw toward oneself",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "歕",
@@ -5310,7 +6314,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "濊",
@@ -5320,7 +6326,9 @@
       "en": "vast；expansive (as of water)",
       "note": "多音字，可讀「hui/huo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "鐫",
@@ -5330,7 +6338,9 @@
       "en": "engraving tool; to carve, to engrave",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "畜",
@@ -5340,7 +6350,9 @@
       "en": "livestock；domesticated animal；domestic animal",
       "note": "多音字，可讀「chu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "軔",
@@ -5350,7 +6362,9 @@
       "en": "brake",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "涘",
@@ -5360,7 +6374,9 @@
       "en": "river bank",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "闓",
@@ -5370,7 +6386,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "覃",
@@ -5380,7 +6398,9 @@
       "en": "surname Qin",
       "note": "多音字，可讀「qin/tan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "䟽",
@@ -5390,7 +6410,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "飭",
@@ -5400,7 +6422,9 @@
       "en": "order; command; give command",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "塍",
@@ -5410,7 +6434,9 @@
       "en": "raised path between fields",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "駢",
@@ -5420,7 +6446,9 @@
       "en": "a team of horses; to associate; to join",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "罟",
@@ -5430,7 +6458,9 @@
       "en": "to implicate；net for birds or fish",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "䋖",
@@ -5440,7 +6470,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齊",
@@ -5450,7 +6482,9 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鑾",
@@ -5460,7 +6494,9 @@
       "en": "bells hung on a horse; imperial",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "幢",
@@ -5470,7 +6506,9 @@
       "en": "classifier for buildings (Taiwan pr. [chuang2])；(archaic) curtain hung over boat or carriage windows",
       "note": "多音字，可讀「zhuang/chuang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "旛",
@@ -5480,7 +6518,9 @@
       "en": "pennant",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "歔",
@@ -5490,7 +6530,9 @@
       "en": "to snort",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邰",
@@ -5500,7 +6542,9 @@
       "en": "a state in Shanxi province; surname",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冽",
@@ -5510,7 +6554,9 @@
       "en": "cold and raw",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蜻",
@@ -5520,7 +6566,9 @@
       "en": "see 蜻蜓[qing1 ting2]",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蜓",
@@ -5530,7 +6578,9 @@
       "en": "see 蜻蜓[qing1 ting2]",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "雀",
@@ -5540,7 +6590,9 @@
       "en": "sparrow",
       "note": "多音字，可讀「que/qiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "璀",
@@ -5550,7 +6602,9 @@
       "en": "luster of gems",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璨",
@@ -5560,7 +6614,9 @@
       "en": "gem；luster of gem",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "縹",
@@ -5570,7 +6626,9 @@
       "en": "Taiwan pr. [piao3]；(literary) light blue；(literary) light blue silk fabric",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淝",
@@ -5580,7 +6638,9 @@
       "en": "name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亡",
@@ -5590,7 +6650,9 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惡",
@@ -5600,7 +6662,9 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "馥",
@@ -5610,7 +6674,9 @@
       "en": "scent, fragrance, aroma",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "彈",
@@ -5620,7 +6686,9 @@
       "en": "crossball；bullet；shot",
       "note": "多音字，可讀「dan/tan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "麾",
@@ -5630,7 +6698,9 @@
       "en": "pennant, flag, banner; to signal to",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "硈",
@@ -5640,7 +6710,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "葆",
@@ -5650,7 +6722,9 @@
       "en": "dense foliage；to cover",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "䉡",
@@ -5660,7 +6734,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淌",
@@ -5670,7 +6746,9 @@
       "en": "to drip；to trickle；to shed (tears)",
       "note": "多音字，可讀「tang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "陶",
@@ -5680,7 +6758,9 @@
       "en": "pottery, ceramics",
       "note": "多音字，可讀「tao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "扁",
@@ -5690,7 +6770,9 @@
       "en": "flat；(coll.) to beat (sb) up",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鏗",
@@ -5700,7 +6782,9 @@
       "en": "to strike, to beat; gong, resounding noise",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "猝",
@@ -5710,7 +6794,9 @@
       "en": "abruptly; suddenly; unexpectedly",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "褻",
@@ -5720,7 +6806,9 @@
       "en": "obscene；disrespectful",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "謚",
@@ -5730,7 +6818,9 @@
       "en": "posthumous name or title",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泯",
@@ -5740,7 +6830,9 @@
       "en": "(bound form) to vanish; to die out; to obliterate",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "暨",
@@ -5750,7 +6842,9 @@
       "en": "(literary) and; as well as；(literary) up to; as far as (as in 暨今[ji4 jin1] \"up to now\")",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳩",
@@ -5760,7 +6854,9 @@
       "en": "pigeon; to collect, to assemble",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "筊",
@@ -5770,7 +6866,9 @@
       "en": "bamboo rope",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "侃",
@@ -5780,7 +6878,9 @@
       "en": "upright and honest；cheerful；to chat idly",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "舛",
@@ -5790,7 +6890,9 @@
       "en": "mistaken；erroneous；contradictory",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "叶",
@@ -5800,7 +6902,9 @@
       "en": "surname Ye；leaf；page",
       "note": "多音字，可讀「ye/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "禎",
@@ -5810,7 +6914,9 @@
       "en": "auspicious；lucky",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "楠",
@@ -5820,7 +6926,9 @@
       "en": "Machilus nanmu；Chinese cedar；Chinese giant redwood",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "垓",
@@ -5830,7 +6938,9 @@
       "en": "boundary",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "欹",
@@ -5840,7 +6950,9 @@
       "en": "interjection",
       "note": "多音字，可讀「qi/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "篐",
@@ -5850,7 +6962,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "漈",
@@ -5860,7 +6974,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "側",
@@ -5870,7 +6986,9 @@
       "en": "the side；to incline towards；to lean",
       "note": "多音字，可讀「ce/ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邇",
@@ -5880,7 +6998,9 @@
       "en": "near, close; recent",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "褌",
@@ -5890,7 +7010,9 @@
       "en": "pants (old)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "跣",
@@ -5900,7 +7022,9 @@
       "en": "barefooted",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "杪",
@@ -5910,7 +7034,9 @@
       "en": "the limit；tip of branch",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鰍",
@@ -5920,7 +7046,9 @@
       "en": "loach",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "沈",
@@ -5930,7 +7058,9 @@
       "en": "surname Shen；short name for 瀋陽|沈阳[Shen3 yang2]；(literary) juice",
       "note": "多音字，可讀「shen/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "喬",
@@ -5940,7 +7070,9 @@
       "en": "surname Qiao；tall",
       "note": "多音字，可讀「qiao/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "謁",
@@ -5950,7 +7082,9 @@
       "en": "to visit (a superior)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "句",
@@ -5960,7 +7094,9 @@
       "en": "sentence；clause；phrase",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "葢",
@@ -5970,7 +7106,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "巷",
@@ -5980,7 +7118,9 @@
       "en": "lane；alley",
       "note": "多音字，可讀「xiang/hang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拏",
@@ -5990,7 +7130,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "毒",
@@ -6000,7 +7142,9 @@
       "en": "poison；to poison；poisonous",
       "note": "多音字，可讀「du/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "耆",
@@ -6010,7 +7154,9 @@
       "en": "man of sixty or seventy",
       "note": "多音字，可讀「qi/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "荻",
@@ -6020,7 +7166,9 @@
       "en": "Anaphalis yedoensis (pearly everlasting reed)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "約",
@@ -6030,7 +7178,9 @@
       "en": "to make an appointment；to invite；approximately",
       "note": "多音字，可讀「yue/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "楷",
@@ -6040,7 +7190,9 @@
       "en": "model；pattern；regular script (calligraphic style)",
       "note": "多音字，可讀「kai/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "緝",
@@ -6050,7 +7202,9 @@
       "en": "to seize；to arrest；Taiwan pr. [qi4]",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稟",
@@ -6060,7 +7214,9 @@
       "en": "to make a report (to a superior)；to give；to endow",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "簸",
@@ -6070,7 +7226,9 @@
       "en": "to winnow; to toss up and down",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "匍",
@@ -6080,7 +7238,9 @@
       "en": "to crawl; to lie prostrate",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "匐",
@@ -6090,7 +7250,9 @@
       "en": "to crawl; to lie prostrate",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "墀",
@@ -6100,7 +7262,9 @@
       "en": "courtyard",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "浣",
@@ -6110,7 +7274,9 @@
       "en": "to wash；to rinse；any of three 10-day division of the month (during Tang dynasty)",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "誚",
@@ -6120,7 +7286,9 @@
       "en": "ridicule；to blame",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "燹",
@@ -6130,7 +7298,9 @@
       "en": "conflagration",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "彞",
@@ -6140,7 +7310,9 @@
       "en": "the Yi tribe; tripod; rule, nature",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "笘",
@@ -6150,7 +7322,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "踵",
@@ -6160,7 +7334,9 @@
       "en": "to arrive；to follow；heel",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剞",
@@ -6170,7 +7346,9 @@
       "en": "carving or engraving; knife; grave",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "劂",
@@ -6180,7 +7358,9 @@
       "en": "chisel; to engrave",
       "note": null,
       "is_difficult": true,
-      "src": "天妃顯聖錄"
+      "src": "天妃顯聖錄",
+      "multi": false,
+      "rare": true
     }
   ]
 }

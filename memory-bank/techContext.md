@@ -19,6 +19,12 @@
 
 ## 数据与脚本（文本/新书/）
 - `gutenberg_import.py`：古登堡新书全流程（下载→切分→注音注释→合并到 _site_data）。
-- `fill_glosses.py` + `gloss_lib.py`：三语释义回填（数据见 `data/` 子目录：CC-CEDICT / 新华字典 / gloss_override.json 人工精编 / pinyin_readings）。
+  英文书（`--lang en`）走 `en_chapter` 切分 + ECDICT 词频挑「英文难词」写 annotations。
+- `fill_glosses.py` + `gloss_lib.py`：三语释义回填（中文数据见 `data/` 子目录：
+  CC-CEDICT / 新华字典 / gloss_override.json 人工精编 / pinyin_readings；英文数据：
+  ECDICT 英汉词典打底 `data/ecdict_en/ecdict_{a..z}.json`（**按首字母分片**，每片 ≤7.4 MiB，
+  查询时惰性加载 + LRU≤3 片，内存 ~72 MiB 而非整库 ~390 MiB）+ `data/common_words_en.json` 常用词表，
+  网络释义走 Free Dictionary API（freedictionaryapi.com，缓存 `data/ecdict_api_cache.json`）。
+- `parse_ecdict.py`：下载并解析 ECDICT（MIT）→ 生成**按首字母分片**的英词释义库与常用词表（本地数据，已 gitignore）。
 - `slim_books_index.py`：把 books.json 重建为轻量索引（构建产物也调用）。
 - `tradify.js`：opencc 简→繁子进程。

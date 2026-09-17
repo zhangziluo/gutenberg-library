@@ -18,7 +18,9 @@
       "en": "chin",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鈭",
@@ -28,7 +30,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剝",
@@ -38,7 +42,9 @@
       "en": "to peel；to skin；to shell",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "亙",
@@ -48,7 +54,9 @@
       "en": "extending all the way across；running all the way through",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "銋",
@@ -58,7 +66,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詨",
@@ -68,7 +78,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瞍",
@@ -78,7 +90,9 @@
       "en": "blind",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璆",
@@ -88,7 +102,9 @@
       "en": "(gem)；to tinkle",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閰",
@@ -98,7 +114,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冽",
@@ -108,7 +126,9 @@
       "en": "cold and raw",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "砌",
@@ -118,7 +138,9 @@
       "en": "to build by laying bricks or stones",
       "note": "多音字，可讀「qi/qie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "唳",
@@ -128,7 +150,9 @@
       "en": "cry of a crane or wild goose",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祆",
@@ -138,7 +162,9 @@
       "en": "Ahura Mazda, the creator deity in Zoroastrianism",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蝞",
@@ -148,7 +174,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鞊",
@@ -158,7 +186,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剜",
@@ -168,7 +198,9 @@
       "en": "to scoop out；to gouge out",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臬",
@@ -178,7 +210,9 @@
       "en": "guidepost；rule；standard",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "血",
@@ -188,7 +222,9 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "芷",
@@ -198,7 +234,9 @@
       "en": "angelica (type of iris)；plant root used in TCM",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "踵",
@@ -208,7 +246,9 @@
       "en": "to arrive；to follow；heel",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "啁",
@@ -218,7 +258,9 @@
       "en": "twittering of birds",
       "note": "多音字，可讀「zhou/zhao/tiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "蝘",
@@ -228,7 +270,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "餉",
@@ -238,7 +282,9 @@
       "en": "rations and pay for soldiers",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憌",
@@ -248,7 +294,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嫖",
@@ -258,7 +306,9 @@
       "en": "to visit a prostitute",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "芰",
@@ -268,7 +318,9 @@
       "en": "(archaic) water caltrop (Trapa natans)",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "啣",
@@ -278,7 +330,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鞎",
@@ -288,7 +342,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瞉",
@@ -298,7 +354,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "圈",
@@ -308,7 +366,9 @@
       "en": "circle; ring; loop；(fig.) social circle; niche group; community; fandom；classifier for loops, orbits, laps",
       "note": "多音字，可讀「quan/juan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "獢",
@@ -318,7 +378,9 @@
       "en": "dog",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嚚",
@@ -328,7 +390,9 @@
       "en": "insincere；stupid",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "其",
@@ -338,7 +402,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "頛",
@@ -348,7 +414,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "舫",
@@ -358,7 +426,9 @@
       "en": "2 boats lashed together；large boat",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祉",
@@ -368,7 +438,9 @@
       "en": "felicity",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曇",
@@ -378,7 +450,9 @@
       "en": "dark clouds",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "單",
@@ -388,7 +462,9 @@
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "踹",
@@ -398,7 +474,9 @@
       "en": "to kick；to trample；to tread on",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "喃",
@@ -408,7 +486,9 @@
       "en": "mumble in repetition",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "喳",
@@ -418,7 +498,9 @@
       "en": "(onom.) chirp, twitter, etc",
       "note": "多音字，可讀「zha/cha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "菟",
@@ -428,7 +510,9 @@
       "en": "dodder (Cuscuta sinensis, a parasitic vine with seeds having medicinal uses)；also called 菟絲子|菟丝子",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鞈",
@@ -438,7 +522,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "芸",
@@ -448,7 +534,9 @@
       "en": "common rue (Ruta graveolens)；(used in old compounds relating to books because in former times rue was used to protect books from insect damage)",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "芾",
@@ -458,7 +546,9 @@
       "en": "see 蔽芾[bi4 fei4]",
       "note": "多音字，可讀「fei/fu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "瞏",
@@ -468,7 +558,9 @@
       "en": "(literary) to gaze in terror；(literary) alone; unaided",
       "note": "多音字，可讀「qiong/huan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "璇",
@@ -478,7 +570,9 @@
       "en": "(jade)",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "菔",
@@ -488,7 +582,9 @@
       "en": "turnip",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "撖",
@@ -498,7 +594,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憸",
@@ -508,7 +606,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "摮",
@@ -518,7 +618,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "銵",
@@ -528,7 +630,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蝛",
@@ -538,7 +642,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "箸",
@@ -548,7 +654,9 @@
       "en": "(literary) chopsticks",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "飭",
@@ -558,7 +666,9 @@
       "en": "order; command; give command",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蟡",
@@ -568,7 +678,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "皜",
@@ -578,7 +690,9 @@
       "en": "spotlessly white",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "暸",
@@ -588,7 +702,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扳",
@@ -598,7 +714,9 @@
       "en": "to pull；to turn (sth) around；to turn around (a situation)",
       "note": "多音字，可讀「ban/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祇",
@@ -608,7 +726,9 @@
       "en": "god of the earth",
       "note": "多音字，可讀「qi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "縐",
@@ -618,7 +738,9 @@
       "en": "crepe；wrinkle",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曈",
@@ -628,7 +750,9 @@
       "en": "sun about to rise",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "咯",
@@ -638,7 +762,9 @@
       "en": "(phonetic)",
       "note": "多音字，可讀「ge/luo/ka/lo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嗥",
@@ -648,7 +774,9 @@
       "en": "to howl (like a wolf)",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "喟",
@@ -658,7 +786,9 @@
       "en": "to sigh",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憛",
@@ -668,7 +798,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "桀",
@@ -678,7 +810,9 @@
       "en": "(emperor of Xia dynasty)；cruel",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嚗",
@@ -688,7 +822,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "芣",
@@ -698,7 +834,9 @@
       "en": "Taiwan pr. [fou2]",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閮",
@@ -708,7 +846,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "儮",
@@ -718,7 +858,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "箏",
@@ -728,7 +870,9 @@
       "en": "see 古箏|古筝[gu3 zheng1]",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "撠",
@@ -738,7 +882,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "隞",
@@ -748,7 +894,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "箇",
@@ -758,7 +906,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貊",
@@ -768,7 +918,9 @@
       "en": "name of a wild tribe；silent",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "折",
@@ -778,7 +930,9 @@
       "en": "to turn sth over；to turn upside down；to tip sth out (of a container)",
       "note": "多音字，可讀「zhe/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嗉",
@@ -788,7 +942,9 @@
       "en": "the crop of a bird",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憳",
@@ -798,7 +954,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憟",
@@ -808,7 +966,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "雿",
@@ -818,7 +978,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曄",
@@ -828,7 +990,9 @@
       "en": "bright light；to sparkle",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乩",
@@ -838,7 +1002,9 @@
       "en": "to divine",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "行",
@@ -848,7 +1014,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "螂",
@@ -858,7 +1026,9 @@
       "en": "mantis, dung beetle",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "萇",
@@ -868,7 +1038,9 @@
       "en": "surname Chang；plant mentioned in Book of Songs, uncertainly identified as carambola or star fruit (Averrhoa carambola)",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "舐",
@@ -878,7 +1050,9 @@
       "en": "to lick；to lap (up)",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "都",
@@ -888,7 +1062,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "色",
@@ -898,7 +1074,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拚",
@@ -908,7 +1086,9 @@
       "en": "to strive for；to struggle；to disregard",
       "note": "多音字，可讀「pin/pan/fan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隡",
@@ -918,7 +1098,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "聆",
@@ -928,7 +1110,9 @@
       "en": "(literary) to hear; to listen",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璈",
@@ -938,7 +1122,9 @@
       "en": "(mus. instr.)",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "擗",
@@ -948,7 +1134,9 @@
       "en": "(literary) to beat the breast；to break off; to snap off (a branch, an ear of corn etc)",
       "note": "多音字，可讀「pi/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "勗",
@@ -958,7 +1146,9 @@
       "en": "exhort；stimulate",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貉",
@@ -968,7 +1158,9 @@
       "en": "old term for northern peoples；silent",
       "note": "多音字，可讀「mo/he/hao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "暺",
@@ -978,7 +1170,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湔",
@@ -988,7 +1182,9 @@
       "en": "to wash；to redress (a wrong)；name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "脰",
@@ -998,7 +1194,9 @@
       "en": "(literary) neck",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蝒",
@@ -1008,7 +1206,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "脤",
@@ -1018,7 +1218,9 @@
       "en": "sacrificial meat (raw)",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "券",
@@ -1028,7 +1230,9 @@
       "en": "bond (esp. document split in two, with each party holding one half)；contract；deed (i.e. title deeds)",
       "note": "多音字，可讀「quan/xuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "踝",
@@ -1038,7 +1242,9 @@
       "en": "ankle",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "徉",
@@ -1048,7 +1254,9 @@
       "en": "to walk back and forth",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "敺",
@@ -1058,7 +1266,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蝯",
@@ -1068,7 +1278,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "擐",
@@ -1078,7 +1290,9 @@
       "en": "pass through；to get into (armor)",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嫣",
@@ -1088,7 +1302,9 @@
       "en": "(literary) lovely; sweet",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "賡",
@@ -1098,7 +1314,9 @@
       "en": "(literary) to continue; to carry on",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "撌",
@@ -1108,7 +1326,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璁",
@@ -1118,7 +1338,9 @@
       "en": "stone similar to jade",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "箄",
@@ -1128,7 +1350,9 @@
       "en": null,
       "note": "多音字，可讀「pai/bei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "頠",
@@ -1138,7 +1362,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祐",
@@ -1148,7 +1374,9 @@
       "en": "(of divinity) to bless；to protect",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "踱",
@@ -1158,7 +1386,9 @@
       "en": "to pace; to stroll；Taiwan pr. [duo4]",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "甇",
@@ -1168,7 +1398,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "塚",
@@ -1178,7 +1410,9 @@
       "en": "burial mound (variant of 冢[zhong3])",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "皝",
@@ -1188,7 +1422,9 @@
       "en": "luminous；bright hoary, white",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "橘",
@@ -1198,7 +1434,9 @@
       "en": "mandarin orange (Citrus reticulata)；tangerine",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "訾",
@@ -1208,7 +1446,9 @@
       "en": "surname Zi；to calculate；to assess",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瘀",
@@ -1218,7 +1458,9 @@
       "en": "hematoma (internal blood clot)；extravasated blood (spilt into surrounding tissue)；contusion",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "镼",
@@ -1228,7 +1470,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "啗",
@@ -1238,7 +1482,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "頩",
@@ -1248,7 +1494,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "琿",
@@ -1258,7 +1506,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蝬",
@@ -1268,7 +1518,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "葩",
@@ -1278,7 +1530,9 @@
       "en": "corolla of flower",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "摩",
@@ -1288,7 +1542,9 @@
       "en": "to rub",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "暹",
@@ -1298,7 +1554,9 @@
       "en": "sunrise",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "畾",
@@ -1308,7 +1566,9 @@
       "en": "fields divided by dikes",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瑕",
@@ -1318,7 +1578,9 @@
       "en": "blemish；flaw in jade",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "葭",
@@ -1328,7 +1590,9 @@
       "en": "reed；Phragmites communis",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蝧",
@@ -1338,7 +1602,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "釭",
@@ -1348,7 +1614,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瘞",
@@ -1358,7 +1626,9 @@
       "en": "bury；sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "悻",
@@ -1368,7 +1638,9 @@
       "en": "angry",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "餈",
@@ -1378,7 +1650,9 @@
       "en": "sticky rice; mochi",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瑁",
@@ -1388,7 +1662,9 @@
       "en": "(jade)",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瘥",
@@ -1398,7 +1674,9 @@
       "en": "to recover from disease",
       "note": "多音字，可讀「chai/cuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "隤",
@@ -1408,7 +1686,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "縣",
@@ -1418,7 +1698,9 @@
       "en": "county；(Japan) prefecture",
       "note": "多音字，可讀「xian/xuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "胼",
@@ -1428,7 +1710,9 @@
       "en": "corn, callus",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "食",
@@ -1438,7 +1722,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "親",
@@ -1448,7 +1734,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "潸",
@@ -1458,7 +1746,9 @@
       "en": "tearfully",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "撗",
@@ -1468,7 +1758,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "港",
@@ -1478,7 +1770,9 @@
       "en": "Hong Kong (abbr. for 香港[Xiang1 gang3])；surname Gang；harbor",
       "note": "多音字，可讀「gang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "擏",
@@ -1488,7 +1782,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳩",
@@ -1498,7 +1794,9 @@
       "en": "pigeon; to collect, to assemble",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "皛",
@@ -1508,7 +1806,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憪",
@@ -1518,7 +1818,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "匱",
@@ -1528,7 +1830,9 @@
       "en": "surname Kui；to lack；lacking",
       "note": "多音字，可讀「kui/gui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "阡",
@@ -1538,7 +1842,9 @@
       "en": "path; a foot-path between fields",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "颱",
@@ -1548,7 +1854,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遛",
@@ -1558,7 +1866,9 @@
       "en": "to walk, to stroll",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蝑",
@@ -1568,7 +1878,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚前後集"
+      "src": "菜根譚前後集",
+      "multi": false,
+      "rare": true
     }
   ]
 }

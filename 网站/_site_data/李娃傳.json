@@ -32,7 +32,9 @@
       "en": "name of a river flowing through Gansu to Shaanxi Province；marsh；float",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "長",
@@ -42,7 +44,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "女",
@@ -52,7 +56,9 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -62,7 +68,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奇",
@@ -72,7 +80,9 @@
       "en": "strange；odd；weird",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稱",
@@ -82,7 +92,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "傳",
@@ -92,7 +104,9 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "滎",
@@ -102,7 +116,9 @@
       "en": "a county in Henan; the sound of waves crashing",
       "note": "多音字，可讀「xing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "其",
@@ -112,7 +128,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "氏",
@@ -122,7 +140,9 @@
       "en": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")；(bound form) maiden name; née (as in 李王氏[Li3 Wang2 shi4] \"Mrs. Li, née Wang\")；(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "不",
@@ -132,7 +152,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "家",
@@ -142,7 +164,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "慇",
@@ -152,7 +176,9 @@
       "en": "solicitous",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "雋",
@@ -162,7 +188,9 @@
       "en": "superior, outstanding, talented",
       "note": "多音字，可讀「jun/juan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "迥",
@@ -172,7 +200,9 @@
       "en": "distant, far; separated; different",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "吾",
@@ -182,7 +212,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "盛",
@@ -192,7 +224,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "車",
@@ -202,7 +236,9 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "且",
@@ -212,7 +248,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "給",
@@ -222,7 +260,9 @@
       "en": "to；for；for the benefit of",
       "note": "多音字，可讀「gei/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "還",
@@ -232,7 +272,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "南",
@@ -242,7 +284,9 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "珂",
@@ -252,7 +296,9 @@
       "en": "jade-like stone",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "見",
@@ -262,7 +308,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邃",
@@ -272,7 +320,9 @@
       "en": "profound, mysterious, deep",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "闔",
@@ -282,7 +332,9 @@
       "en": "to close; whole, entire, all",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扉",
@@ -292,7 +344,9 @@
       "en": "door with only one leaf",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鬟",
@@ -302,7 +356,9 @@
       "en": "to dress the hair in a coiled knot; maid",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "覺",
@@ -312,7 +368,9 @@
       "en": "to feel；to find that；thinking",
       "note": "多音字，可讀「jue/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "驂",
@@ -322,7 +380,9 @@
       "en": "the two outside horses in a team of four",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "能",
@@ -332,7 +392,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "地",
@@ -342,7 +404,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -352,7 +416,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "敕",
@@ -362,7 +428,9 @@
       "en": "imperial orders",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "眄",
@@ -372,7 +440,9 @@
       "en": "to ogle at；to squint at；to look askance at",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "眸",
@@ -382,7 +452,9 @@
       "en": "pupil (of the eye)；eye",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "睇",
@@ -392,7 +464,9 @@
       "en": "(literary) to cast a sidelong glance；(dialect) to see; to look at",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "若",
@@ -402,7 +476,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "熟",
@@ -412,7 +488,9 @@
       "en": "ripe; mature；thoroughly cooked; done；familiar; acquainted",
       "note": "多音字，可讀「shu/shou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邪",
@@ -422,7 +500,9 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "得",
@@ -432,7 +512,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "扃",
@@ -442,7 +524,9 @@
       "en": "(literary) to shut or bolt a door；door",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "誰",
@@ -452,7 +536,9 @@
       "en": "who；also pr. [shui2]",
       "note": "多音字，可讀「shui/shei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "大",
@@ -462,7 +548,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "姥",
@@ -472,7 +560,9 @@
       "en": "grandma (maternal)",
       "note": "多音字，可讀「lao/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "僂",
@@ -482,7 +572,9 @@
       "en": "crookbacked",
       "note": "多音字，可讀「lü/lou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "信",
@@ -492,7 +584,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "湫",
@@ -502,7 +596,9 @@
       "en": "marsh",
       "note": "多音字，可讀「qiu/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "薄",
@@ -512,7 +608,9 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "皓",
@@ -522,7 +620,9 @@
       "en": "(bound form) bright; luminous; white (esp. bright white teeth of youth or white hair of old age)；spotlessly white",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "莫",
@@ -532,7 +632,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仰",
@@ -542,7 +644,9 @@
       "en": "surname Yang；to face upward；to look up",
       "note": "多音字，可讀「yang/ang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "燠",
@@ -552,7 +656,9 @@
       "en": "warm",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "妍",
@@ -562,7 +668,9 @@
       "en": "beautiful",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "數",
@@ -572,7 +680,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "親",
@@ -582,7 +692,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "責",
@@ -592,7 +704,9 @@
       "en": "duty；responsibility；to reproach",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宿",
@@ -602,7 +716,9 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "召",
@@ -612,7 +728,9 @@
       "en": "to call together；to summon；to convene",
       "note": "多音字，可讀「zhao/shao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "僮",
@@ -622,7 +740,9 @@
       "en": "servant boy",
       "note": "多音字，可讀「tong/zhuang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "縑",
@@ -632,7 +752,9 @@
       "en": "thick waterproof silk",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "饌",
@@ -642,7 +764,9 @@
       "en": "to feed, support, provide for; food",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "窶",
@@ -652,7 +776,9 @@
       "en": "poor；rustic",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "俟",
@@ -662,7 +788,9 @@
       "en": "(literary) to wait for",
       "note": "多音字，可讀「si/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "徙",
@@ -672,7 +800,9 @@
       "en": "(literary) to change one's residence",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "帷",
@@ -682,7 +812,9 @@
       "en": "curtain；screen",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "榻",
@@ -692,7 +824,9 @@
       "en": "couch",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "奩",
@@ -702,7 +836,9 @@
       "en": "bridal trousseau",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衾",
@@ -712,7 +848,9 @@
       "en": "coverlet；quilt",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詼",
@@ -722,7 +860,9 @@
       "en": "whimsical；humorous",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "調",
@@ -732,7 +872,9 @@
       "en": "to transfer；to move (troops or cadres)；to investigate",
       "note": "多音字，可讀「diao/tiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "適",
@@ -742,7 +884,9 @@
       "en": "match, comfortable; just",
       "note": "多音字，可讀「shi/di/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "屏",
@@ -752,7 +896,9 @@
       "en": "(standing) screen",
       "note": "多音字，可讀「ping/bing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "厥",
@@ -762,7 +908,9 @@
       "en": "to faint；to lose consciousness；his",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "食",
@@ -772,7 +920,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "曷",
@@ -782,7 +932,9 @@
       "en": "why；how；when",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "橐",
@@ -792,7 +944,9 @@
       "en": "sack；tube open at both ends；(onom.) footsteps",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "戢",
@@ -802,7 +956,9 @@
       "en": "surname Ji；to restrain oneself；to collect",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "會",
@@ -812,7 +968,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "儕",
@@ -822,7 +980,9 @@
       "en": "a class；a company；companion",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "狎",
@@ -832,7 +992,9 @@
       "en": "(bound form) (literary) to take liberties with sb or sth；to treat frivolously",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "戲",
@@ -842,7 +1004,9 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鬻",
@@ -852,7 +1016,9 @@
       "en": "to vend, sell",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乘",
@@ -862,7 +1028,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邇",
@@ -872,7 +1040,9 @@
       "en": "near, close; recent",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "篤",
@@ -882,7 +1052,9 @@
       "en": "(bound form) sincere; genuine；(bound form) (of an illness) serious",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "酹",
@@ -892,7 +1064,9 @@
       "en": "to pour out a libation; to sprinkle",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "醴",
@@ -902,7 +1076,9 @@
       "en": "sweet wine; sweet spring water",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "謁",
@@ -912,7 +1088,9 @@
       "en": "to visit (a superior)",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祠",
@@ -922,7 +1100,9 @@
       "en": "shrine；to offer a sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憩",
@@ -932,7 +1112,9 @@
       "en": "to rest",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "覲",
@@ -942,7 +1124,9 @@
       "en": "(history) to have an audience with the Emperor",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嫗",
@@ -952,7 +1136,9 @@
       "en": "old woman；to brood over；to protect",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "否",
@@ -962,7 +1148,9 @@
       "en": "to negate；to deny；not",
       "note": "多音字，可讀「fou/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "偕",
@@ -972,7 +1160,9 @@
       "en": "in company with",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "戟",
@@ -982,7 +1172,9 @@
       "en": "halberd；long-handled weapon with pointed tip and crescent blade；combined spear and battle-ax",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "茜",
@@ -992,7 +1184,9 @@
       "en": "(bound form) Indian madder; munjeet (Rubia cordifolia)；(bound form) madder red; dark red; alizarin crimson",
       "note": "多音字，可讀「qian/xi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "榭",
@@ -1002,7 +1196,9 @@
       "en": "pavilion",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宛",
@@ -1012,7 +1208,9 @@
       "en": "surname Wan；winding；as if",
       "note": "多音字，可讀「wan/yuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "暴",
@@ -1022,7 +1220,9 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "識",
@@ -1032,7 +1232,9 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "便",
@@ -1042,7 +1244,9 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "歿",
@@ -1052,7 +1256,9 @@
       "en": "to end；to die",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遽",
@@ -1062,7 +1268,9 @@
       "en": "rapid, sudden, unexpected",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祭",
@@ -1072,7 +1280,9 @@
       "en": "to offer a sacrifice to (gods or ancestors)；(in classical novels) to recite an incantation to activate a magic weapon; to wield (sth magic)；(bound form) ceremony",
       "note": "多音字，可讀「ji/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "覘",
@@ -1082,7 +1292,9 @@
       "en": "to observe；to spy on；Taiwan pr. [zhan1]",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扁",
@@ -1092,7 +1304,9 @@
       "en": "flat；(coll.) to beat (sb) up",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "詰",
@@ -1102,7 +1316,9 @@
       "en": "(bound form) to question closely; to interrogate",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "約",
@@ -1112,7 +1328,9 @@
       "en": "to make an appointment；to invite；approximately",
       "note": "多音字，可讀「yue/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "恚",
@@ -1122,7 +1340,9 @@
       "en": "rage",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹇",
@@ -1132,7 +1352,9 @@
       "en": "surname Jian；lame；cripple",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "罔",
@@ -1142,7 +1364,9 @@
       "en": "to deceive；there is none",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邸",
@@ -1152,7 +1376,9 @@
       "en": "official residence",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "懣",
@@ -1162,7 +1388,9 @@
       "en": "melancholy",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遘",
@@ -1172,7 +1400,9 @@
       "en": "to meet; to come across",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "合",
@@ -1182,7 +1412,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繐",
@@ -1192,7 +1424,9 @@
       "en": "fine and loose cloth；tassel",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "輒",
@@ -1202,7 +1436,9 @@
       "en": "often, readily; scattered; the weapon-rack of a chariot",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "咽",
@@ -1212,7 +1448,9 @@
       "en": "throat; pharynx；narrow pass；to swallow",
       "note": "多音字，可讀「yan/ye」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "醵",
@@ -1222,7 +1460,9 @@
       "en": "to contribute for drinks; to pool money",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "耆",
@@ -1232,7 +1472,9 @@
       "en": "man of sixty or seventy",
       "note": "多音字，可讀「qi/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "和",
@@ -1242,7 +1484,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "契",
@@ -1252,7 +1496,9 @@
       "en": "to carve；carved words；to agree",
       "note": "多音字，可讀「qi/qie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -1262,7 +1508,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "胥",
@@ -1272,7 +1520,9 @@
       "en": "surname Xu；all；assist",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "趨",
@@ -1282,7 +1532,9 @@
       "en": "to hasten；to hurry；to walk fast",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "巷",
@@ -1292,7 +1544,9 @@
       "en": "lane；alley",
       "note": "多音字，可讀「xiang/hang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "輦",
@@ -1302,7 +1556,9 @@
       "en": "hand-cart; to transport by carriage",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "色",
@@ -1312,7 +1568,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "髯",
@@ -1322,7 +1580,9 @@
       "en": "mustache, beard",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鐸",
@@ -1332,7 +1592,9 @@
       "en": "bell; surname",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "翊",
@@ -1342,7 +1604,9 @@
       "en": "assist；ready to fly；respect",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "頓",
@@ -1352,7 +1616,9 @@
       "en": "to pause; to bow; to arrange",
       "note": "多音字，可讀「dun/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "顙",
@@ -1362,7 +1628,9 @@
       "en": "forehead; to kowtow",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "夙",
@@ -1372,7 +1640,9 @@
       "en": "morning；early；long-held",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "旁",
@@ -1382,7 +1652,9 @@
       "en": "one side；other；different",
       "note": "多音字，可讀「pang/bang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "齊",
@@ -1392,7 +1664,9 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "六",
@@ -1402,7 +1676,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "翣",
@@ -1412,7 +1688,9 @@
       "en": "wooden fan carried in procession",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "薤",
@@ -1422,7 +1700,9 @@
       "en": "Allium bakeri；shallot；scallion",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "露",
@@ -1432,7 +1712,9 @@
       "en": "dew; leak; bare, exposed; to reveal, to show",
       "note": "多音字，可讀「lu/lou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "度",
@@ -1442,7 +1724,9 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "歔",
@@ -1452,7 +1736,9 @@
       "en": "to snort",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "欷",
@@ -1462,7 +1748,9 @@
       "en": "to sob",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "誚",
@@ -1472,7 +1760,9 @@
       "en": "ridicule；to blame",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愕",
@@ -1482,7 +1772,9 @@
       "en": "startled",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "眙",
@@ -1492,7 +1784,9 @@
       "en": "to gaze at; a place name",
       "note": "多音字，可讀「yi/chi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "詔",
@@ -1502,7 +1796,9 @@
       "en": "(literary) to admonish；(bound form) imperial edict",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "俾",
@@ -1512,7 +1808,9 @@
       "en": "to cause；to enable；phonetic bi",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "闕",
@@ -1522,7 +1820,9 @@
       "en": "palace; watchtower",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泫",
@@ -1532,7 +1832,9 @@
       "en": "weep",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "似",
@@ -1542,7 +1844,9 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "亡",
@@ -1552,7 +1856,9 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奚",
@@ -1562,7 +1868,9 @@
       "en": "surname Xi；(literary) what?；where?",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "歟",
@@ -1572,7 +1880,9 @@
       "en": "(literary) (final particle similar to 嗎|吗[ma5], 呢[ne5] or 啊[a1])",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "迫",
@@ -1582,7 +1892,9 @@
       "en": "to persecute；to oppress；embarrassed",
       "note": "多音字，可讀「po/pai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "袂",
@@ -1592,7 +1904,9 @@
       "en": "sleeve of a robe",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "豈",
@@ -1602,7 +1916,9 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "昵",
@@ -1612,7 +1928,9 @@
       "en": "familiar；intimate；to approach",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瘞",
@@ -1622,7 +1940,9 @@
       "en": "bury；sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "潰",
@@ -1632,7 +1952,9 @@
       "en": "(bound form) (of floodwaters) to break through a dam or dike；(bound form) to break through (a military encirclement)；(bound form) to be routed; to be overrun; to fall to pieces",
       "note": "多音字，可讀「kui/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "被",
@@ -1642,7 +1964,9 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "裘",
@@ -1652,7 +1976,9 @@
       "en": "surname Qiu；fur；fur coat",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "襤",
@@ -1662,7 +1988,9 @@
       "en": "ragged, tattered, threadbare",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "褸",
@@ -1672,7 +2000,9 @@
       "en": "lapel, collar; tattered, threadbare",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鶉",
@@ -1682,7 +2012,9 @@
       "en": "quail; Turnix species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "甌",
@@ -1692,7 +2024,9 @@
       "en": "old name for Wenzhou City 溫州市|温州市[Wen1 zhou1 shi4] in Zhejiang 浙江[Zhe4 jiang1]；(pottery) bowl or drinking vessel",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閭",
@@ -1702,7 +2036,9 @@
       "en": "a village of twenty-five families",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "徂",
@@ -1712,7 +2048,9 @@
       "en": "to go；to reach",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "廛",
@@ -1722,7 +2060,9 @@
       "en": "market place",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冒",
@@ -1732,7 +2072,9 @@
       "en": "surname Mao；to emit; to give off; to send out (or up, forth)；to brave; to face",
       "note": "多音字，可讀「mao/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惻",
@@ -1742,7 +2084,9 @@
       "en": "sorrowful",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瘠",
@@ -1752,7 +2096,9 @@
       "en": "barren；lean",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "癘",
@@ -1762,7 +2108,9 @@
       "en": "ulcer；plague",
       "note": "多音字，可讀「li/lai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "頷",
@@ -1772,7 +2120,9 @@
       "en": "chin, jowl; to nod",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "襦",
@@ -1782,7 +2132,9 @@
       "en": "jacket；short coat",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "慟",
@@ -1792,7 +2144,9 @@
       "en": "grief",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朝",
@@ -1802,7 +2156,9 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "甦",
@@ -1812,7 +2168,9 @@
       "en": "to revive",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "期",
@@ -1822,7 +2180,9 @@
       "en": "period；cycle；a period of time",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "躓",
@@ -1832,7 +2192,9 @@
       "en": "to stumble",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祐",
@@ -1842,7 +2204,9 @@
       "en": "(of divinity) to bless；to protect",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貽",
@@ -1852,7 +2216,9 @@
       "en": "to present；to bequeath",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "迨",
@@ -1862,7 +2228,9 @@
       "en": "while, until; to seize, to arrest",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貲",
@@ -1872,7 +2240,9 @@
       "en": "to estimate；to fine (archaic)",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "啻",
@@ -1882,7 +2252,9 @@
       "en": "only (classical, usually follows negative or question words)；(not) just",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "卜",
@@ -1892,7 +2264,9 @@
       "en": "surname Bu；(bound form) to divine",
       "note": "多音字，可讀「bu/bo/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沐",
@@ -1902,7 +2276,9 @@
       "en": "to bathe；to cleanse；to receive",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湯",
@@ -1912,7 +2288,9 @@
       "en": "surname Tang；soup；hot or boiling water",
       "note": "多音字，可讀「tang/shang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "粥",
@@ -1922,7 +2300,9 @@
       "en": "congee；gruel；porridge",
       "note": "多音字，可讀「zhou/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "腴",
@@ -1932,7 +2312,9 @@
       "en": "fat on belly；fertile；rich",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "卒",
@@ -1942,7 +2324,9 @@
       "en": "soldier；servant；to finish",
       "note": "多音字，可讀「zu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "思",
@@ -1952,7 +2336,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "曩",
@@ -1962,7 +2348,9 @@
       "en": "in former times",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "矻",
@@ -1972,7 +2360,9 @@
       "en": "Taiwan pr. [ku4]",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "伺",
@@ -1982,7 +2372,9 @@
       "en": "to watch；to wait；to examine",
       "note": "多音字，可讀「si/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諭",
@@ -1992,7 +2384,9 @@
       "en": "order (from above)",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "闈",
@@ -2002,7 +2396,9 @@
       "en": "gate, door; living quarters",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衽",
@@ -2012,7 +2408,9 @@
       "en": "(literary) overlapping part of Chinese gown；lapel；sleeping mat",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "擢",
@@ -2022,7 +2420,9 @@
       "en": "to pull out；to select；to promote",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "侔",
@@ -2032,7 +2432,9 @@
       "en": "similar；comparable；equal",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "礱",
@@ -2042,7 +2444,9 @@
       "en": "(dialect) tool used to hull rice (similar to a grain mill)；(dialect) to hull rice using this tool",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "價",
@@ -2052,7 +2456,9 @@
       "en": "price；value；(chemistry) valence",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諫",
@@ -2062,7 +2468,9 @@
       "en": "surname Jian；to remonstrate；to admonish",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "都",
@@ -2072,7 +2480,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "參",
@@ -2082,7 +2492,9 @@
       "en": "to take part in；to participate；to join",
       "note": "多音字，可讀「can/shen/cen/san」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "降",
@@ -2092,7 +2504,9 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "媛",
@@ -2102,7 +2516,9 @@
       "en": "(bound form) beautiful woman (in practice, often pronounced [yuan2])；Taiwan pr. [yuan2]",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "媾",
@@ -2112,7 +2528,9 @@
       "en": "to marry；to copulate",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "黷",
@@ -2122,7 +2540,9 @@
       "en": "to dishonor, to defile, to corrupt; soiled",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剄",
@@ -2132,7 +2552,9 @@
       "en": "cut the throat",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "浹",
@@ -2142,7 +2564,9 @@
       "en": "soaked；to wet；to drench",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "甍",
@@ -2152,7 +2576,9 @@
       "en": "rafters supporting tiles；ridge of a roof",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弟",
@@ -2162,7 +2588,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嗟",
@@ -2172,7 +2600,9 @@
       "en": "sigh；also pr. [jue1]",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "伯",
@@ -2182,7 +2612,9 @@
       "en": "father's elder brother；senior；paternal elder uncle",
       "note": "多音字，可讀「bo/bai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諳",
@@ -2192,7 +2624,9 @@
       "en": "to be versed in；to know well",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拊",
@@ -2202,7 +2636,9 @@
       "en": "pat",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "竦",
@@ -2212,7 +2648,9 @@
       "en": "respectful；horrified；to raise (one's shoulders)",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "濡",
@@ -2222,7 +2660,9 @@
       "en": "dilatory；to moisten",
       "note": null,
       "is_difficult": true,
-      "src": "李娃傳"
+      "src": "李娃傳",
+      "multi": false,
+      "rare": true
     }
   ]
 }

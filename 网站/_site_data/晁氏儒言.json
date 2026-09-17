@@ -113,7 +113,9 @@
       "en": "surname Chao",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "說",
@@ -123,7 +125,9 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "钜",
@@ -133,7 +137,9 @@
       "en": "steel, iron; great",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "叟",
@@ -143,7 +149,9 @@
       "en": "old gentleman；old man",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "景",
@@ -153,7 +161,9 @@
       "en": "surname Jing；(bound form) scenery；circumstance",
       "note": "多音字，可讀「jing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "軾",
@@ -163,7 +173,9 @@
       "en": "carriage crossbar",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "著",
@@ -173,7 +185,9 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邪",
@@ -183,7 +197,9 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "召",
@@ -193,7 +209,9 @@
       "en": "to call together；to summon；to convene",
       "note": "多音字，可讀「zhao/shao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "擢",
@@ -203,7 +221,9 @@
       "en": "to pull out；to select；to promote",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "猷",
@@ -213,7 +233,9 @@
       "en": "to plan；to scheme",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "惡",
@@ -223,7 +245,9 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "其",
@@ -233,7 +257,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "勒",
@@ -243,7 +269,9 @@
       "en": "(literary) bridle; halter; headstall；to rein in；to compel; to force",
       "note": "多音字，可讀「le/lei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蓋",
@@ -253,7 +281,9 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -263,7 +293,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "石",
@@ -273,7 +305,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "大",
@@ -283,7 +317,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -293,7 +329,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "信",
@@ -303,7 +341,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稱",
@@ -313,7 +353,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "黓",
@@ -323,7 +365,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "和",
@@ -333,7 +377,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "甯",
@@ -343,7 +389,9 @@
       "en": "peaceful",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祀",
@@ -353,7 +401,9 @@
       "en": "to sacrifice；to offer libation to",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "不",
@@ -363,7 +413,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "數",
@@ -373,7 +425,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "盛",
@@ -383,7 +437,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "侃",
@@ -393,7 +449,9 @@
       "en": "upright and honest；cheerful；to chat idly",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "會",
@@ -403,7 +461,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "詆",
@@ -413,7 +473,9 @@
       "en": "to defame；to slander",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祐",
@@ -423,7 +485,9 @@
       "en": "(of divinity) to bless；to protect",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "訐",
@@ -433,7 +497,9 @@
       "en": "to accuse；to pry",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "錮",
@@ -443,7 +509,9 @@
       "en": "to run hot metal through a mold; to confine, to restrain, to stop",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "色",
@@ -453,7 +521,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "傳",
@@ -463,7 +533,9 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "六",
@@ -473,7 +545,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "茍",
@@ -483,7 +557,9 @@
       "en": "urgent",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "能",
@@ -493,7 +569,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "豈",
@@ -503,7 +581,9 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "扵",
@@ -513,7 +593,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "窬",
@@ -523,7 +605,9 @@
       "en": "hole in a wall",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "荅",
@@ -533,7 +617,9 @@
       "en": "to answer; small bean; thick, heavy",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "渠",
@@ -543,7 +629,9 @@
       "en": "surname Qu；(artificial) stream; canal; drain; ditch (CL:條|条[tiao2])；(literary) big; great",
       "note": "多音字，可讀「qu/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繆",
@@ -553,7 +641,9 @@
       "en": "surname Miao",
       "note": "多音字，可讀「mou/miu/miao/liao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "吾",
@@ -563,7 +653,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "讐",
@@ -573,7 +665,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "廼",
@@ -583,7 +677,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "適",
@@ -593,7 +689,9 @@
       "en": "match, comfortable; just",
       "note": "多音字，可讀「shi/di/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "賔",
@@ -603,7 +701,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "氏",
@@ -613,7 +713,9 @@
       "en": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")；(bound form) maiden name; née (as in 李王氏[Li3 Wang2 shi4] \"Mrs. Li, née Wang\")；(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弼",
@@ -623,7 +725,9 @@
       "en": "to assist",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "區",
@@ -633,7 +737,9 @@
       "en": "area；region；district",
       "note": "多音字，可讀「qu/ou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "度",
@@ -643,7 +749,9 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "且",
@@ -653,7 +761,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "否",
@@ -663,7 +773,9 @@
       "en": "to negate；to deny；not",
       "note": "多音字，可讀「fou/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "得",
@@ -673,7 +785,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "墮",
@@ -683,7 +797,9 @@
       "en": "to fall; to sink；(fig.) to degenerate",
       "note": "多音字，可讀「duo/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "篤",
@@ -693,7 +809,9 @@
       "en": "(bound form) sincere; genuine；(bound form) (of an illness) serious",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諛",
@@ -703,7 +821,9 @@
       "en": "to flatter",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "從",
@@ -713,7 +833,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "伯",
@@ -723,7 +845,9 @@
       "en": "father's elder brother；senior；paternal elder uncle",
       "note": "多音字，可讀「bo/bai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "戾",
@@ -733,7 +857,9 @@
       "en": "to bend；to violate；to go against",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "凖",
@@ -743,7 +869,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "誰",
@@ -753,7 +881,9 @@
       "en": "who；also pr. [shui2]",
       "note": "多音字，可讀「shui/shei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "戕",
@@ -763,7 +893,9 @@
       "en": "to kill；to injure；Taiwan pr. [qiang2]",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "溺",
@@ -773,7 +905,9 @@
       "en": "to drown；to indulge；addicted to",
       "note": "多音字，可讀「ni/niao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "恱",
@@ -783,7 +917,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "若",
@@ -793,7 +929,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "莫",
@@ -803,7 +941,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "亡",
@@ -813,7 +953,9 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隂",
@@ -823,7 +965,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "句",
@@ -833,7 +977,9 @@
       "en": "sentence；clause；phrase",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "槁",
@@ -843,7 +989,9 @@
       "en": "dried up；dried up (wood)；dead tree",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "沴",
@@ -853,7 +1001,9 @@
       "en": "miasma",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "思",
@@ -863,7 +1013,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "悴",
@@ -873,7 +1025,9 @@
       "en": "haggard；sad；downcast",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齊",
@@ -883,7 +1037,9 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "滛",
@@ -893,7 +1049,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "樂",
@@ -903,7 +1061,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "衆",
@@ -913,7 +1073,9 @@
       "en": "multitude, crowd; the public",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "歟",
@@ -923,7 +1085,9 @@
       "en": "(literary) (final particle similar to 嗎|吗[ma5], 呢[ne5] or 啊[a1])",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乆",
@@ -933,7 +1097,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詁",
@@ -943,7 +1109,9 @@
       "en": "to comment；to explain",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衰",
@@ -953,7 +1121,9 @@
       "en": "(bound form) to decay; to decline; to wane",
       "note": "多音字，可讀「shuai/cui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繫",
@@ -963,7 +1133,9 @@
       "en": "to connect；to arrest；to worry",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "訥",
@@ -973,7 +1145,9 @@
       "en": "to speak slowly；inarticulate",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "識",
@@ -983,7 +1157,9 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "黒",
@@ -993,7 +1169,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "孫",
@@ -1003,7 +1181,9 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "疑",
@@ -1013,7 +1193,9 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "泯",
@@ -1023,7 +1205,9 @@
       "en": "(bound form) to vanish; to die out; to obliterate",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乘",
@@ -1033,7 +1217,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "怙",
@@ -1043,7 +1229,9 @@
       "en": "to rely on；father (formal)",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "的",
@@ -1053,7 +1241,9 @@
       "en": "of; ~'s (possessive particle)；(used after an attribute when it modifies a noun)；(used at the end of a declarative sentence for emphasis)",
       "note": "多音字，可讀「de/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "射",
@@ -1063,7 +1253,9 @@
       "en": "to shoot；to launch；to allude to",
       "note": "多音字，可讀「she/ye/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "羊",
@@ -1073,7 +1265,9 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "見",
@@ -1083,7 +1277,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "夭",
@@ -1093,7 +1289,9 @@
       "en": "(bound form) to die prematurely (also pr. [yao3])；(literary) (of vegetation) luxuriant；(bound form) to die prematurely (also pr. [yao3]) (variant of 夭[yao1])",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "家",
@@ -1103,7 +1301,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "寗",
@@ -1113,7 +1313,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朱",
@@ -1123,7 +1325,9 @@
       "en": "surname Zhu；vermilion；(bound form) cinnabar",
       "note": "多音字，可讀「zhu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "寀",
@@ -1133,7 +1337,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憒",
@@ -1143,7 +1349,9 @@
       "en": "confused；troubled",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "眊",
@@ -1153,7 +1361,9 @@
       "en": "having poor eyesight",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "芟",
@@ -1163,7 +1373,9 @@
       "en": "to cut down；to mow；to eliminate",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "角",
@@ -1173,7 +1385,9 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "彜",
@@ -1183,7 +1397,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "譊",
@@ -1193,7 +1409,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "責",
@@ -1203,7 +1421,9 @@
       "en": "duty；responsibility；to reproach",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "虵",
@@ -1213,7 +1433,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "駢",
@@ -1223,7 +1445,9 @@
       "en": "a team of horses; to associate; to join",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "谷",
@@ -1233,7 +1457,9 @@
       "en": "grain；corn；surname Gu",
       "note": "多音字，可讀「gu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "槩",
@@ -1243,7 +1469,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳶",
@@ -1253,7 +1481,9 @@
       "en": "kite; Milvus species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "絶",
@@ -1263,7 +1493,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諭",
@@ -1273,7 +1505,9 @@
       "en": "order (from above)",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "丐",
@@ -1283,7 +1517,9 @@
       "en": "to beg for alms；beggar",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "岐",
@@ -1293,7 +1529,9 @@
       "en": "surname Qi；also used in place names",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "逺",
@@ -1303,7 +1541,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瞽",
@@ -1313,7 +1553,9 @@
       "en": "blind；undiscerning",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稽",
@@ -1323,7 +1565,9 @@
       "en": "surname Ji；(bound form) to examine; to check (against records)；(literary) to delay; to linger",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "骩",
@@ -1333,7 +1577,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "骳",
@@ -1343,7 +1589,9 @@
       "en": null,
       "note": "多音字，可讀「bei/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "惲",
@@ -1353,7 +1601,9 @@
       "en": "surname Yun",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "助",
@@ -1363,7 +1613,9 @@
       "en": "to help；to assist",
       "note": "多音字，可讀「zhu/chu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "降",
@@ -1373,7 +1625,9 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "女",
@@ -1383,7 +1637,9 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "儷",
@@ -1393,7 +1649,9 @@
       "en": "(bound form) paired; coupled；(bound form) husband and wife",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "妃",
@@ -1403,7 +1661,9 @@
       "en": "imperial concubine",
       "note": "多音字，可讀「fei/pei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "嚳",
@@ -1413,7 +1673,9 @@
       "en": "one of the five legendary emperors, also called 高辛氏[Gao1 xin1 shi4]",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "地",
@@ -1423,7 +1685,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "翕",
@@ -1433,7 +1697,9 @@
       "en": "to open and close (the mouth etc)；friendly；compliant",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嗟",
@@ -1443,7 +1709,9 @@
       "en": "sigh；also pr. [jue1]",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "覩",
@@ -1453,7 +1721,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瞍",
@@ -1463,7 +1733,9 @@
       "en": "blind",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "咈",
@@ -1473,7 +1745,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "闕",
@@ -1483,7 +1757,9 @@
       "en": "palace; watchtower",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亢",
@@ -1493,7 +1769,9 @@
       "en": "surname Kang；Kang, one of the 28 constellations；high",
       "note": "多音字，可讀「kang/hang/gang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "詎",
@@ -1503,7 +1781,9 @@
       "en": "how (interj. of surprise)",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "雎",
@@ -1513,7 +1793,9 @@
       "en": "osprey, fish hawk; to hold back",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳩",
@@ -1523,7 +1805,9 @@
       "en": "pigeon; to collect, to assemble",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殽",
@@ -1533,7 +1817,9 @@
       "en": "cooked meat; confused, mixed up",
       "note": "多音字，可讀「yao/xiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "合",
@@ -1543,7 +1829,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蔓",
@@ -1553,7 +1841,9 @@
       "en": "creeper；to spread",
       "note": "多音字，可讀「man/wan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "便",
@@ -1563,7 +1853,9 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "踵",
@@ -1573,7 +1865,9 @@
       "en": "to arrive；to follow；heel",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "車",
@@ -1583,7 +1877,9 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "慳",
@@ -1593,7 +1889,9 @@
       "en": "stingy",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弟",
@@ -1603,7 +1901,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隣",
@@ -1613,7 +1913,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "紏",
@@ -1623,7 +1925,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貎",
@@ -1633,7 +1937,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "猗",
@@ -1643,7 +1949,9 @@
       "en": "(interj.)",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "儺",
@@ -1653,7 +1961,9 @@
       "en": "to exorcise demons",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "悖",
@@ -1663,7 +1973,9 @@
       "en": "to go against；to be contrary to；perverse",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詰",
@@ -1673,7 +1985,9 @@
       "en": "(bound form) to question closely; to interrogate",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扈",
@@ -1683,7 +1997,9 @@
       "en": "surname Hu；retinue",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泗",
@@ -1693,7 +2009,9 @@
       "en": "river in Shandong；nasal mucus",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "疆",
@@ -1703,7 +2021,9 @@
       "en": "border；boundary",
       "note": "多音字，可讀「jiang/qiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諫",
@@ -1713,7 +2033,9 @@
       "en": "surname Jian；to remonstrate；to admonish",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憚",
@@ -1723,7 +2045,9 @@
       "en": "dread；fear；dislike",
       "note": "多音字，可讀「dan/da」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "愎",
@@ -1733,7 +2057,9 @@
       "en": "perverse；obstinate；willful",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "毒",
@@ -1743,7 +2069,9 @@
       "en": "poison；to poison；poisonous",
       "note": "多音字，可讀「du/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隠",
@@ -1753,7 +2081,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淇",
@@ -1763,7 +2093,9 @@
       "en": "name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "緑",
@@ -1773,7 +2105,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "芻",
@@ -1783,7 +2117,9 @@
       "en": "to mow or cut grass；hay；straw",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "萹",
@@ -1793,7 +2129,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "虺",
@@ -1803,7 +2141,9 @@
       "en": "sick；with no ambition；mythical venomous snake",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蜴",
@@ -1813,7 +2153,9 @@
       "en": "lizard",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "巷",
@@ -1823,7 +2165,9 @@
       "en": "lane；alley",
       "note": "多音字，可讀「xiang/hang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蔵",
@@ -1833,7 +2177,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "飬",
@@ -1843,7 +2189,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "煢",
@@ -1853,7 +2201,9 @@
       "en": "alone；desolate",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "薄",
@@ -1863,7 +2213,9 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "驥",
@@ -1873,7 +2225,9 @@
       "en": "a thoroughbred horse; refined, virtuous",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "駑",
@@ -1883,7 +2237,9 @@
       "en": "tired old horse; old, weak",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "騏",
@@ -1893,7 +2249,9 @@
       "en": "piebald horse; excellent horse",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "駘",
@@ -1903,7 +2261,9 @@
       "en": "tired old horse; tired, exhaused",
       "note": "多音字，可讀「tai/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "蘋",
@@ -1913,7 +2273,9 @@
       "en": "clover fern (Marsilea quadrifolia)",
       "note": "多音字，可讀「pin/ping」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祭",
@@ -1923,7 +2285,9 @@
       "en": "to offer a sacrifice to (gods or ancestors)；(in classical novels) to recite an incantation to activate a magic weapon; to wield (sth magic)；(bound form) ceremony",
       "note": "多音字，可讀「ji/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鳬",
@@ -1933,7 +2297,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鷖",
@@ -1943,7 +2309,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "筵",
@@ -1953,7 +2321,9 @@
       "en": "bamboo mat for sitting",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "頼",
@@ -1963,7 +2333,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "落",
@@ -1973,7 +2345,9 @@
       "en": "to fall or drop；(of the sun) to set；(of a tide) to go out",
       "note": "多音字，可讀「luo/la/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "圗",
@@ -1983,7 +2357,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "佗",
@@ -1993,7 +2369,9 @@
       "en": "carry on the back",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "覈",
@@ -2003,7 +2381,9 @@
       "en": "to investigate",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "髙",
@@ -2013,7 +2393,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "跂",
@@ -2023,7 +2405,9 @@
       "en": "sixth (extra) toe；to crawl；to climb",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "帙",
@@ -2033,7 +2417,9 @@
       "en": "surname Zhi；book cover；(classifier) ten years",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拾",
@@ -2043,7 +2429,9 @@
       "en": "to pick up；to collate or arrange；ten (banker's anti-fraud numeral)",
       "note": "多音字，可讀「shi/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "芥",
@@ -2053,7 +2441,9 @@
       "en": "mustard",
       "note": "多音字，可讀「jie/gai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "南",
@@ -2063,7 +2453,9 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "據",
@@ -2073,7 +2465,9 @@
       "en": "according to；to act in accordance with；to depend on",
       "note": "多音字，可讀「ju/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隋",
@@ -2083,7 +2477,9 @@
       "en": "the Sui dynasty; surname",
       "note": "多音字，可讀「sui/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "強",
@@ -2093,7 +2489,9 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "郢",
@@ -2103,7 +2501,9 @@
       "en": "a state in Hubei province",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衞",
@@ -2113,7 +2513,9 @@
       "en": "to guard；to defend",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詔",
@@ -2123,7 +2525,9 @@
       "en": "(literary) to admonish；(bound form) imperial edict",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "躐",
@@ -2133,7 +2537,9 @@
       "en": "step across",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嬉",
@@ -2143,7 +2549,9 @@
       "en": "(literary) to amuse oneself; to play; to have fun",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "戲",
@@ -2153,7 +2561,9 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "説",
@@ -2163,7 +2573,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "卒",
@@ -2173,7 +2585,9 @@
       "en": "soldier；servant；to finish",
       "note": "多音字，可讀「zu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "玊",
@@ -2183,7 +2597,9 @@
       "en": "jade with a blemish；person who cuts and polishes jade",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "禘",
@@ -2193,7 +2609,9 @@
       "en": "imperial ancestral sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "都",
@@ -2203,7 +2621,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "旌",
@@ -2213,7 +2633,9 @@
       "en": "banner；make manifest",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乾",
@@ -2223,7 +2645,9 @@
       "en": "surname Qian；one of the Eight Trigrams 八卦[ba1 gua4], symbolizing heaven；male principle",
       "note": "多音字，可讀「qian/gan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "荀",
@@ -2233,7 +2657,9 @@
       "en": "surname Xun；(archaic) name of a plant mentioned in ancient texts；name of a state that existed during the Zhou dynasty in present-day Shanxi",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "約",
@@ -2243,7 +2669,9 @@
       "en": "to make an appointment；to invite；approximately",
       "note": "多音字，可讀「yue/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "解",
@@ -2253,7 +2681,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "澄",
@@ -2263,7 +2693,9 @@
       "en": "surname Cheng；clear；limpid",
       "note": "多音字，可讀「cheng/deng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "閔",
@@ -2273,7 +2705,9 @@
       "en": "to mourn, to grieve; to incite, to urge on",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朝",
@@ -2283,7 +2717,9 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "長",
@@ -2293,7 +2729,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "曽",
@@ -2303,7 +2741,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "尒",
@@ -2313,7 +2753,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "僭",
@@ -2323,7 +2765,9 @@
       "en": "(bound form) to overstep one's authority",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "訾",
@@ -2333,7 +2777,9 @@
       "en": "surname Zi；to calculate；to assess",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愷",
@@ -2343,7 +2789,9 @@
       "en": "joyful；kind",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "悌",
@@ -2353,7 +2801,9 @@
       "en": "to do one's duty as a younger brother",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "竒",
@@ -2363,7 +2813,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "晏",
@@ -2373,7 +2825,9 @@
       "en": "surname Yan；late；quiet",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "桀",
@@ -2383,7 +2837,9 @@
       "en": "(emperor of Xia dynasty)；cruel",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "紂",
@@ -2393,7 +2849,9 @@
       "en": "Zhou, pejorative name given posthumously to the last king of the Shang dynasty, King Zhou of Shang 商紂王|商纣王[Shang1 Zhou4 Wang2] (the name refers to a crupper 紂|纣[zhou4], the piece of horse tack most likely to be soiled by the horse)；crupper (harness strap running over a horse's hindquarters and under its tail)",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "似",
@@ -2403,7 +2861,9 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "顔",
@@ -2413,7 +2873,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "髪",
@@ -2423,7 +2885,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "重",
@@ -2433,7 +2897,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "矜",
@@ -2443,7 +2909,9 @@
       "en": "to boast；to esteem；to sympathize",
       "note": "多音字，可讀「jin/guan/qin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "遑",
@@ -2453,7 +2921,9 @@
       "en": "leisurely; hurried, anxious",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "卜",
@@ -2463,7 +2933,9 @@
       "en": "surname Bu；(bound form) to divine",
       "note": "多音字，可讀「bu/bo/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "淳",
@@ -2473,7 +2945,9 @@
       "en": "genuine；pure；honest",
       "note": "多音字，可讀「chun/zhun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "汩",
@@ -2483,7 +2957,9 @@
       "en": "confused；extinguished；(onom.) used in 汩汩[gu3 gu3]",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遽",
@@ -2493,7 +2969,9 @@
       "en": "rapid, sudden, unexpected",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "牴",
@@ -2503,7 +2981,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "牾",
@@ -2513,7 +2993,9 @@
       "en": "to oppose；to gore",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "歆",
@@ -2523,7 +3005,9 @@
       "en": "pleased；moved",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "隄",
@@ -2533,7 +3017,9 @@
       "en": "dike, embankment",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "休",
@@ -2543,7 +3029,9 @@
       "en": "surname Xiu；to rest；to stop doing sth for a period of time",
       "note": "多音字，可讀「xiu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "毓",
@@ -2553,7 +3041,9 @@
       "en": "(literary) to produce; to foster; to nurture",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冦",
@@ -2563,7 +3053,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "讎",
@@ -2573,7 +3065,9 @@
       "en": "to collate；to proofread",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "﨑",
@@ -2583,7 +3077,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嶇",
@@ -2593,7 +3089,9 @@
       "en": "steep, sheer; rugged, rough",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "轢",
@@ -2603,7 +3101,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臯",
@@ -2613,7 +3113,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "陶",
@@ -2623,7 +3125,9 @@
       "en": "pottery, ceramics",
       "note": "多音字，可讀「tao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "乂",
@@ -2633,7 +3137,9 @@
       "en": "to regulate；to govern；to control",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "噐",
@@ -2643,7 +3149,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "差",
@@ -2653,7 +3161,9 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "熖",
@@ -2663,7 +3173,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "顓",
@@ -2673,7 +3185,9 @@
       "en": "good, honest, simple; respectful",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "食",
@@ -2683,7 +3197,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "擇",
@@ -2693,7 +3209,9 @@
       "en": "to select；to choose；to pick over",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "趨",
@@ -2703,7 +3221,9 @@
       "en": "to hasten；to hurry；to walk fast",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "迺",
@@ -2713,7 +3233,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "率",
@@ -2723,7 +3245,9 @@
       "en": "(bound form) ratio; rate; proportion；to lead；to command",
       "note": "多音字，可讀「lü/shuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "孑",
@@ -2733,7 +3257,9 @@
       "en": "(literary) lonely; all alone",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "誥",
@@ -2743,7 +3269,9 @@
       "en": "to enjoin；to grant (a title)",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "辟",
@@ -2753,7 +3281,9 @@
       "en": "law, rule; to open up, to develop",
       "note": "多音字，可讀「pi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惇",
@@ -2763,7 +3293,9 @@
       "en": "kindhearted；honest",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湯",
@@ -2773,7 +3305,9 @@
       "en": "surname Tang；soup；hot or boiling water",
       "note": "多音字，可讀「tang/shang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "氐",
@@ -2783,7 +3317,9 @@
       "en": "name of an ancient tribe；foundation；on the whole",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愆",
@@ -2793,7 +3329,9 @@
       "en": "fault；transgression",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "枘",
@@ -2803,7 +3341,9 @@
       "en": "tenon；tool handle；wedge",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臾",
@@ -2813,7 +3353,9 @@
       "en": "surname Yu；a moment；little while",
       "note": null,
       "is_difficult": true,
-      "src": "晁氏儒言"
+      "src": "晁氏儒言",
+      "multi": false,
+      "rare": true
     }
   ]
 }

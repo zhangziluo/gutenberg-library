@@ -1,6 +1,6 @@
 {
   "title": "一堆古书 · 统一分类数据源",
-  "updated": "2026-09-09",
+  "updated": "2026-09-17",
   "categories": {
     "jing": "經部：儒家經典及歷代注疏（如《論語》《詩經》《易經》等）",
     "shi": "史部：各類史書（如《史記》《資治通鑒》等）",
@@ -876,6 +876,138 @@
       "dynasty": "東晉",
       "description": "東晉干寶撰志怪小說集：搜輯神仙鬼怪、靈異感應之事，集六朝志怪之大成。",
       "sections": 20,
+      "cover": ""
+    },
+    {
+      "id": "pg84",
+      "title": "Frankenstein",
+      "author": "Mary Wollstonecraft (Godwin) Shelley",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "",
+      "description": "小說家（西洋）",
+      "sections": 24,
+      "cover": ""
+    },
+    {
+      "id": "pg345",
+      "title": "Dracula",
+      "author": "Unknown",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "",
+      "description": "小說家（西洋）",
+      "sections": 27,
+      "cover": ""
+    },
+    {
+      "id": "pg2852",
+      "title": "The Hound of the Baskervilles",
+      "author": "A. Conan Doyle",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "",
+      "description": "小說家（西洋）",
+      "sections": 15,
+      "cover": ""
+    },
+    {
+      "id": "pg205",
+      "title": "Walden",
+      "author": "Henry David Thoreau",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "",
+      "description": "小說家（西洋）",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "pg16",
+      "title": "Peter Pan : [Peter and Wendy]",
+      "author": "J. M. Barrie [James Matthew Barrie]",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "",
+      "description": "小說家（西洋）",
+      "sections": 17,
+      "cover": ""
+    },
+    {
+      "id": "pg236",
+      "title": "The Jungle Book",
+      "author": "Rudyard Kipling",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "",
+      "description": "小說家（西洋）",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "pg45",
+      "title": "Anne of Green Gables",
+      "author": "Lucy Maud Montgomery",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "",
+      "description": "小說家（西洋）",
+      "sections": 38,
+      "cover": ""
+    },
+    {
+      "id": "pg289",
+      "title": "The Wind in the Willows",
+      "author": "Kenneth Grahame",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "",
+      "description": "小說家（西洋）",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "pg146",
+      "title": "A Little Prince",
+      "author": "Unknown",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "",
+      "description": "小說家（西洋）",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "pg2591",
+      "title": "Grimms' Fairy Tales",
+      "author": "Jacob Grimm and Wilhelm Grimm",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "",
+      "description": "小說家（西洋）",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "pg128",
+      "title": "The Arabian Nights Entertainments",
+      "author": "Unknown",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "",
+      "description": "小說家（西洋）",
+      "sections": 1,
+      "cover": ""
+    },
+    {
+      "id": "pg479",
+      "title": "Little Lord Fauntleroy",
+      "author": "Frances Hodgson Burnett",
+      "category": "zi",
+      "subcategory": "",
+      "dynasty": "",
+      "description": "小說家（西洋）",
+      "sections": 15,
       "cover": ""
     },
     {

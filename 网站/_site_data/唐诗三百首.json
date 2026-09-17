@@ -1685,7 +1685,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "潢",
@@ -1695,7 +1697,9 @@
       "en": "dye paper；lake；pond",
       "note": "多音字，可讀「huang/guang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "不",
@@ -1705,7 +1709,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "側",
@@ -1715,7 +1721,9 @@
       "en": "the side；to incline towards；to lean",
       "note": "多音字，可讀「ce/ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "見",
@@ -1725,7 +1733,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳥",
@@ -1735,7 +1745,9 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "巔",
@@ -1745,7 +1757,9 @@
       "en": "summit",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "得",
@@ -1755,7 +1769,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "金",
@@ -1765,7 +1781,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "惡",
@@ -1775,7 +1793,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冥",
@@ -1785,7 +1805,9 @@
       "en": "dark；deep；stupid",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弋",
@@ -1795,7 +1817,9 @@
       "en": "to shoot",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蘭",
@@ -1805,7 +1829,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "葉",
@@ -1815,7 +1841,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "葳",
@@ -1825,7 +1853,9 @@
       "en": "luxuriant",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蕤",
@@ -1835,7 +1865,9 @@
       "en": "fringe；overladen with flowers",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "皎",
@@ -1845,7 +1877,9 @@
       "en": "bright；white",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "誰",
@@ -1855,7 +1889,9 @@
       "en": "who；also pr. [shui2]",
       "note": "多音字，可讀「shui/shei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "林",
@@ -1865,7 +1901,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "折",
@@ -1875,7 +1913,9 @@
       "en": "to turn sth over；to turn upside down；to tip sth out (of a container)",
       "note": "多音字，可讀「zhe/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洗",
@@ -1885,7 +1925,9 @@
       "en": "to wash; to bathe；to develop (photographs)；to shuffle (cards etc)",
       "note": "多音字，可讀「xi/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "傳",
@@ -1895,7 +1937,9 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "理",
@@ -1905,7 +1949,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "吾",
@@ -1915,7 +1961,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "南",
@@ -1925,7 +1973,9 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "丹",
@@ -1935,7 +1985,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "橘",
@@ -1945,7 +1997,9 @@
       "en": "mandarin orange (Citrus reticulata)；tangerine",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "綠",
@@ -1955,7 +2009,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "豈",
@@ -1965,7 +2021,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "地",
@@ -1975,7 +2033,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奈",
@@ -1985,7 +2045,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "重",
@@ -1995,7 +2057,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "李",
@@ -2005,7 +2069,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "斛",
@@ -2015,7 +2081,9 @@
       "en": "ancient measuring vessel；fifty liters；dry measure for grain equal to five dou 五斗 (before Tang, ten pecks)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宿",
@@ -2025,7 +2093,9 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -2035,7 +2105,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "家",
@@ -2045,7 +2117,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "扉",
@@ -2055,7 +2129,9 @@
       "en": "door with only one leaf",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蘿",
@@ -2065,7 +2141,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拂",
@@ -2075,7 +2153,9 @@
       "en": "to flick；to brush off；(of a breeze) to brush lightly over",
       "note": "多音字，可讀「fu/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -2085,7 +2165,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憩",
@@ -2095,7 +2177,9 @@
       "en": "to rest",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "長",
@@ -2105,7 +2189,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "復",
@@ -2115,7 +2201,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "樂",
@@ -2125,7 +2213,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "陶",
@@ -2135,7 +2225,9 @@
       "en": "pottery, ceramics",
       "note": "多音字，可讀「tao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "親",
@@ -2145,7 +2237,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "解",
@@ -2155,7 +2249,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "零",
@@ -2165,7 +2261,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亂",
@@ -2175,7 +2273,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "期",
@@ -2185,7 +2285,9 @@
       "en": "period；cycle；a period of time",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邈",
@@ -2195,7 +2297,9 @@
       "en": "distant, remote; profound",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "思",
@@ -2205,7 +2309,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "枝",
@@ -2215,7 +2321,9 @@
       "en": "branch；classifier for sticks, rods, pencils etc",
       "note": "多音字，可讀「zhi/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "妾",
@@ -2225,7 +2333,9 @@
       "en": "concubine；I, your servant (deprecatory self-reference for women)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "識",
@@ -2235,7 +2345,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羅",
@@ -2245,7 +2357,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "幃",
@@ -2255,7 +2369,9 @@
       "en": "curtain；women's apartment；tent",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "岱",
@@ -2265,7 +2381,9 @@
       "en": "Mt Tai in Shandong；same as 泰山",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齊",
@@ -2275,7 +2393,9 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "魯",
@@ -2285,7 +2405,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "了",
@@ -2295,7 +2417,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "眥",
@@ -2305,7 +2429,9 @@
       "en": "(anatomy) corner of the eye; canthus",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "會",
@@ -2315,7 +2441,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "凌",
@@ -2325,7 +2453,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "參",
@@ -2335,7 +2465,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "能",
@@ -2345,7 +2477,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鬢",
@@ -2355,7 +2489,9 @@
       "en": "hair on temples",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "女",
@@ -2365,7 +2501,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "怡",
@@ -2375,7 +2513,9 @@
       "en": "harmony；pleased",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "梁",
@@ -2385,7 +2525,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稱",
@@ -2395,7 +2537,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "累",
@@ -2405,7 +2549,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "觴",
@@ -2415,7 +2561,9 @@
       "en": "feast；goblet",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "兩",
@@ -2425,7 +2573,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "谷",
@@ -2435,7 +2585,9 @@
       "en": "grain；corn；surname Gu",
       "note": "多音字，可讀「gu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "良",
@@ -2445,7 +2597,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "落",
@@ -2455,7 +2609,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弟",
@@ -2465,7 +2621,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "殺",
@@ -2475,7 +2633,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "戮",
@@ -2485,7 +2645,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "論",
@@ -2495,7 +2657,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衰",
@@ -2505,7 +2669,9 @@
       "en": "(bound form) to decay; to decline; to wane",
       "note": "多音字，可讀「shuai/cui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "薄",
@@ -2515,7 +2681,9 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "合",
@@ -2525,7 +2693,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "那",
@@ -2535,7 +2705,9 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "婢",
@@ -2545,7 +2717,9 @@
       "en": "slave girl；maid servant",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "柏",
@@ -2555,7 +2729,9 @@
       "en": "surname Bai；Taiwan pr. [Bo2]；cedar",
       "note": "多音字，可讀「bai/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "掬",
@@ -2565,7 +2741,9 @@
       "en": "to hold in one's hands；classifier for a double handful；Taiwan pr. [ju2]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "惻",
@@ -2575,7 +2753,9 @@
       "en": "sorrowful",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "癘",
@@ -2585,7 +2765,9 @@
       "en": "ulcer；plague",
       "note": "多音字，可讀「li/lai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "路",
@@ -2595,7 +2777,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "疑",
@@ -2605,7 +2789,9 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "色",
@@ -2615,7 +2801,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "浪",
@@ -2625,7 +2813,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蛟",
@@ -2635,7 +2825,9 @@
       "en": "a legendary dragon with the ability to control rain and floods；see also 蛟龍|蛟龙[jiao1 long2]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "龍",
@@ -2645,7 +2837,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "頻",
@@ -2655,7 +2849,9 @@
       "en": "frequency; repeatedly, again and again",
       "note": "多音字，可讀「bin/pin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "易",
@@ -2665,7 +2861,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "楫",
@@ -2675,7 +2873,9 @@
       "en": "oar (archaic)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "若",
@@ -2685,7 +2885,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蓋",
@@ -2695,7 +2897,9 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "憔",
@@ -2705,7 +2909,9 @@
       "en": "worn-out, haggard, emaciated",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "悴",
@@ -2715,7 +2921,9 @@
       "en": "haggard；sad；downcast",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "老",
@@ -2725,7 +2933,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "陲",
@@ -2735,7 +2945,9 @@
       "en": "frontier, border",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "莫",
@@ -2745,7 +2957,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "綦",
@@ -2755,7 +2969,9 @@
       "en": "dark gray；superlative；variegated",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "還",
@@ -2765,7 +2981,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "靈",
@@ -2775,7 +2993,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "令",
@@ -2785,7 +3005,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "薇",
@@ -2795,7 +3017,9 @@
       "en": "Osmunda regalis, a species of fern；Taiwan pr. [wei2]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "度",
@@ -2805,7 +3029,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "食",
@@ -2815,7 +3041,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洛",
@@ -2825,7 +3053,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "棹",
@@ -2835,7 +3065,9 @@
       "en": "oar (archaic)；scull；paddle",
       "note": "多音字，可讀「zhao/zhuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "暉",
@@ -2845,7 +3077,9 @@
       "en": "sunshine；to shine upon",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "適",
@@ -2855,7 +3089,9 @@
       "en": "match, comfortable; just",
       "note": "多音字，可讀「shi/di/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "谿",
@@ -2865,7 +3101,9 @@
       "en": "valley, gorge; mountain stream",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "趣",
@@ -2875,7 +3113,9 @@
       "en": "interesting；to interest",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "里",
@@ -2885,7 +3125,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "石",
@@ -2895,7 +3137,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "裡",
@@ -2905,7 +3149,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "菱",
@@ -2915,7 +3161,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "荇",
@@ -2925,7 +3173,9 @@
       "en": "yellow floating heart (Nymphoides peltatum)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澄",
@@ -2935,7 +3185,9 @@
       "en": "surname Cheng；clear；limpid",
       "note": "多音字，可讀「cheng/deng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "葭",
@@ -2945,7 +3197,9 @@
       "en": "reed；Phragmites communis",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閒",
@@ -2955,7 +3209,9 @@
       "en": "leisure, idle time; tranquil, peaceful, calm",
       "note": "多音字，可讀「xian/jian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "澹",
@@ -2965,7 +3221,9 @@
       "en": "tranquil；placid；quiet",
       "note": "多音字，可讀「dan/tan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "留",
@@ -2975,7 +3233,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "巷",
@@ -2985,7 +3245,9 @@
       "en": "lane；alley",
       "note": "多音字，可讀「xiang/hang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "羊",
@@ -2995,7 +3257,9 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "念",
@@ -3005,7 +3269,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "雉",
@@ -3015,7 +3281,9 @@
       "en": "pheasant; crenellated wall",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "雊",
@@ -3025,7 +3293,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "立",
@@ -3035,7 +3305,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "悵",
@@ -3045,7 +3317,9 @@
       "en": "regretful; upset; despairing; depressed",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "寧",
@@ -3055,7 +3329,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朝",
@@ -3065,7 +3341,9 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "妃",
@@ -3075,7 +3353,9 @@
       "en": "imperial concubine",
       "note": "多音字，可讀「fei/pei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "著",
@@ -3085,7 +3365,9 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "憐",
@@ -3095,7 +3377,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "浣",
@@ -3105,7 +3389,9 @@
       "en": "to wash；to rinse；any of three 10-day division of the month (during Tang dynasty)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "車",
@@ -3115,7 +3401,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "顰",
@@ -3125,7 +3413,9 @@
       "en": "to frown; to knit the brows",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "北",
@@ -3135,7 +3425,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "薺",
@@ -3145,7 +3437,9 @@
       "en": "see 薺菜|荠菜[ji4 cai4]",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "大",
@@ -3155,7 +3449,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "乘",
@@ -3165,7 +3461,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "露",
@@ -3175,7 +3473,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "彈",
@@ -3185,7 +3485,9 @@
       "en": "crossball；bullet；shot",
       "note": "多音字，可讀「dan/tan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "勞",
@@ -3195,7 +3497,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "丁",
@@ -3205,7 +3509,9 @@
       "en": "surname Ding；male adult；the 4th of the 10 Heavenly Stems 天干[tian1 gan1]",
       "note": "多音字，可讀「ding/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嶺",
@@ -3215,7 +3521,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "壑",
@@ -3225,7 +3533,9 @@
       "en": "gully；ravine；Taiwan pr. [huo4]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "倏",
@@ -3235,7 +3545,9 @@
       "en": "sudden；abrupt；Taiwan pr. [shu4]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "暝",
@@ -3245,7 +3557,9 @@
       "en": "dark",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "樵",
@@ -3255,7 +3569,9 @@
       "en": "firewood；gather wood",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "翫",
@@ -3265,7 +3581,9 @@
       "en": "Taiwan pr. [wan4]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "帷",
@@ -3275,7 +3593,9 @@
       "en": "curtain；screen",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "苒",
@@ -3285,7 +3605,9 @@
       "en": "luxuriant growth；passing (of time)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "其",
@@ -3295,7 +3617,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "僮",
@@ -3305,7 +3629,9 @@
       "en": "servant boy",
       "note": "多音字，可讀「tong/zhuang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "差",
@@ -3315,7 +3641,9 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "黽",
@@ -3325,7 +3653,9 @@
       "en": "frog, toad; to strive, to endeavor",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "仰",
@@ -3335,7 +3665,9 @@
       "en": "surname Yang；to face upward；to look up",
       "note": "多音字，可讀「yang/ang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "契",
@@ -3345,7 +3677,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淨",
@@ -3355,7 +3689,9 @@
       "en": "clean；completely；only",
       "note": "多音字，可讀「jing/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "且",
@@ -3365,7 +3701,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "叟",
@@ -3375,7 +3713,9 @@
       "en": "old gentleman；old man",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鸞",
@@ -3385,7 +3725,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "據",
@@ -3395,7 +3737,9 @@
       "en": "according to；to act in accordance with；to depend on",
       "note": "多音字，可讀「ju/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "岑",
@@ -3405,7 +3749,9 @@
       "en": "surname Cen；small hill",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臨",
@@ -3415,7 +3761,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "磴",
@@ -3425,7 +3773,9 @@
       "en": "cliff-ledge；stone step",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "兀",
@@ -3435,7 +3785,9 @@
       "en": "surname Wu；(literary) rising to a height; towering；(literary) bald; bare",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "崢",
@@ -3445,7 +3797,9 @@
       "en": "high, lofty, noble; perilous, steep",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嶸",
@@ -3455,7 +3809,9 @@
       "en": "high, lofty, steep, towering",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "角",
@@ -3465,7 +3821,9 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "摩",
@@ -3475,7 +3833,9 @@
       "en": "to rub",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "穹",
@@ -3485,7 +3845,9 @@
       "en": "vault；dome；the sky",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "連",
@@ -3495,7 +3857,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "夾",
@@ -3505,7 +3869,9 @@
       "en": "to press from either side；to place in between；to sandwich",
       "note": "多音字，可讀「jia/ga/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "玲",
@@ -3515,7 +3881,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瓏",
@@ -3525,7 +3893,9 @@
       "en": "tinkling of gem-pendants",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "陵",
@@ -3535,7 +3905,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "夙",
@@ -3545,7 +3917,9 @@
       "en": "morning；early；long-held",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "覺",
@@ -3555,7 +3929,9 @@
       "en": "to feel；to find that；thinking",
       "note": "多音字，可讀「jue/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "吏",
@@ -3565,7 +3941,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "年",
@@ -3575,7 +3953,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "洞",
@@ -3585,7 +3965,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "晏",
@@ -3595,7 +3977,9 @@
       "en": "surname Yan；late；quiet",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "數",
@@ -3605,7 +3989,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "旃",
@@ -3615,7 +4001,9 @@
       "en": "felt；silken banner",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "徵",
@@ -3625,7 +4013,9 @@
       "en": "4th note in the ancient Chinese pentatonic scale 五音[wu3 yin1], corresponding to sol",
       "note": "多音字，可讀「zhi/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "歛",
@@ -3635,7 +4025,9 @@
       "en": "to desire；to give",
       "note": "多音字，可讀「lian/han」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "迫",
@@ -3645,7 +4037,9 @@
       "en": "to persecute；to oppress；embarrassed",
       "note": "多音字，可讀「po/pai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "刺",
@@ -3655,7 +4049,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "戟",
@@ -3665,7 +4061,9 @@
       "en": "halberd；long-handled weapon with pointed tip and crescent blade；combined spear and battle-ax",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "逍",
@@ -3675,7 +4073,9 @@
       "en": "to ramble, to stroll; to jaunt, to loiter",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "痾",
@@ -3685,7 +4085,9 @@
       "en": "(literary) disease；also pr. [e1]",
       "note": "多音字，可讀「ke/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "屬",
@@ -3695,7 +4097,9 @@
       "en": "category；genus (taxonomy)；family members",
       "note": "多音字，可讀「shu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "聆",
@@ -3705,7 +4109,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "盛",
@@ -3715,7 +4121,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "強",
@@ -3725,7 +4133,9 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "校",
@@ -3735,7 +4145,9 @@
       "en": "(bound form) school; college；(bound form) (military) field officer",
       "note": "多音字，可讀「xiao/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洄",
@@ -3745,7 +4157,9 @@
       "en": "eddying；whirling (of water)；to go against the current",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冷",
@@ -3755,7 +4169,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "底",
@@ -3765,7 +4181,9 @@
       "en": "bottom; base；background; foundation；copy (of a manuscript or receipt etc) kept as a record",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "馮",
@@ -3775,7 +4193,9 @@
       "en": "to gallop; by dint of; surname",
       "note": "多音字，可讀「feng/ping」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "灞",
@@ -3785,7 +4205,9 @@
       "en": "name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "颺",
@@ -3795,7 +4217,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "縷",
@@ -3805,7 +4229,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "盱",
@@ -3815,7 +4241,9 @@
       "en": "surname Xu；anxious；stare",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "眙",
@@ -3825,7 +4253,9 @@
       "en": "to gaze at; a place name",
       "note": "多音字，可讀「yi/chi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "縣",
@@ -3835,7 +4265,9 @@
       "en": "county；(Japan) prefecture",
       "note": "多音字，可讀「xian/xuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "舫",
@@ -3845,7 +4277,9 @@
       "en": "2 boats lashed together；large boat",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "驛",
@@ -3855,7 +4289,9 @@
       "en": "relay station",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "沈",
@@ -3865,7 +4301,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蘆",
@@ -3875,7 +4313,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "跼",
@@ -3885,7 +4325,9 @@
       "en": "cramped; narrow",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "柳",
@@ -3895,7 +4337,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "和",
@@ -3905,7 +4349,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "靄",
@@ -3915,7 +4361,9 @@
       "en": "fog, haze; calm, peaceful",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳩",
@@ -3925,7 +4373,9 @@
       "en": "pigeon; to collect, to assemble",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "屢",
@@ -3935,7 +4385,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遽",
@@ -3945,7 +4397,9 @@
       "en": "rapid, sudden, unexpected",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "罷",
@@ -3955,7 +4409,9 @@
       "en": "to stop；to cease；to dismiss",
       "note": "多音字，可讀「ba/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "廬",
@@ -3965,7 +4421,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "氏",
@@ -3975,7 +4433,9 @@
       "en": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")；(bound form) maiden name; née (as in 李王氏[Li3 Wang2 shi4] \"Mrs. Li, née Wang\")；(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "泝",
@@ -3985,7 +4445,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "育",
@@ -3995,7 +4457,9 @@
       "en": "to have children；to raise or bring up；to educate",
       "note": "多音字，可讀「yu/yo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "休",
@@ -4005,7 +4469,9 @@
       "en": "surname Xiu；to rest；to stop doing sth for a period of time",
       "note": "多音字，可讀「xiu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "闕",
@@ -4015,7 +4481,9 @@
       "en": "palace; watchtower",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貽",
@@ -4025,7 +4493,9 @@
       "en": "to present；to bequeath",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "卹",
@@ -4035,7 +4505,9 @@
       "en": "anxiety；sympathy；to sympathize",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "猷",
@@ -4045,7 +4517,9 @@
       "en": "to plan；to scheme",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "離",
@@ -4055,7 +4529,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淚",
@@ -4065,7 +4541,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "流",
@@ -4075,7 +4553,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "讀",
@@ -4085,7 +4565,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "禪",
@@ -4095,7 +4577,9 @@
       "en": "to abdicate",
       "note": "多音字，可讀「shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "熟",
@@ -4105,7 +4589,9 @@
       "en": "ripe; mature；thoroughly cooked; done；familiar; acquainted",
       "note": "多音字，可讀「shu/shou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沐",
@@ -4115,7 +4601,9 @@
       "en": "to bathe；to cleanse；to receive",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "說",
@@ -4125,7 +4613,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "簪",
@@ -4135,7 +4625,9 @@
       "en": "hairpin",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "謫",
@@ -4145,7 +4637,9 @@
       "en": "to relegate a high official to a minor post in an outlying region (punishment in imperial China)；to banish or exile；(of immortals) to banish from Heaven",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "似",
@@ -4155,7 +4649,9 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "塞",
@@ -4165,7 +4661,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "矜",
@@ -4175,7 +4673,9 @@
       "en": "to boast；to esteem；to sympathize",
       "note": "多音字，可讀「jin/guan/qin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "騮",
@@ -4185,7 +4685,9 @@
       "en": "a legendary horse",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "沒",
@@ -4195,7 +4697,9 @@
       "en": "(negative prefix for verbs) have not; not",
       "note": "多音字，可讀「mei/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "黯",
@@ -4205,7 +4709,9 @@
       "en": " black; dark; sullen, dreary",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "洮",
@@ -4215,7 +4721,9 @@
       "en": "to cleanse；name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蒿",
@@ -4225,7 +4733,9 @@
       "en": "celery wormwood (Artemisia carvifolia)；to give off；to weed",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "樓",
@@ -4235,7 +4745,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "紅",
@@ -4245,7 +4757,9 @@
       "en": "surname Hong；red；popular",
       "note": "多音字，可讀「hong/gong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "菡",
@@ -4255,7 +4769,9 @@
       "en": "lotus blossom",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "萏",
@@ -4265,7 +4781,9 @@
       "en": "lotus",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "虜",
@@ -4275,7 +4793,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遶",
@@ -4285,7 +4805,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弄",
@@ -4295,7 +4817,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "信",
@@ -4305,7 +4829,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "六",
@@ -4315,7 +4841,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瞿",
@@ -4325,7 +4853,9 @@
       "en": "surname Qu；startled；Taiwan pr. [ju4]",
       "note": "多音字，可讀「qu/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "灩",
@@ -4335,7 +4865,9 @@
       "en": "tossing of billows",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澦",
@@ -4345,7 +4877,9 @@
       "en": "(place name in Sichuan)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "烈",
@@ -4355,7 +4889,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愴",
@@ -4365,7 +4901,9 @@
       "en": "mournful；sad；grieved",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "頎",
@@ -4375,7 +4913,9 @@
       "en": "tall and slim; slender",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "尺",
@@ -4385,7 +4925,9 @@
       "en": "a Chinese foot；one-third of a meter；a ruler",
       "note": "多音字，可讀「chi/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蝟",
@@ -4395,7 +4937,9 @@
       "en": "(bound form) hedgehog",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "磔",
@@ -4405,7 +4949,9 @@
       "en": "old term for the right-falling stroke in Chinese characters (e.g. the last stroke of 大[da4]), now called 捺[na4]；sound made by birds (onom.)；(literary) to dismember (form of punishment)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遼",
@@ -4415,7 +4961,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "虯",
@@ -4425,7 +4973,9 @@
       "en": "young dragon with horns",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "顙",
@@ -4435,7 +4985,9 @@
       "en": "forehead; to kowtow",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "酤",
@@ -4445,7 +4997,9 @@
       "en": "to sell liquor",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鑪",
@@ -4455,7 +5009,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淥",
@@ -4465,7 +5021,9 @@
       "en": "clear (water)；strain liquids",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "笳",
@@ -4475,7 +5033,9 @@
       "en": "whistle made of reed",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "給",
@@ -4485,7 +5045,9 @@
       "en": "to；for；for the benefit of",
       "note": "多音字，可讀「gei/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "絃",
@@ -4495,7 +5057,9 @@
       "en": "bow string；string of musical instrument；watch spring",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "摵",
@@ -4505,7 +5069,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "更",
@@ -4515,7 +5081,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "戀",
@@ -4525,7 +5093,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邏",
@@ -4535,7 +5105,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "娑",
@@ -4545,7 +5117,9 @@
       "en": "(phonetic)；see 婆娑[po2 suo1]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "調",
@@ -4555,7 +5129,9 @@
       "en": "to transfer；to move (troops or cadres)；to investigate",
       "note": "多音字，可讀「diao/tiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "墮",
@@ -4565,7 +5141,9 @@
       "en": "to fall; to sink；(fig.) to degenerate",
       "note": "多音字，可讀「duo/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "颯",
@@ -4575,7 +5153,9 @@
       "en": "bleak; melancholy; the howl of the wind",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鹿",
@@ -4585,7 +5165,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "呦",
@@ -4595,7 +5177,9 @@
       "en": "Oh! (exclamation of dismay etc)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "略",
@@ -4605,7 +5189,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "利",
@@ -4615,7 +5201,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "觱",
@@ -4625,7 +5213,9 @@
       "en": "fever；tartar horn",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "篥",
@@ -4635,7 +5225,9 @@
       "en": "bamboos good for poles；horn",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "龜",
@@ -4645,7 +5237,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "奇",
@@ -4655,7 +5249,9 @@
       "en": "strange；odd；weird",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "飆",
@@ -4665,7 +5261,9 @@
       "en": "whirlwind (1)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "颼",
@@ -4675,7 +5273,9 @@
       "en": "a chill breeze; to blow; the sound of the wind",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "飀",
@@ -4685,7 +5285,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "啾",
@@ -4695,7 +5297,9 @@
       "en": "(onom.) wailing of child；chirp；kiss (Tw)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "籟",
@@ -4705,7 +5309,9 @@
       "en": "a sound；a noise；musical pipe with 3 reeds",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繁",
@@ -4715,7 +5321,9 @@
       "en": "complicated；many；in great numbers",
       "note": "多音字，可讀「fan/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "列",
@@ -4725,7 +5333,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "盧",
@@ -4735,7 +5345,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "屏",
@@ -4745,7 +5357,9 @@
       "en": "(standing) screen",
       "note": "多音字，可讀「ping/bing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "黛",
@@ -4755,7 +5369,9 @@
       "en": "to blacken one's eyebrows; black",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "爐",
@@ -4765,7 +5381,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瀑",
@@ -4775,7 +5393,9 @@
       "en": "waterfall",
       "note": "多音字，可讀「pu/bao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沓",
@@ -4785,7 +5405,9 @@
       "en": "surname Ta；again and again；many",
       "note": "多音字，可讀「ta/da」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "芙",
@@ -4795,7 +5417,9 @@
       "en": "lotus; hibiscus",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "垓",
@@ -4805,7 +5429,9 @@
       "en": "boundary",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "姥",
@@ -4815,7 +5441,9 @@
       "en": "grandma (maternal)",
       "note": "多音字，可讀「lao/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瀛",
@@ -4825,7 +5453,9 @@
       "en": "ocean",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剡",
@@ -4835,7 +5465,9 @@
       "en": "sharp",
       "note": "多音字，可讀「yan/shan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "屐",
@@ -4845,7 +5477,9 @@
       "en": "clogs",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殷",
@@ -4855,7 +5489,9 @@
       "en": "surname Yin；dynasty name at the end the Shang dynasty, after its move to Yinxu 殷墟[Yin1 xu1] in present-day Henan；flourishing",
       "note": "多音字，可讀「yin/yan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "慄",
@@ -4865,7 +5501,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "兮",
@@ -4875,7 +5513,9 @@
       "en": "(particle in old Chinese similar to 啊)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "靂",
@@ -4885,7 +5525,9 @@
       "en": "thunderclap, crashing thunder",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "訇",
@@ -4895,7 +5537,9 @@
       "en": "surname Hong；sound of a crash",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "怳",
@@ -4905,7 +5549,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嗟",
@@ -4915,7 +5561,9 @@
       "en": "sigh；also pr. [jue1]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朓",
@@ -4925,7 +5573,9 @@
       "en": "(literary) the appearance of the moon in the west at the end of a lunar month",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扁",
@@ -4935,7 +5585,9 @@
       "en": "flat；(coll.) to beat (sb) up",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "輪",
@@ -4945,7 +5597,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "料",
@@ -4955,7 +5609,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "佇",
@@ -4965,7 +5621,9 @@
       "en": "to stand for a long time；to wait；to look forward to",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "旄",
@@ -4975,7 +5633,9 @@
       "en": "banner decorated with animal's tail",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "渠",
@@ -4985,7 +5645,9 @@
       "en": "surname Qu；(artificial) stream; canal; drain; ditch (CL:條|条[tiao2])；(literary) big; great",
       "note": "多音字，可讀「qu/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "黎",
@@ -4995,7 +5657,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "單",
@@ -5005,7 +5669,9 @@
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "屯",
@@ -5015,7 +5681,9 @@
       "en": "to station (soldiers)；to store up；village",
       "note": "多音字，可讀「tun/zhun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "捲",
@@ -5025,7 +5693,9 @@
       "en": "to roll up；to sweep up; to carry along；a roll",
       "note": "多音字，可讀「juan/quan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "梨",
@@ -5035,7 +5705,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "簾",
@@ -5045,7 +5717,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "裘",
@@ -5055,7 +5729,9 @@
       "en": "surname Qiu；fur；fur coat",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "煖",
@@ -5065,7 +5741,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衾",
@@ -5075,7 +5753,9 @@
       "en": "coverlet；quilt",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "都",
@@ -5085,7 +5765,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瀚",
@@ -5095,7 +5777,9 @@
       "en": "ocean；vastness",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "黲",
@@ -5105,7 +5789,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "錄",
@@ -5115,7 +5801,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宅",
@@ -5125,7 +5813,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曾",
@@ -5135,7 +5825,9 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瑙",
@@ -5145,7 +5837,9 @@
       "en": "agate, cornelian",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "婕",
@@ -5155,7 +5849,9 @@
       "en": "handsome",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "妤",
@@ -5165,7 +5861,9 @@
       "en": "beautiful, handsome, fair",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詔",
@@ -5175,7 +5873,9 @@
       "en": "(literary) to admonish；(bound form) imperial edict",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "索",
@@ -5185,7 +5885,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "紈",
@@ -5195,7 +5897,9 @@
       "en": "(literary) fine white silk; delicate silk fabric",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "綺",
@@ -5205,7 +5909,9 @@
       "en": "beautiful；open-work silk",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "追",
@@ -5215,7 +5921,9 @@
       "en": "to pursue, to chase after; to expel",
       "note": "多音字，可讀「zhui/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "騧",
@@ -5225,7 +5933,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "縞",
@@ -5235,7 +5945,9 @@
       "en": "plain white silk",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "迥",
@@ -5245,7 +5957,9 @@
       "en": "distant, far; separated; different",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹴",
@@ -5255,7 +5969,9 @@
       "en": "carefully；to kick；to tread on",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "楸",
@@ -5265,7 +5981,9 @@
       "en": "Catalpa；Mallotus japonicus",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "廝",
@@ -5275,7 +5993,9 @@
       "en": "(bound form) together; each other；(bound form) male servant；(bound form) dude; so-and-so (used in 那廝|那厮[na4 si1] and 這廝|这厮[zhe4 si1])",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "驤",
@@ -5285,7 +6005,9 @@
       "en": "to gallop about with the head uplifted",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "磊",
@@ -5295,7 +6017,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "射",
@@ -5305,7 +6029,9 @@
       "en": "to shoot；to launch；to allude to",
       "note": "多音字，可讀「she/ye/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "孫",
@@ -5315,7 +6041,9 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -5325,7 +6053,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "薰",
@@ -5335,7 +6065,9 @@
       "en": "fragrance；warm；to educate",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "驄",
@@ -5345,7 +6077,9 @@
       "en": "buckskin horse",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "墀",
@@ -5355,7 +6089,9 @@
       "en": "courtyard",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閶",
@@ -5365,7 +6101,9 @@
       "en": "the gates of heaven; the main gate of a palace",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "闔",
@@ -5375,7 +6113,9 @@
       "en": "to close; whole, entire, all",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "榻",
@@ -5385,7 +6125,9 @@
       "en": "couch",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "圉",
@@ -5395,7 +6137,9 @@
       "en": "horse stable；frontier",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "惆",
@@ -5405,7 +6149,9 @@
       "en": "forlorn；vexed；disappointed",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "驊",
@@ -5415,7 +6161,9 @@
       "en": "an excellent horse",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泊",
@@ -5425,7 +6173,9 @@
       "en": "to moor (a boat)；to park (a vehicle)；(literary) calm; quiet; peaceful",
       "note": "多音字，可讀「bo/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "壈",
@@ -5435,7 +6185,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諫",
@@ -5445,7 +6197,9 @@
       "en": "surname Jian；to remonstrate；to admonish",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "濯",
@@ -5455,7 +6209,9 @@
       "en": "to wash；to cleanse of evil",
       "note": "多音字，可讀「zhuo/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "麒",
@@ -5465,7 +6221,9 @@
       "en": "mythical unicorn",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "麟",
@@ -5475,7 +6233,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "翳",
@@ -5485,7 +6245,9 @@
       "en": "feather screen；to screen；to shade",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "旌",
@@ -5495,7 +6257,9 @@
       "en": "banner；make manifest",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "景",
@@ -5505,7 +6269,9 @@
       "en": "surname Jing；(bound form) scenery；circumstance",
       "note": "多音字，可讀「jing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瀟",
@@ -5515,7 +6281,9 @@
       "en": "(of water) deep and clear",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "旁",
@@ -5525,7 +6293,9 @@
       "en": "one side；other；different",
       "note": "多音字，可讀「pang/bang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "劉",
@@ -5535,7 +6305,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "幄",
@@ -5545,7 +6317,9 @@
       "en": "tent",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "溜",
@@ -5555,7 +6329,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閟",
@@ -5565,7 +6341,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嵬",
@@ -5575,7 +6353,9 @@
       "en": "rocky",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "窈",
@@ -5585,7 +6365,9 @@
       "en": "(literary) deep; profound; dim (variant of 杳[yao3])",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "窕",
@@ -5595,7 +6377,9 @@
       "en": "quiet and secluded；gentle, graceful, and elegant",
       "note": "多音字，可讀「tiao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "牖",
@@ -5605,7 +6389,9 @@
       "en": "to enlighten；lattice window",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "力",
@@ -5615,7 +6401,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "廈",
@@ -5625,7 +6413,9 @@
       "en": "(bound form) tall building; mansion；(bound form) rear annex; lean-to；Taiwan pr. [xia4]",
       "note": "多音字，可讀「sha/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "螻",
@@ -5635,7 +6425,9 @@
       "en": "see 螻蛄|蝼蛄[lou2 gu1]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羿",
@@ -5645,7 +6437,9 @@
       "en": "surname Yi；name of a legendary archer (also called 后羿[Hou4 Yi4])",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "驂",
@@ -5655,7 +6449,9 @@
       "en": "the two outside horses in a team of four",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "雷",
@@ -5665,7 +6461,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "霆",
@@ -5675,7 +6473,9 @@
       "en": "a sudden peal of thunder",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "怒",
@@ -5685,7 +6485,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "絳",
@@ -5695,7 +6497,9 @@
       "en": "capital of the Jin State during the Spring and Autumn Period (770-475 BC)；purple-red",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "潁",
@@ -5705,7 +6509,9 @@
       "en": "surname Ying；river in Henan and Anhui",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澒",
@@ -5715,7 +6521,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "玳",
@@ -5725,7 +6533,9 @@
       "en": "tortoise shell；turtle",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "筵",
@@ -5735,7 +6545,9 @@
       "en": "bamboo mat for sitting",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "樽",
@@ -5745,7 +6557,9 @@
       "en": "goblet；bottle；wine-jar",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "歷",
@@ -5755,7 +6569,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "犖",
@@ -5765,7 +6581,9 @@
       "en": "brindled ox；clear；eminent",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蝙",
@@ -5775,7 +6593,9 @@
       "en": "bat",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蝠",
@@ -5785,7 +6605,9 @@
       "en": "(bound form) bat",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "梔",
@@ -5795,7 +6617,9 @@
       "en": "gardenia；cape jasmine (Gardenia jasminoides)；same as 梔子|栀子[zhi1 zi5]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "佛",
@@ -5805,7 +6629,9 @@
       "en": "Buddha; Buddhism (abbr. for 佛陀[Fo2 tuo2])",
       "note": "多音字，可讀「fo/fu/bi/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "糲",
@@ -5815,7 +6641,9 @@
       "en": "coarse rice",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "霏",
@@ -5825,7 +6653,9 @@
       "en": "rainfall, snowfall",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "爛",
@@ -5835,7 +6665,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "櫪",
@@ -5845,7 +6677,9 @@
       "en": "type of oak；stable (for horses)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鞿",
@@ -5855,7 +6689,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鼯",
@@ -5865,7 +6701,9 @@
       "en": "flying squirrel",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藏",
@@ -5875,7 +6713,9 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蛇",
@@ -5885,7 +6725,9 @@
       "en": "snake；serpent；CL:條|条[tiao2]",
       "note": "多音字，可讀「she/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "臊",
@@ -5895,7 +6737,9 @@
       "en": "to smell of urine (or sweat etc)；shame；bashfulness",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "槌",
@@ -5905,7 +6749,9 @@
       "en": "mallet；pestle；beetle (for wedging or ramming)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "夔",
@@ -5915,7 +6761,9 @@
       "en": "one-legged mountain demon of Chinese mythology；Chinese mythical figure who invented music and dancing；Chinese rain god",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "皋",
@@ -5925,7 +6773,9 @@
       "en": "bank；marsh；high riverbank",
       "note": "多音字，可讀「gao/hao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "辟",
@@ -5935,7 +6785,9 @@
       "en": "law, rule; to open up, to develop",
       "note": "多音字，可讀「pi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瑕",
@@ -5945,7 +6797,9 @@
       "en": "blemish；flaw in jade",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "軻",
@@ -5955,7 +6809,9 @@
       "en": "axle",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祇",
@@ -5965,7 +6821,9 @@
       "en": "god of the earth",
       "note": "多音字，可讀「qi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "謁",
@@ -5975,7 +6833,9 @@
       "en": "to visit (a superior)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祭",
@@ -5985,7 +6845,9 @@
       "en": "to offer a sacrifice to (gods or ancestors)；(in classical novels) to recite an incantation to activate a magic weapon; to wield (sth magic)；(bound form) ceremony",
       "note": "多音字，可讀「ji/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嵩",
@@ -5995,7 +6857,9 @@
       "en": "Mt Song in Henan；(literary) (of mountains) lofty",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "噴",
@@ -6005,7 +6869,9 @@
       "en": "to spout; to spurt; to spray; to puff；(slang) to criticize scathingly (esp. online)；(of a smell) strong",
       "note": "多音字，可讀「pen/fen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "泄",
@@ -6015,7 +6881,9 @@
       "en": "(bound form) to leak out; to discharge; (fig.) to divulge",
       "note": "多音字，可讀「xie/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "臾",
@@ -6025,7 +6893,9 @@
       "en": "surname Yu；a moment；little while",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "廩",
@@ -6035,7 +6905,9 @@
       "en": "government granary",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "趨",
@@ -6045,7 +6917,9 @@
       "en": "to hasten；to hurry；to walk fast",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "填",
@@ -6055,7 +6929,9 @@
       "en": "to fill or stuff；(of a form etc) to fill in",
       "note": "多音字，可讀「tian/zhen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "傴",
@@ -6065,7 +6941,9 @@
       "en": "hunchbacked",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "僂",
@@ -6075,7 +6953,9 @@
       "en": "crookbacked",
       "note": "多音字，可讀「lü/lou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "脯",
@@ -6085,7 +6965,9 @@
       "en": "chest；breast",
       "note": "多音字，可讀「pu/fu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "睢",
@@ -6095,7 +6977,9 @@
       "en": "surname Sui；to stare",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "伺",
@@ -6105,7 +6989,9 @@
       "en": "to watch；to wait；to examine",
       "note": "多音字，可讀「si/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "珓",
@@ -6115,7 +7001,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曈",
@@ -6125,7 +7013,9 @@
       "en": "sun about to rise",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曨",
@@ -6135,7 +7025,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "杲",
@@ -6145,7 +7037,9 @@
       "en": "high；sun shines brightly；to shine",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "岐",
@@ -6155,7 +7049,9 @@
       "en": "surname Qi；also used in place names",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鐫",
@@ -6165,7 +7061,9 @@
       "en": "engraving tool; to carve, to engrave",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "勒",
@@ -6175,7 +7073,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "隳",
@@ -6185,7 +7085,9 @@
       "en": "to destroy; to overthrow",
       "note": "多音字，可讀「hui/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "嵯",
@@ -6195,7 +7097,9 @@
       "en": "lofty (as of mountain)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "阿",
@@ -6205,7 +7109,9 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "淋",
@@ -6215,7 +7121,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "炙",
@@ -6225,7 +7133,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "燎",
@@ -6235,7 +7145,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "撝",
@@ -6245,7 +7157,9 @@
       "en": "to split；to direct；to brandish",
       "note": "多音字，可讀「hui/wei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "呵",
@@ -6255,7 +7169,9 @@
       "en": "(bound form) to scold；to expel breath；(onom.) laughter (usu. reduplicated)",
       "note": "多音字，可讀「he/a」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "類",
@@ -6265,7 +7181,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "隸",
@@ -6275,7 +7193,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蝌",
@@ -6285,7 +7205,9 @@
       "en": "tadpole",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鼉",
@@ -6295,7 +7217,9 @@
       "en": "large reptile, water lizard",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "翥",
@@ -6305,7 +7229,9 @@
       "en": "to soar",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "陋",
@@ -6315,7 +7241,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "褊",
@@ -6325,7 +7253,9 @@
       "en": "narrow；urgent",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "掎",
@@ -6335,7 +7265,9 @@
       "en": "drag",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "摭",
@@ -6345,7 +7277,9 @@
       "en": "pick up；to select",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羲",
@@ -6355,7 +7289,9 @@
       "en": "same as Fuxi 伏羲[Fu2 xi1], a mythical emperor；surname Xi",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "滂",
@@ -6365,7 +7301,9 @@
       "en": "rushing (water)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "沱",
@@ -6375,7 +7313,9 @@
       "en": "tearful；to branch (of river)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "量",
@@ -6385,7 +7325,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "駱",
@@ -6395,7 +7337,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "郜",
@@ -6405,7 +7349,9 @@
       "en": "a feudal state in Shantong; surname",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "價",
@@ -6415,7 +7361,9 @@
       "en": "price；value；(chemistry) valence",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "切",
@@ -6425,7 +7373,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "咽",
@@ -6435,7 +7385,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剜",
@@ -6445,7 +7397,9 @@
       "en": "to scoop out；to gouge out",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蘚",
@@ -6455,7 +7409,9 @@
       "en": "moss；lichen；moss on damp walls",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "簷",
@@ -6465,7 +7421,9 @@
       "en": "edge, brim; the eaves of a house",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "佗",
@@ -6475,7 +7433,9 @@
       "en": "carry on the back",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詎",
@@ -6485,7 +7445,9 @@
       "en": "how (interj. of surprise)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "媕",
@@ -6495,7 +7457,9 @@
       "en": "undecided",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "婀",
@@ -6505,7 +7469,9 @@
       "en": "graceful；willowy；unstable",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "礪",
@@ -6515,7 +7481,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "挲",
@@ -6525,7 +7493,9 @@
       "en": "to feel or fondle with the fingers",
       "note": "多音字，可讀「sa/sha/suo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "鑠",
@@ -6535,7 +7505,9 @@
       "en": "to melt, to smelt; polish, shine",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "埋",
@@ -6545,7 +7517,9 @@
       "en": "to bury",
       "note": "多音字，可讀「mai/man」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "哦",
@@ -6555,7 +7529,9 @@
       "en": "oh (interjection indicating doubt or surprise)；oh (interjection indicating that one has just learned sth)；sentence-final particle that conveys informality, warmth, friendliness or intimacy",
       "note": "多音字，可讀「o/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拾",
@@ -6565,7 +7541,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹉",
@@ -6575,7 +7553,9 @@
       "en": "to error；to slip；to miss",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "跎",
@@ -6585,7 +7565,9 @@
       "en": "to stumble；to waste time",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "欸",
@@ -6595,7 +7577,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "麗",
@@ -6605,7 +7589,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "眸",
@@ -6615,7 +7601,9 @@
       "en": "pupil (of the eye)；eye",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "滑",
@@ -6625,7 +7613,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澤",
@@ -6635,7 +7625,9 @@
       "en": "pool；pond；(of metals etc) luster",
       "note": "多音字，可讀「ze/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "姊",
@@ -6645,7 +7637,9 @@
       "en": "older sister；Taiwan pr. [jie3]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "驪",
@@ -6655,7 +7649,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鼙",
@@ -6665,7 +7661,9 @@
       "en": "drum carried on horseback",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "裳",
@@ -6675,7 +7673,9 @@
       "en": "lower garment；skirts；petticoats",
       "note": "多音字，可讀「shang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宛",
@@ -6685,7 +7685,9 @@
       "en": "surname Wan；winding；as if",
       "note": "多音字，可讀「wan/yuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蛾",
@@ -6695,7 +7697,9 @@
       "en": "(bound form) moth",
       "note": "多音字，可讀「e/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鈿",
@@ -6705,7 +7709,9 @@
       "en": "hairpin; gold-inlaid item; filigree",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "雀",
@@ -6715,7 +7721,9 @@
       "en": "sparrow",
       "note": "多音字，可讀「que/qiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "血",
@@ -6725,7 +7733,9 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "縈",
@@ -6735,7 +7745,9 @@
       "en": "(literary) to wind around",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "紆",
@@ -6745,7 +7757,9 @@
       "en": "surname Yu；winding；twisting",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嵋",
@@ -6755,7 +7769,9 @@
       "en": "the Omei mountain in Sichuan",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鈴",
@@ -6765,7 +7781,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泥",
@@ -6775,7 +7793,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "翡",
@@ -6785,7 +7805,9 @@
       "en": "kingfisher; jade, emerald",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邛",
@@ -6795,7 +7817,9 @@
       "en": "mound; in distress",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "縹",
@@ -6805,7 +7829,9 @@
       "en": "Taiwan pr. [piao3]；(literary) light blue；(literary) light blue silk fabric",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "緲",
@@ -6815,7 +7841,9 @@
       "en": "dim, indistinct; distant; minute",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "綽",
@@ -6825,7 +7853,9 @@
       "en": "(bound form) ample; spacious；(literary) graceful",
       "note": "多音字，可讀「chuo/chao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "約",
@@ -6835,7 +7865,9 @@
       "en": "to make an appointment；to invite；approximately",
       "note": "多音字，可讀「yue/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "叩",
@@ -6845,7 +7877,9 @@
       "en": "to knock；to kowtow；to knock",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扃",
@@ -6855,7 +7889,9 @@
       "en": "(literary) to shut or bolt a door；door",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "迤",
@@ -6865,7 +7901,9 @@
       "en": "winding, meandering",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邐",
@@ -6875,7 +7913,9 @@
       "en": "winding, meandering",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "袂",
@@ -6885,7 +7925,9 @@
       "en": "sleeve of a robe",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "睇",
@@ -6895,7 +7937,9 @@
       "en": "(literary) to cast a sidelong glance；(dialect) to see; to look at",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "寰",
@@ -6905,7 +7949,9 @@
       "en": "large domain；extensive region",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "釵",
@@ -6915,7 +7961,9 @@
       "en": "ornamental hairpin",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "擘",
@@ -6925,7 +7973,9 @@
       "en": "thumb；to break；to tear",
       "note": "多音字，可讀「bo/bai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "潯",
@@ -6935,7 +7985,9 @@
       "en": "name of a river；steep bank",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "荻",
@@ -6945,7 +7997,9 @@
       "en": "Anaphalis yedoensis (pearly everlasting reed)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "撚",
@@ -6955,7 +8009,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "抹",
@@ -6965,7 +8021,9 @@
       "en": "to smear；to wipe；to erase",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "么",
@@ -6975,7 +8033,9 @@
       "en": "surname Yao；youngest；most junior",
       "note": "多音字，可讀「me/mo/ma/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嘈",
@@ -6985,7 +8045,9 @@
       "en": "bustling；tumultuous；noisy",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鶯",
@@ -6995,7 +8057,9 @@
       "en": "oriole, green finch; Sylvia species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鎗",
@@ -7005,7 +8069,9 @@
       "en": null,
       "note": "多音字，可讀「qiang/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "裂",
@@ -7015,7 +8081,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "頓",
@@ -7025,7 +8093,9 @@
       "en": "to pause; to bow; to arrange",
       "note": "多音字，可讀「dun/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蝦",
@@ -7035,7 +8105,9 @@
       "en": "shrimp；prawn",
       "note": "多音字，可讀「xia/ha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蟆",
@@ -7045,7 +8117,9 @@
       "en": "toad",
       "note": "多音字，可讀「ma/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "被",
@@ -7055,7 +8129,9 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "綃",
@@ -7065,7 +8141,9 @@
       "en": "raw silk",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "篦",
@@ -7075,7 +8153,9 @@
       "en": "fine-toothed comb；to comb",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "茶",
@@ -7085,7 +8165,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "唧",
@@ -7095,7 +8177,9 @@
       "en": "(onom.) to pump (water)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淪",
@@ -7105,7 +8189,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湓",
@@ -7115,7 +8201,9 @@
       "en": "flowing of water；name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "啞",
@@ -7125,7 +8213,9 @@
       "en": "(onom.) sound of cawing；sound of infant learning to talk；mute; dumb; incapable of speech",
       "note": "多音字，可讀「ya/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嘲",
@@ -7135,7 +8225,9 @@
       "en": "to ridicule；to mock",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "哳",
@@ -7145,7 +8237,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "狼",
@@ -7155,7 +8249,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貙",
@@ -7165,7 +8261,9 @@
       "en": "(archaic) animal resembling a tiger",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羆",
@@ -7175,7 +8273,9 @@
       "en": "brown bear",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "麾",
@@ -7185,7 +8285,9 @@
       "en": "pennant, flag, banner; to signal to",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "斫",
@@ -7195,7 +8297,9 @@
       "en": "to chop；to hack；to carve wood",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愬",
@@ -7205,7 +8309,9 @@
       "en": null,
       "note": "多音字，可讀「shuo/su」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "爪",
@@ -7215,7 +8321,9 @@
       "en": "(coll.) foot of an animal or bird；(coll.) foot supporting a cooking pot etc",
       "note": "多音字，可讀「zhua/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "貔",
@@ -7225,7 +8333,9 @@
       "en": "see 貔貅[pi2 xiu1], composite mythical animal (originally 貔 was the male)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "訾",
@@ -7235,7 +8345,9 @@
       "en": "surname Zi；to calculate；to assess",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稽",
@@ -7245,7 +8357,9 @@
       "en": "surname Ji；(bound form) to examine; to check (against records)；(literary) to delay; to linger",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "頷",
@@ -7255,7 +8369,9 @@
       "en": "chin, jowl; to nod",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "濡",
@@ -7265,7 +8381,9 @@
       "en": "dilatory；to moisten",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鼇",
@@ -7275,7 +8393,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蟠",
@@ -7285,7 +8405,9 @@
       "en": "to coil",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "螭",
@@ -7295,7 +8417,9 @@
       "en": "dragon with horns not yet grown (in myth or heraldry)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "句",
@@ -7305,7 +8429,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拽",
@@ -7315,7 +8441,9 @@
       "en": "to throw；to fling；self-satisfied; cocky (alternative written form of 跩[zhuai3])",
       "note": "多音字，可讀「zhuai/ye」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "麤",
@@ -7325,7 +8453,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湯",
@@ -7335,7 +8465,9 @@
       "en": "surname Tang；soup；hot or boiling water",
       "note": "多音字，可讀「tang/shang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "烜",
@@ -7345,7 +8477,9 @@
       "en": "brilliant",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淳",
@@ -7355,7 +8489,9 @@
       "en": "genuine；pure；honest",
       "note": "多音字，可讀「chun/zhun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "曷",
@@ -7365,7 +8501,9 @@
       "en": "why；how；when",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "胝",
@@ -7375,7 +8513,9 @@
       "en": "corn, callus",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "摐",
@@ -7385,7 +8525,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "旆",
@@ -7395,7 +8537,9 @@
       "en": "pennant；streamer",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "逶",
@@ -7405,7 +8549,9 @@
       "en": "winding, curving; to swagger",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "碣",
@@ -7415,7 +8561,9 @@
       "en": "stone tablet",
       "note": "多音字，可讀「jie/ya」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "尉",
@@ -7425,7 +8573,9 @@
       "en": "surname Wei；military officer",
       "note": "多音字，可讀「wei/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "獵",
@@ -7435,7 +8585,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "颻",
@@ -7445,7 +8597,9 @@
       "en": "floating in the air; drifting on the wind",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "膾",
@@ -7455,7 +8609,9 @@
       "en": "chopped meat or fish",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朱",
@@ -7465,7 +8621,9 @@
       "en": "surname Zhu；vermilion；(bound form) cinnabar",
       "note": "多音字，可讀「zhu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "倫",
@@ -7475,7 +8633,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璅",
@@ -7485,7 +8645,9 @@
       "en": "fragmentary；trifling",
       "note": "多音字，可讀「zao/suo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "戲",
@@ -7495,7 +8657,9 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鄴",
@@ -7505,7 +8669,9 @@
       "en": "a place in Henan province",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蒺",
@@ -7515,7 +8681,9 @@
       "en": "Tribulus terrestris",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藜",
@@ -7525,7 +8693,9 @@
       "en": "name of weed plant (fat hen, goosefoot, pigweed etc)；Chenopodium album",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "便",
@@ -7535,7 +8705,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "隈",
@@ -7545,7 +8717,9 @@
       "en": "bay, cove, inlet",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "隩",
@@ -7555,7 +8729,9 @@
       "en": null,
       "note": "多音字，可讀「yu/ao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "陸",
@@ -7565,7 +8741,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "攢",
@@ -7575,7 +8753,9 @@
       "en": "to collect；to hoard；to accumulate",
       "note": "多音字，可讀「zan/cuan/zuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "櫳",
@@ -7585,7 +8765,9 @@
       "en": "(literary) window；(literary) cage for animals",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閭",
@@ -7595,7 +8777,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "噫",
@@ -7605,7 +8789,9 @@
       "en": "yeah (interjection of approval)；to belch",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "吁",
@@ -7615,7 +8801,9 @@
       "en": "sh；hush",
       "note": "多音字，可讀「xu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鳧",
@@ -7625,7 +8813,9 @@
       "en": "wild duck; teal; swim",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "猱",
@@ -7635,7 +8825,9 @@
       "en": "(literary) a kind of gibbon；(music) wide vibrato (technique for playing the guqin 古琴[gu3 qin2]) (cf. 吟[yin2], rapid vibrato)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "捫",
@@ -7645,7 +8837,9 @@
       "en": "lay hands on；to cover",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "膺",
@@ -7655,7 +8849,9 @@
       "en": "breast；receive",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "巉",
@@ -7665,7 +8861,9 @@
       "en": "(literary) steep; rugged; jagged; precipitous",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "豗",
@@ -7675,7 +8873,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "砯",
@@ -7685,7 +8885,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "絡",
@@ -7695,7 +8897,9 @@
       "en": "net-like object；to hold sth in place with a net；to wind",
       "note": "多音字，可讀「luo/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "簟",
@@ -7705,7 +8909,9 @@
       "en": "fine woven grass mat",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "饈",
@@ -7715,7 +8921,9 @@
       "en": "food, meal; to eat; to offer",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "箸",
@@ -7725,7 +8933,9 @@
       "en": "(literary) chopsticks",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "栗",
@@ -7735,7 +8945,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "裾",
@@ -7745,7 +8957,9 @@
       "en": "garment",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "賈",
@@ -7755,7 +8969,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "隗",
@@ -7765,7 +8981,9 @@
       "en": "high, lofty; surname",
       "note": "多音字，可讀「wei/kui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "篲",
@@ -7775,7 +8993,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蔓",
@@ -7785,7 +9005,9 @@
       "en": "creeper；to spread",
       "note": "多音字，可讀「man/wan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蕨",
@@ -7795,7 +9017,9 @@
       "en": "Pteridium aquilinum；bracken",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殞",
@@ -7805,7 +9029,9 @@
       "en": "(literary) to perish; to die",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "胥",
@@ -7815,7 +9041,9 @@
       "en": "surname Xu；all；assist",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "唳",
@@ -7825,7 +9053,9 @@
       "en": "cry of a crane or wild goose",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "饌",
@@ -7835,7 +9065,9 @@
       "en": "to feed, support, provide for; food",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "恣",
@@ -7845,7 +9077,9 @@
       "en": "to abandon restraint；to do as one pleases；comfortable (dialect)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "讙",
@@ -7855,7 +9089,9 @@
       "en": "hubbub；clamor",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "謔",
@@ -7865,7 +9101,9 @@
       "en": "joy；to joke；to banter",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "轔",
@@ -7875,7 +9113,9 @@
       "en": "the rumbling of wheels",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "孃",
@@ -7885,7 +9125,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "杞",
@@ -7895,7 +9137,9 @@
       "en": "Qi, a Zhou Dynasty vassal state；surname Qi；Chinese wolfberry shrub (Lycium chinense)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "異",
@@ -7905,7 +9149,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "卒",
@@ -7915,7 +9161,9 @@
       "en": "soldier；servant；to finish",
       "note": "多音字，可讀「zu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蹙",
@@ -7925,7 +9173,9 @@
       "en": "to knit (one's brows)；wrinkled (of brows)；to hesitate",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衱",
@@ -7935,7 +9185,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "虢",
@@ -7945,7 +9197,9 @@
       "en": "surname Guo；Guo, a kinship group whose members held dukedoms within the Zhou Dynasty realm, including Western Guo 西虢國|西虢国[Xi1 Guo2 guo2] and Eastern Guo 東虢國|东虢国[Dong1 Guo2 guo2]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鱗",
@@ -7955,7 +9209,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "饜",
@@ -7965,7 +9221,9 @@
       "en": "full, satiated; to eat one's fill",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "飫",
@@ -7975,7 +9233,9 @@
       "en": "full, satiated; to confer",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "綸",
@@ -7985,7 +9245,9 @@
       "en": "to classify；to twist silk；silk thread",
       "note": "多音字，可讀「lun/guan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鞚",
@@ -7995,7 +9257,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "簫",
@@ -8005,7 +9269,9 @@
       "en": "xiao, a vertical bamboo flute",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遝",
@@ -8015,7 +9281,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "逡",
@@ -8025,7 +9293,9 @@
       "en": "to withdraw, to retreat, to fall back",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蘋",
@@ -8035,7 +9305,9 @@
       "en": "clover fern (Marsilea quadrifolia)",
       "note": "多音字，可讀「pin/ping」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "丞",
@@ -8045,7 +9317,9 @@
       "en": "deputy",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嗔",
@@ -8055,7 +9329,9 @@
       "en": "to be angry at；to be displeased and annoyed",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "輦",
@@ -8065,7 +9341,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嚼",
@@ -8075,7 +9353,9 @@
       "en": "to chew；also pr. [jue2]",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "齧",
@@ -8085,7 +9365,9 @@
       "en": "to bite, to gnaw; to erode, to wear down",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "皓",
@@ -8095,7 +9377,9 @@
       "en": "(bound form) bright; luminous; white (esp. bright white teeth of youth or white hair of old age)；spotlessly white",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "玦",
@@ -8105,7 +9389,9 @@
       "en": "penannular jade pendant",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衢",
@@ -8115,7 +9401,9 @@
       "en": "thoroughfare",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "橐",
@@ -8125,7 +9413,9 @@
       "en": "sack；tube open at both ends；(onom.) footsteps",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剺",
@@ -8135,7 +9425,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "栖",
@@ -8145,7 +9437,9 @@
       "en": "to perch；to rest (of birds)；to dwell",
       "note": "多音字，可讀「qi/xi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鄹",
@@ -8155,7 +9449,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "否",
@@ -8165,7 +9461,9 @@
       "en": "to negate；to deny；not",
       "note": "多音字，可讀「fou/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "楹",
@@ -8175,7 +9473,9 @@
       "en": "pillar",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "勃",
@@ -8185,7 +9485,9 @@
       "en": "flourishing；prosperous；suddenly",
       "note": "多音字，可讀「bo/bei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "佺",
@@ -8195,7 +9497,9 @@
       "en": "immortal",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "庾",
@@ -8205,7 +9509,9 @@
       "en": "surname Yu；name of a mountain",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "磬",
@@ -8215,7 +9521,9 @@
       "en": "chime stones, ancient percussion instrument made of stone or jade pieces hung in a row and struck as a xylophone",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "省",
@@ -8225,7 +9533,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "聯",
@@ -8235,7 +9545,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "挹",
@@ -8245,7 +9557,9 @@
       "en": "(literary) to scoop up; to ladle out；(literary) to draw toward oneself",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "濬",
@@ -8255,7 +9569,9 @@
       "en": null,
       "note": "多音字，可讀「jun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "渚",
@@ -8265,7 +9581,9 @@
       "en": "islet；bank",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鄜",
@@ -8275,7 +9593,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鬟",
@@ -8285,7 +9605,9 @@
       "en": "to dress the hair in a coiled knot; maid",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臂",
@@ -8295,7 +9617,9 @@
       "en": "arm",
       "note": "多音字，可讀「bi/bei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "乾",
@@ -8305,7 +9629,9 @@
       "en": "surname Qian；one of the Eight Trigrams 八卦[ba1 gua4], symbolizing heaven；male principle",
       "note": "多音字，可讀「qian/gan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "珂",
@@ -8315,7 +9641,9 @@
       "en": "jade-like stone",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "掾",
@@ -8325,7 +9653,9 @@
       "en": "official",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "魑",
@@ -8335,7 +9665,9 @@
       "en": "a mountain demon resembling a tiger",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "魅",
@@ -8345,7 +9677,9 @@
       "en": "magic, enchantment, charm; a forest demon",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "汨",
@@ -8355,7 +9689,9 @@
       "en": "name of a river, the southern tributary of Miluo river 汨羅江|汨罗江[Mi4 luo2 jiang1]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "謳",
@@ -8365,7 +9701,9 @@
       "en": "to sing；ballad；folk song",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "旅",
@@ -8375,7 +9713,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "檣",
@@ -8385,7 +9725,9 @@
       "en": "boom；mast",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "坼",
@@ -8395,7 +9737,9 @@
       "en": "to crack；to split；to break",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泗",
@@ -8405,7 +9749,9 @@
       "en": "river in Shandong；nasal mucus",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "輞",
@@ -8415,7 +9761,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "潺",
@@ -8425,7 +9773,9 @@
       "en": "flow；trickle (of water)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湲",
@@ -8435,7 +9785,9 @@
       "en": "rushing (water)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蓮",
@@ -8445,7 +9797,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "毒",
@@ -8455,7 +9809,9 @@
       "en": "poison；to poison；poisonous",
       "note": "多音字，可讀「du/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "梓",
@@ -8465,7 +9821,9 @@
       "en": "Chinese catalpa (Catalpa ovata), a tree that serves as a symbol of one's hometown and whose wood is used to make various items；(bound form) printing blocks",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "杪",
@@ -8475,7 +9833,9 @@
       "en": "the limit；tip of branch",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "橦",
@@ -8485,7 +9845,9 @@
       "en": null,
       "note": "多音字，可讀「tong/chuang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "峴",
@@ -8495,7 +9857,9 @@
       "en": "abbr. for 峴首山|岘首山[Xian4 shou3 shan1]；Mt Xianshou in Hubei；steep hill",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祗",
@@ -8505,7 +9869,9 @@
       "en": "respectful (ly)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "壘",
@@ -8515,7 +9881,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "莓",
@@ -8525,7 +9893,9 @@
       "en": "(bound form) berry (e.g. strawberry, blackberry, loganberry)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "潸",
@@ -8535,7 +9905,9 @@
       "en": "tearfully",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "梵",
@@ -8545,7 +9917,9 @@
       "en": "abbr. for 梵教[Fan4 jiao4] Brahmanism；abbr. for Sanskrit 梵語|梵语[Fan4 yu3] or 梵文[Fan4 wen2]；abbr. for 梵蒂岡|梵蒂冈[Fan4 di4 gang1], the Vatican",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "薜",
@@ -8555,7 +9929,9 @@
       "en": "Ficus pumila",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鷺",
@@ -8565,7 +9941,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "翃",
@@ -8575,7 +9953,9 @@
       "en": "to swarm (of insects)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "杵",
@@ -8585,7 +9965,9 @@
       "en": "pestle；to poke",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羈",
@@ -8595,7 +9977,9 @@
       "en": "bridle；halter；to restrain",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "凜",
@@ -8605,7 +9989,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "銖",
@@ -8615,7 +10001,9 @@
       "en": "a unit of weight, about 1 gram",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蕃",
@@ -8625,7 +10013,9 @@
       "en": "foreign (non-Chinese)；luxuriant；flourishing",
       "note": "多音字，可讀「fan/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "萋",
@@ -8635,7 +10025,9 @@
       "en": "Celosia argentea；luxuriant",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繫",
@@ -8645,7 +10037,9 @@
       "en": "to connect；to arrest；to worry",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "潼",
@@ -8655,7 +10049,9 @@
       "en": "high；name of a pass",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "檻",
@@ -8665,7 +10061,9 @@
       "en": "banister；balustrade；cage for animal or prisoner",
       "note": "多音字，可讀「jian/kan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "崦",
@@ -8675,7 +10073,9 @@
       "en": "name of a mountain in Gansu",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "筠",
@@ -8685,7 +10085,9 @@
       "en": "skin of bamboo",
       "note": "多音字，可讀「yun/jun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "郢",
@@ -8695,7 +10097,9 @@
       "en": "a state in Hubei province",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "喬",
@@ -8705,7 +10109,9 @@
       "en": "surname Qiao；tall",
       "note": "多音字，可讀「qiao/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "塚",
@@ -8715,7 +10121,9 @@
       "en": "burial mound (variant of 冢[zhong3])",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "矰",
@@ -8725,7 +10133,9 @@
       "en": "arrow with a streamer",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繳",
@@ -8735,7 +10145,9 @@
       "en": "to hand in; to hand over; to pay；to capture (weapons); to seize",
       "note": "多音字，可讀「jiao/zhuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "荀",
@@ -8745,7 +10157,9 @@
       "en": "surname Xun；(archaic) name of a plant mentioned in ancient texts；name of a state that existed during the Zhou dynasty in present-day Shanxi",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嬋",
@@ -8755,7 +10169,9 @@
       "en": "beautiful, graceful, lovely, pretty",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "慵",
@@ -8765,7 +10181,9 @@
       "en": "lethargic",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "顥",
@@ -8775,7 +10193,9 @@
       "en": "bright, luminous; white, hoary",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鸚",
@@ -8785,7 +10205,9 @@
       "en": "parrot",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鵡",
@@ -8795,7 +10217,9 @@
       "en": "species of parrot",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "岧",
@@ -8805,7 +10229,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嶢",
@@ -8815,7 +10241,9 @@
       "en": "high；steep；to tower",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "削",
@@ -8825,7 +10253,9 @@
       "en": "to peel with a knife；to pare；to cut (a ball at tennis etc)",
       "note": "多音字，可讀「xiao/xue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祠",
@@ -8835,7 +10265,9 @@
       "en": "shrine；to offer a sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "畤",
@@ -8845,7 +10277,9 @@
       "en": "ancient sacrifice",
       "note": "多音字，可讀「zhi/chou/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "彭",
@@ -8855,7 +10289,9 @@
       "en": "surname Peng",
       "note": "多音字，可讀「peng/bang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "囀",
@@ -8865,7 +10301,9 @@
       "en": "to sing (of birds or insects)；to warble；to chirp",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "珮",
@@ -8875,7 +10313,9 @@
       "en": "girdle ornaments",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "幘",
@@ -8885,7 +10325,9 @@
       "en": "turban；head-covering",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "旒",
@@ -8895,7 +10337,9 @@
       "en": "tassel",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "袞",
@@ -8905,7 +10349,9 @@
       "en": "imperial robe",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鑾",
@@ -8915,7 +10361,9 @@
       "en": "bells hung on a horse; imperial",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宸",
@@ -8925,7 +10373,9 @@
       "en": "imperial apartments",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "餉",
@@ -8935,7 +10385,9 @@
       "en": "rations and pay for soldiers",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "菑",
@@ -8945,7 +10397,9 @@
       "en": "surname Zi；(archaic) field recently opened for cultivation；(literary) to weed",
       "note": "多音字，可讀「zi/zai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "鸝",
@@ -8955,7 +10409,9 @@
       "en": "Chinese oriole; Oriolus oriolus",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "槿",
@@ -8965,7 +10421,9 @@
       "en": "Hibiscus syriacus；transient",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "闈",
@@ -8975,7 +10433,9 @@
       "en": "gate, door; living quarters",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "飧",
@@ -8985,7 +10445,9 @@
       "en": "dinner, supper; cooked food",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "醅",
@@ -8995,7 +10457,9 @@
       "en": "unstrained spirits",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "涓",
@@ -9005,7 +10469,9 @@
       "en": "surname Juan；brook；to select",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "潦",
@@ -9015,7 +10481,9 @@
       "en": "flooded；heavy rain",
       "note": "多音字，可讀「liao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蠟",
@@ -9025,7 +10493,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "荏",
@@ -9035,7 +10505,9 @@
       "en": "beefsteak plant (Perilla frutescens)；soft；weak",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "俜",
@@ -9045,7 +10517,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "霽",
@@ -9055,7 +10529,9 @@
       "en": "to subside; to clear up after a storm; to stop being angry",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羯",
@@ -9065,7 +10541,9 @@
       "en": "Jie people, a tribe of northern China around the 4th century；ram, esp. gelded；to castrate",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泯",
@@ -9075,7 +10553,9 @@
       "en": "(bound form) to vanish; to die out; to obliterate",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "杉",
@@ -9085,7 +10565,9 @@
       "en": "China fir；Cunninghamia lanceolata；also pr. [sha1]",
       "note": "多音字，可讀「shan/sha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "臘",
@@ -9095,7 +10577,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祀",
@@ -9105,7 +10589,9 @@
       "en": "to sacrifice；to offer libation to",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "伯",
@@ -9115,7 +10601,9 @@
       "en": "father's elder brother；senior；paternal elder uncle",
       "note": "多音字，可讀「bo/bai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "呂",
@@ -9125,7 +10613,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祚",
@@ -9135,7 +10625,9 @@
       "en": "blessing；the throne",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "員",
@@ -9145,7 +10637,9 @@
       "en": "(bound form) person engaged in a certain field of activity；(bound form) member；classifier for military generals",
       "note": "多音字，可讀「yuan/yun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "媿",
@@ -9155,7 +10649,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "儋",
@@ -9165,7 +10661,9 @@
       "en": "carry",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亡",
@@ -9175,7 +10673,9 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "俸",
@@ -9185,7 +10685,9 @@
       "en": "(bound form) salary; stipend",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "竇",
@@ -9195,7 +10697,9 @@
       "en": "surname Dou；(literary) hole; aperture；(anatomy) cavity; sinus",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "颭",
@@ -9205,7 +10709,9 @@
       "en": "to sway in the wind",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "降",
@@ -9215,7 +10721,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "旛",
@@ -9225,7 +10733,9 @@
       "en": "pennant",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稹",
@@ -9235,7 +10745,9 @@
       "en": "to accumulate；fine and close",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藎",
@@ -9245,7 +10757,9 @@
       "en": "Arthraxon ciliare；loyal",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "篋",
@@ -9255,7 +10769,9 @@
       "en": "chest；box；trunk",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藿",
@@ -9265,7 +10781,9 @@
       "en": "Lophanthus rugosus；beans",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "攸",
@@ -9275,7 +10793,9 @@
       "en": "distant, far；adverbial prefix",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "窅",
@@ -9285,7 +10805,9 @@
       "en": "sunken eyes；deep and hollow；remote and obscure",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邽",
@@ -9295,7 +10817,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藍",
@@ -9305,7 +10829,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "惘",
@@ -9315,7 +10841,9 @@
       "en": "disappointed；perplexed",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "辰",
@@ -9325,7 +10853,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "隋",
@@ -9335,7 +10865,9 @@
       "en": "the Sui dynasty; surname",
       "note": "多音字，可讀「sui/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "璽",
@@ -9345,7 +10877,9 @@
       "en": "ruler's seal",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "籠",
@@ -9355,7 +10889,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "麝",
@@ -9365,7 +10901,9 @@
       "en": "musk deer",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蟾",
@@ -9375,7 +10913,9 @@
       "en": "toad (\"chán\" represents the sound of its croaking)；(mythology) the three-legged toad said to exist in the moon；(metonym) the moon",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宓",
@@ -9385,7 +10925,9 @@
       "en": "surname Mi；still；silent",
       "note": "多音字，可讀「mi/fu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "忝",
@@ -9395,7 +10937,9 @@
       "en": "to shame",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "袷",
@@ -9405,7 +10949,9 @@
       "en": "lined garment",
       "note": "多音字，可讀「jia/qia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "晼",
@@ -9415,7 +10961,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璫",
@@ -9425,7 +10973,9 @@
       "en": "(literary) pendant ornament；earring；eunuch",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "尾",
@@ -9435,7 +10985,9 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "騅",
@@ -9445,7 +10997,9 @@
       "en": "piebald horse",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蠡",
@@ -9455,7 +11009,9 @@
       "en": "calabash；wood-boring insect",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "漏",
@@ -9465,7 +11021,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "髻",
@@ -9475,7 +11033,9 @@
       "en": "bun, topknot",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "韜",
@@ -9485,7 +11045,9 @@
       "en": "sheath, scabbard, bow case",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瑁",
@@ -9495,7 +11057,9 @@
       "en": "(jade)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "篁",
@@ -9505,7 +11069,9 @@
       "en": "(bamboo)；bamboo grove",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "擷",
@@ -9515,7 +11081,9 @@
       "en": "to collect；Taiwan pr. [jie2]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鸛",
@@ -9525,7 +11093,9 @@
       "en": "crane, stork; Ciconia species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "杳",
@@ -9535,7 +11105,9 @@
       "en": "dark and quiet；disappear",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "笠",
@@ -9545,7 +11117,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泠",
@@ -9555,7 +11129,9 @@
       "en": "surname Ling；sound of water flowing",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "箏",
@@ -9565,7 +11141,9 @@
       "en": "see 古箏|古筝[gu3 zheng1]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諳",
@@ -9575,7 +11153,9 @@
       "en": "to be versed in；to know well",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蟢",
@@ -9585,7 +11165,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "簑",
@@ -9595,7 +11177,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "螘",
@@ -9605,7 +11189,9 @@
       "en": "ant",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祜",
@@ -9615,7 +11201,9 @@
       "en": "celestial blessing",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鷲",
@@ -9625,7 +11213,9 @@
       "en": "condor, vulture",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "翎",
@@ -9635,7 +11225,9 @@
       "en": "tail feathers；plume",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蝥",
@@ -9645,7 +11237,9 @@
       "en": "Spanish fly; grain-eating grub",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稜",
@@ -9655,7 +11249,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "磯",
@@ -9665,7 +11261,9 @@
       "en": "breakwater；jetty",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "茱",
@@ -9675,7 +11273,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "萸",
@@ -9685,7 +11285,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "笙",
@@ -9695,7 +11297,9 @@
       "en": "sheng, a free reed wind instrument with vertical bamboo pipes",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嬪",
@@ -9705,7 +11309,9 @@
       "en": "imperial concubine",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蜻",
@@ -9715,7 +11321,9 @@
       "en": "see 蜻蜓[qing1 ting2]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蜓",
@@ -9725,7 +11333,9 @@
       "en": "see 蜻蜓[qing1 ting2]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "窠",
@@ -9735,7 +11345,9 @@
       "en": "nest",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "燄",
@@ -9745,7 +11357,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "籙",
@@ -9755,7 +11369,9 @@
       "en": "record book; archive；Taoist written charm；document of prophecy attesting to dynastic fortunes",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "娉",
@@ -9765,7 +11381,9 @@
       "en": "beautiful, charming, graceful",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嫋",
@@ -9775,7 +11393,9 @@
       "en": "delicate；graceful",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蔻",
@@ -9785,7 +11405,9 @@
       "en": "nutmeg, cardamom",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "梢",
@@ -9795,7 +11417,9 @@
       "en": "tip of branch",
       "note": "多音字，可讀「shao/sao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嫦",
@@ -9805,7 +11429,9 @@
       "en": "a moon goddess, the lady in the moon",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "畋",
@@ -9815,7 +11441,9 @@
       "en": "to cultivate (land)；to hunt",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "偓",
@@ -9825,7 +11453,9 @@
       "en": "constrained",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貂",
@@ -9835,7 +11465,9 @@
       "en": "sable or marten (genus Martes)",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泌",
@@ -9845,7 +11477,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "廊",
@@ -9855,7 +11489,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "浥",
@@ -9865,7 +11501,9 @@
       "en": "damp；moist",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "仞",
@@ -9875,7 +11513,9 @@
       "en": "unit of length used in ancient times, equal to 7 or 8 Chinese feet 尺[chi3]",
       "note": null,
       "is_difficult": true,
-      "src": "唐诗三百首"
+      "src": "唐诗三百首",
+      "multi": false,
+      "rare": true
     }
   ]
 }

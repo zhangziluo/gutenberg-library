@@ -2215,7 +2215,9 @@
       "en": "a book；a register；account-book",
       "note": "多音字，可讀「bo/bu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -2225,7 +2227,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "妍",
@@ -2235,7 +2239,9 @@
       "en": "beautiful",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "媸",
@@ -2245,7 +2251,9 @@
       "en": "ugly woman",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "其",
@@ -2255,7 +2263,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "數",
@@ -2265,7 +2275,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "枝",
@@ -2275,7 +2287,9 @@
       "en": "branch；classifier for sticks, rods, pencils etc",
       "note": "多音字，可讀「zhi/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "不",
@@ -2285,7 +2299,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "女",
@@ -2295,7 +2311,9 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "都",
@@ -2305,7 +2323,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惡",
@@ -2315,7 +2335,9 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拗",
@@ -2325,7 +2347,9 @@
       "en": "(dialect) to twist; to bend (in order to break sth or form it into a shape)；(bound form) intractable; contrary; disobedient",
       "note": "多音字，可讀「ao/niu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "嗔",
@@ -2335,7 +2359,9 @@
       "en": "to be angry at；to be displeased and annoyed",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "說",
@@ -2345,7 +2371,9 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "強",
@@ -2355,7 +2383,9 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "撮",
@@ -2365,7 +2395,9 @@
       "en": "to pick up (a powder etc) with the fingertips；to scoop up；to collect together",
       "note": "多音字，可讀「cuo/zuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "合",
@@ -2375,7 +2407,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "的",
@@ -2385,7 +2419,9 @@
       "en": "of; ~'s (possessive particle)；(used after an attribute when it modifies a noun)；(used at the end of a declarative sentence for emphasis)",
       "note": "多音字，可讀「de/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仇",
@@ -2395,7 +2431,9 @@
       "en": "hatred；animosity；enmity",
       "note": "多音字，可讀「chou/qiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繫",
@@ -2405,7 +2443,9 @@
       "en": "to connect；to arrest；to worry",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "便",
@@ -2415,7 +2455,9 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "朝",
@@ -2425,7 +2467,9 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "縣",
@@ -2435,7 +2479,9 @@
       "en": "county；(Japan) prefecture",
       "note": "多音字，可讀「xian/xuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "曾",
@@ -2445,7 +2491,9 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "親",
@@ -2455,7 +2503,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "乾",
@@ -2465,7 +2515,9 @@
       "en": "surname Qian；one of the Eight Trigrams 八卦[ba1 gua4], symbolizing heaven；male principle",
       "note": "多音字，可讀「qian/gan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "和",
@@ -2475,7 +2527,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "氏",
@@ -2485,7 +2539,9 @@
       "en": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")；(bound form) maiden name; née (as in 李王氏[Li3 Wang2 shi4] \"Mrs. Li, née Wang\")；(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "得",
@@ -2495,7 +2551,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "了",
@@ -2505,7 +2563,9 @@
       "en": "to finish；(used with 得[de2] or 不[bu4] after a verb to express (im)possibility, as in 忘不了[wang4 bu5 liao3] \"cannot forget\")；(literary) (usually followed by a negative such as 無|无[wu2] or 不[bu4]) completely (not); entirely (not); (not) in the least",
       "note": "多音字，可讀「le/liao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "六",
@@ -2515,7 +2575,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "噴",
@@ -2525,7 +2587,9 @@
       "en": "to spout; to spurt; to spray; to puff；(slang) to criticize scathingly (esp. online)；(of a smell) strong",
       "note": "多音字，可讀「pen/fen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "信",
@@ -2535,7 +2599,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "那",
@@ -2545,7 +2611,9 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "廩",
@@ -2555,7 +2623,9 @@
       "en": "government granary",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "且",
@@ -2565,7 +2635,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "般",
@@ -2575,7 +2647,9 @@
       "en": "sort；kind；class",
       "note": "多音字，可讀「ban/bo/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "家",
@@ -2585,7 +2659,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "些",
@@ -2595,7 +2671,9 @@
       "en": "classifier indicating a small amount or small number greater than 1: some, a few, several",
       "note": "多音字，可讀「xie/suo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "還",
@@ -2605,7 +2683,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "見",
@@ -2615,7 +2695,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "能",
@@ -2625,7 +2707,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "省",
@@ -2635,7 +2719,9 @@
       "en": "to save; to economize; to be frugal；to omit; to delete; to leave out；province",
       "note": "多音字，可讀「sheng/xing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "差",
@@ -2645,7 +2731,9 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "大",
@@ -2655,7 +2743,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "底",
@@ -2665,7 +2755,9 @@
       "en": "bottom; base；background; foundation；copy (of a manuscript or receipt etc) kept as a record",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "長",
@@ -2675,7 +2767,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -2685,7 +2779,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "阿",
@@ -2695,7 +2791,9 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "熟",
@@ -2705,7 +2803,9 @@
       "en": "ripe; mature；thoroughly cooked; done；familiar; acquainted",
       "note": "多音字，可讀「shu/shou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -2715,7 +2815,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沒",
@@ -2725,7 +2827,9 @@
       "en": "(negative prefix for verbs) have not; not",
       "note": "多音字，可讀「mei/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "南",
@@ -2735,7 +2839,9 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "句",
@@ -2745,7 +2851,9 @@
       "en": "sentence；clause；phrase",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "孫",
@@ -2755,7 +2863,9 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "地",
@@ -2765,7 +2875,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "景",
@@ -2775,7 +2887,9 @@
       "en": "surname Jing；(bound form) scenery；circumstance",
       "note": "多音字，可讀「jing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弟",
@@ -2785,7 +2899,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "閒",
@@ -2795,7 +2911,9 @@
       "en": "leisure, idle time; tranquil, peaceful, calm",
       "note": "多音字，可讀「xian/jian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "著",
@@ -2805,7 +2923,9 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "庵",
@@ -2815,7 +2935,9 @@
       "en": "hut；small temple；nunnery",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "會",
@@ -2825,7 +2947,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "竇",
@@ -2835,7 +2959,9 @@
       "en": "surname Dou；(literary) hole; aperture；(anatomy) cavity; sinus",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "被",
@@ -2845,7 +2971,9 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "約",
@@ -2855,7 +2983,9 @@
       "en": "to make an appointment；to invite；approximately",
       "note": "多音字，可讀「yue/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鶯",
@@ -2865,7 +2995,9 @@
       "en": "oriole, green finch; Sylvia species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弄",
@@ -2875,7 +3007,9 @@
       "en": "to do；to manage；to handle",
       "note": "多音字，可讀「nong/long」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "佛",
@@ -2885,7 +3019,9 @@
       "en": "Buddha; Buddhism (abbr. for 佛陀[Fo2 tuo2])",
       "note": "多音字，可讀「fo/fu/bi/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "似",
@@ -2895,7 +3031,9 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鬢",
@@ -2905,7 +3043,9 @@
       "en": "hair on temples",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "若",
@@ -2915,7 +3055,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洗",
@@ -2925,7 +3067,9 @@
       "en": "to wash; to bathe；to develop (photographs)；to shuffle (cards etc)",
       "note": "多音字，可讀「xi/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "什",
@@ -2935,7 +3079,9 @@
       "en": "what",
       "note": "多音字，可讀「shen/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "麼",
@@ -2945,7 +3091,9 @@
       "en": "interrogative particle",
       "note": "多音字，可讀「mo/me」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "戲",
@@ -2955,7 +3103,9 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奇",
@@ -2965,7 +3115,9 @@
       "en": "strange；odd；weird",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "柏",
@@ -2975,7 +3127,9 @@
       "en": "surname Bai；Taiwan pr. [Bo2]；cedar",
       "note": "多音字，可讀「bai/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "盛",
@@ -2985,7 +3139,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "倘",
@@ -2995,7 +3151,9 @@
       "en": "if; supposing; in case",
       "note": "多音字，可讀「tang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "罷",
@@ -3005,7 +3163,9 @@
       "en": "to stop；to cease；to dismiss",
       "note": "多音字，可讀「ba/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "思",
@@ -3015,7 +3175,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "覺",
@@ -3025,7 +3187,9 @@
       "en": "to feel；to find that；thinking",
       "note": "多音字，可讀「jue/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "妾",
@@ -3035,7 +3199,9 @@
       "en": "concubine；I, your servant (deprecatory self-reference for women)",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齊",
@@ -3045,7 +3211,9 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "叩",
@@ -3055,7 +3223,9 @@
       "en": "to knock；to kowtow；to knock",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "旁",
@@ -3065,7 +3235,9 @@
       "en": "one side；other；different",
       "note": "多音字，可讀「pang/bang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "擇",
@@ -3075,7 +3247,9 @@
       "en": "to select；to choose；to pick over",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "番",
@@ -3085,7 +3259,9 @@
       "en": "(bound form) foreign (non-Chinese); barbarian；classifier for processes or actions that take time and effort；(classifier) a kind; a sort",
       "note": "多音字，可讀「fan/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "薄",
@@ -3095,7 +3271,9 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "落",
@@ -3105,7 +3283,9 @@
       "en": "to fall or drop；(of the sun) to set；(of a tide) to go out",
       "note": "多音字，可讀「luo/la/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "重",
@@ -3115,7 +3295,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "追",
@@ -3125,7 +3307,9 @@
       "en": "to pursue, to chase after; to expel",
       "note": "多音字，可讀「zhui/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拾",
@@ -3135,7 +3319,9 @@
       "en": "to pick up；to collate or arrange；ten (banker's anti-fraud numeral)",
       "note": "多音字，可讀「shi/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "召",
@@ -3145,7 +3331,9 @@
       "en": "to call together；to summon；to convene",
       "note": "多音字，可讀「zhao/shao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "殯",
@@ -3155,7 +3343,9 @@
       "en": "a funeral；to encoffin a corpse；to carry to burial",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殮",
@@ -3165,7 +3355,9 @@
       "en": "to prepare a dead body for coffin",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "度",
@@ -3175,7 +3367,9 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "折",
@@ -3185,7 +3379,9 @@
       "en": "to turn sth over；to turn upside down；to tip sth out (of a container)",
       "note": "多音字，可讀「zhe/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "適",
@@ -3195,7 +3391,9 @@
       "en": "match, comfortable; just",
       "note": "多音字，可讀「shi/di/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "紅",
@@ -3205,7 +3403,9 @@
       "en": "surname Hong；red；popular",
       "note": "多音字，可讀「hong/gong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "呢",
@@ -3215,7 +3415,9 @@
       "en": "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")；(sentence-final particle) indicating that a state or situation still holds；(discourse particle) used to mark a slight pause or emphasis in speech",
       "note": "多音字，可讀「ne/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "揣",
@@ -3225,7 +3427,9 @@
       "en": "to put into (one's pockets, clothes)；Taiwan pr. [chuai3]；to estimate",
       "note": "多音字，可讀「chuai/tuan/zhui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "霎",
@@ -3235,7 +3439,9 @@
       "en": "drizzle, light rain; fleeting, passing",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "褪",
@@ -3245,7 +3451,9 @@
       "en": "to take off (clothes); to shed (feathers)；(of color) to fade；(fig.) (of emotions, awareness etc) to fade",
       "note": "多音字，可讀「tui/tun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "尺",
@@ -3255,7 +3463,9 @@
       "en": "a Chinese foot；one-third of a meter；a ruler",
       "note": "多音字，可讀「chi/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "莫",
@@ -3265,7 +3475,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "卦",
@@ -3275,7 +3487,9 @@
       "en": "divinatory diagram；one of the eight divinatory trigrams of the Book of Changes 易經|易经[Yi4 jing1]；one of the sixty-four divinatory hexagrams of the Book of Changes 易經|易经[Yi4 jing1]",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "疑",
@@ -3285,7 +3499,9 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "慇",
@@ -3295,7 +3511,9 @@
       "en": "solicitous",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "懃",
@@ -3305,7 +3523,9 @@
       "en": "(literary) diligent; industrious; hardworking (variant of 勤[qin2])；(literary) solicitous; attentive",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "否",
@@ -3315,7 +3535,9 @@
       "en": "to negate；to deny；not",
       "note": "多音字，可讀「fou/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "杳",
@@ -3325,7 +3547,9 @@
       "en": "dark and quiet；disappear",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "畜",
@@ -3335,7 +3559,9 @@
       "en": "livestock；domesticated animal；domestic animal",
       "note": "多音字，可讀「chu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "跎",
@@ -3345,7 +3571,9 @@
       "en": "to stumble；to waste time",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乘",
@@ -3355,7 +3583,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "衲",
@@ -3365,7 +3595,9 @@
       "en": "cassock；to line",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "色",
@@ -3375,7 +3607,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宿",
@@ -3385,7 +3619,9 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "喃",
@@ -3395,7 +3631,9 @@
       "en": "mumble in repetition",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閂",
@@ -3405,7 +3643,9 @@
       "en": "bolt, latch, crossbar",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "識",
@@ -3415,7 +3655,9 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "囉",
@@ -3425,7 +3667,9 @@
       "en": "(final exclamatory particle)",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "唣",
@@ -3435,7 +3679,9 @@
       "en": "chatter",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "姪",
@@ -3445,7 +3691,9 @@
       "en": "brother's son; nephew",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "傳",
@@ -3455,7 +3703,9 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仃",
@@ -3465,7 +3715,9 @@
       "en": "lonely, solitary",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "榻",
@@ -3475,7 +3727,9 @@
       "en": "couch",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "黌",
@@ -3485,7 +3739,9 @@
       "en": "school",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "喝",
@@ -3495,7 +3751,9 @@
       "en": "to drink；to shout",
       "note": "多音字，可讀「he/ye」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "勃",
@@ -3505,7 +3763,9 @@
       "en": "flourishing；prosperous；suddenly",
       "note": "多音字，可讀「bo/bei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "忖",
@@ -3515,7 +3775,9 @@
       "en": "to ponder；to speculate；to consider",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瞞",
@@ -3525,7 +3787,9 @@
       "en": "to conceal from；to keep (sb) in the dark",
       "note": "多音字，可讀「man/men」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "亡",
@@ -3535,7 +3799,9 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "姊",
@@ -3545,7 +3811,9 @@
       "en": "older sister；Taiwan pr. [jie3]",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "血",
@@ -3555,7 +3823,9 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "趣",
@@ -3565,7 +3835,9 @@
       "en": "interesting；to interest",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "咽",
@@ -3575,7 +3847,9 @@
       "en": "throat; pharynx；narrow pass；to swallow",
       "note": "多音字，可讀「yan/ye」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "荏",
@@ -3585,7 +3859,9 @@
       "en": "beefsteak plant (Perilla frutescens)；soft；weak",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "苒",
@@ -3595,7 +3871,9 @@
       "en": "luxuriant growth；passing (of time)",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "柩",
@@ -3605,7 +3883,9 @@
       "en": "bier",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鬟",
@@ -3615,7 +3895,9 @@
       "en": "to dress the hair in a coiled knot; maid",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淨",
@@ -3625,7 +3907,9 @@
       "en": "clean；completely；only",
       "note": "多音字，可讀「jing/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "誰",
@@ -3635,7 +3919,9 @@
       "en": "who；also pr. [shui2]",
       "note": "多音字，可讀「shui/shei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "提",
@@ -3645,7 +3931,9 @@
       "en": "to carry (hanging down from the hand)；to lift；to put forward",
       "note": "多音字，可讀「ti/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "側",
@@ -3655,7 +3943,9 @@
       "en": "the side；to incline towards；to lean",
       "note": "多音字，可讀「ce/ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "縮",
@@ -3665,7 +3955,9 @@
       "en": "to withdraw；to pull back；to contract",
       "note": "多音字，可讀「suo/su」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仔",
@@ -3675,7 +3967,9 @@
       "en": "(dialect) (bound form) young man",
       "note": "多音字，可讀「zai/zi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "解",
@@ -3685,7 +3979,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稱",
@@ -3695,7 +3991,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "攢",
@@ -3705,7 +4003,9 @@
       "en": "to collect；to hoard；to accumulate",
       "note": "多音字，可讀「zan/cuan/zuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "頓",
@@ -3715,7 +4015,9 @@
       "en": "to pause; to bow; to arrange",
       "note": "多音字，可讀「dun/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "粥",
@@ -3725,7 +4027,9 @@
       "en": "congee；gruel；porridge",
       "note": "多音字，可讀「zhou/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "湯",
@@ -3735,7 +4039,9 @@
       "en": "surname Tang；soup；hot or boiling water",
       "note": "多音字，可讀「tang/shang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "期",
@@ -3745,7 +4051,9 @@
       "en": "period；cycle；a period of time",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "笙",
@@ -3755,7 +4063,9 @@
       "en": "sheng, a free reed wind instrument with vertical bamboo pipes",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "樂",
@@ -3765,7 +4075,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "巹",
@@ -3775,7 +4087,9 @@
       "en": "nuptial wine cup",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愜",
@@ -3785,7 +4099,9 @@
       "en": "(literary) satisfied; content",
       "note": null,
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "芥",
@@ -3795,7 +4111,9 @@
       "en": "mustard",
       "note": "多音字，可讀「jie/gai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士"
+      "src": "第一回 假必正紅絲夙繫空門 偽妙常白首永隨學士",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "閭",
@@ -3805,7 +4123,9 @@
       "en": "a village of twenty-five families",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "伯",
@@ -3815,7 +4135,9 @@
       "en": "father's elder brother；senior；paternal elder uncle",
       "note": "多音字，可讀「bo/bai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "羊",
@@ -3825,7 +4147,9 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "育",
@@ -3835,7 +4159,9 @@
       "en": "to have children；to raise or bring up；to educate",
       "note": "多音字，可讀「yu/yo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瞑",
@@ -3845,7 +4171,9 @@
       "en": "to close (the eyes)",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "卜",
@@ -3855,7 +4183,9 @@
       "en": "surname Bu；(bound form) to divine",
       "note": "多音字，可讀「bu/bo/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "巷",
@@ -3865,7 +4195,9 @@
       "en": "lane；alley",
       "note": "多音字，可讀「xiang/hang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "偕",
@@ -3875,7 +4207,9 @@
       "en": "in company with",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亨",
@@ -3885,7 +4219,9 @@
       "en": "prosperous；henry (unit of inductance)",
       "note": "多音字，可讀「heng/peng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "爿",
@@ -3895,7 +4231,9 @@
       "en": "classifier for strips of land or bamboo, shops, factories etc；slit bamboo or chopped wood (dialect)",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澄",
@@ -3905,7 +4243,9 @@
       "en": "surname Cheng；clear；limpid",
       "note": "多音字，可讀「cheng/deng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "吁",
@@ -3915,7 +4255,9 @@
       "en": "sh；hush",
       "note": "多音字，可讀「xu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "藉",
@@ -3925,7 +4267,9 @@
       "en": "(literary) cushion; mat；(literary) to put some padding underneath",
       "note": "多音字，可讀「jie/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "搶",
@@ -3935,7 +4279,9 @@
       "en": "(literary) to knock against (esp. to knock one's head on the ground in grief or rage)；opposite in direction; contrary；to fight over",
       "note": "多音字，可讀「qiang/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "休",
@@ -3945,7 +4291,9 @@
       "en": "surname Xiu；to rest；to stop doing sth for a period of time",
       "note": "多音字，可讀「xiu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "攛",
@@ -3955,7 +4303,9 @@
       "en": "rush；stir up；throw",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "尿",
@@ -3965,7 +4315,9 @@
       "en": "to urinate；urine；CL:泡[pao1]",
       "note": "多音字，可讀「niao/sui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "屙",
@@ -3975,7 +4327,9 @@
       "en": "(dialect) to excrete (urine or feces)",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "醮",
@@ -3985,7 +4339,9 @@
       "en": "to anoint, to perform a rite; Daoist or Buddhist ceremony",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "單",
@@ -3995,7 +4351,9 @@
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "食",
@@ -4005,7 +4363,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "毒",
@@ -4015,7 +4375,9 @@
       "en": "poison；to poison；poisonous",
       "note": "多音字，可讀「du/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "廝",
@@ -4025,7 +4387,9 @@
       "en": "(bound form) together; each other；(bound form) male servant；(bound form) dude; so-and-so (used in 那廝|那厮[na4 si1] and 這廝|这厮[zhe4 si1])",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剝",
@@ -4035,7 +4399,9 @@
       "en": "to peel；to skin；to shell",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "捺",
@@ -4045,7 +4411,9 @@
       "en": "to press down firmly；to suppress；right-falling stroke in Chinese characters (e.g. the last stroke of 大[da4])",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扒",
@@ -4055,7 +4423,9 @@
       "en": "to peel；to skin；to tear",
       "note": "多音字，可讀「ba/pa」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "樵",
@@ -4065,7 +4435,9 @@
       "en": "firewood；gather wood",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扁",
@@ -4075,7 +4447,9 @@
       "en": "flat；(coll.) to beat (sb) up",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "藏",
@@ -4085,7 +4459,9 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "刎",
@@ -4095,7 +4471,9 @@
       "en": "cut across (throat)",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "裳",
@@ -4105,7 +4483,9 @@
       "en": "lower garment；skirts；petticoats",
       "note": "多音字，可讀「shang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "跳",
@@ -4115,7 +4495,9 @@
       "en": "to jump；to hop；to skip over",
       "note": "多音字，可讀「tiao/tao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "抹",
@@ -4125,7 +4507,9 @@
       "en": "to smear；to wipe；to erase",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "勒",
@@ -4135,7 +4519,9 @@
       "en": "(literary) bridle; halter; headstall；to rein in；to compel; to force",
       "note": "多音字，可讀「le/lei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "扛",
@@ -4145,7 +4531,9 @@
       "en": "to carry on one's shoulder；(fig.) to take on (a burden, duty etc)",
       "note": "多音字，可讀「kang/gang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "冥",
@@ -4155,7 +4543,9 @@
       "en": "dark；deep；stupid",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嚇",
@@ -4165,7 +4555,9 @@
       "en": "to scare；to intimidate；to threaten",
       "note": "多音字，可讀「he/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "屬",
@@ -4175,7 +4567,9 @@
       "en": "category；genus (taxonomy)；family members",
       "note": "多音字，可讀「shu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "露",
@@ -4185,7 +4579,9 @@
       "en": "dew; leak; bare, exposed; to reveal, to show",
       "note": "多音字，可讀「lu/lou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "射",
@@ -4195,7 +4591,9 @@
       "en": "to shoot；to launch；to allude to",
       "note": "多音字，可讀「she/ye/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "據",
@@ -4205,7 +4603,9 @@
       "en": "according to；to act in accordance with；to depend on",
       "note": "多音字，可讀「ju/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瞌",
@@ -4215,7 +4615,9 @@
       "en": "sleepy; to doze off",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "簷",
@@ -4225,7 +4627,9 @@
       "en": "edge, brim; the eaves of a house",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稟",
@@ -4235,7 +4639,9 @@
       "en": "to make a report (to a superior)；to give；to endow",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "丁",
@@ -4245,7 +4651,9 @@
       "en": "surname Ding；male adult；the 4th of the 10 Heavenly Stems 天干[tian1 gan1]",
       "note": "多音字，可讀「ding/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "啕",
@@ -4255,7 +4663,9 @@
       "en": "(bound form) to wail",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "誥",
@@ -4265,7 +4675,9 @@
       "en": "to enjoin；to grant (a title)",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "挈",
@@ -4275,7 +4687,9 @@
       "en": "to raise；to lift；to take along (e.g. one's family)",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "塞",
@@ -4285,7 +4699,9 @@
       "en": "to plug; to stop up; to stuff in；(bound form) a stopper; a cork；(bound form) strategic stronghold",
       "note": "多音字，可讀「sai/se」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "泮",
@@ -4295,7 +4711,9 @@
       "en": "(literary) to melt；to dissolve",
       "note": null,
       "is_difficult": true,
-      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行"
+      "src": "第二回 遭世亂咫尺拋鸞侶 成家慶天涯聚雁行",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "石",
@@ -4305,7 +4723,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "率",
@@ -4315,7 +4735,9 @@
       "en": "(bound form) ratio; rate; proportion；to lead；to command",
       "note": "多音字，可讀「lü/shuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "侑",
@@ -4325,7 +4747,9 @@
       "en": "(literary) to urge sb (to eat or drink)",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臂",
@@ -4335,7 +4759,9 @@
       "en": "arm",
       "note": "多音字，可讀「bi/bei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "捫",
@@ -4345,7 +4771,9 @@
       "en": "lay hands on；to cover",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "掰",
@@ -4355,7 +4783,9 @@
       "en": "to break off or break open sth with one's hands；(fig.) to break off (a relationship)",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貲",
@@ -4365,7 +4795,9 @@
       "en": "to estimate；to fine (archaic)",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "伉",
@@ -4375,7 +4807,9 @@
       "en": "spouse；big and tall；strong",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "儷",
@@ -4385,7 +4819,9 @@
       "en": "(bound form) paired; coupled；(bound form) husband and wife",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹉",
@@ -4395,7 +4831,9 @@
       "en": "to error；to slip；to miss",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "踱",
@@ -4405,7 +4843,9 @@
       "en": "to pace; to stroll；Taiwan pr. [duo4]",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "掮",
@@ -4415,7 +4855,9 @@
       "en": "to carry on the shoulder",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "梢",
@@ -4425,7 +4867,9 @@
       "en": "tip of branch",
       "note": "多音字，可讀「shao/sao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "啐",
@@ -4435,7 +4879,9 @@
       "en": "to spit；(onom.) pshaw!；(old) to sip",
       "note": "多音字，可讀「cui/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "琢",
@@ -4445,7 +4891,9 @@
       "en": "to cut (gems)",
       "note": "多音字，可讀「zhuo/zuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祭",
@@ -4455,7 +4903,9 @@
       "en": "to offer a sacrifice to (gods or ancestors)；(in classical novels) to recite an incantation to activate a magic weapon; to wield (sth magic)；(bound form) ceremony",
       "note": "多音字，可讀「ji/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "調",
@@ -4465,7 +4915,9 @@
       "en": "to transfer；to move (troops or cadres)；to investigate",
       "note": "多音字，可讀「diao/tiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "員",
@@ -4475,7 +4927,9 @@
       "en": "(bound form) person engaged in a certain field of activity；(bound form) member；classifier for military generals",
       "note": "多音字，可讀「yuan/yun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "忒",
@@ -4485,7 +4939,9 @@
       "en": "to err；to change",
       "note": "多音字，可讀「te/tei/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "埋",
@@ -4495,7 +4951,9 @@
       "en": "to bury",
       "note": "多音字，可讀「mai/man」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "吾",
@@ -4505,7 +4963,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "僮",
@@ -4515,7 +4975,9 @@
       "en": "servant boy",
       "note": "多音字，可讀「tong/zhuang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "恙",
@@ -4525,7 +4987,9 @@
       "en": "sickness",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泊",
@@ -4535,7 +4999,9 @@
       "en": "to moor (a boat)；to park (a vehicle)；(literary) calm; quiet; peaceful",
       "note": "多音字，可讀「bo/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蹲",
@@ -4545,7 +5011,9 @@
       "en": "to crouch；to squat；to stay (somewhere)",
       "note": "多音字，可讀「dun/cun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隊",
@@ -4555,7 +5023,9 @@
       "en": "team, group, band, army unit; measure word for groups of people",
       "note": "多音字，可讀「dui/zhui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嫋",
@@ -4565,7 +5035,9 @@
       "en": "delicate；graceful",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "娜",
@@ -4575,7 +5047,9 @@
       "en": "(phonetic na)；used esp. in female names such as Anna 安娜[An1 na4] or Diana 黛安娜[Dai4 an1 na4]",
       "note": "多音字，可讀「na/nuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "迥",
@@ -4585,7 +5059,9 @@
       "en": "distant, far; separated; different",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "模",
@@ -4595,7 +5071,9 @@
       "en": "to imitate；model；norm",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "尷",
@@ -4605,7 +5083,9 @@
       "en": "embarrassed; ill-at-ease",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "尬",
@@ -4615,7 +5095,9 @@
       "en": "(bound form) embarrassing; awkward",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "絡",
@@ -4625,7 +5107,9 @@
       "en": "net-like object；to hold sth in place with a net；to wind",
       "note": "多音字，可讀「luo/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "呵",
@@ -4635,7 +5119,9 @@
       "en": "(bound form) to scold；to expel breath；(onom.) laughter (usu. reduplicated)",
       "note": "多音字，可讀「he/a」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "憔",
@@ -4645,7 +5131,9 @@
       "en": "worn-out, haggard, emaciated",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "價",
@@ -4655,7 +5143,9 @@
       "en": "price；value；(chemistry) valence",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鸚",
@@ -4665,7 +5155,9 @@
       "en": "parrot",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "伺",
@@ -4675,7 +5167,9 @@
       "en": "to watch；to wait；to examine",
       "note": "多音字，可讀「si/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "翩",
@@ -4685,7 +5179,9 @@
       "en": "to fly fast",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澤",
@@ -4695,7 +5191,9 @@
       "en": "pool；pond；(of metals etc) luster",
       "note": "多音字，可讀「ze/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "黏",
@@ -4705,7 +5203,9 @@
       "en": "to stick to; glutinous, sticky; glue",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "捲",
@@ -4715,7 +5215,9 @@
       "en": "to roll up；to sweep up; to carry along；a roll",
       "note": "多音字，可讀「juan/quan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拆",
@@ -4725,7 +5227,9 @@
       "en": "to tear open；to tear down；to tear apart",
       "note": "多音字，可讀「chai/ca」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蓋",
@@ -4735,7 +5239,9 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仰",
@@ -4745,7 +5251,9 @@
       "en": "surname Yang；to face upward；to look up",
       "note": "多音字，可讀「yang/ang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "藿",
@@ -4755,7 +5263,9 @@
       "en": "Lophanthus rugosus；beans",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "肴",
@@ -4765,7 +5275,9 @@
       "en": "meat dishes；mixed viands",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "筵",
@@ -4775,7 +5287,9 @@
       "en": "bamboo mat for sitting",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "茗",
@@ -4785,7 +5299,9 @@
       "en": "Thea sinensis；young leaves of tea",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "奩",
@@ -4795,7 +5311,9 @@
       "en": "bridal trousseau",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "豈",
@@ -4805,7 +5323,9 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "覷",
@@ -4815,7 +5335,9 @@
       "en": "to spy；watch for",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "贐",
@@ -4825,7 +5347,9 @@
       "en": "farewell presents",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瞭",
@@ -4835,7 +5359,9 @@
       "en": "(bound form) clear in one's mind; to understand clearly；unofficial variant of 瞭[liao4]；to watch from a height or distance",
       "note": null,
       "is_difficult": true,
-      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身"
+      "src": "第三回 呆秀才志誠求偶 俏佳人感激許身",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "黛",
@@ -4845,7 +5371,9 @@
       "en": "to blacken one's eyebrows; black",
       "note": null,
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衰",
@@ -4855,7 +5383,9 @@
       "en": "(bound form) to decay; to decline; to wane",
       "note": "多音字，可讀「shuai/cui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "妃",
@@ -4865,7 +5395,9 @@
       "en": "imperial concubine",
       "note": "多音字，可讀「fei/pei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "俞",
@@ -4875,7 +5407,9 @@
       "en": "surname Yu；yes (used by Emperor or ruler)；OK",
       "note": "多音字，可讀「yu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "佻",
@@ -4885,7 +5419,9 @@
       "en": "frivolous；unsteady；delay",
       "note": null,
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "俏",
@@ -4895,7 +5431,9 @@
       "en": "good-looking；charming；(of goods) in great demand",
       "note": "多音字，可讀「qiao/xiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "篤",
@@ -4905,7 +5443,9 @@
       "en": "(bound form) sincere; genuine；(bound form) (of an illness) serious",
       "note": null,
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "婢",
@@ -4915,7 +5455,9 @@
       "en": "slave girl；maid servant",
       "note": null,
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "助",
@@ -4925,7 +5467,9 @@
       "en": "to help；to assist",
       "note": "多音字，可讀「zhu/chu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "參",
@@ -4935,7 +5479,9 @@
       "en": "to take part in；to participate；to join",
       "note": "多音字，可讀「can/shen/cen/san」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "伎",
@@ -4945,7 +5491,9 @@
       "en": "artistry；talent；skill",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "倆",
@@ -4955,7 +5503,9 @@
       "en": "two (colloquial equivalent of 兩個|两个)；both；some",
       "note": "多音字，可讀「liang/lia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "饃",
@@ -4965,7 +5515,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "棍",
@@ -4975,7 +5527,9 @@
       "en": "stick; rod; truncheon；scoundrel; villain",
       "note": "多音字，可讀「gun/hun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "墮",
@@ -4985,7 +5539,9 @@
       "en": "to fall; to sink；(fig.) to degenerate",
       "note": "多音字，可讀「duo/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "臭",
@@ -4995,7 +5551,9 @@
       "en": "stench；smelly；to smell (bad)",
       "note": "多音字，可讀「chou/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "給",
@@ -5005,7 +5563,9 @@
       "en": "to；for；for the benefit of",
       "note": "多音字，可讀「gei/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "砌",
@@ -5015,7 +5575,9 @@
       "en": "to build by laying bricks or stones",
       "note": "多音字，可讀「qi/qie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "圈",
@@ -5025,7 +5587,9 @@
       "en": "circle; ring; loop；(fig.) social circle; niche group; community; fandom；classifier for loops, orbits, laps",
       "note": "多音字，可讀「quan/juan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "賈",
@@ -5035,7 +5599,9 @@
       "en": "surname Jia",
       "note": "多音字，可讀「jia/gu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "車",
@@ -5045,7 +5611,9 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "汴",
@@ -5055,7 +5623,9 @@
       "en": "name of a river in Henan；Henan",
       "note": null,
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詔",
@@ -5065,7 +5635,9 @@
       "en": "(literary) to admonish；(bound form) imperial edict",
       "note": null,
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衾",
@@ -5075,7 +5647,9 @@
       "en": "coverlet；quilt",
       "note": null,
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "尾",
@@ -5085,7 +5659,9 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "釵",
@@ -5095,7 +5671,9 @@
       "en": "ornamental hairpin",
       "note": null,
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "豁",
@@ -5105,7 +5683,9 @@
       "en": "opening；stake all；sacrifice",
       "note": "多音字，可讀「huo/hua」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "慂",
@@ -5115,7 +5695,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "契",
@@ -5125,7 +5707,9 @@
       "en": "to carve；carved words；to agree",
       "note": "多音字，可讀「qi/qie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "兑",
@@ -5135,7 +5719,9 @@
       "en": "surname Dui；to cash；to exchange",
       "note": "多音字，可讀「dui/rui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "僥",
@@ -5145,7 +5731,9 @@
       "en": "by mere luck",
       "note": "多音字，可讀「jiao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "殷",
@@ -5155,7 +5743,9 @@
       "en": "surname Yin；dynasty name at the end the Shang dynasty, after its move to Yinxu 殷墟[Yin1 xu1] in present-day Henan；flourishing",
       "note": "多音字，可讀「yin/yan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諭",
@@ -5165,7 +5755,9 @@
       "en": "order (from above)",
       "note": null,
       "is_difficult": true,
-      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華"
+      "src": "第四回 妒婦巧償苦厄 淑姬大享榮華",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "篪",
@@ -5175,7 +5767,9 @@
       "en": "bamboo flute with 7 or 8 holes",
       "note": null,
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "脯",
@@ -5185,7 +5779,9 @@
       "en": "chest；breast",
       "note": "多音字，可讀「pu/fu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "闋",
@@ -5195,7 +5791,9 @@
       "en": "to close, to shut; watchtower",
       "note": null,
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閔",
@@ -5205,7 +5803,9 @@
       "en": "to mourn, to grieve; to incite, to urge on",
       "note": null,
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "騫",
@@ -5215,7 +5815,9 @@
       "en": "to lift, to raise; to fly, to soar",
       "note": null,
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "佃",
@@ -5225,7 +5827,9 @@
       "en": "to rent farmland from a landlord",
       "note": "多音字，可讀「dian/tian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "缶",
@@ -5235,7 +5839,9 @@
       "en": "pottery",
       "note": null,
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "聿",
@@ -5245,7 +5851,9 @@
       "en": "(arch. introductory particle)；then；and then",
       "note": null,
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "悵",
@@ -5255,7 +5863,9 @@
       "en": "regretful; upset; despairing; depressed",
       "note": null,
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蛇",
@@ -5265,7 +5875,9 @@
       "en": "snake；serpent；CL:條|条[tiao2]",
       "note": "多音字，可讀「she/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拘",
@@ -5275,7 +5887,9 @@
       "en": "to capture；to restrain；to constrain",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "責",
@@ -5285,7 +5899,9 @@
       "en": "duty；responsibility；to reproach",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "揭",
@@ -5295,7 +5911,9 @@
       "en": "surname Jie；to take the lid off；to expose",
       "note": "多音字，可讀「jie/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "舛",
@@ -5305,7 +5923,9 @@
       "en": "mistaken；erroneous；contradictory",
       "note": null,
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冒",
@@ -5315,7 +5935,9 @@
       "en": "surname Mao；to emit; to give off; to send out (or up, forth)；to brave; to face",
       "note": "多音字，可讀「mao/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "躕",
@@ -5325,7 +5947,9 @@
       "en": "to falter, to waver, to hesitate",
       "note": null,
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鼇",
@@ -5335,7 +5959,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "厝",
@@ -5345,7 +5971,9 @@
       "en": "to lay in place；to put；to place a coffin in a temporary location pending burial",
       "note": null,
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "填",
@@ -5355,7 +5983,9 @@
       "en": "to fill or stuff；(of a form etc) to fill in",
       "note": "多音字，可讀「tian/zhen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拽",
@@ -5365,7 +5995,9 @@
       "en": "to throw；to fling；self-satisfied; cocky (alternative written form of 跩[zhuai3])",
       "note": "多音字，可讀「zhuai/ye」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "聒",
@@ -5375,7 +6007,9 @@
       "en": "raucous；clamor；unpleasantly noisy",
       "note": null,
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扳",
@@ -5385,7 +6019,9 @@
       "en": "to pull；to turn (sth) around；to turn around (a situation)",
       "note": "多音字，可讀「ban/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "削",
@@ -5395,7 +6031,9 @@
       "en": "to peel with a knife；to pare；to cut (a ball at tennis etc)",
       "note": "多音字，可讀「xiao/xue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "暴",
@@ -5405,7 +6043,9 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "膀",
@@ -5415,7 +6055,9 @@
       "en": "upper arm；wing",
       "note": "多音字，可讀「bang/pang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "迫",
@@ -5425,7 +6067,9 @@
       "en": "to persecute；to oppress；embarrassed",
       "note": "多音字，可讀「po/pai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洞",
@@ -5435,7 +6079,9 @@
       "en": "cave；hole；zero (unambiguous spoken form when spelling out numbers)",
       "note": "多音字，可讀「dong/tong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "闥",
@@ -5445,7 +6091,9 @@
       "en": "door, gate; the door to an inner room",
       "note": null,
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "杲",
@@ -5455,7 +6103,9 @@
       "en": "high；sun shines brightly；to shine",
       "note": null,
       "is_difficult": true,
-      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘"
+      "src": "第五回 逞凶燄欺凌柔懦 釀和氣感化頑殘",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "綈",
@@ -5465,7 +6115,9 @@
       "en": "coarse greenish black pongee",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "壙",
@@ -5475,7 +6127,9 @@
       "en": "tomb",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "塋",
@@ -5485,7 +6139,9 @@
       "en": "(literary) a grave",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "檻",
@@ -5495,7 +6151,9 @@
       "en": "banister；balustrade；cage for animal or prisoner",
       "note": "多音字，可讀「jian/kan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "朦",
@@ -5505,7 +6163,9 @@
       "en": "dim, obscure; the condition of the moon",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朧",
@@ -5515,7 +6175,9 @@
       "en": "blurry, obscured; the condition or appearance of the moon",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "夾",
@@ -5525,7 +6187,9 @@
       "en": "to press from either side；to place in between；to sandwich",
       "note": "多音字，可讀「jia/ga/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "壅",
@@ -5535,7 +6199,9 @@
       "en": "to obstruct；to stop up；to heap soil around the roots of a plant",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璣",
@@ -5545,7 +6211,9 @@
       "en": "(literary) baroque pearl; irregular pearl",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "忤",
@@ -5555,7 +6223,9 @@
       "en": "disobedient；unfilial",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "丐",
@@ -5565,7 +6235,9 @@
       "en": "to beg for alms；beggar",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瘌",
@@ -5575,7 +6247,9 @@
       "en": "scabies；scald-head",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "角",
@@ -5585,7 +6259,9 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "剌",
@@ -5595,7 +6271,9 @@
       "en": "perverse；unreasonable；absurd",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "倏",
@@ -5605,7 +6283,9 @@
       "en": "sudden；abrupt；Taiwan pr. [shu4]",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "辟",
@@ -5615,7 +6295,9 @@
       "en": "law, rule; to open up, to develop",
       "note": "多音字，可讀「pi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "悚",
@@ -5625,7 +6307,9 @@
       "en": "frightened",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "懺",
@@ -5635,7 +6319,9 @@
       "en": "(bound form) to feel remorse；(bound form) scripture read to atone for sb's sins (from Sanskrit \"ksama\")",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臚",
@@ -5645,7 +6331,9 @@
       "en": "belly；skin；to state",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憚",
@@ -5655,7 +6343,9 @@
       "en": "dread；fear；dislike",
       "note": "多音字，可讀「dan/da」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "叨",
@@ -5665,7 +6355,9 @@
       "en": "garrulous",
       "note": "多音字，可讀「dao/tao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "疋",
@@ -5675,7 +6367,9 @@
       "en": "classifier for cloth: bolt",
       "note": "多音字，可讀「pi/ya/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "綾",
@@ -5685,7 +6379,9 @@
       "en": "damask；thin silk",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "誚",
@@ -5695,7 +6391,9 @@
       "en": "ridicule；to blame",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諳",
@@ -5705,7 +6403,9 @@
       "en": "to be versed in；to know well",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詆",
@@ -5715,7 +6415,9 @@
       "en": "to defame；to slander",
       "note": null,
       "is_difficult": true,
-      "src": "第六回 違父命孽由己作 代姊嫁福自天來"
+      "src": "第六回 違父命孽由己作 代姊嫁福自天來",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "挾",
@@ -5725,7 +6427,9 @@
       "en": "(bound form) to clasp under the arm；(bound form) to coerce；(bound form) to harbor (resentment etc)",
       "note": "多音字，可讀「xie/jia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邪",
@@ -5735,7 +6439,9 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "簪",
@@ -5745,7 +6451,9 @@
       "en": "hairpin",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "珥",
@@ -5755,7 +6463,9 @@
       "en": "pearl or jade earring",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "摜",
@@ -5765,7 +6475,9 @@
       "en": "to fling；to fall；to wear",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹊",
@@ -5775,7 +6487,9 @@
       "en": "Taiwan pr. [xi1]",
       "note": "多音字，可讀「qi/xi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "蹺",
@@ -5785,7 +6499,9 @@
       "en": "to raise one's foot；to stand on tiptoe；stilts",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殞",
@@ -5795,7 +6511,9 @@
       "en": "(literary) to perish; to die",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "媼",
@@ -5805,7 +6523,9 @@
       "en": "old woman",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鰥",
@@ -5815,7 +6535,9 @@
       "en": "huge fish; widower; bachelor",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "戾",
@@ -5825,7 +6547,9 @@
       "en": "to bend；to violate；to go against",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "踅",
@@ -5835,7 +6559,9 @@
       "en": "to walk around；turn back midway",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "荼",
@@ -5845,7 +6571,9 @@
       "en": "thistle；common sowthistle (Sonchus oleraceus)；bitter (taste)",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齷",
@@ -5855,7 +6583,9 @@
       "en": "narrow, small-minded; dirty (1)",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齪",
@@ -5865,7 +6595,9 @@
       "en": "narrow, small-minded; dirty (2)",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "屏",
@@ -5875,7 +6607,9 @@
       "en": "(standing) screen",
       "note": "多音字，可讀「ping/bing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拓",
@@ -5885,7 +6619,9 @@
       "en": "surname Tuo；to expand；to push sth with the hand",
       "note": "多音字，可讀「tuo/ta/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "肋",
@@ -5895,7 +6631,9 @@
       "en": "(bound form) rib；Taiwan pr. [le4]",
       "note": "多音字，可讀「lei/le」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鯽",
@@ -5905,7 +6643,9 @@
       "en": "crucian carp; Carassius auratus",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "餚",
@@ -5915,7 +6655,9 @@
       "en": "cooked or prepared meat",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "饌",
@@ -5925,7 +6667,9 @@
       "en": "to feed, support, provide for; food",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "慳",
@@ -5935,7 +6679,9 @@
       "en": "stingy",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "妯",
@@ -5945,7 +6691,9 @@
       "en": "sister-in law",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "娌",
@@ -5955,7 +6703,9 @@
       "en": "brother's wife",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拶",
@@ -5965,7 +6715,9 @@
       "en": "(literary) to force; to coerce",
       "note": "多音字，可讀「za/zan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "釐",
@@ -5975,7 +6727,9 @@
       "en": "one thousandth",
       "note": "多音字，可讀「li/xi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "薇",
@@ -5985,7 +6739,9 @@
       "en": "Osmunda regalis, a species of fern；Taiwan pr. [wei2]",
       "note": null,
       "is_difficult": true,
-      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐"
+      "src": "第七回 遇賢媳虺蛇難犯 遭悍婦狼狽堪憐",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "攖",
@@ -5995,7 +6751,9 @@
       "en": "oppose；to attack",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蜮",
@@ -6005,7 +6763,9 @@
       "en": "(Chinese mythology) creature that lives underwater and spits sand to make people ill",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "夙",
@@ -6015,7 +6775,9 @@
       "en": "morning；early；long-held",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嫖",
@@ -6025,7 +6787,9 @@
       "en": "to visit a prostitute",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "禺",
@@ -6035,7 +6799,9 @@
       "en": "(archaic) district；(old) type of monkey",
       "note": "多音字，可讀「yu/ou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "查",
@@ -6045,7 +6811,9 @@
       "en": "to research；to check；to investigate",
       "note": "多音字，可讀「cha/zha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "貸",
@@ -6055,7 +6823,9 @@
       "en": "to lend on interest；to borrow；a loan",
       "note": "多音字，可讀「dai/te」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "畚",
@@ -6065,7 +6835,9 @@
       "en": "a basket or pan used for earth, manure etc",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "糶",
@@ -6075,7 +6847,9 @@
       "en": "to sell (grain)",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "綽",
@@ -6085,7 +6859,9 @@
       "en": "(bound form) ample; spacious；(literary) graceful",
       "note": "多音字，可讀「chuo/chao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "骰",
@@ -6095,7 +6871,9 @@
       "en": "die, dice",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "隍",
@@ -6105,7 +6883,9 @@
       "en": "dry ditch, dry moat",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "賺",
@@ -6115,7 +6895,9 @@
       "en": "to earn；to make a profit",
       "note": "多音字，可讀「zhuan/zuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "朱",
@@ -6125,7 +6907,9 @@
       "en": "surname Zhu；vermilion；(bound form) cinnabar",
       "note": "多音字，可讀「zhu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "芍",
@@ -6135,7 +6919,9 @@
       "en": "Chinese peony；Paeonia albiflora or lactiflora",
       "note": "多音字，可讀「shao/que」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "睍",
@@ -6145,7 +6931,9 @@
       "en": "goggle-eyed",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "睆",
@@ -6155,7 +6943,9 @@
       "en": "good-looking；cute",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹁",
@@ -6165,7 +6955,9 @@
       "en": "to limp",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "躚",
@@ -6175,7 +6967,9 @@
       "en": "to manner of dancing；to walk around",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宥",
@@ -6185,7 +6979,9 @@
       "en": "to forgive；to help；profound",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "縉",
@@ -6195,7 +6991,9 @@
       "en": "red silk",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冑",
@@ -6205,7 +7003,9 @@
       "en": "helmet",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宛",
@@ -6215,7 +7015,9 @@
       "en": "surname Wan；winding；as if",
       "note": "多音字，可讀「wan/yuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "革",
@@ -6225,7 +7027,9 @@
       "en": "leather, animal hide; to reform; to remove",
       "note": "多音字，可讀「ge/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "啞",
@@ -6235,7 +7039,9 @@
       "en": "(onom.) sound of cawing；sound of infant learning to talk；mute; dumb; incapable of speech",
       "note": "多音字，可讀「ya/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "艄",
@@ -6245,7 +7051,9 @@
       "en": "stern of boat",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "摩",
@@ -6255,7 +7063,9 @@
       "en": "to rub",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "降",
@@ -6265,7 +7075,9 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "俸",
@@ -6275,7 +7087,9 @@
       "en": "(bound form) salary; stipend",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "葺",
@@ -6285,7 +7099,9 @@
       "en": "to repair",
       "note": null,
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "夯",
@@ -6295,7 +7111,9 @@
       "en": "to ram; to tamp；a rammer; a tamper；excellent; exceptionally good",
       "note": "多音字，可讀「hang/ben」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鐺",
@@ -6305,7 +7123,9 @@
       "en": "frying pan; warming vessel",
       "note": "多音字，可讀「dang/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "趨",
@@ -6315,7 +7135,9 @@
       "en": "to hasten；to hurry；to walk fast",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福"
+      "src": "第八回 施鬼蜮隨地生波 仗神靈轉災為福",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "玷",
@@ -6325,7 +7147,9 @@
       "en": "blemish；disgrace；flaw in jade",
       "note": null,
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "笄",
@@ -6335,7 +7159,9 @@
       "en": "15 years old；hairpin for bun",
       "note": null,
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鸞",
@@ -6345,7 +7171,9 @@
       "en": "fabulous bird",
       "note": null,
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "慵",
@@ -6355,7 +7183,9 @@
       "en": "lethargic",
       "note": null,
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "髻",
@@ -6365,7 +7195,9 @@
       "en": "bun, topknot",
       "note": null,
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "娑",
@@ -6375,7 +7207,9 @@
       "en": "(phonetic)；see 婆娑[po2 suo1]",
       "note": null,
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹙",
@@ -6385,7 +7219,9 @@
       "en": "to knit (one's brows)；wrinkled (of brows)；to hesitate",
       "note": null,
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蛾",
@@ -6395,7 +7231,9 @@
       "en": "(bound form) moth",
       "note": "多音字，可讀「e/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鳥",
@@ -6405,7 +7243,9 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "楷",
@@ -6415,7 +7255,9 @@
       "en": "model；pattern；regular script (calligraphic style)",
       "note": "多音字，可讀「kai/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "怏",
@@ -6425,7 +7267,9 @@
       "en": "discontented",
       "note": null,
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "悻",
@@ -6435,7 +7279,9 @@
       "en": "angry",
       "note": null,
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邂",
@@ -6445,7 +7291,9 @@
       "en": "an unexpected meeting",
       "note": null,
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "逅",
@@ -6455,7 +7303,9 @@
       "en": "to meet unexpectedly",
       "note": null,
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嫣",
@@ -6465,7 +7315,9 @@
       "en": "(literary) lovely; sweet",
       "note": null,
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "媾",
@@ -6475,7 +7327,9 @@
       "en": "to marry；to copulate",
       "note": null,
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "甦",
@@ -6485,7 +7339,9 @@
       "en": "to revive",
       "note": null,
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泄",
@@ -6495,7 +7351,9 @@
       "en": "(bound form) to leak out; to discharge; (fig.) to divulge",
       "note": "多音字，可讀「xie/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝"
+      "src": "第九回 倩明媒但求一美 央冥判竟得雙姝",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沈",
@@ -6505,7 +7363,9 @@
       "en": "surname Shen；short name for 瀋陽|沈阳[Shen3 yang2]；(literary) juice",
       "note": "多音字，可讀「shen/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十回 從左道一時失足 納忠言立刻回頭"
+      "src": "第十回 從左道一時失足 納忠言立刻回頭",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "簫",
@@ -6515,7 +7375,9 @@
       "en": "xiao, a vertical bamboo flute",
       "note": null,
       "is_difficult": true,
-      "src": "第十回 從左道一時失足 納忠言立刻回頭"
+      "src": "第十回 從左道一時失足 納忠言立刻回頭",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "攝",
@@ -6525,7 +7387,9 @@
       "en": "(bound form) to take in; to absorb; to assimilate；to capture (video or still images)；(literary) to conserve (one's health)",
       "note": "多音字，可讀「she/nie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十回 從左道一時失足 納忠言立刻回頭"
+      "src": "第十回 從左道一時失足 納忠言立刻回頭",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奧",
@@ -6535,7 +7399,9 @@
       "en": "(bound form) Austria (abbr. for 奧地利|奥地利[Ao4 di4 li4])；(bound form) Olympics (abbr. for 奧林匹克|奥林匹克[Ao4 lin2 pi3 ke4])；obscure",
       "note": "多音字，可讀「ao/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十回 從左道一時失足 納忠言立刻回頭"
+      "src": "第十回 從左道一時失足 納忠言立刻回頭",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "紮",
@@ -6545,7 +7411,9 @@
       "en": "(of troops) to be stationed (at)；Taiwan pr. [zha2]",
       "note": "多音字，可讀「zha/za」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十回 從左道一時失足 納忠言立刻回頭"
+      "src": "第十回 從左道一時失足 納忠言立刻回頭",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "剿",
@@ -6555,7 +7423,9 @@
       "en": "to destroy；to extirpate",
       "note": "多音字，可讀「jiao/chao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十回 從左道一時失足 納忠言立刻回頭"
+      "src": "第十回 從左道一時失足 納忠言立刻回頭",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "炮",
@@ -6565,7 +7435,9 @@
       "en": "to prepare herbal medicine by roasting or parching (in a pan)；cannon；CL:座[zuo4]",
       "note": "多音字，可讀「pao/bao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十回 從左道一時失足 納忠言立刻回頭"
+      "src": "第十回 從左道一時失足 納忠言立刻回頭",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "馱",
@@ -6575,7 +7447,9 @@
       "en": "to carry on one's back",
       "note": "多音字，可讀「tuo/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十回 從左道一時失足 納忠言立刻回頭"
+      "src": "第十回 從左道一時失足 納忠言立刻回頭",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惝",
@@ -6585,7 +7459,9 @@
       "en": "disappointed；listless；frightened",
       "note": "多音字，可讀「chang/tang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十回 從左道一時失足 納忠言立刻回頭"
+      "src": "第十回 從左道一時失足 納忠言立刻回頭",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "諢",
@@ -6595,7 +7471,9 @@
       "en": "jest；nickname",
       "note": null,
       "is_difficult": true,
-      "src": "第十回 從左道一時失足 納忠言立刻回頭"
+      "src": "第十回 從左道一時失足 納忠言立刻回頭",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "韁",
@@ -6605,7 +7483,9 @@
       "en": "bridle, reins",
       "note": null,
       "is_difficult": true,
-      "src": "第十回 從左道一時失足 納忠言立刻回頭"
+      "src": "第十回 從左道一時失足 納忠言立刻回頭",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "糴",
@@ -6615,7 +7495,9 @@
       "en": "to buy up (grain)",
       "note": null,
       "is_difficult": true,
-      "src": "第十回 從左道一時失足 納忠言立刻回頭"
+      "src": "第十回 從左道一時失足 納忠言立刻回頭",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殖",
@@ -6625,7 +7507,9 @@
       "en": "to grow；to reproduce",
       "note": "多音字，可讀「zhi/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十回 從左道一時失足 納忠言立刻回頭"
+      "src": "第十回 從左道一時失足 納忠言立刻回頭",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "亢",
@@ -6635,7 +7519,9 @@
       "en": "surname Kang；Kang, one of the 28 constellations；high",
       "note": "多音字，可讀「kang/hang/gang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十回 從左道一時失足 納忠言立刻回頭"
+      "src": "第十回 從左道一時失足 納忠言立刻回頭",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鼙",
@@ -6645,7 +7531,9 @@
       "en": "drum carried on horseback",
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宄",
@@ -6655,7 +7543,9 @@
       "en": "traitor",
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "禎",
@@ -6665,7 +7555,9 @@
       "en": "auspicious；lucky",
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "倬",
@@ -6675,7 +7567,9 @@
       "en": "noticeable；large；clear",
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "喈",
@@ -6685,7 +7579,9 @@
       "en": "harmonious (of music)",
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衿",
@@ -6695,7 +7591,9 @@
       "en": "collar；belt",
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "讖",
@@ -6705,7 +7603,9 @@
       "en": "(literary) prophecy; omen",
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "駢",
@@ -6715,7 +7615,9 @@
       "en": "a team of horses; to associate; to join",
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "窠",
@@ -6725,7 +7627,9 @@
       "en": "nest",
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "碌",
@@ -6735,7 +7639,9 @@
       "en": "Taiwan pr. [lu4]",
       "note": "多音字，可讀「lu/liu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "溺",
@@ -6745,7 +7651,9 @@
       "en": "to drown；to indulge；addicted to",
       "note": "多音字，可讀「ni/niao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "酩",
@@ -6755,7 +7663,9 @@
       "en": "drunk, tipsy, intoxicated",
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "酊",
@@ -6765,7 +7675,9 @@
       "en": "drunk, intoxicated",
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邳",
@@ -6775,7 +7687,9 @@
       "en": "a department in the state of Lu",
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詎",
@@ -6785,7 +7699,9 @@
       "en": "how (interj. of surprise)",
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臾",
@@ -6795,7 +7711,9 @@
       "en": "surname Yu；a moment；little while",
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淌",
@@ -6805,7 +7723,9 @@
       "en": "to drip；to trickle；to shed (tears)",
       "note": "多音字，可讀「tang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "搿",
@@ -6815,7 +7735,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "屯",
@@ -6825,7 +7747,9 @@
       "en": "to station (soldiers)；to store up；village",
       "note": "多音字，可讀「tun/zhun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "港",
@@ -6835,7 +7759,9 @@
       "en": "Hong Kong (abbr. for 香港[Xiang1 gang3])；surname Gang；harbor",
       "note": "多音字，可讀「gang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還"
+      "src": "第十一回 聯新句山盟海誓 詠舊詞璧合珠還",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "馮",
@@ -6845,7 +7771,9 @@
       "en": "to gallop; by dint of; surname",
       "note": "多音字，可讀「feng/ping」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲"
+      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諼",
@@ -6855,7 +7783,9 @@
       "en": "to deceive；to forget",
       "note": null,
       "is_difficult": true,
-      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲"
+      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "偃",
@@ -6865,7 +7795,9 @@
       "en": "surname Yan；to lie supine；to stop",
       "note": null,
       "is_difficult": true,
-      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲"
+      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹇",
@@ -6875,7 +7807,9 @@
       "en": "surname Jian；lame；cripple",
       "note": null,
       "is_difficult": true,
-      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲"
+      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詰",
@@ -6885,7 +7819,9 @@
       "en": "(bound form) to question closely; to interrogate",
       "note": null,
       "is_difficult": true,
-      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲"
+      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "雀",
@@ -6895,7 +7831,9 @@
       "en": "sparrow",
       "note": "多音字，可讀「que/qiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲"
+      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "裘",
@@ -6905,7 +7843,9 @@
       "en": "surname Qiu；fur；fur coat",
       "note": null,
       "is_difficult": true,
-      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲"
+      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拂",
@@ -6915,7 +7855,9 @@
       "en": "to flick；to brush off；(of a breeze) to brush lightly over",
       "note": "多音字，可讀「fu/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲"
+      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "襤",
@@ -6925,7 +7867,9 @@
       "en": "ragged, tattered, threadbare",
       "note": null,
       "is_difficult": true,
-      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲"
+      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "褸",
@@ -6935,7 +7879,9 @@
       "en": "lapel, collar; tattered, threadbare",
       "note": null,
       "is_difficult": true,
-      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲"
+      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "駟",
@@ -6945,7 +7891,9 @@
       "en": "a team of four horses",
       "note": null,
       "is_difficult": true,
-      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲"
+      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齎",
@@ -6955,7 +7903,9 @@
       "en": "gift, present; offering",
       "note": null,
       "is_difficult": true,
-      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲"
+      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嗟",
@@ -6965,7 +7915,9 @@
       "en": "sigh；also pr. [jue1]",
       "note": null,
       "is_difficult": true,
-      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲"
+      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璧",
@@ -6975,7 +7927,9 @@
       "en": "jade annulus",
       "note": null,
       "is_difficult": true,
-      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲"
+      "src": "第十二回 埋白石神人施小計 得黃金豪士振家聲",
+      "multi": false,
+      "rare": true
     }
   ]
 }

@@ -18,7 +18,9 @@
       "en": "a raft made of bamboo or wood；to fell trees；to hew",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "樂",
@@ -28,7 +30,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -38,7 +42,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "差",
@@ -48,7 +54,9 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "和",
@@ -58,7 +66,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "番",
@@ -68,7 +78,9 @@
       "en": "(bound form) foreign (non-Chinese); barbarian；classifier for processes or actions that take time and effort；(classifier) a kind; a sort",
       "note": "多音字，可讀「fan/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "其",
@@ -78,7 +90,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "竺",
@@ -88,7 +102,9 @@
       "en": "surname Zhu；abbr. for 天竺[Tian1 zhu2], India (esp. in Tang or Buddhist context)；(archaic) Buddhism",
       "note": "多音字，可讀「zhu/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "提",
@@ -98,7 +114,9 @@
       "en": "to carry (hanging down from the hand)；to lift；to put forward",
       "note": "多音字，可讀「ti/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "地",
@@ -108,7 +126,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "彭",
@@ -118,7 +138,9 @@
       "en": "surname Peng",
       "note": "多音字，可讀「peng/bang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "丁",
@@ -128,7 +150,9 @@
       "en": "surname Ding；male adult；the 4th of the 10 Heavenly Stems 天干[tian1 gan1]",
       "note": "多音字，可讀「ding/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "重",
@@ -138,7 +162,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "迦",
@@ -148,7 +174,9 @@
       "en": "used in transliterations",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淳",
@@ -158,7 +186,9 @@
       "en": "genuine；pure；honest",
       "note": "多音字，可讀「chun/zhun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "大",
@@ -168,7 +198,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "㖵",
@@ -178,7 +210,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "喃",
@@ -188,7 +222,9 @@
       "en": "mumble in repetition",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "阿",
@@ -198,7 +234,9 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "都",
@@ -208,7 +246,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "卜",
@@ -218,7 +258,9 @@
       "en": "surname Bu；(bound form) to divine",
       "note": "多音字，可讀「bu/bo/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "剌",
@@ -228,7 +270,9 @@
       "en": "perverse；unreasonable；absurd",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "南",
@@ -238,7 +282,9 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "會",
@@ -248,7 +294,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "石",
@@ -258,7 +306,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "雀",
@@ -268,7 +318,9 @@
       "en": "sparrow",
       "note": "多音字，可讀「que/qiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -278,7 +330,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "佛",
@@ -288,7 +342,9 @@
       "en": "Buddha; Buddhism (abbr. for 佛陀[Fo2 tuo2])",
       "note": "多音字，可讀「fo/fu/bi/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "饌",
@@ -298,7 +354,9 @@
       "en": "to feed, support, provide for; food",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "盛",
@@ -308,7 +366,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "食",
@@ -318,7 +378,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "女",
@@ -328,7 +390,9 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "椎",
@@ -338,7 +402,9 @@
       "en": "(bound form) vertebra",
       "note": "多音字，可讀「zhui/chui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "髻",
@@ -348,7 +414,9 @@
       "en": "bun, topknot",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "劓",
@@ -358,7 +426,9 @@
       "en": "cut off the nose",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "屬",
@@ -368,7 +438,9 @@
       "en": "category；genus (taxonomy)；family members",
       "note": "多音字，可讀「shu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奇",
@@ -378,7 +450,9 @@
       "en": "strange；odd；weird",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "若",
@@ -388,7 +462,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瘠",
@@ -398,7 +474,9 @@
       "en": "barren；lean",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "不",
@@ -408,7 +486,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "穡",
@@ -418,7 +498,9 @@
       "en": "gather in harvest",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藉",
@@ -428,7 +510,9 @@
       "en": "(literary) cushion; mat；(literary) to put some padding underneath",
       "note": "多音字，可讀「jie/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "齊",
@@ -438,7 +522,9 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繫",
@@ -448,7 +534,9 @@
       "en": "to connect；to arrest；to worry",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "檳",
@@ -458,7 +546,9 @@
       "en": "Taiwan pr. [bin1]",
       "note": "多音字，可讀「bin/bing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "簟",
@@ -468,7 +558,9 @@
       "en": "fine woven grass mat",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "啖",
@@ -478,7 +570,9 @@
       "en": "to eat；to taste；to entice (using bait)",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "價",
@@ -488,7 +582,9 @@
       "en": "price；value；(chemistry) valence",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "遐",
@@ -498,7 +594,9 @@
       "en": "distant, far; to abandon, to cast away",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "哦",
@@ -508,7 +606,9 @@
       "en": "oh (interjection indicating doubt or surprise)；oh (interjection indicating that one has just learned sth)；sentence-final particle that conveys informality, warmth, friendliness or intimacy",
       "note": "多音字，可讀「o/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "港",
@@ -518,7 +618,9 @@
       "en": "Hong Kong (abbr. for 香港[Xiang1 gang3])；surname Gang；harbor",
       "note": "多音字，可讀「gang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "降",
@@ -528,7 +630,9 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "且",
@@ -538,7 +642,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "畎",
@@ -548,7 +654,9 @@
       "en": "field drains",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "辟",
@@ -558,7 +666,9 @@
       "en": "law, rule; to open up, to develop",
       "note": "多音字，可讀「pi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "那",
@@ -568,7 +678,9 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "數",
@@ -578,7 +690,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "得",
@@ -588,7 +702,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "僥",
@@ -598,7 +714,9 @@
       "en": "by mere luck",
       "note": "多音字，可讀「jiao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "否",
@@ -608,7 +726,9 @@
       "en": "to negate；to deny；not",
       "note": "多音字，可讀「fou/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "被",
@@ -618,7 +738,9 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "還",
@@ -628,7 +750,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蕷",
@@ -638,7 +762,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "熟",
@@ -648,7 +774,9 @@
       "en": "ripe; mature；thoroughly cooked; done；familiar; acquainted",
       "note": "多音字，可讀「shu/shou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "苧",
@@ -658,7 +786,9 @@
       "en": "limonene；(literary) tangled; in disarray",
       "note": "多音字，可讀「zhu/ning」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "色",
@@ -668,7 +798,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "藏",
@@ -678,7 +810,9 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "長",
@@ -688,7 +822,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "朝",
@@ -698,7 +834,9 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蓋",
@@ -708,7 +846,9 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "暹",
@@ -718,7 +858,9 @@
       "en": "sunrise",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嶇",
@@ -728,7 +870,9 @@
       "en": "steep, sheer; rugged, rough",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "血",
@@ -738,7 +882,9 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祭",
@@ -748,7 +894,9 @@
       "en": "to offer a sacrifice to (gods or ancestors)；(in classical novels) to recite an incantation to activate a magic weapon; to wield (sth magic)；(bound form) ceremony",
       "note": "多音字，可讀「ji/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "禳",
@@ -758,7 +906,9 @@
       "en": "sacrifice for avoiding calamity",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "單",
@@ -768,7 +918,9 @@
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "家",
@@ -778,7 +930,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "圈",
@@ -788,7 +942,9 @@
       "en": "circle; ring; loop；(fig.) social circle; niche group; community; fandom；classifier for loops, orbits, laps",
       "note": "多音字，可讀「quan/juan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "爪",
@@ -798,7 +954,9 @@
       "en": "(coll.) foot of an animal or bird；(coll.) foot supporting a cooking pot etc",
       "note": "多音字，可讀「zhua/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嗟",
@@ -808,7 +966,9 @@
       "en": "sigh；also pr. [jue1]",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "合",
@@ -818,7 +978,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "能",
@@ -828,7 +990,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瑙",
@@ -838,7 +1002,9 @@
       "en": "agate, cornelian",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "靄",
@@ -848,7 +1014,9 @@
       "en": "fog, haze; calm, peaceful",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "撮",
@@ -858,7 +1026,9 @@
       "en": "to pick up (a powder etc) with the fingertips；to scoop up；to collect together",
       "note": "多音字，可讀「cuo/zuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "儔",
@@ -868,7 +1038,9 @@
       "en": "comrades；friends；companions",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "峙",
@@ -878,7 +1050,9 @@
       "en": "(literary) to tower aloft",
       "note": "多音字，可讀「zhi/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "解",
@@ -888,7 +1062,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "罄",
@@ -898,7 +1074,9 @@
       "en": "to use up；to exhaust；empty",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稱",
@@ -908,7 +1086,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "裳",
@@ -918,7 +1098,9 @@
       "en": "lower garment；skirts；petticoats",
       "note": "多音字，可讀「shang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "頻",
@@ -928,7 +1110,9 @@
       "en": "frequency; repeatedly, again and again",
       "note": "多音字，可讀「bin/pin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嶠",
@@ -938,7 +1122,9 @@
       "en": "highest peak",
       "note": "多音字，可讀「jiao/qiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "句",
@@ -948,7 +1134,9 @@
       "en": "sentence；clause；phrase",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "逡",
@@ -958,7 +1146,9 @@
       "en": "to withdraw, to retreat, to fall back",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "夾",
@@ -968,7 +1158,9 @@
       "en": "to press from either side；to place in between；to sandwich",
       "note": "多音字，可讀「jia/ga/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "腴",
@@ -978,7 +1170,9 @@
       "en": "fat on belly；fertile；rich",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "削",
@@ -988,7 +1182,9 @@
       "en": "to peel with a knife；to pare；to cut (a ball at tennis etc)",
       "note": "多音字，可讀「xiao/xue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "親",
@@ -998,7 +1194,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "玳",
@@ -1008,7 +1206,9 @@
       "en": "tortoise shell；turtle",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瑁",
@@ -1018,7 +1218,9 @@
       "en": "(jade)",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "咀",
@@ -1028,7 +1230,9 @@
       "en": "popular variant of 嘴[zui3]",
       "note": "多音字，可讀「zui/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嚼",
@@ -1038,7 +1242,9 @@
       "en": "to chew；also pr. [jue2]",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -1048,7 +1254,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "屏",
@@ -1058,7 +1266,9 @@
       "en": "(standing) screen",
       "note": "多音字，可讀「ping/bing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "薄",
@@ -1068,7 +1278,9 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "髡",
@@ -1078,7 +1290,9 @@
       "en": "to shear a tree; an ancient punishment",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羖",
@@ -1088,7 +1302,9 @@
       "en": "black ewe",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羊",
@@ -1098,7 +1314,9 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隊",
@@ -1108,7 +1326,9 @@
       "en": "team, group, band, army unit; measure word for groups of people",
       "note": "多音字，可讀「dui/zhui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "呢",
@@ -1118,7 +1338,9 @@
       "en": "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")；(sentence-final particle) indicating that a state or situation still holds；(discourse particle) used to mark a slight pause or emphasis in speech",
       "note": "多音字，可讀「ne/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "楠",
@@ -1128,7 +1350,9 @@
       "en": "Machilus nanmu；Chinese cedar；Chinese giant redwood",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "洞",
@@ -1138,7 +1362,9 @@
       "en": "cave；hole；zero (unambiguous spoken form when spelling out numbers)",
       "note": "多音字，可讀「dong/tong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "秫",
@@ -1148,7 +1374,9 @@
       "en": "glutinous sorghum",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鸚",
@@ -1158,7 +1386,9 @@
       "en": "parrot",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鵡",
@@ -1168,7 +1398,9 @@
       "en": "species of parrot",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "約",
@@ -1178,7 +1410,9 @@
       "en": "to make an appointment；to invite；approximately",
       "note": "多音字，可讀「yue/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "孫",
@@ -1188,7 +1422,9 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "窈",
@@ -1198,7 +1434,9 @@
       "en": "(literary) deep; profound; dim (variant of 杳[yao3])",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "窕",
@@ -1208,7 +1446,9 @@
       "en": "quiet and secluded；gentle, graceful, and elegant",
       "note": "多音字，可讀「tiao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "欹",
@@ -1218,7 +1458,9 @@
       "en": "interjection",
       "note": "多音字，可讀「qi/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "磅",
@@ -1228,7 +1470,9 @@
       "en": "scale (instrument for weighing)；to weigh；(loanword) pound (unit of weight, about 454 grams)",
       "note": "多音字，可讀「bang/pang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "礴",
@@ -1238,7 +1482,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "般",
@@ -1248,7 +1494,9 @@
       "en": "sort；kind；class",
       "note": "多音字，可讀「ban/bo/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沐",
@@ -1258,7 +1506,9 @@
       "en": "to bathe；to cleanse；to receive",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "見",
@@ -1268,7 +1518,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宿",
@@ -1278,7 +1530,9 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "信",
@@ -1288,7 +1542,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "傳",
@@ -1298,7 +1554,9 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "堡",
@@ -1308,7 +1566,9 @@
       "en": "(bound form) fortress; stronghold；(often used to transliterate -berg, -burg etc in place names)；(bound form) burger (abbr. for 漢堡|汉堡[han4 bao3])",
       "note": "多音字，可讀「bao/bu/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "簿",
@@ -1318,7 +1578,9 @@
       "en": "a book；a register；account-book",
       "note": "多音字，可讀「bo/bu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蝦",
@@ -1328,7 +1590,9 @@
       "en": "shrimp；prawn",
       "note": "多音字，可讀「xia/ha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蛤",
@@ -1338,7 +1602,9 @@
       "en": "(bound form) clam",
       "note": "多音字，可讀「ha/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "縵",
@@ -1348,7 +1614,9 @@
       "en": "plain thin silk；slow；unadorned",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "六",
@@ -1358,7 +1626,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "挈",
@@ -1368,7 +1638,9 @@
       "en": "to raise；to lift；to take along (e.g. one's family)",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "莫",
@@ -1378,7 +1650,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "銚",
@@ -1388,7 +1662,9 @@
       "en": "hoe; spear; surname",
       "note": "多音字，可讀「diao/tiao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "闕",
@@ -1398,7 +1674,9 @@
       "en": "palace; watchtower",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "厥",
@@ -1408,7 +1686,9 @@
       "en": "to faint；to lose consciousness；his",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泊",
@@ -1418,7 +1698,9 @@
       "en": "to moor (a boat)；to park (a vehicle)；(literary) calm; quiet; peaceful",
       "note": "多音字，可讀「bo/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "恣",
@@ -1428,7 +1710,9 @@
       "en": "to abandon restraint；to do as one pleases；comfortable (dialect)",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "砌",
@@ -1438,7 +1722,9 @@
       "en": "to build by laying bricks or stones",
       "note": "多音字，可讀「qi/qie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "露",
@@ -1448,7 +1734,9 @@
       "en": "dew; leak; bare, exposed; to reveal, to show",
       "note": "多音字，可讀「lu/lou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瓔",
@@ -1458,7 +1746,9 @@
       "en": "necklace",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "珞",
@@ -1468,7 +1758,9 @@
       "en": "neck-ornament",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "尾",
@@ -1478,7 +1770,9 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稽",
@@ -1488,7 +1782,9 @@
       "en": "surname Ji；(bound form) to examine; to check (against records)；(literary) to delay; to linger",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鑾",
@@ -1498,7 +1794,9 @@
       "en": "bells hung on a horse; imperial",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乾",
@@ -1508,7 +1806,9 @@
       "en": "surname Qian；one of the Eight Trigrams 八卦[ba1 gua4], symbolizing heaven；male principle",
       "note": "多音字，可讀「qian/gan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "落",
@@ -1518,7 +1818,9 @@
       "en": "to fall or drop；(of the sun) to set；(of a tide) to go out",
       "note": "多音字，可讀「luo/la/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "車",
@@ -1528,7 +1830,9 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "尺",
@@ -1538,7 +1842,9 @@
       "en": "a Chinese foot；one-third of a meter；a ruler",
       "note": "多音字，可讀「chi/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瀕",
@@ -1548,7 +1854,9 @@
       "en": "to approach；to border on；near",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "射",
@@ -1558,7 +1866,9 @@
       "en": "to shoot；to launch；to allude to",
       "note": "多音字，可讀「she/ye/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "強",
@@ -1568,7 +1878,9 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "紅",
@@ -1578,7 +1890,9 @@
       "en": "surname Hong；red；popular",
       "note": "多音字，可讀「hong/gong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "識",
@@ -1588,7 +1902,9 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "曾",
@@ -1598,7 +1914,9 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瀛",
@@ -1608,7 +1926,9 @@
       "en": "ocean",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "慇",
@@ -1618,7 +1938,9 @@
       "en": "solicitous",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "懃",
@@ -1628,7 +1950,9 @@
       "en": "(literary) diligent; industrious; hardworking (variant of 勤[qin2])；(literary) solicitous; attentive",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "枝",
@@ -1638,7 +1962,9 @@
       "en": "branch；classifier for sticks, rods, pencils etc",
       "note": "多音字，可讀「zhi/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "茄",
@@ -1648,7 +1974,9 @@
       "en": "eggplant",
       "note": "多音字，可讀「qie/jia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "麂",
@@ -1658,7 +1986,9 @@
       "en": "a species of deer",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "沒",
@@ -1668,7 +1998,9 @@
       "en": "(negative prefix for verbs) have not; not",
       "note": "多音字，可讀「mei/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "筠",
@@ -1678,7 +2010,9 @@
       "en": "skin of bamboo",
       "note": "多音字，可讀「yun/jun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "景",
@@ -1688,7 +2022,9 @@
       "en": "surname Jing；(bound form) scenery；circumstance",
       "note": "多音字，可讀「jing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "疋",
@@ -1698,7 +2034,9 @@
       "en": "classifier for cloth: bolt",
       "note": "多音字，可讀「pi/ya/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "穹",
@@ -1708,7 +2046,9 @@
       "en": "vault；dome；the sky",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臂",
@@ -1718,7 +2058,9 @@
       "en": "arm",
       "note": "多音字，可讀「bi/bei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鐲",
@@ -1728,7 +2070,9 @@
       "en": "bracelet, armband; small bell",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乘",
@@ -1738,7 +2082,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "殼",
@@ -1748,7 +2094,9 @@
       "en": "(coll.) shell (of an egg, nut, crab etc)；case; casing; housing (of a machine or device)",
       "note": "多音字，可讀「ke/qiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "詔",
@@ -1758,7 +2106,9 @@
       "en": "(literary) to admonish；(bound form) imperial edict",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "匍",
@@ -1768,7 +2118,9 @@
       "en": "to crawl; to lie prostrate",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "匐",
@@ -1778,7 +2130,9 @@
       "en": "to crawl; to lie prostrate",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "角",
@@ -1788,7 +2142,9 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "樵",
@@ -1798,7 +2154,9 @@
       "en": "firewood；gather wood",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "荖",
@@ -1808,7 +2166,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蠣",
@@ -1818,7 +2178,9 @@
       "en": "oyster",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "琢",
@@ -1828,7 +2190,9 @@
       "en": "to cut (gems)",
       "note": "多音字，可讀「zhuo/zuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "畜",
@@ -1838,7 +2202,9 @@
       "en": "livestock；domesticated animal；domestic animal",
       "note": "多音字，可讀「chu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鏃",
@@ -1848,7 +2214,9 @@
       "en": "arrowhead, barb; quick, swift",
       "note": "多音字，可讀「zu/chuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "鬻",
@@ -1858,7 +2226,9 @@
       "en": "to vend, sell",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弄",
@@ -1868,7 +2238,9 @@
       "en": "to do；to manage；to handle",
       "note": "多音字，可讀「nong/long」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "槌",
@@ -1878,7 +2250,9 @@
       "en": "mallet；pestle；beetle (for wedging or ramming)",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "薰",
@@ -1888,7 +2262,9 @@
       "en": "fragrance；warm；to educate",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蚯",
@@ -1898,7 +2274,9 @@
       "en": "earthworm (1)",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蚓",
@@ -1908,7 +2286,9 @@
       "en": "earthworm (2)",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "塞",
@@ -1918,7 +2298,9 @@
       "en": "to plug; to stop up; to stuff in；(bound form) a stopper; a cork；(bound form) strategic stronghold",
       "note": "多音字，可讀「sai/se」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "頓",
@@ -1928,7 +2310,9 @@
       "en": "to pause; to bow; to arrange",
       "note": "多音字，可讀「dun/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "覺",
@@ -1938,7 +2322,9 @@
       "en": "to feel；to find that；thinking",
       "note": "多音字，可讀「jue/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "摭",
@@ -1948,7 +2334,9 @@
       "en": "pick up；to select",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "摅",
@@ -1958,7 +2346,9 @@
       "en": "to disperse, to spread, to vent; to send forth",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宸",
@@ -1968,7 +2358,9 @@
       "en": "imperial apartments",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "隸",
@@ -1978,7 +2370,9 @@
       "en": "subservient; servant",
       "note": "多音字，可讀「li/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "谿",
@@ -1988,7 +2382,9 @@
       "en": "valley, gorge; mountain stream",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澄",
@@ -1998,7 +2394,9 @@
       "en": "surname Cheng；clear；limpid",
       "note": "多音字，可讀「cheng/deng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "度",
@@ -2008,7 +2406,9 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "擇",
@@ -2018,7 +2418,9 @@
       "en": "to select；to choose；to pick over",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "育",
@@ -2028,7 +2430,9 @@
       "en": "to have children；to raise or bring up；to educate",
       "note": "多音字，可讀「yu/yo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "氏",
@@ -2038,7 +2442,9 @@
       "en": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")；(bound form) maiden name; née (as in 李王氏[Li3 Wang2 shi4] \"Mrs. Li, née Wang\")；(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "恁",
@@ -2048,7 +2454,9 @@
       "en": "to think；this；which?",
       "note": "多音字，可讀「nen/nin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "緝",
@@ -2058,7 +2466,9 @@
       "en": "to seize；to arrest；Taiwan pr. [qi4]",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仔",
@@ -2068,7 +2478,9 @@
       "en": "(dialect) (bound form) young man",
       "note": "多音字，可讀「zai/zi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "便",
@@ -2078,7 +2490,9 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "梵",
@@ -2088,7 +2502,9 @@
       "en": "abbr. for 梵教[Fan4 jiao4] Brahmanism；abbr. for Sanskrit 梵語|梵语[Fan4 yu3] or 梵文[Fan4 wen2]；abbr. for 梵蒂岡|梵蒂冈[Fan4 di4 gang1], the Vatican",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遨",
@@ -2098,7 +2514,9 @@
       "en": "to ramble, to roam; to travel for pleasure",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "區",
@@ -2108,7 +2526,9 @@
       "en": "area；region；district",
       "note": "多音字，可讀「qu/ou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "陬",
@@ -2118,7 +2538,9 @@
       "en": "corner, cranny, niche",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "檣",
@@ -2128,7 +2550,9 @@
       "en": "boom；mast",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "箬",
@@ -2138,7 +2562,9 @@
       "en": "(bamboo)；skin of bamboo",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弼",
@@ -2148,7 +2574,9 @@
       "en": "to assist",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "闍",
@@ -2158,7 +2586,9 @@
       "en": "a Buddhist high priest",
       "note": "多音字，可讀「du/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "卒",
@@ -2168,7 +2598,9 @@
       "en": "soldier；servant；to finish",
       "note": "多音字，可讀「zu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "岌",
@@ -2178,7 +2610,9 @@
       "en": "lofty peak；perilous",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稷",
@@ -2188,7 +2622,9 @@
       "en": "millet；God of cereals worshiped by ancient rulers；minister of agriculture",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "髽",
@@ -2198,7 +2634,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蒞",
@@ -2208,7 +2646,9 @@
       "en": "to attend (an official function)；to be present；to administer",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "氓",
@@ -2218,7 +2658,9 @@
       "en": "(literary) common people",
       "note": "多音字，可讀「mang/meng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邃",
@@ -2228,7 +2670,9 @@
       "en": "profound, mysterious, deep",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "勁",
@@ -2238,7 +2682,9 @@
       "en": "strength；energy；enthusiasm",
       "note": "多音字，可讀「jin/jing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鍦",
@@ -2248,7 +2694,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "牝",
@@ -2258,7 +2706,9 @@
       "en": "(of a bird, animal or plant) female；keyhole；valley",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "似",
@@ -2268,7 +2718,9 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "庵",
@@ -2278,7 +2730,9 @@
       "en": "hut；small temple；nunnery",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "斛",
@@ -2288,7 +2742,9 @@
       "en": "ancient measuring vessel；fifty liters；dry measure for grain equal to five dou 五斗 (before Tang, ten pecks)",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "罔",
@@ -2298,7 +2754,9 @@
       "en": "to deceive；there is none",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "茭",
@@ -2308,7 +2766,9 @@
       "en": "Zizania aquatica",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鶻",
@@ -2318,7 +2778,9 @@
       "en": "a kind of pigeon; treron permagna",
       "note": "多音字，可讀「gu/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "渠",
@@ -2328,7 +2790,9 @@
       "en": "surname Qu；(artificial) stream; canal; drain; ditch (CL:條|条[tiao2])；(literary) big; great",
       "note": "多音字，可讀「qu/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "荳",
@@ -2338,7 +2802,9 @@
       "en": "legume; pulse; bean; pea (CL:顆|颗[ke1],粒[li4]) (variant of 豆[dou4])",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蔻",
@@ -2348,7 +2814,9 @@
       "en": "nutmeg, cardamom",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蓽",
@@ -2358,7 +2826,9 @@
       "en": "bean；pulse",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "茇",
@@ -2368,7 +2838,9 @@
       "en": "betel",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "梔",
@@ -2378,7 +2850,9 @@
       "en": "gardenia；cape jasmine (Gardenia jasminoides)；same as 梔子|栀子[zhi1 zi5]",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鷊",
@@ -2388,7 +2862,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳥",
@@ -2398,7 +2874,9 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "詈",
@@ -2408,7 +2886,9 @@
       "en": "to curse；to scold",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "猱",
@@ -2418,7 +2898,9 @@
       "en": "(literary) a kind of gibbon；(music) wide vibrato (technique for playing the guqin 古琴[gu3 qin2]) (cf. 吟[yin2], rapid vibrato)",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "婢",
@@ -2428,7 +2910,9 @@
       "en": "slave girl；maid servant",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "妾",
@@ -2438,7 +2922,9 @@
       "en": "concubine；I, your servant (deprecatory self-reference for women)",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殯",
@@ -2448,7 +2934,9 @@
       "en": "a funeral；to encoffin a corpse；to carry to burial",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "猢",
@@ -2458,7 +2946,9 @@
       "en": "a kind of monkey found in western China",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "猻",
@@ -2468,7 +2958,9 @@
       "en": "monkey",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "惡",
@@ -2478,7 +2970,9 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "噀",
@@ -2488,7 +2982,9 @@
       "en": "spurt out of the mouth",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "獼",
@@ -2498,7 +2994,9 @@
       "en": "macacus monkey",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嫗",
@@ -2508,7 +3006,9 @@
       "en": "old woman；to brood over；to protect",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泓",
@@ -2518,7 +3018,9 @@
       "en": "clear；vast and deep；classifier for a body of clear water",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "助",
@@ -2528,7 +3030,9 @@
       "en": "to help；to assist",
       "note": "多音字，可讀「zhu/chu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "齎",
@@ -2538,7 +3042,9 @@
       "en": "gift, present; offering",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "敕",
@@ -2548,7 +3054,9 @@
       "en": "imperial orders",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "妃",
@@ -2558,7 +3066,9 @@
       "en": "imperial concubine",
       "note": "多音字，可讀「fei/pei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "絡",
@@ -2568,7 +3078,9 @@
       "en": "net-like object；to hold sth in place with a net；to wind",
       "note": "多音字，可讀「luo/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "忭",
@@ -2578,7 +3090,9 @@
       "en": "(literary) happy; delighted",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亡",
@@ -2588,7 +3102,9 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "賈",
@@ -2598,7 +3114,9 @@
       "en": "surname Jia",
       "note": "多音字，可讀「jia/gu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祀",
@@ -2608,7 +3126,9 @@
       "en": "to sacrifice；to offer libation to",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湮",
@@ -2618,7 +3138,9 @@
       "en": "(literary) to sink into oblivion；(literary) to silt up；Taiwan pr. [yin1]",
       "note": "多音字，可讀「yan/yin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "殄",
@@ -2628,7 +3150,9 @@
       "en": "to exterminate",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "暴",
@@ -2638,7 +3162,9 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "榻",
@@ -2648,7 +3174,9 @@
       "en": "couch",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羸",
@@ -2658,7 +3186,9 @@
       "en": "entangled；lean",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蛟",
@@ -2668,7 +3198,9 @@
       "en": "a legendary dragon with the ability to control rain and floods；see also 蛟龍|蛟龙[jiao1 long2]",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "禎",
@@ -2678,7 +3210,9 @@
       "en": "auspicious；lucky",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "匾",
@@ -2688,7 +3222,9 @@
       "en": "horizontal rectangular inscribed tablet hung over a door or on a wall；shallow round woven bamboo basket",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "櫚",
@@ -2698,7 +3234,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "苛",
@@ -2708,7 +3246,9 @@
       "en": "severe；exacting",
       "note": "多音字，可讀「ke/he」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "刳",
@@ -2718,7 +3258,9 @@
       "en": "to cut open；rip up；scoop out",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "橘",
@@ -2728,7 +3270,9 @@
       "en": "mandarin orange (Citrus reticulata)；tangerine",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "柚",
@@ -2738,7 +3282,9 @@
       "en": "pomelo (Citrus maxima or C. grandis)；shaddock；oriental grapefruit",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臭",
@@ -2748,7 +3294,9 @@
       "en": "stench；smelly；to smell (bad)",
       "note": "多音字，可讀「chou/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "率",
@@ -2758,7 +3306,9 @@
       "en": "(bound form) ratio; rate; proportion；to lead；to command",
       "note": "多音字，可讀「lü/shuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "剿",
@@ -2768,7 +3318,9 @@
       "en": "to destroy；to extirpate",
       "note": "多音字，可讀「jiao/chao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "桔",
@@ -2778,7 +3330,9 @@
       "en": "orange, tangerine",
       "note": "多音字，可讀「ju/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "迤",
@@ -2788,7 +3342,9 @@
       "en": "winding, meandering",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "孳",
@@ -2798,7 +3354,9 @@
       "en": "industrious；produce；bear",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "肴",
@@ -2808,7 +3366,9 @@
       "en": "meat dishes；mixed viands",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "戲",
@@ -2818,7 +3378,9 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "袈",
@@ -2828,7 +3390,9 @@
       "en": "Buddhist cassock",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "裟",
@@ -2838,7 +3402,9 @@
       "en": "cassock; monk's robe",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "參",
@@ -2848,7 +3414,9 @@
       "en": "to take part in；to participate；to join",
       "note": "多音字，可讀「can/shen/cen/san」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拾",
@@ -2858,7 +3426,9 @@
       "en": "to pick up；to collate or arrange；ten (banker's anti-fraud numeral)",
       "note": "多音字，可讀「shi/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蚌",
@@ -2868,7 +3438,9 @@
       "en": "mussel；clam",
       "note": "多音字，可讀「bang/beng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "躡",
@@ -2878,7 +3450,9 @@
       "en": "to walk on tiptoe；to walk quietly；to tread (on)",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "側",
@@ -2888,7 +3462,9 @@
       "en": "the side；to incline towards；to lean",
       "note": "多音字，可讀「ce/ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "幡",
@@ -2898,7 +3474,9 @@
       "en": "banner",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "炮",
@@ -2908,7 +3486,9 @@
       "en": "to prepare herbal medicine by roasting or parching (in a pan)；cannon；CL:座[zuo4]",
       "note": "多音字，可讀「pao/bao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宥",
@@ -2918,7 +3498,9 @@
       "en": "to forgive；to help；profound",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "俾",
@@ -2928,7 +3510,9 @@
       "en": "to cause；to enable；phonetic bi",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淨",
@@ -2938,7 +3522,9 @@
       "en": "clean；completely；only",
       "note": "多音字，可讀「jing/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "眸",
@@ -2948,7 +3534,9 @@
       "en": "pupil (of the eye)；eye",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "倘",
@@ -2958,7 +3546,9 @@
       "en": "if; supposing; in case",
       "note": "多音字，可讀「tang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "伽",
@@ -2968,7 +3558,9 @@
       "en": "traditionally used as phonetic for \"ga\"",
       "note": "多音字，可讀「jia/qie/ga」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "麝",
@@ -2978,7 +3570,9 @@
       "en": "musk deer",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殖",
@@ -2988,7 +3582,9 @@
       "en": "to grow；to reproduce",
       "note": "多音字，可讀「zhi/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蹲",
@@ -2998,7 +3594,9 @@
       "en": "to crouch；to squat；to stay (somewhere)",
       "note": "多音字，可讀「dun/cun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "縮",
@@ -3008,7 +3606,9 @@
       "en": "to withdraw；to pull back；to contract",
       "note": "多音字，可讀「suo/su」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "伺",
@@ -3018,7 +3618,9 @@
       "en": "to watch；to wait；to examine",
       "note": "多音字，可讀「si/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邇",
@@ -3028,7 +3630,9 @@
       "en": "near, close; recent",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "濰",
@@ -3038,7 +3642,9 @@
       "en": "name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "脛",
@@ -3048,7 +3654,9 @@
       "en": "lower part of leg",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "廩",
@@ -3058,7 +3666,9 @@
       "en": "government granary",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "薔",
@@ -3068,7 +3678,9 @@
       "en": "rose",
       "note": "多音字，可讀「qiang/se」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "薇",
@@ -3078,7 +3690,9 @@
       "en": "Osmunda regalis, a species of fern；Taiwan pr. [wei2]",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "謨",
@@ -3088,7 +3702,9 @@
       "en": "plan；to practice",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繚",
@@ -3098,7 +3714,9 @@
       "en": "to wind round；to sew with slanting stitches",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "幔",
@@ -3108,7 +3726,9 @@
       "en": "curtain",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嵂",
@@ -3118,7 +3738,9 @@
       "en": "to rise sharply；to tower",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "隰",
@@ -3128,7 +3750,9 @@
       "en": "swamp, marsh, damp lowland",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "氍",
@@ -3138,7 +3762,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "毹",
@@ -3148,7 +3774,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "爨",
@@ -3158,7 +3786,9 @@
       "en": "surname Cuan；cooking-stove；to cook",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "楹",
@@ -3168,7 +3798,9 @@
       "en": "pillar",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "墀",
@@ -3178,7 +3810,9 @@
       "en": "courtyard",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "翎",
@@ -3188,7 +3822,9 @@
       "en": "tail feathers；plume",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嵌",
@@ -3198,7 +3834,9 @@
       "en": "to inlay；to embed；Taiwan pr. [qian1]",
       "note": "多音字，可讀「qian/kan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "叩",
@@ -3208,7 +3846,9 @@
       "en": "to knock；to kowtow；to knock",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "燔",
@@ -3218,7 +3858,9 @@
       "en": "burn；to roast meat for sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鈿",
@@ -3228,7 +3870,9 @@
       "en": "hairpin; gold-inlaid item; filigree",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "耔",
@@ -3238,7 +3882,9 @@
       "en": "hoe up soil around plants",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "摩",
@@ -3248,7 +3894,9 @@
       "en": "to rub",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "勒",
@@ -3258,7 +3906,9 @@
       "en": "(literary) bridle; halter; headstall；to rein in；to compel; to force",
       "note": "多音字，可讀「le/lei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鳧",
@@ -3268,7 +3918,9 @@
       "en": "wild duck; teal; swim",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朱",
@@ -3278,7 +3930,9 @@
       "en": "surname Zhu；vermilion；(bound form) cinnabar",
       "note": "多音字，可讀「zhu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "衰",
@@ -3288,7 +3942,9 @@
       "en": "(bound form) to decay; to decline; to wane",
       "note": "多音字，可讀「shuai/cui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "穰",
@@ -3298,7 +3954,9 @@
       "en": "surname Rang；abundant；stalk of grain",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "悃",
@@ -3308,7 +3966,9 @@
       "en": "sincere",
       "note": null,
       "is_difficult": true,
-      "src": "星槎勝覽"
+      "src": "星槎勝覽",
+      "multi": false,
+      "rare": true
     }
   ]
 }

@@ -32,7 +32,9 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "璞",
@@ -42,7 +44,9 @@
       "en": "unpolished gem",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "觴",
@@ -52,7 +56,9 @@
       "en": "feast；goblet",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "石",
@@ -62,7 +68,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "樂",
@@ -72,7 +80,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "不",
@@ -82,7 +92,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鈃",
@@ -92,7 +104,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "阿",
@@ -102,7 +116,9 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -112,7 +128,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "得",
@@ -122,7 +140,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隊",
@@ -132,7 +152,9 @@
       "en": "team, group, band, army unit; measure word for groups of people",
       "note": "多音字，可讀「dui/zhui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "虖",
@@ -142,7 +164,9 @@
       "en": "to exhale；to call；scream of tiger",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "沱",
@@ -152,7 +176,9 @@
       "en": "tearful；to branch (of river)",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "大",
@@ -162,7 +188,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "萃",
@@ -172,7 +200,9 @@
       "en": "collect；collection；dense",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "屬",
@@ -182,7 +212,9 @@
       "en": "category；genus (taxonomy)；family members",
       "note": "多音字，可讀「shu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "休",
@@ -192,7 +224,9 @@
       "en": "surname Xiu；to rest；to stop doing sth for a period of time",
       "note": "多音字，可讀「xiu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隃",
@@ -202,7 +236,9 @@
       "en": null,
       "note": "多音字，可讀「yu/yao/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "禺",
@@ -212,7 +248,9 @@
       "en": "(archaic) district；(old) type of monkey",
       "note": "多音字，可讀「yu/ou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "孫",
@@ -222,7 +260,9 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "柏",
@@ -232,7 +272,9 @@
       "en": "surname Bai；Taiwan pr. [Bo2]；cedar",
       "note": "多音字，可讀「bai/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "且",
@@ -242,7 +284,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "六",
@@ -252,7 +296,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "澤",
@@ -262,7 +308,9 @@
       "en": "pool；pond；(of metals etc) luster",
       "note": "多音字，可讀「ze/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "貉",
@@ -272,7 +320,9 @@
       "en": "old term for northern peoples；silent",
       "note": "多音字，可讀「mo/he/hao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祭",
@@ -282,7 +332,9 @@
       "en": "to offer a sacrifice to (gods or ancestors)；(in classical novels) to recite an incantation to activate a magic weapon; to wield (sth magic)；(bound form) ceremony",
       "note": "多音字，可讀「ji/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "南",
@@ -292,7 +344,9 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鶩",
@@ -302,7 +356,9 @@
       "en": "duck",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "行",
@@ -312,7 +368,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "紆",
@@ -322,7 +380,9 @@
       "en": "surname Yu；winding；twisting",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "伯",
@@ -332,7 +392,9 @@
       "en": "father's elder brother；senior；paternal elder uncle",
       "note": "多音字，可讀「bo/bai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "都",
@@ -342,7 +404,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "氏",
@@ -352,7 +416,9 @@
       "en": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")；(bound form) maiden name; née (as in 李王氏[Li3 Wang2 shi4] \"Mrs. Li, née Wang\")；(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "夭",
@@ -362,7 +428,9 @@
       "en": "(bound form) to die prematurely (also pr. [yao3])；(literary) (of vegetation) luxuriant；(bound form) to die prematurely (also pr. [yao3]) (variant of 夭[yao1])",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璧",
@@ -372,7 +440,9 @@
       "en": "jade annulus",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朝",
@@ -382,7 +452,9 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "聿",
@@ -392,7 +464,9 @@
       "en": "(arch. introductory particle)；then；and then",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "禕",
@@ -402,7 +476,9 @@
       "en": "excellent；precious；rare",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "帗",
@@ -412,7 +488,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "搢",
@@ -422,7 +500,9 @@
       "en": "shake；stick into；strike",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曶",
@@ -432,7 +512,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "夾",
@@ -442,7 +524,9 @@
       "en": "to press from either side；to place in between；to sandwich",
       "note": "多音字，可讀「jia/ga/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "曾",
@@ -452,7 +536,9 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稽",
@@ -462,7 +548,9 @@
       "en": "surname Ji；(bound form) to examine; to check (against records)；(literary) to delay; to linger",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "豕",
@@ -472,7 +560,9 @@
       "en": "hog；swine",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羊",
@@ -482,7 +572,9 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "女",
@@ -492,7 +584,9 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "舂",
@@ -502,7 +596,9 @@
       "en": "to pound (grain etc) with a mortar and pestle",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詔",
@@ -512,7 +608,9 @@
       "en": "(literary) to admonish；(bound form) imperial edict",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璿",
@@ -522,7 +620,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "射",
@@ -532,7 +632,9 @@
       "en": "to shoot；to launch；to allude to",
       "note": "多音字，可讀「she/ye/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鳥",
@@ -542,7 +644,9 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鳶",
@@ -552,7 +656,9 @@
       "en": "kite; Milvus species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鸛",
@@ -562,7 +668,9 @@
       "en": "crane, stork; Ciconia species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "狻",
@@ -572,7 +680,9 @@
       "en": "a fabulous beast",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "猊",
@@ -582,7 +692,9 @@
       "en": "lion, wild beast; wild horse",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邛",
@@ -592,7 +704,9 @@
       "en": "mound; in distress",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "麋",
@@ -602,7 +716,9 @@
       "en": "elk; surname",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乘",
@@ -612,7 +728,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "渠",
@@ -622,7 +740,9 @@
       "en": "surname Qu；(artificial) stream; canal; drain; ditch (CL:條|条[tiao2])；(literary) big; great",
       "note": "多音字，可讀「qu/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "爰",
@@ -632,7 +752,9 @@
       "en": "surname Yuan；therefore；consequently",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "谷",
@@ -642,7 +764,9 @@
       "en": "grain；corn；surname Gu",
       "note": "多音字，可讀「gu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "敕",
@@ -652,7 +776,9 @@
       "en": "imperial orders",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "枝",
@@ -662,7 +788,9 @@
       "en": "branch；classifier for sticks, rods, pencils etc",
       "note": "多音字，可讀「zhi/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "驥",
@@ -672,7 +800,9 @@
       "en": "a thoroughbred horse; refined, virtuous",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "驪",
@@ -682,7 +812,9 @@
       "en": "a pure-black horse; a pair of horses",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "騮",
@@ -692,7 +824,9 @@
       "en": "a legendary horse",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "重",
@@ -702,7 +836,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "雚",
@@ -712,7 +848,9 @@
       "en": "heron; small cup",
       "note": "多音字，可讀「guan/huan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "猳",
@@ -722,7 +860,9 @@
       "en": "mythical ape",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "翛",
@@ -732,7 +872,9 @@
       "en": "hastiness",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "芍",
@@ -742,7 +884,9 @@
       "en": "Chinese peony；Paeonia albiflora or lactiflora",
       "note": "多音字，可讀「shao/que」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "藪",
@@ -752,7 +896,9 @@
       "en": "marsh；gathering place",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弋",
@@ -762,7 +908,9 @@
       "en": "to shoot",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "追",
@@ -772,7 +920,9 @@
       "en": "to pursue, to chase after; to expel",
       "note": "多音字，可讀「zhui/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "數",
@@ -782,7 +932,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "吾",
@@ -792,7 +944,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "食",
@@ -802,7 +956,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "頓",
@@ -812,7 +968,9 @@
       "en": "to pause; to bow; to arrange",
       "note": "多音字，可讀「dun/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "殷",
@@ -822,7 +980,9 @@
       "en": "surname Yin；dynasty name at the end the Shang dynasty, after its move to Yinxu 殷墟[Yin1 xu1] in present-day Henan；flourishing",
       "note": "多音字，可讀「yin/yan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "丁",
@@ -832,7 +992,9 @@
       "en": "surname Ding；male adult；the 4th of the 10 Heavenly Stems 天干[tian1 gan1]",
       "note": "多音字，可讀「ding/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "碩",
@@ -842,7 +1004,9 @@
       "en": "(bound form) large; big；(bound form) master's degree (abbr. for 碩士|硕士[shuo4 shi4])",
       "note": "多音字，可讀「shuo/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "艸",
@@ -852,7 +1016,9 @@
       "en": "grass",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "畋",
@@ -862,7 +1028,9 @@
       "en": "to cultivate (land)；to hunt",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宿",
@@ -872,7 +1040,9 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蠲",
@@ -882,7 +1052,9 @@
       "en": "(literary) to remit; to exempt；(literary) millipede；(literary) to manifest",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齊",
@@ -892,7 +1064,9 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "禋",
@@ -902,7 +1076,9 @@
       "en": "sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "莞",
@@ -912,7 +1088,9 @@
       "en": "smile",
       "note": "多音字，可讀「wan/guan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "萯",
@@ -922,7 +1100,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蒹",
@@ -932,7 +1112,9 @@
       "en": "reed",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "葽",
@@ -942,7 +1124,9 @@
       "en": "Polygala japonica；lush (grass)",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "角",
@@ -952,7 +1136,9 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沐",
@@ -962,7 +1148,9 @@
       "en": "to bathe；to cleanse；to receive",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "劓",
@@ -972,7 +1160,9 @@
       "en": "cut off the nose",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冑",
@@ -982,7 +1172,9 @@
       "en": "helmet",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朱",
@@ -992,7 +1184,9 @@
       "en": "surname Zhu；vermilion；(bound form) cinnabar",
       "note": "多音字，可讀「zhu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "孳",
@@ -1002,7 +1196,9 @@
       "en": "industrious；produce；bear",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "和",
@@ -1012,7 +1208,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "縣",
@@ -1022,7 +1220,9 @@
       "en": "county；(Japan) prefecture",
       "note": "多音字，可讀「xian/xuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "羆",
@@ -1032,7 +1232,9 @@
       "en": "brown bear",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鵰",
@@ -1042,7 +1244,9 @@
       "en": "eagle, vulture",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "戌",
@@ -1052,7 +1256,9 @@
       "en": "11th earthly branch: 7-9 p.m., 9th solar month (8th October-6th November), year of the Dog；ancient Chinese compass point: 300°",
       "note": "多音字，可讀「xu/qu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "其",
@@ -1062,7 +1268,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "斛",
@@ -1072,7 +1280,9 @@
       "en": "ancient measuring vessel；fifty liters；dry measure for grain equal to five dou 五斗 (before Tang, ten pecks)",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "穄",
@@ -1082,7 +1292,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亶",
@@ -1092,7 +1304,9 @@
       "en": "surname Dan；sincere",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "丌",
@@ -1102,7 +1316,9 @@
       "en": "surname Ji；\"pedestal\" component in Chinese characters",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "長",
@@ -1112,7 +1328,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "綽",
@@ -1122,7 +1340,9 @@
       "en": "(bound form) ample; spacious；(literary) graceful",
       "note": "多音字，可讀「chuo/chao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鎰",
@@ -1132,7 +1352,9 @@
       "en": "a measure of weight used for gold",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "榖",
@@ -1142,7 +1364,9 @@
       "en": "paper mulberry tree",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嬖",
@@ -1152,7 +1376,9 @@
       "en": "(treat as a) favorite",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "地",
@@ -1162,7 +1388,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "戲",
@@ -1172,7 +1400,9 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "車",
@@ -1182,7 +1412,9 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "逄",
@@ -1192,7 +1424,9 @@
       "en": "surname",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "還",
@@ -1202,7 +1436,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鷺",
@@ -1212,7 +1448,9 @@
       "en": "heron, egret; Ardea species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "降",
@@ -1222,7 +1460,9 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "肱",
@@ -1232,7 +1472,9 @@
       "en": "upper arm；arm",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "檻",
@@ -1242,7 +1484,9 @@
       "en": "banister；balustrade；cage for animal or prisoner",
       "note": "多音字，可讀「jian/kan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "罌",
@@ -1252,7 +1496,9 @@
       "en": "earthen jar with small mouth",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剞",
@@ -1262,7 +1508,9 @@
       "en": "carving or engraving; knife; grave",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閭",
@@ -1272,7 +1520,9 @@
       "en": "a village of twenty-five families",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "饗",
@@ -1282,7 +1532,9 @@
       "en": "banquet; to host a banquet",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳧",
@@ -1292,7 +1544,9 @@
       "en": "wild duck; teal; swim",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "見",
@@ -1302,7 +1556,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "能",
@@ -1312,7 +1568,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弇",
@@ -1322,7 +1580,9 @@
       "en": "to cover；trap",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "徂",
@@ -1332,7 +1592,9 @@
       "en": "to go；to reach",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稱",
@@ -1342,7 +1604,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "芔",
@@ -1352,7 +1616,9 @@
       "en": null,
       "note": "多音字，可讀「hui/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "笙",
@@ -1362,7 +1628,9 @@
       "en": "sheng, a free reed wind instrument with vertical bamboo pipes",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "溽",
@@ -1372,7 +1640,9 @@
       "en": "damp；muggy",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "勒",
@@ -1382,7 +1652,9 @@
       "en": "(literary) bridle; halter; headstall；to rein in；to compel; to force",
       "note": "多音字，可讀「le/lei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "琌",
@@ -1392,7 +1664,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "畈",
@@ -1402,7 +1676,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "彊",
@@ -1412,7 +1688,9 @@
       "en": "stubborn, uncompromising",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "驂",
@@ -1422,7 +1700,9 @@
       "en": "the two outside horses in a team of four",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "疋",
@@ -1432,7 +1712,9 @@
       "en": "classifier for cloth: bolt",
       "note": "多音字，可讀「pi/ya/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "釆",
@@ -1442,7 +1724,9 @@
       "en": "to distinguish; to pick, to gather, to collect",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "纑",
@@ -1452,7 +1736,9 @@
       "en": "hempen thread；to dress hemp",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "若",
@@ -1462,7 +1748,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "閼",
@@ -1472,7 +1760,9 @@
       "en": "to block, to obstruct, to stop up",
       "note": "多音字，可讀「e/yan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "剌",
@@ -1482,7 +1772,9 @@
       "en": "perverse；unreasonable；absurd",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "血",
@@ -1492,7 +1784,9 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繇",
@@ -1502,7 +1796,9 @@
       "en": "folk-song；forced labor",
       "note": "多音字，可讀「yao/you/zhou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "被",
@@ -1512,7 +1808,9 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "疆",
@@ -1522,7 +1820,9 @@
       "en": "border；boundary",
       "note": "多音字，可讀「jiang/qiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "堇",
@@ -1532,7 +1832,9 @@
       "en": "clay；violet (plant)",
       "note": "多音字，可讀「jin/qin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "玗",
@@ -1542,7 +1844,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "琪",
@@ -1552,7 +1856,9 @@
       "en": "(literary) fine jade",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "尾",
@@ -1562,7 +1868,9 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "駟",
@@ -1572,7 +1880,9 @@
       "en": "a team of four horses",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鵠",
@@ -1582,7 +1892,9 @@
       "en": "swan",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湩",
@@ -1592,7 +1904,9 @@
       "en": "milk；sound of a drum",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "洗",
@@ -1602,7 +1916,9 @@
       "en": "to wash; to bathe；to develop (photographs)；to shuffle (cards etc)",
       "note": "多音字，可讀「xi/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稷",
@@ -1612,7 +1928,9 @@
       "en": "millet；God of cereals worshiped by ancient rulers；minister of agriculture",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "珌",
@@ -1622,7 +1940,9 @@
       "en": "gem on scabbard",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "玕",
@@ -1632,7 +1952,9 @@
       "en": "(inferior gem)",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "篋",
@@ -1642,7 +1964,9 @@
       "en": "chest；box；trunk",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "溲",
@@ -1652,7 +1976,9 @@
       "en": "to urinate",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "模",
@@ -1662,7 +1988,9 @@
       "en": "to imitate；model；norm",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "菫",
@@ -1672,7 +2000,9 @@
       "en": "violet",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "汭",
@@ -1682,7 +2012,9 @@
       "en": "river-bend",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "髭",
@@ -1692,7 +2024,9 @@
       "en": "mustache",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "翟",
@@ -1702,7 +2036,9 @@
       "en": "surname Zhai",
       "note": "多音字，可讀「zhai/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瀍",
@@ -1712,7 +2048,9 @@
       "en": "Chanshui river in Henan",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "解",
@@ -1722,7 +2060,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "羝",
@@ -1732,7 +2072,9 @@
       "en": "billy goat；ram",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "濩",
@@ -1742,7 +2084,9 @@
       "en": "cook；dashing of water",
       "note": "多音字，可讀「hu/huo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "謁",
@@ -1752,7 +2096,9 @@
       "en": "to visit (a superior)",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詰",
@@ -1762,7 +2108,9 @@
       "en": "(bound form) to question closely; to interrogate",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "洧",
@@ -1772,7 +2120,9 @@
       "en": "name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朕",
@@ -1782,7 +2132,9 @@
       "en": "(used by an emperor or king) I; me; we (royal \"we\")；(literary) omen",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "卒",
@@ -1792,7 +2144,9 @@
       "en": "soldier；servant；to finish",
       "note": "多音字，可讀「zu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "櫟",
@@ -1802,7 +2156,9 @@
       "en": "oak；Quercus serrata",
       "note": "多音字，可讀「li/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "暴",
@@ -1812,7 +2168,9 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "雀",
@@ -1822,7 +2180,9 @@
       "en": "sparrow",
       "note": "多音字，可讀「que/qiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "滎",
@@ -1832,7 +2192,9 @@
       "en": "a county in Henan; the sound of waves crashing",
       "note": "多音字，可讀「xing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "庖",
@@ -1842,7 +2204,9 @@
       "en": "kitchen",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "熟",
@@ -1852,7 +2216,9 @@
       "en": "ripe; mature；thoroughly cooked; done；familiar; acquainted",
       "note": "多音字，可讀「shu/shou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "落",
@@ -1862,7 +2228,9 @@
       "en": "to fall or drop；(of the sun) to set；(of a tide) to go out",
       "note": "多音字，可讀「luo/la/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "塞",
@@ -1872,7 +2240,9 @@
       "en": "to plug; to stop up; to stuff in；(bound form) a stopper; a cork；(bound form) strategic stronghold",
       "note": "多音字，可讀「sai/se」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -1882,7 +2252,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "扐",
@@ -1892,7 +2264,9 @@
       "en": "divination by straw",
       "note": "多音字，可讀「le/li/cai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "葭",
@@ -1902,7 +2276,9 @@
       "en": "reed；Phragmites communis",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "柙",
@@ -1912,7 +2288,9 @@
       "en": "cage；pen；scabbard",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "畜",
@@ -1922,7 +2300,9 @@
       "en": "livestock；domesticated animal；domestic animal",
       "note": "多音字，可讀「chu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蠹",
@@ -1932,7 +2312,9 @@
       "en": "insect that eats into books, clothing etc；moth-eaten；worm-eaten",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "悆",
@@ -1942,7 +2324,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "薨",
@@ -1952,7 +2336,9 @@
       "en": "death of a prince；swarming",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "狩",
@@ -1962,7 +2348,9 @@
       "en": "to hunt；to go hunting (as winter sport in former times)；hunting dog",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "菞",
@@ -1972,7 +2360,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蛇",
@@ -1982,7 +2372,9 @@
       "en": "snake；serpent；CL:條|条[tiao2]",
       "note": "多音字，可讀「she/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "筮",
@@ -1992,7 +2384,9 @@
       "en": "divine by stalk",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "苹",
@@ -2002,7 +2396,9 @@
       "en": "(artemisia)；duckweed",
       "note": "多音字，可讀「ping/peng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "卦",
@@ -2012,7 +2408,9 @@
       "en": "divinatory diagram；one of the eight divinatory trigrams of the Book of Changes 易經|易经[Yi4 jing1]；one of the sixty-four divinatory hexagrams of the Book of Changes 易經|易经[Yi4 jing1]",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祀",
@@ -2022,7 +2420,9 @@
       "en": "to sacrifice；to offer libation to",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "絺",
@@ -2032,7 +2432,9 @@
       "en": "fine fibers of hemp；linen",
       "note": "多音字，可讀「chi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "紵",
@@ -2042,7 +2444,9 @@
       "en": "(literary) cloth made from ramie fiber",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "員",
@@ -2052,7 +2456,9 @@
       "en": "(bound form) person engaged in a certain field of activity；(bound form) member；classifier for military generals",
       "note": "多音字，可讀「yuan/yun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "閟",
@@ -2062,7 +2468,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嗟",
@@ -2072,7 +2480,9 @@
       "en": "sigh；also pr. [jue1]",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "辟",
@@ -2082,7 +2492,9 @@
       "en": "law, rule; to open up, to develop",
       "note": "多音字，可讀「pi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "冢",
@@ -2092,7 +2504,9 @@
       "en": "mound；burial mound；senior (i.e. eldest child or senior in rank)",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "皎",
@@ -2102,7 +2516,9 @@
       "en": "bright；white",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "翩",
@@ -2112,7 +2528,9 @@
       "en": "to fly fast",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羿",
@@ -2122,7 +2540,9 @@
       "en": "surname Yi；name of a legendary archer (also called 后羿[Hou4 Yi4])",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "寘",
@@ -2132,7 +2552,9 @@
       "en": "to put aside；to put down；to discard",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "軨",
@@ -2142,7 +2564,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "浢",
@@ -2152,7 +2576,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "菹",
@@ -2162,7 +2588,9 @@
       "en": "marshland；swamp；salted or pickled vegetables",
       "note": "多音字，可讀「zu/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "牾",
@@ -2172,7 +2600,9 @@
       "en": "to oppose；to gore",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "脯",
@@ -2182,7 +2612,9 @@
       "en": "chest；breast",
       "note": "多音字，可讀「pu/fu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "漯",
@@ -2192,7 +2624,9 @@
       "en": "name of a river",
       "note": "多音字，可讀「luo/ta」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "盛",
@@ -2202,7 +2636,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "狃",
@@ -2212,7 +2648,9 @@
       "en": "accustomed to",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "給",
@@ -2222,7 +2660,9 @@
       "en": "to；for；for the benefit of",
       "note": "多音字，可讀「gei/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "輲",
@@ -2232,7 +2672,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殯",
@@ -2242,7 +2684,9 @@
       "en": "a funeral；to encoffin a corpse；to carry to burial",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "轂",
@@ -2252,7 +2696,9 @@
       "en": "the hub of a wheel",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殤",
@@ -2262,7 +2708,9 @@
       "en": "to die in childhood；war dead",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "筵",
@@ -2272,7 +2720,9 @@
       "en": "bamboo mat for sitting",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "胾",
@@ -2282,7 +2732,9 @@
       "en": "cut meat into pieces；diced meat",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "醢",
@@ -2292,7 +2744,9 @@
       "en": "minced pickled meat; to mince",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "腊",
@@ -2302,7 +2756,9 @@
       "en": "ancient practice of offering sacrifices to the gods in the 12th lunar month；the 12th lunar month；(bound form) (of meat, fish etc) cured in winter, esp. in the 12th lunar month",
       "note": "多音字，可讀「la/xi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "糗",
@@ -2312,7 +2768,9 @@
       "en": "surname Qiu；dry rations (for a journey)；(dialect) (of noodles etc) to become mush (from overcooking)",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "俎",
@@ -2322,7 +2780,9 @@
       "en": "a stand for food at sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乾",
@@ -2332,7 +2792,9 @@
       "en": "surname Qian；one of the Eight Trigrams 八卦[ba1 gua4], symbolizing heaven；male principle",
       "note": "多音字，可讀「qian/gan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "敦",
@@ -2342,7 +2804,9 @@
       "en": "kindhearted；place name",
       "note": "多音字，可讀「dun/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "扈",
@@ -2352,7 +2816,9 @@
       "en": "surname Hu；retinue",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "裳",
@@ -2362,7 +2828,9 @@
       "en": "lower garment；skirts；petticoats",
       "note": "多音字，可讀「shang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "竽",
@@ -2372,7 +2840,9 @@
       "en": "free reed wind instrument similar to the sheng 笙[sheng1], used in ancient China",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "籥",
@@ -2382,7 +2852,9 @@
       "en": "flute；key",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "荻",
@@ -2392,7 +2864,9 @@
       "en": "Anaphalis yedoensis (pearly everlasting reed)",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "筦",
@@ -2402,7 +2876,9 @@
       "en": "surname Guan",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "輦",
@@ -2412,7 +2888,9 @@
       "en": "hand-cart; to transport by carriage",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弟",
@@ -2422,7 +2900,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "妾",
@@ -2432,7 +2912,9 @@
       "en": "concubine；I, your servant (deprecatory self-reference for women)",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "圜",
@@ -2442,7 +2924,9 @@
       "en": "circle；encircle",
       "note": "多音字，可讀「huan/yuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "厝",
@@ -2452,7 +2936,9 @@
       "en": "to lay in place；to put；to place a coffin in a temporary location pending burial",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "禭",
@@ -2462,7 +2948,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "賵",
@@ -2472,7 +2960,9 @@
       "en": "(literary) gift (of money etc) to a bereaved family；to contribute to funeral expenses",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藏",
@@ -2482,7 +2972,9 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祠",
@@ -2492,7 +2984,9 @@
       "en": "shrine；to offer a sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "罷",
@@ -2502,7 +2996,9 @@
       "en": "to stop；to cease；to dismiss",
       "note": "多音字，可讀「ba/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "謚",
@@ -2512,7 +3008,9 @@
       "en": "posthumous name or title",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "思",
@@ -2522,7 +3020,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "尺",
@@ -2532,7 +3032,9 @@
       "en": "a Chinese foot；one-third of a meter；a ruler",
       "note": "多音字，可讀「chi/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諫",
@@ -2542,7 +3044,9 @@
       "en": "surname Jian；to remonstrate；to admonish",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "豈",
@@ -2552,7 +3056,9 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "莫",
@@ -2562,7 +3068,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "輟",
@@ -2572,7 +3080,9 @@
       "en": "to suspend, to stop, to halt",
       "note": null,
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "薄",
@@ -2582,7 +3092,9 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "窴",
@@ -2592,7 +3104,9 @@
       "en": "fill in",
       "note": "多音字，可讀「tian/dian/yan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "穆天子传"
+      "src": "穆天子传",
+      "multi": true,
+      "rare": true
     }
   ]
 }

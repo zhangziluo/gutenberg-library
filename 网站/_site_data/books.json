@@ -733,5 +733,89 @@
     "categories": [
       "全書"
     ]
+  },
+  "Frankenstein": {
+    "title": "Frankenstein",
+    "section_count": 24,
+    "categories": [
+      "章"
+    ]
+  },
+  "Dracula": {
+    "title": "Dracula",
+    "section_count": 27,
+    "categories": [
+      "章"
+    ]
+  },
+  "The Hound of the Baskervilles": {
+    "title": "The Hound of the Baskervilles",
+    "section_count": 15,
+    "categories": [
+      "章"
+    ]
+  },
+  "Walden": {
+    "title": "Walden",
+    "section_count": 1,
+    "categories": [
+      "章"
+    ]
+  },
+  "Peter Pan : [Peter and Wendy]": {
+    "title": "Peter Pan : [Peter and Wendy]",
+    "section_count": 17,
+    "categories": [
+      "章"
+    ]
+  },
+  "The Jungle Book": {
+    "title": "The Jungle Book",
+    "section_count": 1,
+    "categories": [
+      "章"
+    ]
+  },
+  "Anne of Green Gables": {
+    "title": "Anne of Green Gables",
+    "section_count": 38,
+    "categories": [
+      "章"
+    ]
+  },
+  "The Wind in the Willows": {
+    "title": "The Wind in the Willows",
+    "section_count": 1,
+    "categories": [
+      "章"
+    ]
+  },
+  "A Little Prince": {
+    "title": "A Little Prince",
+    "section_count": 1,
+    "categories": [
+      "章"
+    ]
+  },
+  "Grimms' Fairy Tales": {
+    "title": "Grimms' Fairy Tales",
+    "section_count": 1,
+    "categories": [
+      "章"
+    ]
+  },
+  "The Arabian Nights Entertainments": {
+    "title": "The Arabian Nights Entertainments",
+    "section_count": 1,
+    "categories": [
+      "章"
+    ]
+  },
+  "Little Lord Fauntleroy": {
+    "title": "Little Lord Fauntleroy",
+    "section_count": 15,
+    "categories": [
+      "章"
+    ]
   }
 }

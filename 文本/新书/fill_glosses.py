@@ -1,22 +1,31 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-fill_glosses.py — 释义回填（CC-CEDICT / 新华字典 / 人工精编 / pinyin-pro）
+fill_glosses.py — 释义回填（中文：CC-CEDICT / 新华字典 / 人工精编 / pinyin-pro；
+                              英文：ECDICT 英汉词典打底 + Free Dictionary API 网络释义）
 =======================================================================
-为全部注释单字补齐 zh_cn/zh_tw/en/note，并写入四处：
-  1) 文本/新书/wordbank.json                     规范词库（后续入库可复用）
+为全部注释单字/单词补齐 zh_cn/zh_tw/en/note，并写入四处：
+  1) 文本/新书/wordbank.json                     规范词库（中文，后续入库可复用）
+     文本/新书/wordbank_en.json                  规范词库（英文，后续入库可复用）
   2) data/books/*.json                           原始新书数据 annotations
   3) 网站/_site_data/{書名}.json                  阅读器单书 annotations
   4) 网站/_site_data/books.json                   聚合索引中的 annotations
 附加标记：
   multi  : 是否多音字（pinyin-pro）
-  rare   : 是否字频外生僻字（common_hanzi 之外）
-只改动每个 annotation 的 zh_cn/zh_tw/en/note/multi/rare，其余字段原样保留。
+  rare   : 是否字频外生僻字（common_hanzi 之外）；英文词则按 ECDICT 词频判定
+只改动每个 annotation 的 zh_cn/zh_tw/en/note/multi/rare（英文词另写音标到 pinyin），
+其余字段原样保留。
+
+用法：
+  python3 fill_glosses.py                    # 中文 + 英文（英文缺英文释义时调网络词典 API）
+  python3 fill_glosses.py --api-budget=8000  # 放大网络词典请求预算（缓存持久，可多次运行累积）
+  python3 fill_glosses.py --no-network       # 离线：英文只用 ECDICT 打底
 """
 import glob
 import json
 import os
 import subprocess
+import sys
 
 import gloss_lib as G
 
@@ -28,12 +37,41 @@ TS = json.load(open(os.path.join(BASE, 'trad_simp_map.json'), encoding='utf-8'))
 COMMON = set(json.load(open(os.path.join(BASE, 'common_hanzi.json'), encoding='utf-8'))['chars'])
 READINGS = json.load(open(os.path.join(BASE, 'data', 'pinyin_readings.json'), encoding='utf-8'))
 
-def build_glosses(word_pys, overrides):
-    """word -> {pinyin, zh_cn, en, multi, readings, rare}"""
+def gloss_order(word_pys):
+    """遍历顺序：先中文词、再英文词（英文按字典序 = 首字母聚簇）。
+
+    ECDICT 释义按首字母分片存放，聚簇遍历可让每片只加载一次，
+    避免 LRU 反复换入换出（分片最大约 7 MiB）。
+    """
+    zh = [w for w in word_pys if not G.is_english_word(w)]
+    en = sorted(w for w in word_pys if G.is_english_word(w))
+    return zh + en
+
+
+def build_glosses(word_pys, overrides, use_network=True):
+    """word -> {pinyin, zh_cn, en, multi, readings, rare, simp}
+
+    中文词（CJK）：CC-CEDICT / 新华字典 / 人工精编（原逻辑不变）；
+    英文词：ECDICT 英汉词典打底（zh_cn/en/音标），Free Dictionary API 兜底英文释义。
+    """
     glosses = {}
-    for w, pys in word_pys.items():
-        simp = TS.get(w, w)
+    for w in gloss_order(word_pys):
+        pys = word_pys[w]
         py = pys[0] if pys else ''
+        if G.is_english_word(w):
+            zh = overrides.get(w) or G.en_word_zh(w)
+            en = G.en_word_en(w, use_network=use_network)
+            glosses[w] = {
+                'pinyin': py or G.en_word_phonetic(w),
+                'zh_cn': zh or '',
+                'en': en or '',
+                'multi': False,
+                'readings': '',
+                'rare': G.en_word_rare(w),
+                'simp': w,
+            }
+            continue
+        simp = TS.get(w, w)
         zh = overrides.get(w) or G.xinhua_zh(w, simp, py)
         en = G.en_gloss(w, py)
         info = READINGS.get(w) or {}
@@ -98,35 +136,48 @@ def collect_annotations():
     return word_pys
 
 def write_wordbank(glosses, trad_map):
+    """中文词 → wordbank.json；英文词 → wordbank_en.json（避免污染中文分词词库）。"""
     out = {
         '_说明': '重难字词注释词库（fill_glosses.py 生成）：简体/繁体/英文释义 + 读音标记。',
         '_updated': 'auto',
         '_source': 'CC-CEDICT / 新华字典(chinese-xinhua) / 人工精编 gloss_override.json / pinyin-pro',
     }
+    en_out = {
+        '_说明': '英文重难词词库（fill_glosses.py 生成）：英文词 → 中文/英文释义 + 音标。',
+        '_updated': 'auto',
+        '_source': 'ECDICT(skywind3000/ECDICT, MIT) / Free Dictionary API(freedictionaryapi.com)',
+    }
     for w in sorted(glosses):
         g = glosses[w]
-        out[w] = {
+        entry = {
             'pinyin': g['pinyin'],
-            'pinyin_notes': None,
             'zh_cn': g['zh_cn'] or None,
             'zh_tw': trad_map.get(g['zh_cn'], '') or None,
             'en': g['en'] or None,
-            'note': note_text(g),
-            'multi': g['multi'],
-            'readings': g['readings'] or None,
             'rare': g['rare'],
             'is_difficult': True,
         }
+        if G.is_english_word(w):
+            en_out[w] = entry
+            continue
+        entry.update({'pinyin_notes': None, 'note': note_text(g),
+                      'multi': g['multi'], 'readings': g['readings'] or None})
+        out[w] = entry
     with open(os.path.join(BASE, 'wordbank.json'), 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print('✅ wordbank.json:', len(out) - 3, '词条')
+    print('✅ wordbank.json:', len(out) - 3, '中文词条')
+    if len(en_out) > 3:
+        with open(os.path.join(BASE, 'wordbank_en.json'), 'w', encoding='utf-8') as f:
+            json.dump(en_out, f, ensure_ascii=False, indent=1)
+        print('✅ wordbank_en.json:', len(en_out) - 3, '英文词条')
 
 
 def apply_glosses_to(anns, glosses, zh2tw, stats):
     """把释义写进一组 annotation。返回是否发生改动。"""
     touched = False
     for a in anns:
-        g = glosses.get(a.get('word', ''))
+        w = a.get('word', '')
+        g = glosses.get(w)
         if not g:
             continue
         stats['entries'] += 1
@@ -141,6 +192,9 @@ def apply_glosses_to(anns, glosses, zh2tw, stats):
             'multi': g['multi'],
             'rare': g['rare'],
         }
+        if G.is_english_word(w) and g['pinyin']:
+            newvals['pinyin'] = g['pinyin']      # 英文词：音标写入 pinyin 字段
+            stats['en_words'] += 1
         for k, v in newvals.items():
             if a.get(k) != v:
                 touched = True
@@ -164,7 +218,7 @@ def backfill_files(glosses, trad_map):
     files += sorted(f for f in glob.glob(os.path.join(SITE_DATA, '*.json'))
                     if os.path.basename(f) != 'books.json')
 
-    stats = {'entries': 0, 'zh': 0, 'zh_tw': 0, 'en': 0, 'note': 0}
+    stats = {'entries': 0, 'zh': 0, 'zh_tw': 0, 'en': 0, 'note': 0, 'en_words': 0}
     changed_files = 0
     for f in files:
         try:
@@ -192,18 +246,46 @@ def backfill_files(glosses, trad_map):
 
 
 def main():
+    no_network = '--no-network' in sys.argv        # 离线模式：只用 ECDICT 打底
+    api_budget = 3000                              # 网络词典每次运行最多请求词数
+    for a in sys.argv:
+        if a.startswith('--api-budget='):
+            try:
+                api_budget = int(a.split('=', 1)[1])
+            except ValueError:
+                pass
     print('== 1) 汇总全注释词')
     word_pys = collect_annotations()
-    print('   唯一词:', len(word_pys))
+    n_en = sum(1 for w in word_pys if G.is_english_word(w))
+    print('   唯一词:', len(word_pys), '（其中英文词:', n_en, '）')
 
-    print('== 2) 计算释义')
+    print('== 2) 英文网络释义预取（ECDICT 缺英文释义的词；预算 %d）' % api_budget)
+    if not G.ecdict_available():
+        print('   ⚠️ 缺 ECDICT 分片（data/ecdict_en/）：英文释义将只剩网络来源，'
+              '请先运行 parse_ecdict.py')
+    if no_network:
+        print('   跳过（离线模式）')
+    else:
+        need = sorted(w for w in word_pys if G.is_english_word(w)
+                      and G.en_word_needs_api(w))
+        fetched, skipped = G.api_prefetch(need, budget=api_budget)
+        print(f'   待取 {len(need)}，本次请求 {fetched}'
+              + (f'，超预算跳过 {skipped}（可重跑或调大 --api-budget）' if skipped else ''))
+
+    print('== 3) 计算释义')
     overrides = G.overrides()
-    glosses = build_glosses(word_pys, overrides)
+    glosses = build_glosses(word_pys, overrides, use_network=False)
     zh_have = sum(1 for g in glosses.values() if g['zh_cn'])
     en_have = sum(1 for g in glosses.values() if g['en'])
     print('   词数:', len(glosses), '| 简体释义:', zh_have, '| 英文:', en_have)
+    enw = [w for w in glosses if G.is_english_word(w)]
+    if enw:
+        en_zh = sum(1 for w in enw if glosses[w]['zh_cn'])
+        en_ok = sum(1 for w in enw if glosses[w]['en'])
+        en_ph = sum(1 for w in enw if glosses[w]['pinyin'])
+        print(f'   英文词 {len(enw)}：中文释义 {en_zh} / 英文释义 {en_ok} / 音标 {en_ph}')
 
-    print('== 3) 简体→繁体（opencc）')
+    print('== 4) 简体→繁体（opencc）')
     order = list(glosses.values())
     items = [{'id': i, 'text': g['zh_cn']} for i, g in enumerate(order)]
     trad_by_id = make_traditional(items)
@@ -214,11 +296,13 @@ def main():
             zh2tw[g['zh_cn']] = t
     print('   转换条数:', len(zh2tw))
 
-    print('== 4) 写 wordbank.json')
+    print('== 5) 写 wordbank.json / wordbank_en.json')
     write_wordbank(glosses, zh2tw)
 
-    print('== 5) 回填 annotations')
+    print('== 6) 回填 annotations')
     backfill_files(glosses, zh2tw)
+    if not no_network:
+        G.api_flush()                              # 网络词典缓存写盘
     print('完成。')
 
 

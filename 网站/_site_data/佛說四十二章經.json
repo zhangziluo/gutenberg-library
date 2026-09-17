@@ -93,7 +93,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "大",
@@ -103,7 +105,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "禪",
@@ -113,7 +117,9 @@
       "en": "to abdicate",
       "note": "多音字，可讀「shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "降",
@@ -123,7 +129,9 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -133,7 +141,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諦",
@@ -143,7 +153,9 @@
       "en": "to examine；truth (Buddhism)",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "度",
@@ -153,7 +165,9 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "憍",
@@ -163,7 +177,9 @@
       "en": "arrogant",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "說",
@@ -173,7 +189,9 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "疑",
@@ -183,7 +201,9 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "佛",
@@ -193,7 +213,9 @@
       "en": "Buddha; Buddhism (abbr. for 佛陀[Fo2 tuo2])",
       "note": "多音字，可讀「fo/fu/bi/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "敕",
@@ -203,7 +225,9 @@
       "en": "imperial orders",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "合",
@@ -213,7 +237,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "親",
@@ -223,7 +249,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "家",
@@ -233,7 +261,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "識",
@@ -243,7 +273,9 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "解",
@@ -253,7 +285,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -263,7 +297,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "淨",
@@ -273,7 +309,9 @@
       "en": "clean；completely；only",
       "note": "多音字，可讀「jing/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "阿",
@@ -283,7 +321,9 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "能",
@@ -293,7 +333,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "地",
@@ -303,7 +345,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "那",
@@ -313,7 +357,9 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "還",
@@ -323,7 +369,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "得",
@@ -333,7 +381,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洹",
@@ -343,7 +393,9 @@
       "en": "name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "便",
@@ -353,7 +405,9 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "不",
@@ -363,7 +417,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繫",
@@ -373,7 +429,9 @@
       "en": "to connect；to arrest；to worry",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "食",
@@ -383,7 +441,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宿",
@@ -393,7 +453,9 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惡",
@@ -403,7 +465,9 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "婬",
@@ -413,7 +477,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "綺",
@@ -423,7 +489,9 @@
       "en": "beautiful；open-work silk",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "恚",
@@ -433,7 +501,9 @@
       "en": "rage",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "若",
@@ -443,7 +513,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "頓",
@@ -453,7 +525,9 @@
       "en": "to pause; to bow; to arrange",
       "note": "多音字，可讀「dun/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "其",
@@ -463,7 +537,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瞋",
@@ -473,7 +549,9 @@
       "en": "(literary) to stare angrily; to glare",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "責",
@@ -483,7 +561,9 @@
       "en": "duty；responsibility；to reproach",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "吾",
@@ -493,7 +573,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -503,7 +585,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仰",
@@ -513,7 +597,9 @@
       "en": "surname Yang；to face upward；to look up",
       "note": "多音字，可讀「yang/ang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "墮",
@@ -523,7 +609,9 @@
       "en": "to fall; to sink；(fig.) to degenerate",
       "note": "多音字，可讀「duo/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "坌",
@@ -533,7 +621,9 @@
       "en": "dust; earth; river bank; to dig; to unite",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "會",
@@ -543,7 +633,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "助",
@@ -553,7 +645,9 @@
       "en": "to help；to assist",
       "note": "多音字，可讀「zhu/chu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "數",
@@ -563,7 +657,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "熟",
@@ -573,7 +669,9 @@
       "en": "ripe; mature；thoroughly cooked; done；familiar; acquainted",
       "note": "多音字，可讀「shu/shou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "冥",
@@ -583,7 +681,9 @@
       "en": "dark；deep；stupid",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "辟",
@@ -593,7 +693,9 @@
       "en": "law, rule; to open up, to develop",
       "note": "多音字，可讀「pi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "色",
@@ -603,7 +705,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "見",
@@ -613,7 +717,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "被",
@@ -623,7 +729,9 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瑕",
@@ -633,7 +741,9 @@
       "en": "blemish；flaw in jade",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澄",
@@ -643,7 +753,9 @@
       "en": "surname Cheng；clear；limpid",
       "note": "多音字，可讀「cheng/deng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拘",
@@ -653,7 +765,9 @@
       "en": "to capture；to restrain；to constrain",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "差",
@@ -663,7 +777,9 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "釐",
@@ -673,7 +789,9 @@
       "en": "one thousandth",
       "note": "多音字，可讀「li/xi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "臾",
@@ -683,7 +801,9 @@
       "en": "surname Yu；a moment；little while",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "覺",
@@ -693,7 +813,9 @@
       "en": "to feel；to find that；thinking",
       "note": "多音字，可讀「jue/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "提",
@@ -703,7 +825,9 @@
       "en": "to carry (hanging down from the hand)；to lift；to put forward",
       "note": "多音字，可讀「ti/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "都",
@@ -713,7 +837,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "著",
@@ -723,7 +849,9 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "舐",
@@ -733,7 +861,9 @@
       "en": "to lick；to lap (up)",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "期",
@@ -743,7 +873,9 @@
       "en": "period；cycle；a period of time",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "豈",
@@ -753,7 +885,9 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "憚",
@@ -763,7 +897,9 @@
       "en": "dread；fear；dislike",
       "note": "多音字，可讀「dan/da」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "溺",
@@ -773,7 +909,9 @@
       "en": "to drown；to indulge；addicted to",
       "note": "多音字，可讀「ni/niao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "莫",
@@ -783,7 +921,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "女",
@@ -793,7 +933,9 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "革",
@@ -803,7 +945,9 @@
       "en": "leather, animal hide; to reform; to remove",
       "note": "多音字，可讀「ge/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洄",
@@ -813,7 +957,9 @@
       "en": "eddying；whirling (of water)；to go against the current",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邪",
@@ -823,7 +969,9 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嬈",
@@ -833,7 +981,9 @@
       "en": "graceful",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "信",
@@ -843,7 +993,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "長",
@@ -853,7 +1005,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "姊",
@@ -863,7 +1017,9 @@
       "en": "older sister；Taiwan pr. [jie3]",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乾",
@@ -873,7 +1029,9 @@
       "en": "surname Qian；one of the Eight Trigrams 八卦[ba1 gua4], symbolizing heaven；male principle",
       "note": "多音字，可讀「qian/gan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "偈",
@@ -883,7 +1041,9 @@
       "en": "Buddhist hymn；gatha；Buddhist verse",
       "note": "多音字，可讀「ji/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "迦",
@@ -893,7 +1053,9 @@
       "en": "used in transliterations",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鎧",
@@ -903,7 +1065,9 @@
       "en": "armor, chain mail",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曾",
@@ -913,7 +1077,9 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "彈",
@@ -923,7 +1089,9 @@
       "en": "crossball；bullet；shot",
       "note": "多音字，可讀「dan/tan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "調",
@@ -933,7 +1101,9 @@
       "en": "to transfer；to move (troops or cadres)；to investigate",
       "note": "多音字，可讀「diao/tiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "適",
@@ -943,7 +1113,9 @@
       "en": "match, comfortable; just",
       "note": "多音字，可讀「shi/di/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "暴",
@@ -953,7 +1125,9 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "樂",
@@ -963,7 +1137,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "六",
@@ -973,7 +1149,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "重",
@@ -983,7 +1161,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "籸",
@@ -993,7 +1173,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "訶",
@@ -1003,7 +1185,9 @@
       "en": "to scold",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "耨",
@@ -1013,7 +1197,9 @@
       "en": "hoe；to hoe；to weed",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乘",
@@ -1023,7 +1209,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "槃",
@@ -1033,7 +1221,9 @@
       "en": "wooden tray",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "寤",
@@ -1043,7 +1233,9 @@
       "en": "to awake from sleep",
       "note": null,
       "is_difficult": true,
-      "src": "佛說四十二章經"
+      "src": "佛說四十二章經",
+      "multi": false,
+      "rare": true
     }
   ]
 }

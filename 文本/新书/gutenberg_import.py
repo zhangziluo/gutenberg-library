@@ -10,8 +10,10 @@
   * 清洗：截取 START/END OF THE PROJECT GUTENBERG EBOOK 之间正文；
           删除开头结尾英文元数据（Produced by/Title:/Author:/Release date/
           Language:/书名:/分隔线/纯 ASCII 行/尾部 End of Project Gutenberg）
+          英文书（--lang en）保留 ASCII 正文，仅清头尾元数据
   * 切分：复用 build_books 全部切分器（第X回/第X章/第X篇/第X則/卷/篇名/整本/
-          易經/山海經/禮記/詩經305篇 等），繁体原样保留
+          易經/山海經/禮記/詩經305篇 等），繁体原样保留；英文书另用 en_chapter
+          （CHAPTER / Part·Book·Volume / 数字标题 / 罗马数字，自动跳过目录）
   * 输出（适配移动后的新结构）：
       1) data/books/{key}.json           结构化正本
       2) library-index.json              分类书目索引
@@ -22,15 +24,37 @@
   ① 精简模式（默认切分 + 自动元数据，一键批量）：
        python3 gutenberg_import.py --ids 新书.txt     # 每行一个古登堡编号
        可选：--split auto|hui|zhang|…  --category 子部  --subcategory 古籍（自动导入）
-       标题/作者自动取自 本地(EBOOK_ID/raw 头部) → 古登堡 API；书号对应的
-       导入配置（key 为 pg{编号}）持久化于 quick_books.json，后续全量运行一并入库。
+       标题/作者自动取自 本地(EBOOK_ID/raw 头部) → Gutendex → 古登堡 API（逐级兜底）；
+       书号对应的导入配置（key 为 pg{编号}）持久化于 quick_books.json，后续全量运行一并入库。
        书名非中文的编号会跳过（防止英文/罗马化书名进入中文书库）。
        失败（无中文书名/下载失败/缺原文/切分为空/处理异常等）单独记入
        项目根 logs/gutenberg_import.log；单本失败只跳过、不中断整批，
        运行结束按失败编号去重打印汇总（重复/已入库视为跳过、不计失败）。
+  ①.b 书目检索（只查不入库；元数据来自 Gutendex，见 gutendex_client.py）：
+       python3 gutenberg_import.py --search "dracula"          # 关键词检索，打印前 20 条
+       python3 gutenberg_import.py --list-by-lang en --max 50  # 按语言列热门书
+       （输出：gutenberg_id | title | authors | languages | download_count；不触发下载/入库）
+  ①.c 预演（dry-run）：只解析元数据并打印预览表，不下载、不写任何文件（含失败日志）
+       python3 gutenberg_import.py --ids i.txt --lang en --dry-run
+       有原文 → 显示实际切分器；尚未下载原文 → 显示元数据、切分标「待下载」
+       （正式运行需先下载原文；确认清单无误后去掉 --dry-run 重新运行）
   ② 精细模式（现有手动配置，需调切分参数时用）：
        python3 gutenberg_import.py              # 处理全部 BOOKS
        python3 gutenberg_import.py 詩經 麟兒報   # 仅处理指定书名
+
+英文书（--lang en，或等价的 --english）：
+    python3 gutenberg_import.py --ids i.txt --lang en     # 列表行内可带书名
+    · 书名不再要求含中文：优先取列表行内书名（如 `11 Alice's Adventures in
+      Wonderland`），其次 raw 头部「by 作者」上方一行，最后古登堡 API；
+      作者取「by Xxx」行。
+    · 默认归入 子部·小說家（西洋）；按体裁分门别类可用 --category 史部/集部/
+      叢部… 与 --subcategory 覆盖（多本合集并入 叢部）。
+    · 切分默认走英文识别 en_chapter：CHAPTER / Part·Book·Volume / 数字标题 /
+      罗马数字，并自动跳过目录（缩进条目与开头紧簇）。
+    · 英文书注释：按 ECDICT 常用词表（data/common_words_en.json）挑「英文难词」
+      （非停用词且排名在常用词表之外）写入 annotations（word 存小写、音标/释义留空），
+      释义由 fill_glosses.py 用 ECDICT + Free Dictionary API 回填。
+      ※ 需先跑 python3 parse_ecdict.py 生成词表，否则难词判定退化为「非停用词」。
 """
 import os
 import re
@@ -42,6 +66,11 @@ import subprocess
 import urllib.request
 import urllib.error
 import shutil
+import io
+import contextlib
+import unicodedata
+
+import gutendex_client          # Gutendex 元数据客户端（同目录，集中管理 Gutendex 调用）
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 RAW = os.path.join(BASE, 'raw')
@@ -110,7 +139,10 @@ def cn_to_int(s):
 # ---------------------------------------------------------------
 # 抽取正文（START/END 之间 + 清理头部尾部元数据）
 # ---------------------------------------------------------------
-def extract_body(lines):
+def extract_body(lines, lang='zh'):
+    """截取 START/END 之间正文并清理头尾元数据。
+    lang='en'（英文书）时不再把「纯 ASCII 行」当元数据删除——英文正文本就是 ASCII；
+    且已按 START/END 完整切片时不做「中间 CREDIT 行」清理，避免误删正文。"""
     start = end = None
     for i, l in enumerate(lines):
         if start is None and START_RE.search(l):
@@ -118,11 +150,13 @@ def extract_body(lines):
         if end is None and END_RE.search(l):
             end = i
     body = lines[start + 1:end] if (start is not None and end is not None) else lines
-    # 头部：删空白/制作人员/ASCII 元数据/分隔线，直到首个中文内容行
+    ascii_meta = (lang != 'en')
+    # 头部：删空白/制作人员/ASCII 元数据/分隔线，直到首个内容行
     i = 0
     while i < len(body):
         s = body[i].strip()
-        if not s or RE_DASH_ONLY.match(s) or CREDIT_START.match(s) or RE_ASCII.match(s):
+        if not s or RE_DASH_ONLY.match(s) or CREDIT_START.match(s) \
+                or (ascii_meta and RE_ASCII.match(s)):
             i += 1
             continue
         break
@@ -131,13 +165,15 @@ def extract_body(lines):
     j = len(body)
     while j > 0:
         s = body[j - 1].strip()
-        if not s or RE_ASCII.match(s) or 'End of' in s or 'Gutenberg' in s:
+        if not s or (ascii_meta and RE_ASCII.match(s)) or 'End of' in s or 'Gutenberg' in s:
             j -= 1
             continue
         break
     body = body[:j]
-    # 中间残留的极少数制作行（如野草/山海經 开头 Produced by…）保险起见删掉
-    body = [l for l in body if not CREDIT_START.match(l.strip())]
+    # 中间残留的极少数制作行（如野草/山海經 开头 Produced by…）保险起见删掉；
+    # 英文书已按 START/END 完整切片，跳过此步以免误删以 End of/This file 等开头的正文行。
+    if ascii_meta or start is None or end is None:
+        body = [l for l in body if not CREDIT_START.match(l.strip())]
     return body
 
 
@@ -148,7 +184,10 @@ def extract_body(lines):
 SENT_END = ('。', '！', '？', '」', '：', '∶', '；')
 
 
-def paragraphs(body):
+def paragraphs(body, lang='zh'):
+    """段落聚合：空行分段；段内行尾无句读(。！？」：；)则与下行接续拼接
+    （山水情行行整句→各成段；木蘭/野草折行散文→拼接；易經爻辞→各成段）
+    英文（lang='en'）折行散文以空格拼接（SENT_END 只含中文句读，故整段空格相连）。"""
     paras = []
     cur = []
     for l in body:
@@ -159,7 +198,7 @@ def paragraphs(body):
                 cur = []
             continue
         if cur and not cur[-1].endswith(SENT_END):
-            cur[-1] += s          # 折行接续
+            cur[-1] += (' ' + s) if lang == 'en' else s          # 折行接续
         else:
             cur.append(s)         # 新段落
     if cur:
@@ -403,10 +442,127 @@ def split_pieces(body, pieces):
     return chapters
 
 
-def split_single(body, title):
-    """整本不切分（狂人日記）。"""
+def split_single(body, title, lang='zh'):
+    """整本不切分（狂人日記）。lang='en' 时折行以空格拼接（避免英文粘词）。"""
     raw = _trim(body)
-    return [{'title': title, 'content': '\n'.join(paragraphs(raw))}]
+    return [{'title': title, 'content': '\n'.join(paragraphs(raw, lang))}]
+
+
+# ---------------------------------------------------------------
+# 英文书切分器（--lang en）：顶格章节标记（CHAPTER / Part·Book·Volume /
+# 数字标题 / 光秃罗马数字），目录(TOC)按「缩进」或「开头紧密簇」自动丢弃
+# ---------------------------------------------------------------
+EN_ROMAN = r'[IVXLCDM]{1,8}'
+EN_WORDNUM = (r'(?:ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN|ELEVEN|TWELVE|'
+              r'FIRST|SECOND|THIRD|FOURTH|FIFTH|SIXTH|SEVENTH|EIGHTH|NINTH|TENTH|'
+              r'ELEVENTH|TWELFTH)')
+RE_EN_CHAP = re.compile(r'^(CHAPTER)[ \t]*(' + EN_ROMAN + r'|\d{1,3})\b[ \t]*'
+                        r'[\.\]:：,，]?[ \t]*(.*)$', re.I)          # CHAPTER I. / Chapter 3
+RE_EN_NUM = re.compile(r'^(\d{1,3})[ \t]+([A-Z].*)$')               # 黑骏马：01 My Early Home
+RE_EN_ROMAN = re.compile(r'^(' + EN_ROMAN + r')[ \t]*$')            # 金银岛：光秃秃的 I / XXXIV
+RE_EN_DIV = re.compile(r'^(BOOK|PART|VOLUME)[ \t]+(THE[ \t]+)?(' + EN_ROMAN + r'|'
+                       + EN_WORDNUM + r'|\d{1,3})\b[ \t]*[\.\]:：,，\-–—]*[ \t]*(.*)$', re.I)
+RE_EN_BY = re.compile(r'^by[ \t]+(.+?)[ \t]*$', re.I)                # by Lewis Carroll
+# 「by」之后须像人名（首字母大写、仅常见姓名字符、长度有限），
+# 以免把以「by」开头的正文行误判为作者（如 #1342 的 "by allowance” and …"）
+EN_AUTHOR_OK = re.compile(r"^[A-Z][A-Za-z0-9.,'\- \[\]()]{1,70}$")
+# 书名页/目录等非正文行（用于头部元数据识别时剔除）
+EN_HEAD_JUNK = re.compile(r'^(?:\[illustration|illustration\b|contents\b|cover\b|'
+                          r'title page\b|transcriber|the millennium fulcrum edition|'
+                          r'project gutenberg\b|produced by|prepared by|transcribed by|'
+                          r'posted by|this ebook\b|copyright|end of|release date|'
+                          r'language:|ebook #|by\b)', re.I)
+
+
+def _en_markers(body):
+    """收集英文各级章节标记行号；只认顶格（无缩进）行——目录条目一般带缩进。
+    返回 {'chap': [...], 'num': [...], 'roman': [...], 'div': [...]}（值为行号）。"""
+    marks = {'chap': [], 'num': [], 'roman': [], 'div': []}
+    for i, l in enumerate(body):
+        if l[:1] in (' ', '\t'):
+            continue                                   # 缩进行视为目录
+        if RE_EN_CHAP.match(l):
+            marks['chap'].append(i)
+        elif RE_EN_NUM.match(l):
+            marks['num'].append(i)
+        elif RE_EN_ROMAN.match(l.rstrip()):
+            marks['roman'].append(i)
+        elif RE_EN_DIV.match(l):
+            marks['div'].append(i)
+    return marks
+
+
+def _en_toc_drop(idxs):
+    """开头「紧密标题簇」判为目录：相邻间距≤4、条目≥6，且簇后 >20 行空档。
+    用于 #74 那样目录条目不缩进、与正文同为顶格的文件。返回需丢弃的行号集合。"""
+    if len(idxs) < 6:
+        return set()
+    k = 1
+    while k < len(idxs) and idxs[k] - idxs[k - 1] <= 4:
+        k += 1
+    gap_after = (idxs[k] - idxs[k - 1]) if k < len(idxs) else 0
+    return set(idxs[:k]) if (k >= 6 and gap_after > 20) else set()
+
+
+def _en_marker_title(body, idx, head, tail):
+    """标题：同行余文优先；否则取紧随其后、且再下一行为空白的短行（章节小标题）。
+    返回 (标题, 正文起始偏移)：偏移 2 表示小标题行已并入标题、正文须跳过该行。"""
+    tail = (tail or '').strip().strip(" .:：,，]）)【[\"'\u2018\u2019\u201c\u201d")
+    if tail:
+        return (head + ' ' + tail).strip(), 1
+    nxt = body[idx + 1].strip() if idx + 1 < len(body) else ''
+    nxt2 = body[idx + 2].strip() if idx + 2 < len(body) else ''
+    if nxt and (idx + 2 >= len(body) or not nxt2) and len(nxt) <= 70 \
+            and not nxt.endswith(('.', '!', '?', ',', ';')):
+        return (head + ' ' + nxt).strip(), 2
+    return head, 1
+
+
+def split_en_chapter(body, keep_prefix_title=None):
+    """英文书切分：优先 CHAPTER 级；无则 数字标题（#271）/ 光秃罗马数字（#120）/ 卷
+    （Part·Book·Volume）级。首个标记前的书名页与目录默认丢弃（给定 keep_prefix_title
+    则把卷首保留为独立一节）。命中不足 2 处 → 整本一节。"""
+    raw = _trim(body)
+    marks = _en_markers(raw)
+    chosen = None
+    for kind in ('chap', 'num', 'roman', 'div'):
+        drop = _en_toc_drop(marks[kind])
+        idxs = [i for i in marks[kind] if i not in drop]
+        if len(idxs) >= 2:
+            chosen = (kind, idxs)
+            break
+    if chosen is None:
+        return [{'title': keep_prefix_title or '',
+                 'content': '\n'.join(paragraphs(raw, 'en'))}] if raw else []
+    kind, idxs = chosen
+    chapters = []
+    if keep_prefix_title and idxs[0] > 0:
+        pre = paragraphs(raw[:idxs[0]], 'en')
+        if pre:
+            chapters.append({'title': keep_prefix_title, 'content': '\n'.join(pre)})
+    for n, idx in enumerate(idxs):
+        line = raw[idx].rstrip()
+        if kind == 'chap':
+            m = RE_EN_CHAP.match(line)
+            head, tail = f'{m.group(1).upper()} {m.group(2).upper()}.', m.group(3)
+        elif kind == 'div':
+            m = RE_EN_DIV.match(line)
+            head = ' '.join(x for x in (m.group(1).upper(),
+                                        (m.group(2) or '').strip().upper(),
+                                        m.group(3).upper()) if x)
+            tail = m.group(4)
+        elif kind == 'num':
+            m = RE_EN_NUM.match(line)
+            head, tail = m.group(1), m.group(2)
+        else:
+            m = RE_EN_ROMAN.match(line)
+            head, tail = m.group(1), ''
+        title, used = _en_marker_title(raw, idx, head, tail)
+        end_idx = idxs[n + 1] if n + 1 < len(idxs) else len(raw)
+        chapters.append({'title': title,
+                         'content': '\n'.join(
+                             paragraphs(_trim(raw[idx + used:end_idx]), 'en'))})
+    return chapters
 
 
 # ---------------------------------------------------------------
@@ -1154,6 +1310,7 @@ SPLITTERS = {
     'fanlu': split_fanlu,
     'liji': split_liji,
     'shijing': split_shijing,
+    'en_chapter': split_en_chapter,
 }
 
 
@@ -1235,6 +1392,7 @@ WORD_BANK = os.path.join(WB_DIR, 'wordbank.json')
 PENDING = os.path.join(WB_DIR, 'wordbank_pending.json')
 COMMON_HANZI = os.path.join(WB_DIR, 'common_hanzi.json')
 RUSHENG_HANZI = os.path.join(WB_DIR, 'rusheng_hanzi.json')
+COMMON_WORDS_EN = os.path.join(WB_DIR, 'data', 'common_words_en.json')   # ECDICT 常用词表
 TRAD_SIMP_FILE = os.path.join(WB_DIR, 'trad_simp_map.json')
 NODE_HELPER = os.path.join(WB_DIR, 'pinyin_helper.js')
 
@@ -1264,6 +1422,80 @@ def load_common_chars():
 def load_rusheng():
     d = _load_json(RUSHENG_HANZI, [])
     return set(d or [])
+
+# ---- 英文书注释（--lang en）：ECDICT 词频挑难词 → annotations（释义由 fill_glosses 回填） ----
+EN_WORD_RE = re.compile(r"[A-Za-z]+(?:['\u2019][A-Za-z]+)?")
+# 英文功能词（即便未列入常用词表也不标注）
+EN_STOPWORDS = set("""
+a an the and or but nor so yet for if then than that this these those there here
+i you he she it we they me him her us them my your his its our their mine yours
+is am are was were be been being do does did done doing have has had having
+will would shall should can could may might must ought need dare
+of to in on at by with from into onto about above below under over between among
+as not no yes all any both each few more most other some such only own same too
+very just also even still again once ever never always often sometimes
+who whom whose which what when where why how
+""".split())
+EN_MIN_LEN = 3            # 少于该长度的词不标注（I/a 等功能词已在停用词表）
+
+
+def load_common_words_en():
+    """ECDICT 常用词表（parse_ecdict.py 生成）；缺失返回空集。"""
+    d = _load_json(COMMON_WORDS_EN, {})
+    words = d.get('words') if isinstance(d, dict) else d
+    return set(str(w).lower() for w in (words or []))
+
+
+def en_tokenize(text):
+    """英文分词（小写）：字母串 + 撇号缩写（don't / it's）。"""
+    return [m.group(0).lower() for m in EN_WORD_RE.finditer(text or '')]
+
+
+def en_is_difficult(word, common):
+    """英文难词判定：非停用词、长度足够、不在常用词表 → 需标注。"""
+    if len(word) < EN_MIN_LEN or word in EN_STOPWORDS:
+        return False
+    if common and word in common:
+        return False
+    return True
+
+
+def _en_annotations(unit_paragraphs, common, reports, title):
+    """英文书级唯一表：挑难词 → annotations（word/pinyin 空，等待 fill_glosses 回填）。"""
+    first_src = {}
+    for sec_title, para in unit_paragraphs:
+        for tok in en_tokenize(para):
+            if tok not in first_src and en_is_difficult(tok, common):
+                first_src[tok] = sec_title
+    anns = [{'word': w, 'pinyin': '', 'zh_cn': None, 'zh_tw': None,
+             'en': None, 'note': None, 'is_difficult': True, 'src': src}
+            for w, src in first_src.items()]
+    reports[title] = {
+        'book': title,
+        'unique_chars': 0,
+        'unique_words': len(anns),
+        'wordbank_hits': 0,
+        'annotations': len(anns),
+        'pending': 0,
+    }
+    return anns
+
+
+def annotate_en_book(cfg, chapters, reports):
+    """英文书注释适配器（data/books chapters 格式）。"""
+    common = load_common_words_en()
+    if not common:
+        print('    ⚠️ 缺 data/common_words_en.json：难词判定退化为「非停用词」，'
+              '请先运行 parse_ecdict.py')
+    return _en_annotations(_iter_chapter_paragraphs(chapters), common, reports, cfg['book'])
+
+
+def annotate_en_reader_book(title, sections, reports):
+    """英文书注释适配器（阅读器 sections.paragraphs 格式）。"""
+    common = load_common_words_en()
+    return _en_annotations(_iter_reader_paragraphs(sections), common, reports, title)
+
+
 
 
 def pinyin_batch(tokens):
@@ -1438,7 +1670,7 @@ def merge_pending(book_key, pending):
 #   3) 生成 网站/assets/data/books-data.json（合并 catalog.json 主书）
 # ============================================================
 CAT_KEY = {'經部': 'jing', '史部': 'shi', '子部': 'zi', '集部': 'ji',
-           '近現代文學': 'ji'}
+           '近現代文學': 'ji', '叢部': 'cong'}
 SUBCAT = {'近現代文學': 'modern'}
 PIAN_KEYS = {'zhongguo-xiaoshuo-shilue', 'zhaohua-xishi', 'nanqiang-beidiao-ji',
              'yecao', 'panghuang'}
@@ -1486,7 +1718,7 @@ def reader_label(key):
 def to_reader(key, data):
     """data/books 条目 → 阅读器 book 对象（章节字段；忽略 annotations 等扩展）。"""
     chapters = data.get('chapters', [])
-    cat = reader_label(key)
+    cat = '章' if data.get('lang') == 'en' else reader_label(key)
     sections = []
     for idx, ch in enumerate(chapters, 1):
         if key == 'yijing':
@@ -1749,9 +1981,9 @@ def merge_to_site():
 
 
 def _build_one(cfg):
-    """清洗(英文头尾标记/元数据)→切分 → 返回 out dict（未含 annotations）。"""
+    """清洗(头尾标记/元数据)→切分 → 返回 out dict（未含 annotations）。"""
     lines = open(os.path.join(RAW, cfg['file']), encoding='utf-8-sig').read().split('\n')
-    body = extract_body(lines)
+    body = extract_body(lines, cfg.get('lang', 'zh'))
     if cfg.get('head_drop'):
         body = body[cfg['head_drop']:]     # 删开头畸形书名行（三字經》/百家姓/燕丹子）
     if cfg.get('drop_until'):
@@ -1773,7 +2005,9 @@ def _build_one(cfg):
     elif cfg['split'] == 'juan_sc':
         chapters = splitter(body, cfg.get('keep_prefix_title'), cfg.get('drop_prefix', False))
     elif cfg['split'] == 'single':
-        chapters = splitter(body, cfg['book'])
+        chapters = splitter(body, cfg['book'], cfg.get('lang', 'zh'))
+    elif cfg['split'] == 'en_chapter':
+        chapters = splitter(body, cfg.get('keep_prefix_title'))
     else:
         chapters = splitter(body)
     if cfg.get('hui_title_clean'):
@@ -1784,6 +2018,7 @@ def _build_one(cfg):
     return {
         'book': cfg['book'], 'author': cfg['author'],
         'category': cfg['category'], 'subcategory': cfg['subcategory'],
+        'lang': cfg.get('lang', 'zh'),
         'chapters': chapters,
     }
 
@@ -1901,9 +2136,12 @@ def _read_bytes_lines(path):
     return raw.decode('utf-8', 'replace').splitlines()
 
 
-def parse_id_list(path):
-    """书号列表：每行一个古登堡编号；容忍 pg/URL/空白行；# 开头整行为注释。"""
-    ids = []
+def parse_id_entries(path):
+    """书号列表：每行一个古登堡编号，编号后可选英文书名（如
+    `11 Alice's Adventures in Wonderland`）；容忍 pg/URL/空白行；# 开头整行为注释。
+    返回 [(gid, 行内书名 or None)]，编号按出现顺序去重（书名取首次出现者）。
+    编号后若为 URL 残片等非书名内容（不以字母/引号/书名号开头）则忽略。"""
+    order, titles = [], {}
     for raw in _read_bytes_lines(path):
         line = raw.strip()
         if not line:
@@ -1914,9 +2152,17 @@ def parse_id_list(path):
         if not m:
             continue
         gid = str(int(m.group(1)))
-        if gid not in ids:
-            ids.append(gid)
-    return ids
+        rest = line[m.end():].strip()
+        if rest and re.match(r'^["\'\u2018\u201c《（(]?[^\W\d_]', rest):
+            titles.setdefault(gid, rest)
+        if gid not in order:
+            order.append(gid)
+    return [(gid, titles.get(gid)) for gid in order]
+
+
+def parse_id_list(path):
+    """书号列表：只取编号（保持旧接口与旧行为）。"""
+    return [gid for gid, _ in parse_id_entries(path)]
 
 
 def book_urls_by_id(gid):
@@ -1950,13 +2196,17 @@ def download_by_id(gid):
     return False
 
 
-def meta_from_raw_file(gid):
-    """本地元数据：raw/{gid}.txt 头部 Title/Author（起始标记前 120 行内）。"""
+def meta_from_raw_file(gid, lang='zh'):
+    """本地元数据：raw/{gid}.txt 头部 Title/Author（起始标记前 120 行内）。
+    中文：只认「Title:/Author:/书名:/作者:」前缀行，保持原行为。
+    英文（lang='en'）：另认「by Xxx」作者行，并取其上方首个有效行作书名
+    （如 #11 的「Alice's Adventures in Wonderland」，古登堡英文书常无 Title: 前缀）。"""
     p = os.path.join(RAW, gid + '.txt')
     if not (os.path.exists(p) and os.path.getsize(p) > 0):
         return None, None
+    head = _read_bytes_lines(p)[:120]
     title = author = None
-    for line in _read_bytes_lines(p)[:120]:
+    for line in head:
         if line.strip().startswith('*** START'):
             break
         if title is None:
@@ -1969,6 +2219,28 @@ def meta_from_raw_file(gid):
                 author = m.group(1).strip()
         if title is not None and author is not None:
             break
+    if lang != 'en':
+        return (title or None), (author or None)
+    # ---- 英文：头部多为「书名 / By 作者」两行，按 by 行定位 ----
+    if author is None or title is None:
+        by_idx = None
+        for i, line in enumerate(head):
+            m = RE_EN_BY.match(line.strip())
+            if m and EN_AUTHOR_OK.match(m.group(1).strip()):
+                by_idx = i
+                if author is None:
+                    author = m.group(1).strip()
+                break
+        if title is None and by_idx is not None:
+            for j in range(by_idx - 1, -1, -1):
+                s = head[j].strip()
+                if not s:
+                    continue
+                if EN_HEAD_JUNK.match(s) or len(s) > 80 \
+                        or '\u201c' in s or '\u201d' in s or re.search(r'[.!?]\s', s):
+                    break
+                title = s
+                break
     return (title or None), (author or None)
 
 
@@ -1977,11 +2249,37 @@ def _clean_author(a):
         return None
     s = a.strip()
     s = re.sub(r'\s*[（(][^）)]*[-–]?\d{4}[^）)]*[）)]$', '', s).strip()   # 年代尾缀
+    s = re.sub(r'\s*\[[^\]]*\d{3,4}[^\]]*\]$', '', s).strip()            # "[English Quaker -- 1820-1878.]"
     s = re.sub(r'[,，]\s*[^,，]*\d{3,4}[^,，]*$', '', s).strip()          # ", 18xx-19xx"
     s = re.sub(r'[\s。．.;;]+$', '', s).strip()
     if s.lower() in ('anonymous', 'unknown'):
         return None
     return s or None
+
+
+def meta_from_gutendex(gid):
+    """Gutendex 元数据（介于本地 raw 头部与原古登堡 API 之间的中间层）。
+
+    返回 {'title': ..., 'author': ...}；Gutendex 无此书/不可用（网络失败）时返回 None，
+    由调用方自动降级到 meta_from_api。author 取 authors 字段第一个，经 _clean_author 清洗
+    （与 meta_from_api 保持一致）。中文书与英文书同走此链，不做区分。"""
+    try:
+        raw = gutendex_client.get_book(gid)
+    except Exception:
+        return None
+    if not raw:
+        return None
+    title = raw.get('title')
+    if isinstance(title, str):
+        title = title.strip() or None
+    authors = raw.get('authors') or []
+    name = None
+    if authors and isinstance(authors[0], dict):
+        name = authors[0].get('name')
+    author = _clean_author(name) if name else None
+    if not title and not author:
+        return None
+    return {'title': title, 'author': author}
 
 
 def meta_from_api(gid):
@@ -2015,9 +2313,17 @@ def meta_from_api(gid):
     return {'title': title or None, 'author': author or None}
 
 
-def detect_split(body):
+def detect_split(body, lang='zh'):
     """默认切分规则：数正文标题行，回/章/出/則/篇/卷 取出现最多者；
-    命中 <2 次或未识别 → 整本 single（后续可 --split 覆盖或转精细模式微调）。"""
+    命中 <2 次或未识别 → 整本 single（后续可 --split 覆盖或转精细模式微调）。
+    lang='en' 时走英文标记识别（CHAPTER/数字标题/罗马数字/Part·Book）。"""
+    if lang == 'en':
+        marks = _en_markers(_trim(body))
+        for kind in ('chap', 'num', 'roman', 'div'):
+            drop = _en_toc_drop(marks[kind])
+            if len([i for i in marks[kind] if i not in drop]) >= 2:
+                return 'en_chapter'
+        return 'single'
     counts = {'hui': 0, 'zhang': 0, 'chu': 0, 'ze': 0, 'pian': 0, 'juan_num': 0}
     for l in body:
         s = l.strip()
@@ -2038,11 +2344,13 @@ def detect_split(body):
     return best if (best and counts[best] >= 2) else 'single'
 
 
-def _resolve_quick(gid, defaults, split_opt='auto', allow_download=True):
+def _resolve_quick(gid, defaults, split_opt='auto', allow_download=True,
+                   lang='zh', title_hint=None):
     """把一个书号解析为可入库配置 cfg：
     ① 本地已知编号 → 复用 BOOKS 精细配置；
-    ② 否则本地 raw 头部 → 古登堡 API 拉标题/作者，按默认切分规则生成配置。
-    返回 cfg 或 None（书名非中文/下载失败等跳过）。"""
+    ② 否则本地 raw 头部 → Gutendex → 古登堡 API 拉标题/作者，按默认切分规则生成配置。
+    lang='en'（英文书）不再要求书名含中文：书名优先级 列表行内书名 > 本地头部 > Gutendex > API。
+    返回 cfg 或 None（书名确认失败/下载失败等跳过）。"""
     # ① 本地元数据优先：EBOOK_ID/BOOKS 已知书号直接复用其手动配置
     for c in BOOKS:
         if EBOOK_ID.get(c['book']) == int(gid):
@@ -2053,30 +2361,47 @@ def _resolve_quick(gid, defaults, split_opt='auto', allow_download=True):
         if isinstance(c, dict) and c.get('gid') == gid:
             print(f'  ✅ #{gid} 命中历史精简配置（quick_books.json）：{c.get("book")}')
             return c
-    # ② 本地 raw 已存在 → 先解析头部元数据
-    ltitle, lauthor = meta_from_raw_file(gid)
-    title = ltitle if _cjk(ltitle) else None
+    # ② 本地 raw 已存在 → 先解析头部元数据（英文另可用列表行内书名）
+    hint = (title_hint or '').strip() or None
+    ltitle, lauthor = meta_from_raw_file(gid, lang)
+    if lang == 'en':
+        title = hint or ltitle
+    else:
+        title = ltitle if _cjk(ltitle) else None
     author = _clean_author(lauthor)
     # 补齐原文（--no-download 时只允许用本地已下载文件）
     raw_path = os.path.join(RAW, gid + '.txt')
     if allow_download and not (os.path.exists(raw_path) and os.path.getsize(raw_path) > 0):
         download_by_id(gid)
     if title is None or author is None:
-        ltitle2, lauthor2 = meta_from_raw_file(gid)
-        if title is None and _cjk(ltitle2):
+        ltitle2, lauthor2 = meta_from_raw_file(gid, lang)
+        if title is None and (lang == 'en' or _cjk(ltitle2)):
             title = ltitle2
         if author is None:
             author = _clean_author(lauthor2)
-    # ③ 古登堡 API 兜底（本地解析缺失时）
+    # ②.b Gutendex 元数据中间层（本地 raw 头部解析缺失时）
+    if title is None or author is None:
+        meta = meta_from_gutendex(gid)
+        if meta:
+            if title is None and (lang == 'en' or _cjk(meta.get('title'))):
+                title = meta.get('title')
+            if author is None and meta.get('author'):
+                author = meta['author']
+    # ③ 古登堡 API 兜底（Gutendex 不可用或缺字段时）
     if title is None or author is None:
         meta = meta_from_api(gid)
-        if title is None and _cjk(meta.get('title')):
-            title = meta['title']
+        if title is None and (lang == 'en' or _cjk(meta.get('title'))):
+            title = meta.get('title')          # meta 可能为 {}（请求失败），勿用 meta['title']
         if author is None and meta.get('author'):
             author = meta['author']
     if not title:
-        print(f'  ✗ #{gid}：无法确认中文书名（本地无 raw 元数据且 API 不可用），跳过')
-        log_failure(gid, '无法确认中文书名', '本地 raw 头部元数据与古登堡 API 均不可用，或书名为非中文')
+        if lang == 'en':
+            print(f'  ✗ #{gid}：无法确认英文书名（列表未给书名且本地/API 均不可用），跳过')
+            log_failure(gid, '无法确认英文书名',
+                        '列表行内书名、本地 raw 头部元数据与古登堡 API 均不可用')
+        else:
+            print(f'  ✗ #{gid}：无法确认中文书名（本地无 raw 元数据且 API 不可用），跳过')
+            log_failure(gid, '无法确认中文书名', '本地 raw 头部元数据与古登堡 API 均不可用，或书名为非中文')
         return None
     if not (os.path.exists(raw_path) and os.path.getsize(raw_path) > 0):
         print(f'  ✗ #{gid}：缺少原文 raw/{gid}.txt，跳过（可用 --no-download 仅处理已有本地文件）')
@@ -2088,20 +2413,23 @@ def _resolve_quick(gid, defaults, split_opt='auto', allow_download=True):
     # 默认切分规则
     split = split_opt
     if split == 'auto':
-        body = extract_body(_read_bytes_lines(raw_path))
-        split = detect_split(body)
+        body = extract_body(_read_bytes_lines(raw_path), lang)
+        split = detect_split(body, lang)
         print(f'  ↻ 默认切分识别：{split}')
     cfg = {
         'key': 'pg' + gid,
         'book': title,
-        'author': author or '佚名',
+        'author': author or ('Unknown' if lang == 'en' else '佚名'),
         'category': defaults.get('category', '子部'),
-        'subcategory': defaults.get('subcategory', '古籍（自动导入）'),
+        'subcategory': defaults.get('subcategory',
+                                    '小說家（西洋）' if lang == 'en' else '古籍（自动导入）'),
         'source': f'Project Gutenberg #{gid}',
         'file': gid + '.txt',
         'split': split,
         'gid': gid,
     }
+    if lang == 'en':
+        cfg['lang'] = 'en'
     if split in ('hui', 'chu'):
         cfg['drop_prefix'] = True          # 丢弃首个回目标记前的封面/序残留
         cfg['hui_title_clean'] = True
@@ -2134,10 +2462,156 @@ def _save_quick_configs(configs):
 
 
 
+def print_search_results(results, limit):
+    """打印检索结果（只读输出，不入库）：gutenberg_id | title | authors | languages | download_count"""
+    if not results:
+        print('（无结果）')
+        return
+    for r in results[:limit]:
+        authors = ', '.join(a.get('name', '') for a in (r.get('authors') or [])
+                            if isinstance(a, dict))
+        langs = ','.join(r.get('languages') or [])
+        print('%s | %s | %s | %s | %s' % (
+            r.get('id'), r.get('title') or '', authors, langs,
+            r.get('download_count', 0)))
+
+
+def cmd_search(keyword, limit=20):
+    """--search：按关键词检索书目（Gutendex），只打印前 limit 条。"""
+    print(f'🔍 Gutendex 检索：「{keyword}」')
+    results = gutendex_client.search_books({'search': keyword}, max_results=limit)
+    print(f'   命中 {len(results)} 条，显示前 {min(limit, len(results))} 条：')
+    print_search_results(results, limit)
+
+
+def cmd_list_by_lang(lang_code, limit=50):
+    """--list-by-lang：按语言列出热门书（sort=popular），只打印前 limit 条。"""
+    print(f'🔍 Gutendex 语言检索：{lang_code}（按下载量热门排序）')
+    results = gutendex_client.search_books({'languages': lang_code, 'sort': 'popular'},
+                                           max_results=limit)
+    print(f'   命中 {len(results)} 条，显示前 {min(limit, len(results))} 条：')
+    print_search_results(results, limit)
+
+
+def _disp_width(text):
+    """终端显示宽度（中日韩全角字符按 2 列计）。"""
+    return sum(2 if unicodedata.east_asian_width(ch) in ('W', 'F') else 1
+               for ch in str(text or ''))
+
+
+def _pad(text, width):
+    """按显示宽度左对齐填充（中英混排表格对齐用）。"""
+    text = str(text or '')
+    return text + ' ' * max(0, width - _disp_width(text))
+
+
+def _clip(text, width):
+    """按显示宽度截断，超长补省略号。"""
+    text = str(text or '')
+    if _disp_width(text) <= width:
+        return text
+    out, w = '', 0
+    for ch in text:
+        cw = 2 if unicodedata.east_asian_width(ch) in ('W', 'F') else 1
+        if w + cw > width - 1:
+            break
+        out += ch
+        w += cw
+    return out + '…'
+
+
+def _fail_reason(text):
+    """从 _resolve_quick 的输出里提取一句简短失败原因（供 dry-run 表格显示）。"""
+    for line in (text or '').splitlines():
+        line = line.strip()
+        if '✗' in line:
+            tail = line.split('：', 1)[-1].strip()
+            return tail.split('，')[0][:30]
+    return '无法解析（见上方提示）'
+
+
+def _dry_meta_only(gid, lang, title_hint):
+    """dry-run 专用：原文缺失时只解析 标题/作者（Gutendex → 古登堡 API，只读不下载）。
+
+    正式流程会先下载原文，故此处无法判定切分（表格里标「待下载」）。
+    """
+    title = (title_hint or '').strip() or None
+    author = None
+    meta = meta_from_gutendex(gid) or {}
+    if title is None and (lang == 'en' or _cjk(meta.get('title'))):
+        title = meta.get('title')
+    author = meta.get('author')
+    if title is None or author is None:
+        meta = meta_from_api(gid) or {}
+        if title is None and (lang == 'en' or _cjk(meta.get('title'))):
+            title = meta.get('title')
+        if author is None:
+            author = meta.get('author')
+    return title, author
+
+
+def cmd_dry_run(entries, defaults, split_opt, lang):
+    """--dry-run：只解析元数据并打印预览表。
+
+    不下载正文、不写任何文件（连失败日志也临时屏蔽）；改回正式运行时去掉 --dry-run。
+    entries 为 parse_id_entries() 的 [(gid, 行内书名 or None)]。
+    有原文 → 显示实际切分；无原文（尚未下载）→ 只显示元数据、切分标「待下载」。
+    """
+    print(f'\n🔍 Dry run：{len(entries)} 个编号（不下载、不写文件）\n')
+    print(_pad('编号', 10) + _pad('标题', 40) + _pad('作者', 20) + '切分')
+    print('─' * 80)
+    real_log = globals().get('log_failure')
+    globals()['log_failure'] = lambda *a, **k: None      # 干跑不写失败日志
+    ok = 0
+    try:
+        for gid, hint in entries:
+            buf = io.StringIO()
+            try:
+                with contextlib.redirect_stdout(buf):
+                    cfg = _resolve_quick(gid, defaults, split_opt=split_opt,
+                                         allow_download=False, lang=lang,
+                                         title_hint=hint)
+            except Exception as e:                       # 单本异常不打断整表
+                cfg = None
+                buf.write('  ✗ %s' % e)
+            if cfg:
+                ok += 1
+                print(_pad(cfg.get('gid', gid), 10)
+                      + _pad(_clip(cfg.get('book'), 38), 40)
+                      + _pad(_clip(cfg.get('author'), 18), 20)
+                      + str(cfg.get('split')))
+                continue
+            # 原文缺失：只解析元数据供预览（不下载、不写文件）
+            title = author = None
+            missing_raw = '缺少原文' in buf.getvalue()
+            if missing_raw:
+                buf2 = io.StringIO()
+                try:
+                    with contextlib.redirect_stdout(buf2):
+                        title, author = _dry_meta_only(gid, lang, hint)
+                except Exception:
+                    pass
+            if title or author:
+                ok += 1
+                print(_pad(gid, 10) + _pad(_clip(title, 38), 40)
+                      + _pad(_clip(author, 18), 20) + '待下载')
+            elif missing_raw:
+                print(_pad(gid, 10) + '❌ 未下载原文，且 Gutendex/古登堡 API 均无元数据')
+            else:
+                print(_pad(gid, 10) + '❌ 无法解析元数据'
+                      + '（%s）' % _fail_reason(buf.getvalue()))
+    finally:
+        if real_log is not None:
+            globals()['log_failure'] = real_log
+    print(f'\n共 {len(entries)} 个编号，可解析 {ok} 本；'
+          f'确认无误后去掉 --dry-run 重新运行')
+
+
 def main():
     # ---- 参数解析：支持取值参数（--ids FILE / --split auto / --category …） ----
     pos, flags, opts = [], set(), {}
-    VALUE_FLAGS = ('ids', 'list', 'id-list', 'split', 'category', 'subcategory')
+    VALUE_FLAGS = ('ids', 'list', 'id-list', 'split', 'category', 'subcategory', 'lang',
+                   'search', 'list-by-lang', 'max')
     argv = sys.argv[1:]
     i = 0
     while i < len(argv):
@@ -2165,16 +2639,63 @@ def main():
         flags.add(body)
         i += 1
 
+    # ---- 检索模式（只查书目，不入库、不下载） ----
+    if opts.get('search') is not None:
+        cmd_search(opts['search'])
+        return
+    if 'list-by-lang' in opts:
+        try:
+            limit = int(opts.get('max', 50))
+        except (TypeError, ValueError):
+            limit = 50
+        cmd_list_by_lang(opts['list-by-lang'], limit)
+        return
+
     quick_file = opts.get('ids') or opts.get('list') or opts.get('id-list')
     do_annotate = 'no-annotate' not in flags
     do_merge = 'no-merge' not in flags
     do_download = 'no-download' not in flags
     do_catalog = 'catalog' in flags
 
+    # 语种：默认 zh（中文，保持原行为）；--lang en / --english 走英文书流水线
+    lang_raw = (opts.get('lang') or ('en' if 'english' in flags else 'zh')).strip().lower()
+    lang = {'en': 'en', 'eng': 'en', 'english': 'en',
+            'zh': 'zh', 'cn': 'zh', 'chinese': 'zh'}.get(lang_raw)
+    if lang is None:
+        print(f'✗ 未知 --lang：{lang_raw}（可选 zh | en；亦可直接写 --english）')
+        return
+    if lang == 'en':
+        print('  🌐 英文书模式（--lang en）：书名不再要求含中文，'
+              '默认归入 子部·小說家（西洋），可用 --category/--subcategory 按体裁改。')
+
     # 精细模式（手动书名/BOOKS）与精简模式（--ids 书号列表）互斥
     if pos and quick_file:
         print('✗ 不能同时传书名与 --ids；精细：python3 gutenberg_import.py [书名…]；'
               '精简：python3 gutenberg_import.py --ids 列表.txt')
+        return
+
+    # ── dry-run 模式：只解析元数据并打印预览，不下载、不写文件 ──
+    if 'dry-run' in flags:
+        if not quick_file:
+            print('✗ --dry-run 需要配 --ids 书号列表，例如：'
+                  'python3 gutenberg_import.py --ids i.txt --lang en --dry-run')
+            return
+        if not os.path.exists(quick_file):
+            print(f'✗ 找不到书号列表文件：{quick_file}')
+            return
+        entries = parse_id_entries(quick_file)
+        if not entries:
+            print(f'✗ 书号列表为空或格式不符：{quick_file}（每行一个古登堡编号）')
+            return
+        split_opt = opts.get('split', 'auto')
+        if split_opt != 'auto' and split_opt not in SPLITTERS:
+            print(f'✗ 未知切分规则：{split_opt}（可选 auto 或 {", ".join(sorted(SPLITTERS))}）')
+            return
+        cmd_dry_run(entries, {
+            'category': opts.get('category', '子部'),
+            'subcategory': opts.get('subcategory',
+                                    '小說家（西洋）' if lang == 'en' else '古籍（自动导入）'),
+        }, split_opt, lang)
         return
 
     # 入库配置全集 = 手动 BOOKS + 精简模式历史配置（quick_books.json）
@@ -2184,7 +2705,9 @@ def main():
         if not os.path.exists(quick_file):
             print(f'✗ 找不到书号列表文件：{quick_file}')
             return
-        ids = parse_id_list(quick_file)
+        entries = parse_id_entries(quick_file)
+        ids = [gid for gid, _ in entries]
+        titles = {gid: t for gid, t in entries if t}
         if not ids:
             print(f'✗ 书号列表为空或格式不符：{quick_file}（每行一个古登堡编号）')
             return
@@ -2194,11 +2717,13 @@ def main():
             return
         quick_defaults = {
             'category': opts.get('category', '子部'),
-            'subcategory': opts.get('subcategory', '古籍（自动导入）'),
+            'subcategory': opts.get('subcategory',
+                                    '小說家（西洋）' if lang == 'en' else '古籍（自动导入）'),
         }
         added, targets = [], []
         for gid in ids:
-            cfg = _resolve_quick(gid, quick_defaults, split_opt, do_download)
+            cfg = _resolve_quick(gid, quick_defaults, split_opt, do_download,
+                                 lang=lang, title_hint=titles.get(gid))
             if cfg is None:
                 continue
             if any(c['key'] == cfg['key'] for c in configs):   # 已在配置（含 BOOKS 已知书号）
@@ -2273,7 +2798,11 @@ def main():
                             f"split={cfg.get('split')}，需改 --split 或转精细模式微调")
                 continue
             ann_note = ''
-            if do_annotate:
+            if do_annotate and cfg.get('lang', 'zh') == 'en':
+                anns = annotate_en_book(cfg, chapters, reports)
+                out['annotations'] = anns
+                ann_note = f" | 注释 {len(anns)} 条（英文难词，释义待 fill_glosses 回填）"
+            elif do_annotate:
                 anns, pending = annotate_book(cfg, chapters, reports)
                 out['annotations'] = anns
                 n_pend = merge_pending(cfg['key'], pending)
@@ -2304,11 +2833,13 @@ def main():
                 continue
             out = json.load(open(disk, encoding='utf-8'))
         index_cats.setdefault(cfg['category'], []).append(_index_entry(cfg, out))
-    cat_order = ['經部', '史部', '子部', '集部', '近現代文學']
-    cats = [{'name': c, 'books': index_cats.get(c, [])} for c in cat_order]
+    cat_order = ['經部', '史部', '子部', '集部', '近現代文學', '叢部']
+    # 叢部（合集/叢書，如英文多本合集）仅在确有入库时才出现在索引里，避免空分类
+    cats = [{'name': c, 'books': index_cats.get(c, [])}
+            for c in cat_order if index_cats.get(c) or c != '叢部']
     index = {
         'title': '一堆古书 · 数据书目索引',
-        'description': 'data/books/ 目录下的结构化书目（category: 經部/史部/子部/集部/近現代文學）',
+        'description': 'data/books/ 目录下的结构化书目（category: 經部/史部/子部/集部/近現代文學/叢部）',
         'generated': datetime.date.today().isoformat(),
         'categories': cats,
     }

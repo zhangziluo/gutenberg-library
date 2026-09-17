@@ -18,7 +18,9 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "思",
@@ -28,7 +30,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "其",
@@ -38,7 +42,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "不",
@@ -48,7 +54,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "若",
@@ -58,7 +66,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "韞",
@@ -68,7 +78,9 @@
       "en": "to contain; to hide, to conceal",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藏",
@@ -78,7 +90,9 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拂",
@@ -88,7 +102,9 @@
       "en": "to flick；to brush off；(of a breeze) to brush lightly over",
       "note": "多音字，可讀「fu/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -98,7 +114,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "的",
@@ -108,7 +126,9 @@
       "en": "of; ~'s (possessive particle)；(used after an attribute when it modifies a noun)；(used at the end of a declarative sentence for emphasis)",
       "note": "多音字，可讀「de/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "砥",
@@ -118,7 +138,9 @@
       "en": "baffle (pier)；whetstone",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "石",
@@ -128,7 +150,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "便",
@@ -138,7 +162,9 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "埋",
@@ -148,7 +174,9 @@
       "en": "to bury",
       "note": "多音字，可讀「mai/man」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鴆",
@@ -158,7 +186,9 @@
       "en": "a bird resembling the secretary falcon",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "毒",
@@ -168,7 +198,9 @@
       "en": "poison；to poison；poisonous",
       "note": "多音字，可讀「du/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鳥",
@@ -178,7 +210,9 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "霽",
@@ -188,7 +222,9 @@
       "en": "to subside; to clear up after a storm; to stop being angry",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "見",
@@ -198,7 +234,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "地",
@@ -208,7 +246,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "和",
@@ -218,7 +258,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "醲",
@@ -228,7 +270,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "奇",
@@ -238,7 +282,9 @@
       "en": "strange；odd；weird",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "閒",
@@ -248,7 +294,9 @@
       "en": "leisure, idle time; tranquil, peaceful, calm",
       "note": "多音字，可讀「xian/jian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "趣",
@@ -258,7 +306,9 @@
       "en": "interesting；to interest",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "覺",
@@ -268,7 +318,9 @@
       "en": "to feel；to find that；thinking",
       "note": "多音字，可讀「jue/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "露",
@@ -278,7 +330,9 @@
       "en": "dew; leak; bare, exposed; to reveal, to show",
       "note": "多音字，可讀「lu/lou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -288,7 +342,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "得",
@@ -298,7 +354,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "大",
@@ -308,7 +366,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "忸",
@@ -318,7 +378,9 @@
       "en": "blushing, bashful, ashamed",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "莫",
@@ -328,7 +390,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "藜",
@@ -338,7 +402,9 @@
       "en": "name of weed plant (fat hen, goosefoot, pigweed etc)；Chenopodium album",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "莧",
@@ -348,7 +414,9 @@
       "en": "amaranth (genus Amaranthus)；Joseph's coat (Amaranthus tricolor)；Chinese spinach (Amaranth mangostanus)",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "袞",
@@ -358,7 +426,9 @@
       "en": "imperial robe",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "食",
@@ -368,7 +438,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "婢",
@@ -378,7 +450,9 @@
       "en": "slave girl；maid servant",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蓋",
@@ -388,7 +462,9 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "澹",
@@ -398,7 +474,9 @@
       "en": "tranquil；placid；quiet",
       "note": "多音字，可讀「dan/tan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "泊",
@@ -408,7 +486,9 @@
       "en": "to moor (a boat)；to park (a vehicle)；(literary) calm; quiet; peaceful",
       "note": "多音字，可讀「bo/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -418,7 +498,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "澤",
@@ -428,7 +510,9 @@
       "en": "pool；pond；(of metals etc) luster",
       "note": "多音字，可讀「ze/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "長",
@@ -438,7 +522,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "匱",
@@ -448,7 +534,9 @@
       "en": "surname Kui；to lack；lacking",
       "note": "多音字，可讀「kui/gui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "樂",
@@ -458,7 +546,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "落",
@@ -468,7 +558,9 @@
       "en": "to fall or drop；(of the sun) to set；(of a tide) to go out",
       "note": "多音字，可讀「luo/la/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "矜",
@@ -478,7 +570,9 @@
       "en": "to boast；to esteem；to sympathize",
       "note": "多音字，可讀「jin/guan/qin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "些",
@@ -488,7 +582,9 @@
       "en": "classifier indicating a small amount or small number greater than 1: some, a few, several",
       "note": "多音字，可讀「xie/suo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "韜",
@@ -498,7 +594,9 @@
       "en": "sheath, scabbard, bow case",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "能",
@@ -508,7 +606,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "召",
@@ -518,7 +618,9 @@
       "en": "to call together；to summon；to convene",
       "note": "多音字，可讀「zhao/shao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "家",
@@ -528,7 +630,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "佛",
@@ -538,7 +642,9 @@
       "en": "Buddha; Buddhism (abbr. for 佛陀[Fo2 tuo2])",
       "note": "多音字，可讀「fo/fu/bi/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "愉",
@@ -548,7 +654,9 @@
       "en": "pleased",
       "note": "多音字，可讀「yu/tou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "色",
@@ -558,7 +666,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弟",
@@ -568,7 +678,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "調",
@@ -578,7 +690,9 @@
       "en": "to transfer；to move (troops or cadres)；to investigate",
       "note": "多音字，可讀「diao/tiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "槁",
@@ -588,7 +702,9 @@
       "en": "dried up；dried up (wood)；dead tree",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳶",
@@ -598,7 +714,9 @@
       "en": "kite; Milvus species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "惡",
@@ -608,7 +726,9 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "倨",
@@ -618,7 +738,9 @@
       "en": "(literary) haughty; arrogant",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "降",
@@ -628,7 +750,9 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "識",
@@ -638,7 +762,9 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "屬",
@@ -648,7 +774,9 @@
       "en": "category；genus (taxonomy)；family members",
       "note": "多音字，可讀「shu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "都",
@@ -658,7 +786,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "女",
@@ -668,7 +798,9 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "綸",
@@ -678,7 +810,9 @@
       "en": "to classify；to twist silk；silk thread",
       "note": "多音字，可讀「lun/guan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "適",
@@ -688,7 +822,9 @@
       "en": "match, comfortable; just",
       "note": "多音字，可讀「shi/di/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "怡",
@@ -698,7 +834,9 @@
       "en": "harmony；pleased",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹙",
@@ -708,7 +846,9 @@
       "en": "to knit (one's brows)；wrinkled (of brows)；to hesitate",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "炫",
@@ -718,7 +858,9 @@
       "en": "to dazzle；(bound form) to boast; to show off；(slang) cool; awesome",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "懵",
@@ -728,7 +870,9 @@
       "en": "(bound form) confused; ignorant",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蟊",
@@ -738,7 +882,9 @@
       "en": "Spanish fly；grain-eating grub",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "屏",
@@ -748,7 +894,9 @@
       "en": "(standing) screen",
       "note": "多音字，可讀「ping/bing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嶇",
@@ -758,7 +906,9 @@
       "en": "steep, sheer; rugged, rough",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "噩",
@@ -768,7 +918,9 @@
       "en": "startling",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "黜",
@@ -778,7 +930,9 @@
       "en": "to dismiss; to downgrade, to demote",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "還",
@@ -788,7 +942,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "乾",
@@ -798,7 +954,9 @@
       "en": "surname Qian；one of the Eight Trigrams 八卦[ba1 gua4], symbolizing heaven；male principle",
       "note": "多音字，可讀「qian/gan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邪",
@@ -808,7 +966,9 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "淨",
@@ -818,7 +978,9 @@
       "en": "clean；completely；only",
       "note": "多音字，可讀「jing/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仞",
@@ -828,7 +990,9 @@
       "en": "unit of length used in ancient times, equal to 7 or 8 Chinese feet 尺[chi3]",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憚",
@@ -838,7 +1002,9 @@
       "en": "dread；fear；dislike",
       "note": "多音字，可讀「dan/da」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "薄",
@@ -848,7 +1014,9 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "陶",
@@ -858,7 +1026,9 @@
       "en": "pottery, ceramics",
       "note": "多音字，可讀「tao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "濯",
@@ -868,7 +1038,9 @@
       "en": "to wash；to cleanse of evil",
       "note": "多音字，可讀「zhuo/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "蛾",
@@ -878,7 +1050,9 @@
       "en": "(bound form) moth",
       "note": "多音字，可讀「e/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "羝",
@@ -888,7 +1062,9 @@
       "en": "billy goat；ram",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羊",
@@ -898,7 +1074,9 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拾",
@@ -908,7 +1086,9 @@
       "en": "to pick up；to collate or arrange；ten (banker's anti-fraud numeral)",
       "note": "多音字，可讀「shi/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "摩",
@@ -918,7 +1098,9 @@
       "en": "to rub",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "簷",
@@ -928,7 +1110,9 @@
       "en": "edge, brim; the eaves of a house",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "咫",
@@ -938,7 +1122,9 @@
       "en": "8 in. length unit of Zhou dynasty",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "尺",
@@ -948,7 +1134,9 @@
       "en": "a Chinese foot；one-third of a meter；a ruler",
       "note": "多音字，可讀「chi/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "趨",
@@ -958,7 +1146,9 @@
       "en": "to hasten；to hurry；to walk fast",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "墮",
@@ -968,7 +1158,9 @@
       "en": "to fall; to sink；(fig.) to degenerate",
       "note": "多音字，可讀「duo/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "戾",
@@ -978,7 +1170,9 @@
       "en": "to bend；to violate；to go against",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冥",
@@ -988,7 +1182,9 @@
       "en": "dark；deep；stupid",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "責",
@@ -998,7 +1194,9 @@
       "en": "duty；responsibility；to reproach",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鎰",
@@ -1008,7 +1206,9 @@
       "en": "a measure of weight used for gold",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齊",
@@ -1018,7 +1218,9 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "藉",
@@ -1028,7 +1230,9 @@
       "en": "(literary) cushion; mat；(literary) to put some padding underneath",
       "note": "多音字，可讀「jie/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "齎",
@@ -1038,7 +1242,9 @@
       "en": "gift, present; offering",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "槧",
@@ -1048,7 +1254,9 @@
       "en": "wooden tablet；edition",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "禪",
@@ -1058,7 +1266,9 @@
       "en": "to abdicate",
       "note": "多音字，可讀「shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "被",
@@ -1068,7 +1278,9 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "錮",
@@ -1078,7 +1290,9 @@
       "en": "to run hot metal through a mold; to confine, to restrain, to stop",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "了",
@@ -1088,7 +1302,9 @@
       "en": "to finish；(used with 得[de2] or 不[bu4] after a verb to express (im)possibility, as in 忘不了[wang4 bu5 liao3] \"cannot forget\")；(literary) (usually followed by a negative such as 無|无[wu2] or 不[bu4]) completely (not); entirely (not); (not) in the least",
       "note": "多音字，可讀「le/liao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "湮",
@@ -1098,7 +1314,9 @@
       "en": "(literary) to sink into oblivion；(literary) to silt up；Taiwan pr. [yin1]",
       "note": "多音字，可讀「yan/yin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "沒",
@@ -1108,7 +1326,9 @@
       "en": "(negative prefix for verbs) have not; not",
       "note": "多音字，可讀「mei/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繁",
@@ -1118,7 +1338,9 @@
       "en": "complicated；many；in great numbers",
       "note": "多音字，可讀「fan/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "檻",
@@ -1128,7 +1350,9 @@
       "en": "banister；balustrade；cage for animal or prisoner",
       "note": "多音字，可讀「jian/kan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "徙",
@@ -1138,7 +1362,9 @@
       "en": "(literary) to change one's residence",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鉢",
@@ -1148,7 +1374,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "且",
@@ -1158,7 +1386,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "囀",
@@ -1168,7 +1398,9 @@
       "en": "to sing (of birds or insects)；to warble；to chirp",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "句",
@@ -1178,7 +1410,9 @@
       "en": "sentence；clause；phrase",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "似",
@@ -1188,7 +1422,9 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瀟",
@@ -1198,7 +1434,9 @@
       "en": "(of water) deep and clear",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "育",
@@ -1208,7 +1446,9 @@
       "en": "to have children；to raise or bring up；to educate",
       "note": "多音字，可讀「yu/yo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "欹",
@@ -1218,7 +1458,9 @@
       "en": "interjection",
       "note": "多音字，可讀「qi/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "乘",
@@ -1228,7 +1470,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "賸",
@@ -1238,7 +1482,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "那",
@@ -1248,7 +1494,9 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弄",
@@ -1258,7 +1506,9 @@
       "en": "to do；to manage；to handle",
       "note": "多音字，可讀「nong/long」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "倆",
@@ -1268,7 +1518,9 @@
       "en": "two (colloquial equivalent of 兩個|两个)；both；some",
       "note": "多音字，可讀「liang/lia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祇",
@@ -1278,7 +1530,9 @@
       "en": "god of the earth",
       "note": "多音字，可讀「qi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "稱",
@@ -1288,7 +1542,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "愆",
@@ -1298,7 +1554,9 @@
       "en": "fault；transgression",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "駢",
@@ -1308,7 +1566,9 @@
       "en": "a team of horses; to associate; to join",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "訾",
@@ -1318,7 +1578,9 @@
       "en": "surname Zi；to calculate；to assess",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "疑",
@@ -1328,7 +1590,9 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "信",
@@ -1338,7 +1602,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "參",
@@ -1348,7 +1614,9 @@
       "en": "to take part in；to participate；to join",
       "note": "多音字，可讀「can/shen/cen/san」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "吾",
@@ -1358,7 +1626,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "會",
@@ -1368,7 +1638,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "塞",
@@ -1378,7 +1650,9 @@
       "en": "to plug; to stop up; to stuff in；(bound form) a stopper; a cork；(bound form) strategic stronghold",
       "note": "多音字，可讀「sai/se」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "度",
@@ -1388,7 +1662,9 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "縝",
@@ -1398,7 +1674,9 @@
       "en": "fine and dense",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "懿",
@@ -1408,7 +1686,9 @@
       "en": "(literary) exemplary; virtuous",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "景",
@@ -1418,7 +1698,9 @@
       "en": "surname Jing；(bound form) scenery；circumstance",
       "note": "多音字，可讀「jing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "輒",
@@ -1428,7 +1710,9 @@
       "en": "often, readily; scattered; the weapon-rack of a chariot",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澄",
@@ -1438,7 +1722,9 @@
       "en": "surname Cheng；clear；limpid",
       "note": "多音字，可讀「cheng/deng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "迓",
@@ -1448,7 +1734,9 @@
       "en": "to receive a guest",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "阨",
@@ -1458,7 +1746,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亨",
@@ -1468,7 +1758,9 @@
       "en": "prosperous；henry (unit of inductance)",
       "note": "多音字，可讀「heng/peng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "徼",
@@ -1478,7 +1770,9 @@
       "en": "by mere luck；boundary；to go around",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "牖",
@@ -1488,7 +1782,9 @@
       "en": "to enlighten；lattice window",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憸",
@@ -1498,7 +1794,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "孫",
@@ -1508,7 +1806,9 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祉",
@@ -1518,7 +1818,9 @@
       "en": "felicity",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貽",
@@ -1528,7 +1830,9 @@
       "en": "to present；to bequeath",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "暴",
@@ -1538,7 +1842,9 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "俟",
@@ -1548,7 +1854,9 @@
       "en": "(literary) to wait for",
       "note": "多音字，可讀「si/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "解",
@@ -1558,7 +1866,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "側",
@@ -1568,7 +1878,9 @@
       "en": "the side；to incline towards；to lean",
       "note": "多音字，可讀「ce/ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "砭",
@@ -1578,7 +1890,9 @@
       "en": "ancient stone acupuncture needle；to criticize；to pierce",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "糜",
@@ -1588,7 +1902,9 @@
       "en": "surname Mi；rice gruel；rotten",
       "note": "多音字，可讀「mi/mei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "燄",
@@ -1598,7 +1914,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亡",
@@ -1608,7 +1926,9 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "媿",
@@ -1618,7 +1938,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "韁",
@@ -1628,7 +1950,9 @@
       "en": "bridle, reins",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "重",
@@ -1638,7 +1962,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仇",
@@ -1648,7 +1974,9 @@
       "en": "hatred；animosity；enmity",
       "note": "多音字，可讀「chou/qiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "泯",
@@ -1658,7 +1986,9 @@
       "en": "(bound form) to vanish; to die out; to obliterate",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衰",
@@ -1668,7 +1998,9 @@
       "en": "(bound form) to decay; to decline; to wane",
       "note": "多音字，可讀「shuai/cui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "盛",
@@ -1678,7 +2010,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "敦",
@@ -1688,7 +2022,9 @@
       "en": "kindhearted；place name",
       "note": "多音字，可讀「dun/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "竇",
@@ -1698,7 +2034,9 @@
       "en": "surname Dou；(literary) hole; aperture；(anatomy) cavity; sinus",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剴",
@@ -1708,7 +2046,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "颯",
@@ -1718,7 +2058,9 @@
       "en": "bleak; melancholy; the howl of the wind",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "誰",
@@ -1728,7 +2070,9 @@
       "en": "who；also pr. [shui2]",
       "note": "多音字，可讀「shui/shei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沈",
@@ -1738,7 +2082,9 @@
       "en": "surname Shen；short name for 瀋陽|沈阳[Shen3 yang2]；(literary) juice",
       "note": "多音字，可讀「shen/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "悻",
@@ -1748,7 +2094,9 @@
       "en": "angry",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "提",
@@ -1758,7 +2106,9 @@
       "en": "to carry (hanging down from the hand)；to lift；to put forward",
       "note": "多音字，可讀「ti/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "憧",
@@ -1768,7 +2118,9 @@
       "en": "indecisive, irresolute; to yearn for",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "倏",
@@ -1778,7 +2130,9 @@
       "en": "sudden；abrupt；Taiwan pr. [shu4]",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "煅",
@@ -1788,7 +2142,9 @@
       "en": "to calcine",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鑪",
@@ -1798,7 +2154,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "燮",
@@ -1808,7 +2166,9 @@
       "en": "surname Xie；to blend；to adjust",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "儆",
@@ -1818,7 +2178,9 @@
       "en": "to warn；to admonish",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "親",
@@ -1828,7 +2190,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "譖",
@@ -1838,7 +2202,9 @@
       "en": "to slander",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繅",
@@ -1848,7 +2214,9 @@
       "en": "to reel silk from cocoons",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "合",
@@ -1858,7 +2226,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "妍",
@@ -1868,7 +2238,9 @@
       "en": "beautiful",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "魍",
@@ -1878,7 +2250,9 @@
       "en": "demon, mountain spirit",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "魎",
@@ -1888,7 +2262,9 @@
       "en": "a kind of monster",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "颺",
@@ -1898,7 +2274,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "燠",
@@ -1908,7 +2286,9 @@
       "en": "warm",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鐙",
@@ -1918,7 +2298,9 @@
       "en": "lamp; a kind of cooking vessel",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "籟",
@@ -1928,7 +2310,9 @@
       "en": "a sound；a noise；musical pipe with 3 reeds",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "沌",
@@ -1938,7 +2322,9 @@
       "en": "chaotic, confused; murky, turbid",
       "note": "多音字，可讀「dun/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "桎",
@@ -1948,7 +2334,9 @@
       "en": "fetters",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "梏",
@@ -1958,7 +2346,9 @@
       "en": "braces (med.)；fetters；manacles",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "罹",
@@ -1968,7 +2358,9 @@
       "en": "happen to；sorrow；suffer from",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "螳",
@@ -1978,7 +2370,9 @@
       "en": "praying mantis",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "螂",
@@ -1988,7 +2382,9 @@
       "en": "mantis, dung beetle",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "雀",
@@ -1998,7 +2394,9 @@
       "en": "sparrow",
       "note": "多音字，可讀「que/qiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "翳",
@@ -2008,7 +2406,9 @@
       "en": "feather screen；to screen；to shade",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鎔",
@@ -2018,7 +2418,9 @@
       "en": "mold; to fuse, to melt, to smelt",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "血",
@@ -2028,7 +2430,9 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "謁",
@@ -2038,7 +2442,9 @@
       "en": "to visit (a superior)",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朱",
@@ -2048,7 +2454,9 @@
       "en": "surname Zhu；vermilion；(bound form) cinnabar",
       "note": "多音字，可讀「zhu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "巷",
@@ -2058,7 +2466,9 @@
       "en": "lane；alley",
       "note": "多音字，可讀「xiang/hang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "樵",
@@ -2068,7 +2478,9 @@
       "en": "firewood；gather wood",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "差",
@@ -2078,7 +2490,9 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "枝",
@@ -2088,7 +2502,9 @@
       "en": "branch；classifier for sticks, rods, pencils etc",
       "note": "多音字，可讀「zhi/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "休",
@@ -2098,7 +2514,9 @@
       "en": "surname Xiu；to rest；to stop doing sth for a period of time",
       "note": "多音字，可讀「xiu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "說",
@@ -2108,7 +2526,9 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "箴",
@@ -2118,7 +2538,9 @@
       "en": "to warn；to admonish",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "煦",
@@ -2128,7 +2550,9 @@
       "en": "balmy；nicely warm；cozy",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "豈",
@@ -2138,7 +2562,9 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "車",
@@ -2148,7 +2574,9 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "羶",
@@ -2158,7 +2586,9 @@
       "en": "a flock of sheep; a rank odor",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蠆",
@@ -2168,7 +2598,9 @@
       "en": "(scorpion)；an insect",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "薰",
@@ -2178,7 +2610,9 @@
       "en": "fragrance；warm；to educate",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "礪",
@@ -2188,7 +2622,9 @@
       "en": "grind；sandstone",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "榛",
@@ -2198,7 +2634,9 @@
       "en": "(bound form) hazelnut tree (Corylus heterophylla)",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "塹",
@@ -2208,7 +2646,9 @@
       "en": "(bound form) moat; chasm",
       "note": "多音字，可讀「qian/jian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "皎",
@@ -2218,7 +2658,9 @@
       "en": "bright；white",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "讎",
@@ -2228,7 +2670,9 @@
       "en": "to collate；to proofread",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諂",
@@ -2238,7 +2682,9 @@
       "en": "to flatter；to cajole",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邃",
@@ -2248,7 +2694,9 @@
       "en": "profound, mysterious, deep",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弩",
@@ -2258,7 +2706,9 @@
       "en": "crossbow",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "軼",
@@ -2268,7 +2718,9 @@
       "en": "to surpass, to overtake, to excel",
       "note": "多音字，可讀「yi/die」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "阿",
@@ -2278,7 +2730,9 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "谿",
@@ -2288,7 +2742,9 @@
       "en": "valley, gorge; mountain stream",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "谷",
@@ -2298,7 +2754,9 @@
       "en": "grain；corn；surname Gu",
       "note": "多音字，可讀「gu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鼈",
@@ -2308,7 +2766,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "褊",
@@ -2318,7 +2778,9 @@
       "en": "narrow；urgent",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "僨",
@@ -2328,7 +2790,9 @@
       "en": "to instigate；to ruin；to destroy",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拗",
@@ -2338,7 +2802,9 @@
       "en": "(dialect) to twist; to bend (in order to break sth or form it into a shape)；(bound form) intractable; contrary; disobedient",
       "note": "多音字，可讀「ao/niu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "橘",
@@ -2348,7 +2814,9 @@
       "en": "mandarin orange (Citrus reticulata)；tangerine",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "馨",
@@ -2358,7 +2826,9 @@
       "en": "fragrant, aromatic",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "慳",
@@ -2368,7 +2838,9 @@
       "en": "stingy",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嗇",
@@ -2378,7 +2850,9 @@
       "en": "stingy",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愜",
@@ -2388,7 +2862,9 @@
       "en": "(literary) satisfied; content",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "折",
@@ -2398,7 +2874,9 @@
       "en": "to turn sth over；to turn upside down；to tip sth out (of a container)",
       "note": "多音字，可讀「zhe/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "搦",
@@ -2408,7 +2886,9 @@
       "en": "(literary) to hold (in the hand)；to challenge；to provoke",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "迫",
@@ -2418,7 +2898,9 @@
       "en": "to persecute；to oppress；embarrassed",
       "note": "多音字，可讀「po/pai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "模",
@@ -2428,7 +2910,9 @@
       "en": "to imitate；model；norm",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諛",
@@ -2438,7 +2922,9 @@
       "en": "to flatter",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "牘",
@@ -2448,7 +2934,9 @@
       "en": "documents",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嗔",
@@ -2458,7 +2946,9 @@
       "en": "to be angry at；to be displeased and annoyed",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "筌",
@@ -2468,7 +2958,9 @@
       "en": "bamboo fish trap",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "挾",
@@ -2478,7 +2970,9 @@
       "en": "(bound form) to clasp under the arm；(bound form) to coerce；(bound form) to harbor (resentment etc)",
       "note": "多音字，可讀「xie/jia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "番",
@@ -2488,7 +2982,9 @@
       "en": "(bound form) foreign (non-Chinese); barbarian；classifier for processes or actions that take time and effort；(classifier) a kind; a sort",
       "note": "多音字，可讀「fan/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蹊",
@@ -2498,7 +2994,9 @@
       "en": "Taiwan pr. [xi1]",
       "note": "多音字，可讀「qi/xi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "朝",
@@ -2508,7 +3006,9 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惸",
@@ -2518,7 +3018,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "柏",
@@ -2528,7 +3030,9 @@
       "en": "surname Bai；Taiwan pr. [Bo2]；cedar",
       "note": "多音字，可讀「bai/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "冽",
@@ -2538,7 +3042,9 @@
       "en": "cold and raw",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "夭",
@@ -2548,7 +3054,9 @@
       "en": "(bound form) to die prematurely (also pr. [yao3])；(literary) (of vegetation) luxuriant；(bound form) to die prematurely (also pr. [yao3]) (variant of 夭[yao1])",
       "note": null,
       "is_difficult": true,
-      "src": "菜根譚"
+      "src": "菜根譚",
+      "multi": false,
+      "rare": true
     }
   ]
 }

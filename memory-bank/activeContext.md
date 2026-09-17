@@ -1,6 +1,38 @@
 # Active Context（当前状态与下一步）
 
 ## 当前（进行中）
+- ✅ **英文书入库 + 英汉释义回填链路（2026-09-17）**：书库 60 → **72 本**（子部 65 → 77，新增 12 本古登堡英文书）。
+  - 入库书目：Frankenstein#84、Dracula#345、The Hound of the Baskervilles#2852、Walden#205、
+    Peter Pan#16、The Jungle Book#236、Anne of Green Gables#45、The Wind in the Willows#289、
+    A Little Prince#146、Grimms' Fairy Tales#2591、The Arabian Nights#128、Little Lord Fauntleroy#479。
+  - **新词典数据源（无版权打底 + 网络 API）**：
+    - `parse_ecdict.py`（新增）：下载并解析 **ECDICT**（skywind3000/ECDICT，MIT）的 `ecdict.csv`
+      （77.1 万行 / 725,767 词条）→ 按首字母分片生成 `data/ecdict_en/ecdict_{a..z}.json`
+      （26 片，最大 `s` 片 7.4 MiB，**无单文件超 25 MiB**；本地、已 gitignore）
+      与 `data/common_words_en.json`（常用词表前 5000）。
+    - 分片由 `gloss_lib.ecdict_shard()` **惰性加载 + LRU≤3 片**，`fill_glosses.py` 按首字母聚簇遍历
+      （`gloss_order()`）：全量回填 **12.8 s**、峰值内存 **72 MiB**（对照：整库加载 390 MiB / 数分钟）。
+    - `gloss_lib.py` 新增英词释义函数：`ecdict_*`（英→中/英/音标，含词形还原与弯引号归一）、
+      网络词典 `api_*`（主源 **freedictionaryapi.com**（Wiktionary 派生、免费无 Key、含 IPA），
+      备源 dictionaryapi.dev；并发预取 + 本地缓存 `data/ecdict_api_cache.json` + 熔断 + 离线降级）。
+    - `fill_glosses.py` 新增英文分支：英文词 → `zh_cn/zh_tw/en` + 音标写入 `pinyin`；
+      英文词库另写 `wordbank_en.json`；CLI 支持 `--no-network` / `--api-budget=N`。
+  - **英文注释生成**（`gutenberg_import.py`）：`--lang en` 时用 ECDICT 常用词表挑「英文难词」
+    （非停用词 + 长度≥3 + 不在常用词表）写 annotations（word 存小写，释义待回填）。
+  - **修复**：`split_single()` 未传 `lang='en'` 导致英文折行拼接丢空格（出现 `asplendid` 之类粘词，
+    注释数虚高）——已修，Walden 13,753→7,989 等。
+  - **前端**：`网站/js/reader.js` 注释匹配对 ASCII 词做**大小写不敏感**（词表小写、正文句首/全大写），
+    并修复命中时输出原文大小写（此前输出规范小写会改变正文）。
+  - 回填结果：英文注释 50,671 条 → 简体/繁中释义 **97.7%**、音标 75.9%；
+    中文书注释 52,298 条（简繁 87.1%、英文 94.3%，与既有口径一致）。
+  - `data/books/`、`library-index.json`、`网站/_site_data/`、`books.json`、`books-data.json`、
+    `dist/`（deploy/build.sh 重建，最大单文件 4.0 MiB，未触 25 MiB 上限）均已更新。
+- ⚠️ **已知待办（切分质量）**：6 本英文书仍为「整本一节」（Walden / The Jungle Book /
+  The Wind in the Willows / A Little Prince / Grimms' Fairy Tales / The Arabian Nights）——
+  其章节标题为「无缩进小标题 / 全大写标题 / 故事名」，超出当前 `en_chapter`
+  （CHAPTER·Part·数字·罗马数字）识别范围，需按书补切分器（可参照中文书的逐本切分器做法）。
+
+## 上一批
 - ✅ **第七批古登堡中文书批量入库（10 本，2026-09-08）**：书库 50 → **60 本**。
   - 入库书目：隋唐演義#23835（褚人穫，100回，源文简体）、論語#23839（20篇）、滬語開路#62791（1915 沪语会话读本，跳封面+英文引言自 Exercise 1. 起）、白圭志#27023（16回）、孟子字義疏證#25360（戴震，序+卷上中下）、安樂集#24106（道綽，卷上下；文件开头别书残文已剔除，卷名页眉去重）、鄧析子#7215（無厚/轉辭 2 篇）、醉醒石#24027（15回）、唐鍾馗平鬼傳#27329（16回）、春秋繁露#25385（董仲舒，79 实篇+3 闕，跳过卷首目录）。
   - 新增子类：歷史演義/四書/名家/春秋；滬語開路归近現代文學·語言讀本。

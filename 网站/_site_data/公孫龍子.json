@@ -128,7 +128,9 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "六",
@@ -138,7 +140,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "長",
@@ -148,7 +152,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "色",
@@ -158,7 +164,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "不",
@@ -168,7 +176,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -178,7 +188,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "合",
@@ -188,7 +200,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -198,7 +212,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "驪",
@@ -208,7 +224,9 @@
       "en": "a pure-black horse; a pair of horses",
       "note": null,
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亡",
@@ -218,7 +236,9 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弟",
@@ -228,7 +248,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "悖",
@@ -238,7 +260,9 @@
       "en": "to go against；to be contrary to；perverse",
       "note": null,
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "且",
@@ -248,7 +272,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繁",
@@ -258,7 +284,9 @@
       "en": "complicated；many；in great numbers",
       "note": "多音字，可讀「fan/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "射",
@@ -268,7 +296,9 @@
       "en": "to shoot；to launch；to allude to",
       "note": "多音字，可讀「she/ye/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蛟",
@@ -278,7 +308,9 @@
       "en": "a legendary dragon with the ability to control rain and floods；see also 蛟龍|蛟龙[jiao1 long2]",
       "note": null,
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "兕",
@@ -288,7 +320,9 @@
       "en": "animal cited in ancient texts, resembling a buffalo (some say rhinoceros or female rhinoceros)",
       "note": null,
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "其",
@@ -298,7 +332,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "得",
@@ -308,7 +344,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "會",
@@ -318,7 +356,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "側",
@@ -328,7 +368,9 @@
       "en": "the side；to incline towards；to lean",
       "note": "多音字，可讀「ce/ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "說",
@@ -338,7 +380,9 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -348,7 +392,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "見",
@@ -358,7 +404,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "著",
@@ -368,7 +416,9 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "似",
@@ -378,7 +428,9 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "齊",
@@ -388,7 +440,9 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "大",
@@ -398,7 +452,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "親",
@@ -408,7 +464,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "信",
@@ -418,7 +476,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "吾",
@@ -428,7 +488,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "若",
@@ -438,7 +500,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "能",
@@ -448,7 +512,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "槨",
@@ -458,7 +524,9 @@
       "en": "outer coffin",
       "note": null,
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "莫",
@@ -468,7 +536,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "誰",
@@ -478,7 +548,9 @@
       "en": "who；also pr. [shui2]",
       "note": "多音字，可讀「shui/shei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奚",
@@ -488,7 +560,9 @@
       "en": "surname Xi；(literary) what?；where?",
       "note": null,
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羊",
@@ -498,7 +572,9 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "角",
@@ -508,7 +584,9 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "尾",
@@ -518,7 +596,9 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "數",
@@ -528,7 +608,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惡",
@@ -538,7 +620,9 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "強",
@@ -548,7 +632,9 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "暴",
@@ -558,7 +644,9 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "石",
@@ -568,7 +656,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拊",
@@ -578,7 +668,9 @@
       "en": "pat",
       "note": null,
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藏",
@@ -588,7 +680,9 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "盛",
@@ -598,7 +692,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "地",
@@ -608,7 +704,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "疑",
@@ -618,7 +716,9 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子"
+      "src": "公孫龍子",
+      "multi": true,
+      "rare": false
     }
   ]
 }

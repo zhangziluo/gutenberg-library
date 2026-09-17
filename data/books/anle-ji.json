@@ -22,7 +22,9 @@
       "en": "(bound form) ample; spacious；(literary) graceful",
       "note": "多音字，可讀「chuo/chao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "樂",
@@ -32,7 +34,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "大",
@@ -42,7 +46,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "信",
@@ -52,7 +58,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "約",
@@ -62,7 +70,9 @@
       "en": "to make an appointment；to invite；approximately",
       "note": "多音字，可讀「yue/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "被",
@@ -72,7 +82,9 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "淨",
@@ -82,7 +94,9 @@
       "en": "clean；completely；only",
       "note": "多音字，可讀「jing/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "據",
@@ -92,7 +106,9 @@
       "en": "according to；to act in accordance with；to depend on",
       "note": "多音字，可讀「ju/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "乘",
@@ -102,7 +118,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "說",
@@ -112,7 +130,9 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "佛",
@@ -122,7 +142,9 @@
       "en": "Buddha; Buddhism (abbr. for 佛陀[Fo2 tuo2])",
       "note": "多音字，可讀「fo/fu/bi/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "會",
@@ -132,7 +154,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "不",
@@ -142,7 +166,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "得",
@@ -152,7 +178,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "槃",
@@ -162,7 +190,9 @@
       "en": "wooden tray",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "般",
@@ -172,7 +202,9 @@
       "en": "sort；kind；class",
       "note": "多音字，可讀「ban/bo/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "若",
@@ -182,7 +214,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "六",
@@ -192,7 +226,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "差",
@@ -202,7 +238,9 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弟",
@@ -212,7 +250,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "攝",
@@ -222,7 +262,9 @@
       "en": "(bound form) to take in; to absorb; to assimilate；to capture (video or still images)；(literary) to conserve (one's health)",
       "note": "多音字，可讀「she/nie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -232,7 +274,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "便",
@@ -242,7 +286,9 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "攢",
@@ -252,7 +298,9 @@
       "en": "to collect；to hoard；to accumulate",
       "note": "多音字，可讀「zan/cuan/zuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "折",
@@ -262,7 +310,9 @@
       "en": "to turn sth over；to turn upside down；to tip sth out (of a container)",
       "note": "多音字，可讀「zhe/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "乾",
@@ -272,7 +322,9 @@
       "en": "surname Qian；one of the Eight Trigrams 八卦[ba1 gua4], symbolizing heaven；male principle",
       "note": "多音字，可讀「qian/gan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "藏",
@@ -282,7 +334,9 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "度",
@@ -292,7 +346,9 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "懺",
@@ -302,7 +358,9 @@
       "en": "(bound form) to feel remorse；(bound form) scripture read to atone for sb's sins (from Sanskrit \"ksama\")",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諍",
@@ -312,7 +370,9 @@
       "en": "to admonish；to warn sb of their errors；to criticize frankly",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "能",
@@ -322,7 +382,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繫",
@@ -332,7 +394,9 @@
       "en": "to connect；to arrest；to worry",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "其",
@@ -342,7 +406,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稱",
@@ -352,7 +418,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "莫",
@@ -362,7 +430,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "阿",
@@ -372,7 +442,9 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "寔",
@@ -382,7 +454,9 @@
       "en": "really；solid",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "解",
@@ -392,7 +466,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "提",
@@ -402,7 +478,9 @@
       "en": "to carry (hanging down from the hand)；to lift；to put forward",
       "note": "多音字，可讀「ti/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "愍",
@@ -412,7 +490,9 @@
       "en": "to pity, to sympathize with",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "豁",
@@ -422,7 +502,9 @@
       "en": "opening；stake all；sacrifice",
       "note": "多音字，可讀「huo/hua」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -432,7 +514,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "趣",
@@ -442,7 +526,9 @@
       "en": "interesting；to interest",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "悕",
@@ -452,7 +538,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "助",
@@ -462,7 +550,9 @@
       "en": "to help；to assist",
       "note": "多音字，可讀「zhu/chu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "昉",
@@ -472,7 +562,9 @@
       "en": "dawn；to begin",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "休",
@@ -482,7 +574,9 @@
       "en": "surname Xiu；to rest；to stop doing sth for a period of time",
       "note": "多音字，可讀「xiu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "露",
@@ -492,7 +586,9 @@
       "en": "dew; leak; bare, exposed; to reveal, to show",
       "note": "多音字，可讀「lu/lou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "醍",
@@ -502,7 +598,9 @@
       "en": "essential oil of butter",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "醐",
@@ -512,7 +610,9 @@
       "en": "the purest cream",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "長",
@@ -522,7 +622,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "曾",
@@ -532,7 +634,9 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "見",
@@ -542,7 +646,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "覺",
@@ -552,7 +658,9 @@
       "en": "to feel；to find that；thinking",
       "note": "多音字，可讀「jue/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "女",
@@ -562,7 +670,9 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宿",
@@ -572,7 +682,9 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "都",
@@ -582,7 +694,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -592,7 +706,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惡",
@@ -602,7 +718,9 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "憍",
@@ -612,7 +730,9 @@
       "en": "arrogant",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "迦",
@@ -622,7 +742,9 @@
       "en": "used in transliterations",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "思",
@@ -632,7 +754,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "墮",
@@ -642,7 +766,9 @@
       "en": "to fall; to sink；(fig.) to degenerate",
       "note": "多音字，可讀「duo/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "地",
@@ -652,7 +778,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "摩",
@@ -662,7 +790,9 @@
       "en": "to rub",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "重",
@@ -672,7 +802,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "栴",
@@ -682,7 +814,9 @@
       "en": "sandalwood",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臭",
@@ -692,7 +826,9 @@
       "en": "stench；smelly；to smell (bad)",
       "note": "多音字，可讀「chou/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "噉",
@@ -702,7 +838,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "盛",
@@ -712,7 +850,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "毒",
@@ -722,7 +862,9 @@
       "en": "poison；to poison；poisonous",
       "note": "多音字，可讀「du/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "絃",
@@ -732,7 +874,9 @@
       "en": "bow string；string of musical instrument；watch spring",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "搆",
@@ -742,7 +886,9 @@
       "en": "(Tw) (coll.) variant of 夠|够[gou4]；to reach by stretching",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羊",
@@ -752,7 +898,9 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "渧",
@@ -762,7 +910,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "翳",
@@ -772,7 +922,9 @@
       "en": "feather screen；to screen；to shade",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "傳",
@@ -782,7 +934,9 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "剎",
@@ -792,7 +946,9 @@
       "en": "Buddhist monastery, temple or shrine (abbr. for 剎多羅|刹多罗[cha4 duo1 luo2], Sanskrit \"ksetra\")",
       "note": "多音字，可讀「cha/sha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "率",
@@ -802,7 +958,9 @@
       "en": "(bound form) ratio; rate; proportion；to lead；to command",
       "note": "多音字，可讀「lü/shuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "色",
@@ -812,7 +970,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "著",
@@ -822,7 +982,9 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沒",
@@ -832,7 +994,9 @@
       "en": "(negative prefix for verbs) have not; not",
       "note": "多音字，可讀「mei/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "還",
@@ -842,7 +1006,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "娑",
@@ -852,7 +1018,9 @@
       "en": "(phonetic)；see 婆娑[po2 suo1]",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "疑",
@@ -862,7 +1030,9 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "給",
@@ -872,7 +1042,9 @@
       "en": "to；for；for the benefit of",
       "note": "多音字，可讀「gei/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "豈",
@@ -882,7 +1054,9 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "冥",
@@ -892,7 +1066,9 @@
       "en": "dark；deep；stupid",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "親",
@@ -902,7 +1078,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洞",
@@ -912,7 +1090,9 @@
       "en": "cave；hole；zero (unambiguous spoken form when spelling out numbers)",
       "note": "多音字，可讀「dong/tong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "勒",
@@ -922,7 +1102,9 @@
       "en": "(literary) bridle; halter; headstall；to rein in；to compel; to force",
       "note": "多音字，可讀「le/lei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "數",
@@ -932,7 +1114,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "家",
@@ -942,7 +1126,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "那",
@@ -952,7 +1138,9 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "合",
@@ -962,7 +1150,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祇",
@@ -972,7 +1162,9 @@
       "en": "god of the earth",
       "note": "多音字，可讀「qi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "臾",
@@ -982,7 +1174,9 @@
       "en": "surname Yu；a moment；little while",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諦",
@@ -992,7 +1186,9 @@
       "en": "to examine；truth (Buddhism)",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "懃",
@@ -1002,7 +1198,9 @@
       "en": "(literary) diligent; industrious; hardworking (variant of 勤[qin2])；(literary) solicitous; attentive",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "敕",
@@ -1012,7 +1210,9 @@
       "en": "imperial orders",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "和",
@@ -1022,7 +1222,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "句",
@@ -1032,7 +1234,9 @@
       "en": "sentence；clause；phrase",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "緇",
@@ -1042,7 +1246,9 @@
       "en": "Buddhists；black silk；dark",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "落",
@@ -1052,7 +1258,9 @@
       "en": "to fall or drop；(of the sun) to set；(of a tide) to go out",
       "note": "多音字，可讀「luo/la/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "且",
@@ -1062,7 +1270,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稽",
@@ -1072,7 +1282,9 @@
       "en": "surname Ji；(bound form) to examine; to check (against records)；(literary) to delay; to linger",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "適",
@@ -1082,7 +1294,9 @@
       "en": "match, comfortable; just",
       "note": "多音字，可讀「shi/di/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "晏",
@@ -1092,7 +1306,9 @@
       "en": "surname Yan；late；quiet",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "番",
@@ -1102,7 +1318,9 @@
       "en": "(bound form) foreign (non-Chinese); barbarian；classifier for processes or actions that take time and effort；(classifier) a kind; a sort",
       "note": "多音字，可讀「fan/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邪",
@@ -1112,7 +1330,9 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "識",
@@ -1122,7 +1342,9 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "了",
@@ -1132,7 +1354,9 @@
       "en": "to finish；(used with 得[de2] or 不[bu4] after a verb to express (im)possibility, as in 忘不了[wang4 bu5 liao3] \"cannot forget\")；(literary) (usually followed by a negative such as 無|无[wu2] or 不[bu4]) completely (not); entirely (not); (not) in the least",
       "note": "多音字，可讀「le/liao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諂",
@@ -1142,7 +1366,9 @@
       "en": "to flatter；to cajole",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "芥",
@@ -1152,7 +1378,9 @@
       "en": "mustard",
       "note": "多音字，可讀「jie/gai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "塞",
@@ -1162,7 +1390,9 @@
       "en": "to plug; to stop up; to stuff in；(bound form) a stopper; a cork；(bound form) strategic stronghold",
       "note": "多音字，可讀「sai/se」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "熟",
@@ -1172,7 +1402,9 @@
       "en": "ripe; mature；thoroughly cooked; done；familiar; acquainted",
       "note": "多音字，可讀「shu/shou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "吾",
@@ -1182,7 +1414,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "篋",
@@ -1192,7 +1426,9 @@
       "en": "chest；box；trunk",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "輦",
@@ -1202,7 +1438,9 @@
       "en": "hand-cart; to transport by carriage",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "阬",
@@ -1212,7 +1450,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蛇",
@@ -1222,7 +1462,9 @@
       "en": "snake；serpent；CL:條|条[tiao2]",
       "note": "多音字，可讀「she/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洗",
@@ -1232,7 +1474,9 @@
       "en": "to wash; to bathe；to develop (photographs)；to shuffle (cards etc)",
       "note": "多音字，可讀「xi/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "育",
@@ -1242,7 +1486,9 @@
       "en": "to have children；to raise or bring up；to educate",
       "note": "多音字，可讀「yu/yo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鳥",
@@ -1252,7 +1498,9 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "翮",
@@ -1262,7 +1510,9 @@
       "en": "quill",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "毘",
@@ -1272,7 +1522,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "似",
@@ -1282,7 +1534,9 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "湯",
@@ -1292,7 +1546,9 @@
       "en": "surname Tang；soup；hot or boiling water",
       "note": "多音字，可讀「tang/shang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嗔",
@@ -1302,7 +1558,9 @@
       "en": "to be angry at；to be displeased and annoyed",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齊",
@@ -1312,7 +1570,9 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "挍",
@@ -1322,7 +1582,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "伎",
@@ -1332,7 +1594,9 @@
       "en": "artistry；talent；skill",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "袈",
@@ -1342,7 +1606,9 @@
       "en": "Buddhist cassock",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "裟",
@@ -1352,7 +1618,9 @@
       "en": "cassock; monk's robe",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "幢",
@@ -1362,7 +1630,9 @@
       "en": "classifier for buildings (Taiwan pr. [chuang2])；(archaic) curtain hung over boat or carriage windows",
       "note": "多音字，可讀「zhuang/chuang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "丁",
@@ -1372,7 +1642,9 @@
       "en": "surname Ding；male adult；the 4th of the 10 Heavenly Stems 天干[tian1 gan1]",
       "note": "多音字，可讀「ding/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "訶",
@@ -1382,7 +1654,9 @@
       "en": "to scold",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "角",
@@ -1392,7 +1666,9 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "石",
@@ -1402,7 +1678,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "食",
@@ -1412,7 +1690,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "契",
@@ -1422,7 +1702,9 @@
       "en": "to carve；carved words；to agree",
       "note": "多音字，可讀「qi/qie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "屬",
@@ -1432,7 +1714,9 @@
       "en": "category；genus (taxonomy)；family members",
       "note": "多音字，可讀「shu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仞",
@@ -1442,7 +1726,9 @@
       "en": "unit of length used in ancient times, equal to 7 or 8 Chinese feet 尺[chi3]",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "癖",
@@ -1452,7 +1738,9 @@
       "en": "habit；hobby",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "儵",
@@ -1462,7 +1750,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鴆",
@@ -1472,7 +1762,9 @@
       "en": "a bird resembling the secretary falcon",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蚌",
@@ -1482,7 +1774,9 @@
       "en": "mussel；clam",
       "note": "多音字，可讀「bang/beng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鵠",
@@ -1492,7 +1786,9 @@
       "en": "swan",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "甦",
@@ -1502,7 +1798,9 @@
       "en": "to revive",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "罷",
@@ -1512,7 +1810,9 @@
       "en": "to stop；to cease；to dismiss",
       "note": "多音字，可讀「ba/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "迥",
@@ -1522,7 +1822,9 @@
       "en": "distant, far; separated; different",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剋",
@@ -1532,7 +1834,9 @@
       "en": "to scold；to beat",
       "note": "多音字，可讀「kei/ke」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "期",
@@ -1542,7 +1846,9 @@
       "en": "period；cycle；a period of time",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "澂",
@@ -1552,7 +1858,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "尉",
@@ -1562,7 +1870,9 @@
       "en": "surname Wei；military officer",
       "note": "多音字，可讀「wei/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "枝",
@@ -1572,7 +1882,9 @@
       "en": "branch；classifier for sticks, rods, pencils etc",
       "note": "多音字，可讀「zhi/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "淳",
@@ -1582,7 +1894,9 @@
       "en": "genuine；pure；honest",
       "note": "多音字，可讀「chun/zhun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "亡",
@@ -1592,7 +1906,9 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仰",
@@ -1602,7 +1918,9 @@
       "en": "surname Yang；to face upward；to look up",
       "note": "多音字，可讀「yang/ang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "車",
@@ -1612,7 +1930,9 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嶮",
@@ -1622,7 +1942,9 @@
       "en": "precipitous；rugged",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "梵",
@@ -1632,7 +1954,9 @@
       "en": "abbr. for 梵教[Fan4 jiao4] Brahmanism；abbr. for Sanskrit 梵語|梵语[Fan4 yu3] or 梵文[Fan4 wen2]；abbr. for 梵蒂岡|梵蒂冈[Fan4 di4 gang1], the Vatican",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拂",
@@ -1642,7 +1966,9 @@
       "en": "to flick；to brush off；(of a breeze) to brush lightly over",
       "note": "多音字，可讀「fu/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "銖",
@@ -1652,7 +1978,9 @@
       "en": "a unit of weight, about 1 gram",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "南",
@@ -1662,7 +1990,9 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拘",
@@ -1672,7 +2002,9 @@
       "en": "to capture；to restrain；to constrain",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "忉",
@@ -1682,7 +2014,9 @@
       "en": "grieved",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "畜",
@@ -1692,7 +2026,9 @@
       "en": "livestock；domesticated animal；domestic animal",
       "note": "多音字，可讀「chu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "澌",
@@ -1702,7 +2038,9 @@
       "en": "drain dry；to exhaust",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "抹",
@@ -1712,7 +2050,9 @@
       "en": "to smear；to wipe；to erase",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "偈",
@@ -1722,7 +2062,9 @@
       "en": "Buddhist hymn；gatha；Buddhist verse",
       "note": "多音字，可讀「ji/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "禪",
@@ -1732,7 +2074,9 @@
       "en": "to abdicate",
       "note": "多音字，可讀「shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "調",
@@ -1742,7 +2086,9 @@
       "en": "to transfer；to move (troops or cadres)；to investigate",
       "note": "多音字，可讀「diao/tiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "磑",
@@ -1752,7 +2098,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "暴",
@@ -1762,7 +2110,9 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "駃",
@@ -1772,7 +2122,9 @@
       "en": null,
       "note": "多音字，可讀「kuai/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "牟",
@@ -1782,7 +2134,9 @@
       "en": "surname Mou；barley；to moo",
       "note": "多音字，可讀「mu/mou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "戲",
@@ -1792,7 +2146,9 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷上"
+      "src": "安樂集卷上",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "輒",
@@ -1802,7 +2158,9 @@
       "en": "often, readily; scattered; the weapon-rack of a chariot",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "呵",
@@ -1812,7 +2170,9 @@
       "en": "(bound form) to scold；to expel breath；(onom.) laughter (usu. reduplicated)",
       "note": "多音字，可讀「he/a」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "栖",
@@ -1822,7 +2182,9 @@
       "en": "to perch；to rest (of birds)；to dwell",
       "note": "多音字，可讀「qi/xi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "曇",
@@ -1832,7 +2194,9 @@
       "en": "dark clouds",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鸞",
@@ -1842,7 +2206,9 @@
       "en": "fabulous bird",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朝",
@@ -1852,7 +2218,9 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "櫪",
@@ -1862,7 +2230,9 @@
       "en": "type of oak；stable (for horses)",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "紜",
@@ -1872,7 +2242,9 @@
       "en": "confused；numerous",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "旛",
@@ -1882,7 +2254,9 @@
       "en": "pennant",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "徵",
@@ -1892,7 +2266,9 @@
       "en": "4th note in the ancient Chinese pentatonic scale 五音[wu3 yin1], corresponding to sol",
       "note": "多音字，可讀「zhi/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嗟",
@@ -1902,7 +2278,9 @@
       "en": "sigh；also pr. [jue1]",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蓋",
@@ -1912,7 +2290,9 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "闕",
@@ -1922,7 +2302,9 @@
       "en": "palace; watchtower",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鑊",
@@ -1932,7 +2314,9 @@
       "en": "cauldron, large iron pot",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "降",
@@ -1942,7 +2326,9 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瞋",
@@ -1952,7 +2338,9 @@
       "en": "(literary) to stare angrily; to glare",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "卦",
@@ -1962,7 +2350,9 @@
       "en": "divinatory diagram；one of the eight divinatory trigrams of the Book of Changes 易經|易经[Yi4 jing1]；one of the sixty-four divinatory hexagrams of the Book of Changes 易經|易经[Yi4 jing1]",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繒",
@@ -1972,7 +2362,9 @@
       "en": "surname Zeng；silk fabrics；to tie",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瓔",
@@ -1982,7 +2374,9 @@
       "en": "necklace",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "珞",
@@ -1992,7 +2386,9 @@
       "en": "neck-ornament",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "追",
@@ -2002,7 +2398,9 @@
       "en": "to pursue, to chase after; to expel",
       "note": "多音字，可讀「zhui/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "餉",
@@ -2012,7 +2410,9 @@
       "en": "rations and pay for soldiers",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "靂",
@@ -2022,7 +2422,9 @@
       "en": "thunderclap, crashing thunder",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "濯",
@@ -2032,7 +2434,9 @@
       "en": "to wash；to cleanse of evil",
       "note": "多音字，可讀「zhuo/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "跏",
@@ -2042,7 +2446,9 @@
       "en": "to sit cross-legged",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "趺",
@@ -2052,7 +2458,9 @@
       "en": "instep; tarsus",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "麤",
@@ -2062,7 +2470,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藉",
@@ -2072,7 +2482,9 @@
       "en": "(literary) cushion; mat；(literary) to put some padding underneath",
       "note": "多音字，可讀「jie/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "媧",
@@ -2082,7 +2494,9 @@
       "en": "surname Wa；sister of legendary emperor Fuxi 伏羲[Fu2 xi1]",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "單",
@@ -2092,7 +2506,9 @@
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "頓",
@@ -2102,7 +2518,9 @@
       "en": "to pause; to bow; to arrange",
       "note": "多音字，可讀「dun/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "耆",
@@ -2112,7 +2530,9 @@
       "en": "man of sixty or seventy",
       "note": "多音字，可讀「qi/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "闍",
@@ -2122,7 +2542,9 @@
       "en": "a Buddhist high priest",
       "note": "多音字，可讀「du/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "崛",
@@ -2132,7 +2554,9 @@
       "en": "towering as a peak",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "血",
@@ -2142,7 +2566,9 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "噤",
@@ -2152,7 +2578,9 @@
       "en": "unable to speak；silent",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拏",
@@ -2162,7 +2590,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "叩",
@@ -2172,7 +2602,9 @@
       "en": "to knock；to kowtow；to knock",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "暉",
@@ -2182,7 +2614,9 @@
       "en": "sunshine；to shine upon",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "夭",
@@ -2192,7 +2626,9 @@
       "en": "(bound form) to die prematurely (also pr. [yao3])；(literary) (of vegetation) luxuriant；(bound form) to die prematurely (also pr. [yao3]) (variant of 夭[yao1])",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "耄",
@@ -2202,7 +2638,9 @@
       "en": "extremely aged (in one's 80s or 90s)；octogenarian；nonagenarian",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "迫",
@@ -2212,7 +2650,9 @@
       "en": "to persecute；to oppress；embarrassed",
       "note": "多音字，可讀「po/pai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "忪",
@@ -2222,7 +2662,9 @@
       "en": "calm, peaceful; quiet, tranquil",
       "note": "多音字，可讀「song/zhong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "覲",
@@ -2232,7 +2674,9 @@
       "en": "(history) to have an audience with the Emperor",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "糸",
@@ -2242,7 +2686,9 @@
       "en": "fine silk；Kangxi radical 120",
       "note": "多音字，可讀「mi/si」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "亙",
@@ -2252,7 +2698,9 @@
       "en": "extending all the way across；running all the way through",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "恚",
@@ -2262,7 +2710,9 @@
       "en": "rage",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瘖",
@@ -2272,7 +2722,9 @@
       "en": "mute",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "啞",
@@ -2282,7 +2734,9 @@
       "en": "(onom.) sound of cawing；sound of infant learning to talk；mute; dumb; incapable of speech",
       "note": "多音字，可讀「ya/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "魅",
@@ -2292,7 +2746,9 @@
       "en": "magic, enchantment, charm; a forest demon",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "校",
@@ -2302,7 +2758,9 @@
       "en": "(bound form) school; college；(bound form) (military) field officer",
       "note": "多音字，可讀「xiao/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鐫",
@@ -2312,7 +2770,9 @@
       "en": "engraving tool; to carve, to engrave",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "耋",
@@ -2322,7 +2782,9 @@
       "en": "aged；in one's eighties",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "景",
@@ -2332,7 +2794,9 @@
       "en": "surname Jing；(bound form) scenery；circumstance",
       "note": "多音字，可讀「jing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "纊",
@@ -2342,7 +2806,9 @@
       "en": "fine floss-silk or cotton",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朴",
@@ -2352,7 +2818,9 @@
       "en": "(bound form) plain; simple；Taiwan pr. [pu2]",
       "note": "多音字，可讀「pu/po/piao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "強",
@@ -2362,7 +2830,9 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鞅",
@@ -2372,7 +2842,9 @@
       "en": "the strap over a horse's neck",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "荏",
@@ -2382,7 +2854,9 @@
       "en": "beefsteak plant (Perilla frutescens)；soft；weak",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "苒",
@@ -2392,7 +2866,9 @@
       "en": "luxuriant growth；passing (of time)",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "裘",
@@ -2402,7 +2878,9 @@
       "en": "surname Qiu；fur；fur coat",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "禫",
@@ -2412,7 +2890,9 @@
       "en": "sacrifice at the end of mourning",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "惻",
@@ -2422,7 +2902,9 @@
       "en": "sorrowful",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "啻",
@@ -2432,7 +2914,9 @@
       "en": "only (classical, usually follows negative or question words)；(not) just",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "揣",
@@ -2442,7 +2926,9 @@
       "en": "to put into (one's pockets, clothes)；Taiwan pr. [chuai3]；to estimate",
       "note": "多音字，可讀「chuai/tuan/zhui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "黽",
@@ -2452,7 +2938,9 @@
       "en": "frog, toad; to strive, to endeavor",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "揭",
@@ -2462,7 +2950,9 @@
       "en": "surname Jie；to take the lid off；to expose",
       "note": "多音字，可讀「jie/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "撮",
@@ -2472,7 +2962,9 @@
       "en": "to pick up (a powder etc) with the fingertips；to scoop up；to collect together",
       "note": "多音字，可讀「cuo/zuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "省",
@@ -2482,7 +2974,9 @@
       "en": "to save; to economize; to be frugal；to omit; to delete; to leave out；province",
       "note": "多音字，可讀「sheng/xing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "卄",
@@ -2492,7 +2986,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "磎",
@@ -2502,7 +2998,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "梓",
@@ -2512,7 +3010,9 @@
       "en": "Chinese catalpa (Catalpa ovata), a tree that serves as a symbol of one's hometown and whose wood is used to make various items；(bound form) printing blocks",
       "note": null,
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "尾",
@@ -2522,7 +3022,9 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "谷",
@@ -2532,7 +3034,9 @@
       "en": "grain；corn；surname Gu",
       "note": "多音字，可讀「gu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "趨",
@@ -2542,7 +3046,9 @@
       "en": "to hasten；to hurry；to walk fast",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "安樂集卷下"
+      "src": "安樂集卷下",
+      "multi": true,
+      "rare": false
     }
   ]
 }

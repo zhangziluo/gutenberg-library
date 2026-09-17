@@ -18,7 +18,9 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "馮",
@@ -28,7 +30,9 @@
       "en": "to gallop; by dint of; surname",
       "note": "多音字，可讀「feng/ping」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "褚",
@@ -38,7 +42,9 @@
       "en": "surname Chu",
       "note": "多音字，可讀「chu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "沈",
@@ -48,7 +54,9 @@
       "en": "surname Shen；short name for 瀋陽|沈阳[Shen3 yang2]；(literary) juice",
       "note": "多音字，可讀「shen/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "朱",
@@ -58,7 +66,9 @@
       "en": "surname Zhu；vermilion；(bound form) cinnabar",
       "note": "多音字，可讀「zhu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "陶",
@@ -68,7 +78,9 @@
       "en": "pottery, ceramics",
       "note": "多音字，可讀「tao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "柏",
@@ -78,7 +90,9 @@
       "en": "surname Bai；Taiwan pr. [Bo2]；cedar",
       "note": "多音字，可讀「bai/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "竇",
@@ -88,7 +102,9 @@
       "en": "surname Dou；(literary) hole; aperture；(anatomy) cavity; sinus",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "奚",
@@ -98,7 +114,9 @@
       "en": "surname Xi；(literary) what?；where?",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "彭",
@@ -108,7 +126,9 @@
       "en": "surname Peng",
       "note": "多音字，可讀「peng/bang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "俞",
@@ -118,7 +138,9 @@
       "en": "surname Yu；yes (used by Emperor or ruler)；OK",
       "note": "多音字，可讀「yu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "酆",
@@ -128,7 +150,9 @@
       "en": "the name of a Zhou-period state",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "岑",
@@ -138,7 +162,9 @@
       "en": "surname Cen；small hill",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湯",
@@ -148,7 +174,9 @@
       "en": "surname Tang；soup；hot or boiling water",
       "note": "多音字，可讀「tang/shang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "滕",
@@ -158,7 +186,9 @@
       "en": "vassal state of Zhou in Shandong；surname Teng",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殷",
@@ -168,7 +198,9 @@
       "en": "surname Yin；dynasty name at the end the Shang dynasty, after its move to Yinxu 殷墟[Yin1 xu1] in present-day Henan；flourishing",
       "note": "多音字，可讀「yin/yan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鄔",
@@ -178,7 +210,9 @@
       "en": "various place names; surname",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "樂",
@@ -188,7 +222,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -198,7 +234,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "齊",
@@ -208,7 +246,9 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "和",
@@ -218,7 +258,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "臧",
@@ -228,7 +270,9 @@
       "en": "surname Zang；good；right",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閔",
@@ -238,7 +282,9 @@
       "en": "to mourn, to grieve; to incite, to urge on",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "強",
@@ -248,7 +294,9 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "賈",
@@ -258,7 +306,9 @@
       "en": "surname Jia",
       "note": "多音字，可讀「jia/gu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "盛",
@@ -268,7 +318,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "昝",
@@ -278,7 +330,9 @@
       "en": "surname Zan",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "莫",
@@ -288,7 +342,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "裘",
@@ -298,7 +354,9 @@
       "en": "surname Qiu；fur；fur coat",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繆",
@@ -308,7 +366,9 @@
       "en": "surname Miao",
       "note": "多音字，可讀「mou/miu/miao/liao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "解",
@@ -318,7 +378,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "丁",
@@ -328,7 +390,9 @@
       "en": "surname Ding；male adult；the 4th of the 10 Heavenly Stems 天干[tian1 gan1]",
       "note": "多音字，可讀「ding/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "賁",
@@ -338,7 +402,9 @@
       "en": "bright",
       "note": "多音字，可讀「bi/ben」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "單",
@@ -348,7 +414,9 @@
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "石",
@@ -358,7 +426,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嵇",
@@ -368,7 +438,9 @@
       "en": "surname Ji；name of a mountain",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "荀",
@@ -378,7 +450,9 @@
       "en": "surname Xun；(archaic) name of a plant mentioned in ancient texts；name of a state that existed during the Zhou dynasty in present-day Shanxi",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羊",
@@ -388,7 +462,9 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "家",
@@ -398,7 +474,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "芮",
@@ -408,7 +486,9 @@
       "en": "surname Rui；small",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羿",
@@ -418,7 +498,9 @@
       "en": "surname Yi；name of a legendary archer (also called 后羿[Hou4 Yi4])",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邴",
@@ -428,7 +510,9 @@
       "en": "an ancient city; pleased, happy; surname",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "糜",
@@ -438,7 +522,9 @@
       "en": "surname Mi；rice gruel；rotten",
       "note": "多音字，可讀「mi/mei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隗",
@@ -448,7 +534,9 @@
       "en": "high, lofty; surname",
       "note": "多音字，可讀「wei/kui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "車",
@@ -458,7 +546,9 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宓",
@@ -468,7 +558,9 @@
       "en": "surname Mi；still；silent",
       "note": "多音字，可讀「mi/fu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "郗",
@@ -478,7 +570,9 @@
       "en": "an ancient city; surname",
       "note": "多音字，可讀「chi/xi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "仰",
@@ -488,7 +582,9 @@
       "en": "surname Yang；to face upward；to look up",
       "note": "多音字，可讀「yang/ang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仇",
@@ -498,7 +594,9 @@
       "en": "hatred；animosity；enmity",
       "note": "多音字，可讀「chou/qiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "欒",
@@ -508,7 +606,9 @@
       "en": "surname Luan；Koelreuteria paniculata",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "暴",
@@ -518,7 +618,9 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鈄",
@@ -528,7 +630,9 @@
       "en": "wine flagon",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "景",
@@ -538,7 +642,9 @@
       "en": "surname Jing；(bound form) scenery；circumstance",
       "note": "多音字，可讀「jing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "郜",
@@ -548,7 +654,9 @@
       "en": "a feudal state in Shantong; surname",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "薄",
@@ -558,7 +666,9 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宿",
@@ -568,7 +678,9 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -578,7 +690,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "藺",
@@ -588,7 +702,9 @@
       "en": "surname Lin；juncus effusus",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "喬",
@@ -598,7 +714,9 @@
       "en": "surname Qiao；tall",
       "note": "多音字，可讀「qiao/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "胥",
@@ -608,7 +726,9 @@
       "en": "surname Xu；all；assist",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "能",
@@ -618,7 +738,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "莘",
@@ -628,7 +750,9 @@
       "en": "surname Shen；long；numerous",
       "note": "多音字，可讀「shen/xin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "翟",
@@ -638,7 +762,9 @@
       "en": "surname Zhai",
       "note": "多音字，可讀「zhai/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "逄",
@@ -648,7 +774,9 @@
       "en": "surname",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "酈",
@@ -658,7 +786,9 @@
       "en": "a place in Henan province",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璩",
@@ -668,7 +798,9 @@
       "en": "surname Qu；(jade ring)",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "濮",
@@ -678,7 +810,9 @@
       "en": "name of a river；surname Pu",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扈",
@@ -688,7 +822,9 @@
       "en": "surname Hu；retinue",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "郟",
@@ -698,7 +834,9 @@
       "en": "a county in Henan province; surname",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "晏",
@@ -708,7 +846,9 @@
       "en": "surname Yan；late；quiet",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瞿",
@@ -718,7 +858,9 @@
       "en": "surname Qu；startled；Taiwan pr. [ju4]",
       "note": "多音字，可讀「qu/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "艾",
@@ -728,7 +870,9 @@
       "en": "surname Ai；Chinese mugwort (Artemisia); moxa",
       "note": "多音字，可讀「ai/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "暨",
@@ -738,7 +882,9 @@
       "en": "(literary) and; as well as；(literary) up to; as far as (as in 暨今[ji4 jin1] \"up to now\")",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "都",
@@ -748,7 +894,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "闕",
@@ -758,7 +906,9 @@
       "en": "palace; watchtower",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殳",
@@ -768,7 +918,9 @@
       "en": "surname Shu；ancient staff-like weapon made of bamboo or wood；\"weapon\" radical in Chinese characters (Kangxi radical 79), occurring in 段, 毅, 殺 etc",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蔚",
@@ -778,7 +930,9 @@
       "en": "Artemisia japonica；luxuriant；resplendent",
       "note": "多音字，可讀「wei/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "夔",
@@ -788,7 +942,9 @@
       "en": "one-legged mountain demon of Chinese mythology；Chinese mythical figure who invented music and dancing；Chinese rain god",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "厙",
@@ -798,7 +954,9 @@
       "en": "surname She",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "晁",
@@ -808,7 +966,9 @@
       "en": "surname Chao",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "訾",
@@ -818,7 +978,9 @@
       "en": "surname Zi；to calculate；to assess",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "闞",
@@ -828,7 +990,9 @@
       "en": "to glance, to peep; to growl, to roar",
       "note": "多音字，可讀「kan/han」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "那",
@@ -838,7 +1002,9 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "曾",
@@ -848,7 +1014,9 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "乜",
@@ -858,7 +1026,9 @@
       "en": "surname Nie",
       "note": "多音字，可讀「nie/mie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "蒯",
@@ -868,7 +1038,9 @@
       "en": "a rush；scirpus cyperinus",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "查",
@@ -878,7 +1050,9 @@
       "en": "to research；to check；to investigate",
       "note": "多音字，可讀「cha/zha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "紅",
@@ -888,7 +1062,9 @@
       "en": "surname Hong；red；popular",
       "note": "多音字，可讀「hong/gong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "竺",
@@ -898,7 +1074,9 @@
       "en": "surname Zhu；abbr. for 天竺[Tian1 zhu2], India (esp. in Tang or Buddhist context)；(archaic) Buddhism",
       "note": "多音字，可讀「zhu/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "逯",
@@ -908,7 +1086,9 @@
       "en": "to leave without a reason; surname",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蓋",
@@ -918,7 +1098,9 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "俟",
@@ -928,7 +1110,9 @@
       "en": "(literary) to wait for",
       "note": "多音字，可讀「si/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "尉",
@@ -938,7 +1122,9 @@
       "en": "surname Wei；military officer",
       "note": "多音字，可讀「wei/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "澹",
@@ -948,7 +1134,9 @@
       "en": "tranquil；placid；quiet",
       "note": "多音字，可讀「dan/tan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "淳",
@@ -958,7 +1146,9 @@
       "en": "genuine；pure；honest",
       "note": "多音字，可讀「chun/zhun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "長",
@@ -968,7 +1158,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "閭",
@@ -978,7 +1170,9 @@
       "en": "a village of twenty-five families",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亓",
@@ -988,7 +1182,9 @@
       "en": "surname Qi；his；her",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "仉",
@@ -998,7 +1194,9 @@
       "en": "surname Zhang",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "顓",
@@ -1008,7 +1206,9 @@
       "en": "good, honest, simple; respectful",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "駟",
@@ -1018,7 +1218,9 @@
       "en": "a team of four horses",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拓",
@@ -1028,7 +1230,9 @@
       "en": "surname Tuo；to expand；to push sth with the hand",
       "note": "多音字，可讀「tuo/ta/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "夾",
@@ -1038,7 +1242,9 @@
       "en": "to press from either side；to place in between；to sandwich",
       "note": "多音字，可讀「jia/ga/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "閆",
@@ -1048,7 +1254,9 @@
       "en": "village gate",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鄢",
@@ -1058,7 +1266,9 @@
       "en": "a district in Henan province",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "南",
@@ -1068,7 +1278,9 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "緱",
@@ -1078,7 +1290,9 @@
       "en": "surname Gou；rope attached to a sword hilt；(archaic) hilt",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亢",
@@ -1088,7 +1302,9 @@
       "en": "surname Kang；Kang, one of the 28 constellations；high",
       "note": "多音字，可讀「kang/hang/gang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "牟",
@@ -1098,7 +1314,9 @@
       "en": "surname Mou；barley；to moo",
       "note": "多音字，可讀「mu/mou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "佘",
@@ -1108,7 +1326,9 @@
       "en": "surname She",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "佴",
@@ -1118,7 +1338,9 @@
       "en": "assistant",
       "note": "多音字，可讀「er/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "伯",
@@ -1128,7 +1350,9 @@
       "en": "father's elder brother；senior；paternal elder uncle",
       "note": "多音字，可讀「bo/bai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "譙",
@@ -1138,7 +1362,9 @@
       "en": "surname Qiao；drum tower；ridicule",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "笪",
@@ -1148,7 +1374,9 @@
       "en": "surname Da；rough bamboo mat",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "佟",
@@ -1158,7 +1386,9 @@
       "en": "surname Tong",
       "note": null,
       "is_difficult": true,
-      "src": "百家姓"
+      "src": "百家姓",
+      "multi": false,
+      "rare": true
     }
   ]
 }

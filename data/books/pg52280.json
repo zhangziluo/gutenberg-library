@@ -18,7 +18,9 @@
       "en": "surname Zhu；vermilion；(bound form) cinnabar",
       "note": "多音字，可讀「zhu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "縣",
@@ -28,7 +30,9 @@
       "en": "county；(Japan) prefecture",
       "note": "多音字，可讀「xian/xuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "家",
@@ -38,7 +42,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稱",
@@ -48,7 +54,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "其",
@@ -58,7 +66,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "落",
@@ -68,7 +78,9 @@
       "en": "to fall or drop；(of the sun) to set；(of a tide) to go out",
       "note": "多音字，可讀「luo/la/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "強",
@@ -78,7 +90,9 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "柩",
@@ -88,7 +102,9 @@
       "en": "bier",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "於",
@@ -98,7 +114,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "被",
@@ -108,7 +126,9 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "杉",
@@ -118,7 +138,9 @@
       "en": "China fir；Cunninghamia lanceolata；also pr. [sha1]",
       "note": "多音字，可讀「shan/sha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "價",
@@ -128,7 +150,9 @@
       "en": "price；value；(chemistry) valence",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "說",
@@ -138,7 +162,9 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "不",
@@ -148,7 +174,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "了",
@@ -158,7 +186,9 @@
       "en": "to finish；(used with 得[de2] or 不[bu4] after a verb to express (im)possibility, as in 忘不了[wang4 bu5 liao3] \"cannot forget\")；(literary) (usually followed by a negative such as 無|无[wu2] or 不[bu4]) completely (not); entirely (not); (not) in the least",
       "note": "多音字，可讀「le/liao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "長",
@@ -168,7 +198,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "地",
@@ -178,7 +210,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "扒",
@@ -188,7 +222,9 @@
       "en": "to peel；to skin；to tear",
       "note": "多音字，可讀「ba/pa」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "女",
@@ -198,7 +234,9 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -208,7 +246,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "便",
@@ -218,7 +258,9 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -228,7 +270,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "那",
@@ -238,7 +282,9 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "識",
@@ -248,7 +294,9 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "覺",
@@ -258,7 +306,9 @@
       "en": "to feel；to find that；thinking",
       "note": "多音字，可讀「jue/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "見",
@@ -268,7 +318,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "大",
@@ -278,7 +330,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "能",
@@ -288,7 +342,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "燄",
@@ -298,7 +354,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "都",
@@ -308,7 +366,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "荼",
@@ -318,7 +378,9 @@
       "en": "thistle；common sowthistle (Sonchus oleraceus)；bitter (taste)",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "毒",
@@ -328,7 +390,9 @@
       "en": "poison；to poison；poisonous",
       "note": "多音字，可讀「du/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "莫",
@@ -338,7 +402,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "重",
@@ -348,7 +414,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "合",
@@ -358,7 +426,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "殯",
@@ -368,7 +438,9 @@
       "en": "a funeral；to encoffin a corpse；to carry to burial",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "疑",
@@ -378,7 +450,9 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "豈",
@@ -388,7 +462,9 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "曾",
@@ -398,7 +474,9 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "吾",
@@ -408,7 +486,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "親",
@@ -418,7 +498,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "參",
@@ -428,7 +510,9 @@
       "en": "to take part in；to participate；to join",
       "note": "多音字，可讀「can/shen/cen/san」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "差",
@@ -438,7 +522,9 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拘",
@@ -448,7 +534,9 @@
       "en": "to capture；to restrain；to constrain",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "詰",
@@ -458,7 +546,9 @@
       "en": "(bound form) to question closely; to interrogate",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "的",
@@ -468,7 +558,9 @@
       "en": "of; ~'s (possessive particle)；(used after an attribute when it modifies a noun)；(used at the end of a declarative sentence for emphasis)",
       "note": "多音字，可讀「de/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仇",
@@ -478,7 +570,9 @@
       "en": "hatred；animosity；enmity",
       "note": "多音字，可讀「chou/qiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "否",
@@ -488,7 +582,9 @@
       "en": "to negate；to deny；not",
       "note": "多音字，可讀「fou/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "誰",
@@ -498,7 +594,9 @@
       "en": "who；also pr. [shui2]",
       "note": "多音字，可讀「shui/shei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "著",
@@ -508,7 +606,9 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "叩",
@@ -518,7 +618,9 @@
       "en": "to knock；to kowtow；to knock",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "召",
@@ -528,7 +630,9 @@
       "en": "to call together；to summon；to convene",
       "note": "多音字，可讀「zhao/shao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "齊",
@@ -538,7 +642,9 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "夾",
@@ -548,7 +654,9 @@
       "en": "to press from either side；to place in between；to sandwich",
       "note": "多音字，可讀「jia/ga/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "棍",
@@ -558,7 +666,9 @@
       "en": "stick; rod; truncheon；scoundrel; villain",
       "note": "多音字，可讀「gun/hun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "臾",
@@ -568,7 +678,9 @@
       "en": "surname Yu；a moment；little while",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "得",
@@ -578,7 +690,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隸",
@@ -588,7 +702,9 @@
       "en": "subservient; servant",
       "note": "多音字，可讀「li/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "挾",
@@ -598,7 +714,9 @@
       "en": "(bound form) to clasp under the arm；(bound form) to coerce；(bound form) to harbor (resentment etc)",
       "note": "多音字，可讀「xie/jia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弄",
@@ -608,7 +726,9 @@
       "en": "to do；to manage；to handle",
       "note": "多音字，可讀「nong/long」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "殄",
@@ -618,7 +738,9 @@
       "en": "to exterminate",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "芟",
@@ -628,7 +750,9 @@
       "en": "to cut down；to mow；to eliminate",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "革",
@@ -638,7 +762,9 @@
       "en": "leather, animal hide; to reform; to remove",
       "note": "多音字，可讀「ge/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "炮",
@@ -648,7 +774,9 @@
       "en": "to prepare herbal medicine by roasting or parching (in a pan)；cannon；CL:座[zuo4]",
       "note": "多音字，可讀「pao/bao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "烙",
@@ -658,7 +786,9 @@
       "en": "to brand；to iron；to bake (in a pan)",
       "note": "多音字，可讀「lao/luo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "填",
@@ -668,7 +798,9 @@
       "en": "to fill or stuff；(of a form etc) to fill in",
       "note": "多音字，可讀「tian/zhen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "辟",
@@ -678,7 +810,9 @@
       "en": "law, rule; to open up, to develop",
       "note": "多音字，可讀「pi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嗟",
@@ -688,7 +822,9 @@
       "en": "sigh；also pr. [jue1]",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "暴",
@@ -698,7 +834,9 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "南",
@@ -708,7 +846,9 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "阿",
@@ -718,7 +858,9 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "彈",
@@ -728,7 +870,9 @@
       "en": "crossball；bullet；shot",
       "note": "多音字，可讀「dan/tan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "劾",
@@ -738,7 +882,9 @@
       "en": "to impeach",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "屬",
@@ -748,7 +894,9 @@
       "en": "category；genus (taxonomy)；family members",
       "note": "多音字，可讀「shu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繫",
@@ -758,7 +906,9 @@
       "en": "to connect；to arrest；to worry",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "泄",
@@ -768,7 +918,9 @@
       "en": "(bound form) to leak out; to discharge; (fig.) to divulge",
       "note": "多音字，可讀「xie/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "僉",
@@ -778,7 +930,9 @@
       "en": "all",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "墮",
@@ -788,7 +942,9 @@
       "en": "to fall; to sink；(fig.) to degenerate",
       "note": "多音字，可讀「duo/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "埋",
@@ -798,7 +954,9 @@
       "en": "to bury",
       "note": "多音字，可讀「mai/man」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "露",
@@ -808,7 +966,9 @@
       "en": "dew; leak; bare, exposed; to reveal, to show",
       "note": "多音字，可讀「lu/lou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "提",
@@ -818,7 +978,9 @@
       "en": "to carry (hanging down from the hand)；to lift；to put forward",
       "note": "多音字，可讀「ti/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "思",
@@ -828,7 +990,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "適",
@@ -838,7 +1002,9 @@
       "en": "match, comfortable; just",
       "note": "多音字，可讀「shi/di/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "給",
@@ -848,7 +1014,9 @@
       "en": "to；for；for the benefit of",
       "note": "多音字，可讀「gei/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "若",
@@ -858,7 +1026,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "胥",
@@ -868,7 +1038,9 @@
       "en": "surname Xu；all；assist",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "簿",
@@ -878,7 +1050,9 @@
       "en": "a book；a register；account-book",
       "note": "多音字，可讀「bo/bu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "樂",
@@ -888,7 +1062,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "赧",
@@ -898,7 +1074,9 @@
       "en": "blushing with shame",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鞫",
@@ -908,7 +1086,9 @@
       "en": "to question, to interrogate",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "解",
@@ -918,7 +1098,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "佛",
@@ -928,7 +1110,9 @@
       "en": "Buddha; Buddhism (abbr. for 佛陀[Fo2 tuo2])",
       "note": "多音字，可讀「fo/fu/bi/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拾",
@@ -938,7 +1122,9 @@
       "en": "to pick up；to collate or arrange；ten (banker's anti-fraud numeral)",
       "note": "多音字，可讀「shi/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "數",
@@ -948,7 +1134,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "傳",
@@ -958,7 +1146,9 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奇",
@@ -968,7 +1158,9 @@
       "en": "strange；odd；weird",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祠",
@@ -978,7 +1170,9 @@
       "en": "shrine；to offer a sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "頓",
@@ -988,7 +1182,9 @@
       "en": "to pause; to bow; to arrange",
       "note": "多音字，可讀「dun/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "助",
@@ -998,7 +1194,9 @@
       "en": "to help；to assist",
       "note": "多音字，可讀「zhu/chu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "尺",
@@ -1008,7 +1206,9 @@
       "en": "a Chinese foot；one-third of a meter；a ruler",
       "note": "多音字，可讀「chi/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宛",
@@ -1018,7 +1218,9 @@
       "en": "surname Wan；winding；as if",
       "note": "多音字，可讀「wan/yuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "詎",
@@ -1028,7 +1230,9 @@
       "en": "how (interj. of surprise)",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嘖",
@@ -1038,7 +1242,9 @@
       "en": "(interj. of admiration or of disgust)；to click one's tongue；to attempt to (find an opportunity to) speak",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "罷",
@@ -1048,7 +1254,9 @@
       "en": "to stop；to cease；to dismiss",
       "note": "多音字，可讀「ba/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "扳",
@@ -1058,7 +1266,9 @@
       "en": "to pull；to turn (sth) around；to turn around (a situation)",
       "note": "多音字，可讀「ban/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "色",
@@ -1068,7 +1278,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "且",
@@ -1078,7 +1290,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "員",
@@ -1088,7 +1302,9 @@
       "en": "(bound form) person engaged in a certain field of activity；(bound form) member；classifier for military generals",
       "note": "多音字，可讀「yuan/yun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "誑",
@@ -1098,7 +1314,9 @@
       "en": "to deceive; to dupe；falsehood; lie；(dialect) to amuse",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藏",
@@ -1108,7 +1326,9 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "貽",
@@ -1118,7 +1338,9 @@
       "en": "to present；to bequeath",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "絡",
@@ -1128,7 +1350,9 @@
       "en": "net-like object；to hold sth in place with a net；to wind",
       "note": "多音字，可讀「luo/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "肴",
@@ -1138,7 +1362,9 @@
       "en": "meat dishes；mixed viands",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "盛",
@@ -1148,7 +1374,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "羈",
@@ -1158,7 +1386,9 @@
       "en": "bridle；halter；to restrain",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宿",
@@ -1168,7 +1398,9 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "阱",
@@ -1178,7 +1410,9 @@
       "en": "trap, snare, pitfall",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "信",
@@ -1188,7 +1422,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "罹",
@@ -1198,7 +1434,9 @@
       "en": "happen to；sorrow；suffer from",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "妾",
@@ -1208,7 +1446,9 @@
       "en": "concubine；I, your servant (deprecatory self-reference for women)",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泗",
@@ -1218,7 +1458,9 @@
       "en": "river in Shandong；nasal mucus",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "滂",
@@ -1228,7 +1470,9 @@
       "en": "rushing (water)",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "沱",
@@ -1238,7 +1482,9 @@
       "en": "tearful；to branch (of river)",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "六",
@@ -1248,7 +1494,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "些",
@@ -1258,7 +1506,9 @@
       "en": "classifier indicating a small amount or small number greater than 1: some, a few, several",
       "note": "多音字，可讀「xie/suo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "氏",
@@ -1268,7 +1518,9 @@
       "en": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")；(bound form) maiden name; née (as in 李王氏[Li3 Wang2 shi4] \"Mrs. Li, née Wang\")；(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "貸",
@@ -1278,7 +1530,9 @@
       "en": "to lend on interest；to borrow；a loan",
       "note": "多音字，可讀「dai/te」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "約",
@@ -1288,7 +1542,9 @@
       "en": "to make an appointment；to invite；approximately",
       "note": "多音字，可讀「yue/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "淨",
@@ -1298,7 +1554,9 @@
       "en": "clean；completely；only",
       "note": "多音字，可讀「jing/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "據",
@@ -1308,7 +1566,9 @@
       "en": "according to；to act in accordance with；to depend on",
       "note": "多音字，可讀「ju/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "旌",
@@ -1318,7 +1578,9 @@
       "en": "banner；make manifest",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "薄",
@@ -1328,7 +1590,9 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "孀",
@@ -1338,7 +1602,9 @@
       "en": "(bound form) widow",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "彔",
@@ -1348,7 +1614,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "倨",
@@ -1358,7 +1626,9 @@
       "en": "(literary) haughty; arrogant",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蓋",
@@ -1368,7 +1638,9 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "會",
@@ -1378,7 +1650,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "追",
@@ -1388,7 +1662,9 @@
       "en": "to pursue, to chase after; to expel",
       "note": "多音字，可讀「zhui/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "景",
@@ -1398,7 +1674,9 @@
       "en": "surname Jing；(bound form) scenery；circumstance",
       "note": "多音字，可讀「jing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "還",
@@ -1408,7 +1686,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "謁",
@@ -1418,7 +1698,9 @@
       "en": "to visit (a superior)",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "伺",
@@ -1428,7 +1710,9 @@
       "en": "to watch；to wait；to examine",
       "note": "多音字，可讀「si/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "榻",
@@ -1438,7 +1722,9 @@
       "en": "couch",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "血",
@@ -1448,7 +1734,9 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "跳",
@@ -1458,7 +1746,9 @@
       "en": "to jump；to hop；to skip over",
       "note": "多音字，可讀「tiao/tao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "倏",
@@ -1468,7 +1758,9 @@
       "en": "sudden；abrupt；Taiwan pr. [shu4]",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "食",
@@ -1478,7 +1770,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "糜",
@@ -1488,7 +1782,9 @@
       "en": "surname Mi；rice gruel；rotten",
       "note": "多音字，可讀「mi/mei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "番",
@@ -1498,7 +1794,9 @@
       "en": "(bound form) foreign (non-Chinese); barbarian；classifier for processes or actions that take time and effort；(classifier) a kind; a sort",
       "note": "多音字，可讀「fan/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "賺",
@@ -1508,7 +1806,9 @@
       "en": "to earn；to make a profit",
       "note": "多音字，可讀「zhuan/zuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "恪",
@@ -1518,7 +1818,9 @@
       "en": "surname Ke；respectful；scrupulous",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "聒",
@@ -1528,7 +1830,9 @@
       "en": "raucous；clamor；unpleasantly noisy",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愴",
@@ -1538,7 +1842,9 @@
       "en": "mournful；sad；grieved",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳥",
@@ -1548,7 +1854,9 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "雀",
@@ -1558,7 +1866,9 @@
       "en": "sparrow",
       "note": "多音字，可讀「que/qiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "閒",
@@ -1568,7 +1878,9 @@
       "en": "leisure, idle time; tranquil, peaceful, calm",
       "note": "多音字，可讀「xian/jian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "似",
@@ -1578,7 +1890,9 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "啞",
@@ -1588,7 +1902,9 @@
       "en": "(onom.) sound of cawing；sound of infant learning to talk；mute; dumb; incapable of speech",
       "note": "多音字，可讀「ya/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "幡",
@@ -1598,7 +1914,9 @@
       "en": "banner",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亡",
@@ -1608,7 +1926,9 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "扉",
@@ -1618,7 +1938,9 @@
       "en": "door with only one leaf",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "責",
@@ -1628,7 +1950,9 @@
       "en": "duty；responsibility；to reproach",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "呢",
@@ -1638,7 +1962,9 @@
       "en": "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\")；(sentence-final particle) indicating that a state or situation still holds；(discourse particle) used to mark a slight pause or emphasis in speech",
       "note": "多音字，可讀「ne/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "喃",
@@ -1648,7 +1974,9 @@
       "en": "mumble in repetition",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "咭",
@@ -1658,7 +1986,9 @@
       "en": "(Cant.) to guard (from Engl. 'guard'); a card (from Engl. 'card'); young and pretty (from Engl. 'kid')",
       "note": "多音字，可讀「ji/xi/qia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "渠",
@@ -1668,7 +1998,9 @@
       "en": "surname Qu；(artificial) stream; canal; drain; ditch (CL:條|条[tiao2])；(literary) big; great",
       "note": "多音字，可讀「qu/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "婺",
@@ -1678,7 +2010,9 @@
       "en": "beautiful",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "丞",
@@ -1688,7 +2022,9 @@
       "en": "deputy",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蛇",
@@ -1698,7 +2034,9 @@
       "en": "snake；serpent；CL:條|条[tiao2]",
       "note": "多音字，可讀「she/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繁",
@@ -1708,7 +2046,9 @@
       "en": "complicated；many；in great numbers",
       "note": "多音字，可讀「fan/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嫗",
@@ -1718,7 +2058,9 @@
       "en": "old woman；to brood over；to protect",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "孫",
@@ -1728,7 +2070,9 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "戲",
@@ -1738,7 +2082,9 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沐",
@@ -1748,7 +2094,9 @@
       "en": "to bathe；to cleanse；to receive",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "牒",
@@ -1758,7 +2106,9 @@
       "en": "(official) document；dispatch",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "隍",
@@ -1768,7 +2118,9 @@
       "en": "dry ditch, dry moat",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朝",
@@ -1778,7 +2130,9 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奚",
@@ -1788,7 +2142,9 @@
       "en": "surname Xi；(literary) what?；where?",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祀",
@@ -1798,7 +2154,9 @@
       "en": "to sacrifice；to offer libation to",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蛟",
@@ -1808,7 +2166,9 @@
       "en": "a legendary dragon with the ability to control rain and floods；see also 蛟龍|蛟龙[jiao1 long2]",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "徵",
@@ -1818,7 +2178,9 @@
       "en": "4th note in the ancient Chinese pentatonic scale 五音[wu3 yin1], corresponding to sol",
       "note": "多音字，可讀「zhi/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蟒",
@@ -1828,7 +2190,9 @@
       "en": "python",
       "note": "多音字，可讀「mang/meng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "衢",
@@ -1838,7 +2202,9 @@
       "en": "thoroughfare",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "恣",
@@ -1848,7 +2214,9 @@
       "en": "to abandon restraint；to do as one pleases；comfortable (dialect)",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "虺",
@@ -1858,7 +2226,9 @@
       "en": "sick；with no ambition；mythical venomous snake",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "期",
@@ -1868,7 +2238,9 @@
       "en": "period；cycle；a period of time",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諭",
@@ -1878,7 +2250,9 @@
       "en": "order (from above)",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殞",
@@ -1888,7 +2262,9 @@
       "en": "(literary) to perish; to die",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "俸",
@@ -1898,7 +2274,9 @@
       "en": "(bound form) salary; stipend",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "石",
@@ -1908,7 +2286,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "螫",
@@ -1918,7 +2298,9 @@
       "en": "(literary) (of a bee or spider etc) to sting or bite",
       "note": "多音字，可讀「shi/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "惡",
@@ -1928,7 +2310,9 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蠹",
@@ -1938,7 +2322,9 @@
       "en": "insect that eats into books, clothing etc；moth-eaten；worm-eaten",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "丐",
@@ -1948,7 +2334,9 @@
       "en": "to beg for alms；beggar",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "廝",
@@ -1958,7 +2346,9 @@
       "en": "(bound form) together; each other；(bound form) male servant；(bound form) dude; so-and-so (used in 那廝|那厮[na4 si1] and 這廝|这厮[zhe4 si1])",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "忖",
@@ -1968,7 +2358,9 @@
       "en": "to ponder；to speculate；to consider",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弟",
@@ -1978,7 +2370,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "車",
@@ -1988,7 +2382,9 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "麼",
@@ -1998,7 +2394,9 @@
       "en": "interrogative particle",
       "note": "多音字，可讀「mo/me」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "喝",
@@ -2008,7 +2406,9 @@
       "en": "to drink；to shout",
       "note": "多音字，可讀「he/ye」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "匍",
@@ -2018,7 +2418,9 @@
       "en": "to crawl; to lie prostrate",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "匐",
@@ -2028,7 +2430,9 @@
       "en": "to crawl; to lie prostrate",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扛",
@@ -2038,7 +2442,9 @@
       "en": "to carry on one's shoulder；(fig.) to take on (a burden, duty etc)",
       "note": "多音字，可讀「kang/gang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "剌",
@@ -2048,7 +2454,9 @@
       "en": "perverse；unreasonable；absurd",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "忝",
@@ -2058,7 +2466,9 @@
       "en": "to shame",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "洞",
@@ -2068,7 +2478,9 @@
       "en": "cave；hole；zero (unambiguous spoken form when spelling out numbers)",
       "note": "多音字，可讀「dong/tong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瞞",
@@ -2078,7 +2490,9 @@
       "en": "to conceal from；to keep (sb) in the dark",
       "note": "多音字，可讀「man/men」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "爪",
@@ -2088,7 +2502,9 @@
       "en": "(coll.) foot of an animal or bird；(coll.) foot supporting a cooking pot etc",
       "note": "多音字，可讀「zhua/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "伯",
@@ -2098,7 +2514,9 @@
       "en": "father's elder brother；senior；paternal elder uncle",
       "note": "多音字，可讀「bo/bai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "度",
@@ -2108,7 +2526,9 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嫖",
@@ -2118,7 +2538,9 @@
       "en": "to visit a prostitute",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "筵",
@@ -2128,7 +2550,9 @@
       "en": "bamboo mat for sitting",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祭",
@@ -2138,7 +2562,9 @@
       "en": "to offer a sacrifice to (gods or ancestors)；(in classical novels) to recite an incantation to activate a magic weapon; to wield (sth magic)；(bound form) ceremony",
       "note": "多音字，可讀「ji/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "螳",
@@ -2148,7 +2574,9 @@
       "en": "praying mantis",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "螂",
@@ -2158,7 +2586,9 @@
       "en": "mantis, dung beetle",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臂",
@@ -2168,7 +2598,9 @@
       "en": "arm",
       "note": "多音字，可讀「bi/bei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "儕",
@@ -2178,7 +2610,9 @@
       "en": "a class；a company；companion",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "儇",
@@ -2188,7 +2622,9 @@
       "en": "(literary) ingenious；(literary) frivolous",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "豁",
@@ -2198,7 +2634,9 @@
       "en": "opening；stake all；sacrifice",
       "note": "多音字，可讀「huo/hua」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "夤",
@@ -2208,7 +2646,9 @@
       "en": "late at night",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "醮",
@@ -2218,7 +2658,9 @@
       "en": "to anoint, to perform a rite; Daoist or Buddhist ceremony",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "讖",
@@ -2228,7 +2670,9 @@
       "en": "(literary) prophecy; omen",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "般",
@@ -2238,7 +2682,9 @@
       "en": "sort；kind；class",
       "note": "多音字，可讀「ban/bo/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "育",
@@ -2248,7 +2694,9 @@
       "en": "to have children；to raise or bring up；to educate",
       "note": "多音字，可讀「yu/yo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "黯",
@@ -2258,7 +2706,9 @@
       "en": " black; dark; sullen, dreary",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繳",
@@ -2268,7 +2718,9 @@
       "en": "to hand in; to hand over; to pay；to capture (weapons); to seize",
       "note": "多音字，可讀「jiao/zhuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "藉",
@@ -2278,7 +2730,9 @@
       "en": "(literary) cushion; mat；(literary) to put some padding underneath",
       "note": "多音字，可讀「jie/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "衲",
@@ -2288,7 +2742,9 @@
       "en": "cassock；to line",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "梵",
@@ -2298,7 +2754,9 @@
       "en": "abbr. for 梵教[Fan4 jiao4] Brahmanism；abbr. for Sanskrit 梵語|梵语[Fan4 yu3] or 梵文[Fan4 wen2]；abbr. for 梵蒂岡|梵蒂冈[Fan4 di4 gang1], the Vatican",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "勒",
@@ -2308,7 +2766,9 @@
       "en": "(literary) bridle; halter; headstall；to rein in；to compel; to force",
       "note": "多音字，可讀「le/lei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "迦",
@@ -2318,7 +2778,9 @@
       "en": "used in transliterations",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "裳",
@@ -2328,7 +2790,9 @@
       "en": "lower garment；skirts；petticoats",
       "note": "多音字，可讀「shang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "玷",
@@ -2338,7 +2802,9 @@
       "en": "blemish；disgrace；flaw in jade",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "谿",
@@ -2348,7 +2814,9 @@
       "en": "valley, gorge; mountain stream",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "壑",
@@ -2358,7 +2826,9 @@
       "en": "gully；ravine；Taiwan pr. [huo4]",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閭",
@@ -2368,7 +2838,9 @@
       "en": "a village of twenty-five families",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "沒",
@@ -2378,7 +2850,9 @@
       "en": "(negative prefix for verbs) have not; not",
       "note": "多音字，可讀「mei/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "貲",
@@ -2388,7 +2862,9 @@
       "en": "to estimate；to fine (archaic)",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拂",
@@ -2398,7 +2874,9 @@
       "en": "to flick；to brush off；(of a breeze) to brush lightly over",
       "note": "多音字，可讀「fu/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "罔",
@@ -2408,7 +2886,9 @@
       "en": "to deceive；there is none",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "黜",
@@ -2418,7 +2898,9 @@
       "en": "to dismiss; to downgrade, to demote",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "率",
@@ -2428,7 +2910,9 @@
       "en": "(bound form) ratio; rate; proportion；to lead；to command",
       "note": "多音字，可讀「lü/shuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "悚",
@@ -2438,7 +2922,9 @@
       "en": "frightened",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "笞",
@@ -2448,7 +2934,9 @@
       "en": "to whip with bamboo strips",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "折",
@@ -2458,7 +2946,9 @@
       "en": "to turn sth over；to turn upside down；to tip sth out (of a container)",
       "note": "多音字，可讀「zhe/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "芻",
@@ -2468,7 +2958,9 @@
       "en": "to mow or cut grass；hay；straw",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "輒",
@@ -2478,7 +2970,9 @@
       "en": "often, readily; scattered; the weapon-rack of a chariot",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稔",
@@ -2488,7 +2982,9 @@
       "en": "(literary) ripe grain; ripe; harvest; year；(literary) very familiar with; well acquainted with",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "悛",
@@ -2498,7 +2994,9 @@
       "en": "to reform",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憚",
@@ -2508,7 +3006,9 @@
       "en": "dread；fear；dislike",
       "note": "多音字，可讀「dan/da」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洗",
@@ -2518,7 +3018,9 @@
       "en": "to wash; to bathe；to develop (photographs)；to shuffle (cards etc)",
       "note": "多音字，可讀「xi/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "擢",
@@ -2528,7 +3030,9 @@
       "en": "to pull out；to select；to promote",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愆",
@@ -2538,7 +3042,9 @@
       "en": "fault；transgression",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宥",
@@ -2548,7 +3054,9 @@
       "en": "to forgive；to help；profound",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "謫",
@@ -2558,7 +3066,9 @@
       "en": "to relegate a high official to a minor post in an outlying region (punishment in imperial China)；to banish or exile；(of immortals) to banish from Heaven",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蒞",
@@ -2568,7 +3078,9 @@
       "en": "to attend (an official function)；to be present；to administer",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瑕",
@@ -2578,7 +3090,9 @@
       "en": "blemish；flaw in jade",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "櫱",
@@ -2588,7 +3102,9 @@
       "en": "stump, sprout",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "紅",
@@ -2598,7 +3114,9 @@
       "en": "surname Hong；red；popular",
       "note": "多音字，可讀「hong/gong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邪",
@@ -2608,7 +3126,9 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "歙",
@@ -2618,7 +3138,9 @@
       "en": "to suck; the name of a district in Anhui",
       "note": "多音字，可讀「xi/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "妃",
@@ -2628,7 +3150,9 @@
       "en": "imperial concubine",
       "note": "多音字，可讀「fei/pei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "韁",
@@ -2638,7 +3162,9 @@
       "en": "bridle, reins",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嚇",
@@ -2648,7 +3174,9 @@
       "en": "to scare；to intimidate；to threaten",
       "note": "多音字，可讀「he/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "釵",
@@ -2658,7 +3186,9 @@
       "en": "ornamental hairpin",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "仔",
@@ -2668,7 +3198,9 @@
       "en": "(dialect) (bound form) young man",
       "note": "多音字，可讀「zai/zi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "丁",
@@ -2678,7 +3210,9 @@
       "en": "surname Ding；male adult；the 4th of the 10 Heavenly Stems 天干[tian1 gan1]",
       "note": "多音字，可讀「ding/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "搶",
@@ -2688,7 +3222,9 @@
       "en": "(literary) to knock against (esp. to knock one's head on the ground in grief or rage)；opposite in direction; contrary；to fight over",
       "note": "多音字，可讀「qiang/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瞰",
@@ -2698,7 +3234,9 @@
       "en": "to look down from a height；to spy on sth",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "簪",
@@ -2708,7 +3246,9 @@
       "en": "hairpin",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "沈",
@@ -2718,7 +3258,9 @@
       "en": "surname Shen；short name for 瀋陽|沈阳[Shen3 yang2]；(literary) juice",
       "note": "多音字，可讀「shen/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "婢",
@@ -2728,7 +3270,9 @@
       "en": "slave girl；maid servant",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愕",
@@ -2738,7 +3282,9 @@
       "en": "startled",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "查",
@@ -2748,7 +3294,9 @@
       "en": "to research；to check；to investigate",
       "note": "多音字，可讀「cha/zha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "擇",
@@ -2758,7 +3306,9 @@
       "en": "to select；to choose；to pick over",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "肋",
@@ -2768,7 +3318,9 @@
       "en": "(bound form) rib；Taiwan pr. [le4]",
       "note": "多音字，可讀「lei/le」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "坳",
@@ -2778,7 +3330,9 @@
       "en": "depression; cavity; hollow；Taiwan pr. [ao1]",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湯",
@@ -2788,7 +3342,9 @@
       "en": "surname Tang；soup；hot or boiling water",
       "note": "多音字，可讀「tang/shang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "俟",
@@ -2798,7 +3354,9 @@
       "en": "(literary) to wait for",
       "note": "多音字，可讀「si/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "揭",
@@ -2808,7 +3366,9 @@
       "en": "surname Jie；to take the lid off；to expose",
       "note": "多音字，可讀「jie/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "霆",
@@ -2818,7 +3378,9 @@
       "en": "a sudden peal of thunder",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冒",
@@ -2828,7 +3390,9 @@
       "en": "surname Mao；to emit; to give off; to send out (or up, forth)；to brave; to face",
       "note": "多音字，可讀「mao/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "調",
@@ -2838,7 +3402,9 @@
       "en": "to transfer；to move (troops or cadres)；to investigate",
       "note": "多音字，可讀「diao/tiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "踵",
@@ -2848,7 +3414,9 @@
       "en": "to arrive；to follow；heel",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "矜",
@@ -2858,7 +3426,9 @@
       "en": "to boast；to esteem；to sympathize",
       "note": "多音字，可讀「jin/guan/qin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "歟",
@@ -2868,7 +3438,9 @@
       "en": "(literary) (final particle similar to 嗎|吗[ma5], 呢[ne5] or 啊[a1])",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稽",
@@ -2878,7 +3450,9 @@
       "en": "surname Ji；(bound form) to examine; to check (against records)；(literary) to delay; to linger",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "省",
@@ -2888,7 +3462,9 @@
       "en": "to save; to economize; to be frugal；to omit; to delete; to leave out；province",
       "note": "多音字，可讀「sheng/xing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "魑",
@@ -2898,7 +3474,9 @@
       "en": "a mountain demon resembling a tiger",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "魅",
@@ -2908,7 +3486,9 @@
       "en": "magic, enchantment, charm; a forest demon",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "魎",
@@ -2918,7 +3498,9 @@
       "en": "a kind of monster",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "角",
@@ -2928,7 +3510,9 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "和",
@@ -2938,7 +3522,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "庵",
@@ -2948,7 +3534,9 @@
       "en": "hut；small temple；nunnery",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "姊",
@@ -2958,7 +3546,9 @@
       "en": "older sister；Taiwan pr. [jie3]",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "降",
@@ -2968,7 +3558,9 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "迨",
@@ -2978,7 +3570,9 @@
       "en": "while, until; to seize, to arrest",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "捻",
@@ -2988,7 +3582,9 @@
       "en": "to twirl (in the fingers)",
       "note": "多音字，可讀「nian/nie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "虔",
@@ -2998,7 +3594,9 @@
       "en": "to act with reverence；reverent",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "忒",
@@ -3008,7 +3606,9 @@
       "en": "to err；to change",
       "note": "多音字，可讀「te/tei/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "恁",
@@ -3018,7 +3618,9 @@
       "en": "to think；this；which?",
       "note": "多音字，可讀「nen/nin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "鮫",
@@ -3028,7 +3630,9 @@
       "en": "shark",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "綃",
@@ -3038,7 +3642,9 @@
       "en": "raw silk",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "笙",
@@ -3048,7 +3654,9 @@
       "en": "sheng, a free reed wind instrument with vertical bamboo pipes",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "禪",
@@ -3058,7 +3666,9 @@
       "en": "to abdicate",
       "note": "多音字，可讀「shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "濬",
@@ -3068,7 +3678,9 @@
       "en": null,
       "note": "多音字，可讀「jun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "巹",
@@ -3078,7 +3690,9 @@
       "en": "nuptial wine cup",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "趣",
@@ -3088,7 +3702,9 @@
       "en": "interesting；to interest",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "愜",
@@ -3098,7 +3714,9 @@
       "en": "(literary) satisfied; content",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嫦",
@@ -3108,7 +3726,9 @@
       "en": "a moon goddess, the lady in the moon",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "俏",
@@ -3118,7 +3738,9 @@
       "en": "good-looking；charming；(of goods) in great demand",
       "note": "多音字，可讀「qiao/xiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "陶",
@@ -3128,7 +3750,9 @@
       "en": "pottery, ceramics",
       "note": "多音字，可讀「tao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "噯",
@@ -3138,7 +3762,9 @@
       "en": "to belch；(interj. of disapproval)；(interj. of regret)",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "倘",
@@ -3148,7 +3774,9 @@
       "en": "if; supposing; in case",
       "note": "多音字，可讀「tang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鬲",
@@ -3158,7 +3786,9 @@
       "en": "earthen pot, iron cauldron",
       "note": "多音字，可讀「ge/li」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "菽",
@@ -3168,7 +3798,9 @@
       "en": "legumes (peas and beans)",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瞑",
@@ -3178,7 +3810,9 @@
       "en": "to close (the eyes)",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拶",
@@ -3188,7 +3822,9 @@
       "en": "(literary) to force; to coerce",
       "note": "多音字，可讀「za/zan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "徂",
@@ -3198,7 +3834,9 @@
       "en": "to go；to reach",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "覘",
@@ -3208,7 +3846,9 @@
       "en": "to observe；to spy on；Taiwan pr. [zhan1]",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "佃",
@@ -3218,7 +3858,9 @@
       "en": "to rent farmland from a landlord",
       "note": "多音字，可讀「dian/tian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鰥",
@@ -3228,7 +3870,9 @@
       "en": "huge fish; widower; bachelor",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "豚",
@@ -3238,7 +3882,9 @@
       "en": "suckling pig",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "芥",
@@ -3248,7 +3894,9 @@
       "en": "mustard",
       "note": "多音字，可讀「jie/gai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "梟",
@@ -3258,7 +3906,9 @@
       "en": "owl；valiant；trafficker",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諫",
@@ -3268,7 +3918,9 @@
       "en": "surname Jian；to remonstrate；to admonish",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稟",
@@ -3278,7 +3930,9 @@
       "en": "to make a report (to a superior)；to give；to endow",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "羊",
@@ -3288,7 +3942,9 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "砥",
@@ -3298,7 +3954,9 @@
       "en": "baffle (pier)；whetstone",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "礪",
@@ -3308,7 +3966,9 @@
       "en": "grind；sandstone",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "柏",
@@ -3318,7 +3978,9 @@
       "en": "surname Bai；Taiwan pr. [Bo2]；cedar",
       "note": "多音字，可讀「bai/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "緇",
@@ -3328,7 +3990,9 @@
       "en": "Buddhists；black silk；dark",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閫",
@@ -3338,7 +4002,9 @@
       "en": "threshold; women's quarters",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嫠",
@@ -3348,7 +4014,9 @@
       "en": "(bound form) widow",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹁",
@@ -3358,7 +4026,9 @@
       "en": "to limp",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "躚",
@@ -3368,7 +4038,9 @@
       "en": "to manner of dancing；to walk around",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "溺",
@@ -3378,7 +4050,9 @@
       "en": "to drown；to indulge；addicted to",
       "note": "多音字，可讀「ni/niao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "緝",
@@ -3388,7 +4062,9 @@
       "en": "to seize；to arrest；Taiwan pr. [qi4]",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "畿",
@@ -3398,7 +4074,9 @@
       "en": "territory around the capital",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "單",
@@ -3408,7 +4086,9 @@
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "旁",
@@ -3418,7 +4098,9 @@
       "en": "one side；other；different",
       "note": "多音字，可讀「pang/bang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祜",
@@ -3428,7 +4110,9 @@
       "en": "celestial blessing",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "挈",
@@ -3438,7 +4122,9 @@
       "en": "to raise；to lift；to take along (e.g. one's family)",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澄",
@@ -3448,7 +4134,9 @@
       "en": "surname Cheng；clear；limpid",
       "note": "多音字，可讀「cheng/deng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "俞",
@@ -3458,7 +4146,9 @@
       "en": "surname Yu；yes (used by Emperor or ruler)；OK",
       "note": "多音字，可讀「yu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "驛",
@@ -3468,7 +4158,9 @@
       "en": "relay station",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "休",
@@ -3478,7 +4170,9 @@
       "en": "surname Xiu；to rest；to stop doing sth for a period of time",
       "note": "多音字，可讀「xiu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "乘",
@@ -3488,7 +4182,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "滕",
@@ -3498,7 +4194,9 @@
       "en": "vassal state of Zhou in Shandong；surname Teng",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藪",
@@ -3508,7 +4206,9 @@
       "en": "marsh；gathering place",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "篋",
@@ -3518,7 +4218,9 @@
       "en": "chest；box；trunk",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "徼",
@@ -3528,7 +4230,9 @@
       "en": "by mere luck；boundary；to go around",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "檜",
@@ -3538,7 +4242,9 @@
       "en": "Chinese juniper (Juniperus chinensis)；(old) coffin lid decoration；Taiwan pr. [kuai4]",
       "note": "多音字，可讀「gui/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "弁",
@@ -3548,7 +4254,9 @@
       "en": "(old) cap (garment)；military officer of low rank (in former times)；preceding",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諢",
@@ -3558,7 +4266,9 @@
       "en": "jest；nickname",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "勁",
@@ -3568,7 +4278,9 @@
       "en": "strength；energy；enthusiasm",
       "note": "多音字，可讀「jin/jing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鳩",
@@ -3578,7 +4290,9 @@
       "en": "pigeon; to collect, to assemble",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剿",
@@ -3588,7 +4302,9 @@
       "en": "to destroy；to extirpate",
       "note": "多音字，可讀「jiao/chao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "畜",
@@ -3598,7 +4314,9 @@
       "en": "livestock；domesticated animal；domestic animal",
       "note": "多音字，可讀「chu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蓁",
@@ -3608,7 +4326,9 @@
       "en": "abundant, luxuriant vegetation",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齧",
@@ -3618,7 +4338,9 @@
       "en": "to bite, to gnaw; to erode, to wear down",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "仰",
@@ -3628,7 +4350,9 @@
       "en": "surname Yang；to face upward；to look up",
       "note": "多音字，可讀「yang/ang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諤",
@@ -3638,7 +4362,9 @@
       "en": "honest speech",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "抹",
@@ -3648,7 +4374,9 @@
       "en": "to smear；to wipe；to erase",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鍔",
@@ -3658,7 +4386,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殼",
@@ -3668,7 +4398,9 @@
       "en": "(coll.) shell (of an egg, nut, crab etc)；case; casing; housing (of a machine or device)",
       "note": "多音字，可讀「ke/qiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "捲",
@@ -3678,7 +4410,9 @@
       "en": "to roll up；to sweep up; to carry along；a roll",
       "note": "多音字，可讀「juan/quan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "帑",
@@ -3688,7 +4422,9 @@
       "en": "state treasury；public funds",
       "note": "多音字，可讀「tang/nu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "迫",
@@ -3698,7 +4434,9 @@
       "en": "to persecute；to oppress；embarrassed",
       "note": "多音字，可讀「po/pai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弭",
@@ -3708,7 +4446,9 @@
       "en": "to stop；repress",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瀕",
@@ -3718,7 +4458,9 @@
       "en": "to approach；to border on；near",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遐",
@@ -3728,7 +4470,9 @@
       "en": "distant, far; to abandon, to cast away",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "潢",
@@ -3738,7 +4482,9 @@
       "en": "dye paper；lake；pond",
       "note": "多音字，可讀「huang/guang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "俾",
@@ -3748,7 +4494,9 @@
       "en": "to cause；to enable；phonetic bi",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弩",
@@ -3758,7 +4506,9 @@
       "en": "crossbow",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "卒",
@@ -3768,7 +4518,9 @@
       "en": "soldier；servant；to finish",
       "note": "多音字，可讀「zu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "屯",
@@ -3778,7 +4530,9 @@
       "en": "to station (soldiers)；to store up；village",
       "note": "多音字，可讀「tun/zhun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "尾",
@@ -3788,7 +4542,9 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "匱",
@@ -3798,7 +4554,9 @@
       "en": "surname Kui；to lack；lacking",
       "note": "多音字，可讀「kui/gui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "髫",
@@ -3808,7 +4566,9 @@
       "en": "bangs, children's hairstyle; youngster",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齠",
@@ -3818,7 +4578,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諏",
@@ -3828,7 +4590,9 @@
       "en": "to choose；to consult",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蚋",
@@ -3838,7 +4602,9 @@
       "en": "(mosquito)；Simulia lugubris；blackfly",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "縉",
@@ -3848,7 +4614,9 @@
       "en": "red silk",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冑",
@@ -3858,7 +4626,9 @@
       "en": "helmet",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "媲",
@@ -3868,7 +4638,9 @@
       "en": "to match；to pair",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "帷",
@@ -3878,7 +4650,9 @@
       "en": "curtain；screen",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遑",
@@ -3888,7 +4662,9 @@
       "en": "leisurely; hurried, anxious",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "疋",
@@ -3898,7 +4674,9 @@
       "en": "classifier for cloth: bolt",
       "note": "多音字，可讀「pi/ya/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "娼",
@@ -3908,7 +4686,9 @@
       "en": "prostitute",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "紿",
@@ -3918,7 +4698,9 @@
       "en": "to cheat；to pretend；to deceive",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拆",
@@ -3928,7 +4710,9 @@
       "en": "to tear open；to tear down；to tear apart",
       "note": "多音字，可讀「chai/ca」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "癉",
@@ -3938,7 +4722,9 @@
       "en": "(disease)；to hate",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "屏",
@@ -3948,7 +4734,9 @@
       "en": "(standing) screen",
       "note": "多音字，可讀「ping/bing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "皓",
@@ -3958,7 +4746,9 @@
       "en": "(bound form) bright; luminous; white (esp. bright white teeth of youth or white hair of old age)；spotlessly white",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "區",
@@ -3968,7 +4758,9 @@
       "en": "area；region；district",
       "note": "多音字，可讀「qu/ou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "胤",
@@ -3978,7 +4770,9 @@
       "en": "descendant；heir；offspring",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "裘",
@@ -3988,7 +4782,9 @@
       "en": "surname Qiu；fur；fur coat",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衰",
@@ -3998,7 +4794,9 @@
       "en": "(bound form) to decay; to decline; to wane",
       "note": "多音字，可讀「shuai/cui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "攸",
@@ -4008,7 +4806,9 @@
       "en": "distant, far；adverbial prefix",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "賈",
@@ -4018,7 +4818,9 @@
       "en": "surname Jia",
       "note": "多音字，可讀「jia/gu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "麟",
@@ -4028,7 +4830,9 @@
       "en": "female unicorn",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "逭",
@@ -4038,7 +4842,9 @@
       "en": "to flee, to escape, to avoid",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "銓",
@@ -4048,7 +4854,9 @@
       "en": "to weigh, to measure; to select, to elect; to estimate",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "敕",
@@ -4058,7 +4866,9 @@
       "en": "imperial orders",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "忤",
@@ -4068,7 +4878,9 @@
       "en": "disobedient；unfilial",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "逡",
@@ -4078,7 +4890,9 @@
       "en": "to withdraw, to retreat, to fall back",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "雎",
@@ -4088,7 +4902,9 @@
       "en": "osprey, fish hawk; to hold back",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "覬",
@@ -4098,7 +4914,9 @@
       "en": "to covet；to long for",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鬻",
@@ -4108,7 +4926,9 @@
       "en": "to vend, sell",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冥",
@@ -4118,7 +4938,9 @@
       "en": "dark；deep；stupid",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瑜",
@@ -4128,7 +4950,9 @@
       "en": "excellence；luster of gems",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鄞",
@@ -4138,7 +4962,9 @@
       "en": "a county in Zhejiang province",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諛",
@@ -4148,7 +4974,9 @@
       "en": "to flatter",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愉",
@@ -4158,7 +4986,9 @@
       "en": "pleased",
       "note": "多音字，可讀「yu/tou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鶯",
@@ -4168,7 +4998,9 @@
       "en": "oriole, green finch; Sylvia species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "恂",
@@ -4178,7 +5010,9 @@
       "en": "sincere",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "句",
@@ -4188,7 +5022,9 @@
       "en": "sentence；clause；phrase",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嘹",
@@ -4198,7 +5034,9 @@
       "en": "a clear sound, such as a bell or a soprano; resonant",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "匙",
@@ -4208,7 +5046,9 @@
       "en": "spoon",
       "note": "多音字，可讀「chi/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "妍",
@@ -4218,7 +5058,9 @@
       "en": "beautiful",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憩",
@@ -4228,7 +5070,9 @@
       "en": "to rest",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "枝",
@@ -4238,7 +5082,9 @@
       "en": "branch；classifier for sticks, rods, pencils etc",
       "note": "多音字，可讀「zhi/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "輅",
@@ -4248,7 +5094,9 @@
       "en": "chariot, carriage",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "襦",
@@ -4258,7 +5106,9 @@
       "en": "jacket；short coat",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "幃",
@@ -4268,7 +5118,9 @@
       "en": "curtain；women's apartment；tent",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衾",
@@ -4278,7 +5130,9 @@
       "en": "coverlet；quilt",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鸞",
@@ -4288,7 +5142,9 @@
       "en": "fabulous bird",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "姪",
@@ -4298,7 +5154,9 @@
       "en": "brother's son; nephew",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "媾",
@@ -4308,7 +5166,9 @@
       "en": "to marry；to copulate",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "霎",
@@ -4318,7 +5178,9 @@
       "en": "drizzle, light rain; fleeting, passing",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "謔",
@@ -4328,7 +5190,9 @@
       "en": "joy；to joke；to banter",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "仞",
@@ -4338,7 +5202,9 @@
       "en": "unit of length used in ancient times, equal to 7 or 8 Chinese feet 尺[chi3]",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澤",
@@ -4348,7 +5214,9 @@
       "en": "pool；pond；(of metals etc) luster",
       "note": "多音字，可讀「ze/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "簷",
@@ -4358,7 +5226,9 @@
       "en": "edge, brim; the eaves of a house",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "筠",
@@ -4368,7 +5238,9 @@
       "en": "skin of bamboo",
       "note": "多音字，可讀「yun/jun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "軾",
@@ -4378,7 +5250,9 @@
       "en": "carriage crossbar",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "笄",
@@ -4388,7 +5262,9 @@
       "en": "15 years old；hairpin for bun",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "琩",
@@ -4398,7 +5274,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殷",
@@ -4408,7 +5286,9 @@
       "en": "surname Yin；dynasty name at the end the Shang dynasty, after its move to Yinxu 殷墟[Yin1 xu1] in present-day Henan；flourishing",
       "note": "多音字，可讀「yin/yan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祧",
@@ -4418,7 +5298,9 @@
       "en": "ancestral hall",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "揆",
@@ -4428,7 +5310,9 @@
       "en": "consider；estimate",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嘵",
@@ -4438,7 +5322,9 @@
       "en": "a cry of alarm；querulous",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "墀",
@@ -4448,7 +5334,9 @@
       "en": "courtyard",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "底",
@@ -4458,7 +5346,9 @@
       "en": "bottom; base；background; foundation；copy (of a manuscript or receipt etc) kept as a record",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "趨",
@@ -4468,7 +5358,9 @@
       "en": "to hasten；to hurry；to walk fast",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "夭",
@@ -4478,7 +5370,9 @@
       "en": "(bound form) to die prematurely (also pr. [yao3])；(literary) (of vegetation) luxuriant；(bound form) to die prematurely (also pr. [yao3]) (variant of 夭[yao1])",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "仵",
@@ -4488,7 +5382,9 @@
       "en": "surname Wu；equal；well-matched",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "摩",
@@ -4498,7 +5394,9 @@
       "en": "to rub",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "黛",
@@ -4508,7 +5406,9 @@
       "en": "to blacken one's eyebrows; black",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "槁",
@@ -4518,7 +5418,9 @@
       "en": "dried up；dried up (wood)；dead tree",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "勃",
@@ -4528,7 +5430,9 @@
       "en": "flourishing；prosperous；suddenly",
       "note": "多音字，可讀「bo/bei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "孚",
@@ -4538,7 +5442,9 @@
       "en": "to trust；to believe in",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "惚",
@@ -4548,7 +5454,9 @@
       "en": "confused, absent-minded",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "射",
@@ -4558,7 +5466,9 @@
       "en": "to shoot；to launch；to allude to",
       "note": "多音字，可讀「she/ye/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "萋",
@@ -4568,7 +5478,9 @@
       "en": "Celosia argentea；luxuriant",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "顓",
@@ -4578,7 +5490,9 @@
       "en": "good, honest, simple; respectful",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "頊",
@@ -4588,7 +5502,9 @@
       "en": "anxious, grieving",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "虹",
@@ -4598,7 +5514,9 @@
       "en": "rainbow",
       "note": "多音字，可讀「hong/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "羲",
@@ -4608,7 +5526,9 @@
       "en": "same as Fuxi 伏羲[Fu2 xi1], a mythical emperor；surname Xi",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "眇",
@@ -4618,7 +5538,9 @@
       "en": "blind in one eye；blind；tiny",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "跬",
@@ -4628,7 +5550,9 @@
       "en": "brief；short step",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璧",
@@ -4638,7 +5562,9 @@
       "en": "jade annulus",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "妗",
@@ -4648,7 +5574,9 @@
       "en": "wife of mother's brother",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "悖",
@@ -4658,7 +5586,9 @@
       "en": "to go against；to be contrary to；perverse",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "渚",
@@ -4668,7 +5598,9 @@
       "en": "islet；bank",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嫘",
@@ -4678,7 +5610,9 @@
       "en": "surname Lei",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "昊",
@@ -4688,7 +5622,9 @@
       "en": "surname Hao；vast and limitless；the vast sky",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稷",
@@ -4698,7 +5634,9 @@
       "en": "millet；God of cereals worshiped by ancient rulers；minister of agriculture",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璞",
@@ -4708,7 +5646,9 @@
       "en": "unpolished gem",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "睢",
@@ -4718,7 +5658,9 @@
       "en": "surname Sui；to stare",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "逑",
@@ -4728,7 +5670,9 @@
       "en": "to unite, to collect; pair, match",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "螽",
@@ -4738,7 +5682,9 @@
       "en": "(grasshopper)；Gompsocleis mikado",
       "note": null,
       "is_difficult": true,
-      "src": "明鏡公案"
+      "src": "明鏡公案",
+      "multi": false,
+      "rare": true
     }
   ]
 }

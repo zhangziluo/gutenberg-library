@@ -1,7 +1,7 @@
 {
   "title": "一堆古书 · 数据书目索引",
-  "description": "data/books/ 目录下的结构化书目（category: 經部/史部/子部/集部/近現代文學）",
-  "generated": "2026-09-09",
+  "description": "data/books/ 目录下的结构化书目（category: 經部/史部/子部/集部/近現代文學/叢部）",
+  "generated": "2026-09-17",
   "categories": [
     {
       "name": "經部",
@@ -726,6 +726,114 @@
           "chapters": 20,
           "source": "Project Gutenberg #25362",
           "path": "data/books/pg25362.json"
+        },
+        {
+          "key": "pg84",
+          "book": "Frankenstein",
+          "author": "Mary Wollstonecraft (Godwin) Shelley",
+          "subcategory": "小說家（西洋）",
+          "chapters": 24,
+          "source": "Project Gutenberg #84",
+          "path": "data/books/pg84.json"
+        },
+        {
+          "key": "pg345",
+          "book": "Dracula",
+          "author": "Unknown",
+          "subcategory": "小說家（西洋）",
+          "chapters": 27,
+          "source": "Project Gutenberg #345",
+          "path": "data/books/pg345.json"
+        },
+        {
+          "key": "pg2852",
+          "book": "The Hound of the Baskervilles",
+          "author": "A. Conan Doyle",
+          "subcategory": "小說家（西洋）",
+          "chapters": 15,
+          "source": "Project Gutenberg #2852",
+          "path": "data/books/pg2852.json"
+        },
+        {
+          "key": "pg205",
+          "book": "Walden",
+          "author": "Henry David Thoreau",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #205",
+          "path": "data/books/pg205.json"
+        },
+        {
+          "key": "pg16",
+          "book": "Peter Pan : [Peter and Wendy]",
+          "author": "J. M. Barrie [James Matthew Barrie]",
+          "subcategory": "小說家（西洋）",
+          "chapters": 17,
+          "source": "Project Gutenberg #16",
+          "path": "data/books/pg16.json"
+        },
+        {
+          "key": "pg236",
+          "book": "The Jungle Book",
+          "author": "Rudyard Kipling",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #236",
+          "path": "data/books/pg236.json"
+        },
+        {
+          "key": "pg45",
+          "book": "Anne of Green Gables",
+          "author": "Lucy Maud Montgomery",
+          "subcategory": "小說家（西洋）",
+          "chapters": 38,
+          "source": "Project Gutenberg #45",
+          "path": "data/books/pg45.json"
+        },
+        {
+          "key": "pg289",
+          "book": "The Wind in the Willows",
+          "author": "Kenneth Grahame",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #289",
+          "path": "data/books/pg289.json"
+        },
+        {
+          "key": "pg146",
+          "book": "A Little Prince",
+          "author": "Unknown",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #146",
+          "path": "data/books/pg146.json"
+        },
+        {
+          "key": "pg2591",
+          "book": "Grimms' Fairy Tales",
+          "author": "Jacob Grimm and Wilhelm Grimm",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #2591",
+          "path": "data/books/pg2591.json"
+        },
+        {
+          "key": "pg128",
+          "book": "The Arabian Nights Entertainments",
+          "author": "Unknown",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #128",
+          "path": "data/books/pg128.json"
+        },
+        {
+          "key": "pg479",
+          "book": "Little Lord Fauntleroy",
+          "author": "Frances Hodgson Burnett",
+          "subcategory": "小說家（西洋）",
+          "chapters": 15,
+          "source": "Project Gutenberg #479",
+          "path": "data/books/pg479.json"
         }
       ]
     },

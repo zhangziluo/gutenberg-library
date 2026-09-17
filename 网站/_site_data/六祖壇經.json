@@ -592,7 +592,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "大",
@@ -602,7 +604,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "校",
@@ -612,7 +616,9 @@
       "en": "(bound form) school; college；(bound form) (military) field officer",
       "note": "多音字，可讀「xiao/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -622,7 +628,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "梵",
@@ -632,7 +640,9 @@
       "en": "abbr. for 梵教[Fan4 jiao4] Brahmanism；abbr. for Sanskrit 梵語|梵语[Fan4 yu3] or 梵文[Fan4 wen2]；abbr. for 梵蒂岡|梵蒂冈[Fan4 di4 gang1], the Vatican",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "說",
@@ -642,7 +652,9 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "識",
@@ -652,7 +664,9 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "提",
@@ -662,7 +676,9 @@
       "en": "to carry (hanging down from the hand)；to lift；to put forward",
       "note": "多音字，可讀「ti/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "淨",
@@ -672,7 +688,9 @@
       "en": "clean；completely；only",
       "note": "多音字，可讀「jing/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "了",
@@ -682,7 +700,9 @@
       "en": "to finish；(used with 得[de2] or 不[bu4] after a verb to express (im)possibility, as in 忘不了[wang4 bu5 liao3] \"cannot forget\")；(literary) (usually followed by a negative such as 無|无[wu2] or 不[bu4]) completely (not); entirely (not); (not) in the least",
       "note": "多音字，可讀「le/liao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "佛",
@@ -692,7 +712,9 @@
       "en": "Buddha; Buddhism (abbr. for 佛陀[Fo2 tuo2])",
       "note": "多音字，可讀「fo/fu/bi/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "且",
@@ -702,7 +724,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "能",
@@ -712,7 +736,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -722,7 +748,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "得",
@@ -732,7 +760,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "降",
@@ -742,7 +772,9 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "南",
@@ -752,7 +784,9 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "不",
@@ -762,7 +796,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "亡",
@@ -772,7 +808,9 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "見",
@@ -782,7 +820,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -792,7 +832,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嶄",
@@ -802,7 +844,9 @@
       "en": "towering；prominent；very",
       "note": "多音字，可讀「zhan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "縣",
@@ -812,7 +856,9 @@
       "en": "county；(Japan) prefecture",
       "note": "多音字，可讀「xian/xuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "禪",
@@ -822,7 +868,9 @@
       "en": "to abdicate",
       "note": "多音字，可讀「shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "其",
@@ -832,7 +880,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宿",
@@ -842,7 +892,9 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "便",
@@ -852,7 +904,9 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "參",
@@ -862,7 +916,9 @@
       "en": "to take part in；to participate；to join",
       "note": "多音字，可讀「can/shen/cen/san」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弟",
@@ -872,7 +928,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "獦",
@@ -882,7 +940,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "獠",
@@ -892,7 +952,9 @@
       "en": "fierce；hunt；name of a tribe",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "若",
@@ -902,7 +964,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "和",
@@ -912,7 +976,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "差",
@@ -922,7 +988,9 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "碓",
@@ -932,7 +1000,9 @@
       "en": "pestle；pound with a pestle",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "吾",
@@ -942,7 +1012,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "思",
@@ -952,7 +1024,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惡",
@@ -962,7 +1036,9 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "否",
@@ -972,7 +1048,9 @@
       "en": "to negate；to deny；not",
       "note": "多音字，可讀「fou/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "覺",
@@ -982,7 +1060,9 @@
       "en": "to feel；to find that；thinking",
       "note": "多音字，可讀「jue/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "般",
@@ -992,7 +1072,9 @@
       "en": "sort；kind；class",
       "note": "多音字，可讀「ban/bo/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "偈",
@@ -1002,7 +1084,9 @@
       "en": "Buddhist hymn；gatha；Buddhist verse",
       "note": "多音字，可讀「ji/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "澄",
@@ -1012,7 +1096,9 @@
       "en": "surname Cheng；clear；limpid",
       "note": "多音字，可讀「cheng/deng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "解",
@@ -1022,7 +1108,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奚",
@@ -1032,7 +1120,9 @@
       "en": "surname Xi；(literary) what?；where?",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "伽",
@@ -1042,7 +1132,9 @@
       "en": "traditionally used as phonetic for \"ga\"",
       "note": "多音字，可讀「jia/qie/ga」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "血",
@@ -1052,7 +1144,9 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "傳",
@@ -1062,7 +1156,9 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "數",
@@ -1072,7 +1168,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "度",
@@ -1082,7 +1180,9 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惚",
@@ -1092,7 +1192,9 @@
       "en": "confused, absent-minded",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "著",
@@ -1102,7 +1204,9 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拂",
@@ -1112,7 +1216,9 @@
       "en": "to flick；to brush off；(of a breeze) to brush lightly over",
       "note": "多音字，可讀「fu/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "重",
@@ -1122,7 +1228,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "合",
@@ -1132,7 +1240,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "墮",
@@ -1142,7 +1252,9 @@
       "en": "to fall; to sink；(fig.) to degenerate",
       "note": "多音字，可讀「duo/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "炷",
@@ -1152,7 +1264,9 @@
       "en": "wick of an oil lamp；to burn (incense etc)；classifier for lit incense sticks",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "會",
@@ -1162,7 +1276,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "樂",
@@ -1172,7 +1288,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "箇",
@@ -1182,7 +1300,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曾",
@@ -1192,7 +1312,9 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沒",
@@ -1202,7 +1324,9 @@
       "en": "(negative prefix for verbs) have not; not",
       "note": "多音字，可讀「mei/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嗟",
@@ -1212,7 +1336,9 @@
       "en": "sigh；also pr. [jue1]",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "奇",
@@ -1222,7 +1348,9 @@
       "en": "strange；odd；weird",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "石",
@@ -1232,7 +1360,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "舂",
@@ -1242,7 +1372,9 @@
       "en": "to pound (grain etc) with a mortar and pestle",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "熟",
@@ -1252,7 +1384,9 @@
       "en": "ripe; mature；thoroughly cooked; done；familiar; acquainted",
       "note": "多音字，可讀「shu/shou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "袈",
@@ -1262,7 +1396,9 @@
       "en": "Buddhist cassock",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "裟",
@@ -1272,7 +1408,9 @@
       "en": "cassock; monk's robe",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "期",
@@ -1282,7 +1420,9 @@
       "en": "period；cycle；a period of time",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "頓",
@@ -1292,7 +1432,9 @@
       "en": "to pause; to bow; to arrange",
       "note": "多音字，可讀「dun/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "地",
@@ -1302,7 +1444,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "還",
@@ -1312,7 +1456,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "信",
@@ -1322,7 +1468,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "藏",
@@ -1332,7 +1480,9 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "驛",
@@ -1342,7 +1492,9 @@
       "en": "relay station",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "艣",
@@ -1352,7 +1504,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "庾",
@@ -1362,7 +1516,9 @@
       "en": "surname Yu；name of a mountain",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "麤",
@@ -1372,7 +1528,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "趨",
@@ -1382,7 +1540,9 @@
       "en": "to hasten；to hurry；to walk fast",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "屏",
@@ -1392,7 +1552,9 @@
       "en": "(standing) screen",
       "note": "多音字，可讀「ping/bing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "麼",
@@ -1402,7 +1564,9 @@
       "en": "interrogative particle",
       "note": "多音字，可讀「mo/me」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "那",
@@ -1412,7 +1576,9 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "省",
@@ -1422,7 +1588,9 @@
       "en": "to save; to economize; to be frugal；to omit; to delete; to leave out；province",
       "note": "多音字，可讀「sheng/xing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "被",
@@ -1432,7 +1600,9 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隊",
@@ -1442,7 +1612,9 @@
       "en": "team, group, band, army unit; measure word for groups of people",
       "note": "多音字，可讀「dui/zhui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "槃",
@@ -1452,7 +1624,9 @@
       "en": "wooden tray",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "幡",
@@ -1462,7 +1636,9 @@
       "en": "banner",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "徵",
@@ -1472,7 +1648,9 @@
       "en": "4th note in the ancient Chinese pentatonic scale 五音[wu3 yin1], corresponding to sol",
       "note": "多音字，可讀「zhi/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "詰",
@@ -1482,7 +1660,9 @@
       "en": "(bound form) to question closely; to interrogate",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "奧",
@@ -1492,7 +1672,9 @@
       "en": "(bound form) Austria (abbr. for 奧地利|奥地利[Ao4 di4 li4])；(bound form) Olympics (abbr. for 奧林匹克|奥林匹克[Ao4 lin2 pi3 ke4])；obscure",
       "note": "多音字，可讀「ao/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "莫",
@@ -1502,7 +1684,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "似",
@@ -1512,7 +1696,9 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "疑",
@@ -1522,7 +1708,9 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "摩",
@@ -1532,7 +1720,9 @@
       "en": "to rub",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "訶",
@@ -1542,7 +1732,9 @@
       "en": "to scold",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諦",
@@ -1552,7 +1744,9 @@
       "en": "to examine；truth (Buddhism)",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "食",
@@ -1562,7 +1756,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "露",
@@ -1572,7 +1768,9 @@
       "en": "dew; leak; bare, exposed; to reveal, to show",
       "note": "多音字，可讀「lu/lou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "長",
@@ -1582,7 +1780,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瞋",
@@ -1592,7 +1792,9 @@
       "en": "(literary) to stare angrily; to glare",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "尾",
@@ -1602,7 +1804,9 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "剎",
@@ -1612,7 +1816,9 @@
       "en": "Buddhist monastery, temple or shrine (abbr. for 剎多羅|刹多罗[cha4 duo1 luo2], Sanskrit \"ksetra\")",
       "note": "多音字，可讀「cha/sha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "色",
@@ -1622,7 +1828,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "約",
@@ -1632,7 +1840,9 @@
       "en": "to make an appointment；to invite；approximately",
       "note": "多音字，可讀「yue/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稱",
@@ -1642,7 +1852,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邪",
@@ -1652,7 +1864,9 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "毒",
@@ -1662,7 +1876,9 @@
       "en": "poison；to poison；poisonous",
       "note": "多音字，可讀「du/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "誑",
@@ -1672,7 +1888,9 @@
       "en": "to deceive; to dupe；falsehood; lie；(dialect) to amuse",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乘",
@@ -1682,7 +1900,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "落",
@@ -1692,7 +1912,9 @@
       "en": "to fall or drop；(of the sun) to set；(of a tide) to go out",
       "note": "多音字，可讀「luo/la/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蓋",
@@ -1702,7 +1924,9 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "豁",
@@ -1712,7 +1936,9 @@
       "en": "opening；stake all；sacrifice",
       "note": "多音字，可讀「huo/hua」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "家",
@@ -1722,7 +1948,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "角",
@@ -1732,7 +1960,9 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宛",
@@ -1742,7 +1972,9 @@
       "en": "surname Wan；winding；as if",
       "note": "多音字，可讀「wan/yuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "系",
@@ -1752,7 +1984,9 @@
       "en": "to connect；to relate to；to tie up",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "彳",
@@ -1762,7 +1996,9 @@
       "en": "step with the left foot (Kangxi radical 60)；see also 彳亍[chi4 chu4]",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扁",
@@ -1772,7 +2008,9 @@
       "en": "flat；(coll.) to beat (sb) up",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "剌",
@@ -1782,7 +2020,9 @@
       "en": "perverse；unreasonable；absurd",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朕",
@@ -1792,7 +2032,9 @@
       "en": "(used by an emperor or king) I; me; we (royal \"we\")；(literary) omen",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "阿",
@@ -1802,7 +2044,9 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "愆",
@@ -1812,7 +2056,9 @@
       "en": "fault；transgression",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "彈",
@@ -1822,7 +2068,9 @@
       "en": "crossball；bullet；shot",
       "note": "多音字，可讀「dan/tan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "親",
@@ -1832,7 +2080,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仃",
@@ -1842,7 +2092,9 @@
       "en": "lonely, solitary",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "迦",
@@ -1852,7 +2104,9 @@
       "en": "used in transliterations",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鼇",
@@ -1862,7 +2116,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "畜",
@@ -1872,7 +2128,9 @@
       "en": "livestock；domesticated animal；domestic animal",
       "note": "多音字，可讀「chu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "紅",
@@ -1882,7 +2140,9 @@
       "en": "surname Hong；red；popular",
       "note": "多音字，可讀「hong/gong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "的",
@@ -1892,7 +2152,9 @@
       "en": "of; ~'s (possessive particle)；(used after an attribute when it modifies a noun)；(used at the end of a declarative sentence for emphasis)",
       "note": "多音字，可讀「de/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "什",
@@ -1902,7 +2164,9 @@
       "en": "what",
       "note": "多音字，可讀「shen/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "女",
@@ -1912,7 +2176,9 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諍",
@@ -1922,7 +2188,9 @@
       "en": "to admonish；to warn sb of their errors；to criticize frankly",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諂",
@@ -1932,7 +2200,9 @@
       "en": "to flatter；to cajole",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "誥",
@@ -1942,7 +2212,9 @@
       "en": "to enjoin；to grant (a title)",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "契",
@@ -1952,7 +2224,9 @@
       "en": "to carve；carved words；to agree",
       "note": "多音字，可讀「qi/qie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繫",
@@ -1962,7 +2236,9 @@
       "en": "to connect；to arrest；to worry",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "懺",
@@ -1972,7 +2248,9 @@
       "en": "(bound form) to feel remorse；(bound form) scripture read to atone for sb's sins (from Sanskrit \"ksama\")",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "洎",
@@ -1982,7 +2260,9 @@
       "en": "to reach；when",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "駢",
@@ -1992,7 +2272,9 @@
       "en": "a team of horses; to associate; to join",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "矜",
@@ -2002,7 +2284,9 @@
       "en": "to boast；to esteem；to sympathize",
       "note": "多音字，可讀「jin/guan/qin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "薰",
@@ -2012,7 +2296,9 @@
       "en": "fragrance；warm；to educate",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "憍",
@@ -2022,7 +2308,9 @@
       "en": "arrogant",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "豈",
@@ -2032,7 +2320,9 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "調",
@@ -2042,7 +2332,9 @@
       "en": "to transfer；to move (troops or cadres)；to investigate",
       "note": "多音字，可讀「diao/tiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "皈",
@@ -2052,7 +2344,9 @@
       "en": "to comply with；to follow",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蛇",
@@ -2062,7 +2356,9 @@
       "en": "snake；serpent；CL:條|条[tiao2]",
       "note": "多音字，可讀「she/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洗",
@@ -2072,7 +2368,9 @@
       "en": "to wash; to bathe；to develop (photographs)；to shuffle (cards etc)",
       "note": "多音字，可讀「xi/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "休",
@@ -2082,7 +2380,9 @@
       "en": "surname Xiu；to rest；to stop doing sth for a period of time",
       "note": "多音字，可讀「xiu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "虔",
@@ -2092,7 +2392,9 @@
       "en": "to act with reverence；reverent",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曷",
@@ -2102,7 +2404,9 @@
       "en": "why；how；when",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "耆",
@@ -2112,7 +2416,9 @@
       "en": "man of sixty or seventy",
       "note": "多音字，可讀「qi/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "孫",
@@ -2122,7 +2428,9 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隋",
@@ -2132,7 +2440,9 @@
       "en": "the Sui dynasty; surname",
       "note": "多音字，可讀「sui/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "趺",
@@ -2142,7 +2452,9 @@
       "en": "instep; tarsus",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諭",
@@ -2152,7 +2464,9 @@
       "en": "order (from above)",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "偕",
@@ -2162,7 +2476,9 @@
       "en": "in company with",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "都",
@@ -2172,7 +2488,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "折",
@@ -2182,7 +2500,9 @@
       "en": "to turn sth over；to turn upside down；to tip sth out (of a container)",
       "note": "多音字，可讀「zhe/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "幢",
@@ -2192,7 +2512,9 @@
       "en": "classifier for buildings (Taiwan pr. [chuang2])；(archaic) curtain hung over boat or carriage windows",
       "note": "多音字，可讀「zhuang/chuang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "趣",
@@ -2202,7 +2524,9 @@
       "en": "interesting；to interest",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "佞",
@@ -2212,7 +2536,9 @@
       "en": "to flatter；flattery",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "犛",
@@ -2222,7 +2548,9 @@
       "en": "black ox；yak",
       "note": "多音字，可讀「mao/li」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "讎",
@@ -2232,7 +2560,9 @@
       "en": "to collate；to proofread",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "車",
@@ -2242,7 +2572,9 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "羊",
@@ -2252,7 +2584,9 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "區",
@@ -2262,7 +2596,9 @@
       "en": "area；region；district",
       "note": "多音字，可讀「qu/ou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鐃",
@@ -2272,7 +2608,9 @@
       "en": "cymbals, hand-bell; to disturb",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "屬",
@@ -2282,7 +2620,9 @@
       "en": "category；genus (taxonomy)；family members",
       "note": "多音字，可讀「shu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "句",
@@ -2292,7 +2632,9 @@
       "en": "sentence；clause；phrase",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "誰",
@@ -2302,7 +2644,9 @@
       "en": "who；also pr. [shui2]",
       "note": "多音字，可讀「shui/shei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "輟",
@@ -2312,7 +2656,9 @@
       "en": "to suspend, to stop, to halt",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繁",
@@ -2322,7 +2668,9 @@
       "en": "complicated；many；in great numbers",
       "note": "多音字，可讀「fan/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "谿",
@@ -2332,7 +2680,9 @@
       "en": "valley, gorge; mountain stream",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "髫",
@@ -2342,7 +2692,9 @@
       "en": "bangs, children's hairstyle; youngster",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "攝",
@@ -2352,7 +2704,9 @@
       "en": "(bound form) to take in; to absorb; to assimilate；to capture (video or still images)；(literary) to conserve (one's health)",
       "note": "多音字，可讀「she/nie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "據",
@@ -2362,7 +2716,9 @@
       "en": "according to；to act in accordance with；to depend on",
       "note": "多音字，可讀「ju/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "愍",
@@ -2372,7 +2728,9 @@
       "en": "to pity, to sympathize with",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "底",
@@ -2382,7 +2740,9 @@
       "en": "bottom; base；background; foundation；copy (of a manuscript or receipt etc) kept as a record",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "強",
@@ -2392,7 +2752,9 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "氏",
@@ -2402,7 +2764,9 @@
       "en": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")；(bound form) maiden name; née (as in 李王氏[Li3 Wang2 shi4] \"Mrs. Li, née Wang\")；(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "盛",
@@ -2412,7 +2776,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諡",
@@ -2422,7 +2788,9 @@
       "en": "(bound form) posthumous name or title；(literary) to confer a posthumous name or title",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "謁",
@@ -2432,7 +2800,9 @@
       "en": "to visit (a superior)",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嵩",
@@ -2442,7 +2812,9 @@
       "en": "Mt Song in Henan；(literary) (of mountains) lofty",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "敕",
@@ -2452,7 +2824,9 @@
       "en": "imperial orders",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遶",
@@ -2462,7 +2836,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鍚",
@@ -2472,7 +2848,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臾",
@@ -2482,7 +2860,9 @@
       "en": "surname Yu；a moment；little while",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "謚",
@@ -2492,7 +2872,9 @@
       "en": "posthumous name or title",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "隍",
@@ -2502,7 +2884,9 @@
       "en": "dry ditch, dry moat",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "庵",
@@ -2512,7 +2896,9 @@
       "en": "hut；small temple；nunnery",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "恚",
@@ -2522,7 +2908,9 @@
       "en": "rage",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "弄",
@@ -2532,7 +2920,9 @@
       "en": "to do；to manage；to handle",
       "note": "多音字，可讀「nong/long」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "給",
@@ -2542,7 +2932,9 @@
       "en": "to；for；for the benefit of",
       "note": "多音字，可讀「gei/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "茆",
@@ -2552,7 +2944,9 @@
       "en": "thatch；type of water plant；(dialect) loess hills",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澤",
@@ -2562,7 +2956,9 @@
       "en": "pool；pond；(of metals etc) luster",
       "note": "多音字，可讀「ze/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "濯",
@@ -2572,7 +2968,9 @@
       "en": "to wash；to cleanse of evil",
       "note": "多音字，可讀「zhuo/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "浣",
@@ -2582,7 +2980,9 @@
       "en": "to wash；to rinse；any of three 10-day division of the month (during Tang dynasty)",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "罔",
@@ -2592,7 +2992,9 @@
       "en": "to deceive；there is none",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繌",
@@ -2602,7 +3004,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祐",
@@ -2612,7 +3016,9 @@
       "en": "(of divinity) to bless；to protect",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "輒",
@@ -2622,7 +3028,9 @@
       "en": "often, readily; scattered; the weapon-rack of a chariot",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "伎",
@@ -2632,7 +3040,9 @@
       "en": "artistry；talent；skill",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "倆",
@@ -2642,7 +3052,9 @@
       "en": "two (colloquial equivalent of 兩個|两个)；both；some",
       "note": "多音字，可讀「liang/lia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稟",
@@ -2652,7 +3064,9 @@
       "en": "to make a report (to a superior)；to give；to endow",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拘",
@@ -2662,7 +3076,9 @@
       "en": "to capture；to restrain；to constrain",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "臭",
@@ -2672,7 +3088,9 @@
       "en": "stench；smelly；to smell (bad)",
       "note": "多音字，可讀「chou/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "戲",
@@ -2682,7 +3100,9 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "朝",
@@ -2692,7 +3112,9 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "覲",
@@ -2702,7 +3124,9 @@
       "en": "(history) to have an audience with the Emperor",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拾",
@@ -2712,7 +3136,9 @@
       "en": "to pick up；to collate or arrange；ten (banker's anti-fraud numeral)",
       "note": "多音字，可讀「shi/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "詔",
@@ -2722,7 +3148,9 @@
       "en": "(literary) to admonish；(bound form) imperial edict",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "冥",
@@ -2732,7 +3160,9 @@
       "en": "dark；deep；stupid",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "倘",
@@ -2742,7 +3172,9 @@
       "en": "if; supposing; in case",
       "note": "多音字，可讀「tang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "闕",
@@ -2752,7 +3184,9 @@
       "en": "palace; watchtower",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嗔",
@@ -2762,7 +3196,9 @@
       "en": "to be angry at；to be displeased and annoyed",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "慳",
@@ -2772,7 +3208,9 @@
       "en": "stingy",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淳",
@@ -2782,7 +3220,9 @@
       "en": "genuine；pure；honest",
       "note": "多音字，可讀「chun/zhun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "澹",
@@ -2792,7 +3232,9 @@
       "en": "tranquil；placid；quiet",
       "note": "多音字，可讀「dan/tan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "泊",
@@ -2802,7 +3244,9 @@
       "en": "to moor (a boat)；to park (a vehicle)；(literary) calm; quiet; peaceful",
       "note": "多音字，可讀「bo/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "楫",
@@ -2812,7 +3256,9 @@
       "en": "oar (archaic)",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "毘",
@@ -2822,7 +3268,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "牟",
@@ -2832,7 +3280,9 @@
       "en": "surname Mou；barley；to moo",
       "note": "多音字，可讀「mu/mou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "匊",
@@ -2842,7 +3292,9 @@
       "en": "handful",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "馱",
@@ -2852,7 +3304,9 @@
       "en": "to carry on one's back",
       "note": "多音字，可讀「tuo/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "劦",
@@ -2862,7 +3316,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳩",
@@ -2872,7 +3328,9 @@
       "en": "pigeon; to collect, to assemble",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "闍",
@@ -2882,7 +3340,9 @@
       "en": "a Buddhist high priest",
       "note": "多音字，可讀「du/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "拏",
@@ -2892,7 +3352,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "勒",
@@ -2902,7 +3364,9 @@
       "en": "(literary) bridle; halter; headstall；to rein in；to compel; to force",
       "note": "多音字，可讀「le/lei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "璨",
@@ -2912,7 +3376,9 @@
       "en": "gem；luster of gem",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "讖",
@@ -2922,7 +3388,9 @@
       "en": "(literary) prophecy; omen",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "餈",
@@ -2932,7 +3400,9 @@
       "en": "sticky rice; mochi",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "罷",
@@ -2942,7 +3412,9 @@
       "en": "to stop；to cease；to dismiss",
       "note": "多音字，可讀「ba/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "婬",
@@ -2952,7 +3424,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "兀",
@@ -2962,7 +3436,9 @@
       "en": "surname Wu；(literary) rising to a height; towering；(literary) bald; bare",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "虹",
@@ -2972,7 +3448,9 @@
       "en": "rainbow",
       "note": "多音字，可讀「hong/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "緇",
@@ -2982,7 +3460,9 @@
       "en": "Buddhists；black silk；dark",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "龕",
@@ -2992,7 +3472,9 @@
       "en": "niche, shrine",
       "note": null,
       "is_difficult": true,
-      "src": "六祖壇經"
+      "src": "六祖壇經",
+      "multi": false,
+      "rare": true
     }
   ]
 }

@@ -133,7 +133,9 @@
       "en": "grain；corn；surname Gu",
       "note": "多音字，可讀「gu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "詡",
@@ -143,7 +145,9 @@
       "en": "to brag；popular；lovely",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "家",
@@ -153,7 +157,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "其",
@@ -163,7 +169,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "的",
@@ -173,7 +181,9 @@
       "en": "of; ~'s (possessive particle)；(used after an attribute when it modifies a noun)；(used at the end of a declarative sentence for emphasis)",
       "note": "多音字，可讀「de/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弟",
@@ -183,7 +193,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "見",
@@ -193,7 +205,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "孫",
@@ -203,7 +217,9 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "臏",
@@ -213,7 +229,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "涓",
@@ -223,7 +241,9 @@
       "en": "surname Juan；brook；to select",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "說",
@@ -233,7 +253,9 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "思",
@@ -243,7 +265,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "大",
@@ -253,7 +277,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "詆",
@@ -263,7 +289,9 @@
       "en": "to defame；to slander",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "得",
@@ -273,7 +301,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "否",
@@ -283,7 +313,9 @@
       "en": "to negate；to deny；not",
       "note": "多音字，可讀「fou/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "系",
@@ -293,7 +325,9 @@
       "en": "to connect；to relate to；to tie up",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "衰",
@@ -303,7 +337,9 @@
       "en": "(bound form) to decay; to decline; to wane",
       "note": "多音字，可讀「shuai/cui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "不",
@@ -313,7 +349,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "合",
@@ -323,7 +361,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "六",
@@ -333,7 +373,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "解",
@@ -343,7 +385,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -353,7 +397,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "能",
@@ -363,7 +409,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "側",
@@ -373,7 +421,9 @@
       "en": "the side；to incline towards；to lean",
       "note": "多音字，可讀「ce/ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "重",
@@ -383,7 +433,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "傳",
@@ -393,7 +445,9 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "藏",
@@ -403,7 +457,9 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "都",
@@ -413,7 +469,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "氏",
@@ -423,7 +481,9 @@
       "en": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")；(bound form) maiden name; née (as in 李王氏[Li3 Wang2 shi4] \"Mrs. Li, née Wang\")；(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "捭",
@@ -433,7 +493,9 @@
       "en": "to spread out；to open",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "闔",
@@ -443,7 +505,9 @@
       "en": "to close; whole, entire, all",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "若",
@@ -453,7 +517,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稽",
@@ -463,7 +529,9 @@
       "en": "surname Ji；(bound form) to examine; to check (against records)；(literary) to delay; to linger",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "地",
@@ -473,7 +541,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "亡",
@@ -483,7 +553,9 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "眹",
@@ -493,7 +565,9 @@
       "en": "pupil",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "度",
@@ -503,7 +577,9 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "校",
@@ -513,7 +589,9 @@
       "en": "(bound form) school; college；(bound form) (military) field officer",
       "note": "多音字，可讀「xiao/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "伎",
@@ -523,7 +601,9 @@
       "en": "artistry；talent；skill",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "長",
@@ -533,7 +613,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "差",
@@ -543,7 +625,9 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -553,7 +637,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "追",
@@ -563,7 +649,9 @@
       "en": "to pursue, to chase after; to expel",
       "note": "多音字，可讀「zhui/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "數",
@@ -573,7 +661,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "忤",
@@ -583,7 +673,9 @@
       "en": "disobedient；unfilial",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "和",
@@ -593,7 +685,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "樂",
@@ -603,7 +697,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惡",
@@ -613,7 +709,9 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -623,7 +721,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "還",
@@ -633,7 +733,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "罝",
@@ -643,7 +745,9 @@
       "en": "net for catching rabbits",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "會",
@@ -653,7 +757,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "疑",
@@ -663,7 +769,9 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瞼",
@@ -673,7 +781,9 @@
       "en": "eyelid",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "射",
@@ -683,7 +793,9 @@
       "en": "to shoot；to launch；to allude to",
       "note": "多音字，可讀「she/ye/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "螣",
@@ -693,7 +805,9 @@
       "en": "flying dragon",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蛇",
@@ -703,7 +817,9 @@
       "en": "snake；serpent；CL:條|条[tiao2]",
       "note": "多音字，可讀「she/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "羿",
@@ -713,7 +829,9 @@
       "en": "surname Yi；name of a legendary archer (also called 后羿[Hou4 Yi4])",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "石",
@@ -723,7 +841,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "燔",
@@ -733,7 +853,9 @@
       "en": "burn；to roast meat for sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "莫",
@@ -743,7 +865,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "揵",
@@ -753,7 +877,9 @@
       "en": "carry",
       "note": "多音字，可讀「jian/qian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "親",
@@ -763,7 +889,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "釆",
@@ -773,7 +901,9 @@
       "en": "to distinguish; to pick, to gather, to collect",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "色",
@@ -783,7 +913,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蚨",
@@ -793,7 +925,9 @@
       "en": "(water-beetle)；money",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "揣",
@@ -803,7 +937,9 @@
       "en": "to put into (one's pockets, clothes)；Taiwan pr. [chuai3]；to estimate",
       "note": "多音字，可讀「chuai/tuan/zhui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "寤",
@@ -813,7 +949,9 @@
       "en": "to awake from sleep",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "巇",
@@ -823,7 +961,9 @@
       "en": "mountain-gorge；ravine",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "罅",
@@ -833,7 +973,9 @@
       "en": "crack；grudge",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朕",
@@ -843,7 +985,9 @@
       "en": "(used by an emperor or king) I; me; we (royal \"we\")；(literary) omen",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "塞",
@@ -853,7 +997,9 @@
       "en": "to plug; to stop up; to stuff in；(bound form) a stopper; a cork；(bound form) strategic stronghold",
       "note": "多音字，可讀「sai/se」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "識",
@@ -863,7 +1009,9 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "箝",
@@ -873,7 +1021,9 @@
       "en": "pliers；pincers；to clamp",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "徵",
@@ -883,7 +1033,9 @@
       "en": "4th note in the ancient Chinese pentatonic scale 五音[wu3 yin1], corresponding to sol",
       "note": "多音字，可讀「zhi/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "括",
@@ -893,7 +1045,9 @@
       "en": "(bound form) to tie up; to tighten up；(bound form) to include; to comprise；to put (text) in brackets",
       "note": "多音字，可讀「kuo/gua」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稱",
@@ -903,7 +1057,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "琦",
@@ -913,7 +1069,9 @@
       "en": "(literary) fine jade",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "瑋",
@@ -923,7 +1081,9 @@
       "en": "(reddish jade)；precious；rare",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "璧",
@@ -933,7 +1093,9 @@
       "en": "jade annulus",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "伺",
@@ -943,7 +1105,9 @@
       "en": "to watch；to wait；to examine",
       "note": "多音字，可讀「si/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "盛",
@@ -953,7 +1117,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "岨",
@@ -963,7 +1129,9 @@
       "en": "rocky hill",
       "note": "多音字，可讀「qu/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "嶮",
@@ -973,7 +1141,9 @@
       "en": "precipitous；rugged",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "南",
@@ -983,7 +1153,9 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "趨",
@@ -993,7 +1165,9 @@
       "en": "to hasten；to hurry；to walk fast",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "適",
@@ -1003,7 +1177,9 @@
       "en": "match, comfortable; just",
       "note": "多音字，可讀「shi/di/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "屬",
@@ -1013,7 +1189,9 @@
       "en": "category；genus (taxonomy)；family members",
       "note": "多音字，可讀「shu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "湯",
@@ -1023,7 +1201,9 @@
       "en": "surname Tang；soup；hot or boiling water",
       "note": "多音字，可讀「tang/shang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "桀",
@@ -1033,7 +1213,9 @@
       "en": "(emperor of Xia dynasty)；cruel",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殷",
@@ -1043,7 +1225,9 @@
       "en": "surname Yin；dynasty name at the end the Shang dynasty, after its move to Yinxu 殷墟[Yin1 xu1] in present-day Henan；flourishing",
       "note": "多音字，可讀「yin/yan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奧",
@@ -1053,7 +1237,9 @@
       "en": "(bound form) Austria (abbr. for 奧地利|奥地利[Ao4 di4 li4])；(bound form) Olympics (abbr. for 奧林匹克|奥林匹克[Ao4 lin2 pi3 ke4])；obscure",
       "note": "多音字，可讀「ao/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "睿",
@@ -1063,7 +1249,9 @@
       "en": "astute；perspicacious；farsighted",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "便",
@@ -1073,7 +1261,9 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "且",
@@ -1083,7 +1273,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蜎",
@@ -1093,7 +1285,9 @@
       "en": "surname Yuan；larva of mosquito",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "摩",
@@ -1103,7 +1297,9 @@
       "en": "to rub",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "窌",
@@ -1113,7 +1309,9 @@
       "en": "cellar",
       "note": "多音字，可讀「jiao/liao/liu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "信",
@@ -1123,7 +1321,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諂",
@@ -1133,7 +1333,9 @@
       "en": "to flatter；to cajole",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "擇",
@@ -1143,7 +1345,9 @@
       "en": "to select；to choose；to pick over",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "濡",
@@ -1153,7 +1357,9 @@
       "en": "dilatory；to moisten",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "佞",
@@ -1163,7 +1369,9 @@
       "en": "to flatter；flattery",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諛",
@@ -1173,7 +1381,9 @@
       "en": "to flatter",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繁",
@@ -1183,7 +1393,9 @@
       "en": "complicated；many；in great numbers",
       "note": "多音字，可讀「fan/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "助",
@@ -1193,7 +1405,9 @@
       "en": "to help；to assist",
       "note": "多音字，可讀「zhu/chu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邪",
@@ -1203,7 +1417,9 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "參",
@@ -1213,7 +1429,9 @@
       "en": "to take part in；to participate；to join",
       "note": "多音字，可讀「can/shen/cen/san」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "調",
@@ -1223,7 +1441,9 @@
       "en": "to transfer；to move (troops or cadres)；to investigate",
       "note": "多音字，可讀「diao/tiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繫",
@@ -1233,7 +1453,9 @@
       "en": "to connect；to arrest；to worry",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "食",
@@ -1243,7 +1465,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "螫",
@@ -1253,7 +1477,9 @@
       "en": "(literary) (of a bee or spider etc) to sting or bite",
       "note": "多音字，可讀「shi/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "毒",
@@ -1263,7 +1489,9 @@
       "en": "poison；to poison；poisonous",
       "note": "多音字，可讀「du/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "泄",
@@ -1273,7 +1501,9 @@
       "en": "(bound form) to leak out; to discharge; (fig.) to divulge",
       "note": "多音字，可讀「xie/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奇",
@@ -1283,7 +1513,9 @@
       "en": "strange；odd；weird",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "車",
@@ -1293,7 +1525,9 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蓋",
@@ -1303,7 +1537,9 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "據",
@@ -1313,7 +1549,9 @@
       "en": "according to；to act in accordance with；to depend on",
       "note": "多音字，可讀「ju/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "強",
@@ -1323,7 +1561,9 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "乘",
@@ -1333,7 +1573,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蓍",
@@ -1343,7 +1585,9 @@
       "en": "yarrow (Achillea millefolium)",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "龜",
@@ -1353,7 +1597,9 @@
       "en": "turtle, tortoise; cuckold",
       "note": "多音字，可讀「gui/jun/qiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "被",
@@ -1363,7 +1609,9 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仰",
@@ -1373,7 +1621,9 @@
       "en": "surname Yang；to face upward；to look up",
       "note": "多音字，可讀「yang/ang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "歟",
@@ -1383,7 +1633,9 @@
       "en": "(literary) (final particle similar to 嗎|吗[ma5], 呢[ne5] or 啊[a1])",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "洞",
@@ -1393,7 +1645,9 @@
       "en": "cave；hole；zero (unambiguous spoken form when spelling out numbers)",
       "note": "多音字，可讀「dong/tong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "胠",
@@ -1403,7 +1657,9 @@
       "en": "flank of animal；side；to pry open",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "著",
@@ -1413,7 +1669,9 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鎰",
@@ -1423,7 +1681,9 @@
       "en": "a measure of weight used for gold",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "貂",
@@ -1433,7 +1693,9 @@
       "en": "sable or marten (genus Martes)",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "裘",
@@ -1443,7 +1705,9 @@
       "en": "surname Qiu；fur；fur coat",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遨",
@@ -1453,7 +1717,9 @@
       "en": "to ramble, to roam; to travel for pleasure",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "責",
@@ -1463,7 +1729,9 @@
       "en": "duty；responsibility；to reproach",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "熟",
@@ -1473,7 +1741,9 @@
       "en": "ripe; mature；thoroughly cooked; done；familiar; acquainted",
       "note": "多音字，可讀「shu/shou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "趣",
@@ -1483,7 +1753,9 @@
       "en": "interesting；to interest",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "血",
@@ -1493,7 +1765,9 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "攝",
@@ -1503,7 +1777,9 @@
       "en": "(bound form) to take in; to absorb; to assimilate；to capture (video or still images)；(literary) to conserve (one's health)",
       "note": "多音字，可讀「she/nie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "偟",
@@ -1513,7 +1789,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "髣",
@@ -1523,7 +1801,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "牖",
@@ -1533,7 +1813,9 @@
       "en": "to enlighten；lattice window",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "宿",
@@ -1543,7 +1825,9 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鷙",
@@ -1553,7 +1837,9 @@
       "en": "hawk, vulture",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳥",
@@ -1563,7 +1849,9 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "齊",
@@ -1573,7 +1861,9 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沌",
@@ -1583,7 +1873,9 @@
       "en": "chaotic, confused; murky, turbid",
       "note": "多音字，可讀「dun/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "兌",
@@ -1593,7 +1885,9 @@
       "en": "surname Dui；to cash；to exchange",
       "note": "多音字，可讀「dui/rui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仞",
@@ -1603,7 +1897,9 @@
       "en": "unit of length used in ancient times, equal to 7 or 8 Chinese feet 尺[chi3]",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "谿",
@@ -1613,7 +1909,9 @@
       "en": "valley, gorge; mountain stream",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "儔",
@@ -1623,7 +1921,9 @@
       "en": "comrades；friends；companions",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拘",
@@ -1633,7 +1933,9 @@
       "en": "to capture；to restrain；to constrain",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "闐",
@@ -1643,7 +1945,9 @@
       "en": "a place in Xinjiang province",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "仇",
@@ -1653,7 +1957,9 @@
       "en": "hatred；animosity；enmity",
       "note": "多音字，可讀「chou/qiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "郤",
@@ -1663,7 +1969,9 @@
       "en": "crack, crevice; gap, interval; surname",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "爻",
@@ -1673,7 +1981,9 @@
       "en": "the solid and broken lines of the eight trigrams 八卦[ba1 gua4], e.g. ☶",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "角",
@@ -1683,7 +1993,9 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "羸",
@@ -1693,7 +2005,9 @@
       "en": "entangled；lean",
       "note": null,
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "期",
@@ -1703,7 +2017,9 @@
       "en": "period；cycle；a period of time",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "吾",
@@ -1713,7 +2029,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "鬼谷子"
+      "src": "鬼谷子",
+      "multi": true,
+      "rare": false
     }
   ]
 }

@@ -110,7 +110,9 @@
       "en": "(bound form) plain; simple；Taiwan pr. [pu2]",
       "note": "多音字，可讀「pu/po/piao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "宿",
@@ -120,7 +122,9 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "親",
@@ -130,7 +134,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "屬",
@@ -140,7 +146,9 @@
       "en": "category；genus (taxonomy)；family members",
       "note": "多音字，可讀「shu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "其",
@@ -150,7 +158,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "得",
@@ -160,7 +170,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "不",
@@ -170,7 +182,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "信",
@@ -180,7 +194,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "樂",
@@ -190,7 +206,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "否",
@@ -200,7 +218,9 @@
       "en": "to negate；to deny；not",
       "note": "多音字，可讀「fou/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -210,7 +230,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稟",
@@ -220,7 +242,9 @@
       "en": "to make a report (to a superior)；to give；to endow",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "能",
@@ -230,7 +254,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "塞",
@@ -240,7 +266,9 @@
       "en": "to plug; to stop up; to stuff in；(bound form) a stopper; a cork；(bound form) strategic stronghold",
       "note": "多音字，可讀「sai/se」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "識",
@@ -250,7 +278,9 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鈐",
@@ -260,7 +290,9 @@
       "en": "lock, latch; to stamp, to seal",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "車",
@@ -270,7 +302,9 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "說",
@@ -280,7 +314,9 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "豈",
@@ -290,7 +326,9 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "地",
@@ -300,7 +338,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "重",
@@ -310,7 +350,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "數",
@@ -320,7 +362,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -330,7 +374,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祭",
@@ -340,7 +386,9 @@
       "en": "to offer a sacrifice to (gods or ancestors)；(in classical novels) to recite an incantation to activate a magic weapon; to wield (sth magic)；(bound form) ceremony",
       "note": "多音字，可讀「ji/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "酹",
@@ -350,7 +398,9 @@
       "en": "to pour out a libation; to sprinkle",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "惡",
@@ -360,7 +410,9 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "若",
@@ -370,7 +422,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "孫",
@@ -380,7 +434,9 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "臭",
@@ -390,7 +446,9 @@
       "en": "stench；smelly；to smell (bad)",
       "note": "多音字，可讀「chou/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "溥",
@@ -400,7 +458,9 @@
       "en": "surname Pu；extensive；pervading",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "秘",
@@ -410,7 +470,9 @@
       "en": "secret；secretary",
       "note": "多音字，可讀「mi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "和",
@@ -420,7 +482,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "篤",
@@ -430,7 +494,9 @@
       "en": "(bound form) sincere; genuine；(bound form) (of an illness) serious",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "長",
@@ -440,7 +506,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "大",
@@ -450,7 +518,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "家",
@@ -460,7 +530,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "莫",
@@ -470,7 +542,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "血",
@@ -480,7 +554,9 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "傳",
@@ -490,7 +566,9 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "炫",
@@ -500,7 +578,9 @@
       "en": "to dazzle；(bound form) to boast; to show off；(slang) cool; awesome",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "便",
@@ -510,7 +590,9 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "卒",
@@ -520,7 +602,9 @@
       "en": "soldier；servant；to finish",
       "note": "多音字，可讀「zu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "閒",
@@ -530,7 +614,9 @@
       "en": "leisure, idle time; tranquil, peaceful, calm",
       "note": "多音字，可讀「xian/jian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "思",
@@ -540,7 +626,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -550,7 +638,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "薄",
@@ -560,7 +650,9 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祛",
@@ -570,7 +662,9 @@
       "en": "sacrifice to drive away calamity；to dispel；to drive away",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蓋",
@@ -580,7 +674,9 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弟",
@@ -590,7 +686,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祀",
@@ -600,7 +698,9 @@
       "en": "to sacrifice；to offer libation to",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "彭",
@@ -610,7 +710,9 @@
       "en": "surname Peng",
       "note": "多音字，可讀「peng/bang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鳩",
@@ -620,7 +722,9 @@
       "en": "pigeon; to collect, to assemble",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "還",
@@ -630,7 +734,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "食",
@@ -640,7 +746,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "會",
@@ -650,7 +758,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "強",
@@ -660,7 +770,9 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邪",
@@ -670,7 +782,9 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "毒",
@@ -680,7 +794,9 @@
       "en": "poison；to poison；poisonous",
       "note": "多音字，可讀「du/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蛇",
@@ -690,7 +806,9 @@
       "en": "snake；serpent；CL:條|条[tiao2]",
       "note": "多音字，可讀「she/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蝮",
@@ -700,7 +818,9 @@
       "en": "insect；poisonous snake (archaic)",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "螫",
@@ -710,7 +830,9 @@
       "en": "(literary) (of a bee or spider etc) to sting or bite",
       "note": "多音字，可讀「shi/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "藏",
@@ -720,7 +842,9 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "合",
@@ -730,7 +854,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稱",
@@ -740,7 +866,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "訕",
@@ -750,7 +878,9 @@
       "en": "to mock；to ridicule；to slander",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "女",
@@ -760,7 +890,9 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "省",
@@ -770,7 +902,9 @@
       "en": "to save; to economize; to be frugal；to omit; to delete; to leave out；province",
       "note": "多音字，可讀「sheng/xing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "見",
@@ -780,7 +914,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "石",
@@ -790,7 +926,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "側",
@@ -800,7 +938,9 @@
       "en": "the side；to incline towards；to lean",
       "note": "多音字，可讀「ce/ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "遨",
@@ -810,7 +950,9 @@
       "en": "to ramble, to roam; to travel for pleasure",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "曾",
@@ -820,7 +962,9 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "單",
@@ -830,7 +974,9 @@
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "辟",
@@ -840,7 +986,9 @@
       "en": "law, rule; to open up, to develop",
       "note": "多音字，可讀「pi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "削",
@@ -850,7 +998,9 @@
       "en": "to peel with a knife；to pare；to cut (a ball at tennis etc)",
       "note": "多音字，可讀「xiao/xue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奇",
@@ -860,7 +1010,9 @@
       "en": "strange；odd；weird",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "六",
@@ -870,7 +1022,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "著",
@@ -880,7 +1034,9 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "闕",
@@ -890,7 +1046,9 @@
       "en": "palace; watchtower",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "濡",
@@ -900,7 +1058,9 @@
       "en": "dilatory；to moisten",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "都",
@@ -910,7 +1070,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "度",
@@ -920,7 +1082,9 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "戲",
@@ -930,7 +1094,9 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "噓",
@@ -940,7 +1106,9 @@
       "en": "to exhale slowly；to hiss；hush!",
       "note": "多音字，可讀「xu/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "吾",
@@ -950,7 +1118,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "率",
@@ -960,7 +1130,9 @@
       "en": "(bound form) ratio; rate; proportion；to lead；to command",
       "note": "多音字，可讀「lü/shuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "戾",
@@ -970,7 +1142,9 @@
       "en": "to bend；to violate；to go against",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "的",
@@ -980,7 +1154,9 @@
       "en": "of; ~'s (possessive particle)；(used after an attribute when it modifies a noun)；(used at the end of a declarative sentence for emphasis)",
       "note": "多音字，可讀「de/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "疑",
@@ -990,7 +1166,9 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "擇",
@@ -1000,7 +1178,9 @@
       "en": "to select；to choose；to pick over",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "誑",
@@ -1010,7 +1190,9 @@
       "en": "to deceive; to dupe；falsehood; lie；(dialect) to amuse",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "契",
@@ -1020,7 +1202,9 @@
       "en": "to carve；carved words；to agree",
       "note": "多音字，可讀「qi/qie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "約",
@@ -1030,7 +1214,9 @@
       "en": "to make an appointment；to invite；approximately",
       "note": "多音字，可讀「yue/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "歃",
@@ -1040,7 +1226,9 @@
       "en": "to drink",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "沐",
@@ -1050,7 +1238,9 @@
       "en": "to bathe；to cleanse；to receive",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "且",
@@ -1060,7 +1250,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "色",
@@ -1070,7 +1262,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "似",
@@ -1080,7 +1274,9 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "盛",
@@ -1090,7 +1286,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "衰",
@@ -1100,7 +1298,9 @@
       "en": "(bound form) to decay; to decline; to wane",
       "note": "多音字，可讀「shuai/cui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "夭",
@@ -1110,7 +1310,9 @@
       "en": "(bound form) to die prematurely (also pr. [yao3])；(literary) (of vegetation) luxuriant；(bound form) to die prematurely (also pr. [yao3]) (variant of 夭[yao1])",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嵩",
@@ -1120,7 +1322,9 @@
       "en": "Mt Song in Henan；(literary) (of mountains) lofty",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "景",
@@ -1130,7 +1334,9 @@
       "en": "surname Jing；(bound form) scenery；circumstance",
       "note": "多音字，可讀「jing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "罷",
@@ -1140,7 +1346,9 @@
       "en": "to stop；to cease；to dismiss",
       "note": "多音字，可讀「ba/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "龜",
@@ -1150,7 +1358,9 @@
       "en": "turtle, tortoise; cuckold",
       "note": "多音字，可讀「gui/jun/qiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "咽",
@@ -1160,7 +1370,9 @@
       "en": "throat; pharynx；narrow pass；to swallow",
       "note": "多音字，可讀「yan/ye」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鳥",
@@ -1170,7 +1382,9 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仰",
@@ -1180,7 +1394,9 @@
       "en": "surname Yang；to face upward；to look up",
       "note": "多音字，可讀「yang/ang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "朱",
@@ -1190,7 +1406,9 @@
       "en": "surname Zhu；vermilion；(bound form) cinnabar",
       "note": "多音字，可讀「zhu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繒",
@@ -1200,7 +1418,9 @@
       "en": "surname Zeng；silk fabrics；to tie",
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "吋",
@@ -1210,7 +1430,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "抱朴子"
+      "src": "抱朴子",
+      "multi": false,
+      "rare": true
     }
   ]
 }

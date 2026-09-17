@@ -89,7 +89,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "佛",
@@ -99,7 +101,9 @@
       "en": "Buddha; Buddhism (abbr. for 佛陀[Fo2 tuo2])",
       "note": "多音字，可讀「fo/fu/bi/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "祇",
@@ -109,7 +113,9 @@
       "en": "god of the earth",
       "note": "多音字，可讀「qi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "給",
@@ -119,7 +125,9 @@
       "en": "to；for；for the benefit of",
       "note": "多音字，可讀「gei/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "大",
@@ -129,7 +137,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "食",
@@ -139,7 +149,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "著",
@@ -149,7 +161,9 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "於",
@@ -159,7 +173,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "其",
@@ -169,7 +185,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "還",
@@ -179,7 +197,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洗",
@@ -189,7 +209,9 @@
       "en": "to wash; to bathe；to develop (photographs)；to shuffle (cards etc)",
       "note": "多音字，可讀「xi/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "長",
@@ -199,7 +221,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "提",
@@ -209,7 +233,9 @@
       "en": "to carry (hanging down from the hand)；to lift；to put forward",
       "note": "多音字，可讀「ti/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -219,7 +245,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "地",
@@ -229,7 +257,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "合",
@@ -239,7 +269,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "女",
@@ -249,7 +281,9 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "阿",
@@ -259,7 +293,9 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "耨",
@@ -269,7 +305,9 @@
       "en": "hoe；to hoe；to weed",
       "note": null,
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "降",
@@ -279,7 +317,9 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "說",
@@ -289,7 +329,9 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諦",
@@ -299,7 +341,9 @@
       "en": "to examine；truth (Buddhism)",
       "note": null,
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "樂",
@@ -309,7 +353,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "乘",
@@ -319,7 +365,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "摩",
@@ -329,7 +377,9 @@
       "en": "to rub",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "訶",
@@ -339,7 +389,9 @@
       "en": "to scold",
       "note": null,
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "若",
@@ -349,7 +401,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "色",
@@ -359,7 +413,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "槃",
@@ -369,7 +425,9 @@
       "en": "wooden tray",
       "note": null,
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "度",
@@ -379,7 +437,9 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "數",
@@ -389,7 +449,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "得",
@@ -399,7 +461,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -409,7 +473,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "不",
@@ -419,7 +485,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "思",
@@ -429,7 +497,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "南",
@@ -439,7 +509,9 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "見",
@@ -449,7 +521,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "信",
@@ -459,7 +533,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "六",
@@ -469,7 +545,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "句",
@@ -479,7 +557,9 @@
       "en": "sentence；clause；phrase",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "莫",
@@ -489,7 +569,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "能",
@@ -499,7 +581,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "淨",
@@ -509,7 +593,9 @@
       "en": "clean；completely；only",
       "note": "多音字，可讀「jing/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "解",
@@ -519,7 +605,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "差",
@@ -529,7 +617,9 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "偈",
@@ -539,7 +629,9 @@
       "en": "Buddhist hymn；gatha；Buddhist verse",
       "note": "多音字，可讀「ji/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "洹",
@@ -549,7 +641,9 @@
       "en": "name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "那",
@@ -559,7 +653,9 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諍",
@@ -569,7 +665,9 @@
       "en": "to admonish；to warn sb of their errors；to criticize frankly",
       "note": null,
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "重",
@@ -579,7 +677,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弟",
@@ -589,7 +689,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "般",
@@ -599,7 +701,9 @@
       "en": "sort；kind；class",
       "note": "多音字，可讀「ban/bo/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "趣",
@@ -609,7 +713,9 @@
       "en": "interesting；to interest",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "曾",
@@ -619,7 +725,9 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瞋",
@@ -629,7 +737,9 @@
       "en": "(literary) to stare angrily; to glare",
       "note": null,
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "誑",
@@ -639,7 +749,9 @@
       "en": "to deceive; to dupe；falsehood; lie；(dialect) to amuse",
       "note": null,
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稱",
@@ -649,7 +761,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "遶",
@@ -659,7 +773,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "墮",
@@ -669,7 +785,9 @@
       "en": "to fall; to sink；(fig.) to degenerate",
       "note": "多音字，可讀「duo/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惡",
@@ -679,7 +797,9 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "疑",
@@ -689,7 +809,9 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "迦",
@@ -699,7 +821,9 @@
       "en": "used in transliterations",
       "note": null,
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "牟",
@@ -709,7 +833,9 @@
       "en": "surname Mou；barley；to moo",
       "note": "多音字，可讀「mu/mou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邪",
@@ -719,7 +845,9 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "露",
@@ -729,7 +857,9 @@
       "en": "dew; leak; bare, exposed; to reveal, to show",
       "note": "多音字，可讀「lu/lou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "塞",
@@ -739,7 +869,9 @@
       "en": "to plug; to stop up; to stuff in；(bound form) a stopper; a cork；(bound form) strategic stronghold",
       "note": "多音字，可讀「sai/se」，須依文意斷音。",
       "is_difficult": true,
-      "src": "金剛般若波羅蜜經"
+      "src": "金剛般若波羅蜜經",
+      "multi": true,
+      "rare": false
     }
   ]
 }

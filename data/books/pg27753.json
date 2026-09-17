@@ -18,7 +18,9 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "佛",
@@ -28,7 +30,9 @@
       "en": "Buddha; Buddhism (abbr. for 佛陀[Fo2 tuo2])",
       "note": "多音字，可讀「fo/fu/bi/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "得",
@@ -38,7 +42,9 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "莫",
@@ -48,7 +54,9 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "強",
@@ -58,7 +66,9 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "從",
@@ -68,7 +78,9 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "秘",
@@ -78,7 +90,9 @@
       "en": "secret；secretary",
       "note": "多音字，可讀「mi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "乾",
@@ -88,7 +102,9 @@
       "en": "surname Qian；one of the Eight Trigrams 八卦[ba1 gua4], symbolizing heaven；male principle",
       "note": "多音字，可讀「qian/gan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "還",
@@ -98,7 +114,9 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "貽",
@@ -108,7 +126,9 @@
       "en": "to present；to bequeath",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "孫",
@@ -118,7 +138,9 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "大",
@@ -128,7 +150,9 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "似",
@@ -138,7 +162,9 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "臂",
@@ -148,7 +174,9 @@
       "en": "arm",
       "note": "多音字，可讀「bi/bei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "沒",
@@ -158,7 +186,9 @@
       "en": "(negative prefix for verbs) have not; not",
       "note": "多音字，可讀「mei/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "的",
@@ -168,7 +198,9 @@
       "en": "of; ~'s (possessive particle)；(used after an attribute when it modifies a noun)；(used at the end of a declarative sentence for emphasis)",
       "note": "多音字，可讀「de/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "不",
@@ -178,7 +210,9 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "了",
@@ -188,7 +222,9 @@
       "en": "to finish；(used with 得[de2] or 不[bu4] after a verb to express (im)possibility, as in 忘不了[wang4 bu5 liao3] \"cannot forget\")；(literary) (usually followed by a negative such as 無|无[wu2] or 不[bu4]) completely (not); entirely (not); (not) in the least",
       "note": "多音字，可讀「le/liao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "覬",
@@ -198,7 +234,9 @@
       "en": "to covet；to long for",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "覦",
@@ -208,7 +246,9 @@
       "en": "to desire passionately",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亨",
@@ -218,7 +258,9 @@
       "en": "prosperous；henry (unit of inductance)",
       "note": "多音字，可讀「heng/peng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "賺",
@@ -228,7 +270,9 @@
       "en": "to earn；to make a profit",
       "note": "多音字，可讀「zhuan/zuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "若",
@@ -238,7 +282,9 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "釐",
@@ -248,7 +294,9 @@
       "en": "one thousandth",
       "note": "多音字，可讀「li/xi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "偌",
@@ -258,7 +306,9 @@
       "en": "so；such；to such a degree",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "能",
@@ -268,7 +318,9 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "說",
@@ -278,7 +330,9 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "那",
@@ -288,7 +342,9 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "折",
@@ -298,7 +354,9 @@
       "en": "to turn sth over；to turn upside down；to tip sth out (of a container)",
       "note": "多音字，可讀「zhe/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "豈",
@@ -308,7 +366,9 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "僥",
@@ -318,7 +378,9 @@
       "en": "by mere luck",
       "note": "多音字，可讀「jiao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "麼",
@@ -328,7 +390,9 @@
       "en": "interrogative particle",
       "note": "多音字，可讀「mo/me」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "著",
@@ -338,7 +402,9 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "數",
@@ -348,7 +414,9 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "便",
@@ -358,7 +426,9 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "般",
@@ -368,7 +438,9 @@
       "en": "sort；kind；class",
       "note": "多音字，可讀「ban/bo/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奕",
@@ -378,7 +450,9 @@
       "en": "abundant；graceful",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "簪",
@@ -388,7 +462,9 @@
       "en": "hairpin",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "句",
@@ -398,7 +474,9 @@
       "en": "sentence；clause；phrase",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "儼",
@@ -408,7 +486,9 @@
       "en": "majestic；dignified",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "露",
@@ -418,7 +498,9 @@
       "en": "dew; leak; bare, exposed; to reveal, to show",
       "note": "多音字，可讀「lu/lou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "且",
@@ -428,7 +510,9 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "曾",
@@ -438,7 +522,9 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "行",
@@ -448,7 +534,9 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "騭",
@@ -458,7 +546,9 @@
       "en": "stallion; to determine; to promote",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "唧",
@@ -468,7 +558,9 @@
       "en": "(onom.) to pump (water)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "噥",
@@ -478,7 +570,9 @@
       "en": "(bound form) to mutter; to mumble",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "會",
@@ -488,7 +582,9 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "聒",
@@ -498,7 +594,9 @@
       "en": "raucous；clamor；unpleasantly noisy",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "淨",
@@ -508,7 +606,9 @@
       "en": "clean；completely；only",
       "note": "多音字，可讀「jing/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "閒",
@@ -518,7 +618,9 @@
       "en": "leisure, idle time; tranquil, peaceful, calm",
       "note": "多音字，可讀「xian/jian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "見",
@@ -528,7 +630,9 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "女",
@@ -538,7 +642,9 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "休",
@@ -548,7 +654,9 @@
       "en": "surname Xiu；to rest；to stop doing sth for a period of time",
       "note": "多音字，可讀「xiu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "妾",
@@ -558,7 +666,9 @@
       "en": "concubine；I, your servant (deprecatory self-reference for women)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "於",
@@ -568,7 +678,9 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "適",
@@ -578,7 +690,9 @@
       "en": "match, comfortable; just",
       "note": "多音字，可讀「shi/di/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "其",
@@ -588,7 +702,9 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "被",
@@ -598,7 +714,9 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "傳",
@@ -608,7 +726,9 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "地",
@@ -618,7 +738,9 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "柩",
@@ -628,7 +750,9 @@
       "en": "bier",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "填",
@@ -638,7 +762,9 @@
       "en": "to fill or stuff；(of a form etc) to fill in",
       "note": "多音字，可讀「tian/zhen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拆",
@@ -648,7 +774,9 @@
       "en": "to tear open；to tear down；to tear apart",
       "note": "多音字，可讀「chai/ca」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "卜",
@@ -658,7 +786,9 @@
       "en": "surname Bu；(bound form) to divine",
       "note": "多音字，可讀「bu/bo/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "熟",
@@ -668,7 +798,9 @@
       "en": "ripe; mature；thoroughly cooked; done；familiar; acquainted",
       "note": "多音字，可讀「shu/shou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拾",
@@ -678,7 +810,9 @@
       "en": "to pick up；to collate or arrange；ten (banker's anti-fraud numeral)",
       "note": "多音字，可讀「shi/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "膀",
@@ -688,7 +822,9 @@
       "en": "upper arm；wing",
       "note": "多音字，可讀「bang/pang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "馱",
@@ -698,7 +834,9 @@
       "en": "to carry on one's back",
       "note": "多音字，可讀「tuo/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "約",
@@ -708,7 +846,9 @@
       "en": "to make an appointment；to invite；approximately",
       "note": "多音字，可讀「yue/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "石",
@@ -718,7 +858,9 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "什",
@@ -728,7 +870,9 @@
       "en": "what",
       "note": "多音字，可讀「shen/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "些",
@@ -738,7 +882,9 @@
       "en": "classifier indicating a small amount or small number greater than 1: some, a few, several",
       "note": "多音字，可讀「xie/suo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "角",
@@ -748,7 +894,9 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "臾",
@@ -758,7 +906,9 @@
       "en": "surname Yu；a moment；little while",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "提",
@@ -768,7 +918,9 @@
       "en": "to carry (hanging down from the hand)；to lift；to put forward",
       "note": "多音字，可讀「ti/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "哦",
@@ -778,7 +930,9 @@
       "en": "oh (interjection indicating doubt or surprise)；oh (interjection indicating that one has just learned sth)；sentence-final particle that conveys informality, warmth, friendliness or intimacy",
       "note": "多音字，可讀「o/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "跳",
@@ -788,7 +942,9 @@
       "en": "to jump；to hop；to skip over",
       "note": "多音字，可讀「tiao/tao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "都",
@@ -798,7 +954,9 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "落",
@@ -808,7 +966,9 @@
       "en": "to fall or drop；(of the sun) to set；(of a tide) to go out",
       "note": "多音字，可讀「luo/la/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "重",
@@ -818,7 +978,9 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "倘",
@@ -828,7 +990,9 @@
       "en": "if; supposing; in case",
       "note": "多音字，可讀「tang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "罷",
@@ -838,7 +1002,9 @@
       "en": "to stop；to cease；to dismiss",
       "note": "多音字，可讀「ba/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拂",
@@ -848,7 +1014,9 @@
       "en": "to flick；to brush off；(of a breeze) to brush lightly over",
       "note": "多音字，可讀「fu/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奇",
@@ -858,7 +1026,9 @@
       "en": "strange；odd；weird",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仇",
@@ -868,7 +1038,9 @@
       "en": "hatred；animosity；enmity",
       "note": "多音字，可讀「chou/qiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弄",
@@ -878,7 +1050,9 @@
       "en": "to do；to manage；to handle",
       "note": "多音字，可讀「nong/long」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "婢",
@@ -888,7 +1062,9 @@
       "en": "slave girl；maid servant",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "粥",
@@ -898,7 +1074,9 @@
       "en": "congee；gruel；porridge",
       "note": "多音字，可讀「zhou/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "齏",
@@ -908,7 +1086,9 @@
       "en": "to smash into pieces, to pulverize; hash",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "闈",
@@ -918,7 +1098,9 @@
       "en": "gate, door; living quarters",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "和",
@@ -928,7 +1110,9 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "縣",
@@ -938,7 +1122,9 @@
       "en": "county；(Japan) prefecture",
       "note": "多音字，可讀「xian/xuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "躓",
@@ -948,7 +1134,9 @@
       "en": "to stumble",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "廩",
@@ -958,7 +1146,9 @@
       "en": "government granary",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "氏",
@@ -968,7 +1158,9 @@
       "en": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")；(bound form) maiden name; née (as in 李王氏[Li3 Wang2 shi4] \"Mrs. Li, née Wang\")；(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "長",
@@ -978,7 +1170,9 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "單",
@@ -988,7 +1182,9 @@
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "番",
@@ -998,7 +1194,9 @@
       "en": "(bound form) foreign (non-Chinese); barbarian；classifier for processes or actions that take time and effort；(classifier) a kind; a sort",
       "note": "多音字，可讀「fan/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "揣",
@@ -1008,7 +1206,9 @@
       "en": "to put into (one's pockets, clothes)；Taiwan pr. [chuai3]；to estimate",
       "note": "多音字，可讀「chuai/tuan/zhui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "摩",
@@ -1018,7 +1218,9 @@
       "en": "to rub",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "殖",
@@ -1028,7 +1230,9 @@
       "en": "to grow；to reproduce",
       "note": "多音字，可讀「zhi/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "罄",
@@ -1038,7 +1242,9 @@
       "en": "to use up；to exhaust；empty",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齊",
@@ -1048,7 +1254,9 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "食",
@@ -1058,7 +1266,9 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "親",
@@ -1068,7 +1278,9 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "朝",
@@ -1078,7 +1290,9 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "誰",
@@ -1088,7 +1302,9 @@
       "en": "who；also pr. [shui2]",
       "note": "多音字，可讀「shui/shei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "丁",
@@ -1098,7 +1314,9 @@
       "en": "surname Ding；male adult；the 4th of the 10 Heavenly Stems 天干[tian1 gan1]",
       "note": "多音字，可讀「ding/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "括",
@@ -1108,7 +1326,9 @@
       "en": "(bound form) to tie up; to tighten up；(bound form) to include; to comprise；to put (text) in brackets",
       "note": "多音字，可讀「kuo/gua」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嫖",
@@ -1118,7 +1338,9 @@
       "en": "to visit a prostitute",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "紮",
@@ -1128,7 +1350,9 @@
       "en": "(of troops) to be stationed (at)；Taiwan pr. [zha2]",
       "note": "多音字，可讀「zha/za」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "囤",
@@ -1138,7 +1362,9 @@
       "en": "to store; to hoard",
       "note": "多音字，可讀「tun/dun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "姪",
@@ -1148,7 +1374,9 @@
       "en": "brother's son; nephew",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "戲",
@@ -1158,7 +1386,9 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "筵",
@@ -1168,7 +1398,9 @@
       "en": "bamboo mat for sitting",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "思",
@@ -1178,7 +1410,9 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "樂",
@@ -1188,7 +1422,9 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "契",
@@ -1198,7 +1434,9 @@
       "en": "to carve；carved words；to agree",
       "note": "多音字，可讀「qi/qie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "價",
@@ -1208,7 +1446,9 @@
       "en": "price；value；(chemistry) valence",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "弟",
@@ -1218,7 +1458,9 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "差",
@@ -1228,7 +1470,9 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "閫",
@@ -1238,7 +1482,9 @@
       "en": "threshold; women's quarters",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "賁",
@@ -1248,7 +1494,9 @@
       "en": "bright",
       "note": "多音字，可讀「bi/ben」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "癤",
@@ -1258,7 +1506,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "解",
@@ -1268,7 +1518,9 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "信",
@@ -1278,7 +1530,9 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "識",
@@ -1288,7 +1542,9 @@
       "en": "to know；knowledge；Taiwan pr. [shi4]",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "疑",
@@ -1298,7 +1554,9 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "綽",
@@ -1308,7 +1566,9 @@
       "en": "(bound form) ample; spacious；(literary) graceful",
       "note": "多音字，可讀「chuo/chao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "旁",
@@ -1318,7 +1578,9 @@
       "en": "one side；other；different",
       "note": "多音字，可讀「pang/bang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "醺",
@@ -1328,7 +1590,9 @@
       "en": "drunk, intoxicated",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "饜",
@@ -1338,7 +1602,9 @@
       "en": "full, satiated; to eat one's fill",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "趣",
@@ -1348,7 +1614,9 @@
       "en": "interesting；to interest",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "僮",
@@ -1358,7 +1626,9 @@
       "en": "servant boy",
       "note": "多音字，可讀「tong/zhuang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "攛",
@@ -1368,7 +1638,9 @@
       "en": "rush；stir up；throw",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "篾",
@@ -1378,7 +1650,9 @@
       "en": "the outer layer of a stalk of bamboo (or reed or sorghum); a thin bamboo strip",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "期",
@@ -1388,7 +1662,9 @@
       "en": "period；cycle；a period of time",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "迫",
@@ -1398,7 +1674,9 @@
       "en": "to persecute；to oppress；embarrassed",
       "note": "多音字，可讀「po/pai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "色",
@@ -1408,7 +1686,9 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瞞",
@@ -1418,7 +1698,9 @@
       "en": "to conceal from；to keep (sb) in the dark",
       "note": "多音字，可讀「man/men」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "助",
@@ -1428,7 +1710,9 @@
       "en": "to help；to assist",
       "note": "多音字，可讀「zhu/chu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "仰",
@@ -1438,7 +1722,9 @@
       "en": "surname Yang；to face upward；to look up",
       "note": "多音字，可讀「yang/ang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "召",
@@ -1448,7 +1734,9 @@
       "en": "to call together；to summon；to convene",
       "note": "多音字，可讀「zhao/shao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "否",
@@ -1458,7 +1746,9 @@
       "en": "to negate；to deny；not",
       "note": "多音字，可讀「fou/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "憚",
@@ -1468,7 +1758,9 @@
       "en": "dread；fear；dislike",
       "note": "多音字，可讀「dan/da」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "淌",
@@ -1478,7 +1770,9 @@
       "en": "to drip；to trickle；to shed (tears)",
       "note": "多音字，可讀「tang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "覺",
@@ -1488,7 +1782,9 @@
       "en": "to feel；to find that；thinking",
       "note": "多音字，可讀「jue/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "檻",
@@ -1498,7 +1794,9 @@
       "en": "banister；balustrade；cage for animal or prisoner",
       "note": "多音字，可讀「jian/kan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "紅",
@@ -1508,7 +1806,9 @@
       "en": "surname Hong；red；popular",
       "note": "多音字，可讀「hong/gong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "吁",
@@ -1518,7 +1818,9 @@
       "en": "sh；hush",
       "note": "多音字，可讀「xu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "魘",
@@ -1528,7 +1830,9 @@
       "en": "nightmare, bad dream",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "六",
@@ -1538,7 +1842,9 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "忒",
@@ -1548,7 +1854,9 @@
       "en": "to err；to change",
       "note": "多音字，可讀「te/tei/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "獐",
@@ -1558,7 +1866,9 @@
       "en": "river deer；roebuck",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "夾",
@@ -1568,7 +1878,9 @@
       "en": "to press from either side；to place in between；to sandwich",
       "note": "多音字，可讀「jia/ga/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "囉",
@@ -1578,7 +1890,9 @@
       "en": "(final exclamatory particle)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "恁",
@@ -1588,7 +1902,9 @@
       "en": "to think；this；which?",
       "note": "多音字，可讀「nen/nin」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "查",
@@ -1598,7 +1914,9 @@
       "en": "to research；to check；to investigate",
       "note": "多音字，可讀「cha/zha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "眸",
@@ -1608,7 +1926,9 @@
       "en": "pupil (of the eye)；eye",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泚",
@@ -1618,7 +1938,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "傀",
@@ -1628,7 +1950,9 @@
       "en": "grand；strange; exotic",
       "note": "多音字，可讀「kui/gui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "呃",
@@ -1638,7 +1962,9 @@
       "en": "(exclamation)；to hiccup",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嚇",
@@ -1648,7 +1974,9 @@
       "en": "to scare；to intimidate；to threaten",
       "note": "多音字，可讀「he/xia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "噴",
@@ -1658,7 +1986,9 @@
       "en": "to spout; to spurt; to spray; to puff；(slang) to criticize scathingly (esp. online)；(of a smell) strong",
       "note": "多音字，可讀「pen/fen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "睩",
@@ -1668,7 +1998,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "叨",
@@ -1678,7 +2010,9 @@
       "en": "garrulous",
       "note": "多音字，可讀「dao/tao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "底",
@@ -1688,7 +2022,9 @@
       "en": "bottom; base；background; foundation；copy (of a manuscript or receipt etc) kept as a record",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鼾",
@@ -1698,7 +2034,9 @@
       "en": "to snore loudly",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "竇",
@@ -1708,7 +2046,9 @@
       "en": "surname Dou；(literary) hole; aperture；(anatomy) cavity; sinus",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藏",
@@ -1718,7 +2058,9 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "棍",
@@ -1728,7 +2070,9 @@
       "en": "stick; rod; truncheon；scoundrel; villain",
       "note": "多音字，可讀「gun/hun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鬢",
@@ -1738,7 +2082,9 @@
       "en": "hair on temples",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "射",
@@ -1748,7 +2094,9 @@
       "en": "to shoot；to launch；to allude to",
       "note": "多音字，可讀「she/ye/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惡",
@@ -1758,7 +2106,9 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "塞",
@@ -1768,7 +2118,9 @@
       "en": "to plug; to stop up; to stuff in；(bound form) a stopper; a cork；(bound form) strategic stronghold",
       "note": "多音字，可讀「sai/se」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "模",
@@ -1778,7 +2130,9 @@
       "en": "to imitate；model；norm",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稟",
@@ -1788,7 +2142,9 @@
       "en": "to make a report (to a superior)；to give；to endow",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "勃",
@@ -1798,7 +2154,9 @@
       "en": "flourishing；prosperous；suddenly",
       "note": "多音字，可讀「bo/bei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "廝",
@@ -1808,7 +2166,9 @@
       "en": "(bound form) together; each other；(bound form) male servant；(bound form) dude; so-and-so (used in 那廝|那厮[na4 si1] and 這廝|这厮[zhe4 si1])",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "員",
@@ -1818,7 +2178,9 @@
       "en": "(bound form) person engaged in a certain field of activity；(bound form) member；classifier for military generals",
       "note": "多音字，可讀「yuan/yun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "省",
@@ -1828,7 +2190,9 @@
       "en": "to save; to economize; to be frugal；to omit; to delete; to leave out；province",
       "note": "多音字，可讀「sheng/xing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "褫",
@@ -1838,7 +2202,9 @@
       "en": "to strip；to deprive of；to discharge",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "革",
@@ -1848,7 +2214,9 @@
       "en": "leather, animal hide; to reform; to remove",
       "note": "多音字，可讀「ge/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "喝",
@@ -1858,7 +2226,9 @@
       "en": "to drink；to shout",
       "note": "多音字，可讀「he/ye」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隸",
@@ -1868,7 +2238,9 @@
       "en": "subservient; servant",
       "note": "多音字，可讀「li/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "靂",
@@ -1878,7 +2250,9 @@
       "en": "thunderclap, crashing thunder",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蛇",
@@ -1888,7 +2262,9 @@
       "en": "snake；serpent；CL:條|条[tiao2]",
       "note": "多音字，可讀「she/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "孥",
@@ -1898,7 +2274,9 @@
       "en": "child；offspring",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扁",
@@ -1908,7 +2286,9 @@
       "en": "flat；(coll.) to beat (sb) up",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "南",
@@ -1918,7 +2298,9 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "擇",
@@ -1928,7 +2310,9 @@
       "en": "to select；to choose；to pick over",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "枝",
@@ -1938,7 +2322,9 @@
       "en": "branch；classifier for sticks, rods, pencils etc",
       "note": "多音字，可讀「zhi/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "迤",
@@ -1948,7 +2334,9 @@
       "en": "winding, meandering",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邐",
@@ -1958,7 +2346,9 @@
       "en": "winding, meandering",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "吆",
@@ -1968,7 +2358,9 @@
       "en": "to shout；to bawl；to yell (to urge on an animal)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "姊",
@@ -1978,7 +2370,9 @@
       "en": "older sister；Taiwan pr. [jie3]",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "豚",
@@ -1988,7 +2382,9 @@
       "en": "suckling pig",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "卒",
@@ -1998,7 +2394,9 @@
       "en": "soldier；servant；to finish",
       "note": "多音字，可讀「zu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "趨",
@@ -2008,7 +2406,9 @@
       "en": "to hasten；to hurry；to walk fast",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "謁",
@@ -2018,7 +2418,9 @@
       "en": "to visit (a superior)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "譫",
@@ -2028,7 +2430,9 @@
       "en": "(literary) to rant; to rave; to be delirious",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "景",
@@ -2038,7 +2442,9 @@
       "en": "surname Jing；(bound form) scenery；circumstance",
       "note": "多音字，可讀「jing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "璞",
@@ -2048,7 +2454,9 @@
       "en": "unpolished gem",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "啞",
@@ -2058,7 +2466,9 @@
       "en": "(onom.) sound of cawing；sound of infant learning to talk；mute; dumb; incapable of speech",
       "note": "多音字，可讀「ya/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鵂",
@@ -2068,7 +2478,9 @@
       "en": "horned owl, scops chinensis",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹲",
@@ -2078,7 +2490,9 @@
       "en": "to crouch；to squat；to stay (somewhere)",
       "note": "多音字，可讀「dun/cun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "褶",
@@ -2088,7 +2502,9 @@
       "en": "pleat；crease；Taiwan pr. [zhe2]",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹺",
@@ -2098,7 +2514,9 @@
       "en": "to raise one's foot；to stand on tiptoe；stilts",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹊",
@@ -2108,7 +2526,9 @@
       "en": "Taiwan pr. [xi1]",
       "note": "多音字，可讀「qi/xi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "冒",
@@ -2118,7 +2538,9 @@
       "en": "surname Mao；to emit; to give off; to send out (or up, forth)；to brave; to face",
       "note": "多音字，可讀「mao/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "追",
@@ -2128,7 +2550,9 @@
       "en": "to pursue, to chase after; to expel",
       "note": "多音字，可讀「zhui/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "伺",
@@ -2138,7 +2562,9 @@
       "en": "to watch；to wait；to examine",
       "note": "多音字，可讀「si/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "箴",
@@ -2148,7 +2574,9 @@
       "en": "to warn；to admonish",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "黏",
@@ -2158,7 +2586,9 @@
       "en": "to stick to; glutinous, sticky; glue",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諢",
@@ -2168,7 +2598,9 @@
       "en": "jest；nickname",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "車",
@@ -2178,7 +2610,9 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "揭",
@@ -2188,7 +2622,9 @@
       "en": "surname Jie；to take the lid off；to expose",
       "note": "多音字，可讀「jie/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "齎",
@@ -2198,7 +2634,9 @@
       "en": "gift, present; offering",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蓋",
@@ -2208,7 +2646,9 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "箝",
@@ -2218,7 +2658,9 @@
       "en": "pliers；pincers；to clamp",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "勒",
@@ -2228,7 +2670,9 @@
       "en": "(literary) bridle; halter; headstall；to rein in；to compel; to force",
       "note": "多音字，可讀「le/lei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "簷",
@@ -2238,7 +2682,9 @@
       "en": "edge, brim; the eaves of a house",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "釵",
@@ -2248,7 +2694,9 @@
       "en": "ornamental hairpin",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "合",
@@ -2258,7 +2706,9 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "傝",
@@ -2268,7 +2718,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "度",
@@ -2278,7 +2730,9 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "臭",
@@ -2288,7 +2742,9 @@
       "en": "stench；smelly；to smell (bad)",
       "note": "多音字，可讀「chou/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "朮",
@@ -2298,7 +2754,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湯",
@@ -2308,7 +2766,9 @@
       "en": "surname Tang；soup；hot or boiling water",
       "note": "多音字，可讀「tang/shang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "頓",
@@ -2318,7 +2778,9 @@
       "en": "to pause; to bow; to arrange",
       "note": "多音字，可讀「dun/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "爪",
@@ -2328,7 +2790,9 @@
       "en": "(coll.) foot of an animal or bird；(coll.) foot supporting a cooking pot etc",
       "note": "多音字，可讀「zhua/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "尺",
@@ -2338,7 +2802,9 @@
       "en": "a Chinese foot；one-third of a meter；a ruler",
       "note": "多音字，可讀「chi/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "俸",
@@ -2348,7 +2814,9 @@
       "en": "(bound form) salary; stipend",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朱",
@@ -2358,7 +2826,9 @@
       "en": "surname Zhu；vermilion；(bound form) cinnabar",
       "note": "多音字，可讀「zhu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "熚",
@@ -2368,7 +2838,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鏖",
@@ -2378,7 +2850,9 @@
       "en": "to fight to the death; to engage in a fierce battle",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拘",
@@ -2388,7 +2862,9 @@
       "en": "to capture；to restrain；to constrain",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "簫",
@@ -2398,7 +2874,9 @@
       "en": "xiao, a vertical bamboo flute",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鏗",
@@ -2408,7 +2886,9 @@
       "en": "to strike, to beat; gong, resounding noise",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鏘",
@@ -2418,7 +2898,9 @@
       "en": "clang; jingle, tinkle",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "墮",
@@ -2428,7 +2910,9 @@
       "en": "to fall; to sink；(fig.) to degenerate",
       "note": "多音字，可讀「duo/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "髡",
@@ -2438,7 +2922,9 @@
       "en": "to shear a tree; an ancient punishment",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "楷",
@@ -2448,7 +2934,9 @@
       "en": "model；pattern；regular script (calligraphic style)",
       "note": "多音字，可讀「kai/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "乘",
@@ -2458,7 +2946,9 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "伯",
@@ -2468,7 +2958,9 @@
       "en": "father's elder brother；senior；paternal elder uncle",
       "note": "多音字，可讀「bo/bai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "圈",
@@ -2478,7 +2970,9 @@
       "en": "circle; ring; loop；(fig.) social circle; niche group; community; fandom；classifier for loops, orbits, laps",
       "note": "多音字，可讀「quan/juan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "稱",
@@ -2488,7 +2982,9 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "毒",
@@ -2498,7 +2994,9 @@
       "en": "poison；to poison；poisonous",
       "note": "多音字，可讀「du/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瑯",
@@ -2508,7 +3006,9 @@
       "en": "pure, white; cornelian",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "玕",
@@ -2518,7 +3018,9 @@
       "en": "(inferior gem)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "綰",
@@ -2528,7 +3030,9 @@
       "en": "bind up；string together",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "筠",
@@ -2538,7 +3042,9 @@
       "en": "skin of bamboo",
       "note": "多音字，可讀「yun/jun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "柏",
@@ -2548,7 +3054,9 @@
       "en": "surname Bai；Taiwan pr. [Bo2]；cedar",
       "note": "多音字，可讀「bai/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "夯",
@@ -2558,7 +3066,9 @@
       "en": "to ram; to tamp；a rammer; a tamper；excellent; exceptionally good",
       "note": "多音字，可讀「hang/ben」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "縐",
@@ -2568,7 +3078,9 @@
       "en": "crepe；wrinkle",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "盛",
@@ -2578,7 +3090,9 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "髻",
@@ -2588,7 +3102,9 @@
       "en": "bun, topknot",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嗔",
@@ -2598,7 +3114,9 @@
       "en": "to be angry at；to be displeased and annoyed",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "碌",
@@ -2608,7 +3126,9 @@
       "en": "Taiwan pr. [lu4]",
       "note": "多音字，可讀「lu/liu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "哼",
@@ -2618,7 +3138,9 @@
       "en": "to groan；to snort；to hum",
       "note": "多音字，可讀「heng/hng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "俏",
@@ -2628,7 +3150,9 @@
       "en": "good-looking；charming；(of goods) in great demand",
       "note": "多音字，可讀「qiao/xiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "杳",
@@ -2638,7 +3162,9 @@
       "en": "dark and quiet；disappear",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "忝",
@@ -2648,7 +3174,9 @@
       "en": "to shame",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "諛",
@@ -2658,7 +3186,9 @@
       "en": "to flatter",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "詡",
@@ -2668,7 +3198,9 @@
       "en": "to brag；popular；lovely",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "竽",
@@ -2678,7 +3210,9 @@
       "en": "free reed wind instrument similar to the sheng 笙[sheng1], used in ancient China",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鰱",
@@ -2688,7 +3222,9 @@
       "en": "silver carp, hypophthalmiathys",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "據",
@@ -2698,7 +3234,9 @@
       "en": "according to；to act in accordance with；to depend on",
       "note": "多音字，可讀「ju/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瞭",
@@ -2708,7 +3246,9 @@
       "en": "(bound form) clear in one's mind; to understand clearly；unofficial variant of 瞭[liao4]；to watch from a height or distance",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "匙",
@@ -2718,7 +3258,9 @@
       "en": "spoon",
       "note": "多音字，可讀「chi/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鏤",
@@ -2728,7 +3270,9 @@
       "en": "to inlay; to engrave, to carve; tattoo",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "仔",
@@ -2738,7 +3282,9 @@
       "en": "(dialect) (bound form) young man",
       "note": "多音字，可讀「zai/zi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "倩",
@@ -2748,7 +3294,9 @@
       "en": "pretty；winsome；to ask for sb's help",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "黜",
@@ -2758,7 +3306,9 @@
       "en": "to dismiss; to downgrade, to demote",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳶",
@@ -2768,7 +3318,9 @@
       "en": "kite; Milvus species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "儕",
@@ -2778,7 +3330,9 @@
       "en": "a class；a company；companion",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "乇",
@@ -2788,7 +3342,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "倭",
@@ -2798,7 +3354,9 @@
       "en": "dwarf；Japanese (derog.) (old)",
       "note": "多音字，可讀「wo/wei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "唳",
@@ -2808,7 +3366,9 @@
       "en": "cry of a crane or wild goose",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "谷",
@@ -2818,7 +3378,9 @@
       "en": "grain；corn；surname Gu",
       "note": "多音字，可讀「gu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "阿",
@@ -2828,7 +3390,9 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "羈",
@@ -2838,7 +3402,9 @@
       "en": "bridle；halter；to restrain",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "啕",
@@ -2848,7 +3414,9 @@
       "en": "(bound form) to wail",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "薄",
@@ -2858,7 +3426,9 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "舡",
@@ -2868,7 +3438,9 @@
       "en": "boat；ship",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "娼",
@@ -2878,7 +3450,9 @@
       "en": "prostitute",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "慇",
@@ -2888,7 +3462,9 @@
       "en": "solicitous",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "懃",
@@ -2898,7 +3474,9 @@
       "en": "(literary) diligent; industrious; hardworking (variant of 勤[qin2])；(literary) solicitous; attentive",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "忖",
@@ -2908,7 +3486,9 @@
       "en": "to ponder；to speculate；to consider",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "玷",
@@ -2918,7 +3498,9 @@
       "en": "blemish；disgrace；flaw in jade",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "埋",
@@ -2928,7 +3510,9 @@
       "en": "to bury",
       "note": "多音字，可讀「mai/man」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "漕",
@@ -2938,7 +3522,9 @@
       "en": "to transport (esp. grain) by water；(literary) watercourse; canal",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "絡",
@@ -2948,7 +3534,9 @@
       "en": "net-like object；to hold sth in place with a net；to wind",
       "note": "多音字，可讀「luo/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "港",
@@ -2958,7 +3546,9 @@
       "en": "Hong Kong (abbr. for 香港[Xiang1 gang3])；surname Gang；harbor",
       "note": "多音字，可讀「gang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "羲",
@@ -2968,7 +3558,9 @@
       "en": "same as Fuxi 伏羲[Fu2 xi1], a mythical emperor；surname Xi",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "啐",
@@ -2978,7 +3570,9 @@
       "en": "to spit；(onom.) pshaw!；(old) to sip",
       "note": "多音字，可讀「cui/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "泊",
@@ -2988,7 +3582,9 @@
       "en": "to moor (a boat)；to park (a vehicle)；(literary) calm; quiet; peaceful",
       "note": "多音字，可讀「bo/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "絳",
@@ -2998,7 +3594,9 @@
       "en": "capital of the Jin State during the Spring and Autumn Period (770-475 BC)；purple-red",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "麒",
@@ -3008,7 +3606,9 @@
       "en": "mythical unicorn",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "麟",
@@ -3018,7 +3618,9 @@
       "en": "female unicorn",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "幀",
@@ -3028,7 +3630,9 @@
       "en": "frame；classifier for paintings etc；Taiwan pr. [zheng4]",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剡",
@@ -3038,7 +3642,9 @@
       "en": "sharp",
       "note": "多音字，可讀「yan/shan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "桎",
@@ -3048,7 +3654,9 @@
       "en": "fetters",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "梏",
@@ -3058,7 +3666,9 @@
       "en": "braces (med.)；fetters；manacles",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "踹",
@@ -3068,7 +3678,9 @@
       "en": "to kick；to trample；to tread on",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "祭",
@@ -3078,7 +3690,9 @@
       "en": "to offer a sacrifice to (gods or ancestors)；(in classical novels) to recite an incantation to activate a magic weapon; to wield (sth magic)；(bound form) ceremony",
       "note": "多音字，可讀「ji/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "巷",
@@ -3088,7 +3702,9 @@
       "en": "lane；alley",
       "note": "多音字，可讀「xiang/hang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "炫",
@@ -3098,7 +3714,9 @@
       "en": "to dazzle；(bound form) to boast; to show off；(slang) cool; awesome",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蕃",
@@ -3108,7 +3726,9 @@
       "en": "foreign (non-Chinese)；luxuriant；flourishing",
       "note": "多音字，可讀「fan/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "參",
@@ -3118,7 +3738,9 @@
       "en": "to take part in；to participate；to join",
       "note": "多音字，可讀「can/shen/cen/san」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "朦",
@@ -3128,7 +3750,9 @@
       "en": "dim, obscure; the condition of the moon",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朧",
@@ -3138,7 +3762,9 @@
       "en": "blurry, obscured; the condition or appearance of the moon",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "屬",
@@ -3148,7 +3774,9 @@
       "en": "category；genus (taxonomy)；family members",
       "note": "多音字，可讀「shu/zhu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "夤",
@@ -3158,7 +3786,9 @@
       "en": "late at night",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "敕",
@@ -3168,7 +3798,9 @@
       "en": "imperial orders",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "澄",
@@ -3178,7 +3810,9 @@
       "en": "surname Cheng；clear；limpid",
       "note": "多音字，可讀「cheng/deng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "拗",
@@ -3188,7 +3822,9 @@
       "en": "(dialect) to twist; to bend (in order to break sth or form it into a shape)；(bound form) intractable; contrary; disobedient",
       "note": "多音字，可讀「ao/niu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "沈",
@@ -3198,7 +3834,9 @@
       "en": "surname Shen；short name for 瀋陽|沈阳[Shen3 yang2]；(literary) juice",
       "note": "多音字，可讀「shen/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "塚",
@@ -3208,7 +3846,9 @@
       "en": "burial mound (variant of 冢[zhong3])",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "琢",
@@ -3218,7 +3858,9 @@
       "en": "to cut (gems)",
       "note": "多音字，可讀「zhuo/zuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "惻",
@@ -3228,7 +3870,9 @@
       "en": "sorrowful",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "爰",
@@ -3238,7 +3882,9 @@
       "en": "surname Yuan；therefore；consequently",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "簌",
@@ -3248,7 +3894,9 @@
       "en": "to rustle; falling flower petals",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愴",
@@ -3258,7 +3906,9 @@
       "en": "mournful；sad；grieved",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "濡",
@@ -3268,7 +3918,9 @@
       "en": "dilatory；to moisten",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "樽",
@@ -3278,7 +3930,9 @@
       "en": "goblet；bottle；wine-jar",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "軺",
@@ -3288,7 +3942,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閭",
@@ -3298,7 +3954,9 @@
       "en": "a village of twenty-five families",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "潦",
@@ -3308,7 +3966,9 @@
       "en": "flooded；heavy rain",
       "note": "多音字，可讀「liao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "泄",
@@ -3318,7 +3978,9 @@
       "en": "(bound form) to leak out; to discharge; (fig.) to divulge",
       "note": "多音字，可讀「xie/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "殷",
@@ -3328,7 +3990,9 @@
       "en": "surname Yin；dynasty name at the end the Shang dynasty, after its move to Yinxu 殷墟[Yin1 xu1] in present-day Henan；flourishing",
       "note": "多音字，可讀「yin/yan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "殯",
@@ -3338,7 +4002,9 @@
       "en": "a funeral；to encoffin a corpse；to carry to burial",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "率",
@@ -3348,7 +4014,9 @@
       "en": "(bound form) ratio; rate; proportion；to lead；to command",
       "note": "多音字，可讀「lü/shuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諭",
@@ -3358,7 +4026,9 @@
       "en": "order (from above)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "獠",
@@ -3368,7 +4038,9 @@
       "en": "fierce；hunt；name of a tribe",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嵐",
@@ -3378,7 +4050,9 @@
       "en": "(bound form) mountain mist",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "給",
@@ -3388,7 +4062,9 @@
       "en": "to；for；for the benefit of",
       "note": "多音字，可讀「gei/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "裳",
@@ -3398,7 +4074,9 @@
       "en": "lower garment；skirts；petticoats",
       "note": "多音字，可讀「shang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "貸",
@@ -3408,7 +4086,9 @@
       "en": "to lend on interest；to borrow；a loan",
       "note": "多音字，可讀「dai/te」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "亡",
@@ -3418,7 +4098,9 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "擢",
@@ -3428,7 +4110,9 @@
       "en": "to pull out；to select；to promote",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "刳",
@@ -3438,7 +4122,9 @@
       "en": "to cut open；rip up；scoop out",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蒿",
@@ -3448,7 +4134,9 @@
       "en": "celery wormwood (Artemisia carvifolia)；to give off；to weed",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "覷",
@@ -3458,7 +4146,9 @@
       "en": "to spy；watch for",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "湔",
@@ -3468,7 +4158,9 @@
       "en": "to wash；to redress (a wrong)；name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "呵",
@@ -3478,7 +4170,9 @@
       "en": "(bound form) to scold；to expel breath；(onom.) laughter (usu. reduplicated)",
       "note": "多音字，可讀「he/a」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "叩",
@@ -3488,7 +4182,9 @@
       "en": "to knock；to kowtow；to knock",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "責",
@@ -3498,7 +4194,9 @@
       "en": "duty；responsibility；to reproach",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "扳",
@@ -3508,7 +4206,9 @@
       "en": "to pull；to turn (sth) around；to turn around (a situation)",
       "note": "多音字，可讀「ban/pan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "撮",
@@ -3518,7 +4218,9 @@
       "en": "to pick up (a powder etc) with the fingertips；to scoop up；to collect together",
       "note": "多音字，可讀「cuo/zuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "楸",
@@ -3528,7 +4230,9 @@
       "en": "Catalpa；Mallotus japonicus",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "襤",
@@ -3538,7 +4242,9 @@
       "en": "ragged, tattered, threadbare",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "褸",
@@ -3548,7 +4254,9 @@
       "en": "lapel, collar; tattered, threadbare",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "崢",
@@ -3558,7 +4266,9 @@
       "en": "high, lofty, noble; perilous, steep",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嶸",
@@ -3568,7 +4278,9 @@
       "en": "high, lofty, steep, towering",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "梢",
@@ -3578,7 +4290,9 @@
       "en": "tip of branch",
       "note": "多音字，可讀「shao/sao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "幘",
@@ -3588,7 +4302,9 @@
       "en": "turban；head-covering",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "踱",
@@ -3598,7 +4314,9 @@
       "en": "to pace; to stroll；Taiwan pr. [duo4]",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齷",
@@ -3608,7 +4326,9 @@
       "en": "narrow, small-minded; dirty (1)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "齪",
@@ -3618,7 +4338,9 @@
       "en": "narrow, small-minded; dirty (2)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "倜",
@@ -3628,7 +4350,9 @@
       "en": "lofty, exalted",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "儻",
@@ -3638,7 +4362,9 @@
       "en": "(literary) variant of 倘[tang3]",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "呷",
@@ -3648,7 +4374,9 @@
       "en": "to sip; to drink；Taiwan pr. [xia2]",
       "note": "多音字，可讀「xia/ga」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "箸",
@@ -3658,7 +4386,9 @@
       "en": "(literary) chopsticks",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "咀",
@@ -3668,7 +4398,9 @@
       "en": "popular variant of 嘴[zui3]",
       "note": "多音字，可讀「zui/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "嚼",
@@ -3678,7 +4410,9 @@
       "en": "to chew；also pr. [jue2]",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "剎",
@@ -3688,7 +4422,9 @@
       "en": "Buddhist monastery, temple or shrine (abbr. for 剎多羅|刹多罗[cha4 duo1 luo2], Sanskrit \"ksetra\")",
       "note": "多音字，可讀「cha/sha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "徵",
@@ -3698,7 +4434,9 @@
       "en": "4th note in the ancient Chinese pentatonic scale 五音[wu3 yin1], corresponding to sol",
       "note": "多音字，可讀「zhi/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "縲",
@@ -3708,7 +4446,9 @@
       "en": "(literary) thick rope used to restrain a prisoner",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "紲",
@@ -3718,7 +4458,9 @@
       "en": "to tie；to bind；to hold on a leash",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "賈",
@@ -3728,7 +4470,9 @@
       "en": "surname Jia",
       "note": "多音字，可讀「jia/gu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "颺",
@@ -3738,7 +4482,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拽",
@@ -3748,7 +4494,9 @@
       "en": "to throw；to fling；self-satisfied; cocky (alternative written form of 跩[zhuai3])",
       "note": "多音字，可讀「zhuai/ye」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "攢",
@@ -3758,7 +4506,9 @@
       "en": "to collect；to hoard；to accumulate",
       "note": "多音字，可讀「zan/cuan/zuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "洗",
@@ -3768,7 +4518,9 @@
       "en": "to wash; to bathe；to develop (photographs)；to shuffle (cards etc)",
       "note": "多音字，可讀「xi/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "蓼",
@@ -3778,7 +4530,9 @@
       "en": "polygonum；smartweed",
       "note": "多音字，可讀「liao/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "繒",
@@ -3788,7 +4542,9 @@
       "en": "surname Zeng；silk fabrics；to tie",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "洞",
@@ -3798,7 +4554,9 @@
       "en": "cave；hole；zero (unambiguous spoken form when spelling out numbers)",
       "note": "多音字，可讀「dong/tong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "髯",
@@ -3808,7 +4566,9 @@
       "en": "mustache, beard",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "捫",
@@ -3818,7 +4578,9 @@
       "en": "lay hands on；to cover",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "區",
@@ -3828,7 +4590,9 @@
       "en": "area；region；district",
       "note": "多音字，可讀「qu/ou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "庠",
@@ -3838,7 +4602,9 @@
       "en": "(archaic) a school",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "拶",
@@ -3848,7 +4614,9 @@
       "en": "(literary) to force; to coerce",
       "note": "多音字，可讀「za/zan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "剝",
@@ -3858,7 +4626,9 @@
       "en": "to peel；to skin；to shell",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "腌",
@@ -3868,7 +4638,9 @@
       "en": "Taiwan pr. [ang1]",
       "note": "多音字，可讀「yan/a」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "臢",
@@ -3878,7 +4650,9 @@
       "en": "Taiwan pr. [zang1]",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "肴",
@@ -3888,7 +4662,9 @@
       "en": "meat dishes；mixed viands",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "焯",
@@ -3898,7 +4674,9 @@
       "en": "to blanch; to parboil",
       "note": "多音字，可讀「chao/zhuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "咱",
@@ -3908,7 +4686,9 @@
       "en": "I or me；we (including both the speaker and the person spoken to)",
       "note": "多音字，可讀「zan/za」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "悃",
@@ -3918,7 +4698,9 @@
       "en": "sincere",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "血",
@@ -3928,7 +4710,9 @@
       "en": "blood；colloquial pr. [xie3]；CL:滴[di1],片[pian4]",
       "note": "多音字，可讀「xue/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "菅",
@@ -3938,7 +4722,9 @@
       "en": "(grass)；Themeda forsbali",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "臬",
@@ -3948,7 +4734,9 @@
       "en": "guidepost；rule；standard",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鳥",
@@ -3958,7 +4746,9 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "妍",
@@ -3968,7 +4758,9 @@
       "en": "beautiful",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "丐",
@@ -3978,7 +4770,9 @@
       "en": "to beg for alms；beggar",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "椎",
@@ -3988,7 +4782,9 @@
       "en": "(bound form) vertebra",
       "note": "多音字，可讀「zhui/chui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "辟",
@@ -3998,7 +4794,9 @@
       "en": "law, rule; to open up, to develop",
       "note": "多音字，可讀「pi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "搠",
@@ -4008,7 +4806,9 @@
       "en": "daub；thrust",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "兌",
@@ -4018,7 +4818,9 @@
       "en": "surname Dui；to cash；to exchange",
       "note": "多音字，可讀「dui/rui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "驛",
@@ -4028,7 +4830,9 @@
       "en": "relay station",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "滕",
@@ -4038,7 +4842,9 @@
       "en": "vassal state of Zhou in Shandong；surname Teng",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "稽",
@@ -4048,7 +4854,9 @@
       "en": "surname Ji；(bound form) to examine; to check (against records)；(literary) to delay; to linger",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "調",
@@ -4058,7 +4866,9 @@
       "en": "to transfer；to move (troops or cadres)；to investigate",
       "note": "多音字，可讀「diao/tiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "剋",
@@ -4068,7 +4878,9 @@
       "en": "to scold；to beat",
       "note": "多音字，可讀「kei/ke」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諫",
@@ -4078,7 +4890,9 @@
       "en": "surname Jian；to remonstrate；to admonish",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "扛",
@@ -4088,7 +4902,9 @@
       "en": "to carry on one's shoulder；(fig.) to take on (a burden, duty etc)",
       "note": "多音字，可讀「kang/gang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "倏",
@@ -4098,7 +4914,9 @@
       "en": "sudden；abrupt；Taiwan pr. [shu4]",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "輜",
@@ -4108,7 +4926,9 @@
       "en": "supply cart, covered wagon, dray",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "緝",
@@ -4118,7 +4938,9 @@
       "en": "to seize；to arrest；Taiwan pr. [qi4]",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "暉",
@@ -4128,7 +4950,9 @@
       "en": "sunshine；to shine upon",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "邪",
@@ -4138,7 +4962,9 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "跖",
@@ -4148,7 +4974,9 @@
       "en": "metatarsus；(literary) sole of the foot；(literary) to tread on",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嗟",
@@ -4158,7 +4986,9 @@
       "en": "sigh；also pr. [jue1]",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "峙",
@@ -4168,7 +4998,9 @@
       "en": "(literary) to tower aloft",
       "note": "多音字，可讀「zhi/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "俟",
@@ -4178,7 +5010,9 @@
       "en": "(literary) to wait for",
       "note": "多音字，可讀「si/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "悵",
@@ -4188,7 +5022,9 @@
       "en": "regretful; upset; despairing; depressed",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "滸",
@@ -4198,7 +5034,9 @@
       "en": "bank of a river",
       "note": "多音字，可讀「hu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "尾",
@@ -4208,7 +5046,9 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "吾",
@@ -4218,7 +5058,9 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "爻",
@@ -4228,7 +5070,9 @@
       "en": "the solid and broken lines of the eight trigrams 八卦[ba1 gua4], e.g. ☶",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "簿",
@@ -4238,7 +5082,9 @@
       "en": "a book；a register；account-book",
       "note": "多音字，可讀「bo/bu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "兀",
@@ -4248,7 +5094,9 @@
       "en": "surname Wu；(literary) rising to a height; towering；(literary) bald; bare",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "剿",
@@ -4258,7 +5106,9 @@
       "en": "to destroy；to extirpate",
       "note": "多音字，可讀「jiao/chao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "恙",
@@ -4268,7 +5118,9 @@
       "en": "sickness",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "閂",
@@ -4278,7 +5130,9 @@
       "en": "bolt, latch, crossbar",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "庾",
@@ -4288,7 +5142,9 @@
       "en": "surname Yu；name of a mountain",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鞦",
@@ -4298,7 +5154,9 @@
       "en": "leather strap; to swing",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "韆",
@@ -4308,7 +5166,9 @@
       "en": "thousand, many, numerous; swing, seesaw",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "阱",
@@ -4318,7 +5178,9 @@
       "en": "trap, snare, pitfall",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "勁",
@@ -4328,7 +5190,9 @@
       "en": "strength；energy；enthusiasm",
       "note": "多音字，可讀「jin/jing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "甦",
@@ -4338,7 +5202,9 @@
       "en": "to revive",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "陶",
@@ -4348,7 +5214,9 @@
       "en": "pottery, ceramics",
       "note": "多音字，可讀「tao/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "炷",
@@ -4358,7 +5226,9 @@
       "en": "wick of an oil lamp；to burn (incense etc)；classifier for lit incense sticks",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繫",
@@ -4368,7 +5238,9 @@
       "en": "to connect；to arrest；to worry",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鶉",
@@ -4378,7 +5250,9 @@
       "en": "quail; Turnix species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "跛",
@@ -4388,7 +5262,9 @@
       "en": "to limp；lame；crippled",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "抹",
@@ -4398,7 +5274,9 @@
       "en": "to smear；to wipe；to erase",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "螫",
@@ -4408,7 +5286,9 @@
       "en": "(literary) (of a bee or spider etc) to sting or bite",
       "note": "多音字，可讀「shi/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "羊",
@@ -4418,7 +5298,9 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "顙",
@@ -4428,7 +5310,9 @@
       "en": "forehead; to kowtow",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "鸞",
@@ -4438,7 +5322,9 @@
       "en": "fabulous bird",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "綹",
@@ -4448,7 +5334,9 @@
       "en": "skein；tuft；lock",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "饃",
@@ -4458,7 +5346,9 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "糴",
@@ -4468,7 +5358,9 @@
       "en": "to buy up (grain)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "嘖",
@@ -4478,7 +5370,9 @@
       "en": "(interj. of admiration or of disgust)；to click one's tongue；to attempt to (find an opportunity to) speak",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "斕",
@@ -4488,7 +5382,9 @@
       "en": "multicolored",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "彈",
@@ -4498,7 +5394,9 @@
       "en": "crossball；bullet；shot",
       "note": "多音字，可讀「dan/tan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "隊",
@@ -4508,7 +5406,9 @@
       "en": "team, group, band, army unit; measure word for groups of people",
       "note": "多音字，可讀「dui/zhui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "衰",
@@ -4518,7 +5418,9 @@
       "en": "(bound form) to decay; to decline; to wane",
       "note": "多音字，可讀「shuai/cui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "黌",
@@ -4528,7 +5430,9 @@
       "en": "school",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "泮",
@@ -4538,7 +5442,9 @@
       "en": "(literary) to melt；to dissolve",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "笈",
@@ -4548,7 +5454,9 @@
       "en": "trunks (for books)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "墀",
@@ -4558,7 +5466,9 @@
       "en": "courtyard",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹌",
@@ -4568,7 +5478,9 @@
       "en": "walk rapidly；stagger；sway from side to side",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "遒",
@@ -4578,7 +5490,9 @@
       "en": "robust, strong; unyielding",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "娉",
@@ -4588,7 +5502,9 @@
       "en": "beautiful, charming, graceful",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "婷",
@@ -4598,7 +5514,9 @@
       "en": "graceful",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "囀",
@@ -4608,7 +5526,9 @@
       "en": "to sing (of birds or insects)；to warble；to chirp",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "篤",
@@ -4618,7 +5538,9 @@
       "en": "(bound form) sincere; genuine；(bound form) (of an illness) serious",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "藉",
@@ -4628,7 +5550,9 @@
       "en": "(literary) cushion; mat；(literary) to put some padding underneath",
       "note": "多音字，可讀「jie/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "瑕",
@@ -4638,7 +5562,9 @@
       "en": "blemish；flaw in jade",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "愉",
@@ -4648,7 +5574,9 @@
       "en": "pleased",
       "note": "多音字，可讀「yu/tou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "牘",
@@ -4658,7 +5586,9 @@
       "en": "documents",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "亟",
@@ -4668,7 +5598,9 @@
       "en": "(literary) urgently; anxiously; earnestly",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "誚",
@@ -4678,7 +5610,9 @@
       "en": "ridicule；to blame",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衽",
@@ -4688,7 +5622,9 @@
       "en": "(literary) overlapping part of Chinese gown；lapel；sleeping mat",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衿",
@@ -4698,7 +5634,9 @@
       "en": "collar；belt",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "殞",
@@ -4708,7 +5646,9 @@
       "en": "(literary) to perish; to die",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "儆",
@@ -4718,7 +5658,9 @@
       "en": "to warn；to admonish",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "黷",
@@ -4728,7 +5670,9 @@
       "en": "to dishonor, to defile, to corrupt; soiled",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "核",
@@ -4738,7 +5682,9 @@
       "en": "pit；stone；nucleus",
       "note": "多音字，可讀「he/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "邸",
@@ -4748,7 +5694,9 @@
       "en": "official residence",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "訐",
@@ -4758,7 +5706,9 @@
       "en": "to accuse；to pry",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "系",
@@ -4768,7 +5718,9 @@
       "en": "to connect；to relate to；to tie up",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "諍",
@@ -4778,7 +5730,9 @@
       "en": "to admonish；to warn sb of their errors；to criticize frankly",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "壑",
@@ -4788,7 +5742,9 @@
       "en": "gully；ravine；Taiwan pr. [huo4]",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "捻",
@@ -4798,7 +5754,9 @@
       "en": "to twirl (in the fingers)",
       "note": "多音字，可讀「nian/nie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "戾",
@@ -4808,7 +5766,9 @@
       "en": "to bend；to violate；to go against",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "雀",
@@ -4818,7 +5778,9 @@
       "en": "sparrow",
       "note": "多音字，可讀「que/qiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "繳",
@@ -4828,7 +5790,9 @@
       "en": "to hand in; to hand over; to pay；to capture (weapons); to seize",
       "note": "多音字，可讀「jiao/zhuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "餑",
@@ -4838,7 +5802,9 @@
       "en": "cake, biscuit",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "繆",
@@ -4848,7 +5814,9 @@
       "en": "surname Miao",
       "note": "多音字，可讀「mou/miu/miao/liao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "校",
@@ -4858,7 +5826,9 @@
       "en": "(bound form) school; college；(bound form) (military) field officer",
       "note": "多音字，可讀「xiao/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "搶",
@@ -4868,7 +5838,9 @@
       "en": "(literary) to knock against (esp. to knock one's head on the ground in grief or rage)；opposite in direction; contrary；to fight over",
       "note": "多音字，可讀「qiang/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "鷂",
@@ -4878,7 +5850,9 @@
       "en": "sparrow hawk; Circus species (various)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "馘",
@@ -4888,7 +5862,9 @@
       "en": "to cut off the left ear; to tally the enemy's dead",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "挾",
@@ -4898,7 +5874,9 @@
       "en": "(bound form) to clasp under the arm；(bound form) to coerce；(bound form) to harbor (resentment etc)",
       "note": "多音字，可讀「xie/jia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "垓",
@@ -4908,7 +5886,9 @@
       "en": "boundary",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "吶",
@@ -4918,7 +5898,9 @@
       "en": "battle cry；sentence-final particle (abbr. for 呢啊[ne5 a5] or variant of 哪[na5])",
       "note": "多音字，可讀「na/ne」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "愾",
@@ -4928,7 +5910,9 @@
       "en": "anger",
       "note": "多音字，可讀「kai/xi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     },
     {
       "word": "罔",
@@ -4938,7 +5922,9 @@
       "en": "to deceive；there is none",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "恣",
@@ -4948,7 +5934,9 @@
       "en": "to abandon restraint；to do as one pleases；comfortable (dialect)",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "疆",
@@ -4958,7 +5946,9 @@
       "en": "border；boundary",
       "note": "多音字，可讀「jiang/qiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "削",
@@ -4968,7 +5958,9 @@
       "en": "to peel with a knife；to pare；to cut (a ball at tennis etc)",
       "note": "多音字，可讀「xiao/xue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "奩",
@@ -4978,7 +5970,9 @@
       "en": "bridal trousseau",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蹂",
@@ -4988,7 +5982,9 @@
       "en": "trample",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "衄",
@@ -4998,7 +5994,9 @@
       "en": "to bleed from the nose (or from the ears, gums etc)；fig. to be defeated",
       "note": null,
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "蟒",
@@ -5008,7 +6006,9 @@
       "en": "python",
       "note": "多音字，可讀「mang/meng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "一枕奇"
+      "src": "一枕奇",
+      "multi": true,
+      "rare": true
     }
   ]
 }

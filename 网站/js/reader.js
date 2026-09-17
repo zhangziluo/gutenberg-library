@@ -72,11 +72,18 @@ const POS_PREFIX = 'gjs:pos:';
   // 贪心匹配键：按长度降序，避免长词被其中的单字注释截胡
   const annKeys = Array.from(annMap.keys()).sort(function (x, y) { return y.length - x.length; });
   // 首字索引：正文按首字取候选词，避免逐位置遍历整表
+  // 英文词（词表存小写）另加首字母大小写别名，使句首大写的 Creature 也能命中
   const annFirst = new Map();
+  function annIndex(c, w) {
+    const arr = annFirst.get(c);
+    if (arr) { if (arr.indexOf(w) < 0) arr.push(w); }
+    else annFirst.set(c, [w]);
+  }
   annKeys.forEach(function (w) {
     const c = w.charAt(0);
-    const arr = annFirst.get(c);
-    if (arr) arr.push(w); else annFirst.set(c, [w]);
+    annIndex(c, w);
+    if (c >= 'a' && c <= 'z') annIndex(c.toUpperCase(), w);
+    else if (c >= 'A' && c <= 'Z') annIndex(c.toLowerCase(), w);
   });
 
   function annLangNow() {
@@ -141,6 +148,9 @@ const POS_PREFIX = 'gjs:pos:';
         for (let k = 0; k < cands.length; k++) {
           const w = cands[k];
           if (orig.startsWith(w, i)) { hit = w; break; }
+          // 英文词大小写不敏感（词表为小写；正文受句首/专名影响可能大写）
+          if (w.length <= n - i
+              && orig.substr(i, w.length).toLowerCase() === w.toLowerCase()) { hit = w; break; }
         }
       }
       if (hit) {
@@ -148,9 +158,9 @@ const POS_PREFIX = 'gjs:pos:';
         if (annLevelAllows(e)) {
           out += '<span class="ann-word' + (e && e.is_difficult ? ' ann-hard' : '')
             + (e && e.rare ? ' ann-rare' : '') + '" data-ann="' + esc(hit) + '">'
-            + esc(convertText(hit)) + '</span>';
+            + esc(convertText(orig.substr(i, hit.length))) + '</span>';
         } else {
-          out += esc(convertText(hit));
+          out += esc(convertText(orig.substr(i, hit.length)));
         }
         i += hit.length;
       } else {
