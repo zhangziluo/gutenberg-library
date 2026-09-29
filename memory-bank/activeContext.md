@@ -1,7 +1,54 @@
 # Active Context（当前状态与下一步）
 
 ## 当前（进行中）
-- ✅ **英文书入库 + 英汉释义回填链路（2026-09-17，已提交推送）**：书库 94 → **106 本**
+- ✅ **「整本一节」批量修复：第八批 29 本（2026-09-29，已入库+构建）**：为 **23 本中文书 + 6 本英文书**
+  逐本定制切分规则，书库仍 106 本但章节结构重排（喻世明言 1→40 卷、日知錄 1→1008 條等）。
+  - **新增 15 个切分器**（`gutenberg_import.py`「第八批新书切分器」区）：
+    - `juan_cat` 第X卷+篇名同行（明鏡公案/閱微草堂筆記/喻世明言/警世通言/一枕奇）——
+      分隔符兼容 Tab／全角空格／**不换行空格 U+00A0**（警世通言用 U+00A0，首版曾漏切）；
+    - `pin` 六祖壇經 X品第N；`fen` 金剛經 X分第N；`guofan` 《篇名》韓非子；
+      `kuokuo` 〔篇名〕公孫龍子；`jianjiao` 〈篇名〉三略；`mtz` 字间空格「穆 天 子 傳 卷 之 一」；
+      `dongming` 《漢武帝別國洞冥記卷第X》；`rizhilu` ●卷X 作前缀 + ○條目 作章；
+      `guiguzi` 篇名第X／篇X + 本經陰符七篇七子篇；`baopuzi` 《抱朴子‧篇名》逐條（重名加序）；
+      `titles` 白名單標題；`auto_head` 結構式短題（空行後短行 + 其後首个非空行为长行）；
+      `fo42` 佛說四十二章經按段落切「序+42章」并按内容去重（源文件正文整体重出一次）；
+      `en_titles` 英文按 TOC 標題清單（支持標題折行续行、空章丢弃）。
+  - **新增配置能力**：`drop`（正則剔除卷/編/數字序號行）、`dedup_titles`、`maxlen`、
+    `drop_until_col0`（英文书跳过封面页与缩进目录，只认顶格行；避免 Walden 封面
+    "ON THE DUTY OF CIVIL DISOBEDIENCE" 生成假章）。
+  - **英文书元数据修复**：#146 实为 **A Little Princess**（Frances Hodgson Burnett），
+    原先记为「A Little Prince / Unknown」；已改并删除陈旧 `网站/_site_data/A Little Prince.json`，
+    `slim_books_index.py` 重建 `books.json`（114 本）。
+  - 章数结果：日知錄 1008、天妃顯聖錄 88、晁氏儒言 83、賈誼新書 70、Grimms 62、鹽鐵論 60、
+    韓非子 53、佛說四十二章經 43（序+42章）、喻世明言/警世通言 各 40、抱朴子 38、
+    Arabian Nights 35、管子 34、金剛經 32、閱微草堂筆記 24、明夷待訪錄 21、鬼谷子 19、
+    Walden/A Little Princess 各 19、Jungle Book 14、Wind in the Willows 12、一枕奇/六祖壇經 各 10、
+    公孫龍子/穆天子傳 各 6、明鏡公案/洞冥記 各 4、三略 3、傳法心要 2。
+  - **仍保持「整本一节」**（原文本无标题结构可切，合理保留）：幽明錄、菜根譚、李娃傳、虬髯客傳。
+  - 回归链：106 本全量 `_build_one` **0 异常 / 0 空切分** → 入库 29 本 →
+    `fill_glosses.py --no-network`（58 文件 / 218,482 条；简繁 91.7%、英文 94.6%；
+    英文词 21,331 → 中文释义 94.6%、英文释义 90.3%、音标 76.4%）→ `deploy/build.sh`
+    （dist 101 MiB / 155 文件）。
+
+## 已知待办（按优先级）
+1. ⚠️ **菜根譚前後集 #24040 源文件错码（待拍板）**：古登堡官方 `pg24040.txt` 正文整体乱码
+   （例：`頦菜鈭亦剝剖亙蝎寧`），**重新下载字节完全一致** → 非下载问题；且
+   big5/gbk/cp950/euc-* 互转均失败 → **编码不可逆**。方案 A：另取正确源（维基文库等）替换 raw；
+   方案 B：从书库撤下（#24050《菜根譚》已可读）。
+2. ⚠️ **`fill_glosses.py` 联网预取极慢（性能 bug）**：step 2 的
+   `need = sorted(... G.en_word_needs_api(w) ...)` 中 ECDICT 分片被反复重新解析
+   （`sample` 显示热点 `builtins.sorted → _json.scan_once_unicode`），3000 预算跑 15 min
+   仍不足 200 条。本次已改用 `--no-network`（ECDICT 打底）。修复思路：按 `gloss_order()`
+   首字母聚簇遍历 / 预载分片，或直接去掉 step 2。
+3. ⚠️ **自动分类未接通**：`scripts/classify_books.py` 默认读 `data/books.json`（本项目**不存在**），
+   且需 `DEEPSEEK_API_KEY`；`pipeline.sh` 已有守卫（缺失即提示跳过）。
+4. 📋 **待入库批次**：`文本/新书/i.txt` 11 本英文书（37106/1260/1661/174/2701/2600/1400/768/4300/2554/28054）
+   —— **用户指示暂不跑**。执行：`bash 文本/新书/add_books.sh --file 文本/新书/i.txt`
+5. 📋 英文释义可继续补全：修好性能后 `python3 文本/新书/fill_glosses.py --api-budget=8000`
+   （缓存 `data/ecdict_api_cache.json` 持久，可多次累积）。
+
+## 上一批（2026-09-17，已提交推送）
+- ✅ **英文书入库 + 英汉释义回填链路**：书库 94 → **106 本**
   （經部 9 / 史部 5 / **子部 77** / 集部 7 / 近現代文學 8），提交 `afe688d`
   「更新书库: 新增12本, 更新94本」→ 已推送 `origin/main`（`227c579..afe688d`）。
   - 入库书目（12 本古登堡英文书）：Frankenstein#84、Dracula#345、The Hound of the Baskervilles#2852、
@@ -37,20 +84,7 @@
     `--no-push` / `--no-commit` / `--no-classify` / `--offline` / `--classify-input <文件>`；
     自动载入项目根 `.env`。两者均自推项目根、可在任意目录调用。
 
-## 已知待办（按优先级）
-1. ⚠️ **6 本英文书仍是「整本一节」**：Walden / The Jungle Book / The Wind in the Willows /
-   A Little Prince / Grimms' Fairy Tales / The Arabian Nights —— 其章节标题为「无缩进小标题 /
-   全大写标题 / 故事名」，超出 `en_chapter`（CHAPTER·Part·数字·罗马数字）识别范围，需按书补切分器。
-2. ⚠️ **自动分类未接通**：`scripts/classify_books.py` 默认读 `data/books.json`（本项目**不存在**，历史 3 次运行
-   均因此失败），且需 `DEEPSEEK_API_KEY`。已在 `pipeline.sh` 加守卫（缺失即提示跳过，不中断流水线）。
-   要启用需：把输入改成项目真实书库（要求「含 id 的 JSON 数组」）并配 `.env`。
-3. 📋 **待入库批次**：`文本/新书/i.txt` 已改为 11 本英文书（37106 Little Women、1260 Jane Eyre、
-   1661 Sherlock Holmes、174 Dorian Gray、2701 Moby Dick、2600 War and Peace、1400 Great Expectations、
-   768 Wuthering Heights、4300 Ulysses、2554 Crime and Punishment、28054 Brothers Karamazov）——
-   **用户指示暂不跑**。执行：`bash 文本/新书/add_books.sh --file 文本/新书/i.txt`
-4. 📋 英文释义可继续补全：`python3 文本/新书/fill_glosses.py --api-budget=8000`（缓存持久，可多次累积）。
-
-## 上一批（历史，均已入库）
+## 更早批次（历史，均已入库）
 - ✅ 第七批中文书 10 本（2026-09-08）：隋唐演義/論語/滬語開路/白圭志/孟子字義疏證/安樂集/鄧析子/醉醒石/唐鍾馗平鬼傳/春秋繁露；
   新增切分器 `split_lunyu`/`split_juan_sc`/`split_fanlu`。
 - ✅ 第六批 10 本：飛跎全傳/佛說四十二章經/洛神賦/晁氏儒言/水滸後傳/幼學瓊林/治世餘聞/琵琶記/雪月梅傳/龍川詞；新增 `split_chu`/`split_juan_num`/`split_yxql`。

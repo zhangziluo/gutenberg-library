@@ -1,6 +1,6 @@
 {
   "title": "筠州黃檗山斷際禪師傳法心要",
-  "section_count": 1,
+  "section_count": 2,
   "categories": [
     "全書"
   ],
@@ -13,8 +13,6 @@
       "category_label": "全書",
       "number": 1,
       "paragraphs": [
-        "禪宗哲學",
-        "筠州黃檗山斷際禪師傳法心要",
         "[唐]希運",
         "[簡介]",
         "唐代禪宗要典。黃檗山斷際禪師希運撰述。裴休集並序。",
@@ -43,8 +41,17 @@
         "上堂云：百種多知，不如無求最第一也，道人是無事人，實無許多般心，亦無道理可說，無事散去。",
         "問：如何是世諦？師云：說葛藤作什麼？本來清淨，何假言說問答，但無一切心，即名無漏智。汝每日行住坐臥一切言語，但莫著有為法，出言瞬目，盡同無漏。如今本法向去，多是學禪道者，皆著一切聲色，何不與我心心同虛空去，如枯木石頭去，如寒灰死火去，方有少分相應。若不如是，他日盡被閻老子拷你在，你但離卻有無諸法，心如日輪常在虛空，光明自然不照而照，不是省力底事。至此之時無栖泊處，即是行諸佛行，便是應生所住而生其心。此是你清淨法身，名為阿耨菩提。若不會此意，縱你學得多知，勤苦修行，草衣木食，不識自心，盡名邪行，定作天魔眷屬，如此修行當復何益？志公云：佛本是自心作，那得向文字中求，饒你學得三賢四果十地滿心，也只是在凡聖內坐。不見道諸行無常，是生滅法，勢力盡，箭還墜，招得來生不如意，爭似無為實相門，一超直入如來地，為你不是與麼人，須要向古人建化門廣學知解。志公云：不逢出世明師，枉服大乘法藥；你如今一切時中行住坐臥，但學無心，久久須實得；為你力量小，不能頓超，但得三年五年，或十年，須得個入頭處，自然會去，為汝不能如是，須要將心學禪學道，佛法有甚麼交涉。故云：如來所說，皆為化人，如將黃葉為金，止小兒啼，決定不實，若有實得，非我宗門下客，且與你本體有甚交涉。故經云：實無法少法可得名為阿耨菩提，若也會得此意，方知佛道魔道俱錯，本來清淨皎皎地，無方圓，無大小，無長短等相，無漏無為，無迷無悟，了了見，無一物，亦無人，亦無佛，大千沙界海中漚，一切聖賢如電拂，一切不如心真實。法身從古至今，與佛祖一般，何處欠少一毫毛。既會如是意，不須努力，盡今生去，出息不保入息。",
         "問：六祖不會經書，何得傳衣為祖？秀上作是五百人首道坐，為教授師，獎得三十二本經論，云何不傳衣？師云：為他是有心，是為有，所得修所證，將為是也，所以五祖付六祖，六祖當時只是默契得，密授如來甚深意，所以付法於他。汝不見道法佛法本法無法，今付無法時，法法何曾法，若會此意，方名出家兒，方好修行，若不信，云何明上座走來大庾嶺頭尋六祖。六祖便問：汝來求何事，為求衣，為求法？明上座云：不為衣來，但為法來。六祖云：汝且暫時斂念，善惡都莫思量，明乃稟語。六祖云：不思善，不思惡正當與麼時，還我明上座父母未生時面目來。明於言下忽然默契，便禮拜云：如人飲水，冷暖自知。某甲在五祖會中，枉用三十年功夫，今日方省前非。六祖云：如是，到此之時，方知祖師西來，直指人心見性成佛，不在言說。豈不見阿難問迦葉云：世尊傳金襴外，別傳何物？迦葉召阿難，阿難應諾。迦葉云：倒卻門前剎竿著，此便是祖師之標榜也；甚深阿難三十年為侍者，只為多聞智慧，被佛訶云：汝千日智慧，不如一日學道，若不學道，滴水難消。",
-        "（錄自《頻迦精舍大經藏》騰四）",
-        "黃檗斷際禪師宛陵錄",
+        "（錄自《頻迦精舍大經藏》騰四）"
+      ]
+    },
+    {
+      "book": "筠州黃檗山斷際禪師傳法心要",
+      "title": "黃檗斷際禪師宛陵錄",
+      "source": "黃檗希運",
+      "category": "other",
+      "category_label": "全書",
+      "number": 2,
+      "paragraphs": [
         "〔唐〕希運",
         "〔簡介〕",
         "唐代禪宗要點。黃檗山斷際禪師希運撰述，裴休集。一卷。",
@@ -134,18 +141,6 @@
       "rare": true
     },
     {
-      "word": "筠",
-      "pinyin": "yún",
-      "zh_cn": "竹皮，竹子",
-      "zh_tw": "竹皮，竹子",
-      "en": "skin of bamboo",
-      "note": "多音字，可讀「yun/jun」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
-      "multi": true,
-      "rare": true
-    },
-    {
       "word": "檗",
       "pinyin": "bò",
       "zh_cn": "黄檗。乔木，木材坚硬，茎可制黄色染料，树皮可入中药。又作黄柏",
@@ -156,18 +151,6 @@
       "src": "筠州黃檗山斷際禪師傳法心要",
       "multi": false,
       "rare": true
-    },
-    {
-      "word": "傳",
-      "pinyin": "chuán",
-      "zh_cn": "①传递、传送（传信）；②传授（师传）；③流传、传播（名传后世）。又读 zhuàn：传记、注释或解说经义的文字（《左传》）。",
-      "zh_tw": "①傳遞、傳送（傳信）；②傳授（師傳）；③流傳、傳播（名傳後世）。又讀 zhuàn：傳記、註釋或解說經義的文字（《左傳》）。",
-      "en": "to pass on；to spread；to transmit",
-      "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
-      "multi": true,
-      "rare": false
     },
     {
       "word": "休",
@@ -428,6 +411,18 @@
       "zh_tw": "①讀 dān：單一、單獨；單薄；記載用的紙片（賬單）；②讀 shàn：姓，地名（單縣）；③讀 chán：單于（匈奴君主）。",
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "筠州黃檗山斷際禪師傳法心要",
+      "multi": true,
+      "rare": false
+    },
+    {
+      "word": "傳",
+      "pinyin": "chuán",
+      "zh_cn": "①传递、传送（传信）；②传授（师传）；③流传、传播（名传后世）。又读 zhuàn：传记、注释或解说经义的文字（《左传》）。",
+      "zh_tw": "①傳遞、傳送（傳信）；②傳授（師傳）；③流傳、傳播（名傳後世）。又讀 zhuàn：傳記、註釋或解說經義的文字（《左傳》）。",
+      "en": "to pass on；to spread；to transmit",
+      "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
       "src": "筠州黃檗山斷際禪師傳法心要",
       "multi": true,
@@ -1653,7 +1648,7 @@
       "en": "period；cycle；a period of time",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1665,7 +1660,7 @@
       "en": "feather screen；to screen；to shade",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -1677,7 +1672,7 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1689,7 +1684,7 @@
       "en": "surname Ji；(bound form) to examine; to check (against records)；(literary) to delay; to linger",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1701,7 +1696,7 @@
       "en": "to make an appointment；to invite；approximately",
       "note": "多音字，可讀「yue/yao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1713,7 +1708,7 @@
       "en": "(literary) bridle; halter; headstall；to rein in；to compel; to force",
       "note": "多音字，可讀「le/lei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1725,7 +1720,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -1737,7 +1732,7 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1749,7 +1744,7 @@
       "en": "surname Shen；short name for 瀋陽|沈阳[Shen3 yang2]；(literary) juice",
       "note": "多音字，可讀「shen/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1761,7 +1756,7 @@
       "en": "to ramble, to stroll; to jaunt, to loiter",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -1773,7 +1768,7 @@
       "en": "sentence；clause；phrase",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1785,7 +1780,7 @@
       "en": "to pursue, to chase after; to expel",
       "note": "多音字，可讀「zhui/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1797,7 +1792,7 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1809,7 +1804,7 @@
       "en": "to transfer；to move (troops or cadres)；to investigate",
       "note": "多音字，可讀「diao/tiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1821,7 +1816,7 @@
       "en": "to shoot；to launch；to allude to",
       "note": "多音字，可讀「she/ye/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1833,7 +1828,7 @@
       "en": "crack；grudge",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -1845,7 +1840,7 @@
       "en": "surname Wu；(literary) rising to a height; towering；(literary) bald; bare",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -1857,7 +1852,7 @@
       "en": "area；region；district",
       "note": "多音字，可讀「qu/ou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1869,7 +1864,7 @@
       "en": "(literary) to remit; to exempt；(literary) millipede；(literary) to manifest",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -1881,7 +1876,7 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1893,7 +1888,7 @@
       "en": "to turn sth over；to turn upside down；to tip sth out (of a container)",
       "note": "多音字，可讀「zhe/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1905,7 +1900,7 @@
       "en": "forlorn；vexed；disappointed",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -1917,7 +1912,7 @@
       "en": "regretful; upset; despairing; depressed",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -1929,7 +1924,7 @@
       "en": "to glue; to paste；to adhere; to stick to",
       "note": "多音字，可讀「nian/zhan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1941,7 +1936,7 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1953,7 +1948,7 @@
       "en": "(bound form) ratio; rate; proportion；to lead；to command",
       "note": "多音字，可讀「lü/shuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -1965,7 +1960,7 @@
       "en": "bamboo rain hat",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -1977,7 +1972,7 @@
       "en": "stern of boat",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -1989,7 +1984,7 @@
       "en": "team, group, band, army unit; measure word for groups of people",
       "note": "多音字，可讀「dui/zhui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -2001,7 +1996,7 @@
       "en": "(dialect) to excrete (urine or feces)",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -2013,7 +2008,7 @@
       "en": "strain liquids",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -2025,7 +2020,7 @@
       "en": "classifier indicating a small amount or small number greater than 1: some, a few, several",
       "note": "多音字，可讀「xie/suo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -2037,7 +2032,7 @@
       "en": "(indicating agreement) yes；all right；(drawing attention to) look!",
       "note": "多音字，可讀「nuo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": true
     },
@@ -2049,7 +2044,7 @@
       "en": "surname Yang；to face upward；to look up",
       "note": "多音字，可讀「yang/ang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -2061,7 +2056,7 @@
       "en": "(Tw) (coll.) variant of 夠|够[gou4]；to reach by stretching",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -2073,7 +2068,7 @@
       "en": "cassock；to line",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -2085,7 +2080,7 @@
       "en": "to select；to choose；to pick over",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -2097,7 +2092,7 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -2109,7 +2104,7 @@
       "en": "a Chinese foot；one-third of a meter；a ruler",
       "note": "多音字，可讀「chi/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -2121,7 +2116,7 @@
       "en": "surname Hong；red；popular",
       "note": "多音字，可讀「hong/gong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -2133,7 +2128,7 @@
       "en": "often, readily; scattered; the weapon-rack of a chariot",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -2145,7 +2140,7 @@
       "en": "you (Note: In Taiwan, 妳 is used to address females, but in mainland China, it is not commonly used. Instead, 你 is used to address both males and females.)",
       "note": "多音字，可讀「nai/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": true
     },
@@ -2157,7 +2152,7 @@
       "en": "according to；to act in accordance with；to depend on",
       "note": "多音字，可讀「ju/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -2169,7 +2164,7 @@
       "en": "grain；corn；surname Gu",
       "note": "多音字，可讀「gu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -2181,7 +2176,7 @@
       "en": "(onom.) sound of dripping water, a ticking clock etc",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -2193,7 +2188,7 @@
       "en": "surname Qu；startled；Taiwan pr. [ju4]",
       "note": "多音字，可讀「qu/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": true
     },
@@ -2205,7 +2200,7 @@
       "en": "dark clouds",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -2217,7 +2212,7 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -2229,7 +2224,7 @@
       "en": "morning；early；long-held",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -2241,7 +2236,7 @@
       "en": "felt；silken banner",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -2253,7 +2248,7 @@
       "en": "(bound form) to scold；to expel breath；(onom.) laughter (usu. reduplicated)",
       "note": "多音字，可讀「he/a」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -2265,7 +2260,7 @@
       "en": "duty；responsibility；to reproach",
       "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -2277,7 +2272,7 @@
       "en": "confused, absent-minded",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -2289,7 +2284,7 @@
       "en": "surname Bu；(bound form) to divine",
       "note": "多音字，可讀「bu/bo/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -2301,7 +2296,7 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
     },
@@ -2313,7 +2308,7 @@
       "en": "ancient measuring vessel；fifty liters；dry measure for grain equal to five dou 五斗 (before Tang, ten pecks)",
       "note": null,
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": false,
       "rare": true
     },
@@ -2325,9 +2320,21 @@
       "en": "to pick up (a powder etc) with the fingertips；to scoop up；to collect together",
       "note": "多音字，可讀「cuo/zuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "筠州黃檗山斷際禪師傳法心要",
+      "src": "黃檗斷際禪師宛陵錄",
       "multi": true,
       "rare": false
+    },
+    {
+      "word": "筠",
+      "pinyin": "yún",
+      "zh_cn": "竹皮，竹子",
+      "zh_tw": "竹皮，竹子",
+      "en": "skin of bamboo",
+      "note": "多音字，可讀「yun/jun」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "黃檗斷際禪師宛陵錄",
+      "multi": true,
+      "rare": true
     }
   ]
 }

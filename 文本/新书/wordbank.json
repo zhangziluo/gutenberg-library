@@ -13010,18 +13010,6 @@
   "multi": false,
   "readings": null
  },
- "嬾": {
-  "pinyin": "lǎn",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
  "嬿": {
   "pinyin": "yàn",
   "zh_cn": null,
@@ -64538,18 +64526,6 @@
   "multi": false,
   "readings": "fu"
  },
- "跘": {
-  "pinyin": "pán",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
  "跙": {
   "pinyin": "jū",
   "zh_cn": null,
@@ -70453,18 +70429,6 @@
   "note": "多音字，可讀「wu/hua」，須依文意斷音。",
   "multi": true,
   "readings": "wu/hua"
- },
- "鋟": {
-  "pinyin": "qǐn",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
  },
  "鋠": {
   "pinyin": "shèn",
@@ -82528,18 +82492,6 @@
  },
  "黒": {
   "pinyin": "hēi",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
- "黓": {
-  "pinyin": "yì",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,

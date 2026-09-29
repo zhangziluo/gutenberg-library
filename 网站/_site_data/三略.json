@@ -1,21 +1,18 @@
 {
   "title": "三略",
-  "section_count": 1,
+  "section_count": 3,
   "categories": [
     "全書"
   ],
   "sections": [
     {
       "book": "三略",
-      "title": "三略",
+      "title": "上略",
       "source": "黃石公（舊題）",
       "category": "other",
       "category_label": "全書",
       "number": 1,
       "paragraphs": [
-        "《三略》",
-        "黃石公",
-        "〈上略〉",
         "夫主將之法，務攬英雄之心，賞祿有功，通志于眾。故與眾同好，靡不成；與眾同惡，靡不傾。治國安家，得人也；亡國破家，失人也。含氣之類，咸願得其志。",
         "軍讖曰：「柔能制剛，弱能制強。柔者，德也；剛者，賊也。弱者，人之所助；強者，怨之所攻。柔有所設，剛有所施；弱有所用，強有所加。兼此四者，而制其宜。端末未見，人莫能知。天地神明，與物推移。變動無常，因敵變化。不為事先，動而輒隨。故能圖制無疆，扶成天威；匡正八極，密定九夷。如此謀者，為帝王師。」故曰：莫不貪強，鮮能守微，若能守微，乃保其生。聖人存之，以應事機。舒之彌四海，卷之不盈杯；居之不以室宅，守之不以城郭；藏之胸臆，而敵國服。",
         "軍讖曰：「能柔能剛，其國彌光；能弱能強，其國彌彰。純柔純弱，其國必削；純剛純強，其國必亡。」",
@@ -50,15 +47,33 @@
         "軍讖曰：「世世作姦，侵盜縣官，進退求便，委曲弄文，以危其軍。是謂國姦。」軍讖曰：「吏多民寡，尊卑相若，強弱相虜，莫適禁禦，延及君子，國受其咎。」軍讖曰：「善善不進，惡惡不退；賢者隱蔽，不肖在位，國受其害。",
         "」軍讖曰：「枝葉強大，比周居勢，卑賤陵貴，久而益大，上不忍廢，國受其敗。」",
         "軍讖曰：「佞臣在上，一軍皆訟。引威自與，動違于眾。無進無退，苟然取容。專任自己，舉措伐功。誹謗盛德，誣述庸庸。無善無惡，皆與己同。稽留行事，命令不通。造作奇政，變古易常。君用佞人，必受禍殃。」",
-        "軍讖曰：「姦雄相稱，障蔽主明；毀譽並興，壅塞主聰；各阿所私，命主失忠。故主察異言，乃睹其萌；主聘儒賢，姦雄乃遯；主任舊齒，萬事乃理；主聘岩穴，士乃得實；謀及負薪，功乃可述；不失人心，德乃洋溢。」",
-        "〈中略〉",
+        "軍讖曰：「姦雄相稱，障蔽主明；毀譽並興，壅塞主聰；各阿所私，命主失忠。故主察異言，乃睹其萌；主聘儒賢，姦雄乃遯；主任舊齒，萬事乃理；主聘岩穴，士乃得實；謀及負薪，功乃可述；不失人心，德乃洋溢。」"
+      ]
+    },
+    {
+      "book": "三略",
+      "title": "中略",
+      "source": "黃石公（舊題）",
+      "category": "other",
+      "category_label": "全書",
+      "number": 2,
+      "paragraphs": [
         "夫三皇無言，而化流四海，故天下無所歸功。帝者，體天則地，有言有令，而天下太平。君臣讓功，四海化行，百姓不知其所以然。故使臣不待禮賞有功，美而無害。王者，制人之道，降心服志，設矩備衰，四海會同，王職不廢，雖有甲兵之備，而無鬥戰之患。君無疑于臣，臣無疑于主；國定主安，臣以義退，亦能美而無害。霸者，制士以權，結士以信，使士以賞。信衰則士疏，賞虧則士不用命。",
         "軍勢曰：「出軍行師，將在自專，進退內御，則功難成。」軍勢曰：「使智，使勇，使貪，使愚。智者樂立其功，勇者好行其志，貪者邀趨其利，愚者不顧其死。因其至情而用之，此軍之微權也。」軍勢曰：「無使辯士談說敵美，為其惑眾。勿使仁者主財，為其多施而附于下。」軍勢曰：「禁巫祝，不得為吏士卜問軍之吉兇。」軍勢曰：「使義士，不以財。故義者，不為不仁者死；智者，不為闇主謀。」",
         "主不可以無德，無德則臣叛；不可以無威，無威則失權。臣不可以無德，無德則無以事君；不可以無威，無威則國弱，威多則身蹶。故聖王御世，觀盛衰，度得失，而為之制。故諸侯二師，方伯三師，天子六師。世亂則叛逆生，王澤竭則盟誓相誅伐。德同勢敵，無以相傾，乃攬英雄之心，與眾同好惡，然後加之以權變。故非計策，無以決嫌定疑；非譎奇，無以破姦息寇；非陰謀，無以成功。",
         "聖人體天，賢人法地，智者師古。是故，《三略》為衰世作。〈上略〉設禮賞，別姦雄，著成敗；〈中略〉差德行，審權變；〈下略〉陳道德，察安危，明賊賢之咎。故人主深曉〈上略〉，則能任賢擒敵；深曉〈中略〉，則能御將統眾；深曉〈下略〉，則能明盛衰之源，審治國之紀。",
         "人臣深曉〈中略〉，則能全功保身。夫高鳥死，良弓藏；敵國滅，謀臣亡。亡者，非喪其身也。謂奪其威，廢其權也。封之于朝，極人臣之位，以顯其功。",
-        "中州善國，以富其家；美色珍玩，以悅其心。夫人眾一合，而不可卒離；威權一與，而不可卒移。還師罷軍，存亡之階。故弱之以位，奪之以國，是謂霸者之略。故霸者之作，其論駁也。存社稷、羅英雄者，〈中略〉之勢也，故世主秘焉。",
-        "〈下略〉",
+        "中州善國，以富其家；美色珍玩，以悅其心。夫人眾一合，而不可卒離；威權一與，而不可卒移。還師罷軍，存亡之階。故弱之以位，奪之以國，是謂霸者之略。故霸者之作，其論駁也。存社稷、羅英雄者，〈中略〉之勢也，故世主秘焉。"
+      ]
+    },
+    {
+      "book": "三略",
+      "title": "下略",
+      "source": "黃石公（舊題）",
+      "category": "other",
+      "category_label": "全書",
+      "number": 3,
+      "paragraphs": [
         "夫能扶天下之危者，則據天下之安；能除天下之憂者，則享天下之樂；能救天下之禍者，則獲天下之福。故澤及于民，則賢人歸之；澤及昆蟲，則聖人歸之。賢人所歸，則其國強；聖人所歸，則六合同。求賢以德，致聖以道。賢去，則國微；聖去，則國乖。微者，危之階；乖者，亡之徵。",
         "賢人之政，降人以體；聖人之政，降人以心。體降可以圖始，心降可以保終。",
         "降體以禮，降心以樂。所謂樂者，非金、石、絲、竹也。謂人樂其家，謂人樂其族，謂人樂其業，謂人樂其都邑，謂人樂其政令，謂人樂其道德。如此君人者，乃作樂以節之，使不失其和。故有德之君，以樂樂人；無德之君，以樂樂身。樂人者，久而長；樂身者，不久而亡。",
@@ -81,18 +96,6 @@
   ],
   "annotations": [
     {
-      "word": "石",
-      "pinyin": "shí",
-      "zh_cn": "①石头、岩石；②石刻、石碑；③古代容量（dàn）与重量单位。",
-      "zh_tw": "①石頭、岩石；②石刻、石碑；③古代容量（dàn）與重量單位。",
-      "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
-      "note": "多音字，可讀「shi/dan」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "三略",
-      "multi": true,
-      "rare": false
-    },
-    {
       "word": "不",
       "pinyin": "bù",
       "zh_cn": "否定副词：①表一般否定（不去、不好、不明）；②表禁止、劝阻（不许、不要）；③文言中可同'否'，用于句末表疑问（可与否）。",
@@ -100,7 +103,7 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -112,7 +115,7 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -124,7 +127,7 @@
       "en": "home；family；(polite) my (sister, uncle etc)",
       "note": "多音字，可讀「jia/jie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -136,7 +139,7 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -148,7 +151,7 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -160,7 +163,7 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -172,7 +175,7 @@
       "en": "(literary) prophecy; omen",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -184,7 +187,7 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -196,7 +199,7 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -208,7 +211,7 @@
       "en": "to help；to assist",
       "note": "多音字，可讀「zhu/chu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -220,7 +223,7 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -232,7 +235,7 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -244,7 +247,7 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -256,7 +259,7 @@
       "en": "often, readily; scattered; the weapon-rack of a chariot",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -268,7 +271,7 @@
       "en": "border；boundary",
       "note": "多音字，可讀「jiang/qiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -280,7 +283,7 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -292,7 +295,7 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -304,7 +307,7 @@
       "en": "to peel with a knife；to pare；to cut (a ball at tennis etc)",
       "note": "多音字，可讀「xiao/xue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -316,7 +319,7 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -328,7 +331,7 @@
       "en": "match, comfortable; just",
       "note": "多音字，可讀「shi/di/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -340,7 +343,7 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -352,7 +355,7 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -364,7 +367,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -376,7 +379,7 @@
       "en": "to plug; to stop up; to stuff in；(bound form) a stopper; a cork；(bound form) strategic stronghold",
       "note": "多音字，可讀「sai/se」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -388,7 +391,7 @@
       "en": "to station (soldiers)；to store up；village",
       "note": "多音字，可讀「tun/zhun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -400,7 +403,7 @@
       "en": "to watch；to wait；to examine",
       "note": "多音字，可讀「si/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -412,7 +415,7 @@
       "en": "surname Yi；(bound form) (of a book, author etc) lost (to the ages)；(bound form) reclusive",
       "note": "多音字，可讀「yi/die」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": true
     },
@@ -424,7 +427,7 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -436,7 +439,7 @@
       "en": "to go against；to be contrary to；perverse",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -448,7 +451,7 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -460,7 +463,7 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -472,7 +475,7 @@
       "en": "surname Kui；to lack；lacking",
       "note": "多音字，可讀「kui/gui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": true
     },
@@ -484,7 +487,7 @@
       "en": "compulsory service",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -496,7 +499,7 @@
       "en": "see 娭姐[ai1 jie3], father's mother；granny (dialect)；respectful form of address for older lady",
       "note": "多音字，可讀「xi/ai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": true
     },
@@ -508,7 +511,7 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -520,7 +523,7 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -532,7 +535,7 @@
       "en": "soldier；servant；to finish",
       "note": "多音字，可讀「zu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -544,7 +547,7 @@
       "en": "round basket for cooked rice",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -556,7 +559,7 @@
       "en": "unfiltered wine; sediment, dregs",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -568,7 +571,7 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -580,7 +583,7 @@
       "en": "surname Qiu；fur；fur coat",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -592,7 +595,7 @@
       "en": "lid；top；cover",
       "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -604,7 +607,7 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -616,7 +619,7 @@
       "en": "to collapse",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -628,7 +631,7 @@
       "en": "surname Cheng；to ride；to mount",
       "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -640,7 +643,7 @@
       "en": "bury；mound；to dam",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -652,7 +655,7 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -664,7 +667,7 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -676,7 +679,7 @@
       "en": "surname Jian；to remonstrate；to admonish",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -688,7 +691,7 @@
       "en": "(bound form) to decay; to decline; to wane",
       "note": "多音字，可讀「shuai/cui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -700,7 +703,7 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -712,7 +715,7 @@
       "en": "(bound form) to leak out; to discharge; (fig.) to divulge",
       "note": "多音字，可讀「xie/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -724,7 +727,7 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -736,7 +739,7 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -748,7 +751,7 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -760,7 +763,7 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -772,7 +775,7 @@
       "en": "surname Bu；(bound form) to divine",
       "note": "多音字，可讀「bu/bo/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -784,7 +787,7 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -796,7 +799,7 @@
       "en": "firewood；gather wood",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -808,7 +811,7 @@
       "en": "surname Cuan；cooking-stove；to cook",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -820,7 +823,7 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -832,7 +835,7 @@
       "en": "(bound form) (of floodwaters) to break through a dam or dike；(bound form) to break through (a military encirclement)；(bound form) to be routed; to be overrun; to fall to pieces",
       "note": "多音字，可讀「kui/hui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -844,7 +847,7 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -856,7 +859,7 @@
       "en": "to mock；to ridicule；to slander",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -868,7 +871,7 @@
       "en": "bud；creeper；bramble",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -880,7 +883,7 @@
       "en": "noisy, uproarious; to forget",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -892,7 +895,7 @@
       "en": "county；(Japan) prefecture",
       "note": "多音字，可讀「xian/xuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -904,7 +907,7 @@
       "en": "plain；informal；suitable",
       "note": "多音字，可讀「bian/pian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -916,7 +919,7 @@
       "en": "to do；to manage；to handle",
       "note": "多音字，可讀「nong/long」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -928,7 +931,7 @@
       "en": "branch；classifier for sticks, rods, pencils etc",
       "note": "多音字，可讀「zhi/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -940,7 +943,7 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -952,7 +955,7 @@
       "en": "to flatter；flattery",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -964,7 +967,7 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -976,7 +979,7 @@
       "en": "surname Ji；(bound form) to examine; to check (against records)；(literary) to delay; to linger",
       "note": "多音字，可讀「ji/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -988,7 +991,7 @@
       "en": "strange；odd；weird",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -1000,7 +1003,7 @@
       "en": "to weigh；to state；to name",
       "note": "多音字，可讀「cheng/chen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -1012,7 +1015,7 @@
       "en": "to obstruct；to stop up；to heap soil around the roots of a plant",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -1024,7 +1027,7 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": true,
       "rare": false
     },
@@ -1036,7 +1039,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "上略",
       "multi": false,
       "rare": true
     },
@@ -1048,7 +1051,7 @@
       "en": "to hasten；to hurry；to walk fast",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "中略",
       "multi": true,
       "rare": false
     },
@@ -1060,7 +1063,7 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "中略",
       "multi": true,
       "rare": false
     },
@@ -1072,7 +1075,7 @@
       "en": "to stumble；to trample；to kick (of horse)",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "中略",
       "multi": false,
       "rare": true
     },
@@ -1084,7 +1087,7 @@
       "en": "father's elder brother；senior；paternal elder uncle",
       "note": "多音字，可讀「bo/bai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "中略",
       "multi": true,
       "rare": false
     },
@@ -1096,7 +1099,7 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "中略",
       "multi": true,
       "rare": false
     },
@@ -1108,7 +1111,7 @@
       "en": "pool；pond；(of metals etc) luster",
       "note": "多音字，可讀「ze/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "中略",
       "multi": true,
       "rare": false
     },
@@ -1120,7 +1123,7 @@
       "en": "(literary) deceitful",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "中略",
       "multi": false,
       "rare": true
     },
@@ -1132,7 +1135,7 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "中略",
       "multi": true,
       "rare": false
     },
@@ -1144,7 +1147,7 @@
       "en": "difference; discrepancy；(math.) difference (amount remaining after a subtraction)；(literary) a little; somewhat; slightly",
       "note": "多音字，可讀「cha/chai/ci」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "中略",
       "multi": true,
       "rare": false
     },
@@ -1156,7 +1159,7 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "中略",
       "multi": true,
       "rare": false
     },
@@ -1168,7 +1171,7 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "中略",
       "multi": true,
       "rare": false
     },
@@ -1180,7 +1183,7 @@
       "en": "to stop；to cease；to dismiss",
       "note": "多音字，可讀「ba/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "中略",
       "multi": true,
       "rare": false
     },
@@ -1192,7 +1195,7 @@
       "en": "millet；God of cereals worshiped by ancient rulers；minister of agriculture",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "中略",
       "multi": false,
       "rare": true
     },
@@ -1204,7 +1207,7 @@
       "en": "secret；secretary",
       "note": "多音字，可讀「mi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "中略",
       "multi": true,
       "rare": false
     },
@@ -1216,7 +1219,7 @@
       "en": "according to；to act in accordance with；to depend on",
       "note": "多音字，可讀「ju/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "下略",
       "multi": true,
       "rare": false
     },
@@ -1228,7 +1231,19 @@
       "en": "4th note in the ancient Chinese pentatonic scale 五音[wu3 yin1], corresponding to sol",
       "note": "多音字，可讀「zhi/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "下略",
+      "multi": true,
+      "rare": false
+    },
+    {
+      "word": "石",
+      "pinyin": "shí",
+      "zh_cn": "①石头、岩石；②石刻、石碑；③古代容量（dàn）与重量单位。",
+      "zh_tw": "①石頭、岩石；②石刻、石碑；③古代容量（dàn）與重量單位。",
+      "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
+      "note": "多音字，可讀「shi/dan」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "下略",
       "multi": true,
       "rare": false
     },
@@ -1240,7 +1255,7 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "下略",
       "multi": true,
       "rare": false
     },
@@ -1252,7 +1267,7 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "下略",
       "multi": true,
       "rare": false
     },
@@ -1264,7 +1279,7 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "下略",
       "multi": true,
       "rare": false
     },
@@ -1276,7 +1291,7 @@
       "en": "morning；early；long-held",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "下略",
       "multi": false,
       "rare": true
     },
@@ -1288,7 +1303,7 @@
       "en": "to collate；to proofread",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "下略",
       "multi": false,
       "rare": true
     },
@@ -1300,7 +1315,7 @@
       "en": "sorrowful",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "下略",
       "multi": false,
       "rare": true
     },
@@ -1312,7 +1327,7 @@
       "en": "wrong, evil, demonic; perverse, depraved, heterodox",
       "note": "多音字，可讀「xie/ya/ye/yu/xu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "下略",
       "multi": true,
       "rare": false
     },
@@ -1324,7 +1339,7 @@
       "en": "(of divinity) to bless；to protect",
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "下略",
       "multi": false,
       "rare": true
     },
@@ -1336,7 +1351,7 @@
       "en": "to capture；to restrain；to constrain",
       "note": "多音字，可讀「ju/gou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "下略",
       "multi": true,
       "rare": false
     },
@@ -1348,7 +1363,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "三略",
+      "src": "下略",
       "multi": false,
       "rare": true
     },
@@ -1360,7 +1375,7 @@
       "en": "to pass on；to spread；to transmit",
       "note": "多音字，可讀「chuan/zhuan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "下略",
       "multi": true,
       "rare": false
     },
@@ -1372,7 +1387,7 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "三略",
+      "src": "下略",
       "multi": true,
       "rare": false
     }

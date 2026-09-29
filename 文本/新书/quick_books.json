@@ -7,7 +7,7 @@
     "subcategory": "道家",
     "source": "Project Gutenberg #25696",
     "file": "25696.txt",
-    "split": "single",
+    "split": "baopuzi",
     "gid": "25696"
   },
   {
@@ -40,7 +40,7 @@
     "subcategory": "小說家（公案）",
     "source": "Project Gutenberg #52280",
     "file": "52280.txt",
-    "split": "single",
+    "split": "juan_cat",
     "gid": "52280"
   },
   {
@@ -51,8 +51,9 @@
     "subcategory": "名家",
     "source": "Project Gutenberg #7216",
     "file": "7216.txt",
-    "split": "single",
-    "gid": "7216"
+    "split": "kuokuo",
+    "gid": "7216",
+    "drop_until": "〔跡府〕"
   },
   {
     "key": "pg52276",
@@ -73,8 +74,9 @@
     "subcategory": "法家",
     "source": "Project Gutenberg #7367",
     "file": "7367.txt",
-    "split": "single",
-    "gid": "7367"
+    "split": "auto_head",
+    "gid": "7367",
+    "drop": ["^[上中下]編$"]
   },
   {
     "key": "pg24058",
@@ -84,7 +86,7 @@
     "subcategory": "小說家（志怪）",
     "source": "Project Gutenberg #24058",
     "file": "24058.txt",
-    "split": "single",
+    "split": "mtz",
     "gid": "24058"
   },
   {
@@ -95,8 +97,9 @@
     "subcategory": "小說家（志怪）",
     "source": "Project Gutenberg #52271",
     "file": "52271.txt",
-    "split": "single",
-    "gid": "52271"
+    "split": "dongming",
+    "gid": "52271",
+    "drop_until": "《漢武帝別國洞冥記卷第一》"
   },
   {
     "key": "pg25262",
@@ -106,7 +109,7 @@
     "subcategory": "儒家",
     "source": "Project Gutenberg #25262",
     "file": "25262.txt",
-    "split": "single",
+    "split": "rizhilu",
     "gid": "25262"
   },
   {
@@ -130,7 +133,7 @@
     "subcategory": "法家",
     "source": "Project Gutenberg #24049",
     "file": "24049.txt",
-    "split": "single",
+    "split": "guofan",
     "gid": "24049"
   },
   {
@@ -154,7 +157,7 @@
     "subcategory": "縱橫家",
     "source": "Project Gutenberg #7209",
     "file": "7209.txt",
-    "split": "single",
+    "split": "guiguzi",
     "gid": "7209"
   },
   {
@@ -209,8 +212,9 @@
     "subcategory": "釋家",
     "source": "Project Gutenberg #25236",
     "file": "25236.txt",
-    "split": "single",
-    "gid": "25236"
+    "split": "titles",
+    "gid": "25236",
+    "pieces": ["筠州黃檗山斷際禪師傳法心要", "黃檗斷際禪師宛陵錄"]
   },
   {
     "key": "pg23914",
@@ -242,8 +246,9 @@
     "subcategory": "釋家",
     "source": "Project Gutenberg #24098",
     "file": "24098.txt",
-    "split": "single",
-    "gid": "24098"
+    "split": "fen",
+    "gid": "24098",
+    "drop_until": "法會因由分第一"
   },
   {
     "key": "pg54777",
@@ -253,8 +258,9 @@
     "subcategory": "道家",
     "source": "Project Gutenberg #54777",
     "file": "54777.txt",
-    "split": "single",
-    "gid": "54777"
+    "split": "auto_head",
+    "gid": "54777",
+    "drop": ["^[一二三四五六七八九十]+$"]
   },
   {
     "key": "pg7218",
@@ -264,8 +270,9 @@
     "subcategory": "兵家",
     "source": "Project Gutenberg #7218",
     "file": "7218.txt",
-    "split": "single",
-    "gid": "7218"
+    "split": "jianjiao",
+    "gid": "7218",
+    "drop_until": "〈上略〉"
   },
   {
     "key": "pg23855",
@@ -275,8 +282,13 @@
     "subcategory": "儒家",
     "source": "Project Gutenberg #23855",
     "file": "23855.txt",
-    "split": "single",
-    "gid": "23855"
+    "split": "titles",
+    "gid": "23855",
+    "drop_until": "題辭",
+    "pieces": ["題辭", "原君", "原臣", "原法", "置相", "學校", "取士", "取士上",
+      "取士下", "建都", "田制", "田制一", "田制二", "田制三", "兵制", "兵制一",
+      "兵制二", "兵制三", "財計", "財計一", "財計二", "財計三", "胥吏", "奄宦",
+      "奄宦上", "奄宦下"]
   },
   {
     "key": "pg26920",
@@ -286,7 +298,7 @@
     "subcategory": "儒家",
     "source": "Project Gutenberg #26920",
     "file": "26920.txt",
-    "split": "single",
+    "split": "lunyu",
     "gid": "26920"
   },
   {
@@ -297,7 +309,7 @@
     "subcategory": "小說家（話本）",
     "source": "Project Gutenberg #27753",
     "file": "27753.txt",
-    "split": "single",
+    "split": "juan_cat",
     "gid": "27753"
   },
   {
@@ -308,8 +320,9 @@
     "subcategory": "釋家",
     "source": "Project Gutenberg #23844",
     "file": "23844.txt",
-    "split": "single",
-    "gid": "23844"
+    "split": "pin",
+    "gid": "23844",
+    "drop_until": "自序品第一"
   },
   {
     "key": "pg27218",
@@ -330,8 +343,10 @@
     "subcategory": "儒家",
     "source": "Project Gutenberg #23814",
     "file": "23814.txt",
-    "split": "single",
-    "gid": "23814"
+    "split": "auto_head",
+    "gid": "23814",
+    "drop": ["^卷[〇○零一二三四五六七八九十百]+$", "^賈誼新書$"],
+    "dedup_titles": true
   },
   {
     "key": "pg25369",
@@ -354,7 +369,7 @@
     "subcategory": "小說家（志怪）",
     "source": "Project Gutenberg #23817",
     "file": "23817.txt",
-    "split": "single",
+    "split": "juan_cat",
     "gid": "23817"
   },
   {
@@ -411,7 +426,7 @@
     "subcategory": "小說家（話本）",
     "source": "Project Gutenberg #27582",
     "file": "27582.txt",
-    "split": "single",
+    "split": "juan_cat",
     "gid": "27582"
   },
   {
@@ -448,7 +463,7 @@
     "subcategory": "小說家（話本）",
     "source": "Project Gutenberg #24141",
     "file": "24141.txt",
-    "split": "single",
+    "split": "juan_cat",
     "gid": "24141"
   },
   {
@@ -517,9 +532,16 @@
     "subcategory": "小說家（西洋）",
     "source": "Project Gutenberg #205",
     "file": "205.txt",
-    "split": "single",
+    "split": "en_titles",
     "gid": "205",
-    "lang": "en"
+    "lang": "en",
+    "drop_until_col0": "Economy",
+    "pieces": ["Economy", "Where I Lived, and What I Lived For", "Reading",
+      "Sounds", "Solitude", "Visitors", "The Bean-Field", "The Village",
+      "The Ponds", "Baker Farm", "Higher Laws", "Brute Neighbors",
+      "House-Warming", "Former Inhabitants and Winter Visitors",
+      "Winter Animals", "The Pond in Winter", "Spring", "Conclusion",
+      "ON THE DUTY OF CIVIL DISOBEDIENCE"]
   },
   {
     "key": "pg16",
@@ -541,9 +563,15 @@
     "subcategory": "小說家（西洋）",
     "source": "Project Gutenberg #236",
     "file": "236.txt",
-    "split": "single",
+    "split": "en_titles",
     "gid": "236",
-    "lang": "en"
+    "lang": "en",
+    "drop_until_col0": "Mowgli’s Brothers",
+    "pieces": ["Mowgli’s Brothers", "Hunting-Song of the Seeonee Pack",
+      "Kaa’s Hunting", "Road-Song of the Bandar-Log", "Tiger! Tiger!",
+      "Mowgli’s Song", "The White Seal", "Lukannon", "Rikki-Tikki-Tavi",
+      "Darzee’s Chant", "Toomai of the Elephants", "Shiv and the Grasshopper",
+      "Her Majesty’s Servants", "Parade Song of the Camp Animals"]
   },
   {
     "key": "pg45",
@@ -565,21 +593,33 @@
     "subcategory": "小說家（西洋）",
     "source": "Project Gutenberg #289",
     "file": "289.txt",
-    "split": "single",
+    "split": "en_titles",
     "gid": "289",
-    "lang": "en"
+    "lang": "en",
+    "drop_until_col0": "THE RIVER BANK",
+    "pieces": ["THE RIVER BANK", "THE OPEN ROAD", "THE WILD WOOD", "MR. BADGER",
+      "DULCE DOMUM", "MR. TOAD", "THE PIPER AT THE GATES OF DAWN",
+      "TOAD’S ADVENTURES", "WAYFARERS ALL", "THE FURTHER ADVENTURES OF TOAD",
+      "LIKE SUMMER TEMPESTS CAME HIS TEARS", "THE RETURN OF ULYSSES"]
   },
   {
     "key": "pg146",
-    "book": "A Little Prince",
-    "author": "Unknown",
+    "book": "A Little Princess",
+    "author": "Frances Hodgson Burnett",
     "category": "子部",
     "subcategory": "小說家（西洋）",
     "source": "Project Gutenberg #146",
     "file": "146.txt",
-    "split": "single",
+    "split": "en_titles",
     "gid": "146",
-    "lang": "en"
+    "lang": "en",
+    "drop_until_col0": "Sara",
+    "pieces": ["Sara", "A French Lesson", "Ermengarde", "Lottie", "Becky",
+      "The Diamond Mines", "The Diamond Mines Again", "In the Attic",
+      "Melchisedec", "The Indian Gentleman", "Ram Dass",
+      "The Other Side of the Wall", "One of the Populace",
+      "What Melchisedec Heard and Saw", "The Magic", "The Visitor",
+      "It Is the Child!", "I Tried Not to Be", "Anne"]
   },
   {
     "key": "pg2591",
@@ -589,9 +629,34 @@
     "subcategory": "小說家（西洋）",
     "source": "Project Gutenberg #2591",
     "file": "2591.txt",
-    "split": "single",
+    "split": "en_titles",
     "gid": "2591",
-    "lang": "en"
+    "lang": "en",
+    "drop_until_col0": "THE GOLDEN BIRD",
+    "pieces": ["THE GOLDEN BIRD", "HANS IN LUCK", "JORINDA AND JORINDEL",
+      "THE TRAVELLING MUSICIANS", "OLD SULTAN",
+      "THE STRAW, THE COAL, AND THE BEAN", "BRIAR ROSE",
+      "THE DOG AND THE SPARROW", "THE TWELVE DANCING PRINCESSES",
+      "THE FISHERMAN AND HIS WIFE", "THE WILLOW-WREN AND THE BEAR",
+      "THE FROG-PRINCE", "CAT AND MOUSE IN PARTNERSHIP", "THE GOOSE-GIRL",
+      "THE ADVENTURES OF CHANTICLEER AND PARTLET", "RAPUNZEL", "FUNDEVOGEL",
+      "THE VALIANT LITTLE TAILOR", "HANSEL AND GRETEL",
+      "THE MOUSE, THE BIRD, AND THE SAUSAGE", "MOTHER HOLLE",
+      "THE ROBBER BRIDEGROOM", "TOM THUMB", "RUMPELSTILTSKIN",
+      "CLEVER GRETEL", "THE OLD MAN AND HIS GRANDSON", "THE LITTLE PEASANT",
+      "FREDERICK AND CATHERINE", "SWEETHEART ROLAND", "SNOWDROP", "THE PINK",
+      "CLEVER ELSIE", "THE MISER IN THE BUSH", "ASHPUTTEL", "THE WHITE SNAKE",
+      "THE WOLF AND THE SEVEN LITTLE KIDS", "THE QUEEN BEE",
+      "THE ELVES AND THE SHOEMAKER", "THE JUNIPER-TREE", "THE TURNIP",
+      "CLEVER HANS", "THE THREE LANGUAGES", "THE FOX AND THE CAT",
+      "THE FOUR CLEVER BROTHERS", "LILY AND THE LION",
+      "THE FOX AND THE HORSE", "THE BLUE LIGHT", "THE RAVEN",
+      "THE GOLDEN GOOSE", "THE WATER OF LIFE", "THE TWELVE HUNTSMEN",
+      "THE KING OF THE GOLDEN MOUNTAIN", "DOCTOR KNOWALL", "THE SEVEN RAVENS",
+      "THE WEDDING OF MRS FOX", "FIRST STORY", "SECOND STORY", "THE SALAD",
+      "THE STORY OF THE YOUTH WHO WENT FORTH TO LEARN WHAT FEAR WAS",
+      "KING GRISLY-BEARD", "IRON HANS", "CAT-SKIN",
+      "SNOW-WHITE AND ROSE-RED"]
   },
   {
     "key": "pg128",
@@ -601,9 +666,35 @@
     "subcategory": "小說家（西洋）",
     "source": "Project Gutenberg #128",
     "file": "128.txt",
-    "split": "single",
+    "split": "en_titles",
     "gid": "128",
-    "lang": "en"
+    "lang": "en",
+    "drop_until_col0": "Preface",
+    "pieces": ["Preface", "The Arabian Nights",
+      "The Story of the Merchant and the Genius",
+      "The Story of the First Old Man and of the Hind",
+      "The Story of the Second Old Man, and of the Two Black Dogs",
+      "The Story of the Fisherman",
+      "The Story of the Greek King and the Physician Douban",
+      "The Story of the Husband and the Parrot",
+      "The Story of the Vizir Who Was Punished",
+      "The Story of the Young King of the Black Isles",
+      "The Story of the Three Calenders, Sons of Kings, and of Five Ladies of Bagdad",
+      "The Story of the First Calender, Son of a King",
+      "The Story of the Envious Man and of Him Who Was Envied",
+      "The Story of the Second Calendar, Son of a King",
+      "The Story of the Third Calendar, Son of a King",
+      "The Seven Voyages of Sindbad the Sailor",
+      "First Voyage", "Second Voyage", "Third Voyage", "Fourth Voyage",
+      "Fifth Voyage", "Sixth Voyage", "Seventh and Last Voyage",
+      "The Little Hunchback", "The Story of the Barber's Fifth Brother",
+      "The Story of the Barber's Sixth Brother",
+      "The Adventures of Prince Camaralzaman and the Princess Badoura",
+      "Noureddin and the Fair Persian", "Aladdin and the Wonderful Lamp",
+      "The Adventures of Haroun-al-Raschid, Caliph of Bagdad",
+      "The Story of the Blind Baba-Abdalla", "The Story of Sidi-Nouman",
+      "The Story of Ali Colia, Merchant of Bagdad", "The Enchanted Horse",
+      "The Story of Two Sisters Who Were Jealous of Their Younger Sister"]
   },
   {
     "key": "pg479",

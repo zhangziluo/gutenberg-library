@@ -1,23 +1,18 @@
 {
   "title": "漢武帝別國洞冥記",
-  "section_count": 1,
+  "section_count": 4,
   "categories": [
     "全書"
   ],
   "sections": [
     {
       "book": "漢武帝別國洞冥記",
-      "title": "漢武帝別國洞冥記",
+      "title": "卷第一",
       "source": "郭憲（舊題）",
       "category": "other",
       "category_label": "全書",
       "number": 1,
       "paragraphs": [
-        "序漢武帝別國洞冥記　〔後漢〕郭憲",
-        "《序》漢武帝別國洞冥記序",
-        "憲家世述道書，推求先聖往賢之所撰集，不可窮盡，千室不能藏，萬乘不能載，猶有漏逸。或言浮誕，非政教所同，經文史官記事，故略而不取，蓋偏國殊方，並不在錄。愚謂古曩餘事，不可得而棄。況漢武帝，明俊特異之主，東方朔因滑稽浮誕，以匡諫洞心於道教，使冥跡之奧，昭然顯著。今籍舊史之所不載者，聊以聞見，撰《洞冥記》四卷，成一家之書，庶明博君子該而異焉。武帝以欲窮神仙之事，故絕域遐方，貢其珍異奇物，及道術之人，故於漢世盛於群主也。故編次之云爾。",
-        "郭憲",
-        "《漢武帝別國洞冥記卷第一》",
         "漢武帝未誕之時，景帝夢一赤彘從雲中直下，入崇蘭閣。帝覺而坐於閣上，果見赤氣如煙霧來蔽戶牖。望上，有丹霞蓊鬱而起，乃改崇蘭閣為猗蘭殿。後王夫人誕武帝於此殿。有青雀群飛於霸城門，乃改為青雀門。乃更修飾，刻木為綺橑。雀去，因名青綺門。",
         "東方朔，字曼倩。父張夷，字少平，妻田氏女。夷年二百歲，顏如童子。朔生三日，而田氏死，時景帝三年也。鄰母拾而養之。年三歲，天下秘讖，一覽暗誦於口，常指撝天下，空中獨語。鄰母忽失朔，累月方歸，母笞之。後複去，經年乃歸。母忽見，大驚曰：「汝行經年一歸，何以慰我耶？」朔曰：「兒至紫泥海，有紫水污衣，仍過虞淵湔浣，朝發中返，何云經年乎？」母問之：「汝悉是何處行？」朔曰：「兒湔衣竟，暫息都崇堂。王公飴之以丹霞漿，兒食之太飽，悶幾死，乃飲玄天黃露半合，即醒。既而還。路遇一蒼虎，息於路傍。兒騎虎還，打捶過痛，虎嚙兒腳傷。」母悲嗟，乃裂青布裳裹之。朔複去家萬里，見一枯樹，脫布挂於樹。布化為龍，因名其地為布龍澤。朔以元封中游蒙鴻之澤，忽見王母採桑於白海之濱。俄有黃眉翁指阿母以告朔曰：「昔為吾妻，托形為太白之精，今汝此星精也。吾卻食吞氣，已九千餘歲，目中瞳子，色皆青光，能見幽隱之物，三千歲一反骨洗髓，二千歲一刻肉伐毛。自吾生，已三洗髓五伐毛矣。」",
         "建元二年，帝起騰光台，以望四遠。於台上撞碧玉之鐘，挂懸黎之磬，吹霜條之篪，唱來雲依日之曲。方朔再拜於帝前，曰：「臣東游萬林之野，獲九色鳳雛，涔源丹獺之水赤色。西過洞壑，得滄淵虯子靜海游珠。洞壑在虞淵西，虯泉池在五柞宮北，中有追雲舟、起風舟、侍仙舟、含煙舟。或以杪棠為杝楫，或以木蘭文柘為櫓棹，又起五層台於月下。」",
@@ -28,8 +23,17 @@
         "董謁，字仲玄，武都鬱邑人也。少好學，嘗游山澤，負挾圖書，患其繁重。家貧，拾樹葉以代書簡，言其易卷懷也。編荊為床，聚鳥獸毛以寢其上。",
         "波祗國，亦名波弋國。獻神精香草，亦名荃蘼，亦名春蕪。一根百條，其間如竹節，柔軟，其皮如弦，可為布，所謂春蕪布，亦名香荃布，堅密如紈冰也。握一片，滿室皆香，婦人帶之，彌有芬馥。",
         "翕韓國獻飛骸獸，狀如鹿，青色。以寒青之絲為繩系之。及死，帝惜之而不瘞，挂於苑閂。皮毛皆爛朽，惟骨色猶青。時人咸知其神異，更以繩系其足。往視之，唯見所系處存，而頭尾及骨皆飛去。",
-        "旦露池西有靈池，方四百步。有連錢荇、浮根菱、倒枝藻。連錢荇，荇如錢文；浮根菱，根出水上，葉沉波下，實細薄，皮甘香，葉半青半白，霜降彌美，因名青冰菱也；倒枝藻者，枝橫倒水中，長九尺餘，如結網，有野鴨、秋鳧及鷗鷖來翔水上，入此草中，皆不得出，如繒網也。亦名水網藻。中有轉羽舫、逐龍舫、凌波舫，帝嘗游宴於此。",
-        "《漢武帝別國洞冥記卷第二》",
+        "旦露池西有靈池，方四百步。有連錢荇、浮根菱、倒枝藻。連錢荇，荇如錢文；浮根菱，根出水上，葉沉波下，實細薄，皮甘香，葉半青半白，霜降彌美，因名青冰菱也；倒枝藻者，枝橫倒水中，長九尺餘，如結網，有野鴨、秋鳧及鷗鷖來翔水上，入此草中，皆不得出，如繒網也。亦名水網藻。中有轉羽舫、逐龍舫、凌波舫，帝嘗游宴於此。"
+      ]
+    },
+    {
+      "book": "漢武帝別國洞冥記",
+      "title": "卷第二",
+      "source": "郭憲（舊題）",
+      "category": "other",
+      "category_label": "全書",
+      "number": 2,
+      "paragraphs": [
         "元鼎元年，起招仙閣於甘泉宮西。編翠羽麟毫為簾，青琉璃為扇，懸黎火齊為床，其上懸浮金輕玉之磬。浮金者，色如金，自浮於水上；輕玉者，其質貞明而輕。有霞光繡，有藻龍繡，有連煙繡，有走龍錦，有雲鳳錦，翻鴻錦。閣上燒荃靡香屑，燒粟許，其氣三月不絕。進（山房）嵻細棗，出（山房）嵻山，山臨碧海上，萬年一實，如今之軟棗。咋之有膏，膏可燃燈，西王母握以獻帝。燃芳苡燈，光色紫，有白鳳、黑龍、馵足來，戲於閣邊。有青鳥，赤頭，道路而下，以迎神女。神女留玉釵以贈帝，帝以賜趙婕妤。至昭帝元鳳中，宮人猶見此釵。黃諃欲之，明日示之，既發匣，有白燕飛升天。後宮人學作此釵，因名玉燕釵，言吉祥也。",
         "元鼎五年，郅支國貢馬肝石百斤。常以水銀養之，內玉櫃中，金泥封其上。國人長四尺，惟餌此石而已。半青半白，如今之馬肝。舂碎以和九轉之丹，服之，彌年不飢渴也。以之拂發，白者皆黑。帝坐群臣於甘泉殿，有發白者，以石拂之，應手皆黑。是時公卿語曰：「不用作方伯，惟須馬肝石。」此石酷烈，不和丹砂，不可近發。帝寢靈莊殿，召東方朔於青綺，窗不隔綈紈，重幕，問朔曰：「漢承庚運，火德，以何精瑞為祥應？」朔跪而對曰：「臣常至吳明之墟，是長安東過扶桑七萬里，有及雲山。山頂有井，雲起井中，若土德王黃雲出，火德王赤雲出，水德王黑雲出，金德王白雲出，木德王青雲出。此皆應瑞德也。」帝曰：「善」。",
         "元封中，起方山像，招諸靈異，召東方朔言其秘奧。乃燒天下異香，有沉光香、精祗香、明庭香、金磾香、塗魂香，外國所貢青楂之燈。青楂木有膏，如淳漆，削置器中，以蠟和之塗布，燃照數里。",
@@ -51,8 +55,17 @@
         "李充，馮翊人也。自言三百歲，荷草畚，負《五岳真圖》而至。帝禮待之，亦號負圖先生也。",
         "孟岐，河清之逸人也。年可七百歲。語及周初事，了然如目前。岐侍周公升壇上，岐以手摩成王足。周公以玉笏與之，岐嘗寶執，每以衣袂拂拭，笏厚七分，今銳斷，恆切桂葉食之。聞帝好仙，披草蓋而來謁帝焉。",
         "郭瓊，東郡人也。形貌醜劣，而意度過人。曾宿人家，輒乞薪自照讀書。晝眠，眼不閉，行地無跡。帝聞其異，徵焉。",
-        "黃安，代郡人也。為代郡卒。自云卑猥不獲處人間，執鞭懷荊而讀書。畫地以記數者，夕地成池矣。時人謂黃安年可八十餘，視如童子。常服朱砂，舉體皆赤，冬不著裘。坐一神龜，廣二尺，人問：「子坐此龜幾年矣？」對曰：「昔伏羲始造網罟，獲此龜以授吾。吾坐龜背已平矣。此蟲畏日月之光，二千歲即一出頭，吾坐此龜，已見五出頭矣。」行即負龜以趨，世人謂黃安萬歲矣。",
-        "《漢武帝別國洞冥記卷第三》",
+        "黃安，代郡人也。為代郡卒。自云卑猥不獲處人間，執鞭懷荊而讀書。畫地以記數者，夕地成池矣。時人謂黃安年可八十餘，視如童子。常服朱砂，舉體皆赤，冬不著裘。坐一神龜，廣二尺，人問：「子坐此龜幾年矣？」對曰：「昔伏羲始造網罟，獲此龜以授吾。吾坐龜背已平矣。此蟲畏日月之光，二千歲即一出頭，吾坐此龜，已見五出頭矣。」行即負龜以趨，世人謂黃安萬歲矣。"
+      ]
+    },
+    {
+      "book": "漢武帝別國洞冥記",
+      "title": "卷第三",
+      "source": "郭憲（舊題）",
+      "category": "other",
+      "category_label": "全書",
+      "number": 3,
+      "paragraphs": [
         "天漢二年，帝升蒼龍閣，思仙術，召諸方士言遠國遐方之事。唯東方朔下席，操筆跪而進，帝曰：「大夫為朕言乎？」朔曰：「臣游北極，至鐘火之山，日月所不照，有青龍銜燭火以照。山之四極，亦有園圃池苑，皆植異木異草。有明莖草，夜如金燈，折枝為炬，照見鬼物之形。仙人寧封常服此草，於夜暝時，輒見腹光通外，亦名洞冥草。」帝令銼此草為泥，以塗雲明之館。夜坐此館，不加燈燭。亦名照魅草。採以藉足，履水不沉。",
         "有夢草，似蒲，色紅。晝縮入地，夜則出，亦名懷莫。懷其葉，則知夢之吉凶，立驗也。帝思李夫人之容，不可得，朔乃獻一枝，帝懷之，夜果夢夫人。因改曰懷夢草。",
         "有鳳葵草，色丹，葉長四寸，味甘，久食令人身輕肌滑。赤松子餌之三歲，乘黃蛇入水，得黃珠一枚，色如真金，或言是黃蛇之卵，故名蛇珠，亦曰銷疾珠。語曰：寧失千里駒，不失黃蛇珠。",
@@ -76,8 +89,17 @@
         "有司夜雞，隨鼓節而鳴不息，從夜至曉，一更為一聲，五更為五聲，亦曰五時雞。",
         "有喜日鵝，至日出時銜翅而舞，又名曰舞日鵝。",
         "有升蕖鴨，赤色，每止於芙蕖上，不食五穀，唯咂葉上垂露，因名垂露鴨，亦曰丹毛鳧。",
-        "有女香樹，細枝葉，婦人帶之，香終年不減。",
-        "《漢武帝別國洞冥記卷第四》",
+        "有女香樹，細枝葉，婦人帶之，香終年不減。"
+      ]
+    },
+    {
+      "book": "漢武帝別國洞冥記",
+      "title": "卷第四",
+      "source": "郭憲（舊題）",
+      "category": "other",
+      "category_label": "全書",
+      "number": 4,
+      "paragraphs": [
         "武帝暮年，彌好仙術，與東方朔狎暱，帝曰：「朕所好甚者不老，其可得乎？」朔曰：「臣能使少者不老。」帝曰：「服何藥耶？」朔曰：「東北有地日之草，西南有春生之魚。」帝曰：「何以知之？」朔曰：「三足鳥數下地食此草，羲和欲馭，以手掩烏目，不聽下也，長其食此草。蓋鳥獸食此草，美悶不能動矣。」帝曰：「子何以知乎？」朔曰：「臣小時掘井，陷落地下數十年，無所托寄。有人引臣欲往此草，中隔紅泉，不得渡，其人以一只屐與臣，臣泛紅泉，得至此草之處，臣採而食之。其國人皆織珠玉為業，邀臣入雲煓之幕，設玄鈱雕枕，刻黑玉，銅鏤為日月雲雷之狀，亦曰鏤雲枕。又薦蛟毫之白縟，以蛟毫織為縟也。此毫柔而冷，常以夏日舒之，因名柔毫縟。又有水藻之屏，臣舉手拭之，恐水流濕其席，乃其光也。」",
         "帝所幸宮人，名麗娟，年十四，玉膚柔軟，吹氣勝蘭。不欲衣纓拂之，恐體痕也。每歌，李延年和之，於芝生殿唱回風之曲，庭中花皆翻落。置麗娟於明離之帳，恐塵垢污其體也。帝常以衣帶系麗娟之袂，閉於重幕之中，恐隨風而去也。麗娟以琥珀為佩，置衣裾裏，不使人知，乃言骨節自鳴，相與為神怪也。",
         "有丹蝦，長十丈，須長八尺，有兩翅，其鼻如鋸。載紫桂之林，以須纏身急流，以為棲息之處。馬丹嘗折蝦須為杖，後棄杖而飛，須化為丹，亦在海傍。",
@@ -89,246 +111,6 @@
   ],
   "annotations": [
     {
-      "word": "洞",
-      "pinyin": "dòng",
-      "zh_cn": "①物体中间的窟窿或凹陷部分（山洞）；②透彻、清楚（洞察）；③穿通（洞穿）。又读 tóng（洞?，山名洪洞）。",
-      "zh_tw": "①物體中間的窟窿或凹陷部分（山洞）；②透徹、清楚（洞察）；③穿通（洞穿）。又讀 tóng（洞?，山名洪洞）。",
-      "en": "cave；hole；zero (unambiguous spoken form when spelling out numbers)",
-      "note": "多音字，可讀「dong/tong」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "冥",
-      "pinyin": "míng",
-      "zh_cn": "①昏暗、深暗（幽冥、晦冥）；②愚昧（冥顽不灵）；③深远（冥思苦想）；④迷信指阴间（冥府）；⑤暗合、默契（冥合）。",
-      "zh_tw": "①昏暗、深暗（幽冥、晦冥）；②愚昧（冥頑不靈）；③深遠（冥思苦想）；④迷信指陰間（冥府）；⑤暗合、默契（冥合）。",
-      "en": "dark；deep；stupid",
-      "note": null,
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": false,
-      "rare": true
-    },
-    {
-      "word": "家",
-      "pinyin": "jiā",
-      "zh_cn": "①家庭、人家；②住所；③学术流派（儒家、百家争鸣）；④从事某种行业或有专长的人（农家、作家）；⑤谦称自家亲属（家父、家兄）；⑥量词（一家人家）。",
-      "zh_tw": "①家庭、人家；②住所；③學術流派（儒家、百家爭鳴）；④從事某種行業或有專長的人（農家、作家）；⑤謙稱自家親屬（家父、家兄）；⑥量詞（一家人家）。",
-      "en": "home；family；(polite) my (sister, uncle etc)",
-      "note": "多音字，可讀「jia/jie」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "不",
-      "pinyin": "bù",
-      "zh_cn": "否定副词：①表一般否定（不去、不好、不明）；②表禁止、劝阻（不许、不要）；③文言中可同'否'，用于句末表疑问（可与否）。",
-      "zh_tw": "否定副詞：①表一般否定（不去、不好、不明）；②表禁止、勸阻（不許、不要）；③文言中可同'否'，用於句末表疑問（可與否）。",
-      "en": "no; not so；(bound form) not; un-",
-      "note": "多音字，可讀「bu/fou」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "能",
-      "pinyin": "néng",
-      "zh_cn": "①能力、才干；②有能力的人（能者）；③能够、会（能说会道）；④应该（能者多劳）；⑤物理学'能量'之省。",
-      "zh_tw": "①能力、才幹；②有能力的人（能者）；③能夠、會（能說會道）；④應該（能者多勞）；⑤物理學'能量'之省。",
-      "en": "surname Neng；can；to be able to",
-      "note": "多音字，可讀「neng/nai」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "藏",
-      "pinyin": "cáng",
-      "zh_cn": "①读 cáng：隐匿、收藏、储藏；②读 zàng：储存东西的地方、宝藏；佛教道教经典总称；内脏。",
-      "zh_tw": "①讀 cáng：隱匿、收藏、儲藏；②讀 zàng：儲存東西的地方、寶藏；佛教道教經典總稱；內臟。",
-      "en": "to conceal；to hide away；to harbor",
-      "note": "多音字，可讀「cang/zang」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "乘",
-      "pinyin": "chéng",
-      "zh_cn": "①读 chéng：坐、骑（乘车）；趁着、凭借（乘势）；佛教教义（大乘、小乘）；②读 shèng：古代四马拉的车为一乘，量词；史书（史乘）。",
-      "zh_tw": "①讀 chéng：坐、騎（乘車）；趁著、憑藉（乘勢）；佛教教義（大乘、小乘）；②讀 shèng：古代四馬拉的車為一乘，量詞；史書（史乘）。",
-      "en": "surname Cheng；to ride；to mount",
-      "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "蓋",
-      "pinyin": "gài",
-      "zh_cn": "①器物上起遮蔽作用的东西（锅盖）；②伞、车篷（华盖）；③遮掩、覆盖；④压倒、胜过（盖世）；⑤文言副词，表推测或发语（盖闻）。又读 gě（姓）。",
-      "zh_tw": "①器物上起遮蔽作用的東西（鍋蓋）；②傘、車篷（華蓋）；③遮掩、覆蓋；④壓倒、勝過（蓋世）；⑤文言副詞，表推測或發語（蓋聞）。又讀 gě（姓）。",
-      "en": "lid；top；cover",
-      "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "曩",
-      "pinyin": "nǎng",
-      "zh_cn": "以往，过去",
-      "zh_tw": "以往，過去",
-      "en": "in former times",
-      "note": null,
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": false,
-      "rare": true
-    },
-    {
-      "word": "得",
-      "pinyin": "dé",
-      "zh_cn": "①得到、获得；②得当、合适（相得益彰）；③能够、可以；④完成（衣服做得）；⑤满意、得意。又读 de（补语助词，跑得快）、děi（需要、必须）。",
-      "zh_tw": "①得到、獲得；②得當、合適（相得益彰）；③能夠、可以；④完成（衣服做得）；⑤滿意、得意。又讀 de（補語助詞，跑得快）、děi（需要、必須）。",
-      "en": "to obtain；to get；to gain",
-      "note": "多音字，可讀「de/dei」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "稽",
-      "pinyin": "jī",
-      "zh_cn": "①读 jī：查考、考核（稽查、无稽之谈）；停留、拖延（稽留、稽延）；计较（反唇相稽）；②读 qǐ：稽首（古跪拜礼，叩头至地）。",
-      "zh_tw": "①讀 jī：查考、考核（稽查、無稽之談）；停留、拖延（稽留、稽延）；計較（反唇相稽）；②讀 qǐ：稽首（古跪拜禮，叩頭至地）。",
-      "en": "surname Ji；(bound form) to examine; to check (against records)；(literary) to delay; to linger",
-      "note": "多音字，可讀「ji/qi」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "諫",
-      "pinyin": "jiàn",
-      "zh_cn": "①规劝君主、尊长或朋友，使改正错误（进谏、直言敢谏）；②挽救、纠正（谏正）。",
-      "zh_tw": "①規勸君主、尊長或朋友，使改正錯誤（進諫、直言敢諫）；②挽救、糾正（諫正）。",
-      "en": "surname Jian；to remonstrate；to admonish",
-      "note": null,
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": false,
-      "rare": true
-    },
-    {
-      "word": "於",
-      "pinyin": "wū",
-      "zh_cn": "①介词，同'于'：在、到、对、向、从、被、比等；②叹词，读 wū，'於乎／於戏'即'呜呼'。",
-      "zh_tw": "①介詞，同'於'：在、到、對、向、從、被、比等；②嘆詞，讀 wū，'於乎／於戲'即'嗚呼'。",
-      "en": "(literary) Oh!；Ah!",
-      "note": "多音字，可讀「wu/yu」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "奧",
-      "pinyin": "ào",
-      "zh_cn": null,
-      "zh_tw": null,
-      "en": "(bound form) Austria (abbr. for 奧地利|奥地利[Ao4 di4 li4])；(bound form) Olympics (abbr. for 奧林匹克|奥林匹克[Ao4 lin2 pi3 ke4])；obscure",
-      "note": "多音字，可讀「ao/yu」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "著",
-      "pinyin": "zhù",
-      "zh_cn": "①显明、突出（显著、昭著）；②写作、撰述（著作、编著）；③登记、记载（著录）。又读 zhe（'着'，表动作持续）、zhuó（'着'：附着、穿着、着落）。",
-      "zh_tw": "①顯明、突出（顯著、昭著）；②寫作、撰述（著作、編著）；③登記、記載（著錄）。又讀 zhe（'著'，表動作持續）、zhuó（'著'：附著、穿著、著落）。",
-      "en": "to make known；to show；to prove",
-      "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "見",
-      "pinyin": "jiàn",
-      "zh_cn": "①看见、看到；②会见、拜见；③见解、看法（远见）；④显现、出现，同'现'；⑤用在'看、听、闻'后表效果（听得见）。又读 xiàn（同'现'）。",
-      "zh_tw": "①看見、看到；②會見、拜見；③見解、看法（遠見）；④顯現、出現，同'現'；⑤用在'看、聽、聞'後表效果（聽得見）。又讀 xiàn（同'現'）。",
-      "en": "to see；to meet；to appear (to be sth)",
-      "note": "多音字，可讀「jian/xian」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "遐",
-      "pinyin": "xiá",
-      "zh_cn": "远；长久；〈古〉何，为什么",
-      "zh_tw": "遠；長久；〈古〉何，為什麼",
-      "en": "distant, far; to abandon, to cast away",
-      "note": null,
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": false,
-      "rare": true
-    },
-    {
-      "word": "其",
-      "pinyin": "qí",
-      "zh_cn": "①代词：他（它）、他们，他的（它的）、他们的；②指示代词：那、那个、那些；③副词，表推测、反问：大概、难道（其孰能讥之乎）；④助词，无实义（路漫漫其修远兮）。",
-      "zh_tw": "①代詞：他（它）、他們，他的（它的）、他們的；②指示代詞：那、那個、那些；③副詞，表推測、反問：大概、難道（其孰能譏之乎）；④助詞，無實義（路漫漫其修遠兮）。",
-      "en": "his；her；its",
-      "note": "多音字，可讀「qi/ji」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "奇",
-      "pinyin": "qí",
-      "zh_cn": "①读 qí：特殊的、罕见的（奇事）；出人意料（奇兵）；惊异（惊奇）；②读 jī：单数、零数（奇数、奇零）；命运不好（数奇）。",
-      "zh_tw": "①讀 qí：特殊的、罕見的（奇事）；出人意料（奇兵）；驚異（驚奇）；②讀 jī：單數、零數（奇數、奇零）；命運不好（數奇）。",
-      "en": "strange；odd；weird",
-      "note": "多音字，可讀「qi/ji」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
-      "word": "盛",
-      "pinyin": "shèng",
-      "zh_cn": "①读 shèng：兴旺、旺盛（茂盛）；丰富、隆重（盛宴）；强烈（盛怒）；②读 chéng：把东西放入容器（盛饭）；容纳。",
-      "zh_tw": "①讀 shèng：興旺、旺盛（茂盛）；豐富、隆重（盛宴）；強烈（盛怒）；②讀 chéng：把東西放入容器（盛飯）；容納。",
-      "en": "surname Sheng；flourishing；vigorous",
-      "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
-      "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
-      "multi": true,
-      "rare": false
-    },
-    {
       "word": "景",
       "pinyin": "jǐng",
       "zh_cn": "①日光（春景）；②风景、景色；③情形、状况（光景）；④仰慕、佩服（景仰）；⑤大（景行）。又读 yǐng，同'影'。",
@@ -336,7 +118,7 @@
       "en": "surname Jing；(bound form) scenery；circumstance",
       "note": "多音字，可讀「jing/ying」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -348,7 +130,7 @@
       "en": "swine",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -360,7 +142,7 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -372,7 +154,31 @@
       "en": "to feel；to find that；thinking",
       "note": "多音字，可讀「jue/jiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
+      "multi": true,
+      "rare": false
+    },
+    {
+      "word": "於",
+      "pinyin": "wū",
+      "zh_cn": "①介词，同'于'：在、到、对、向、从、被、比等；②叹词，读 wū，'於乎／於戏'即'呜呼'。",
+      "zh_tw": "①介詞，同'於'：在、到、對、向、從、被、比等；②嘆詞，讀 wū，'於乎／於戲'即'嗚呼'。",
+      "en": "(literary) Oh!；Ah!",
+      "note": "多音字，可讀「wu/yu」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "卷第一",
+      "multi": true,
+      "rare": false
+    },
+    {
+      "word": "見",
+      "pinyin": "jiàn",
+      "zh_cn": "①看见、看到；②会见、拜见；③见解、看法（远见）；④显现、出现，同'现'；⑤用在'看、听、闻'后表效果（听得见）。又读 xiàn（同'现'）。",
+      "zh_tw": "①看見、看到；②會見、拜見；③見解、看法（遠見）；④顯現、出現，同'現'；⑤用在'看、聽、聞'後表效果（聽得見）。又讀 xiàn（同'現'）。",
+      "en": "to see；to meet；to appear (to be sth)",
+      "note": "多音字，可讀「jian/xian」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -384,7 +190,7 @@
       "en": "to enlighten；lattice window",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -396,7 +202,7 @@
       "en": "luxuriant vegetation",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -408,7 +214,7 @@
       "en": "(interj.)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -420,7 +226,7 @@
       "en": "sparrow",
       "note": "多音字，可讀「que/qiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -432,7 +238,7 @@
       "en": "beautiful；open-work silk",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -444,7 +250,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -456,7 +262,7 @@
       "en": "pretty；winsome；to ask for sb's help",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -468,7 +274,7 @@
       "en": "(bound form) family name; surname (as in 王氏[Wang2 shi4] \"the Wang clan\")；(bound form) maiden name; née (as in 李王氏[Li3 Wang2 shi4] \"Mrs. Li, née Wang\")；(bound form) honorific suffix added to the surname or full name of a notable person, esp. historical or scholarly figures",
       "note": "多音字，可讀「shi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -480,7 +286,7 @@
       "en": "female；woman；daughter",
       "note": "多音字，可讀「nü/ru」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -492,7 +298,7 @@
       "en": "to pick up；to collate or arrange；ten (banker's anti-fraud numeral)",
       "note": "多音字，可讀「shi/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -504,7 +310,7 @@
       "en": "secret；secretary",
       "note": "多音字，可讀「mi/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -516,7 +322,7 @@
       "en": "(literary) prophecy; omen",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -528,7 +334,7 @@
       "en": "to split；to direct；to brandish",
       "note": "多音字，可讀「hui/wei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": true
     },
@@ -540,7 +346,7 @@
       "en": "to whip with bamboo strips",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -552,7 +358,7 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -564,7 +370,7 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -576,7 +382,7 @@
       "en": "to wash；to redress (a wrong)；name of a river",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -588,7 +394,7 @@
       "en": "to wash；to rinse；any of three 10-day division of the month (during Tang dynasty)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -600,7 +406,7 @@
       "en": "abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea；imperial or royal court；government",
       "note": "多音字，可讀「chao/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -612,7 +418,7 @@
       "en": "all, each, entirely, whole; metropolis; capital",
       "note": "多音字，可讀「dou/du」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -624,7 +430,7 @@
       "en": "syrup; sweet-meat, sweet-cake",
       "note": "多音字，可讀「yi/si」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": true
     },
@@ -636,7 +442,7 @@
       "en": "food; to eat",
       "note": "多音字，可讀「shi/si/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -648,7 +454,7 @@
       "en": "dew; leak; bare, exposed; to reveal, to show",
       "note": "多音字，可讀「lu/lou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -660,7 +466,7 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -672,7 +478,7 @@
       "en": "also, besides; still, yet; to return",
       "note": "多音字，可讀「huan/hai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -684,7 +490,7 @@
       "en": "sigh；also pr. [jue1]",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -696,7 +502,31 @@
       "en": "lower garment；skirts；petticoats",
       "note": "多音字，可讀「shang/chang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
+      "multi": true,
+      "rare": false
+    },
+    {
+      "word": "家",
+      "pinyin": "jiā",
+      "zh_cn": "①家庭、人家；②住所；③学术流派（儒家、百家争鸣）；④从事某种行业或有专长的人（农家、作家）；⑤谦称自家亲属（家父、家兄）；⑥量词（一家人家）。",
+      "zh_tw": "①家庭、人家；②住所；③學術流派（儒家、百家爭鳴）；④從事某種行業或有專長的人（農家、作家）；⑤謙稱自家親屬（家父、家兄）；⑥量詞（一家人家）。",
+      "en": "home；family；(polite) my (sister, uncle etc)",
+      "note": "多音字，可讀「jia/jie」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "卷第一",
+      "multi": true,
+      "rare": false
+    },
+    {
+      "word": "其",
+      "pinyin": "qí",
+      "zh_cn": "①代词：他（它）、他们，他的（它的）、他们的；②指示代词：那、那个、那些；③副词，表推测、反问：大概、难道（其孰能讥之乎）；④助词，无实义（路漫漫其修远兮）。",
+      "zh_tw": "①代詞：他（它）、他們，他的（它的）、他們的；②指示代詞：那、那個、那些；③副詞，表推測、反問：大概、難道（其孰能譏之乎）；④助詞，無實義（路漫漫其修遠兮）。",
+      "en": "his；her；its",
+      "note": "多音字，可讀「qi/ji」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -708,7 +538,7 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -720,7 +550,7 @@
       "en": "pool；pond；(of metals etc) luster",
       "note": "多音字，可讀「ze/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -732,7 +562,7 @@
       "en": "an initial particle, a prefix used for names; used in transliterations",
       "note": "多音字，可讀「a/e」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -744,7 +574,7 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -756,7 +586,19 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
+      "multi": true,
+      "rare": false
+    },
+    {
+      "word": "能",
+      "pinyin": "néng",
+      "zh_cn": "①能力、才干；②有能力的人（能者）；③能够、会（能说会道）；④应该（能者多劳）；⑤物理学'能量'之省。",
+      "zh_tw": "①能力、才幹；②有能力的人（能者）；③能夠、會（能說會道）；④應該（能者多勞）；⑤物理學'能量'之省。",
+      "en": "surname Neng；can；to be able to",
+      "note": "多音字，可讀「neng/nai」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -768,7 +610,7 @@
       "en": "to wash; to bathe；to develop (photographs)；to shuffle (cards etc)",
       "note": "多音字，可讀「xi/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -780,7 +622,7 @@
       "en": "chime stones, ancient percussion instrument made of stone or jade pieces hung in a row and struck as a xylophone",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -792,7 +634,7 @@
       "en": "bamboo flute with 7 or 8 holes",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -804,9 +646,21 @@
       "en": "overflow；rainwater；tearful",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
+    },
+    {
+      "word": "洞",
+      "pinyin": "dòng",
+      "zh_cn": "①物体中间的窟窿或凹陷部分（山洞）；②透彻、清楚（洞察）；③穿通（洞穿）。又读 tóng（洞?，山名洪洞）。",
+      "zh_tw": "①物體中間的窟窿或凹陷部分（山洞）；②透徹、清楚（洞察）；③穿通（洞穿）。又讀 tóng（洞?，山名洪洞）。",
+      "en": "cave；hole；zero (unambiguous spoken form when spelling out numbers)",
+      "note": "多音字，可讀「dong/tong」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "卷第一",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "壑",
@@ -816,9 +670,21 @@
       "en": "gully；ravine；Taiwan pr. [huo4]",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
+    },
+    {
+      "word": "得",
+      "pinyin": "dé",
+      "zh_cn": "①得到、获得；②得当、合适（相得益彰）；③能够、可以；④完成（衣服做得）；⑤满意、得意。又读 de（补语助词，跑得快）、děi（需要、必须）。",
+      "zh_tw": "①得到、獲得；②得當、合適（相得益彰）；③能夠、可以；④完成（衣服做得）；⑤滿意、得意。又讀 de（補語助詞，跑得快）、děi（需要、必須）。",
+      "en": "to obtain；to get；to gain",
+      "note": "多音字，可讀「de/dei」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "卷第一",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "虯",
@@ -828,7 +694,7 @@
       "en": "young dragon with horns",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -840,7 +706,7 @@
       "en": "oak；Quercus serrata",
       "note": "多音字，可讀「zha/zuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -852,7 +718,7 @@
       "en": "to pursue, to chase after; to expel",
       "note": "多音字，可讀「zhui/dui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -864,7 +730,7 @@
       "en": "the limit；tip of branch",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -876,7 +742,7 @@
       "en": "(tree)",
       "note": "多音字，可讀「yi/zhi/li/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": true
     },
@@ -888,7 +754,7 @@
       "en": "oar (archaic)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -900,7 +766,7 @@
       "en": "a thorny tree；sugarcane；Cudrania triloba",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -912,7 +778,7 @@
       "en": "scull (single oar worked from side to side over the stern of a boat)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -924,7 +790,7 @@
       "en": "oar (archaic)；scull；paddle",
       "note": "多音字，可讀「zhao/zhuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": true
     },
@@ -936,9 +802,21 @@
       "en": "Lophanthus rugosus；beans",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
+    },
+    {
+      "word": "盛",
+      "pinyin": "shèng",
+      "zh_cn": "①读 shèng：兴旺、旺盛（茂盛）；丰富、隆重（盛宴）；强烈（盛怒）；②读 chéng：把东西放入容器（盛饭）；容纳。",
+      "zh_tw": "①讀 shèng：興旺、旺盛（茂盛）；豐富、隆重（盛宴）；強烈（盛怒）；②讀 chéng：把東西放入容器（盛飯）；容納。",
+      "en": "surname Sheng；flourishing；vigorous",
+      "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "卷第一",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "降",
@@ -948,7 +826,7 @@
       "en": "to descend, to fall; to drop, to lower",
       "note": "多音字，可讀「jiang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -960,7 +838,7 @@
       "en": "toad (\"chán\" represents the sound of its croaking)；(mythology) the three-legged toad said to exist in the moon；(metonym) the moon",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -972,7 +850,7 @@
       "en": "a Chinese foot；one-third of a meter；a ruler",
       "note": "多音字，可讀「chi/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -984,7 +862,7 @@
       "en": "god of the earth",
       "note": "多音字，可讀「qi/zhi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": true
     },
@@ -996,7 +874,7 @@
       "en": "a mountain demon resembling a tiger",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1008,9 +886,21 @@
       "en": "magic, enchantment, charm; a forest demon",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
+    },
+    {
+      "word": "不",
+      "pinyin": "bù",
+      "zh_cn": "否定副词：①表一般否定（不去、不好、不明）；②表禁止、劝阻（不许、不要）；③文言中可同'否'，用于句末表疑问（可与否）。",
+      "zh_tw": "否定副詞：①表一般否定（不去、不好、不明）；②表禁止、勸阻（不許、不要）；③文言中可同'否'，用於句末表疑問（可與否）。",
+      "en": "no; not so；(bound form) not; un-",
+      "note": "多音字，可讀「bu/fou」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "卷第一",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "核",
@@ -1020,7 +910,7 @@
       "en": "pit；stone；nucleus",
       "note": "多音字，可讀「he/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1032,7 +922,7 @@
       "en": "surname Nan；south",
       "note": "多音字，可讀「nan/na」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1044,7 +934,7 @@
       "en": "surname He；(joining two nouns) and; together with; with (Taiwan pr. [han4])；(math.) sum",
       "note": "多音字，可讀「he/huo/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1056,7 +946,7 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1068,7 +958,7 @@
       "en": "(bound form) moth",
       "note": "多音字，可讀「e/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1080,7 +970,7 @@
       "en": "female unicorn",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1092,7 +982,7 @@
       "en": "to flick；to brush off；(of a breeze) to brush lightly over",
       "note": "多音字，可讀「fu/bi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1104,7 +994,7 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1116,7 +1006,7 @@
       "en": "surname Zhu；vermilion；(bound form) cinnabar",
       "note": "多音字，可讀「zhu/shu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1128,7 +1018,7 @@
       "en": "to fall or drop；(of the sun) to set；(of a tide) to go out",
       "note": "多音字，可讀「luo/la/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1140,7 +1030,7 @@
       "en": "branch；classifier for sticks, rods, pencils etc",
       "note": "多音字，可讀「zhi/qi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1152,9 +1042,21 @@
       "en": "to visit (a superior)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
+    },
+    {
+      "word": "乘",
+      "pinyin": "chéng",
+      "zh_cn": "①读 chéng：坐、骑（乘车）；趁着、凭借（乘势）；佛教教义（大乘、小乘）；②读 shèng：古代四马拉的车为一乘，量词；史书（史乘）。",
+      "zh_tw": "①讀 chéng：坐、騎（乘車）；趁著、憑藉（乘勢）；佛教教義（大乘、小乘）；②讀 shèng：古代四馬拉的車為一乘，量詞；史書（史乘）。",
+      "en": "surname Cheng；to ride；to mount",
+      "note": "多音字，可讀「cheng/sheng」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "卷第一",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "輦",
@@ -1164,7 +1066,7 @@
       "en": "hand-cart; to transport by carriage",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1176,7 +1078,7 @@
       "en": "fabulous bird",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1188,7 +1090,7 @@
       "en": "surname Le；happy；cheerful",
       "note": "多音字，可讀「le/yue/yao/lao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1200,7 +1102,7 @@
       "en": "(bound form) to clasp under the arm；(bound form) to coerce；(bound form) to harbor (resentment etc)",
       "note": "多音字，可讀「xie/jia」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1212,7 +1114,7 @@
       "en": "complicated；many；in great numbers",
       "note": "多音字，可讀「fan/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1224,7 +1126,7 @@
       "en": "heavy, weighty; to double, to repeat",
       "note": "多音字，可讀「zhong/chong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1236,7 +1138,7 @@
       "en": "bird",
       "note": "多音字，可讀「niao/diao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1248,7 +1150,7 @@
       "en": "respectful (ly)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1260,7 +1162,7 @@
       "en": "to shoot",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1272,7 +1174,7 @@
       "en": "(fragrant plant)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1284,7 +1186,7 @@
       "en": "millet",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1296,7 +1198,7 @@
       "en": "(literary) fine white silk; delicate silk fabric",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1308,7 +1210,7 @@
       "en": "scent, fragrance, aroma",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1320,7 +1222,7 @@
       "en": "to open and close (the mouth etc)；friendly；compliant",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1332,7 +1234,7 @@
       "en": "to connect；to relate to；to tie up",
       "note": "多音字，可讀「xi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1344,7 +1246,7 @@
       "en": "bury；sacrifice",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1356,7 +1258,7 @@
       "en": "bolt, latch, crossbar",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1368,7 +1270,7 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1380,7 +1282,7 @@
       "en": "yellow floating heart (Nymphoides peltatum)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1392,7 +1294,7 @@
       "en": "thin；cold in manner；indifferent",
       "note": "多音字，可讀「bao/bo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1404,7 +1306,7 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": true,
       "rare": false
     },
@@ -1416,7 +1318,7 @@
       "en": "wild duck; teal; swim",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1428,7 +1330,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1440,7 +1342,7 @@
       "en": "surname Zeng；silk fabrics；to tie",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1452,7 +1354,7 @@
       "en": "2 boats lashed together；large boat",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第一",
       "multi": false,
       "rare": true
     },
@@ -1464,7 +1366,7 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1476,7 +1378,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1488,7 +1390,7 @@
       "en": "dialectal equivalent of 怎麼|怎么[zen3 me5]；Taiwan pr. [ze2]",
       "note": "多音字，可讀「za/ze/zha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1500,7 +1402,7 @@
       "en": "see 薏苡[yi4 yi3]",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1512,7 +1414,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1524,7 +1426,7 @@
       "en": "trick；drama；play",
       "note": "多音字，可讀「xi/hu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1536,7 +1438,7 @@
       "en": "ornamental hairpin",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1548,7 +1450,7 @@
       "en": "handsome",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1560,7 +1462,7 @@
       "en": "beautiful, handsome, fair",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1572,7 +1474,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1584,7 +1486,7 @@
       "en": "to grow, to flourish; superlative",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1596,7 +1498,7 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1608,7 +1510,7 @@
       "en": "to pound (grain etc) with a mortar and pestle",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1620,7 +1522,7 @@
       "en": "father's elder brother；senior；paternal elder uncle",
       "note": "多音字，可讀「bo/bai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1632,7 +1534,7 @@
       "en": "to call together；to summon；to convene",
       "note": "多音字，可讀「zhao/shao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1644,7 +1546,7 @@
       "en": "coarse greenish black pongee",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1656,7 +1558,19 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
+      "multi": true,
+      "rare": false
+    },
+    {
+      "word": "奧",
+      "pinyin": "ào",
+      "zh_cn": null,
+      "zh_tw": null,
+      "en": "(bound form) Austria (abbr. for 奧地利|奥地利[Ao4 di4 li4])；(bound form) Olympics (abbr. for 奧林匹克|奥林匹克[Ao4 lin2 pi3 ke4])；obscure",
+      "note": "多音字，可讀「ao/yu」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1668,7 +1582,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1680,7 +1594,7 @@
       "en": "Chinese hawthorn",
       "note": "多音字，可讀「zha/cha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": true
     },
@@ -1692,7 +1606,7 @@
       "en": "genuine；pure；honest",
       "note": "多音字，可讀「chun/zhun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1704,7 +1618,7 @@
       "en": "to peel with a knife；to pare；to cut (a ball at tennis etc)",
       "note": "多音字，可讀「xiao/xue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1716,7 +1630,7 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1728,7 +1642,7 @@
       "en": "amber",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1740,7 +1654,7 @@
       "en": "fine woven grass mat",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1752,7 +1666,7 @@
       "en": "to wash；to cleanse of evil",
       "note": "多音字，可讀「zhuo/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": true
     },
@@ -1764,7 +1678,7 @@
       "en": "(jade)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1776,7 +1690,7 @@
       "en": "to prepare herbal medicine by roasting or parching (in a pan)；cannon；CL:座[zuo4]",
       "note": "多音字，可讀「pao/bao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1788,7 +1702,7 @@
       "en": "chest；breast",
       "note": "多音字，可讀「pu/fu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1800,7 +1714,7 @@
       "en": "(literary) bridle; halter; headstall；to rein in；to compel; to force",
       "note": "多音字，可讀「le/lei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1812,7 +1726,7 @@
       "en": "animal cited in ancient texts, resembling a buffalo (some say rhinoceros or female rhinoceros)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1824,7 +1738,7 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1836,7 +1750,7 @@
       "en": "quilt；to cover (with)；(literary) to suffer (a misfortune)",
       "note": "多音字，可讀「bei/pi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1848,7 +1762,7 @@
       "en": "to arrive；to follow；heel",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1860,7 +1774,7 @@
       "en": "war chariot (archaic)；rook (in Chinese chess)；rook (in chess)",
       "note": "多音字，可讀「ju/che」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1872,7 +1786,7 @@
       "en": "bottom; base；background; foundation；copy (of a manuscript or receipt etc) kept as a record",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1884,7 +1798,7 @@
       "en": "surname Su；lodge for the night；old",
       "note": "多音字，可讀「su/xiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1896,7 +1810,7 @@
       "en": "a legendary dragon with the ability to control rain and floods；see also 蛟龍|蛟龙[jiao1 long2]",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1908,7 +1822,7 @@
       "en": "ancient measuring vessel；fifty liters；dry measure for grain equal to five dou 五斗 (before Tang, ten pecks)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1920,7 +1834,7 @@
       "en": "river in Shandong",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1932,7 +1846,7 @@
       "en": "double-fermented wine, vintage wine",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1944,7 +1858,7 @@
       "en": "ripe; mature；thoroughly cooked; done；familiar; acquainted",
       "note": "多音字，可讀「shu/shou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1956,7 +1870,7 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -1968,7 +1882,7 @@
       "en": "dragon with horns not yet grown (in myth or heraldry)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1980,7 +1894,7 @@
       "en": "hairpin",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -1992,7 +1906,7 @@
       "en": "bridal veil or kerchief",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2004,7 +1918,7 @@
       "en": "parrot",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2016,7 +1930,7 @@
       "en": "species of parrot",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2028,7 +1942,7 @@
       "en": "swan",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2040,7 +1954,7 @@
       "en": "curtain；screen",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2052,7 +1966,7 @@
       "en": "imperial concubine",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2064,7 +1978,7 @@
       "en": "imperial concubine",
       "note": "多音字，可讀「fei/pei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": true
     },
@@ -2076,7 +1990,7 @@
       "en": "often, readily; scattered; the weapon-rack of a chariot",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2088,7 +2002,7 @@
       "en": "to air；to sun",
       "note": "多音字，可讀「pu/bao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2100,7 +2014,7 @@
       "en": "that, that one, those",
       "note": "多音字，可讀「na/nei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2112,7 +2026,7 @@
       "en": "to turn sth over；to turn upside down；to tip sth out (of a container)",
       "note": "多音字，可讀「zhe/she」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2124,7 +2038,7 @@
       "en": "ears without rim",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2136,7 +2050,7 @@
       "en": "constrained",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2148,7 +2062,7 @@
       "en": "immortal",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2160,7 +2074,19 @@
       "en": "how? (emphatic question)",
       "note": "多音字，可讀「qi/kai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
+      "multi": true,
+      "rare": false
+    },
+    {
+      "word": "蓋",
+      "pinyin": "gài",
+      "zh_cn": "①器物上起遮蔽作用的东西（锅盖）；②伞、车篷（华盖）；③遮掩、覆盖；④压倒、胜过（盖世）；⑤文言副词，表推测或发语（盖闻）。又读 gě（姓）。",
+      "zh_tw": "①器物上起遮蔽作用的東西（鍋蓋）；②傘、車篷（華蓋）；③遮掩、覆蓋；④壓倒、勝過（蓋世）；⑤文言副詞，表推測或發語（蓋聞）。又讀 gě（姓）。",
+      "en": "lid；top；cover",
+      "note": "多音字，可讀「gai/ge/he/hai」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2172,7 +2098,7 @@
       "en": "surname Yan；to lie supine；to stop",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2184,7 +2110,7 @@
       "en": "to carry (hanging down from the hand)；to lift；to put forward",
       "note": "多音字，可讀「ti/di」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2196,7 +2122,7 @@
       "en": "match, comfortable; just",
       "note": "多音字，可讀「shi/di/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2208,7 +2134,7 @@
       "en": "tired old horse; old, weak",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2220,7 +2146,7 @@
       "en": "surname Jian；lame；cripple",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2232,7 +2158,7 @@
       "en": "mow",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2244,9 +2170,21 @@
       "en": "feed a horse with grain；horse feed",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
+    },
+    {
+      "word": "著",
+      "pinyin": "zhù",
+      "zh_cn": "①显明、突出（显著、昭著）；②写作、撰述（著作、编著）；③登记、记载（著录）。又读 zhe（'着'，表动作持续）、zhuó（'着'：附着、穿着、着落）。",
+      "zh_tw": "①顯明、突出（顯著、昭著）；②寫作、撰述（著作、編著）；③登記、記載（著錄）。又讀 zhe（'著'，表動作持續）、zhuó（'著'：附著、穿著、著落）。",
+      "en": "to make known；to show；to prove",
+      "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "卷第二",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "岐",
@@ -2256,7 +2194,7 @@
       "en": "surname Qi；also used in place names",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2268,7 +2206,7 @@
       "en": "to gallop; by dint of; surname",
       "note": "多音字，可讀「feng/ping」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2280,7 +2218,7 @@
       "en": "assist；ready to fly；respect",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2292,7 +2230,7 @@
       "en": "a basket or pan used for earth, manure etc",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2304,7 +2242,7 @@
       "en": "to finish；(used with 得[de2] or 不[bu4] after a verb to express (im)possibility, as in 忘不了[wang4 bu5 liao3] \"cannot forget\")；(literary) (usually followed by a negative such as 無|无[wu2] or 不[bu4]) completely (not); entirely (not); (not) in the least",
       "note": "多音字，可讀「le/liao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2316,7 +2254,7 @@
       "en": "to rub",
       "note": "多音字，可讀「mo/ma」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2328,7 +2266,7 @@
       "en": "(old) ceremonial tablet (held by officials at an audience)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2340,7 +2278,7 @@
       "en": "sleeve of a robe",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2352,7 +2290,7 @@
       "en": "to pass；to spend (time)；measure",
       "note": "多音字，可讀「du/duo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2364,7 +2302,7 @@
       "en": "once；already；ever (in the past)",
       "note": "多音字，可讀「ceng/zeng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2376,7 +2314,7 @@
       "en": "4th note in the ancient Chinese pentatonic scale 五音[wu3 yin1], corresponding to sol",
       "note": "多音字，可讀「zhi/zheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2388,7 +2326,7 @@
       "en": "soldier；servant；to finish",
       "note": "多音字，可讀「zu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2400,7 +2338,7 @@
       "en": "humble；rustic；plentiful",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2412,7 +2350,7 @@
       "en": "surname Qiu；fur；fur coat",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2424,7 +2362,7 @@
       "en": "turtle, tortoise; cuckold",
       "note": "多音字，可讀「gui/jun/qiu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2436,7 +2374,7 @@
       "en": "same as Fuxi 伏羲[Fu2 xi1], a mythical emperor；surname Xi",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2448,7 +2386,7 @@
       "en": "to implicate；net for birds or fish",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": false,
       "rare": true
     },
@@ -2460,7 +2398,7 @@
       "en": "to hasten；to hurry；to walk fast",
       "note": "多音字，可讀「qu/cu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第二",
       "multi": true,
       "rare": false
     },
@@ -2472,9 +2410,21 @@
       "en": "to think；to consider",
       "note": "多音字，可讀「si/sai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
+    },
+    {
+      "word": "遐",
+      "pinyin": "xiá",
+      "zh_cn": "远；长久；〈古〉何，为什么",
+      "zh_tw": "遠；長久；〈古〉何，為什麼",
+      "en": "distant, far; to abandon, to cast away",
+      "note": null,
+      "is_difficult": true,
+      "src": "卷第三",
+      "multi": false,
+      "rare": true
     },
     {
       "word": "朕",
@@ -2484,7 +2434,7 @@
       "en": "(used by an emperor or king) I; me; we (royal \"we\")；(literary) omen",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2496,7 +2446,19 @@
       "en": "dark",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
+      "multi": false,
+      "rare": true
+    },
+    {
+      "word": "冥",
+      "pinyin": "míng",
+      "zh_cn": "①昏暗、深暗（幽冥、晦冥）；②愚昧（冥顽不灵）；③深远（冥思苦想）；④迷信指阴间（冥府）；⑤暗合、默契（冥合）。",
+      "zh_tw": "①昏暗、深暗（幽冥、晦冥）；②愚昧（冥頑不靈）；③深遠（冥思苦想）；④迷信指陰間（冥府）；⑤暗合、默契（冥合）。",
+      "en": "dark；deep；stupid",
+      "note": null,
+      "is_difficult": true,
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2508,7 +2470,7 @@
       "en": "carpenter's file; to file smooth",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2520,7 +2482,7 @@
       "en": "(literary) cushion; mat；(literary) to put some padding underneath",
       "note": "多音字，可讀「jie/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
     },
@@ -2532,7 +2494,7 @@
       "en": "surname Hong；red；popular",
       "note": "多音字，可讀「hong/gong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
     },
@@ -2544,7 +2506,7 @@
       "en": "to withdraw；to pull back；to contract",
       "note": "多音字，可讀「suo/su」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
     },
@@ -2556,7 +2518,7 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
     },
@@ -2568,7 +2530,7 @@
       "en": "snake；serpent；CL:條|条[tiao2]",
       "note": "多音字，可讀「she/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
     },
@@ -2580,7 +2542,7 @@
       "en": "(coll.) foot of an animal or bird；(coll.) foot supporting a cooking pot etc",
       "note": "多音字，可讀「zhua/zhao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
     },
@@ -2592,7 +2554,7 @@
       "en": "Allium bakeri；shallot；scallion",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2604,7 +2566,7 @@
       "en": "mustard",
       "note": "多音字，可讀「jie/gai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
     },
@@ -2616,7 +2578,7 @@
       "en": "to walk on tiptoe；to walk quietly；to tread (on)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2628,7 +2590,7 @@
       "en": "broom",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2640,7 +2602,7 @@
       "en": "(negative prefix for verbs) have not; not",
       "note": "多音字，可讀「mei/mo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
     },
@@ -2652,7 +2614,7 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
     },
@@ -2664,7 +2626,7 @@
       "en": "Chinese pearleaf crabapple (Malus asiatica)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2676,7 +2638,7 @@
       "en": "grain；corn；surname Gu",
       "note": "多音字，可讀「gu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
     },
@@ -2688,7 +2650,7 @@
       "en": "blemish；flaw in jade",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2700,7 +2662,7 @@
       "en": "to divide；to break up；to split",
       "note": "多音字，可讀「jie/xie」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
     },
@@ -2712,7 +2674,7 @@
       "en": "damask；thin silk",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2724,7 +2686,7 @@
       "en": "bill；list；form",
       "note": "多音字，可讀「dan/shan/chan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
     },
@@ -2736,7 +2698,7 @@
       "en": "chela; nippers; claw; pincers (of crabs, lobsters, scorpions etc)",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2748,7 +2710,7 @@
       "en": "(coll.) shell (of an egg, nut, crab etc)；case; casing; housing (of a machine or device)",
       "note": "多音字，可讀「ke/qiao」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
     },
@@ -2760,7 +2722,7 @@
       "en": "beak；snout；mouth",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2772,7 +2734,7 @@
       "en": "sudden；abrupt；Taiwan pr. [shu4]",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2784,7 +2746,7 @@
       "en": "xiao, a vertical bamboo flute",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2796,9 +2758,21 @@
       "en": "surname Xu；all；assist",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
+    },
+    {
+      "word": "奇",
+      "pinyin": "qí",
+      "zh_cn": "①读 qí：特殊的、罕见的（奇事）；出人意料（奇兵）；惊异（惊奇）；②读 jī：单数、零数（奇数、奇零）；命运不好（数奇）。",
+      "zh_tw": "①讀 qí：特殊的、罕見的（奇事）；出人意料（奇兵）；驚異（驚奇）；②讀 jī：單數、零數（奇數、奇零）；命運不好（數奇）。",
+      "en": "strange；odd；weird",
+      "note": "多音字，可讀「qi/ji」，須依文意斷音。",
+      "is_difficult": true,
+      "src": "卷第三",
+      "multi": true,
+      "rare": false
     },
     {
       "word": "醪",
@@ -2808,7 +2782,7 @@
       "en": "unfiltered wine; sediment, dregs",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2820,7 +2794,7 @@
       "en": "to do；to manage；to handle",
       "note": "多音字，可讀「nong/long」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": false
     },
@@ -2832,7 +2806,7 @@
       "en": "marshland；swamp；salted or pickled vegetables",
       "note": "多音字，可讀「zu/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": true
     },
@@ -2844,7 +2818,7 @@
       "en": "Pteridium aquilinum；bracken",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2856,7 +2830,7 @@
       "en": "polygonum；smartweed",
       "note": "多音字，可讀「liao/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": true,
       "rare": true
     },
@@ -2868,7 +2842,7 @@
       "en": "3-5 p.m.",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2880,7 +2854,7 @@
       "en": "to let down with a rope",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2892,7 +2866,7 @@
       "en": "(literary) to wind around",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2904,7 +2878,7 @@
       "en": "(literary) cloth made from ramie fiber",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2916,7 +2890,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2928,7 +2902,7 @@
       "en": "jade annulus",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2940,7 +2914,7 @@
       "en": "lotus",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2952,7 +2926,7 @@
       "en": "lotus; hibiscus",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2964,7 +2938,7 @@
       "en": "to sip；to smack one's lips；to taste",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第三",
       "multi": false,
       "rare": true
     },
@@ -2976,7 +2950,7 @@
       "en": "(bound form) (literary) to take liberties with sb or sth；to treat frivolously",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": false,
       "rare": true
     },
@@ -2988,7 +2962,7 @@
       "en": "familiar；intimate；to approach",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": false,
       "rare": true
     },
@@ -3000,7 +2974,7 @@
       "en": "clogs",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": false,
       "rare": true
     },
@@ -3012,7 +2986,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": false,
       "rare": true
     },
@@ -3024,7 +2998,7 @@
       "en": null,
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": false,
       "rare": true
     },
@@ -3036,7 +3010,7 @@
       "en": "to inlay; to engrave, to carve; tattoo",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": false,
       "rare": true
     },
@@ -3048,7 +3022,7 @@
       "en": "adorned；beautiful",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": false,
       "rare": true
     },
@@ -3060,7 +3034,7 @@
       "en": "(standing) screen",
       "note": "多音字，可讀「ping/bing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": true,
       "rare": false
     },
@@ -3072,7 +3046,7 @@
       "en": "amber, tigers-eye",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": false,
       "rare": true
     },
@@ -3084,7 +3058,7 @@
       "en": "garment",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": false,
       "rare": true
     },
@@ -3096,7 +3070,7 @@
       "en": "shrimp；prawn",
       "note": "多音字，可讀「xia/ha」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": true,
       "rare": false
     },
@@ -3108,7 +3082,7 @@
       "en": "horse-drawn carriage",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": false,
       "rare": true
     },
@@ -3120,7 +3094,7 @@
       "en": "multicolored silk；piece of silk torn in two, used to verify the holder's identity by matching up the two halves",
       "note": null,
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": false,
       "rare": true
     },
@@ -3132,7 +3106,7 @@
       "en": "opening；stake all；sacrifice",
       "note": "多音字，可讀「huo/hua」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": true,
       "rare": false
     },
@@ -3144,7 +3118,7 @@
       "en": "surname Bu；(bound form) to divine",
       "note": "多音字，可讀「bu/bo/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "漢武帝別國洞冥記",
+      "src": "卷第四",
       "multi": true,
       "rare": false
     }

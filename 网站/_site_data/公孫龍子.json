@@ -1,28 +1,34 @@
 {
   "title": "公孫龍子",
-  "section_count": 1,
+  "section_count": 6,
   "categories": [
     "全書"
   ],
   "sections": [
     {
       "book": "公孫龍子",
-      "title": "公孫龍子",
+      "title": "跡府",
       "source": "公孫龍",
       "category": "other",
       "category_label": "全書",
       "number": 1,
       "paragraphs": [
-        "公孫龍子",
-        "公孫龍",
-        "〔跡府〕",
         "公孫龍，六國時辯士也。疾名實之散亂，因資材之所長，為「守白」之論。假物取譬，以「守白」辯，謂白馬為非馬也。白馬為非馬者：言白，所以名色；言馬，所以名形也。色非形，形非色也。夫言色，則形不當與；",
         "言形，則色不宜從。今合以為物，非也。如求白馬於廄中，無有，而有驪色之馬；然不可以應有白馬也。不可以應有白馬，則所求之馬亡矣，亡則白馬竟穿曰：「素聞先生高誼，願為弟子久；但不取先生以白馬為非馬耳。請去此術，則穿請為弟子」。龍曰：「先生之言悖！龍之所以為名者，乃以白馬之論爾。今使龍去之，則無以教焉。且欲師之者，以智與學不如也。今使龍去之，此先教而後師之也。先教而後師之者，悖。且白馬非馬，乃仲尼之所取。龍聞楚王張繁弱之弓，載忘歸之矣，以射蛟兕於雲夢之圃。而喪其弓，左右請求之，王曰：『止！楚王遺弓，楚人得之，又何求焉？』仲尼聞之曰：『楚王仁義而未遂也。亦曰丑　公孫龍，趙平原君之客也。孔穿，孔子之葉也。穿與龍會，穿謂龍曰：「臣居魯，側聞下風，高先生之智，說先生之行，願受業之日久矣，乃今得見。然所不取先生者，獨不取先生之以白馬為非馬耳。請去白馬非馬之學，穿請為弟子。」公孫龍曰：「先生之言，悖！龍之學，以白馬為非馬著也。使龍去之，則龍無以教。無以教，而乃學於龍也者，悖。且夫欲學於龍者，以智與學焉為不逮也。今教龍去白馬非馬，是先教而後師之也。先教而後師之，不可。",
         "先生之所以教龍者，似齊王之謂尹文也。齊王之謂尹文曰：『寡人甚好士，以齊國無士何也？』尹文曰：『願聞大王之所謂士者』齊王無以應。尹文曰：『今有人於此，事君則忠，事親則孝，交友則信，處鄉則順。有此四行，可謂士乎？』齊王曰：『善！此真吾所謂士也。』尹文曰：『王得此人，肯以為臣乎？』王曰：『所願而不可得也。』是時，齊王好勇，於是尹文曰：『使此人廣庭大眾之中，見侵侮而終不敢鬥，王將以為臣乎？",
         "』王曰：『鉅士也，見侮而不鬥，辱也。辱，則寡人不以為臣矣。』尹文曰：『唯見辱而不鬥，未失其四行也。是人未失其四行，其所以為士也。",
         "然而王一以為臣，一不以為臣，則向之所謂士者，乃非士乎？』齊王無以應。尹文曰：『今有人君，將理其國，人有非，則非之。無非，則亦非之。有功，則賞之。無功，則亦賞之。而怨人之不理也，可乎？』齊王曰：",
-        "『不可。』尹文曰：『臣竊觀下吏之理齊，其方若此矣。』王曰：『寡人理國，信若先生之言，人雖不理，寡人不敢怨也。意未至然與？』尹文曰：『言之，敢無說乎？王之令曰：殺人者死，傷人者刑。人有畏王之令者，見侮而終不敢鬥，是全王之令也。而王曰：見侮而不敢鬥者，辱也。謂之辱，非之也。無非，而王辱之，故因除籍不以為臣也。不以為臣者，罰之也。此無罪而王罰之也。且王辱不敢鬥者，必榮敢鬥者也。榮敢鬥者是而王是之，必以為臣矣。必以為臣者，賞之也。彼無功而王賞之。王之所賞，吏之所誅也。上之所是，而法之所非也。賞罰是非，相與四謬，雖十黃帝，不能理也。』齊王無以應焉。故龍以子之言有似齊王。子知難白馬之非馬，不知所以難之說。以此猶知好士之名，而不知察士之類。」",
-        "〔白馬論〕",
+        "『不可。』尹文曰：『臣竊觀下吏之理齊，其方若此矣。』王曰：『寡人理國，信若先生之言，人雖不理，寡人不敢怨也。意未至然與？』尹文曰：『言之，敢無說乎？王之令曰：殺人者死，傷人者刑。人有畏王之令者，見侮而終不敢鬥，是全王之令也。而王曰：見侮而不敢鬥者，辱也。謂之辱，非之也。無非，而王辱之，故因除籍不以為臣也。不以為臣者，罰之也。此無罪而王罰之也。且王辱不敢鬥者，必榮敢鬥者也。榮敢鬥者是而王是之，必以為臣矣。必以為臣者，賞之也。彼無功而王賞之。王之所賞，吏之所誅也。上之所是，而法之所非也。賞罰是非，相與四謬，雖十黃帝，不能理也。』齊王無以應焉。故龍以子之言有似齊王。子知難白馬之非馬，不知所以難之說。以此猶知好士之名，而不知察士之類。」"
+      ]
+    },
+    {
+      "book": "公孫龍子",
+      "title": "白馬論",
+      "source": "公孫龍",
+      "category": "other",
+      "category_label": "全書",
+      "number": 2,
+      "paragraphs": [
         "「白馬非馬，可乎？」曰：「可。」曰：「何哉？」曰：「馬者，所以命形也。白者，所以命色也。命色者，非命形也，故曰白馬非馬。」",
         "曰：「有白馬，不可謂無馬也。不可謂無馬者，非馬也？有白馬為有馬，白之非馬，何也？」",
         "曰：「求馬，黃、黑馬皆可致。求白馬，黃、黑馬不可致。使白馬乃馬也，是所求一也，所求一者，白者不異馬也。所求不異，如黃、黑馬有可有不可，何也？可與不可其相非明。故黃、黑馬一也，而可以應有馬，而不可以應有白馬，是白馬之非馬審矣。」",
@@ -31,15 +37,33 @@
         "曰：「馬未與白為馬，白未與馬為白。合馬與白，復名白馬，是相與以不相與為名，未可。故曰：白馬非馬，未可。」",
         "曰：「以有白馬為有馬，謂有白馬為有黃馬，可乎？」曰：「未可。」曰：「以有馬為異有黃馬，是異黃馬於馬也。異黃馬於馬，是以黃馬為非馬。以黃馬為非馬，而以白馬為有馬；此飛者入池，而棺槨異處；此天下之悖言亂辭也。」",
         "曰：「有白馬，不可謂無馬者，離白之謂也。是離者有白馬不可謂有馬也。故所以為有馬者，獨以馬為有馬耳，非有白馬為有馬。故其為有馬也，不可以謂馬馬也。」",
-        "曰：「白者不定所白，忘之而可也。白馬者，言定所白也。定所白者，非白也。馬者無去取於色，故黃、黑皆所以應。白馬者，有去取於色，黃、黑馬皆所以色去，故唯白馬獨可以應耳。無去者非有去也。故曰：白馬非馬。」",
-        "〔指物論〕",
+        "曰：「白者不定所白，忘之而可也。白馬者，言定所白也。定所白者，非白也。馬者無去取於色，故黃、黑皆所以應。白馬者，有去取於色，黃、黑馬皆所以色去，故唯白馬獨可以應耳。無去者非有去也。故曰：白馬非馬。」"
+      ]
+    },
+    {
+      "book": "公孫龍子",
+      "title": "指物論",
+      "source": "公孫龍",
+      "category": "other",
+      "category_label": "全書",
+      "number": 3,
+      "paragraphs": [
         "物莫非指，而指非指。天下無指，物無可以謂物。非指者，天下而物，可謂指乎？",
         "指也者，天下之所無也。物也者，天下之所有也。以天下之所有，為天下之所無，未可。",
         "天下無指，而物不可謂指也。不可謂指者。非指也。",
         "非指者，物莫非指也。",
         "天下無指，而物不可謂指者，非有非指也。非有非指者，物莫非指也。物莫非指者，而指非指也。天下無指者，生於物之各有名，不為指也。不為指而謂之指，是兼不為指。以有不為指之無不為指，未可。且指者，天下之所兼。",
-        "天下無指者，物不可謂無指也。不可謂無指者，非有非指也。非有非指者，物莫非指，指非非指也。指與物，非指也。使天下無物指，誰徑謂非指？天下無物，誰徑謂指？天下有指，無物指，誰徑謂非指？徑謂無物非指？且夫指固自為非指，奚待於物，而乃與為指？",
-        "〔通變論〕",
+        "天下無指者，物不可謂無指也。不可謂無指者，非有非指也。非有非指者，物莫非指，指非非指也。指與物，非指也。使天下無物指，誰徑謂非指？天下無物，誰徑謂指？天下有指，無物指，誰徑謂非指？徑謂無物非指？且夫指固自為非指，奚待於物，而乃與為指？"
+      ]
+    },
+    {
+      "book": "公孫龍子",
+      "title": "通變論",
+      "source": "公孫龍",
+      "category": "other",
+      "category_label": "全書",
+      "number": 4,
+      "paragraphs": [
         "曰：「二有一乎？」曰：「二無一。」",
         "曰：「二有右乎？」",
         "曰：「二無右。」",
@@ -76,8 +100,17 @@
         "「青白不相與而相與，不相勝，則兩明也。爭而明，其色碧也。」",
         "「與其碧，寧黃。黃，其馬也。其與類乎，碧其雞也，其與暴乎。」",
         "「暴則君臣爭而兩明也。兩明者，昏不明，非正舉也。」",
-        "「非正舉者，名實無當，驪色章焉，故曰：兩明也。兩明而道喪，其無有以正焉。」",
-        "〔堅白論〕",
+        "「非正舉者，名實無當，驪色章焉，故曰：兩明也。兩明而道喪，其無有以正焉。」"
+      ]
+    },
+    {
+      "book": "公孫龍子",
+      "title": "堅白論",
+      "source": "公孫龍",
+      "category": "other",
+      "category_label": "全書",
+      "number": 5,
+      "paragraphs": [
         "「堅、白、石、三，可乎？」",
         "曰：「不可。」",
         "曰：「二可乎？」",
@@ -101,8 +134,17 @@
         "「石其無有，惡取堅白石乎？故離也。離也者，因是。」",
         "「力與知，果不若因是。且猶白以目見，目以火見，而火不見。則火與目不見而神見。神不見，而見離。」",
         "「堅以手，而手以捶，是捶與手知而不知。而神與不知。神乎，是之謂離焉。」",
-        "「離也者天下，故獨而正。」",
-        "〔名實論〕",
+        "「離也者天下，故獨而正。」"
+      ]
+    },
+    {
+      "book": "公孫龍子",
+      "title": "名實論",
+      "source": "公孫龍",
+      "category": "other",
+      "category_label": "全書",
+      "number": 6,
+      "paragraphs": [
         "天地與其所產焉，物也。物以物其所物而不過焉，實也。",
         "實以實其所實而不曠焉，位也。",
         "出其所位，非位。位其所位，正也。",
@@ -128,7 +170,7 @@
       "en": "surname Sun；grandson；descendant",
       "note": "多音字，可讀「sun/xun」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -140,7 +182,7 @@
       "en": "six；6",
       "note": "多音字，可讀「liu/lu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -152,7 +194,7 @@
       "en": "long, lasting; to excel in",
       "note": "多音字，可讀「chang/zhang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -164,7 +206,7 @@
       "en": "color；CL:種|种[zhong3]；look",
       "note": "多音字，可讀「se/shai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -176,7 +218,7 @@
       "en": "no; not so；(bound form) not; un-",
       "note": "多音字，可讀「bu/fou」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -188,7 +230,7 @@
       "en": "surname Cong；from; through; via；(bound form) to follow",
       "note": "多音字，可讀「cong/zong」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -200,7 +242,7 @@
       "en": "to close；to join；to fit",
       "note": "多音字，可讀「he/ge」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -212,7 +254,7 @@
       "en": "(literary) Oh!；Ah!",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -224,7 +266,7 @@
       "en": "a pure-black horse; a pair of horses",
       "note": null,
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": false,
       "rare": true
     },
@@ -236,7 +278,7 @@
       "en": "to die；to lose；to be gone",
       "note": "多音字，可讀「wang/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -248,7 +290,7 @@
       "en": "younger brother；junior male；I (modest word in letter)",
       "note": "多音字，可讀「di/ti/tui」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -260,7 +302,7 @@
       "en": "to go against；to be contrary to；perverse",
       "note": null,
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": false,
       "rare": true
     },
@@ -272,7 +314,7 @@
       "en": "and；moreover；yet",
       "note": "多音字，可讀「qie/ju」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -284,7 +326,7 @@
       "en": "complicated；many；in great numbers",
       "note": "多音字，可讀「fan/po」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -296,7 +338,7 @@
       "en": "to shoot；to launch；to allude to",
       "note": "多音字，可讀「she/ye/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -308,7 +350,7 @@
       "en": "a legendary dragon with the ability to control rain and floods；see also 蛟龍|蛟龙[jiao1 long2]",
       "note": null,
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": false,
       "rare": true
     },
@@ -320,7 +362,7 @@
       "en": "animal cited in ancient texts, resembling a buffalo (some say rhinoceros or female rhinoceros)",
       "note": null,
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": false,
       "rare": true
     },
@@ -332,7 +374,7 @@
       "en": "his；her；its",
       "note": "多音字，可讀「qi/ji」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -344,7 +386,7 @@
       "en": "to obtain；to get；to gain",
       "note": "多音字，可讀「de/dei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -356,7 +398,7 @@
       "en": "can; to have the skill; to know how to；to be likely to; to be sure to；to meet; to get together",
       "note": "多音字，可讀「hui/kuai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -368,7 +410,7 @@
       "en": "the side；to incline towards；to lean",
       "note": "多音字，可讀「ce/ze/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -380,7 +422,7 @@
       "en": "to speak; to talk; to say；to explain; to comment；to scold; to tell off",
       "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -392,7 +434,7 @@
       "en": "(bound form) to walk; to go; to travel；(literary) trip; journey; visit；(bound form) temporary; makeshift",
       "note": "多音字，可讀「xing/hang/heng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -404,7 +446,7 @@
       "en": "to see；to meet；to appear (to be sth)",
       "note": "多音字，可讀「jian/xian」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -416,7 +458,7 @@
       "en": "to make known；to show；to prove",
       "note": "多音字，可讀「zhu/zhuo/zhe」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -428,7 +470,7 @@
       "en": "to seem；to appear；to resemble",
       "note": "多音字，可讀「si/shi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -440,7 +482,7 @@
       "en": "even, uniform, of equal length",
       "note": "多音字，可讀「qi/zhai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -452,7 +494,7 @@
       "en": "big; large; great；older (than another person)；eldest (as in 大姐[da4 jie3])",
       "note": "多音字，可讀「da/dai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -464,7 +506,7 @@
       "en": "parent；one's own (flesh and blood)；relative",
       "note": "多音字，可讀「qin/qing」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -476,7 +518,7 @@
       "en": "letter；mail；CL:封[feng1]",
       "note": "多音字，可讀「xin/shen」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -488,7 +530,7 @@
       "en": "surname Wu；(old) I; my",
       "note": "多音字，可讀「wu/yu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -500,7 +542,7 @@
       "en": "to seem；like；as",
       "note": "多音字，可讀「ruo/re」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -512,7 +554,7 @@
       "en": "surname Neng；can；to be able to",
       "note": "多音字，可讀「neng/nai」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "跡府",
       "multi": true,
       "rare": false
     },
@@ -524,7 +566,7 @@
       "en": "outer coffin",
       "note": null,
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "白馬論",
       "multi": false,
       "rare": true
     },
@@ -536,7 +578,7 @@
       "en": "surname Mo；do not；there is none who",
       "note": "多音字，可讀「mo/mu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "指物論",
       "multi": true,
       "rare": false
     },
@@ -548,7 +590,7 @@
       "en": "who；also pr. [shui2]",
       "note": "多音字，可讀「shui/shei」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "指物論",
       "multi": true,
       "rare": false
     },
@@ -560,7 +602,7 @@
       "en": "surname Xi；(literary) what?；where?",
       "note": null,
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "指物論",
       "multi": false,
       "rare": true
     },
@@ -572,7 +614,7 @@
       "en": "surname Yang；sheep; goat；CL:頭|头[tou2],隻|只[zhi1]",
       "note": "多音字，可讀「yang/xiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "通變論",
       "multi": true,
       "rare": false
     },
@@ -584,7 +626,7 @@
       "en": "angle；corner；horn",
       "note": "多音字，可讀「jiao/jue」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "通變論",
       "multi": true,
       "rare": false
     },
@@ -596,7 +638,7 @@
       "en": "tail；remainder；remnant",
       "note": "多音字，可讀「wei/yi」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "通變論",
       "multi": true,
       "rare": false
     },
@@ -608,7 +650,7 @@
       "en": "to count；to count as; to regard as；to enumerate; to list",
       "note": "多音字，可讀「shu/shuo」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "通變論",
       "multi": true,
       "rare": false
     },
@@ -620,7 +662,7 @@
       "en": "evil；fierce；vicious",
       "note": "多音字，可讀「e/wu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "通變論",
       "multi": true,
       "rare": false
     },
@@ -632,7 +674,7 @@
       "en": "surname Qiang；strong；powerful",
       "note": "多音字，可讀「qiang/jiang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "通變論",
       "multi": true,
       "rare": false
     },
@@ -644,7 +686,7 @@
       "en": "surname Bao；sudden；violent",
       "note": "多音字，可讀「bao/pu」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "通變論",
       "multi": true,
       "rare": false
     },
@@ -656,7 +698,7 @@
       "en": "surname Shi；abbr. for Shijiazhuang 石家莊|石家庄[Shi2 jia1 zhuang1], the capital of Hebei；rock",
       "note": "多音字，可讀「shi/dan」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "堅白論",
       "multi": true,
       "rare": false
     },
@@ -668,7 +710,7 @@
       "en": "pat",
       "note": null,
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "堅白論",
       "multi": false,
       "rare": true
     },
@@ -680,7 +722,7 @@
       "en": "to conceal；to hide away；to harbor",
       "note": "多音字，可讀「cang/zang」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "堅白論",
       "multi": true,
       "rare": false
     },
@@ -692,7 +734,7 @@
       "en": "surname Sheng；flourishing；vigorous",
       "note": "多音字，可讀「sheng/cheng」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "堅白論",
       "multi": true,
       "rare": false
     },
@@ -704,7 +746,7 @@
       "en": "earth；ground；field",
       "note": "多音字，可讀「di/de」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "名實論",
       "multi": true,
       "rare": false
     },
@@ -716,7 +758,7 @@
       "en": "(bound form) to doubt; to suspect",
       "note": "多音字，可讀「yi/ni」，須依文意斷音。",
       "is_difficult": true,
-      "src": "公孫龍子",
+      "src": "名實論",
       "multi": true,
       "rare": false
     }

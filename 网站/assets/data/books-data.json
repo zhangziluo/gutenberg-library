@@ -1,6 +1,6 @@
 {
   "title": "一堆古书 · 统一分类数据源",
-  "updated": "2026-09-17",
+  "updated": "2026-09-29",
   "categories": {
     "jing": "經部：儒家經典及歷代注疏（如《論語》《詩經》《易經》等）",
     "shi": "史部：各類史書（如《史記》《資治通鑒》等）",
@@ -391,7 +391,7 @@
       "subcategory": "",
       "dynasty": "東漢",
       "description": "東漢迦葉摩騰、竺法蘭所譯、現存最早漢傳佛經之一：收佛言四十二章，明心見性、斷欲去愛。",
-      "sections": 1,
+      "sections": 43,
       "cover": ""
     },
     {
@@ -402,7 +402,7 @@
       "subcategory": "",
       "dynasty": "宋",
       "description": "宋晁說之論學之作：辨王安石《新經義》《字說》之失，侃侃不撓，誠儒者之言。",
-      "sections": 1,
+      "sections": 83,
       "cover": ""
     },
     {
@@ -501,7 +501,7 @@
       "subcategory": "",
       "dynasty": "東晉",
       "description": "東晉葛洪撰道教名著：內篇論神仙方藥、養生延年，外篇評時政得失、人間世事，為道教思想集大成之作。",
-      "sections": 1,
+      "sections": 38,
       "cover": ""
     },
     {
@@ -534,7 +534,7 @@
       "subcategory": "",
       "dynasty": "明",
       "description": "明代公案小說集：記官吏審案斷獄故事，明鏡高懸、懲惡勸善。",
-      "sections": 1,
+      "sections": 4,
       "cover": ""
     },
     {
@@ -545,7 +545,7 @@
       "subcategory": "",
       "dynasty": "戰國",
       "description": "戰國名家公孫龍之作：白馬非馬、堅白同異之辨，開中國古代邏輯思辨之先聲。",
-      "sections": 1,
+      "sections": 6,
       "cover": ""
     },
     {
@@ -556,7 +556,7 @@
       "subcategory": "",
       "dynasty": "戰國（託名管仲）",
       "description": "舊題齊相管仲、實戰國學者託名之作：富國強兵、禮法並用，涵政治、經濟、軍事、哲學諸端。",
-      "sections": 1,
+      "sections": 34,
       "cover": ""
     },
     {
@@ -567,7 +567,7 @@
       "subcategory": "",
       "dynasty": "先秦",
       "description": "先秦古書：記周穆王西征遊歷、會見西王母之傳說，開中國遊仙小說先河。",
-      "sections": 1,
+      "sections": 6,
       "cover": ""
     },
     {
@@ -578,7 +578,7 @@
       "subcategory": "",
       "dynasty": "漢（舊題）",
       "description": "舊題東漢郭憲撰志怪小說：記漢武帝求仙及別國異域珍異之事，辭采瑰麗。",
-      "sections": 1,
+      "sections": 4,
       "cover": ""
     },
     {
@@ -589,7 +589,7 @@
       "subcategory": "",
       "dynasty": "明末清初",
       "description": "清顧炎武積數十年學問而成之筆記：經義、史學、吏治、財賦、輿地無所不包，開清代樸學先聲。",
-      "sections": 1,
+      "sections": 1008,
       "cover": ""
     },
     {
@@ -611,7 +611,7 @@
       "subcategory": "",
       "dynasty": "戰國",
       "description": "戰國韓非法家集大成之作：主法、術、勢兼治，《五蠹》《說難》等篇膾炙人口。",
-      "sections": 1,
+      "sections": 53,
       "cover": ""
     },
     {
@@ -633,7 +633,7 @@
       "subcategory": "",
       "dynasty": "戰國（舊題）",
       "description": "舊題戰國鬼谷子撰縱橫家書：捭闔、揣摩、權謀之術，為縱橫家與謀略學之祖。",
-      "sections": 1,
+      "sections": 19,
       "cover": ""
     },
     {
@@ -666,7 +666,7 @@
       "subcategory": "",
       "dynasty": "唐",
       "description": "唐黃檗希運禪師法語：直指「無心」見性之旨，為臨濟宗重要典籍。",
-      "sections": 1,
+      "sections": 2,
       "cover": ""
     },
     {
@@ -688,7 +688,7 @@
       "subcategory": "",
       "dynasty": "東晉（姚秦譯）",
       "description": "姚秦鳩摩羅什譯大乘要典：「應無所住而生其心」，禪宗與民間持誦最廣之佛經。",
-      "sections": 1,
+      "sections": 32,
       "cover": ""
     },
     {
@@ -699,7 +699,7 @@
       "subcategory": "",
       "dynasty": "清（乾隆刻本）",
       "description": "清代刻本記媽祖（天妃）顯聖事蹟：護漕救難、感應靈異，為媽祖信仰之重要文獻。",
-      "sections": 1,
+      "sections": 88,
       "cover": ""
     },
     {
@@ -710,7 +710,7 @@
       "subcategory": "",
       "dynasty": "秦漢之際（舊題黃石公）",
       "description": "舊題黃石公撰兵書：上中下三略論政略與用兵，與《六韜》並傳，為武經七書之一。",
-      "sections": 1,
+      "sections": 3,
       "cover": ""
     },
     {
@@ -721,7 +721,7 @@
       "subcategory": "",
       "dynasty": "清初",
       "description": "清初黃宗羲政論名篇：《原君》《原臣》痛斥君主專制，倡「天下為主、君為客」，具啟蒙思想。",
-      "sections": 1,
+      "sections": 21,
       "cover": ""
     },
     {
@@ -732,7 +732,7 @@
       "subcategory": "",
       "dynasty": "西漢",
       "description": "西漢桓寬錄昭帝鹽鐵會議：桑弘羊與賢良文學辯論國家經濟政策，為漢代政論之淵藪。",
-      "sections": 1,
+      "sections": 60,
       "cover": ""
     },
     {
@@ -743,7 +743,7 @@
       "subcategory": "",
       "dynasty": "明末清初",
       "description": "明末清初華陽散人擬話本小說：借市井故事寫人情世態、勸懲果報。",
-      "sections": 1,
+      "sections": 10,
       "cover": ""
     },
     {
@@ -754,7 +754,7 @@
       "subcategory": "",
       "dynasty": "唐",
       "description": "唐禪宗六祖慧能說法、弟子法海集錄：明心見性、頓悟成佛之旨，唯一稱「經」之中國佛教撰述。",
-      "sections": 1,
+      "sections": 10,
       "cover": ""
     },
     {
@@ -765,7 +765,7 @@
       "subcategory": "",
       "dynasty": "西漢",
       "description": "西漢賈誼政論雜著：《過秦》《治安》諸篇論秦亡漢興、治國之策，議論風發，文采冠絕。",
-      "sections": 1,
+      "sections": 70,
       "cover": ""
     },
     {
@@ -787,7 +787,7 @@
       "subcategory": "",
       "dynasty": "清（乾隆年間）",
       "description": "清紀昀晚年志怪筆記：談狐說鬼而寓勸懲，文筆簡淡雋永，與《聊齋誌異》並稱。",
-      "sections": 1,
+      "sections": 24,
       "cover": ""
     },
     {
@@ -820,7 +820,7 @@
       "subcategory": "",
       "dynasty": "明（天啟年間）",
       "description": "明馮夢龍「三言」之首：收話本四十篇，市井傳奇、人情世態，膾炙人口。",
-      "sections": 1,
+      "sections": 40,
       "cover": ""
     },
     {
@@ -853,7 +853,7 @@
       "subcategory": "",
       "dynasty": "明（天啟年間）",
       "description": "明馮夢龍「三言」之一：收話本四十篇，《杜十娘怒沉百寶箱》等名篇即出於此。",
-      "sections": 1,
+      "sections": 40,
       "cover": ""
     },
     {
@@ -919,7 +919,7 @@
       "subcategory": "",
       "dynasty": "",
       "description": "小說家（西洋）",
-      "sections": 1,
+      "sections": 19,
       "cover": ""
     },
     {
@@ -941,7 +941,7 @@
       "subcategory": "",
       "dynasty": "",
       "description": "小說家（西洋）",
-      "sections": 1,
+      "sections": 14,
       "cover": ""
     },
     {
@@ -963,18 +963,18 @@
       "subcategory": "",
       "dynasty": "",
       "description": "小說家（西洋）",
-      "sections": 1,
+      "sections": 12,
       "cover": ""
     },
     {
       "id": "pg146",
-      "title": "A Little Prince",
-      "author": "Unknown",
+      "title": "A Little Princess",
+      "author": "Frances Hodgson Burnett",
       "category": "zi",
       "subcategory": "",
       "dynasty": "",
       "description": "小說家（西洋）",
-      "sections": 1,
+      "sections": 19,
       "cover": ""
     },
     {
@@ -985,7 +985,7 @@
       "subcategory": "",
       "dynasty": "",
       "description": "小說家（西洋）",
-      "sections": 1,
+      "sections": 62,
       "cover": ""
     },
     {
@@ -996,7 +996,7 @@
       "subcategory": "",
       "dynasty": "",
       "description": "小說家（西洋）",
-      "sections": 1,
+      "sections": 35,
       "cover": ""
     },
     {

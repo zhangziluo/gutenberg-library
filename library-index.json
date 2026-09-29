@@ -1,7 +1,7 @@
 {
   "title": "一堆古书 · 数据书目索引",
   "description": "data/books/ 目录下的结构化书目（category: 經部/史部/子部/集部/近現代文學/叢部）",
-  "generated": "2026-09-17",
+  "generated": "2026-09-29",
   "categories": [
     {
       "name": "經部",
@@ -327,7 +327,7 @@
           "book": "佛說四十二章經",
           "author": "佚名",
           "subcategory": "釋家",
-          "chapters": 1,
+          "chapters": 43,
           "source": "Project Gutenberg #23585",
           "path": "data/books/foshuo-sishierzhang-jing.json"
         },
@@ -336,7 +336,7 @@
           "book": "晁氏儒言",
           "author": "晁說之",
           "subcategory": "儒家",
-          "chapters": 1,
+          "chapters": 83,
           "source": "Project Gutenberg #43014",
           "path": "data/books/chaoshi-ruyan.json"
         },
@@ -417,7 +417,7 @@
           "book": "抱朴子",
           "author": "葛洪",
           "subcategory": "道家",
-          "chapters": 1,
+          "chapters": 38,
           "source": "Project Gutenberg #25696",
           "path": "data/books/pg25696.json"
         },
@@ -444,7 +444,7 @@
           "book": "明鏡公案",
           "author": "佚名",
           "subcategory": "小說家（公案）",
-          "chapters": 1,
+          "chapters": 4,
           "source": "Project Gutenberg #52280",
           "path": "data/books/pg52280.json"
         },
@@ -453,7 +453,7 @@
           "book": "公孫龍子",
           "author": "公孫龍",
           "subcategory": "名家",
-          "chapters": 1,
+          "chapters": 6,
           "source": "Project Gutenberg #7216",
           "path": "data/books/pg7216.json"
         },
@@ -462,7 +462,7 @@
           "book": "管子",
           "author": "管仲（舊題）",
           "subcategory": "法家",
-          "chapters": 1,
+          "chapters": 34,
           "source": "Project Gutenberg #7367",
           "path": "data/books/pg7367.json"
         },
@@ -471,7 +471,7 @@
           "book": "穆天子传",
           "author": "佚名（郭璞注）",
           "subcategory": "小說家（志怪）",
-          "chapters": 1,
+          "chapters": 6,
           "source": "Project Gutenberg #24058",
           "path": "data/books/pg24058.json"
         },
@@ -480,7 +480,7 @@
           "book": "漢武帝別國洞冥記",
           "author": "郭憲（舊題）",
           "subcategory": "小說家（志怪）",
-          "chapters": 1,
+          "chapters": 4,
           "source": "Project Gutenberg #52271",
           "path": "data/books/pg52271.json"
         },
@@ -489,7 +489,7 @@
           "book": "日知錄",
           "author": "顧炎武",
           "subcategory": "儒家",
-          "chapters": 1,
+          "chapters": 1008,
           "source": "Project Gutenberg #25262",
           "path": "data/books/pg25262.json"
         },
@@ -507,7 +507,7 @@
           "book": "韩非子",
           "author": "韓非",
           "subcategory": "法家",
-          "chapters": 1,
+          "chapters": 53,
           "source": "Project Gutenberg #24049",
           "path": "data/books/pg24049.json"
         },
@@ -525,7 +525,7 @@
           "book": "鬼谷子",
           "author": "王詡（舊題）",
           "subcategory": "縱橫家",
-          "chapters": 1,
+          "chapters": 19,
           "source": "Project Gutenberg #7209",
           "path": "data/books/pg7209.json"
         },
@@ -552,7 +552,7 @@
           "book": "筠州黃檗山斷際禪師傳法心要",
           "author": "黃檗希運",
           "subcategory": "釋家",
-          "chapters": 1,
+          "chapters": 2,
           "source": "Project Gutenberg #25236",
           "path": "data/books/pg25236.json"
         },
@@ -570,7 +570,7 @@
           "book": "金剛般若波羅蜜經",
           "author": "鳩摩羅什（譯）",
           "subcategory": "釋家",
-          "chapters": 1,
+          "chapters": 32,
           "source": "Project Gutenberg #24098",
           "path": "data/books/pg24098.json"
         },
@@ -579,7 +579,7 @@
           "book": "天妃顯聖錄",
           "author": "佚名",
           "subcategory": "道家",
-          "chapters": 1,
+          "chapters": 88,
           "source": "Project Gutenberg #54777",
           "path": "data/books/pg54777.json"
         },
@@ -588,7 +588,7 @@
           "book": "三略",
           "author": "黃石公（舊題）",
           "subcategory": "兵家",
-          "chapters": 1,
+          "chapters": 3,
           "source": "Project Gutenberg #7218",
           "path": "data/books/pg7218.json"
         },
@@ -597,7 +597,7 @@
           "book": "明夷待訪錄",
           "author": "黃宗羲",
           "subcategory": "儒家",
-          "chapters": 1,
+          "chapters": 21,
           "source": "Project Gutenberg #23855",
           "path": "data/books/pg23855.json"
         },
@@ -606,7 +606,7 @@
           "book": "鹽鐵論",
           "author": "桓寬",
           "subcategory": "儒家",
-          "chapters": 1,
+          "chapters": 60,
           "source": "Project Gutenberg #26920",
           "path": "data/books/pg26920.json"
         },
@@ -615,7 +615,7 @@
           "book": "一枕奇",
           "author": "華陽散人",
           "subcategory": "小說家（話本）",
-          "chapters": 1,
+          "chapters": 10,
           "source": "Project Gutenberg #27753",
           "path": "data/books/pg27753.json"
         },
@@ -624,7 +624,7 @@
           "book": "六祖壇經",
           "author": "慧能（述）",
           "subcategory": "釋家",
-          "chapters": 1,
+          "chapters": 10,
           "source": "Project Gutenberg #23844",
           "path": "data/books/pg23844.json"
         },
@@ -633,7 +633,7 @@
           "book": "賈誼新書",
           "author": "賈誼",
           "subcategory": "儒家",
-          "chapters": 1,
+          "chapters": 70,
           "source": "Project Gutenberg #23814",
           "path": "data/books/pg23814.json"
         },
@@ -651,7 +651,7 @@
           "book": "閱微草堂筆記",
           "author": "紀昀",
           "subcategory": "小說家（志怪）",
-          "chapters": 1,
+          "chapters": 24,
           "source": "Project Gutenberg #23817",
           "path": "data/books/pg23817.json"
         },
@@ -678,7 +678,7 @@
           "book": "喻世明言",
           "author": "馮夢龍",
           "subcategory": "小說家（話本）",
-          "chapters": 1,
+          "chapters": 40,
           "source": "Project Gutenberg #27582",
           "path": "data/books/pg27582.json"
         },
@@ -705,7 +705,7 @@
           "book": "警世通言",
           "author": "馮夢龍",
           "subcategory": "小說家（話本）",
-          "chapters": 1,
+          "chapters": 40,
           "source": "Project Gutenberg #24141",
           "path": "data/books/pg24141.json"
         },
@@ -759,7 +759,7 @@
           "book": "Walden",
           "author": "Henry David Thoreau",
           "subcategory": "小說家（西洋）",
-          "chapters": 1,
+          "chapters": 19,
           "source": "Project Gutenberg #205",
           "path": "data/books/pg205.json"
         },
@@ -777,7 +777,7 @@
           "book": "The Jungle Book",
           "author": "Rudyard Kipling",
           "subcategory": "小說家（西洋）",
-          "chapters": 1,
+          "chapters": 14,
           "source": "Project Gutenberg #236",
           "path": "data/books/pg236.json"
         },
@@ -795,16 +795,16 @@
           "book": "The Wind in the Willows",
           "author": "Kenneth Grahame",
           "subcategory": "小說家（西洋）",
-          "chapters": 1,
+          "chapters": 12,
           "source": "Project Gutenberg #289",
           "path": "data/books/pg289.json"
         },
         {
           "key": "pg146",
-          "book": "A Little Prince",
-          "author": "Unknown",
+          "book": "A Little Princess",
+          "author": "Frances Hodgson Burnett",
           "subcategory": "小說家（西洋）",
-          "chapters": 1,
+          "chapters": 19,
           "source": "Project Gutenberg #146",
           "path": "data/books/pg146.json"
         },
@@ -813,7 +813,7 @@
           "book": "Grimms' Fairy Tales",
           "author": "Jacob Grimm and Wilhelm Grimm",
           "subcategory": "小說家（西洋）",
-          "chapters": 1,
+          "chapters": 62,
           "source": "Project Gutenberg #2591",
           "path": "data/books/pg2591.json"
         },
@@ -822,7 +822,7 @@
           "book": "The Arabian Nights Entertainments",
           "author": "Unknown",
           "subcategory": "小說家（西洋）",
-          "chapters": 1,
+          "chapters": 35,
           "source": "Project Gutenberg #128",
           "path": "data/books/pg128.json"
         },

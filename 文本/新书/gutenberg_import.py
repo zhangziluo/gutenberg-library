@@ -865,6 +865,17 @@ def drop_until_heading(body, heading):
     return body
 
 
+def drop_until_col0(body, heading):
+    """同 drop_until_heading，但只认顶格（无缩进）行——英文书用：
+    跳过封面页与缩进目录中的同名条目，落到正文标题处。"""
+    for k, l in enumerate(body):
+        if l[:1] in (' ', '\t'):
+            continue
+        if l.strip() == heading or l.strip().startswith(heading + ' '):
+            return body[k:]
+    return body
+
+
 # ---------------------------------------------------------------
 # 詩經（古登堡 #23873）：毛詩编号 1..305 通贯全書，诗头行如「1.  關睢」
 # （个别编号行中有点号前空格，如「226 .  采綠」）。诗名跨風雅頌重出
@@ -915,6 +926,254 @@ def split_shijing(body):
                          'content': '\n'.join(paragraphs(raw))})
     return chapters
 
+
+# ---------------------------------------------------------------
+# 第八批新书切分器（2026-09-29 批量修「整本一节」）
+#   ① 話本「第X卷 + 篇名」同行   ② 經品/分   ③ 篇名第X   ④ 《》〔〕〈〉篇題
+#   ⑤ 字間空格卷名 / 《…卷第X》  ⑥ ●卷○條（日知錄）
+#   ⑦ 結構式短題（空行後短行）    ⑧ 白名單標題   ⑨ 英文標題清單
+# ---------------------------------------------------------------
+RE_JUAN_CAT = re.compile(r'^[ \t\u3000\xa0]*第([〇○零一二三四五六七八九十百]+)'
+                         r'[ \t\u3000\xa0]*卷[ \t\u3000\xa0]+(\S.*?)[ \t\u3000\xa0]*$')
+RE_PIN = re.compile(r'^[ 　]*([^　]{1,8}品第[〇○零一二三四五六七八九十百]+)[ 　]*$')
+RE_FEN = re.compile(r'^[ 　]*([^　]{1,10}分第[〇○零一二三四五六七八九十百]+)[ 　]*$')
+RE_GUOFAN = re.compile(r'^[ 　]*《([^《》]{1,14})》[ 　]*$')
+RE_KUOKUO = re.compile(r'^[ 　]*〔([^〔〕]{1,14})〕[ 　]*$')
+RE_JIANJIAO = re.compile(r'^[ 　]*〈([^〈〉]{1,14})〉[ 　]*$')
+RE_MTZ = re.compile(r'^[ 　]*穆[ 　]*天[ 　]*子[ 　]*傳[ 　]*卷[ 　]*之[ 　]*'
+                    r'([一二三四五六七八九十])[ 　]*$')
+RE_DONGMING = re.compile(r'^[ 　]*《(?:漢武帝別國洞冥記)?卷(第[〇○零一二三四五六七八九十百]+)》'
+                         r'[ 　]*$')
+RE_RZL_VOL = re.compile(r'^●[ 　]*(卷[〇○零一二三四五六七八九十百]+)[ 　]*$')
+RE_RZL_ITEM = re.compile(r'^○[ 　]*(\S.*?)[ 　]*$')
+RE_BAOPUZI = re.compile(r'^[ 　]*《抱朴子[‧·]([^》]{1,10})》[ 　]*$')
+RE_GGZ_PIAN = re.compile(r'^[ 　]*([^　]{1,10})(?:第|篇)'
+                         r'([〇○零一二三四五六七八九十百]+)[ 　]*$')
+# 結構式短題行不得含句讀/書名號（否則視為正文）
+RE_HEAD_BAD = re.compile(r'[。，、；：！？「」『』〔〕〈〉《》（）()…—–·]')
+# 鬼谷子卷下《本經陰符七篇》及其七子篇
+GGZ_EXTRA = ['本經陰符七篇', '盛神法五龍', '養志法靈龜', '實意法騰蛇',
+             '分威法伏熊', '散勢法鷙鳥', '轉圖法猛獸', '損悅法靈蓍']
+
+
+def _dedup_titles(chapters):
+    """重複標題加序號消歧：三易 / 三易（二） / 三易（三）…（抱朴子節錄重出篇名）。"""
+    seen, out = {}, []
+    for c in chapters:
+        t = c['title']
+        seen[t] = seen.get(t, 0) + 1
+        if seen[t] > 1:
+            c = {'title': '%s（%d）' % (t, seen[t]), 'content': c['content']}
+        out.append(c)
+    return out
+
+
+def _chapters_from_marks(body, marks, dedup_titles=False, drops=(), lang='zh'):
+    """通用：按 [(行号, 标题)] 切章。正文剔除 drops 命中行；合併相鄰同名、
+    丟棄空章（目錄簇、卷號行等）；dedup_titles 時對重複標題加序號。"""
+    chapters = []
+    for k, mk in enumerate(marks):
+        idx, title = mk[0], mk[1]
+        skip = mk[2] if len(mk) > 2 else 0      # 標題跨行時額外跳過的行數
+        end_idx = marks[k + 1][0] if k + 1 < len(marks) else len(body)
+        raw = body[idx + 1 + skip:end_idx]
+        if drops:
+            raw = [l for l in raw if not any(d.match(l.strip()) for d in drops)]
+        raw = _trim(raw)
+        chapters.append({'title': title,
+                         'content': '\n'.join(paragraphs(raw, lang))})
+    merged = []
+    for c in chapters:
+        if not c['content'].strip():
+            continue
+        if merged and merged[-1]['title'] == c['title']:
+            merged[-1]['content'] = (merged[-1]['content'] + '\n'
+                                     + c['content']).strip()
+            continue
+        merged.append(c)
+    return _dedup_titles(merged) if dedup_titles else merged
+
+
+def _split_by_regex(body, rx, title_fn, **kw):
+    marks = []
+    for i, l in enumerate(body):
+        m = rx.match(l.strip())
+        if m:
+            marks.append((i, title_fn(m)))
+    return _chapters_from_marks(body, marks, **kw)
+
+
+def split_juan_cat(body):
+    """話本：第X卷 + 篇名同行（明鏡公案/喻世明言/警世通言/一枕奇/閱微草堂筆記）。
+    卷名與篇名之間或為 Tab、全角空格、不換行空格 U+00A0，統一壓成單空格。"""
+    return _split_by_regex(
+        body, RE_JUAN_CAT,
+        lambda m: re.sub(r'[ \t\u3000\xa0]+', ' ', m.group(0).strip()))
+
+
+def split_pin(body):
+    """六祖壇經：自序品第一 … 付囑品第十。"""
+    return _split_by_regex(body, RE_PIN, lambda m: m.group(1))
+
+
+def split_fen(body):
+    """金剛般若波羅蜜經：法會因由分第一 … 應化非真分第三十二。"""
+    return _split_by_regex(body, RE_FEN, lambda m: m.group(1))
+
+
+def split_guofan(body):
+    """韓非子：《初見秦》…《制分》（整行書名號；行內夾引述者不取）。"""
+    return _split_by_regex(body, RE_GUOFAN, lambda m: m.group(1))
+
+
+def split_kuokuo(body):
+    """公孫龍子：〔跡府〕…〔名實論〕。"""
+    return _split_by_regex(body, RE_KUOKUO, lambda m: m.group(1))
+
+
+def split_jianjiao(body):
+    """三略：〈上略〉〈中略〉〈下略〉。"""
+    return _split_by_regex(body, RE_JIANJIAO, lambda m: m.group(1))
+
+
+def split_mtz(body):
+    """穆天子傳：穆 天 子 傳 卷 之 一 … 卷之六（字間空格）。"""
+    return _split_by_regex(body, RE_MTZ, lambda m: '卷之' + m.group(1))
+
+
+def split_dongming(body):
+    """漢武帝別國洞冥記：《漢武帝別國洞冥記卷第一》…卷第四。"""
+    return _split_by_regex(body, RE_DONGMING, lambda m: '卷' + m.group(1))
+
+
+def split_baopuzi(body):
+    """抱朴子（節錄本）：《抱朴子‧篇名》逐條切分，重出篇名加序號。"""
+    return _split_by_regex(body, RE_BAOPUZI, lambda m: m.group(1),
+                           dedup_titles=True)
+
+
+def split_rizhilu(body):
+    """日知錄：●卷X 作卷題（不單獨成章）、○條目 作章題（題＝「卷X・條目」）。"""
+    marks, vol = [], ''
+    for i, l in enumerate(body):
+        s = l.strip()
+        m = RE_RZL_VOL.match(s)
+        if m:
+            vol = m.group(1)
+            continue
+        m = RE_RZL_ITEM.match(s)
+        if m:
+            t = m.group(1)
+            marks.append((i, '%s・%s' % (vol, t) if vol else t))
+    return _chapters_from_marks(body, marks)
+
+
+def split_guiguzi(body):
+    """鬼谷子：捭闔第一…符言第十二（篇名第X）+ 本經陰符七篇及其七子篇。"""
+    marks = []
+    for i, l in enumerate(body):
+        s = l.strip()
+        m = RE_GGZ_PIAN.match(s)
+        if m:
+            marks.append((i, re.sub(r'篇$', '', m.group(1)).strip()))
+        elif s in GGZ_EXTRA:
+            marks.append((i, s))
+    drops = [re.compile(r'^鬼谷子卷[上中下]$')]
+    return _chapters_from_marks(body, marks, drops=drops)
+
+
+def split_titles(body, pieces, drop=(), dedup_titles=False):
+    """白名單標題切分：整行（去空格後）命中 pieces 即作標題；drop 命中行自正文剔除。"""
+    def norm(s):
+        return re.sub(r'[ \t\u3000\xa0]+', '', s)
+    want = {norm(p) for p in pieces}
+    drops = [re.compile(p) for p in drop]
+    marks = []
+    for i, l in enumerate(body):
+        s = l.strip()
+        if not s or any(d.match(s) for d in drops):
+            continue
+        if norm(s) in want:
+            marks.append((i, norm(s)))
+    return _chapters_from_marks(body, marks, dedup_titles=dedup_titles,
+                                drops=drops)
+
+
+def split_auto_head(body, maxlen=14, drop=(), dedup_titles=False):
+    """結構式短題切分：前有空行、行長 ≤ maxlen、無句讀、其後首個非空行為正文長行
+    （>15 字）——後一條件自動排除目錄簇與卷號行。drop 命中行既不作標題也自正文剔除。"""
+    drops = [re.compile(p) for p in drop]
+    marks = []
+    for i, l in enumerate(body):
+        s = l.strip()
+        if not s or len(s) > maxlen or RE_HEAD_BAD.search(s):
+            continue
+        if any(d.match(s) for d in drops):
+            continue
+        if i and body[i - 1].strip():
+            continue
+        nxt = ''
+        for j in range(i + 1, min(i + 4, len(body))):
+            t = body[j].strip()
+            if t:
+                nxt = t
+                break
+        if len(nxt) <= 15:
+            continue
+        marks.append((i, s))
+    return _chapters_from_marks(body, marks, dedup_titles=dedup_titles,
+                                drops=drops)
+
+
+def split_fo42(body):
+    """佛說四十二章經：源文件正文整體重出一次，按空行段落切「序 + 四十二章」并按內容去重。"""
+    seen, uniq = set(), []
+    for p in paragraphs(body):
+        key = re.sub(r'\s+', '', p)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        uniq.append(p)
+    return [{'title': '序' if k == 0 else '第%d章' % k, 'content': p}
+            for k, p in enumerate(uniq)]
+
+
+# ---------------------------------------------------------------
+# 英文：按標題清單（TOC）切分（楊柳風/格林童話/叢林奇譚/小公主/天方夜譚/湖濱散記）
+# ---------------------------------------------------------------
+def _en_norm_titles(s):
+    """英文標題歸一：彎引號/撇號轉直、空白壓縮、去首尾引號（“Tiger! Tiger!”）。"""
+    s = (s.replace('\u2018', "'").replace('\u2019', "'")
+          .replace('\u201c', '"').replace('\u201d', '"'))
+    s = re.sub(r'[ \t]+', ' ', s).strip()
+    return s.strip('"').strip()
+
+
+def split_en_titles(body, titles):
+    """英文書按標題清單切分：頂格整行命中即為章題（縮進目錄行不取）；
+    標題折行者（如天方夜譚「Three Calenders…」）自動併入下一縮進行；空章丟棄。"""
+    want = {_en_norm_titles(t) for t in titles}
+    marks, i, n = [], 0, len(body)
+    while i < n:
+        l = body[i]
+        if l[:1] not in (' ', '\t'):
+            s = _en_norm_titles(l.strip())
+            if s and s in want:
+                marks.append((i, l.strip()))
+                i += 1
+                continue
+            # 標題折行：本行 + 下一縮進續行
+            j = i + 1
+            while j < n and not body[j].strip():
+                j += 1
+            if j < n and body[j][:1] in (' ', '\t') and j <= i + 2:
+                s2 = _en_norm_titles(l.strip() + ' ' + body[j].strip())
+                if s2 in want:
+                    marks.append((i, s2, j - i))
+                    i = j + 1
+                    continue
+        i += 1
+    return _chapters_from_marks(body, marks, lang='en')
 
 
 BOOKS = [
@@ -1174,7 +1433,7 @@ BOOKS = [
         'key': 'foshuo-sishierzhang-jing', 'book': '佛說四十二章經', 'author': '佚名',
         'category': '子部', 'subcategory': '釋家',
         'source': 'Project Gutenberg #23585', 'file': '佛說四十二章經.txt',
-        'split': 'single', 'head_drop': 3,   # 删书名行/空行 + 「後漢摩騰、竺法蘭共譯」
+        'split': 'fo42', 'head_drop': 3,   # 删书名行/空行 + 「後漢摩騰、竺法蘭共譯」
     },
     {
         'key': 'luoshen-fu', 'book': '洛神賦', 'author': '曹植',
@@ -1186,7 +1445,8 @@ BOOKS = [
         'key': 'chaoshi-ruyan', 'book': '晁氏儒言', 'author': '晁說之',
         'category': '子部', 'subcategory': '儒家',
         'source': 'Project Gutenberg #43014', 'file': '晁氏儒言.txt',
-        'split': 'single', 'head_drop': 1,   # 删书名行「晁氏儒言」
+        'split': 'auto_head', 'head_drop': 1,   # 删书名行「晁氏儒言」
+        'drop': ['^晁氏儒言$'],
     },
     {
         'key': 'shuihu-houzhuan', 'book': '水滸後傳', 'author': '陳忱',
@@ -1311,6 +1571,22 @@ SPLITTERS = {
     'liji': split_liji,
     'shijing': split_shijing,
     'en_chapter': split_en_chapter,
+    # ---- 第八批（2026-09-29）----
+    'juan_cat': split_juan_cat,
+    'pin': split_pin,
+    'fen': split_fen,
+    'guofan': split_guofan,
+    'kuokuo': split_kuokuo,
+    'jianjiao': split_jianjiao,
+    'mtz': split_mtz,
+    'dongming': split_dongming,
+    'baopuzi': split_baopuzi,
+    'rizhilu': split_rizhilu,
+    'guiguzi': split_guiguzi,
+    'titles': split_titles,
+    'auto_head': split_auto_head,
+    'fo42': split_fo42,
+    'en_titles': split_en_titles,
 }
 
 
@@ -1988,6 +2264,8 @@ def _build_one(cfg):
         body = body[cfg['head_drop']:]     # 删开头畸形书名行（三字經》/百家姓/燕丹子）
     if cfg.get('drop_until'):
         body = drop_until_heading(body, cfg['drop_until'])   # 天豹圖/梁公九諫：丢弃书名/作者行至「序」标题
+    if cfg.get('drop_until_col0'):
+        body = drop_until_col0(body, cfg['drop_until_col0'])   # 英文书：跳过封面页/缩进目录
     if cfg.get('normalize_hui_no_di'):
         body = normalize_hui_no_di(body)   # 綠牡丹「二十一回」→「第二十一回」
     if cfg.get('normalize_fe_punct'):
@@ -2002,6 +2280,14 @@ def _build_one(cfg):
         chapters = splitter(body, cfg['pieces'])
     elif cfg['split'] in ('ze', 'jian'):
         chapters = splitter(body, cfg.get('keep_prefix_title'))
+    elif cfg['split'] == 'titles':
+        chapters = splitter(body, cfg['pieces'], cfg.get('drop', ()),
+                            cfg.get('dedup_titles', False))
+    elif cfg['split'] == 'auto_head':
+        chapters = splitter(body, cfg.get('maxlen', 14), cfg.get('drop', ()),
+                            cfg.get('dedup_titles', False))
+    elif cfg['split'] == 'en_titles':
+        chapters = splitter(body, cfg['pieces'])
     elif cfg['split'] == 'juan_sc':
         chapters = splitter(body, cfg.get('keep_prefix_title'), cfg.get('drop_prefix', False))
     elif cfg['split'] == 'single':
