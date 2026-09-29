@@ -3362,18 +3362,6 @@
   "multi": false,
   "readings": "biao"
  },
- "儮": {
-  "pinyin": "lì",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
  "儳": {
   "pinyin": "chán",
   "zh_cn": null,
@@ -8689,18 +8677,6 @@
   "note": null,
   "multi": false,
   "readings": "lu"
- },
- "嚗": {
-  "pinyin": "bó",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
  },
  "嚘": {
   "pinyin": "yōu",
@@ -18830,18 +18806,6 @@
   "multi": false,
   "readings": null
  },
- "憌": {
-  "pinyin": "qióng",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
  "憍": {
   "pinyin": "jiāo",
   "zh_cn": "1.同\"骄\"。骄傲;骄矜。2.高仰",
@@ -19010,18 +18974,6 @@
   "multi": false,
   "readings": "qi"
  },
- "憪": {
-  "pinyin": "xián",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
  "憬": {
   "pinyin": "jǐng",
   "zh_cn": "醒悟",
@@ -19060,18 +19012,6 @@
  },
  "憱": {
   "pinyin": "cù",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
- "憳": {
-  "pinyin": "tǎn",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -21794,18 +21734,6 @@
   "multi": false,
   "readings": "zhi"
  },
- "摮": {
-  "pinyin": "áo",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
  "摲": {
   "pinyin": "chàn",
   "zh_cn": "1.芟除;攻取",
@@ -21914,18 +21842,6 @@
   "multi": false,
   "readings": null
  },
- "撌": {
-  "pinyin": "guì",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
  "撏": {
   "pinyin": "xián",
   "zh_cn": null,
@@ -21937,30 +21853,6 @@
   "note": null,
   "multi": false,
   "readings": "xian"
- },
- "撖": {
-  "pinyin": "hàn",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
- "撗": {
-  "pinyin": "héng",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
  },
  "撘": {
   "pinyin": "dā",
@@ -22177,18 +22069,6 @@
   "note": null,
   "multi": false,
   "readings": "chuo"
- },
- "擏": {
-  "pinyin": "qíng",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
  },
  "擐": {
   "pinyin": "huàn",
@@ -24073,18 +23953,6 @@
   "note": null,
   "multi": false,
   "readings": "han"
- },
- "暸": {
-  "pinyin": "liáo",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
  },
  "暹": {
   "pinyin": "xiān",
@@ -37106,18 +36974,6 @@
   "multi": false,
   "readings": null
  },
- "琿": {
-  "pinyin": "hún",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
  "瑀": {
   "pinyin": "yǔ",
   "zh_cn": "1.似玉的美石。",
@@ -38065,18 +37921,6 @@
   "note": null,
   "multi": false,
   "readings": "zhou"
- },
- "甇": {
-  "pinyin": "yīng",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
  },
  "甌": {
   "pinyin": "ōu",
@@ -39782,18 +39626,6 @@
   "multi": false,
   "readings": "xi"
  },
- "皛": {
-  "pinyin": "xiǎo",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
  "皜": {
   "pinyin": "hào",
   "zh_cn": null,
@@ -40729,18 +40561,6 @@
   "note": null,
   "multi": false,
   "readings": "mi"
- },
- "瞉": {
-  "pinyin": "kòu",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
  },
  "瞋": {
   "pinyin": "chēn",
@@ -57482,30 +57302,6 @@
   "multi": false,
   "readings": null
  },
- "蝑": {
-  "pinyin": "xū",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
- "蝒": {
-  "pinyin": "mián",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
  "蝘": {
   "pinyin": "yǎn",
   "zh_cn": null,
@@ -57542,18 +57338,6 @@
   "multi": false,
   "readings": "rou"
  },
- "蝛": {
-  "pinyin": "wēi",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
  "蝝": {
   "pinyin": "yuán",
   "zh_cn": "1.未生翅的幼蝗。2.白蚁。亦指蚁卵。3.用同\"喙\"。参见\"蝝息\"",
@@ -57565,18 +57349,6 @@
   "note": null,
   "multi": false,
   "readings": "yuan"
- },
- "蝞": {
-  "pinyin": "mèi",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
  },
  "蝟": {
   "pinyin": "wèi",
@@ -57649,30 +57421,6 @@
   "note": "多音字，可讀「xia/ha」，須依文意斷音。",
   "multi": true,
   "readings": "xia/ha"
- },
- "蝧": {
-  "pinyin": "yīng",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
- "蝬": {
-  "pinyin": "zōng",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
  },
  "蝮": {
   "pinyin": "fù",
@@ -61117,18 +60865,6 @@
   "note": null,
   "multi": false,
   "readings": "xu"
- },
- "詨": {
-  "pinyin": "xiào",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
  },
  "詬": {
   "pinyin": "gòu",
@@ -69650,18 +69386,6 @@
   "multi": false,
   "readings": null
  },
- "鈭": {
-  "pinyin": "zī",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
  "鈱": {
   "pinyin": "mín",
   "zh_cn": null,
@@ -70249,18 +69973,6 @@
   "note": null,
   "multi": false,
   "readings": "luan"
- },
- "銵": {
-  "pinyin": "kēng",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
  },
  "銶": {
   "pinyin": "qiú",
@@ -72170,18 +71882,6 @@
   "multi": true,
   "readings": "chang/zhang"
  },
- "镼": {
-  "pinyin": "jié",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
  "长": {
   "pinyin": "cháng",
   "zh_cn": "(象形。甲骨文字形,象人披长发之形,以具体表抽象,表示长短的长”。本义两点距离大)同本义。与短”相对巽为长,为高。",
@@ -72385,30 +72085,6 @@
   "note": null,
   "multi": false,
   "readings": "lü"
- },
- "閮": {
-  "pinyin": "tíng",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
- "閰": {
-  "pinyin": "jú",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
  },
  "閲": {
   "pinyin": "yuè",
@@ -73466,18 +73142,6 @@
   "multi": false,
   "readings": null
  },
- "隡": {
-  "pinyin": "sà",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
  "隣": {
   "pinyin": "lín",
   "zh_cn": null,
@@ -73795,18 +73459,6 @@
   "zh_cn": null,
   "zh_tw": null,
   "en": "thunderclap, crashing thunder",
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
- "雿": {
-  "pinyin": "diào",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
   "rare": true,
   "is_difficult": true,
   "pinyin_notes": null,
@@ -74320,30 +73972,6 @@
  },
  "鞈": {
   "pinyin": "gé",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
- "鞊": {
-  "pinyin": "jié",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
- },
- "鞎": {
-  "pinyin": "hén",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -75013,18 +74641,6 @@
   "note": null,
   "multi": false,
   "readings": "pan"
- },
- "頛": {
-  "pinyin": "lèi",
-  "zh_cn": null,
-  "zh_tw": null,
-  "en": null,
-  "rare": true,
-  "is_difficult": true,
-  "pinyin_notes": null,
-  "note": null,
-  "multi": false,
-  "readings": null
  },
  "頜": {
   "pinyin": "hé",

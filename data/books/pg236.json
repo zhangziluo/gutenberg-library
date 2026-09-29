@@ -65,10 +65,10 @@
   "annotations": [
     {
       "word": "rann",
-      "pinyin": "",
+      "pinyin": "/ɹæn/",
       "zh_cn": "abbr. Research Applied to National Needs （美国国家科学基金会旨在探索解决社会、环境和健康问题的）国民需求研究计划",
       "zh_tw": "abbr. Research Applied to National Needs （美國國家科學基金會旨在探索解決社會、環境和健康問題的）國民需求研究計劃",
-      "en": null,
+      "en": "noun. A stanza of Irish poetry.",
       "note": null,
       "is_difficult": true,
       "src": "Mowgli’s Brothers",
@@ -89,7 +89,7 @@
     },
     {
       "word": "brings",
-      "pinyin": "",
+      "pinyin": "/ˈbɹɪŋz/",
       "zh_cn": "v. 带来；使发生（bring的三单形式）",
       "zh_tw": "v. 帶來；使發生（bring的三單形式）",
       "en": "v take something or somebody with oneself somewhere；v cause to come into a particular state or condition；v cause to happen or to occur as a consequence；v go or come after and bring",
@@ -101,10 +101,10 @@
     },
     {
       "word": "mang",
-      "pinyin": "",
+      "pinyin": "/mæŋ/",
       "zh_cn": "n. 忙、盲等同音中文字；万、孟等同音粤语字",
       "zh_tw": "n. 忙、盲等同音中文字；萬、孟等同音粵語字",
-      "en": null,
+      "en": "noun. (nonstandard) Alternative form of man (suggesting a Spanish accent)；preposition. (Devon) Amid, amongst, among.",
       "note": null,
       "is_difficult": true,
       "src": "Mowgli’s Brothers",
@@ -113,7 +113,7 @@
     },
     {
       "word": "sets",
-      "pinyin": "",
+      "pinyin": "/sɛts/",
       "zh_cn": "n. 集合, 设置（set的复数）",
       "zh_tw": "n. 集合, 設置（set的複數）",
       "en": "n a group of things of the same kind that belong together and are so used；n (mathematics) an abstract collection of numbers or symbols；n several exercises intended to be done in se",
@@ -233,7 +233,7 @@
     },
     {
       "word": "hills",
-      "pinyin": "",
+      "pinyin": "/hɪlz/",
       "zh_cn": "n. 丘陵（hill的复数形式）",
       "zh_tw": "n. 丘陵（hill的複數形式）",
       "en": "n a local and well-defined elevation of the land；n structure consisting of an artificial heap or bank usually of earth or stones；n United States railroad tycoon (1838-1916)；n risqu",
@@ -293,7 +293,7 @@
     },
     {
       "word": "paws",
-      "pinyin": "",
+      "pinyin": "/pɔːz/",
       "zh_cn": "（等于Polar Automatic Weather Station） 极地自动天气站",
       "zh_tw": "（等於Polar Automatic Weather Station） 極地自動天氣站",
       "en": "n a clawed foot of an animal especially a quadruped；n the (prehensile) extremity of the superior limb；v scrape with the paws；v touch clumsily",
@@ -317,7 +317,7 @@
     },
     {
       "word": "tips",
-      "pinyin": "",
+      "pinyin": "/tɪps/",
       "zh_cn": "n. 秘诀, 技巧；小贴士, 小窍门",
       "zh_tw": "n. 秘訣, 技巧；小貼士, 小竅門",
       "en": "n the extreme end of something; especially something pointed；n a relatively small amount of money given for services rendered (as by a waiter)；n an indication of potential opportun",
@@ -365,7 +365,7 @@
     },
     {
       "word": "cubs",
-      "pinyin": "",
+      "pinyin": "/kʌbz/",
       "zh_cn": "n. 幼童军",
       "zh_tw": "n. 幼童軍",
       "en": "n an awkward and inexperienced youth；n a male child (a familiar term of address to a boy)；n the young of certain carnivorous mammals such as the bear or wolf or lion；v give birth t",
@@ -473,7 +473,7 @@
     },
     {
       "word": "wolves",
-      "pinyin": "",
+      "pinyin": "/ˈwʊlvz/",
       "zh_cn": "狼, 狼皮, 残暴成性的人, 贪婪的人, 阴险狡猾的人, (贬)追逐女性的人, 色狼, 色鬼",
       "zh_tw": "狼, 狼皮, 殘暴成性的人, 貪婪的人, 陰險狡猾的人, (貶)追逐女性的人, 色狼, 色鬼",
       "en": "n any of various predatory carnivorous canine mammals of North America and Eurasia that usually hunt in packs；n Austrian composer (1860-1903)；n German classical scholar who claimed",
@@ -545,7 +545,7 @@
     },
     {
       "word": "licker",
-      "pinyin": "",
+      "pinyin": "/ˈlɪkɚ/",
       "zh_cn": "n. 舔食者；很讨厌的人",
       "zh_tw": "n. 舔食者；很討厭的人",
       "en": "n. One who, or that which, licks.",
@@ -569,7 +569,7 @@
     },
     {
       "word": "runs",
-      "pinyin": "",
+      "pinyin": "/ɹʌnz/",
       "zh_cn": "n. 顺串；泻肚子；流量（run的复数形式）",
       "zh_tw": "n. 順串；瀉肚子；流量（run的複數形式）",
       "en": "n a score in baseball made by a runner touching all four bases safely；n the act of testing something；n a race run on foot；n an unbroken series of events；n (American football) a pla",
@@ -629,7 +629,7 @@
     },
     {
       "word": "pieces",
-      "pinyin": "",
+      "pinyin": "/ˈpiːsɪz/",
       "zh_cn": "n. 匹头, 毛束；件片块个工件零件",
       "zh_tw": "n. 匹頭, 毛束；件片塊個工件零件",
       "en": "n a separate part of a whole；n an item that is an instance of some type;；n a portion of a natural object；n a musical work that has been created；n an instance of some kind；n an arti",
@@ -701,7 +701,7 @@
     },
     {
       "word": "hides",
-      "pinyin": "",
+      "pinyin": "/haɪdz/",
       "zh_cn": "n. 躲藏处；兽皮（hide的复数）",
       "zh_tw": "n. 躲藏處；獸皮（hide的複數）",
       "en": "n the dressed skin of an animal (especially a large animal)；n body covering of a living animal；v prevent from being seen or discovered；v be or go into hiding; keep out of sight, as",
@@ -776,7 +776,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. Alternative form of dewani.",
       "note": null,
       "is_difficult": true,
       "src": "Mowgli’s Brothers",
@@ -893,7 +893,7 @@
     },
     {
       "word": "eyes",
-      "pinyin": "",
+      "pinyin": "/aɪz/",
       "zh_cn": "n. 眼睛（eye的复数）",
       "zh_tw": "n. 眼睛（eye的複數）",
       "en": "n. opinion or judgment",
@@ -917,7 +917,7 @@
     },
     {
       "word": "kings",
-      "pinyin": "",
+      "pinyin": "/kɪŋz/",
       "zh_cn": "n. 《列王纪》（《圣经》中的篇章）",
       "zh_tw": "n. 《列王紀》（《聖經》中的篇章）",
       "en": "n a male sovereign; ruler of a kingdom；n a competitor who holds a preeminent position；n a very wealthy or powerful businessman；n preeminence in a particular category or group or fi",
@@ -977,7 +977,7 @@
     },
     {
       "word": "faces",
-      "pinyin": "",
+      "pinyin": "/ˈfeɪsɪz/",
       "zh_cn": "n. 脸面；脸色；表面（face的复数）",
       "zh_tw": "n. 臉面；臉色；表面（face的複數）",
       "en": "n the front of the human head from the forehead to the chin and ear to ear；n the feelings expressed on a person's face；n the general outward appearance of something；n the striking",
@@ -1061,7 +1061,7 @@
     },
     {
       "word": "grounds",
-      "pinyin": "",
+      "pinyin": "/ɡɹaʊndz/",
       "zh_cn": "n. 场地, 庭院, 理由, 渣滓, 沉淀物",
       "zh_tw": "n. 場地, 庭院, 理由, 渣滓, 沉澱物",
       "en": "n. a tract of land cleared for some special purposes (recreation or burial etc.)；n. dregs consisting of solid particles (especially of coffee) that form a residue",
@@ -1097,7 +1097,7 @@
     },
     {
       "word": "miles",
-      "pinyin": "",
+      "pinyin": "/maɪlz/",
       "zh_cn": "n. 英里（1英里约合1609米, mile的复数形式）",
       "zh_tw": "n. 英里（1英里約合1609米, mile的複數形式）",
       "en": "n a unit of length equal to 1,760 yards or 5,280 feet; exactly 1609.344 meters；n a unit of length used in navigation; exactly 1,852 meters; historically based on the distance spann",
@@ -1133,7 +1133,7 @@
     },
     {
       "word": "quarters",
-      "pinyin": "",
+      "pinyin": "/ˈkwɔɹtɚz/",
       "zh_cn": "n. 寓所, 营房, 住处",
       "zh_tw": "n. 寓所, 營房, 住處",
       "en": "n housing available for people to live in；n one of four equal parts；n a district of a city having some distinguishing character；n (football, professional basketball) one of four di",
@@ -1253,7 +1253,7 @@
     },
     {
       "word": "snapped",
-      "pinyin": "",
+      "pinyin": "/snæpt/",
       "zh_cn": "v. 啪啪作响；突然中断；猛咬；给…拍快照（snap的过去分词）",
       "zh_tw": "v. 啪啪作響；突然中斷；猛咬；給…拍快照（snap的過去分詞）",
       "en": "v utter in an angry, sharp, or abrupt tone；v separate or cause to separate abruptly；v break suddenly and abruptly, as under tension；v move or strike with a noise；v close with a sna",
@@ -1313,7 +1313,7 @@
     },
     {
       "word": "saved",
-      "pinyin": "",
+      "pinyin": "/seɪvd/",
       "zh_cn": "a. 已保存的；获救的",
       "zh_tw": "a. 已保存的；獲救的",
       "en": "a. rescued; especially from the power and consequences of sin",
@@ -1409,7 +1409,7 @@
     },
     {
       "word": "knows",
-      "pinyin": "",
+      "pinyin": "/nəʊz/",
       "zh_cn": "v. 知道（know的第三人称单数形式）",
       "zh_tw": "v. 知道（know的第三人稱單數形式）",
       "en": "n the fact of being aware of information that is known to few people；v be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about；v",
@@ -1481,7 +1481,7 @@
     },
     {
       "word": "changed",
-      "pinyin": "",
+      "pinyin": "/t͡ʃeɪnd͡ʒd/",
       "zh_cn": "a. 变化的；改变的",
       "zh_tw": "a. 變化的；改變的",
       "en": "a. made or become different in nature or form；s. made or become different in some respect；s. changed in constitution or structure or composition by metamorphism",
@@ -1517,7 +1517,7 @@
     },
     {
       "word": "seemed",
-      "pinyin": "",
+      "pinyin": "/siːmd/",
       "zh_cn": "v. 装作；似乎（seem的过去式）",
       "zh_tw": "v. 裝作；似乎（seem的過去式）",
       "en": "v give a certain impression or have a certain outward aspect；v seem to be true, probable, or apparent；v appear to exist；v appear to one's own mind or opinion",
@@ -1589,7 +1589,7 @@
     },
     {
       "word": "makes",
-      "pinyin": "",
+      "pinyin": "/meɪks/",
       "zh_cn": "v. 做, 制作（make的第三人称单数）",
       "zh_tw": "v. 做, 製作（make的第三人稱單數）",
       "en": "n a recognizable kind；n the act of mixing cards haphazardly；v engage in；v give certain properties to something；v make or cause to be or to become；v cause to do; cause to act in a s",
@@ -1661,7 +1661,7 @@
     },
     {
       "word": "orders",
-      "pinyin": "",
+      "pinyin": "/ˈɔː.dəz/",
       "zh_cn": "n. 牧师职, 神职",
       "zh_tw": "n. 牧師職, 神職",
       "en": "n (often plural) a command given by a superior (e.g., a military or law enforcement officer) that must be obeyed；n a degree in a continuum of size or quantity；n established customa",
@@ -1697,7 +1697,7 @@
     },
     {
       "word": "guns",
-      "pinyin": "",
+      "pinyin": "/ɡʌnz/",
       "zh_cn": "n. 炮；枪（gun的复数）",
       "zh_tw": "n. 炮；槍（gun的複數）",
       "en": "n a weapon that discharges a missile at high velocity (especially from a metal tube or barrel)；n large but transportable armament；n a person who shoots a gun (as regards their abil",
@@ -1709,7 +1709,7 @@
     },
     {
       "word": "hundreds",
-      "pinyin": "",
+      "pinyin": "/ˈhʌn.dɹədz/",
       "zh_cn": "n. 数百",
       "zh_tw": "n. 數百",
       "en": "n ten 10s",
@@ -1769,7 +1769,7 @@
     },
     {
       "word": "beasts",
-      "pinyin": "",
+      "pinyin": "/biːsts/",
       "zh_cn": "n. 野兽；畜牲（beast 的复数）",
       "zh_tw": "n. 野獸；畜牲（beast 的複數）",
       "en": "n a living organism characterized by voluntary movement；n a cruelly rapacious person",
@@ -1805,7 +1805,7 @@
     },
     {
       "word": "things",
-      "pinyin": "",
+      "pinyin": "/ˈθɪŋz/",
       "zh_cn": "n. 所有物, 财产, 用具, 用品, 局面, 形势, 情况；[法] 物",
       "zh_tw": "n. 所有物, 財產, 用具, 用品, 局面, 形勢, 情況；[法] 物",
       "en": "n. any movable possession (especially articles of clothing)",
@@ -1865,7 +1865,7 @@
     },
     {
       "word": "louder",
-      "pinyin": "",
+      "pinyin": "/ˈlaʊdɚ/",
       "zh_cn": "adv. 大声一点",
       "zh_tw": "adv. 大聲一點",
       "en": "a characterized by or producing sound of great volume or intensity；s tastelessly showy；a used chiefly as a direction or description in music",
@@ -1877,7 +1877,7 @@
     },
     {
       "word": "ended",
-      "pinyin": "",
+      "pinyin": "/ˈɛndɪd/",
       "zh_cn": "a. 结束的（end的过去分词）",
       "zh_tw": "a. 結束的（end的過去分詞）",
       "en": "v have an end, in a temporal, spatial, or quantitative sense; either spatial or metaphorical；v bring to an end or halt；v be the end of; be the last or concluding part of；v put an e",
@@ -1949,7 +1949,7 @@
     },
     {
       "word": "missed",
-      "pinyin": "",
+      "pinyin": "/mɪst/",
       "zh_cn": "v. 投偏；未抓住；错过（miss的过去分词）",
       "zh_tw": "v. 投偏；未抓住；錯過（miss的過去分詞）",
       "en": "v fail to perceive or to catch with the senses or the mind；v feel or suffer from the lack of；v fail to attend an event or activity；v leave undone or leave out；v fail to reach or ge",
@@ -1961,7 +1961,7 @@
     },
     {
       "word": "paces",
-      "pinyin": "",
+      "pinyin": "/ˈpeɪsɪz/",
       "zh_cn": "n. 步调（pace的复数）",
       "zh_tw": "n. 步調（pace的複數）",
       "en": "n the rate of moving (especially walking or running)；n the distance covered by a step；n the relative speed of progress or change；n a step in walking or running；n the rate of some r",
@@ -2057,7 +2057,7 @@
     },
     {
       "word": "burned",
-      "pinyin": "",
+      "pinyin": "/ˈbɜːnd/",
       "zh_cn": "burn的过去式和过去分词；[机] 焦化",
       "zh_tw": "burn的過去式和過去分詞；[機] 焦化",
       "en": "s. treated by heating to a high temperature but below the melting or fusing point；s. destroyed or badly damaged by fire；s. ruined by overcooking",
@@ -2465,7 +2465,7 @@
     },
     {
       "word": "looks",
-      "pinyin": "",
+      "pinyin": "/lʊks/",
       "zh_cn": "n. 美貌",
       "zh_tw": "n. 美貌",
       "en": "n the feelings expressed on a person's face；n the act of directing the eyes toward something and perceiving it visually；n physical appearance；n the general atmosphere of a place or",
@@ -2513,7 +2513,7 @@
     },
     {
       "word": "shoulders",
-      "pinyin": "",
+      "pinyin": "/ˈʃoʊldɚz/",
       "zh_cn": "n. 肩部；肩膀（shoulder的复数）",
       "zh_tw": "n. 肩部；肩膀（shoulder的複數）",
       "en": "n the part of the body between the neck and the upper arm；n a cut of meat including the upper joint of the foreleg；n a ball-and-socket joint between the head of the humerus and a c",
@@ -2573,7 +2573,7 @@
     },
     {
       "word": "parents",
-      "pinyin": "",
+      "pinyin": "/ˈpɛə.ɹənts/",
       "zh_cn": "n. 父母；双亲（parent的复数）",
       "zh_tw": "n. 父母；雙親（parent的複數）",
       "en": "n a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian；n an organism (plant or animal) from which",
@@ -2585,7 +2585,7 @@
     },
     {
       "word": "jumped",
-      "pinyin": "",
+      "pinyin": "/d͡ʒʌmpt/",
       "zh_cn": "v. 跳跃（jump的过去分词）",
       "zh_tw": "v. 跳躍（jump的過去分詞）",
       "en": "v move forward by leaps and bounds；v move or jump suddenly, as if in surprise or alarm；v make a sudden physical attack on；v increase suddenly and significantly；v be highly noticeab",
@@ -2645,7 +2645,7 @@
     },
     {
       "word": "choosing",
-      "pinyin": "",
+      "pinyin": "/ˈt͡ʃuːzɪŋ/",
       "zh_cn": "v. 选择；决定（choose的ing形式）",
       "zh_tw": "v. 選擇；決定（choose的ing形式）",
       "en": "v pick out, select, or choose from a number of alternatives；v select as an alternative over another；v see fit or proper to act in a certain way; decide to act in a certain way",
@@ -2693,7 +2693,7 @@
     },
     {
       "word": "dues",
-      "pinyin": "",
+      "pinyin": "/djuːz/",
       "zh_cn": "n. 税, 应付款, 该缴之款；[经] 会费, 捐费, 手续费",
       "zh_tw": "n. 稅, 應付款, 該繳之款；[經] 會費, 捐費, 手續費",
       "en": "n that which is deserved or owed；n a payment that is due (e.g., as the price of membership)",
@@ -2825,7 +2825,7 @@
     },
     {
       "word": "answers",
-      "pinyin": "",
+      "pinyin": "/ˈɑːn.səz/",
       "zh_cn": "n. 答案, 回答（answer的复数）",
       "zh_tw": "n. 答案, 回答（answer的複數）",
       "en": "n a statement (either spoken or written) that is made to reply to a question or request or criticism or accusation；n a statement that solves a problem or explains how to solve the",
@@ -2876,7 +2876,7 @@
       "pinyin": "",
       "zh_cn": "黑鹿",
       "zh_tw": "黑鹿",
-      "en": null,
+      "en": "noun. Alternative form of sambar.",
       "note": null,
       "is_difficult": true,
       "src": "Mowgli’s Brothers",
@@ -2969,7 +2969,7 @@
     },
     {
       "word": "called",
-      "pinyin": "",
+      "pinyin": "/kɔːld/",
       "zh_cn": "a. 被呼叫的",
       "zh_tw": "a. 被呼叫的",
       "en": "v assign a specified (usually proper) proper name to；v ascribe a quality to or give a name of a common noun that reflects a quality；v get or try to get into communication (with som",
@@ -3173,7 +3173,7 @@
     },
     {
       "word": "pushed",
-      "pinyin": "",
+      "pinyin": "/pʊʃt/",
       "zh_cn": "a. 拮据的, 紧张的, 没空的, 忙",
       "zh_tw": "a. 拮据的, 緊張的, 沒空的, 忙",
       "en": "v move with force, \"He pushed the table into a corner\"；v press, drive, or impel (someone) to action or completion of an action；v make publicity for; try to sell (a product)；v striv",
@@ -3341,7 +3341,7 @@
     },
     {
       "word": "kills",
-      "pinyin": "",
+      "pinyin": "/kɪlz/",
       "zh_cn": "n. 杀戮；杀敌数；歼敌数（kill的复数形式）",
       "zh_tw": "n. 殺戮；殺敵數；殲敵數（kill的複數形式）",
       "en": "n the act of terminating a life；n the destruction of an enemy plane or ship or tank or missile；v cause to die; put to death, usually intentionally or knowingly；v thwart the passage",
@@ -3413,7 +3413,7 @@
     },
     {
       "word": "stones",
-      "pinyin": "",
+      "pinyin": "/stoʊnz/",
       "zh_cn": "n. 小石头；石子（stone的复数）",
       "zh_tw": "n. 小石頭；石子（stone的複數）",
       "en": "n a lump or mass of hard consolidated mineral matter；n building material consisting of a piece of rock hewn in a definite shape for a special purpose；n material consisting of the a",
@@ -3440,7 +3440,7 @@
       "pinyin": "ɑ:'keilә",
       "zh_cn": "n. 幼童军的领队人",
       "zh_tw": "n. 幼童軍的領隊人",
-      "en": null,
+      "en": "noun. Alternative letter-case form of Akela.",
       "note": null,
       "is_difficult": true,
       "src": "Mowgli’s Brothers",
@@ -3569,7 +3569,7 @@
     },
     {
       "word": "customs",
-      "pinyin": "",
+      "pinyin": "/ˈkʌs.təmz/",
       "zh_cn": "n. 海关, 关卡, 关税；[经] 关税, 海关",
       "zh_tw": "n. 海關, 關卡, 關稅；[經] 關稅, 海關",
       "en": "n. money collected under a tariff；n. money collected under a tariff",
@@ -3593,7 +3593,7 @@
     },
     {
       "word": "mothers",
-      "pinyin": "",
+      "pinyin": "/ˈmʌð.əz/",
       "zh_cn": "n. 母亲；根源（mother的复数）",
       "zh_tw": "n. 母親；根源（mother的複數）",
       "en": "n a woman who has given birth to a child (also used as a term of address to your mother)；n a stringy slimy substance consisting of yeast cells and bacteria; forms during fermentati",
@@ -3653,7 +3653,7 @@
     },
     {
       "word": "lifted",
-      "pinyin": "",
+      "pinyin": "/ˈlɪftɪd/",
       "zh_cn": "a. 提升的",
       "zh_tw": "a. 提升的",
       "en": "v raise from a lower to a higher position；v take hold of something and move it to a different location；v move upwards；v move upward；v make audible；v cancel officially；v make off wi",
@@ -3677,7 +3677,7 @@
     },
     {
       "word": "playing",
-      "pinyin": "",
+      "pinyin": "/ˈpleɪ.ɪŋ/",
       "zh_cn": "n. 游戏, 玩耍, 竞技, 比赛, 扮演, 演奏, 赌博",
       "zh_tw": "n. 遊戲, 玩耍, 競技, 比賽, 扮演, 演奏, 賭博",
       "en": "n. the act of playing a musical instrument；n. the action of taking part in a game or sport or other recreation",
@@ -3689,7 +3689,7 @@
     },
     {
       "word": "pebbles",
-      "pinyin": "",
+      "pinyin": "/ˈpɛbəlz/",
       "zh_cn": "n. 桔皮表面；鹅卵石, 小软石（pebble的复数形式）",
       "zh_tw": "n. 桔皮表面；鵝卵石, 小軟石（pebble的複數形式）",
       "en": "n a small smooth rounded rock",
@@ -3737,7 +3737,7 @@
     },
     {
       "word": "muffled",
-      "pinyin": "",
+      "pinyin": "/ˈmʌfl̩d/",
       "zh_cn": "a. 听不清的；蒙住的",
       "zh_tw": "a. 聽不清的；矇住的",
       "en": "s. wrapped up especially for protection or secrecy",
@@ -3749,7 +3749,7 @@
     },
     {
       "word": "rocks",
-      "pinyin": "",
+      "pinyin": "/ɹɒks/",
       "zh_cn": "n. 岩石, 岩礁；岩石礁石（rock复数形式）",
       "zh_tw": "n. 岩石, 岩礁；岩石礁石（rock複數形式）",
       "en": "n a lump or mass of hard consolidated mineral matter；n material consisting of the aggregate of minerals like those making up the Earth's crust；n United States gynecologist and devo",
@@ -3785,7 +3785,7 @@
     },
     {
       "word": "ears",
-      "pinyin": "",
+      "pinyin": "/ɪəz/",
       "zh_cn": "abbr. 电声额定系统（Electro-Acoustic Rating System）",
       "zh_tw": "abbr. 電聲額定系統（Electro-Acoustic Rating System）",
       "en": "n the sense organ for hearing and equilibrium；n good hearing；n the externally visible cartilaginous structure of the external ear；n attention to what is said；n fruiting spike of a",
@@ -3845,7 +3845,7 @@
     },
     {
       "word": "members",
-      "pinyin": "",
+      "pinyin": "/ˈmɛmbəz/",
       "zh_cn": "n. 成员；会员（member的复数）",
       "zh_tw": "n. 成員；會員（member的複數）",
       "en": "n one of the persons who compose a social group (especially individuals who have joined and participate in a group organization)；n anything that belongs to a set or class；n an exte",
@@ -3869,7 +3869,7 @@
     },
     {
       "word": "allowed",
-      "pinyin": "",
+      "pinyin": "/əˈlaʊd/",
       "zh_cn": "a. 允许, 容许的",
       "zh_tw": "a. 允許, 容許的",
       "en": "v make it possible through a specific action or lack of action for something to happen；v consent to, give permission；v let have；v give or assign a resource to a particular person o",
@@ -3941,7 +3941,7 @@
     },
     {
       "word": "roots",
-      "pinyin": "",
+      "pinyin": "/ɹuːts/",
       "zh_cn": "n. 乡土感情, 归根之情",
       "zh_tw": "n. 鄉土感情, 歸根之情",
       "en": "n. the condition of belonging to a particular place or group by virtue of social or ethnic or cultural lineage",
@@ -3977,7 +3977,7 @@
     },
     {
       "word": "words",
-      "pinyin": "",
+      "pinyin": "/wɜːdz/",
       "zh_cn": "n. 言语；话语；字（word的复数）",
       "zh_tw": "n. 言語；話語；字（word的複數）",
       "en": "n. the words that are spoken；n. language that is spoken or written",
@@ -3989,7 +3989,7 @@
     },
     {
       "word": "entered",
-      "pinyin": "",
+      "pinyin": "/ˈɛntə(ɹ)d/",
       "zh_cn": "a. 进入的",
       "zh_tw": "a. 進入的",
       "en": "v to come or go into；v become a participant; be involved in；v register formally as a participant or member；v be or play a part of or in；v make a record of; set down in permanent fo",
@@ -4109,7 +4109,7 @@
     },
     {
       "word": "wounded",
-      "pinyin": "",
+      "pinyin": "/ˈwuːndɪd/",
       "zh_cn": "a. 受伤的；[法] 受伤者; 受伤的, 受了损害的",
       "zh_tw": "a. 受傷的；[法] 受傷者; 受傷的, 受了損害的",
       "en": "n. people who are wounded",
@@ -4205,7 +4205,7 @@
     },
     {
       "word": "voices",
-      "pinyin": "",
+      "pinyin": "/ˈvɔɪsɪz/",
       "zh_cn": "n. 声音",
       "zh_tw": "n. 聲音",
       "en": "n the distinctive quality or pitch or condition of a person's speech；n the sound made by the vibration of vocal folds modified by the resonance of the vocal tract；n a sound suggest",
@@ -4265,7 +4265,7 @@
     },
     {
       "word": "rains",
-      "pinyin": "",
+      "pinyin": "/ɹeɪnz/",
       "zh_cn": "n. 雨季",
       "zh_tw": "n. 雨季",
       "en": "n water falling in drops from vapor condensed in the atmosphere；n drops of fresh water that fall as precipitation from clouds；n anything happening rapidly or in quick successive；v",
@@ -4361,7 +4361,7 @@
     },
     {
       "word": "gets",
-      "pinyin": "",
+      "pinyin": "/ɡɛts/",
       "zh_cn": "abbr. 政府电子贸易服务（Government Electronic Tendering Service）；美国政府应急电信服务（Government Emergency Telecommunications Service）",
       "zh_tw": "abbr. 政府電子貿易服務（Government Electronic Tendering Service）；美國政府應急電信服務（Government Emergency Telecommunications Service）",
       "en": "n a return on a shot that seemed impossible to reach and would normally have resulted in a point for the opponent；v come into the possession of something concrete or abstract；v ent",
@@ -4409,7 +4409,7 @@
     },
     {
       "word": "years",
-      "pinyin": "",
+      "pinyin": "/jɪəz/",
       "zh_cn": "n. 年代；岁月；年；年龄",
       "zh_tw": "n. 年代；歲月；年；年齡",
       "en": "n a late time of life；n a prolonged period of time；n the time during which someone's life continues；n a period of time containing 365 (or 366) days；n a period of time occupying a r",
@@ -4421,7 +4421,7 @@
     },
     {
       "word": "books",
-      "pinyin": "",
+      "pinyin": "/bʊks/",
       "zh_cn": "n. 书评；书籍（book的复数）",
       "zh_tw": "n. 書評；書籍（book的複數）",
       "en": "n a written work or composition that has been published (printed on pages bound together)；n physical objects consisting of a number of pages bound together；n a compilation of the k",
@@ -4589,7 +4589,7 @@
     },
     {
       "word": "pools",
-      "pinyin": "",
+      "pinyin": "/puːlz/",
       "zh_cn": "n. 猜足球赛胜负的赌博",
       "zh_tw": "n. 猜足球賽勝負的賭博",
       "en": "n an excavation that is (usually) filled with water；n a small lake；n an organization of people or resources that can be shared；n an association of companies for some definite purpo",
@@ -4625,7 +4625,7 @@
     },
     {
       "word": "showed",
-      "pinyin": "",
+      "pinyin": "/ˈʃəʊd/",
       "zh_cn": "show的过去式和过去分词",
       "zh_tw": "show的過去式和過去分詞",
       "en": "v give an exhibition of to an interested audience；v establish the validity of something, as by an example, explanation or experiment；v provide evidence for；v make visible or notice",
@@ -4661,7 +4661,7 @@
     },
     {
       "word": "branches",
-      "pinyin": "",
+      "pinyin": "/ˈbɹænt͡ʃɪz/",
       "zh_cn": "n. 分支机构；分支（branch的复数）",
       "zh_tw": "n. 分支機構；分支（branch的複數）",
       "en": "n a division of some larger or more complex organization；n a division of a stem, or secondary stem arising from the main stem of a plant；n a part of a forked or branching shape；n a",
@@ -4709,7 +4709,7 @@
     },
     {
       "word": "discovered",
-      "pinyin": "",
+      "pinyin": "/dɪsˈkʌvəd/",
       "zh_cn": "v. 发现, 找到（discover的过去形式）",
       "zh_tw": "v. 發現, 找到（discover的過去形式）",
       "en": "v discover or determine the existence, presence, or fact of；v get to know or become aware of, usually accidentally；v make a discovery, make a new finding；v make a discovery；v find",
@@ -4721,7 +4721,7 @@
     },
     {
       "word": "stared",
-      "pinyin": "",
+      "pinyin": "/stɛɹd/",
       "zh_cn": "v. 凝视, 注视（stare过去分词形式）",
       "zh_tw": "v. 凝視, 注視（stare過去分詞形式）",
       "en": "v look at with fixed eyes；v fixate one's eyes；v feature as the star；v be the star in a performance；v mark with an asterisk",
@@ -4769,7 +4769,7 @@
     },
     {
       "word": "pads",
-      "pinyin": "",
+      "pinyin": "/pædz/",
       "zh_cn": "n. 波纹细丝带, 眼镜丝带；衬垫（pad的复数）",
       "zh_tw": "n. 波紋細絲帶, 眼鏡絲帶；襯墊（pad的複數）",
       "en": "n a number of sheets of paper fastened together along one edge；n the large floating leaf of an aquatic plant (as the water lily)；n a block of absorbent material saturated with ink",
@@ -4781,7 +4781,7 @@
     },
     {
       "word": "friends",
-      "pinyin": "",
+      "pinyin": "/fɹɛn(d)z/",
       "zh_cn": "n. 老友记（剧集）",
       "zh_tw": "n. 老友記（劇集）",
       "en": "n a person you know well and regard with affection and trust；n an associate who provides cooperation or assistance；n a person with whom you are acquainted；n a person who backs a po",
@@ -4817,7 +4817,7 @@
     },
     {
       "word": "coats",
-      "pinyin": "",
+      "pinyin": "/kəʊts/",
       "zh_cn": "n. 外套（coat的复数）",
       "zh_tw": "n. 外套（coat的複數）",
       "en": "n an outer garment that has sleeves and covers the body from shoulder down; worn outdoors；n a thin layer covering something；n growth of hair or wool or fur covering the body of an",
@@ -4853,7 +4853,7 @@
     },
     {
       "word": "lands",
-      "pinyin": "",
+      "pinyin": "/lændz/",
       "zh_cn": "n. 平原；平面；土地（land的复数形式）",
       "zh_tw": "n. 平原；平面；土地（land的複數形式）",
       "en": "n the land on which real estate is located；n material in the top layer of the surface of the earth in which plants can grow (especially with reference to its quality or use)；n terr",
@@ -4913,7 +4913,7 @@
     },
     {
       "word": "walked",
-      "pinyin": "",
+      "pinyin": "/wɔːkt/",
       "zh_cn": "v. 走路；散步（walk的过去分词）",
       "zh_tw": "v. 走路；散步（walk的過去分詞）",
       "en": "v use one's feet to advance; advance by steps；v accompany or escort；v obtain a base on balls；v traverse or cover by walking；v give a base on balls to；v live or behave in a specifie",
@@ -5021,7 +5021,7 @@
     },
     {
       "word": "trusted",
-      "pinyin": "",
+      "pinyin": "/ˈtɹʌstɪd/",
       "zh_cn": "a. 可信的；受信任的",
       "zh_tw": "a. 可信的；受信任的",
       "en": "v have confidence or faith in；v allow without fear；v be confident about something；v expect and wish；v confer a trust upon；v extend credit to; I won't pay her debts anymore\"；s (of p",
@@ -5081,7 +5081,7 @@
     },
     {
       "word": "followed",
-      "pinyin": "",
+      "pinyin": "/ˈfɒl.əʊd/",
       "zh_cn": "a. 跟随的；服从的",
       "zh_tw": "a. 跟隨的；服從的",
       "en": "v to travel behind, go after, come after；v be later in time；v come as a logical consequence; follow logically；v travel along a certain course；v act in accordance with someone's rul",
@@ -5093,7 +5093,7 @@
     },
     {
       "word": "scraps",
-      "pinyin": "",
+      "pinyin": "/skɹæps/",
       "zh_cn": "n. 残羹剩饭, 泔脚；[医] 刮屑",
       "zh_tw": "n. 殘羹剩飯, 泔腳；[醫] 刮屑",
       "en": "n food that is discarded (as from a kitchen)；n a small fragment of something broken off from the whole；n worthless material that is to be disposed of；n a small piece of something t",
@@ -5105,7 +5105,7 @@
     },
     {
       "word": "dared",
-      "pinyin": "",
+      "pinyin": "/dɛəd/",
       "zh_cn": "v. 敢于（竟敢）",
       "zh_tw": "v. 敢於（竟敢）",
       "en": "v take upon oneself; act presumptuously, without permission；v to be courageous enough to try or do something；v challenge",
@@ -5117,7 +5117,7 @@
     },
     {
       "word": "bounds",
-      "pinyin": "",
+      "pinyin": "/baʊndz/",
       "zh_cn": "n. 边界, 范围, 限度, 界限",
       "zh_tw": "n. 邊界, 範圍, 限度, 界限",
       "en": "n the line or plane indicating the limit or extent of something；n a line determining the limits of an area；n the line or plane indicating the limit or extent of something；n the gre",
@@ -5141,7 +5141,7 @@
     },
     {
       "word": "hunters",
-      "pinyin": "",
+      "pinyin": "/ˈhʌntɚz/",
       "zh_cn": "n. 猎人（hunter的复数）",
       "zh_tw": "n. 獵人（hunter的複數）",
       "en": "n someone who hunts game；n a person who searches for something；n a constellation on the equator to the east of Taurus; contains Betelgeuse and Rigel；n a watch with a hinged metal l",
@@ -5297,7 +5297,7 @@
     },
     {
       "word": "foolishness",
-      "pinyin": "",
+      "pinyin": "/ˈfuːlɪʃnəs/",
       "zh_cn": "n. 愚蠢；可笑",
       "zh_tw": "n. 愚蠢；可笑",
       "en": "n the trait of acting stupidly or rashly；n the quality of being rash and foolish；n a stupid mistake",
@@ -5345,7 +5345,7 @@
     },
     {
       "word": "brothers",
-      "pinyin": "",
+      "pinyin": "/ˈbɹʌðə(ɹ)z/",
       "zh_cn": "n. 哥们儿, 兄弟",
       "zh_tw": "n. 哥們兒, 兄弟",
       "en": "n a male with the same parents as someone else；n a male person who is a fellow member (of a fraternity or religion or other group)；n a close friend who accompanies his buddies in t",
@@ -5357,7 +5357,7 @@
     },
     {
       "word": "pulled",
-      "pinyin": "",
+      "pinyin": "/pʊld/",
       "zh_cn": "a. 牵引的；扯下来的",
       "zh_tw": "a. 牽引的；扯下來的",
       "en": "v cause to move by pulling；v direct toward itself or oneself by means of some psychological power or physical attributes；v move into a certain direction；v apply force so as to caus",
@@ -5381,7 +5381,7 @@
     },
     {
       "word": "stretched",
-      "pinyin": "",
+      "pinyin": "/stɹɛt͡ʃt/",
       "zh_cn": "a. 拉伸的, 伸展了的",
       "zh_tw": "a. 拉伸的, 伸展了的",
       "en": "s. (of muscles) relieved of stiffness by stretching；s. extended or spread over a wide area or distance",
@@ -5405,7 +5405,7 @@
     },
     {
       "word": "muscles",
-      "pinyin": "",
+      "pinyin": "/ˈmʌs.əlz/",
       "zh_cn": "n. 肌肉（muscle的复数）",
       "zh_tw": "n. 肌肉（muscle的複數）",
       "en": "n one of the contractile organs of the body；n animal tissue consisting predominantly of contractile cells；n a bully employed as a thug or bodyguard；n authority or power or force (e",
@@ -5453,7 +5453,7 @@
     },
     {
       "word": "died",
-      "pinyin": "",
+      "pinyin": "/daɪd/",
       "zh_cn": "v. 死亡, 消逝（die的过去式和过去分词）",
       "zh_tw": "v. 死亡, 消逝（die的過去式和過去分詞）",
       "en": "v pass from physical life and lose all bodily attributes and functions necessary to sustain life；v suffer or face the pain of death；v be brought to or as if to the point of death b",
@@ -5609,7 +5609,7 @@
     },
     {
       "word": "tenderly",
-      "pinyin": "",
+      "pinyin": "/ˈtɛn.dɚ.li/",
       "zh_cn": "adv. 温和地；体贴地；柔和地",
       "zh_tw": "adv. 溫和地；體貼地；柔和地",
       "en": "r. with tenderness; in a tender manner",
@@ -5633,7 +5633,7 @@
     },
     {
       "word": "turned",
-      "pinyin": "",
+      "pinyin": "/tɜːnd/",
       "zh_cn": "a. 变质的；被转动的；[金属加工]车削的",
       "zh_tw": "a. 變質的；被轉動的；[金屬加工]車削的",
       "en": "a. moved around an axis or center",
@@ -5693,7 +5693,7 @@
     },
     {
       "word": "eyebrows",
-      "pinyin": "",
+      "pinyin": "/ˈaɪˌbɹaʊz/",
       "zh_cn": "n. 眉毛（eyebrow的复数）",
       "zh_tw": "n. 眉毛（eyebrow的複數）",
       "en": "n the arch of hair above each eye",
@@ -5705,7 +5705,7 @@
     },
     {
       "word": "carelessness",
-      "pinyin": "",
+      "pinyin": "/ˈkɛɹləsnəs/",
       "zh_cn": "n. 粗心大意",
       "zh_tw": "n. 粗心大意",
       "en": "n. the quality of not being careful or taking pains",
@@ -5729,7 +5729,7 @@
     },
     {
       "word": "costs",
-      "pinyin": "",
+      "pinyin": "/ˈkɔsts/",
       "zh_cn": "n. 费用；诉讼费；损失（cost的复数）",
       "zh_tw": "n. 費用；訴訟費；損失（cost的複數）",
       "en": "n. pecuniary reimbursement to the winning party for the expenses of litigation",
@@ -5756,7 +5756,7 @@
       "pinyin": "menz",
       "zh_cn": "n. 男公共厕所; 男式",
       "zh_tw": "n. 男公共廁所; 男式",
-      "en": null,
+      "en": "noun. possessive case of men: belonging to some or all male humans.；noun. Ellipsis of men’s room (“a lavatory intended for use by men”).",
       "note": null,
       "is_difficult": true,
       "src": "Mowgli’s Brothers",
@@ -5768,7 +5768,7 @@
       "pinyin": "'meiist, meist",
       "zh_cn": "<古>may的第二人称单数现在时(仅与thou连用)",
       "zh_tw": "<古>may的第二人稱單數現在時(僅與thou連用)",
-      "en": null,
+      "en": "verb. (archaic) second-person singular simple present indicative of may",
       "note": null,
       "is_difficult": true,
       "src": "Mowgli’s Brothers",
@@ -5777,7 +5777,7 @@
     },
     {
       "word": "stronger",
-      "pinyin": "",
+      "pinyin": "/stɹɒŋɡə/",
       "zh_cn": "[经] 强劲的",
       "zh_tw": "[經] 強勁的",
       "en": "a having strength or power greater than average or expected；s not faint or feeble；s having or wielding force or authority；a having a strong physiological or chemical effect；s immun",
@@ -5861,7 +5861,7 @@
     },
     {
       "word": "pots",
-      "pinyin": "",
+      "pinyin": "/pɑts/",
       "zh_cn": "[计] 简易老式电话服务",
       "zh_tw": "[計] 簡易老式電話服務",
       "en": "n metal or earthenware cooking vessel that is usually round and deep; often has a handle and lid；n a plumbing fixture for defecation and urination；n the quantity contained in a pot",
@@ -5885,7 +5885,7 @@
     },
     {
       "word": "slipped",
-      "pinyin": "",
+      "pinyin": "/slɪpt/",
       "zh_cn": "a. 打滑的",
       "zh_tw": "a. 打滑的",
       "en": "v move stealthily；v insert inconspicuously or quickly or quietly；v move obliquely or sideways, usually in an uncontrolled manner；v get worse；v move smoothly and easily；v to make a",
@@ -5897,7 +5897,7 @@
     },
     {
       "word": "freed",
-      "pinyin": "",
+      "pinyin": "/fɹiːd/",
       "zh_cn": "a. 释放的",
       "zh_tw": "a. 釋放的",
       "en": "v grant freedom to; free from confinement；v relieve from；v remove or force out from a position；v grant relief or an exemption from a rule or requirement to；v make (information) ava",
@@ -6017,7 +6017,7 @@
     },
     {
       "word": "fields",
-      "pinyin": "",
+      "pinyin": "/fiːldz/",
       "zh_cn": "n. 域, 字段；场设置（field复数形式）",
       "zh_tw": "n. 域, 字段；場設置（field複數形式）",
       "en": "n. United States comedian and film actor (1880-1946)",
@@ -6269,7 +6269,7 @@
     },
     {
       "word": "watched",
-      "pinyin": "",
+      "pinyin": "/wɑt͡ʃt/",
       "zh_cn": "vt. 注视, 注意（watch的过去式与过去分词形式）",
       "zh_tw": "vt. 注視, 注意（watch的過去式與過去分詞形式）",
       "en": "imp. & p. p. of Watch",
@@ -6317,7 +6317,7 @@
     },
     {
       "word": "mists",
-      "pinyin": "",
+      "pinyin": "/mɪsts/",
       "zh_cn": "n. 迷雾（mist的复数形式）；史前时代",
       "zh_tw": "n. 迷霧（mist的複數形式）；史前時代",
       "en": "n a thin fog with condensation near the ground；v become covered with mist；v make less visible or unclear；v spray finely or cover with mist",
@@ -6365,7 +6365,7 @@
     },
     {
       "word": "cows",
-      "pinyin": "",
+      "pinyin": "/kaʊz/",
       "zh_cn": "n. 牛；乳牛（cow的复数）",
       "zh_tw": "n. 牛；乳牛（cow的複數）",
       "en": "n domesticated bovine animals as a group regardless of sex or age；n female of domestic cattle: \"`moo-cow' is a child's term\"；n mature female of mammals of which the male is called",
@@ -6389,7 +6389,7 @@
     },
     {
       "word": "disappeared",
-      "pinyin": "",
+      "pinyin": "/dɪsəˈpɪəd/",
       "zh_cn": "a. 消失的；消失了的",
       "zh_tw": "a. 消失的；消失了的",
       "en": "v get lost, as without warning or explanation；v become invisible or unnoticeable；v cease to exist；v become less intense and fade away gradually",
@@ -6497,7 +6497,7 @@
     },
     {
       "word": "needed",
-      "pinyin": "",
+      "pinyin": "/ˈniː.dɪd/",
       "zh_cn": "a. 需要的",
       "zh_tw": "a. 需要的",
       "en": "s. necessary for relief or supply",
@@ -6545,7 +6545,7 @@
     },
     {
       "word": "tending",
-      "pinyin": "",
+      "pinyin": "/ˈtɛndɪŋ/",
       "zh_cn": "[化] 维护保养",
       "zh_tw": "[化] 維護保養",
       "en": "n the work of providing treatment for or attending to someone or something；v have a tendency or disposition to do or be something; be inclined；v have care of or look after；v manage",
@@ -6665,7 +6665,7 @@
     },
     {
       "word": "asked",
-      "pinyin": "",
+      "pinyin": "/ˈɑːskt/",
       "zh_cn": "n. 卖方要价",
       "zh_tw": "n. 賣方要價",
       "en": "v inquire about；v make a request or demand for something to somebody；v direct or put; seek an answer to；v consider obligatory; request and expect；v address a question to and expect",
@@ -6749,7 +6749,7 @@
     },
     {
       "word": "seasons",
-      "pinyin": "",
+      "pinyin": "/ˈsiːzn̩z/",
       "zh_cn": "n. 季节, 四季",
       "zh_tw": "n. 季節, 四季",
       "en": "n a period of the year marked by special events or activities in some field；n one of the natural periods into which the year is divided by the equinoxes and solstices or atmospheri",
@@ -6797,7 +6797,7 @@
     },
     {
       "word": "cleverly",
-      "pinyin": "",
+      "pinyin": "/ˈklɛvəli/",
       "zh_cn": "adv. 聪明地, 全然, 完全, 巧妙地",
       "zh_tw": "adv. 聰明地, 全然, 完全, 巧妙地",
       "en": "r. in a clever manner",
@@ -6845,7 +6845,7 @@
     },
     {
       "word": "doomed",
-      "pinyin": "",
+      "pinyin": "/duːmd/",
       "zh_cn": "a. 注定的；命定的",
       "zh_tw": "a. 註定的；命定的",
       "en": "n. people who are destined to die soon；s. marked for certain death；s. marked by or promising bad fortune",
@@ -7085,7 +7085,7 @@
     },
     {
       "word": "hands",
-      "pinyin": "",
+      "pinyin": "/hæn(d)z/",
       "zh_cn": "n. 拥有, 所有；[计] 动手",
       "zh_tw": "n. 擁有, 所有；[計] 動手",
       "en": "n. (with `in') guardianship over; in divorce cases it is the right to house and care for and discipline a child",
@@ -7193,7 +7193,7 @@
     },
     {
       "word": "dogs",
-      "pinyin": "",
+      "pinyin": "/dɒɡz/",
       "zh_cn": "n. 瘦狗类；狗（dog的复数）",
       "zh_tw": "n. 瘦狗類；狗（dog的複數）",
       "en": "n a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds；n a dull unattractive unple",
@@ -7265,7 +7265,7 @@
     },
     {
       "word": "flared",
-      "pinyin": "",
+      "pinyin": "/flɛəd/",
       "zh_cn": "a. 喇叭状的",
       "zh_tw": "a. 喇叭狀的",
       "en": "v burn brightly；v become flared and widen, usually at one end；v shine with a sudden light；v erupt or intensify suddenly",
@@ -7277,7 +7277,7 @@
     },
     {
       "word": "flames",
-      "pinyin": "",
+      "pinyin": "/fleɪmz/",
       "zh_cn": "n. 火焰；火苗（flame的复数形式）",
       "zh_tw": "n. 火焰；火苗（flame的複數形式）",
       "en": "n the process of combustion of inflammable materials producing heat and light and (often) smoke；v shine with a sudden light；v be in flames or aflame；v criticize harshly, usually vi",
@@ -7397,7 +7397,7 @@
     },
     {
       "word": "shadows",
-      "pinyin": "",
+      "pinyin": "/ˈʃædoʊz/",
       "zh_cn": "n. 阴影, 影子（shadow复数）",
       "zh_tw": "n. 陰影, 影子（shadow複數）",
       "en": "n shade within clear boundaries；n an unilluminated area；n something existing in perception only；n a premonition of something adverse；n an indication that something has been present",
@@ -7676,7 +7676,7 @@
       "pinyin": "ˈsʌmbədiz",
       "zh_cn": "n. 某人，有人( somebody的名词复数 )",
       "zh_tw": "n. 某人，有人( somebody的名詞複數 )",
-      "en": null,
+      "en": "noun. plural of somebody",
       "note": null,
       "is_difficult": true,
       "src": "Mowgli’s Brothers",
@@ -7685,7 +7685,7 @@
     },
     {
       "word": "furiously",
-      "pinyin": "",
+      "pinyin": "/ˈfjʊə̯ɹi.ə̯sli/",
       "zh_cn": "adv. 狂暴地；猛烈地",
       "zh_tw": "adv. 狂暴地；猛烈地",
       "en": "r. (of the elements) in a wild and stormy manner；r. in a manner marked by extreme or violent energy；r. in an impassioned or very angry manner",
@@ -7829,7 +7829,7 @@
     },
     {
       "word": "leaped",
-      "pinyin": "",
+      "pinyin": "/liːpt/",
       "zh_cn": "leap的过去式和过去分词",
       "zh_tw": "leap的過去式和過去分詞",
       "en": "v move forward by leaps and bounds；v pass abruptly from one state or topic to another；v jump down from an elevated point；v cause to jump or leap",
@@ -7913,7 +7913,7 @@
     },
     {
       "word": "bayed",
-      "pinyin": "",
+      "pinyin": "/beɪd/",
       "zh_cn": "vi. （尤指猎犬等）吠, 叫, 咆哮（bay的过去式与过去分词形式）",
       "zh_tw": "vi. （尤指獵犬等）吠, 叫, 咆哮（bay的過去式與過去分詞形式）",
       "en": "imp. & p. p. of Bay；a. Having a bay or bays.",
@@ -7937,7 +7937,7 @@
     },
     {
       "word": "spots",
-      "pinyin": "",
+      "pinyin": "/spɒts/",
       "zh_cn": "n. 插播广告；花点布, 点子花纹棉布；置球点；斑点（spot的复数）",
       "zh_tw": "n. 插播廣告；花點布, 點子花紋棉布；置球點；斑點（spot的複數）",
       "en": "n spots before the eyes caused by opaque cell fragments in the vitreous humor and lens；n a point located with respect to surface features of some region；n a short section or illust",
@@ -7961,7 +7961,7 @@
     },
     {
       "word": "horns",
-      "pinyin": "",
+      "pinyin": "/hɔɹnz/",
       "zh_cn": "n. 喇叭；号；角制品；警报器（horn的复数）",
       "zh_tw": "n. 喇叭；號；角製品；警報器（horn的複數）",
       "en": "n a noisemaker (as at parties or games) that makes a loud noise when you blow through it；n one of the bony outgrowths on the heads of certain ungulates；n a noise made by the driver",
@@ -8081,7 +8081,7 @@
     },
     {
       "word": "happened",
-      "pinyin": "",
+      "pinyin": "/ˈhæpənd/",
       "zh_cn": "v. 发生（happen的过去式, 过去分词）",
       "zh_tw": "v. 發生（happen的過去式, 過去分詞）",
       "en": "v come to pass；v happen, occur, or be the case in the course of events or by chance；v chance to be or do something, without intention or causation；v come into being; become reality",
@@ -8129,7 +8129,7 @@
     },
     {
       "word": "marks",
-      "pinyin": "",
+      "pinyin": "/mɑɹks/",
       "zh_cn": "n. 标记, 记号；唛头, 分数；台面标志",
       "zh_tw": "n. 標記, 記號；嘜頭, 分數；檯面標誌",
       "en": "n. English businessman who created a retail chain (1888-1964)",
@@ -8189,7 +8189,7 @@
     },
     {
       "word": "laws",
-      "pinyin": "",
+      "pinyin": "/lɔːz/",
       "zh_cn": "n. 法律；规章（law的复数）",
       "zh_tw": "n. 法律；規章（law的複數）",
       "en": "n the first of three divisions of the Hebrew Scriptures comprising the first five books of the Hebrew Bible considered as a unit；n the collection of rules imposed by authority；n le",
@@ -8225,7 +8225,7 @@
     },
     {
       "word": "bees",
-      "pinyin": "",
+      "pinyin": "/ˈbiːz/",
       "zh_cn": "n. 蜜蜂（bee的复数）",
       "zh_tw": "n. 蜜蜂（bee的複數）",
       "en": "n any of numerous hairy-bodied insects including social and solitary species；n a social gathering to carry out some communal task or to hold competitions；v have the quality of bein",
@@ -8345,7 +8345,7 @@
     },
     {
       "word": "answered",
-      "pinyin": "",
+      "pinyin": "/ˈɑːn.səd/",
       "zh_cn": "v. 回答；回复（answer的过去式）",
       "zh_tw": "v. 回答；回覆（answer的過去式）",
       "en": "v react verbally；v respond to a signal；v give the correct answer or solution to；v understand the meaning of；v give a defence or refutation of (a charge) or in (an argument)；v be li",
@@ -8357,7 +8357,7 @@
     },
     {
       "word": "translated",
-      "pinyin": "",
+      "pinyin": "/ˈtɹænzleɪtɪd/",
       "zh_cn": "n. 译本",
       "zh_tw": "n. 譯本",
       "en": "v restate (words) from one language into another language；v change from one form or medium into another；v make sense of a language；v bring to a certain spiritual state；v change the",
@@ -8393,7 +8393,7 @@
     },
     {
       "word": "spoiled",
-      "pinyin": "",
+      "pinyin": "/spɔɪld/",
       "zh_cn": "spoil的过去式和过去分词；[经] 损坏的",
       "zh_tw": "spoil的過去式和過去分詞；[經] 損壞的",
       "en": "s. having the character or disposition harmed by pampering or oversolicitous attention",
@@ -8429,7 +8429,7 @@
     },
     {
       "word": "bruised",
-      "pinyin": "",
+      "pinyin": "/bɹuːzd/",
       "zh_cn": "a. [医]青肿的；瘀紫的",
       "zh_tw": "a. [醫]青腫的；瘀紫的",
       "en": "v injure the underlying soft tissue or bone of；v hurt the feelings of；v break up into small pieces for food preparation；v damage (plant tissue) by abrasion or pressure",
@@ -8465,7 +8465,7 @@
     },
     {
       "word": "earnestly",
-      "pinyin": "",
+      "pinyin": "/ˈɝnɪstli/",
       "zh_cn": "adv. 诚挚地；认真地",
       "zh_tw": "adv. 誠摯地；認真地",
       "en": "r in a serious manner",
@@ -8477,7 +8477,7 @@
     },
     {
       "word": "birds",
-      "pinyin": "",
+      "pinyin": "/bɜːdz/",
       "zh_cn": "n. 鸟类；禽（bird的复数）",
       "zh_tw": "n. 鳥類；禽（bird的複數）",
       "en": "n warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings；n the flesh of a bird or fowl (wild or domestic) used as food；n informal terms for a",
@@ -8657,7 +8657,7 @@
     },
     {
       "word": "grieved",
-      "pinyin": "",
+      "pinyin": "/ɡɹiːvd/",
       "zh_cn": "a. 伤心的",
       "zh_tw": "a. 傷心的",
       "en": "v feel grief；v cause to feel sorrow",
@@ -8813,7 +8813,7 @@
     },
     {
       "word": "heels",
-      "pinyin": "",
+      "pinyin": "/hiːlz/",
       "zh_cn": "[化] 残余料; 下脚料；[医] 跖沟状角皮病",
       "zh_tw": "[化] 殘餘料; 下腳料；[醫] 蹠溝狀角皮病",
       "en": "n the bottom of a shoe or boot; the back part of a shoe or boot that touches the ground and provides elevation；n the back part of the human foot；n someone who is morally reprehensi",
@@ -8849,7 +8849,7 @@
     },
     {
       "word": "begged",
-      "pinyin": "",
+      "pinyin": "/bɛɡd/",
       "zh_cn": "vt. 退求；请求, 乞求",
       "zh_tw": "vt. 退求；請求, 乞求",
       "en": "v call upon in supplication; entreat；v make a solicitation or entreaty for something; request urgently or persistently；v ask to obtain free；v dodge, avoid answering, or take for gr",
@@ -8864,7 +8864,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. (India, rare, obsolete) An elephant.",
       "note": null,
       "is_difficult": true,
       "src": "Kaa’s Hunting",
@@ -8921,7 +8921,7 @@
     },
     {
       "word": "ribs",
-      "pinyin": "",
+      "pinyin": "/ɹɪbz/",
       "zh_cn": "n. 肋骨；排骨（rib的复数）",
       "zh_tw": "n. 肋骨；排骨（rib的複數）",
       "en": "n support resembling the rib of an animal；n any of the 12 pairs of curved arches of bone extending from the spine to or toward the sternum in humans (and similar bones in most vert",
@@ -9005,7 +9005,7 @@
     },
     {
       "word": "dreams",
-      "pinyin": "",
+      "pinyin": "/dɹiːmz/",
       "zh_cn": "n. 梦想, 美梦（dream的复数形式）",
       "zh_tw": "n. 夢想, 美夢（dream的複數形式）",
       "en": "n a series of mental images and emotions occurring during sleep；n imaginative thoughts indulged in while awake；n a cherished desire；n a fantastic but vain hope (from fantasies indu",
@@ -9032,7 +9032,7 @@
       "pinyin": "hwjf,hwu:f",
       "zh_cn": "n. (突然排气似的)呼哧声",
       "zh_tw": "n. (突然排氣似的)呼哧聲",
-      "en": null,
+      "en": "interjection. The sound of a dog barking.；interjection. The sound of a steam train, steam boat, etc.",
       "note": null,
       "is_difficult": true,
       "src": "Kaa’s Hunting",
@@ -9068,7 +9068,7 @@
       "pinyin": "'bʌndɑ:",
       "zh_cn": "[动]印度狭鼻猴",
       "zh_tw": "[動]印度狹鼻猴",
-      "en": null,
+      "en": "noun. A rhesus macaque.",
       "note": null,
       "is_difficult": true,
       "src": "Kaa’s Hunting",
@@ -9113,7 +9113,7 @@
     },
     {
       "word": "trees",
-      "pinyin": "",
+      "pinyin": "/tɹiːz/",
       "zh_cn": "n. 树木；乔木；树状结构（tree的复数）",
       "zh_tw": "n. 樹木；喬木；樹狀結構（tree的複數）",
       "en": "n a tall perennial woody plant having a main trunk and branches forming a distinct elevated crown; includes both gymnosperms and angiosperms；n a figure that branches from a single",
@@ -9185,7 +9185,7 @@
     },
     {
       "word": "bade",
-      "pinyin": "",
+      "pinyin": "/bæd/",
       "zh_cn": "bid的过去式",
       "zh_tw": "bid的過去式",
       "en": "n. a Chadic language spoken in northern Nigeria",
@@ -9209,7 +9209,7 @@
     },
     {
       "word": "peoples",
-      "pinyin": "",
+      "pinyin": "/ˈpiːpəlz/",
       "zh_cn": "n. 民族学；民族（people的复数形式）",
       "zh_tw": "n. 民族學；民族（people的複數形式）",
       "en": "n. the human beings of a particular nation or community or ethnic group",
@@ -9269,7 +9269,7 @@
     },
     {
       "word": "leaders",
-      "pinyin": "",
+      "pinyin": "/ˈliː.dəz/",
       "zh_cn": "n. 指挥；引线；前导字符；领袖（leader的复数）",
       "zh_tw": "n. 指揮；引線；前導字符；領袖（leader的複數）",
       "en": "n the body of people who lead a group；n a person who rules or guides or inspires others；n a featured article of merchandise sold at a loss in order to draw customers",
@@ -9293,7 +9293,7 @@
     },
     {
       "word": "affairs",
-      "pinyin": "",
+      "pinyin": "/əˈfɛɹz/",
       "zh_cn": "n. 事务, 事宜；风流韵事",
       "zh_tw": "n. 事務, 事宜；風流韻事",
       "en": "n. transactions of professional or public interest",
@@ -9317,7 +9317,7 @@
     },
     {
       "word": "turns",
-      "pinyin": "",
+      "pinyin": "/tɝnz/",
       "zh_cn": "n. 转弯；匝数；圈数（turn的复数形式）；手动车床",
       "zh_tw": "n. 轉彎；匝數；圈數（turn的複數形式）；手動車床",
       "en": "n a circular segment of a curve；n the act of changing or reversing the direction of the course；n (game) the activity of doing something in an agreed succession；n an unforeseen deve",
@@ -9329,7 +9329,7 @@
     },
     {
       "word": "minds",
-      "pinyin": "",
+      "pinyin": "/maɪndz/",
       "zh_cn": "n. 思想；主意（mind的复数）",
       "zh_tw": "n. 思想；主意（mind的複數）",
       "en": "n that which is responsible for one's thoughts and feelings; the seat of the faculty of reason；n recall or remembrance；n an opinion formed by judging something；n an important intel",
@@ -9341,7 +9341,7 @@
     },
     {
       "word": "dealings",
-      "pinyin": "",
+      "pinyin": "/ˈdiːlɪŋ(ɡ)z/",
       "zh_cn": "n. 来往, 交易, 买卖；[经] 交易",
       "zh_tw": "n. 來往, 交易, 買賣；[經] 交易",
       "en": "n. social or verbal interchange (usually followed by `with')",
@@ -9353,7 +9353,7 @@
     },
     {
       "word": "monkeys",
-      "pinyin": "",
+      "pinyin": "/ˈmʌŋkiz/",
       "zh_cn": "n. 猴子（monkey的复数）",
       "zh_tw": "n. 猴子（monkey的複數）",
       "en": "n any of various long-tailed primates (excluding the prosimians)；n one who is playfully mischievous；v play around with or alter or falsify, usually secretively or dishonestly；v do",
@@ -9449,7 +9449,7 @@
     },
     {
       "word": "howlings",
-      "pinyin": "",
+      "pinyin": "/ˈhaʊlɪŋz/",
       "zh_cn": "(howling 的复数) a. 咆哮的, 极大的, 荒凉的；n. 啸声",
       "zh_tw": "(howling 的複數) a. 咆哮的, 極大的, 荒涼的；n. 嘯聲",
       "en": "plural of howling；n a long loud emotional utterance；v emit long loud cries；v cry loudly, as of animals；v make a loud noise, as of wind, water, or vehicles；v laugh unrestrainedly an",
@@ -9485,7 +9485,7 @@
     },
     {
       "word": "warned",
-      "pinyin": "",
+      "pinyin": "/wɔɹnd/",
       "zh_cn": "a. 已警告的",
       "zh_tw": "a. 已警告的",
       "en": "v notify of danger, potential harm, or risk；v admonish or counsel in terms of someone's behavior；v ask to go away；v notify, usually in advance",
@@ -9557,7 +9557,7 @@
     },
     {
       "word": "sticks",
-      "pinyin": "",
+      "pinyin": "/stɪks/",
       "zh_cn": "n. 树枝；棍；麻骨（stick复数形式）",
       "zh_tw": "n. 樹枝；棍；麻骨（stick複數形式）",
       "en": "n an implement consisting of a length of wood；n a small thin branch of a tree；n a lever used by a pilot to control the ailerons and elevators of an airplane；n a rectangular quarter",
@@ -9593,7 +9593,7 @@
     },
     {
       "word": "songs",
-      "pinyin": "",
+      "pinyin": "/sɒŋz/",
       "zh_cn": "n. 歌曲, 歌集（song的复数）",
       "zh_tw": "n. 歌曲, 歌集（song的複數）",
       "en": "n a short musical composition with words；n a distinctive or characteristic sound；n the act of singing；n the characteristic sound produced by a bird；n a very small sum；n the imperia",
@@ -9605,7 +9605,7 @@
     },
     {
       "word": "battles",
-      "pinyin": "",
+      "pinyin": "/ˈbætl̩z/",
       "zh_cn": "n. 战争；竞争（battle的复数）",
       "zh_tw": "n. 戰爭；競爭（battle的複數）",
       "en": "n a hostile meeting of opposing military forces in the course of a war；n an energetic attempt to achieve something；n an open clash between two opposing groups (or individuals)；v ba",
@@ -9617,7 +9617,7 @@
     },
     {
       "word": "memories",
-      "pinyin": "",
+      "pinyin": "/ˈmɛm.(ə.)ɹiz/",
       "zh_cn": "n. 回忆；记忆（memory的复数）",
       "zh_tw": "n. 回憶；記憶（memory的複數）",
       "en": "n something that is remembered；n the cognitive processes whereby past experience is remembered；n the power of retaining and recalling past experience；n an electronic memory device",
@@ -9689,7 +9689,7 @@
     },
     {
       "word": "sorts",
-      "pinyin": "",
+      "pinyin": "/sɔːts/",
       "zh_cn": "n. 程度；种类；品质（sort的复数）",
       "zh_tw": "n. 程度；種類；品質（sort的複數）",
       "en": "n a category of things distinguished by some common characteristic or quality；n an approximate definition or example；n a person of a particular character or nature；n an operation t",
@@ -9701,7 +9701,7 @@
     },
     {
       "word": "instincts",
-      "pinyin": "",
+      "pinyin": "/ˈɪn.stɪŋkts/",
       "zh_cn": "n. 直觉；本能（instinct的复数）",
       "zh_tw": "n. 直覺；本能（instinct的複數）",
       "en": "n inborn pattern of behavior often responsive to specific stimuli",
@@ -9833,7 +9833,7 @@
     },
     {
       "word": "cries",
-      "pinyin": "",
+      "pinyin": "/kɹaɪ̯z/",
       "zh_cn": "v. 哭；喊叫（cry的第三人称单数）",
       "zh_tw": "v. 哭；喊叫（cry的第三人稱單數）",
       "en": "n a loud utterance; often in protest or opposition；n a loud utterance of emotion (especially when inarticulate)；n a slogan used to rally support for a cause；n a fit of weeping；n th",
@@ -9857,7 +9857,7 @@
     },
     {
       "word": "roads",
-      "pinyin": "",
+      "pinyin": "/ɹoʊdz/",
       "zh_cn": "n. 开敞或半开敞锚地；道路（road的复数）",
       "zh_tw": "n. 開敞或半開敞錨地；道路（road的複數）",
       "en": "n. a partly sheltered anchorage",
@@ -9881,7 +9881,7 @@
     },
     {
       "word": "strongest",
-      "pinyin": "",
+      "pinyin": "/ˈstɹɒŋɡəst/",
       "zh_cn": "a. 最强壮的（为strong的最高级）",
       "zh_tw": "a. 最強壯的（為strong的最高級）",
       "en": "a having strength or power greater than average or expected；s not faint or feeble；s having or wielding force or authority；a having a strong physiological or chemical effect；s immun",
@@ -10073,7 +10073,7 @@
     },
     {
       "word": "limbs",
-      "pinyin": "",
+      "pinyin": "/lɪmz/",
       "zh_cn": "n. 四肢（limb的复数）",
       "zh_tw": "n. 四肢（limb的複數）",
       "en": "n one of the jointed appendages of an animal used for locomotion or grasping: arm; leg; wing; flipper；n any of the main branches arising from the trunk or a bough of a tree；n (astr",
@@ -10109,7 +10109,7 @@
     },
     {
       "word": "guards",
-      "pinyin": "",
+      "pinyin": "/ɡɑːdz/",
       "zh_cn": "n. 禁卫军；护卫队；守卫；后卫（guard的复数形式）",
       "zh_tw": "n. 禁衛軍；護衛隊；守衛；後衛（guard的複數形式）",
       "en": "n a person who keeps watch over something or someone；n the person who plays that position on a football team；n a device designed to prevent injury or accidents；n a posture of defen",
@@ -10253,7 +10253,7 @@
     },
     {
       "word": "yards",
-      "pinyin": "",
+      "pinyin": "/jɑɹdz/",
       "zh_cn": "n. 码数（yard复数形式）",
       "zh_tw": "n. 碼數（yard複數形式）",
       "en": "n a unit of length equal to 3 feet; defined as 91.44 centimeters; originally taken to be the average length of a stride；n the enclosed land around a house or other building；n a tra",
@@ -10277,7 +10277,7 @@
     },
     {
       "word": "dragged",
-      "pinyin": "",
+      "pinyin": "/dɹæɡd/",
       "zh_cn": "v. 制动；拖动；打滑；松懈",
       "zh_tw": "v. 制動；拖動；打滑；鬆懈",
       "en": "v pull, as against a resistance；v draw slowly or heavily；v force into some kind of situation, condition, or course of action；v move slowly and as if with great effort；v to lag or l",
@@ -10337,7 +10337,7 @@
     },
     {
       "word": "nodded",
-      "pinyin": "",
+      "pinyin": "/ˈnɑdɪd/",
       "zh_cn": "v. 点头；打瞌睡；摇动（nod的过去式）",
       "zh_tw": "v. 點頭；打瞌睡；搖動（nod的過去式）",
       "en": "v express or signify by nodding；v lower and raise the head, as to indicate assent or agreement or confirmation；v let the head fall forward through drowsiness；v sway gently back and",
@@ -10349,7 +10349,7 @@
     },
     {
       "word": "bigger",
-      "pinyin": "",
+      "pinyin": "/ˈbɪɡəː/",
       "zh_cn": "a. 更大的（big的比较级）",
       "zh_tw": "a. 更大的（big的比較級）",
       "en": "s. large or big relative to something else",
@@ -10457,7 +10457,7 @@
     },
     {
       "word": "wings",
-      "pinyin": "",
+      "pinyin": "/wɪŋz/",
       "zh_cn": "n. 舞台两侧, 侧景",
       "zh_tw": "n. 舞臺兩側, 側景",
       "en": "n. a means of flight or ascent；n. stylized bird wings worn as an insignia by qualified pilots or air crew members",
@@ -10529,7 +10529,7 @@
     },
     {
       "word": "blows",
-      "pinyin": "",
+      "pinyin": "/bləʊz/",
       "zh_cn": "n. 吹；管乐器声；疾风（blow的复数）",
       "zh_tw": "n. 吹；管樂器聲；疾風（blow的複數）",
       "en": "n a powerful stroke with the fist or a weapon；n an impact (as from a collision)；n an unfortunate happening that hinders or impedes; something that is thwarting or frustrating；n an",
@@ -10589,10 +10589,10 @@
     },
     {
       "word": "whoo",
-      "pinyin": "",
+      "pinyin": "/wuː/",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "interjection. An expression of joy and excitement.；interjection. The wailing of a ghost.",
       "note": null,
       "is_difficult": true,
       "src": "Kaa’s Hunting",
@@ -10649,7 +10649,7 @@
     },
     {
       "word": "bears",
-      "pinyin": "",
+      "pinyin": "/bɛɹz/",
       "zh_cn": "n. 空头（卖空的证券交易投机）；熊（bear的复数）",
       "zh_tw": "n. 空頭（賣空的證券交易投機）；熊（bear的複數）",
       "en": "n massive plantigrade carnivorous or omnivorous mammals with long shaggy coats and strong claws；n an investor with a pessimistic market outlook; an investor who expects prices to f",
@@ -10721,7 +10721,7 @@
     },
     {
       "word": "impatiently",
-      "pinyin": "",
+      "pinyin": "/ɪmˈpeɪʃəntli/",
       "zh_cn": "adv. 不耐烦, 忍受不了, 急躁, [表]急欲, 急切",
       "zh_tw": "adv. 不耐煩, 忍受不了, 急躁, [表]急欲, 急切",
       "en": "r. with impatience; in an impatient manner",
@@ -10793,7 +10793,7 @@
     },
     {
       "word": "thoughtfully",
-      "pinyin": "",
+      "pinyin": "/ˈθɔːtfʊli/",
       "zh_cn": "adv. 沉思地；体贴地, 亲切地",
       "zh_tw": "adv. 沉思地；體貼地, 親切地",
       "en": "r. in a thoughtful manner；r. showing consideration and thoughtfulness",
@@ -10853,7 +10853,7 @@
     },
     {
       "word": "tails",
-      "pinyin": "",
+      "pinyin": "/teɪlz/",
       "zh_cn": "n. (非正式)燕尾服, 男子夜礼服, 钱币背面, 硬币的背面；[化] (复)尾矿; 尾砂",
       "zh_tw": "n. (非正式)燕尾服, 男子夜禮服, 錢幣背面, 硬幣的背面；[化] (復)尾礦; 尾砂",
       "en": "n formalwear consisting of full evening dress for men；n the posterior part of the body of a vertebrate especially when elongated and extending beyond the trunk or main part of the",
@@ -10901,7 +10901,7 @@
     },
     {
       "word": "rubbed",
-      "pinyin": "",
+      "pinyin": "/ˈɹʌbd/",
       "zh_cn": "v. 摩擦；搓；擦（rub的过去式和过去分词）",
       "zh_tw": "v. 摩擦；搓；擦（rub的過去式和過去分詞）",
       "en": "v move over something with pressure；v cause friction；v scrape or rub as if to relieve itching",
@@ -11009,7 +11009,7 @@
     },
     {
       "word": "knots",
-      "pinyin": "",
+      "pinyin": "/nɒts/",
       "zh_cn": "n. 结；结头；要点（knot的复数）",
       "zh_tw": "n. 結；結頭；要點（knot的複數）",
       "en": "n a tight cluster of people or things；n any of various fastenings formed by looping and tying a rope (or cord) upon itself or to another rope or to another object；n a hard cross-gr",
@@ -11021,7 +11021,7 @@
     },
     {
       "word": "curves",
-      "pinyin": "",
+      "pinyin": "/kɜːvz/",
       "zh_cn": "n. 曲线；弯曲状（curve的复数形式）",
       "zh_tw": "n. 曲線；彎曲狀（curve的複數形式）",
       "en": "n the trace of a point whose direction of motion changes；n a line on a graph representing data；n a pitch of a baseball that is thrown with spin so that its path curves as it approa",
@@ -11117,7 +11117,7 @@
     },
     {
       "word": "lowered",
-      "pinyin": "",
+      "pinyin": "/ˈloʊɚd/",
       "zh_cn": "v. 降低；削弱（lower的过去分词）",
       "zh_tw": "v. 降低；削弱（lower的過去分詞）",
       "en": "a. below the surround or below the normal position",
@@ -11180,7 +11180,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "interjection. Alternative form of pshaw.",
       "note": null,
       "is_difficult": true,
       "src": "Kaa’s Hunting",
@@ -11213,7 +11213,7 @@
     },
     {
       "word": "waked",
-      "pinyin": "",
+      "pinyin": "/ˈweɪkt/",
       "zh_cn": "wake的过去式和过去分词",
       "zh_tw": "wake的過去式和過去分詞",
       "en": "v be awake, be alert, be there；v stop sleeping；v arouse or excite feelings and passions；v make aware of；v cause to become awake or conscious",
@@ -11225,7 +11225,7 @@
     },
     {
       "word": "names",
-      "pinyin": "",
+      "pinyin": "/neɪmz/",
       "zh_cn": "n. 名字；名望（name的复数形式）",
       "zh_tw": "n. 名字；名望（name的複數形式）",
       "en": "n verbal abuse; a crude substitute for argument；n a language unit by which a person or thing is known；n a person's reputation；n family based on male descent；n a well-known or notab",
@@ -11297,7 +11297,7 @@
     },
     {
       "word": "shows",
-      "pinyin": "",
+      "pinyin": "/ʃəʊz/",
       "zh_cn": "n. 秀场, 表演（show的复数）",
       "zh_tw": "n. 秀場, 表演（show的複數）",
       "en": "n the act of publicly exhibiting or entertaining；n something intended to communicate a particular impression；n a social event involving a public performance or entertainment；n pret",
@@ -11369,7 +11369,7 @@
     },
     {
       "word": "owned",
-      "pinyin": "",
+      "pinyin": "/əʊnd/",
       "zh_cn": "v. 拥有；承认（own的过去分词）",
       "zh_tw": "v. 擁有；承認（own的過去分詞）",
       "en": "a. having an owner; often used in combination",
@@ -11393,7 +11393,7 @@
     },
     {
       "word": "takes",
-      "pinyin": "",
+      "pinyin": "/teɪks/",
       "zh_cn": "vt. 取走, 预备动作（take第三人称单数）",
       "zh_tw": "vt. 取走, 預備動作（take第三人稱單數）",
       "en": "n the income or profit arising from such transactions as the sale of land or other property；n the act of photographing a scene or part of a scene without interruption；v carry out；v",
@@ -11405,7 +11405,7 @@
     },
     {
       "word": "replied",
-      "pinyin": "",
+      "pinyin": "/ɹɪˈplaɪd/",
       "zh_cn": "v. 反响；报复；回答（reply的过去分词）",
       "zh_tw": "v. 反響；報復；回答（reply的過去分詞）",
       "en": "v react verbally",
@@ -11429,7 +11429,7 @@
     },
     {
       "word": "swelled",
-      "pinyin": "",
+      "pinyin": "/ˈswɛld/",
       "zh_cn": "swell的过去式和过去分词",
       "zh_tw": "swell的過去式和過去分詞",
       "en": "v increase in size, magnitude, number, or intensity；v become filled with pride, arrogance, or anger；v expand abnormally；v come up (as of feelings and thoughts, or other ephemeral t",
@@ -11513,7 +11513,7 @@
     },
     {
       "word": "stories",
-      "pinyin": "",
+      "pinyin": "/ˈstɔː.ɹiz/",
       "zh_cn": "n. 故事（story的复数）",
       "zh_tw": "n. 故事（story的複數）",
       "en": "n a message that tells the particulars of an act or occurrence or course of events; presented in writing or drama or cinema or as a radio or television program；n a piece of fiction",
@@ -11549,7 +11549,7 @@
     },
     {
       "word": "weaving",
-      "pinyin": "",
+      "pinyin": "/ˈwiːvɪŋ/",
       "zh_cn": "[机] 织动",
       "zh_tw": "[機] 織動",
       "en": "n. creating fabric",
@@ -11684,7 +11684,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "interjection. Obsolete form of hello.；verb. (obsolete) To holler, shout loudly at someone",
       "note": null,
       "is_difficult": true,
       "src": "Kaa’s Hunting",
@@ -11696,7 +11696,7 @@
       "pinyin": "",
       "zh_cn": "[地名] [韩国] 一老; [地名] [尼日利亚] 伊洛",
       "zh_tw": "[地名] [韓國] 一老; [地名] [尼日利亞] 伊洛",
-      "en": null,
+      "en": "noun. (informal) An illustration.",
       "note": null,
       "is_difficult": true,
       "src": "Kaa’s Hunting",
@@ -11813,7 +11813,7 @@
     },
     {
       "word": "kites",
-      "pinyin": "",
+      "pinyin": "/kaɪts/",
       "zh_cn": "n. 风筝；轻帆（kite的复数）",
       "zh_tw": "n. 風箏；輕帆（kite的複數）",
       "en": "n a bank check that has been fraudulently altered to increase its face value；n a bank check drawn on insufficient funds at another bank in order to take advantage of the float；n pl",
@@ -11849,7 +11849,7 @@
     },
     {
       "word": "remembering",
-      "pinyin": "",
+      "pinyin": "/ɹɪˈmɛmb(ə)ɹɪŋ/",
       "zh_cn": "n. 回忆, 记住",
       "zh_tw": "n. 回憶, 記住",
       "en": "n the cognitive processes whereby past experience is remembered；v recall knowledge from memory; have a recollection；v keep in mind for attention or consideration；v recapture the pa",
@@ -11873,7 +11873,7 @@
     },
     {
       "word": "buried",
-      "pinyin": "",
+      "pinyin": "/ˈbɛ.ɹid/",
       "zh_cn": "a. 埋葬的；[地]埋藏的",
       "zh_tw": "a. 埋葬的；[地]埋藏的",
       "en": "a. placed in a grave",
@@ -12029,7 +12029,7 @@
     },
     {
       "word": "gained",
-      "pinyin": "",
+      "pinyin": "/ɡeɪnd/",
       "zh_cn": "v. 增进；获得, 得到（gain的过去式）",
       "zh_tw": "v. 增進；獲得, 得到（gain的過去式）",
       "en": "v obtain；v win something through one's efforts；v derive a benefit from；v reach a destination, either real or abstract；v obtain advantages, such as points, etc.；v rise in rate or pr",
@@ -12077,7 +12077,7 @@
     },
     {
       "word": "shortest",
-      "pinyin": "",
+      "pinyin": "/ˈʃɔːtɪst/",
       "zh_cn": "[计] 最短的",
       "zh_tw": "[計] 最短的",
       "en": "a primarily temporal sense; indicating or being or seeming to be limited in duration；a (primarily spatial sense) having little length or lacking in length；a low in stature; not tal",
@@ -12113,7 +12113,7 @@
     },
     {
       "word": "ruins",
-      "pinyin": "",
+      "pinyin": "/ˈɹu.ɪnz/",
       "zh_cn": "n. 虚墟, 遗迹",
       "zh_tw": "n. 虛墟, 遺蹟",
       "en": "n an irrecoverable state of devastation and destruction；n a ruined building；n the process of becoming dilapidated；n an event that results in destruction；n failure that results in a",
@@ -12149,7 +12149,7 @@
     },
     {
       "word": "gates",
-      "pinyin": "",
+      "pinyin": "/ɡeɪts/",
       "zh_cn": "n. 大门；关口（gate的复数形式）",
       "zh_tw": "n. 大門；關口（gate的複數形式）",
       "en": "n. United States computer entrepreneur whose software company made him the youngest multi-billionaire in the history of the United States (born in 1955)",
@@ -12209,7 +12209,7 @@
     },
     {
       "word": "walls",
-      "pinyin": "",
+      "pinyin": "/wɔːlz/",
       "zh_cn": "n. 墙壁；墙体（wall的复数）",
       "zh_tw": "n. 牆壁；牆體（wall的複數）",
       "en": "n an architectural partition with a height and length greater than its thickness; used to divide or enclose an area or to support another structure；n anything that suggests a wall",
@@ -12269,7 +12269,7 @@
     },
     {
       "word": "towers",
-      "pinyin": "",
+      "pinyin": "/ˈtaʊɚz/",
       "zh_cn": "n. 塔；塔器；空中跳台（tower的复数）",
       "zh_tw": "n. 塔；塔器；空中跳臺（tower的複數）",
       "en": "n a structure taller than its diameter; can stand alone or be attached to a larger building；n anything that approximates the shape of a column or tower；n a powerful small boat desi",
@@ -12305,7 +12305,7 @@
     },
     {
       "word": "crowned",
-      "pinyin": "",
+      "pinyin": "/kɹaʊnd/",
       "zh_cn": "a. 戴王冠的, 象戴着王冠的, 有...帽顶的",
       "zh_tw": "a. 戴王冠的, 象戴著王冠的, 有...帽頂的",
       "en": "a. having an (artificial) crown on a tooth；a. provided with or as if with a crown or a crown as specified; often used in combination",
@@ -12389,7 +12389,7 @@
     },
     {
       "word": "rows",
-      "pinyin": "",
+      "pinyin": "/ɹoʊz/",
       "zh_cn": "n. 返回引用中的行数；行（row的复数形式）",
       "zh_tw": "n. 返回引用中的行數；行（row的複數形式）",
       "en": "n an arrangement of objects or people side by side in a line；n an angry dispute；n a long continuous strip (usually running horizontally)；n (construction) a layer of masonry；n a lin",
@@ -12461,7 +12461,7 @@
     },
     {
       "word": "pits",
-      "pinyin": "",
+      "pinyin": "/pɪts/",
       "zh_cn": "n. 凹点；凸面；维修区（pit的复数）",
       "zh_tw": "n. 凹點；凸面；維修區（pit的複數）",
       "en": "n a sizeable hole (usually in the ground)；n a concavity in a surface (especially an anatomical depression)；n the hard inner (usually woody) layer of the pericarp of some fruits (as",
@@ -12485,7 +12485,7 @@
     },
     {
       "word": "corners",
-      "pinyin": "",
+      "pinyin": "/ˈkɔɹnɚz/",
       "zh_cn": "n. 角落；窘境（corner的复数形式）",
       "zh_tw": "n. 角落；窘境（corner的複數形式）",
       "en": "n a place off to the side of an area；n the point where two lines meet or intersect；n an interior angle formed by two meeting walls；n the intersection of two streets；n the point whe",
@@ -12509,7 +12509,7 @@
     },
     {
       "word": "shattered",
-      "pinyin": "",
+      "pinyin": "/ˈʃætɚd/",
       "zh_cn": "a. 极度疲劳的；破碎的",
       "zh_tw": "a. 極度疲勞的；破碎的",
       "en": "s. ruined or disrupted",
@@ -12533,7 +12533,7 @@
     },
     {
       "word": "temples",
-      "pinyin": "",
+      "pinyin": "/ˈtɛmpl̩z/",
       "zh_cn": "n. 边撑, 伸幅器；寺庙（temple的复数形式）",
       "zh_tw": "n. 邊撐, 伸幅器；寺廟（temple的複數形式）",
       "en": "n place of worship consisting of an edifice for the worship of a deity；n the flat area on either side of the forehead；n an edifice devoted to special or exalted purposes；n (Judaism",
@@ -12545,7 +12545,7 @@
     },
     {
       "word": "figs",
-      "pinyin": "",
+      "pinyin": "/fɪɡz/",
       "zh_cn": "n. 无花果（fig的复数形式）",
       "zh_tw": "n. 無花果（fig的複數形式）",
       "en": "n a diagram or picture illustrating textual material；n Mediterranean tree widely cultivated for its edible fruit；n a Libyan terrorist group organized in 1995 and aligned with al-Qa",
@@ -12593,7 +12593,7 @@
     },
     {
       "word": "buildings",
-      "pinyin": "",
+      "pinyin": "/ˈbɪldɪŋz/",
       "zh_cn": "n. 建筑物（building的复数）",
       "zh_tw": "n. 建築物（building的複數）",
       "en": "n a structure that has a roof and walls and stands more or less permanently in one place；n the act of constructing something；n the commercial activity involved in repairing old str",
@@ -12605,7 +12605,7 @@
     },
     {
       "word": "circles",
-      "pinyin": "",
+      "pinyin": "/ˈsɝkl̩z/",
       "zh_cn": "n. 园；圆圈；循环（circle的复数）",
       "zh_tw": "n. 園；圓圈；循環（circle的複數）",
       "en": "n ellipse in which the two axes are of equal length; a plane curve generated by one point moving at a constant distance from a fixed point；n an unofficial association of people or",
@@ -12689,7 +12689,7 @@
     },
     {
       "word": "oranges",
-      "pinyin": "",
+      "pinyin": "/ˈɔɹ(ɪ)nd͡ʒɪz/",
       "zh_cn": "n. 柑桔, 橙子（orange复数形式）",
       "zh_tw": "n. 柑桔, 橙子（orange複數形式）",
       "en": "n round yellow to orange fruit of any of several citrus trees；n orange color or pigment; any of a range of colors between red and yellow；n any citrus tree bearing oranges；n any pig",
@@ -12701,7 +12701,7 @@
     },
     {
       "word": "flowers",
-      "pinyin": "",
+      "pinyin": "/ˈflaʊ.əz/",
       "zh_cn": "[医] 花; 升华制成的药物; 月经",
       "zh_tw": "[醫] 花; 昇華製成的藥物; 月經",
       "en": "n a plant cultivated for its blooms or blossoms；n reproductive organ of angiosperm plants especially one having showy or colorful parts；n the period of greatest prosperity or produ",
@@ -12725,7 +12725,7 @@
     },
     {
       "word": "passages",
-      "pinyin": "",
+      "pinyin": "/ˈpæsɪd͡ʒɪz/",
       "zh_cn": "n. 通路；过客；短文（passage的复数形式）",
       "zh_tw": "n. 通路；過客；短文（passage的複數形式）",
       "en": "n the act of passing from one state or place to the next；n a section of text; particularly a section of medium length；n a way through or along which someone or something may pass；n",
@@ -12749,7 +12749,7 @@
     },
     {
       "word": "rooms",
-      "pinyin": "",
+      "pinyin": "/ɹuːmz/",
       "zh_cn": "n. 空间；房间（room的复数）",
       "zh_tw": "n. 空間；房間（room的複數）",
       "en": "n apartment consisting of a series of connected rooms used as a living unit (as in a hotel)；n an area within a building enclosed by walls and floor and ceiling；n space for movement",
@@ -12773,7 +12773,7 @@
     },
     {
       "word": "ones",
-      "pinyin": "",
+      "pinyin": "/wʌnz/",
       "zh_cn": "n. 刻录软件",
       "zh_tw": "n. 刻錄軟件",
       "en": "n the smallest whole number or a numeral representing this number；n a single person or thing",
@@ -12845,7 +12845,7 @@
     },
     {
       "word": "hoping",
-      "pinyin": "",
+      "pinyin": "/ˈhoʊpɪŋ/",
       "zh_cn": "v. 希望（hope的ing形式）",
       "zh_tw": "v. 希望（hope的ing形式）",
       "en": "v expect and wish；v be optimistic; be full of hope; have hopes；v intend with some possibility of fulfilment；v jump lightly；v move quickly from one place to another；v travel by mean",
@@ -12869,7 +12869,7 @@
     },
     {
       "word": "joined",
-      "pinyin": "",
+      "pinyin": "/ˈd͡ʒɔɪnd/",
       "zh_cn": "v. 加入；连接；参加（join的过去式, 过去分词）",
       "zh_tw": "v. 加入；連接；參加（join的過去式, 過去分詞）",
       "en": "s. of or relating to two people who are married to each other",
@@ -12953,7 +12953,7 @@
     },
     {
       "word": "minutes",
-      "pinyin": "",
+      "pinyin": "/ˈmɪnɪts/",
       "zh_cn": "n. 会议记录；[法] 备忘录, 会议记录, 审判记录",
       "zh_tw": "n. 會議記錄；[法] 備忘錄, 會議記錄, 審判記錄",
       "en": "n. a written account of what transpired at a meeting",
@@ -13277,7 +13277,7 @@
     },
     {
       "word": "speakers",
-      "pinyin": "",
+      "pinyin": "/ˈspikɚz/",
       "zh_cn": "n. 演说家；扬声器；发言者（speaker的复数）",
       "zh_tw": "n. 演說家；揚聲器；發言者（speaker的複數）",
       "en": "n someone who expresses in language; someone who talks (especially someone who delivers a public speech or someone especially garrulous)；n electro-acoustic transducer that converts",
@@ -13301,7 +13301,7 @@
     },
     {
       "word": "praises",
-      "pinyin": "",
+      "pinyin": "/ˈpɹeɪzɪz/",
       "zh_cn": "n. 称赞( praise的名词复数 ); 赞扬; 崇拜; 赞美的话；v. 称赞( praise的第三人称单数 ); 赞美; 颂扬; 崇拜",
       "zh_tw": "n. 稱讚( praise的名詞複數 ); 讚揚; 崇拜; 讚美的話；v. 稱讚( praise的第三人稱單數 ); 讚美; 頌揚; 崇拜",
       "en": "n an expression of approval and commendation；n offering words of homage as an act of worship；v express approval of",
@@ -13385,7 +13385,7 @@
     },
     {
       "word": "risks",
-      "pinyin": "",
+      "pinyin": "/ɹɪsks/",
       "zh_cn": "n. 风险, 危险（risk复数）",
       "zh_tw": "n. 風險, 危險（risk複數）",
       "en": "n a source of danger; a possibility of incurring loss or misfortune；n a venture undertaken without regard to possible loss or injury；n the probability of becoming infected given th",
@@ -13397,7 +13397,7 @@
     },
     {
       "word": "covers",
-      "pinyin": "",
+      "pinyin": "/ˈkʌvɚz/",
       "zh_cn": "n. 覆盖；封面, 盖子；暗礁, 保证金, 暗礁群",
       "zh_tw": "n. 覆蓋；封面, 蓋子；暗礁, 保證金, 暗礁群",
       "en": "n a covering that serves to conceal or shelter something；n bedding that keeps a person warm in bed；n the act of concealing the existence of something by obstructing the view of it",
@@ -13457,7 +13457,7 @@
     },
     {
       "word": "wondered",
-      "pinyin": "",
+      "pinyin": "/ˈwʌndəd/",
       "zh_cn": "vt. 对…感到好奇（wonder的过去式与过去分词形式）",
       "zh_tw": "vt. 對…感到好奇（wonder的過去式與過去分詞形式）",
       "en": "imp. & p. p. of Wonder；a. Having performed wonders; able to perform wonderful；things.",
@@ -13481,7 +13481,7 @@
     },
     {
       "word": "seated",
-      "pinyin": "",
+      "pinyin": "/ˈsiːtɪd/",
       "zh_cn": "a. 就座的；固定的；根深蒂固的",
       "zh_tw": "a. 就座的；固定的；根深蒂固的",
       "en": "a. (of persons) having the torso erect and legs bent with the body supported on the buttocks",
@@ -13505,7 +13505,7 @@
     },
     {
       "word": "tripped",
-      "pinyin": "",
+      "pinyin": "/tɹɪpt/",
       "zh_cn": "v. 倾翻（trip的过去式）",
       "zh_tw": "v. 傾翻（trip的過去式）",
       "en": "v miss a step and fall or nearly fall；v cause to stumble；v make a trip for pleasure；v put in motion or move to act；v get high, stoned, or drugged",
@@ -13517,7 +13517,7 @@
     },
     {
       "word": "bodies",
-      "pinyin": "",
+      "pinyin": "/ˈbɒd.iz/",
       "zh_cn": "n. （文章、文件等的）正文；（人或动物的）身体；主体部分（body的复数）",
       "zh_tw": "n. （文章、文件等的）正文；（人或動物的）身體；主體部分（body的複數）",
       "en": "n the entire structure of an organism (an animal, plant, or human being)；n a group of persons associated by some common tie or occupation and regarded as an entity；n a natural obje",
@@ -13529,7 +13529,7 @@
     },
     {
       "word": "scratching",
-      "pinyin": "",
+      "pinyin": "/ˈskɹæt͡ʃɪŋ/",
       "zh_cn": "v. 擦伤；划伤；刮痕（scratch的ing形式）",
       "zh_tw": "v. 擦傷；劃傷；刮痕（scratch的ing形式）",
       "en": "n a harsh noise made by scraping；v cause friction；v cut the surface of; wear away the surface of；v scrape or rub as if to relieve itching；v postpone indefinitely or annul something",
@@ -13829,7 +13829,7 @@
     },
     {
       "word": "nearest",
-      "pinyin": "",
+      "pinyin": "/ˈnɪəɹɪst/",
       "zh_cn": "a. 最近的（near的最高级）",
       "zh_tw": "a. 最近的（near的最高級）",
       "en": "r. (superlative of `near' or `close') within the shortest distance",
@@ -13925,7 +13925,7 @@
     },
     {
       "word": "strokes",
-      "pinyin": "",
+      "pinyin": "/stɹoʊks/",
       "zh_cn": "n. 中风",
       "zh_tw": "n. 中風",
       "en": "n (sports) the act of swinging or striking at a ball with a club or racket or bat or cue or hand；n the maximum movement available to a pivoted or reciprocating piece by a cam；n a s",
@@ -13961,7 +13961,7 @@
     },
     {
       "word": "steps",
-      "pinyin": "",
+      "pinyin": "/stɛps/",
       "zh_cn": "n. （楼外的）台阶；步伐；步幅；步数",
       "zh_tw": "n. （樓外的）臺階；步伐；步幅；步數",
       "en": "n. the course along which a person has walked or is walking in",
@@ -14213,7 +14213,7 @@
     },
     {
       "word": "hits",
-      "pinyin": "",
+      "pinyin": "/hɪts/",
       "zh_cn": "n. 击打；网页点击数；采样数（hit的复数）",
       "zh_tw": "n. 擊打；網頁點擊數；採樣數（hit的複數）",
       "en": "n (baseball) a successful stroke in an athletic contest (especially in baseball)；n the act of contacting one thing with another；n a conspicuous success；n (physics) a brief event in",
@@ -14249,7 +14249,7 @@
     },
     {
       "word": "generations",
-      "pinyin": "",
+      "pinyin": "/ˌd͡ʒɛnəˈɹeɪʃənz/",
       "zh_cn": "n. 世代（generation的复数）",
       "zh_tw": "n. 世代（generation的複數）",
       "en": "n all the people living at the same time or of approximately the same age；n group of genetically related organisms constituting a single step in the line of descent；n the normal ti",
@@ -14297,7 +14297,7 @@
     },
     {
       "word": "limits",
-      "pinyin": "",
+      "pinyin": "/ˈlɪmɪts/",
       "zh_cn": "n. 范围；领土；极限（limit的复数）",
       "zh_tw": "n. 範圍；領土；極限（limit的複數）",
       "en": "n the greatest possible degree of something；n final or latest limiting point；n as far as something can go；n the boundary of a specific area；n the mathematical value toward which a",
@@ -14369,7 +14369,7 @@
     },
     {
       "word": "opened",
-      "pinyin": "",
+      "pinyin": "/ˈoʊpənd/",
       "zh_cn": "v. 打开, 开启（open过去分词形式）",
       "zh_tw": "v. 打開, 開啟（open過去分詞形式）",
       "en": "s. made open or clear",
@@ -14393,7 +14393,7 @@
     },
     {
       "word": "stayed",
-      "pinyin": "",
+      "pinyin": "/steɪd/",
       "zh_cn": "v. 停留, 制止（stay的过去分词形式）",
       "zh_tw": "v. 停留, 制止（stay的過去分詞形式）",
       "en": "v stay the same; remain in a certain state；v stay put (in a certain place); we are not moving to Cincinnati\"；v dwell；v continue in a place, position, or situation；v remain behind；v",
@@ -14504,7 +14504,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. (architecture) Work in the form of a screen.；noun. Work done for film or television, such as directing.",
       "note": null,
       "is_difficult": true,
       "src": "Kaa’s Hunting",
@@ -14576,7 +14576,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. plural of bearling",
       "note": null,
       "is_difficult": true,
       "src": "Kaa’s Hunting",
@@ -14585,10 +14585,10 @@
     },
     {
       "word": "manling",
-      "pinyin": "",
+      "pinyin": "/ˈmænlɪŋ/",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. A little man; a man of short stature.；noun. (literary) A young man; a boy.",
       "note": null,
       "is_difficult": true,
       "src": "Kaa’s Hunting",
@@ -14597,7 +14597,7 @@
     },
     {
       "word": "dances",
-      "pinyin": "",
+      "pinyin": "/ˈdɑːnsɪz/",
       "zh_cn": "n. 舞蹈；舞会；舞曲（dance的复数）",
       "zh_tw": "n. 舞蹈；舞會；舞曲（dance的複數）",
       "en": "n an artistic form of nonverbal communication；n a party of people assembled for dancing；n taking a series of rhythmical steps (and movements) in time to music；n a party for social",
@@ -14681,7 +14681,7 @@
     },
     {
       "word": "handled",
-      "pinyin": "",
+      "pinyin": "/ˈhændl̩d/",
       "zh_cn": "a. 有把手的；有把柄的",
       "zh_tw": "a. 有把手的；有把柄的",
       "en": "a. having a usually specified type of handle",
@@ -14720,7 +14720,7 @@
       "pinyin": "au",
       "zh_cn": "interj. 啊唷",
       "zh_tw": "interj. 啊唷",
-      "en": null,
+      "en": "verb. (archaic) second-person singular simple present indicative of owe",
       "note": null,
       "is_difficult": true,
       "src": "Kaa’s Hunting",
@@ -14753,7 +14753,7 @@
     },
     {
       "word": "masters",
-      "pinyin": "",
+      "pinyin": "/ˈmɑːs.təz/",
       "zh_cn": "n. 主人；硕士；大师赛（master的复数形式）",
       "zh_tw": "n. 主人；碩士；大師賽（master的複數形式）",
       "en": "n. United States poet (1869-1950)",
@@ -14801,7 +14801,7 @@
     },
     {
       "word": "follows",
-      "pinyin": "",
+      "pinyin": "/ˈfɒl.əʊz/",
       "zh_cn": "n. 跟随；遵照（follow的复数）",
       "zh_tw": "n. 跟隨；遵照（follow的複數）",
       "en": "v to travel behind, go after, come after；v be later in time；v come as a logical consequence; follow logically；v travel along a certain course；v act in accordance with someone's rul",
@@ -14816,7 +14816,7 @@
       "pinyin": "ʃudst;ʃәdst;ʃdst",
       "zh_cn": "conj.将会..., 万一...",
       "zh_tw": "conj.將會..., 萬一...",
-      "en": null,
+      "en": "verb. (archaic) second-person singular simple past indicative of shall",
       "note": null,
       "is_difficult": true,
       "src": "Kaa’s Hunting",
@@ -14837,7 +14837,7 @@
     },
     {
       "word": "lines",
-      "pinyin": "",
+      "pinyin": "/laɪnz/",
       "zh_cn": "n. 台词",
       "zh_tw": "n. 臺詞",
       "en": "n a formation of people or things one beside another；n a mark that is long relative to its width；n a formation of people or things one behind another；n a length (straight or curved",
@@ -14861,7 +14861,7 @@
     },
     {
       "word": "huddled",
-      "pinyin": "",
+      "pinyin": "/ˈhʌdl̩d/",
       "zh_cn": "vi. 挤在一起（huddle的过去式与过去分词形式）",
       "zh_tw": "vi. 擠在一起（huddle的過去式與過去分詞形式）",
       "en": "s. crowded or massed together",
@@ -14957,7 +14957,7 @@
     },
     {
       "word": "loops",
-      "pinyin": "",
+      "pinyin": "/luːps/",
       "zh_cn": "n. 封闭的环形；循环（loop复数）",
       "zh_tw": "n. 封閉的環形；循環（loop複數）",
       "en": "n fastener consisting of a metal ring for lining a small hole to permit the attachment of cords or lines；n anything with a round or oval shape (formed by a curve that is closed and",
@@ -14969,7 +14969,7 @@
     },
     {
       "word": "figures",
-      "pinyin": "",
+      "pinyin": "/ˈfɪɡjɚz/",
       "zh_cn": "n. 图形, 图表；价格, 金额, 数字；规定动作；人物（figure的复数）",
       "zh_tw": "n. 圖形, 圖表；價格, 金額, 數字；規定動作；人物（figure的複數）",
       "en": "n a diagram or picture illustrating textual material；n alternative names for the body of a human being；n one of the elements that collectively form a system of numeration；n a model",
@@ -15005,7 +15005,7 @@
     },
     {
       "word": "melted",
-      "pinyin": "",
+      "pinyin": "/ˈmɛltɪd/",
       "zh_cn": "melt的过去式和过去分词",
       "zh_tw": "melt的過去式和過去分詞",
       "en": "a. changed from a solid to a liquid state",
@@ -15077,7 +15077,7 @@
     },
     {
       "word": "darker",
-      "pinyin": "",
+      "pinyin": "/ˈdɑɹkɚ/",
       "zh_cn": "a. 较暗, 比较暗的",
       "zh_tw": "a. 較暗, 比較暗的",
       "en": "a devoid of or deficient in light or brightness; shadowed or black；a (used of color) having a dark hue；s brunet (used of hair or skin or eyes)；s stemming from evil characteristics",
@@ -15101,7 +15101,7 @@
     },
     {
       "word": "scales",
-      "pinyin": "",
+      "pinyin": "/skeɪlz/",
       "zh_cn": "n. 缩放；天平；鳞屑；磅秤",
       "zh_tw": "n. 縮放；天平；鱗屑；磅秤",
       "en": "n an ordered reference standard；n relative magnitude；n the ratio between the size of something and a representation of it；n a specialized leaf or bract that protects a bud or catki",
@@ -15125,7 +15125,7 @@
     },
     {
       "word": "bristling",
-      "pinyin": "",
+      "pinyin": "/ˈbɹɪs(ə)lɪŋ/",
       "zh_cn": "a. (毛发)直立的, 发怒的",
       "zh_tw": "a. (毛髮)直立的, 發怒的",
       "en": "v be in a state of movement or action；v rise up as in fear；v have or be thickly covered with or as if with bristles；v react in an offended or angry manner",
@@ -15137,7 +15137,7 @@
     },
     {
       "word": "nearer",
-      "pinyin": "",
+      "pinyin": "/ˈnɪəɹə/",
       "zh_cn": "a. 较近",
       "zh_tw": "a. 較近",
       "en": "r. (comparative of `near' or `close') within a shorter distance",
@@ -15161,7 +15161,7 @@
     },
     {
       "word": "helplessly",
-      "pinyin": "",
+      "pinyin": "/ˈhɛlpləsli/",
       "zh_cn": "adv. 无能为力地；无助地",
       "zh_tw": "adv. 無能為力地；無助地",
       "en": "r. in a helpless manner",
@@ -15173,7 +15173,7 @@
     },
     {
       "word": "moved",
-      "pinyin": "",
+      "pinyin": "/muːvd/",
       "zh_cn": "v. 移动, 移动到；感动（move的过去式, 过去分词）",
       "zh_tw": "v. 移動, 移動到；感動（move的過去式, 過去分詞）",
       "en": "a. being excited or provoked to the expression of an emotion",
@@ -15209,7 +15209,7 @@
     },
     {
       "word": "rises",
-      "pinyin": "",
+      "pinyin": "/ˈɹaɪzɪz/",
       "zh_cn": "v. 价格上涨；（日、月、星）升起；起身（rise第三人称单数）",
       "zh_tw": "v. 價格上漲；（日、月、星）升起；起身（rise第三人稱單數）",
       "en": "n a growth in strength or number or importance；n the act of changing location in an upward direction；n an upward slope or grade (as in a road)；n a movement upward；n the amount a sa",
@@ -15221,7 +15221,7 @@
     },
     {
       "word": "powers",
-      "pinyin": "",
+      "pinyin": "/ˈpaʊ.ɚz/",
       "zh_cn": "n. 权势；力量（power的复数形式）",
       "zh_tw": "n. 權勢；力量（power的複數形式）",
       "en": "n possession of controlling influence；n (physics) the rate of doing work; measured in watts (= joules/second)；n possession of the qualities (especially mental qualities) required t",
@@ -15257,7 +15257,7 @@
     },
     {
       "word": "wounds",
-      "pinyin": "",
+      "pinyin": "/wuːndz/",
       "zh_cn": "n. 枪伤, 伤处（wound复数）",
       "zh_tw": "n. 槍傷, 傷處（wound複數）",
       "en": "n an injury to living tissue (especially an injury involving a cut or break in the skin)；n a casualty to military personnel resulting from combat；n a figurative injury (to your fee",
@@ -15317,7 +15317,7 @@
     },
     {
       "word": "stays",
-      "pinyin": "",
+      "pinyin": "/steɪz/",
       "zh_cn": "n. 停留；依靠；妇女胸衣（stay的复数）",
       "zh_tw": "n. 停留；依靠；婦女胸衣（stay的複數）",
       "en": "n a woman's close-fitting foundation garment；n continuing or remaining in a place or state；n the state of inactivity following an interruption；n a judicial order forbidding some ac",
@@ -15377,7 +15377,7 @@
     },
     {
       "word": "beauties",
-      "pinyin": "",
+      "pinyin": "/ˈbjuːtiz/",
       "zh_cn": "n. 美容化妆；美丽, 美的东西；美人（beauty的复数）",
       "zh_tw": "n. 美容化妝；美麗, 美的東西；美人（beauty的複數）",
       "en": "n the qualities that give pleasure to the senses；n a very attractive or seductive looking woman；n an outstanding example of its kind",
@@ -15440,7 +15440,7 @@
       "pinyin": "dәunt",
       "zh_cn": "(= do not)不要；n. 禁忌",
       "zh_tw": "(= do not)不要；n. 禁忌",
-      "en": null,
+      "en": "verb. do not (negative auxiliary).；verb. (now nonstandard) does not.",
       "note": null,
       "is_difficult": true,
       "src": "Road-Song of the Bandar-Log",
@@ -15452,7 +15452,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "adjective. (rare) Prancing.",
       "note": null,
       "is_difficult": true,
       "src": "Road-Song of the Bandar-Log",
@@ -15464,7 +15464,7 @@
       "pinyin": "ˈwʊdnt",
       "zh_cn": "=would not",
       "zh_tw": "=would not",
-      "en": null,
+      "en": "verb. would not (negative auxiliary)",
       "note": null,
       "is_difficult": true,
       "src": "Road-Song of the Bandar-Log",
@@ -15473,7 +15473,7 @@
     },
     {
       "word": "curved",
-      "pinyin": "",
+      "pinyin": "/kɜːvd/",
       "zh_cn": "a. 弯曲的；弄弯的",
       "zh_tw": "a. 彎曲的；弄彎的",
       "en": "a. having or marked by a curve or smoothly rounded bend",
@@ -15500,7 +15500,7 @@
       "pinyin": "jʊə(r)",
       "zh_cn": "abbr. you are 你（你们）是",
       "zh_tw": "abbr. you are 你（你們）是",
-      "en": null,
+      "en": "contraction. You are.；determiner. Misspelling of your.",
       "note": null,
       "is_difficult": true,
       "src": "Road-Song of the Bandar-Log",
@@ -15533,7 +15533,7 @@
     },
     {
       "word": "dreaming",
-      "pinyin": "",
+      "pinyin": "/ˈdɹiː.mɪŋ/",
       "zh_cn": "a. 有梦想的",
       "zh_tw": "a. 有夢想的",
       "en": "n imaginative thoughts indulged in while awake；n a series of mental images and emotions occurring during sleep；v have a daydream; indulge in a fantasy；v experience while sleeping",
@@ -15572,7 +15572,7 @@
       "pinyin": "wi:v",
       "zh_cn": "（尤当 have 为助动词时, we have 的常用口语形式）",
       "zh_tw": "（尤當 have 為助動詞時, we have 的常用口語形式）",
-      "en": null,
+      "en": "contraction. Contraction of we + have.",
       "note": null,
       "is_difficult": true,
       "src": "Road-Song of the Bandar-Log",
@@ -15620,7 +15620,7 @@
       "pinyin": "lets",
       "zh_cn": "abbr. let us 让我们",
       "zh_tw": "abbr. let us 讓我們",
-      "en": null,
+      "en": "verb. Used to form the cohortative of verbs, equivalent of the first-person plural imperative in some other languages.；verb. Used to form the hortative of verbs, equivalent of the second-person plural imperative in some other languages, chiefly instructional",
       "note": null,
       "is_difficult": true,
       "src": "Road-Song of the Bandar-Log",
@@ -15641,7 +15641,7 @@
     },
     {
       "word": "pines",
-      "pinyin": "",
+      "pinyin": "/paɪnz/",
       "zh_cn": "n. 松树（pine的复数）",
       "zh_tw": "n. 松樹（pine的複數）",
       "en": "n a coniferous tree；n straight-grained durable and often resinous white to yellowish timber of any of numerous trees of the genus Pinus；v have a desire for something or someone who",
@@ -15665,7 +15665,7 @@
     },
     {
       "word": "swings",
-      "pinyin": "",
+      "pinyin": "/swɪŋz/",
       "zh_cn": "n. （复数）秋千；摇摆, 改变, 冲力（swing的复数形式）",
       "zh_tw": "n. （複數）鞦韆；搖擺, 改變, 衝力（swing的複數形式）",
       "en": "n a state of steady vigorous action that is characteristic of an activity；n mechanical device used as a plaything to support someone swinging back and forth；n a sweeping blow or st",
@@ -15680,7 +15680,7 @@
       "pinyin": "wɪə(r)",
       "zh_cn": "(we are 的常用口语形式)",
       "zh_tw": "(we are 的常用口語形式)",
-      "en": null,
+      "en": "contraction. Contraction of we + are.",
       "note": null,
       "is_difficult": true,
       "src": "Road-Song of the Bandar-Log",
@@ -15689,7 +15689,7 @@
     },
     {
       "word": "crops",
-      "pinyin": "",
+      "pinyin": "/kɹɒps/",
       "zh_cn": "[医] 分批出现(疹)",
       "zh_tw": "[醫] 分批出現(疹)",
       "en": "n the yield from plants in a single growing season；n a cultivated plant that is grown commercially on a large scale；n a collection of people or things appearing together；n the outp",
@@ -15809,7 +15809,7 @@
     },
     {
       "word": "boys",
-      "pinyin": "",
+      "pinyin": "/bɔɪz/",
       "zh_cn": "n. 男孩子们；小伙子们（boy的复数）",
       "zh_tw": "n. 男孩子們；小夥子們（boy的複數）",
       "en": "n a youthful male person；n a friendly informal reference to a grown man；n a male human offspring；n (ethnic slur) offensive and disparaging term for Black man",
@@ -15860,7 +15860,7 @@
       "pinyin": "u:mf",
       "zh_cn": "[美俚]=oomph",
       "zh_tw": "[美俚]=oomph",
-      "en": null,
+      "en": "interjection. Alternative form of humph (“sound of doubt or disapproval”).；interjection. Alternative form of oof (“sound of loss of air from the body, as when struck”).",
       "note": null,
       "is_difficult": true,
       "src": "“Tiger! Tiger!”",
@@ -15929,7 +15929,7 @@
     },
     {
       "word": "bites",
-      "pinyin": "",
+      "pinyin": "/baɪts/",
       "zh_cn": "n. 咬伤",
       "zh_tw": "n. 咬傷",
       "en": "n a wound resulting from biting by an animal or a person；n a small amount of solid food; a mouthful；n a painful wound caused by the thrust of an insect's stinger into skin；n a ligh",
@@ -15953,7 +15953,7 @@
     },
     {
       "word": "harder",
-      "pinyin": "",
+      "pinyin": "/hɑːdə/",
       "zh_cn": "a. 更难的；更努力的；更坚固的（hard的比较级）",
       "zh_tw": "a. 更難的；更努力的；更堅固的（hard的比較級）",
       "en": "a not easy; requiring great physical or mental effort to accomplish or comprehend or endure；a dispassionate;；a resisting weight or pressure；s very strong or vigorous；s characterize",
@@ -15977,7 +15977,7 @@
     },
     {
       "word": "scars",
-      "pinyin": "",
+      "pinyin": "/skɑɹz/",
       "zh_cn": "n. 冻结物；疤痕；创伤（scar的复数形式）",
       "zh_tw": "n. 凍結物；疤痕；創傷（scar的複數形式）",
       "en": "n a mark left (usually on the skin) by the healing of injured tissue；n an indication of damage；v mark with a scar",
@@ -16025,7 +16025,7 @@
     },
     {
       "word": "rings",
-      "pinyin": "",
+      "pinyin": "/ɹɪŋz/",
       "zh_cn": "n. 吊环（ring的复数）",
       "zh_tw": "n. 吊環（ring的複數）",
       "en": "n. gymnastic apparatus consisting of a pair of heavy metal circles (usually covered with leather) suspended by ropes; used for gymnastic exercises",
@@ -16085,7 +16085,7 @@
     },
     {
       "word": "richest",
-      "pinyin": "",
+      "pinyin": "/ˈɹɪt͡ʃɪst/",
       "zh_cn": "深的；富裕的；强烈的（rich的最高级）",
       "zh_tw": "深的；富裕的；強烈的（rich的最高級）",
       "en": "a possessing material wealth；a having an abundant supply of desirable qualities or substances (especially natural resources)；s of great worth or quality；s marked by great fruitfuln",
@@ -16109,7 +16109,7 @@
     },
     {
       "word": "solemnly",
-      "pinyin": "",
+      "pinyin": "/ˈsɒləmli/",
       "zh_cn": "adv. 庄严地；严肃地",
       "zh_tw": "adv. 莊嚴地；嚴肅地",
       "en": "r. in a grave and sedate manner",
@@ -16121,7 +16121,7 @@
     },
     {
       "word": "restored",
-      "pinyin": "",
+      "pinyin": "/ɹɪˈstɔɹd/",
       "zh_cn": "a. 精力充沛的；精力恢复的",
       "zh_tw": "a. 精力充沛的；精力恢復的",
       "en": "v return to its original or usable and functioning condition；v return to life; get or give new life or energy；v give or bring back；v restore by replacing a part or putting together",
@@ -16133,7 +16133,7 @@
     },
     {
       "word": "sees",
-      "pinyin": "",
+      "pinyin": "/siːz/",
       "zh_cn": "abbr. 扩展企业应用套件（Sage Extended Enterprise Suite）",
       "zh_tw": "abbr. 擴展企業應用套件（Sage Extended Enterprise Suite）",
       "en": "n the seat within a bishop's diocese where his cathedral is located；v perceive by sight or have the power to perceive by sight；v perceive (an idea or situation) mentally；v perceive",
@@ -16241,7 +16241,7 @@
     },
     {
       "word": "fairs",
-      "pinyin": "",
+      "pinyin": "/fɛəz/",
       "zh_cn": "n. 定期集市；低级烟；赛会（fair的复数形式）",
       "zh_tw": "n. 定期集市；低級煙；賽會（fair的複數形式）",
       "en": "n a traveling show; having sideshows and rides and games of skill etc.；n gathering of producers to promote business；n a competitive exhibition of farm products；n a sale of miscella",
@@ -16265,7 +16265,7 @@
     },
     {
       "word": "shoes",
-      "pinyin": "",
+      "pinyin": "/ʃuːz/",
       "zh_cn": "n. 鞋子（shoe的复数）",
       "zh_tw": "n. 鞋子（shoe的複數）",
       "en": "n a particular situation；n footwear shaped to fit the foot (below the ankle) with a flexible upper of leather or plastic and a sole and heel of heavier material；n (card games) a ca",
@@ -16349,7 +16349,7 @@
     },
     {
       "word": "bucks",
-      "pinyin": "",
+      "pinyin": "/bʌks/",
       "zh_cn": "n. 雄鹿队（篮球队名）；巴克斯（英国伦敦附近的一个郡名）",
       "zh_tw": "n. 雄鹿隊（籃球隊名）；巴克斯（英國倫敦附近的一個郡名）",
       "en": "n a gymnastic horse without pommels and with one end elongated; used lengthwise for vaulting；n a piece of paper money worth one dollar；n United States author whose novels drew on h",
@@ -16400,7 +16400,7 @@
       "pinyin": "fju:",
       "zh_cn": "interj. 咳, 哦, 唷",
       "zh_tw": "interj. 咳, 哦, 唷",
-      "en": null,
+      "en": "interjection. Used to express relief of tension, fatigue, or surprise.；interjection. Used to show disgust.",
       "note": null,
       "is_difficult": true,
       "src": "“Tiger! Tiger!”",
@@ -16433,7 +16433,7 @@
     },
     {
       "word": "returns",
-      "pinyin": "",
+      "pinyin": "/ɹɪˈtɜːnz/",
       "zh_cn": "n. 回报；收益；退货（return的复数）",
       "zh_tw": "n. 回報；收益；退貨（return的複數）",
       "en": "n document giving the tax collector information about the taxpayer's tax liability；n a coming to or returning home；n the occurrence of a change in direction back in the opposite di",
@@ -16469,7 +16469,7 @@
     },
     {
       "word": "months",
-      "pinyin": "",
+      "pinyin": "/mʌnθs/",
       "zh_cn": "月份（month的复数）",
       "zh_tw": "月份（month的複數）",
       "en": "n one of the twelve divisions of the calendar year；n a time unit of approximately 30 days",
@@ -16481,7 +16481,7 @@
     },
     {
       "word": "annoyed",
-      "pinyin": "",
+      "pinyin": "/əˈnɔɪd/",
       "zh_cn": "a. 恼怒的；烦闷的",
       "zh_tw": "a. 惱怒的；煩悶的",
       "en": "s. aroused to impatience or anger；s. troubled persistently especially with petty annoyances",
@@ -16529,7 +16529,7 @@
     },
     {
       "word": "games",
-      "pinyin": "",
+      "pinyin": "/ɡeɪmz/",
       "zh_cn": "n. (英)体操课, 体育课, [谓语用单数或复数]运动会, 比赛会, 竞技会",
       "zh_tw": "n. (英)體操課, 體育課, [謂語用單數或複數]運動會, 比賽會, 競技會",
       "en": "n a contest with rules to determine a winner；n a single play of a sport or other contest；n an amusement or pastime；n animal hunted for food or sport；n (tennis) a division of play d",
@@ -16553,7 +16553,7 @@
     },
     {
       "word": "compared",
-      "pinyin": "",
+      "pinyin": "/kəmˈpɛɹd/",
       "zh_cn": "a. 比较的, 对照的（compare的过去式和过去分词）",
       "zh_tw": "a. 比較的, 對照的（compare的過去式和過去分詞）",
       "en": "v examine and note the similarities or differences of；v be comparable；v consider or describe as similar, equal, or analogous；v to form the comparative or superlative form on an adj",
@@ -16625,7 +16625,7 @@
     },
     {
       "word": "helped",
-      "pinyin": "",
+      "pinyin": "/hɛlpt/",
       "zh_cn": "v. 帮助（help的过去分词）",
       "zh_tw": "v. 幫助（help的過去分詞）",
       "en": "v give help or assistance; be of service；v improve the condition of；v be of use；v abstain from doing; always used with a negative；v help to some food; help with food or drink；v con",
@@ -16856,7 +16856,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. plural of huqa",
       "note": null,
       "is_difficult": true,
       "src": "“Tiger! Tiger!”",
@@ -16889,7 +16889,7 @@
     },
     {
       "word": "ghosts",
-      "pinyin": "",
+      "pinyin": "/ɡoʊsts/",
       "zh_cn": "n. 鬼；幽灵（ghost的复数）",
       "zh_tw": "n. 鬼；幽靈（ghost的複數）",
       "en": "n a mental representation of some haunting experience；n a writer who gives the credit of authorship to someone else；n the visible disembodied soul of a dead person；n a suggestion o",
@@ -16913,7 +16913,7 @@
     },
     {
       "word": "animals",
-      "pinyin": "",
+      "pinyin": "/ˈæn.ɪ.məlz/",
       "zh_cn": "n. 动物, 动物世界；牲畜（animal的复数形式）",
       "zh_tw": "n. 動物, 動物世界；牲畜（animal的複數形式）",
       "en": "n a living organism characterized by voluntary movement",
@@ -17021,7 +17021,7 @@
     },
     {
       "word": "tracks",
-      "pinyin": "",
+      "pinyin": "/tɹæks/",
       "zh_cn": "n. 轮胎；磁道；轨道（track的复数）",
       "zh_tw": "n. 輪胎；磁道；軌道（track的複數）",
       "en": "n a line or route along which something travels or moves；n evidence pointing to a possible solution；n a pair of parallel rails providing a runway for wheels；n a course over which r",
@@ -17141,7 +17141,7 @@
     },
     {
       "word": "doors",
-      "pinyin": "",
+      "pinyin": "/dɔːz/",
       "zh_cn": "n. 大门；入口；通道（door的复数）",
       "zh_tw": "n. 大門；入口；通道（door的複數）",
       "en": "n a swinging or sliding barrier that will close the entrance to a room or building or vehicle；n the entrance (the space in a wall) through which you enter or leave a room or buildi",
@@ -17177,7 +17177,7 @@
     },
     {
       "word": "puffed",
-      "pinyin": "",
+      "pinyin": "/pʌft/",
       "zh_cn": "a. 疏松的",
       "zh_tw": "a. 疏鬆的",
       "en": "v smoke and exhale strongly；v suck in or take (air)；v breathe noisily, as when one is exhausted；v make proud or conceited；v praise extravagantly；v speak in a blustering or scornful",
@@ -17417,7 +17417,7 @@
     },
     {
       "word": "places",
-      "pinyin": "",
+      "pinyin": "/ˈpleɪsɪz/",
       "zh_cn": "n. 地点；位置；[数]位数（place的复数）",
       "zh_tw": "n. 地點；位置；[數]位數（place的複數）",
       "en": "n a point located with respect to surface features of some region；n any area set aside for a particular purpose；n an abstract mental location；n a general vicinity；n the post or fun",
@@ -17453,7 +17453,7 @@
     },
     {
       "word": "hours",
-      "pinyin": "",
+      "pinyin": "/ˈaʊə(ɹ)z/",
       "zh_cn": "n. 小时（hour的复数形式）",
       "zh_tw": "n. 小時（hour的複數形式）",
       "en": "n. a period of time assigned for work；n. an indefinite period of time",
@@ -17561,7 +17561,7 @@
     },
     {
       "word": "logs",
-      "pinyin": "",
+      "pinyin": "/lɒɡz/",
       "zh_cn": "n. 日志；原木（log的复数）",
       "zh_tw": "n. 日誌；原木（log的複數）",
       "en": "n a segment of the trunk of a tree when stripped of branches；n the exponent required to produce a given number；n a written record of messages sent or received；n a written record of",
@@ -17717,7 +17717,7 @@
     },
     {
       "word": "horses",
-      "pinyin": "",
+      "pinyin": "/ˈhoɹsɪz/",
       "zh_cn": "n. 马；马匹（horse的复数形式）",
       "zh_tw": "n. 馬；馬匹（horse的複數形式）",
       "en": "n solid-hoofed herbivorous quadruped domesticated since prehistoric times；n a padded gymnastic apparatus on legs；n troops trained to fight on horseback；n a framework for holding wo",
@@ -17873,7 +17873,7 @@
     },
     {
       "word": "ranges",
-      "pinyin": "",
+      "pinyin": "/ˈɹeɪnd͡ʒɪz/",
       "zh_cn": "n. 量程, 范围；山脉（range的复数）",
       "zh_tw": "n. 量程, 範圍；山脈（range的複數）",
       "en": "n an area in which something acts or operates or has power or control: \"the range of a supersonic jet\"；n the limits within which something can be effective；n a large tract of grass",
@@ -17885,7 +17885,7 @@
     },
     {
       "word": "lies",
-      "pinyin": "",
+      "pinyin": "/laɪz/",
       "zh_cn": "v. 躺卧（lie的第三人称单数形式）",
       "zh_tw": "v. 躺臥（lie的第三人稱單數形式）",
       "en": "n a statement that deviates from or perverts the truth；n Norwegian diplomat who was the first Secretary General of the United Nations (1896-1968)；n position or manner in which some",
@@ -17897,7 +17897,7 @@
     },
     {
       "word": "opens",
-      "pinyin": "",
+      "pinyin": "/ˈoʊ.pənz/",
       "zh_cn": "n. 打开；公开赛事；旷野（open的复数形式）",
       "zh_tw": "n. 打開；公開賽事；曠野（open的複數形式）",
       "en": "n a clear or unobstructed space or expanse of land or water；n where the air is unconfined；n a tournament in which both professionals and amateurs may play；n information that has be",
@@ -17945,7 +17945,7 @@
     },
     {
       "word": "clapping",
-      "pinyin": "",
+      "pinyin": "/ˈklæpɪŋ/",
       "zh_cn": "n. 掌声, 拍手声；[医] 拍打法(按摩的一种手法)",
       "zh_tw": "n. 掌聲, 拍手聲；[醫] 拍打法(按摩的一種手法)",
       "en": "n a demonstration of approval by clapping the hands together；v put quickly or forcibly；v cause to strike the air in flight；v clap one's hands or shout after performances to indicat",
@@ -17969,7 +17969,7 @@
     },
     {
       "word": "bulls",
-      "pinyin": "",
+      "pinyin": "/bʊlz/",
       "zh_cn": "n. 公牛队（美国篮球队名）；布尔斯（地名）",
       "zh_tw": "n. 公牛隊（美國籃球隊名）；布爾斯（地名）",
       "en": "n uncastrated adult male of domestic cattle；n a large and strong and heavyset man；n obscene words for unacceptable behavior；n a serious and ludicrous blunder；n uncomplimentary term",
@@ -18029,7 +18029,7 @@
     },
     {
       "word": "pawed",
-      "pinyin": "",
+      "pinyin": "/pɔːd/",
       "zh_cn": "vt. 用爪抓（paw的过去式与过去分词形式）",
       "zh_tw": "vt. 用爪抓（paw的過去式與過去分詞形式）",
       "en": "imp. & p. p. of Paw",
@@ -18257,7 +18257,7 @@
     },
     {
       "word": "vines",
-      "pinyin": "",
+      "pinyin": "/vaɪnz/",
       "zh_cn": "[计] 虚拟网络软件",
       "zh_tw": "[計] 虛擬網絡軟件",
       "en": "n a plant with a weak stem that derives support from climbing, twining, or creeping along a surface",
@@ -18341,7 +18341,7 @@
     },
     {
       "word": "calls",
-      "pinyin": "",
+      "pinyin": "/kɔːlz/",
       "zh_cn": "n. 调用；呼吁；电话（call的复数）",
       "zh_tw": "n. 調用；呼籲；電話（call的複數）",
       "en": "n a telephone connection；n a special disposition (as if from a divine source) to pursue a particular course；n a loud utterance; often in protest or opposition；n a demand especially",
@@ -18389,7 +18389,7 @@
     },
     {
       "word": "pitched",
-      "pinyin": "",
+      "pinyin": "/pɪt͡ʃt/",
       "zh_cn": "a. 斜的；人字形的",
       "zh_tw": "a. 斜的；人字形的",
       "en": "a. (of sound) set to a certain pitch or key; usually used as a combining form；s. set at a slant",
@@ -18488,7 +18488,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. A time (often an annual season) during which an area is flooded; the season when a river floods its banks.",
       "note": null,
       "is_difficult": true,
       "src": "“Tiger! Tiger!”",
@@ -18497,7 +18497,7 @@
     },
     {
       "word": "weaker",
-      "pinyin": "",
+      "pinyin": "/ˈwiːkə/",
       "zh_cn": "[经] 下跌",
       "zh_tw": "[經] 下跌",
       "en": "a wanting in physical strength；s overly diluted; thin and insipid；s (used of vowels or syllables) pronounced with little or no stress；s wanting in moral strength, courage, or will",
@@ -18581,7 +18581,7 @@
     },
     {
       "word": "answering",
-      "pinyin": "",
+      "pinyin": "/ˈɑːn.sə.ɹɪŋ/",
       "zh_cn": "[计] 应答",
       "zh_tw": "[計] 應答",
       "en": "s. replying",
@@ -18653,10 +18653,10 @@
     },
     {
       "word": "hai",
-      "pinyin": "",
+      "pinyin": "/ˈhaɪ̯/",
       "zh_cn": "abbr. 国际保健行动（Health Action International）；自动调温式空气滤清器系统（Hot Air Intake）",
       "zh_tw": "abbr. 國際保健行動（Health Action International）；自動調溫式空氣濾清器系統（Hot Air Intake）",
-      "en": null,
+      "en": "interjection. (Internet slang) Hi.",
       "note": null,
       "is_difficult": true,
       "src": "“Tiger! Tiger!”",
@@ -18689,7 +18689,7 @@
     },
     {
       "word": "managed",
-      "pinyin": "",
+      "pinyin": "/ˈmæn.ɪd͡ʒd/",
       "zh_cn": "a. 与中央化计划及管制有关的；托管的",
       "zh_tw": "a. 與中央化計劃及管制有關的；託管的",
       "en": "v be successful; achieve a goal；v be in charge of, act on, or dispose of；v come to terms with；v watch and direct；v achieve something by means of trickery or devious methods；v carry",
@@ -18725,7 +18725,7 @@
     },
     {
       "word": "dreamed",
-      "pinyin": "",
+      "pinyin": "/ˈdɹiːmd/",
       "zh_cn": "dream的过去式和过去分词",
       "zh_tw": "dream的過去式和過去分詞",
       "en": "s. conceived of or imagined or hoped for",
@@ -18809,7 +18809,7 @@
     },
     {
       "word": "ordered",
-      "pinyin": "",
+      "pinyin": "/ˈɔː.dəd/",
       "zh_cn": "a. 安排好的, 有规律的, 有条理的, 整齐的；[计] 顺序的",
       "zh_tw": "a. 安排好的, 有規律的, 有條理的, 整齊的；[計] 順序的",
       "en": "a. having a systematic arrangement; especially having elements succeeding in order according to rule",
@@ -18944,7 +18944,7 @@
       "pinyin": "hei",
       "zh_cn": "n. 嗨！（表示惊异质问）",
       "zh_tw": "n. 嗨！（表示驚異質問）",
-      "en": null,
+      "en": "noun. The fifth letter of many Semitic alphabets (Phoenician 𐤄, Aramaic 𐡄, Hebrew ה, Syriac ܗ, Arabic ه, and others).；interjection. (onomatopoeia) Weak amusement, sometimes signaling boredom or slight embrassment.",
       "note": null,
       "is_difficult": true,
       "src": "“Tiger! Tiger!”",
@@ -19061,7 +19061,7 @@
     },
     {
       "word": "wars",
-      "pinyin": "",
+      "pinyin": "/wɔɹz/",
       "zh_cn": "n. 战争（war的复数形式）",
       "zh_tw": "n. 戰爭（war的複數形式）",
       "en": "n the waging of armed conflict against an enemy；n a legal state created by a declaration of war and ended by official declaration during which the international rules of war apply",
@@ -19160,7 +19160,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. A boy who herds animals.",
       "note": null,
       "is_difficult": true,
       "src": "“Tiger! Tiger!”",
@@ -19277,7 +19277,7 @@
     },
     {
       "word": "bullets",
-      "pinyin": "",
+      "pinyin": "/ˈbʊl.ɪts/",
       "zh_cn": "n. 子弹（bullet的复数形式）",
       "zh_tw": "n. 子彈（bullet的複數形式）",
       "en": "n a projectile that is fired from a gun；n a high-speed passenger train；n (baseball) a pitch thrown with maximum velocity",
@@ -19301,7 +19301,7 @@
     },
     {
       "word": "waving",
-      "pinyin": "",
+      "pinyin": "/ˈweɪvɪŋ/",
       "zh_cn": "a. 波浪状的",
       "zh_tw": "a. 波浪狀的",
       "en": "n the act of signaling by a movement of the hand；v signal with the hands or nod；v move or swing back and forth；v move in a wavy pattern or with a rising and falling motion；v twist",
@@ -19325,10 +19325,10 @@
     },
     {
       "word": "tulsi",
-      "pinyin": "",
+      "pinyin": "/ˈtʊlsiː/",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. Holy basil, Ocimum tenuiflorum.",
       "note": null,
       "is_difficult": true,
       "src": "“Tiger! Tiger!”",
@@ -19397,7 +19397,7 @@
     },
     {
       "word": "brickbats",
-      "pinyin": "",
+      "pinyin": "/ˈbɹɪkbæts/",
       "zh_cn": "(brickbat 的复数) n. 碎砖, 砖片, 侮辱",
       "zh_tw": "(brickbat 的複數) n. 碎磚, 磚片, 侮辱",
       "en": "plural of brickbat；n. a fragment of brick used as a weapon；n. blunt criticism",
@@ -19445,7 +19445,7 @@
     },
     {
       "word": "stars",
-      "pinyin": "",
+      "pinyin": "/stɑɹz/",
       "zh_cn": "n. 明星类, 明星（star的复数形式）",
       "zh_tw": "n. 明星類, 明星（star的複數形式）",
       "en": "n (astronomy) a celestial body of hot gases that radiates energy derived from thermonuclear reactions in the interior；n someone who is dazzlingly skilled in any field；n any celesti",
@@ -19457,7 +19457,7 @@
     },
     {
       "word": "traps",
-      "pinyin": "",
+      "pinyin": "/tɹæps/",
       "zh_cn": "n. 随身携带物, 什物, 家具, 行李",
       "zh_tw": "n. 隨身攜帶物, 什物, 傢俱, 行李",
       "en": "n a device in which something (usually an animal) can be caught and penned；n drain consisting of a U-shaped section of drainpipe that holds liquid and so prevents a return flow of",
@@ -19529,7 +19529,7 @@
     },
     {
       "word": "embroidered",
-      "pinyin": "",
+      "pinyin": "/ɪmˈbɹɔɪdɚd/",
       "zh_cn": "a. 绣花的；刺绣的",
       "zh_tw": "a. 繡花的；刺繡的",
       "en": "v decorate with needlework；v add details to",
@@ -19625,7 +19625,7 @@
     },
     {
       "word": "dangling",
-      "pinyin": "",
+      "pinyin": "/ˈdæŋɡ(ə)lɪŋ/",
       "zh_cn": "[计] 悬挂的, 悬浮的, 悬摆的",
       "zh_tw": "[計] 懸掛的, 懸浮的, 懸擺的",
       "en": "n the act of suspending something (hanging it from above so it moves freely)；v hang freely；v cause to dangle or hang freely",
@@ -19697,7 +19697,7 @@
     },
     {
       "word": "ups",
-      "pinyin": "",
+      "pinyin": "/ʌps/",
       "zh_cn": "不间断电源；[计] 不间断电源",
       "zh_tw": "不間斷電源；[計] 不間斷電源",
       "en": "v raise",
@@ -19745,7 +19745,7 @@
     },
     {
       "word": "holes",
-      "pinyin": "",
+      "pinyin": "/həʊlz/",
       "zh_cn": "n. 小孔；破洞（hole的复数）",
       "zh_tw": "n. 小孔；破洞（hole的複數）",
       "en": "n an opening into or through something；n an opening deliberately made in or through something；n one playing period (from tee to green) on a golf course；n an unoccupied space；n a de",
@@ -19793,7 +19793,7 @@
     },
     {
       "word": "ants",
-      "pinyin": "",
+      "pinyin": "/ænts/",
       "zh_cn": "n. 蚂蚁, 蚁（ant的复数形式）",
       "zh_tw": "n. 螞蟻, 蟻（ant的複數形式）",
       "en": "n social insect living in organized colonies; characteristically the males and fertile queen have wings during breeding season; wingless sterile females are the workers",
@@ -19808,7 +19808,7 @@
       "pinyin": "",
       "zh_cn": "[人名] 阿拉拉",
       "zh_tw": "[人名] 阿拉拉",
-      "en": null,
+      "en": "noun. A crow native to Hawaii, of species Corvus hawaiiensis.",
       "note": null,
       "is_difficult": true,
       "src": "Mowgli’s Song",
@@ -19841,7 +19841,7 @@
     },
     {
       "word": "gives",
-      "pinyin": "",
+      "pinyin": "/ɡɪvz/",
       "zh_cn": "n. 付出；弯曲；内幕消息（give的复数）",
       "zh_tw": "n. 付出；彎曲；內幕消息（give的複數）",
       "en": "n the elasticity of something that can be stretched and returns to its original length；v cause to have, in the abstract sense or physical sense；v be the cause or source of；v transf",
@@ -19865,7 +19865,7 @@
     },
     {
       "word": "flies",
-      "pinyin": "",
+      "pinyin": "/flaɪz/",
       "zh_cn": "n. 裤子前面的开口",
       "zh_tw": "n. 褲子前面的開口",
       "en": "n. (theater) the space over the stage (out of view of the audience) used to store scenery (drop curtains)",
@@ -19997,10 +19997,10 @@
     },
     {
       "word": "flipperling",
-      "pinyin": "",
+      "pinyin": "/ˈflɪpəlɪŋ/",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. (rare, literary) A young seal.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -20033,7 +20033,7 @@
     },
     {
       "word": "seas",
-      "pinyin": "",
+      "pinyin": "/siːz/",
       "zh_cn": "n. 海洋（sea的复数）",
       "zh_tw": "n. 海洋（sea的複數）",
       "en": "n a division of an ocean or a large body of salt water partially enclosed by land；n anything apparently limitless in quantity or volume；n turbulent water with swells of considerabl",
@@ -20189,7 +20189,7 @@
     },
     {
       "word": "thousands",
-      "pinyin": "",
+      "pinyin": "/ˈθaʊzn̩dz/",
       "zh_cn": "n. 数千（thousand的复数）",
       "zh_tw": "n. 數千（thousand的複數）",
       "en": "n the cardinal number that is the product of 10 and 100",
@@ -20273,7 +20273,7 @@
     },
     {
       "word": "scarred",
-      "pinyin": "",
+      "pinyin": "/skɑː(ɹ)d/",
       "zh_cn": "a. 伤痕累累, 有疤痕的；瘢痕性的",
       "zh_tw": "a. 傷痕累累, 有疤痕的；瘢痕性的",
       "en": "s. deeply affected or marked by mental or physical pain or injury",
@@ -20321,7 +20321,7 @@
     },
     {
       "word": "chased",
-      "pinyin": "",
+      "pinyin": "/t͡ʃeɪst/",
       "zh_cn": "vt. 追捕（chase的过去式与过去分词形式）",
       "zh_tw": "vt. 追捕（chase的過去式與過去分詞形式）",
       "en": "imp. & p. p. of Chase",
@@ -20333,7 +20333,7 @@
     },
     {
       "word": "rules",
-      "pinyin": "",
+      "pinyin": "/ˈɹuːlz/",
       "zh_cn": "n. 规则；条例（rule的复数形式）",
       "zh_tw": "n. 規則；條例（rule的複數形式）",
       "en": "n a principle or condition that customarily governs behavior；n something regarded as a normative example；n prescribed guide for conduct or action；n (linguistics) a rule describing",
@@ -20393,7 +20393,7 @@
     },
     {
       "word": "breakers",
-      "pinyin": "",
+      "pinyin": "/ˈbɹeɪ̯kəs/",
       "zh_cn": "n. 爆烈人（一款街机游戏的名称）；碎浪区；碎浪",
       "zh_tw": "n. 爆烈人（一款街機遊戲的名稱）；碎浪區；碎浪",
       "en": "n waves breaking on the shore；n a quarry worker who splits off blocks of stone；n waves breaking on the shore；n a device that trips like a switch and opens the circuit when overload",
@@ -20501,7 +20501,7 @@
     },
     {
       "word": "ranks",
-      "pinyin": "",
+      "pinyin": "/ɹæŋks/",
       "zh_cn": "n. 队伍；用户等级, 级别（rank的复数）",
       "zh_tw": "n. 隊伍；用戶等級, 級別（rank的複數）",
       "en": "n a row or line of people (especially soldiers or police) standing abreast of one another；n relative status；n the ordinary members of an organization (such as the enlisted soldiers",
@@ -20525,7 +20525,7 @@
     },
     {
       "word": "played",
-      "pinyin": "",
+      "pinyin": "/pleɪd/",
       "zh_cn": "v. 玩耍；演奏；播放；参加竞赛（play的过去分词）",
       "zh_tw": "v. 玩耍；演奏；播放；參加競賽（play的過去分詞）",
       "en": "a. (of games) engaged in",
@@ -20576,7 +20576,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. A bachelor seal; a young male seal which is prevented from mating by its herd's older males, mated bulls defending their territory.；noun. plural of holluschick",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -20645,7 +20645,7 @@
     },
     {
       "word": "dumped",
-      "pinyin": "",
+      "pinyin": "/dʌmpt/",
       "zh_cn": "a. 废弃的；被甩了的",
       "zh_tw": "a. 廢棄的；被甩了的",
       "en": "v throw away as refuse；v sever all ties with, usually unceremoniously or irresponsibly；v sell at artificially low prices；v drop (stuff) in a heap or mass；v fall abruptly；v knock do",
@@ -20669,7 +20669,7 @@
     },
     {
       "word": "beaches",
-      "pinyin": "",
+      "pinyin": "/ˈbiːt͡ʃɪz/",
       "zh_cn": "n. 海滩；海滨（beach的复数形式）",
       "zh_tw": "n. 海灘；海濱（beach的複數形式）",
       "en": "n an area of sand sloping down to the water of a sea or lake；v land on a beach",
@@ -20708,7 +20708,7 @@
       "pinyin": "ju:v",
       "zh_cn": "abbr. you have 你（们）已经",
       "zh_tw": "abbr. you have 你（們）已經",
-      "en": null,
+      "en": "contraction. Contraction of you + have.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -20768,7 +20768,7 @@
       "pinyin": "ˈhævnt",
       "zh_cn": "=have not",
       "zh_tw": "=have not",
-      "en": null,
+      "en": "verb. have not (negative form of have)",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -20825,7 +20825,7 @@
     },
     {
       "word": "happier",
-      "pinyin": "",
+      "pinyin": "/ˈhæpi.ə/",
       "zh_cn": "a. 更快乐的, 更幸福的",
       "zh_tw": "a. 更快樂的, 更幸福的",
       "en": "a enjoying or showing or marked by joy or pleasure；s marked by good fortune；s eagerly disposed to act or to be of service；s well expressed and to the point",
@@ -20933,7 +20933,7 @@
     },
     {
       "word": "babies",
-      "pinyin": "",
+      "pinyin": "/ˈbeɪbiz/",
       "zh_cn": "n. 婴儿（baby的复数）",
       "zh_tw": "n. 嬰兒（baby的複數）",
       "en": "n a very young child (birth to 1 year) who has not yet begun to walk or talk；n the youngest member of a group (not necessarily young)；n an immature childish person；n an unborn chil",
@@ -21125,7 +21125,7 @@
     },
     {
       "word": "shells",
-      "pinyin": "",
+      "pinyin": "/ʃɛlz/",
       "zh_cn": "n. 贝壳（shell的复数）",
       "zh_tw": "n. 貝殼（shell的複數）",
       "en": "n ammunition consisting of a cylindrical metal casing containing an explosive charge and a projectile; fired from a large gun；n the material that forms the hard outer covering of m",
@@ -21152,7 +21152,7 @@
       "pinyin": "ðeәz; ðәz",
       "zh_cn": "(=there is, =there has)那儿有",
       "zh_tw": "(=there is, =there has)那兒有",
-      "en": null,
+      "en": "contraction. Contraction of there is.；contraction. (nonstandard) Contraction of there are.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -21176,7 +21176,7 @@
       "pinyin": "'mʌsnt",
       "zh_cn": "must not 之缩写",
       "zh_tw": "must not 之縮寫",
-      "en": null,
+      "en": "verb. (uncommon) Must not (negative auxiliary); used to indicate that something is forbidden or, in a tag question, that something is not necessary.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -21293,7 +21293,7 @@
     },
     {
       "word": "puppies",
-      "pinyin": "",
+      "pinyin": "/ˈpʌpiz/",
       "zh_cn": "n. 小狗（puppy的复数）",
       "zh_tw": "n. 小狗（puppy的複數）",
       "en": "n a young dog；n an inexperienced young person",
@@ -21533,7 +21533,7 @@
     },
     {
       "word": "whirling",
-      "pinyin": "",
+      "pinyin": "/ˈwɝlɪŋ/",
       "zh_cn": "v. 旋转；眩晕；卷走；疾走（whirl的ing形式）",
       "zh_tw": "v. 旋轉；眩暈；捲走；疾走（whirl的ing形式）",
       "en": "n the act of rotating in a circle or spiral；v turn in a twisting or spinning motion；v cause to spin；v flow in a circular current, of liquids；v revolve quickly and repeatedly around",
@@ -21629,7 +21629,7 @@
     },
     {
       "word": "liked",
-      "pinyin": "",
+      "pinyin": "/laɪkt/",
       "zh_cn": "v. 喜欢（like的过去式）",
       "zh_tw": "v. 喜歡（like的過去式）",
       "en": "a. found pleasant or attractive; often used as a combining form",
@@ -21704,7 +21704,7 @@
       "pinyin": "'tiŋɡli",
       "zh_cn": "a. 有刺痛感的；引起激动的",
       "zh_tw": "a. 有刺痛感的；引起激動的",
-      "en": null,
+      "en": "adjective. Producing or feeling tingles.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -21725,7 +21725,7 @@
     },
     {
       "word": "feelings",
-      "pinyin": "",
+      "pinyin": "/ˈfiː.lɪŋz/",
       "zh_cn": "n. 感情, 情绪, 心情, 情感",
       "zh_tw": "n. 感情, 情緒, 心情, 情感",
       "en": "n. emotional or moral sensitivity (especially in relation to personal principles or dignity)",
@@ -21740,7 +21740,7 @@
       "pinyin": "juːl",
       "zh_cn": "abbr. (=you will； you shall)",
       "zh_tw": "abbr. (=you will； you shall)",
-      "en": null,
+      "en": "contraction. you will；contraction. you shall",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -21785,7 +21785,7 @@
     },
     {
       "word": "ducked",
-      "pinyin": "",
+      "pinyin": "/dʌkt/",
       "zh_cn": "vt.& vi. 躲避, 回避（duck的过去式与过去分词形式）",
       "zh_tw": "vt.& vi. 躲避, 迴避（duck的過去式與過去分詞形式）",
       "en": "imp. & p. p. of Duck",
@@ -21833,7 +21833,7 @@
     },
     {
       "word": "feels",
-      "pinyin": "",
+      "pinyin": "/fiːlz/",
       "zh_cn": "v. 觉得；体会；触摸（feel的第三人称单数）",
       "zh_tw": "v. 覺得；體會；觸摸（feel的第三人稱單數）",
       "en": "n an intuitive awareness;；n the general atmosphere of a place or situation and the effect that it has on people；n a property perceived by touch；n manual stimulation of the genital",
@@ -22028,7 +22028,7 @@
       "pinyin": "hwɑ:n",
       "zh_cn": "n. 胡安（男子名）",
       "zh_tw": "n. 胡安（男子名）",
-      "en": null,
+      "en": "noun. A scroll of a traditional Chinese book, often (but not necessarily) corresponding to a single chapter or fascicle.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -22049,7 +22049,7 @@
     },
     {
       "word": "mates",
-      "pinyin": "",
+      "pinyin": "/meɪts/",
       "zh_cn": "n. 好朋友；伴侣牌, 伙伴",
       "zh_tw": "n. 好朋友；伴侶牌, 夥伴",
       "en": "n a pair of people who live together；n the officer below the master on a commercial ship；n a fellow member of a team；n the partner of an animal (especially a sexual partner)；n a pe",
@@ -22121,7 +22121,7 @@
     },
     {
       "word": "jumps",
-      "pinyin": "",
+      "pinyin": "/d͡ʒʌmps/",
       "zh_cn": "v. 跳跃；暴增（jump的三单形式）",
       "zh_tw": "v. 跳躍；暴增（jump的三單形式）",
       "en": "n a sudden and decisive increase；n an abrupt transition；n (film) an abrupt transition from one scene to another；n a sudden involuntary movement；n descent with a parachute；n the act",
@@ -22208,7 +22208,7 @@
       "pinyin": "ðæts",
       "zh_cn": "(=that is)说得更精确些, 简而言之",
       "zh_tw": "(=that is)說得更精確些, 簡而言之",
-      "en": null,
+      "en": "contraction. That is.；contraction. That has.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -22220,7 +22220,7 @@
       "pinyin": "ˈdɪdnt",
       "zh_cn": "abbr. did not 没有",
       "zh_tw": "abbr. did not 沒有",
-      "en": null,
+      "en": "verb. did not (negative auxiliary)",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -22229,7 +22229,7 @@
     },
     {
       "word": "haired",
-      "pinyin": "",
+      "pinyin": "/hɛəd/",
       "zh_cn": "a. 有毛发的, 长着...头发的",
       "zh_tw": "a. 有毛髮的, 長著...頭髮的",
       "en": "a having or covered with hair",
@@ -22313,7 +22313,7 @@
     },
     {
       "word": "pens",
-      "pinyin": "",
+      "pinyin": "/pɛnz/",
       "zh_cn": "n. 钢笔（pen的复数）",
       "zh_tw": "n. 鋼筆（pen的複數）",
       "en": "n a writing implement with a point from which ink flows；n an enclosure for confining livestock；n a portable enclosure in which babies may be left to play；n a correctional instituti",
@@ -22373,10 +22373,10 @@
     },
     {
       "word": "he’s",
-      "pinyin": "",
+      "pinyin": "/ˈhiːz/",
       "zh_cn": "他是, 他有",
       "zh_tw": "他是, 他有",
-      "en": null,
+      "en": "contraction. Contraction of he + is.；contraction. Contraction of he + has.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -22397,7 +22397,7 @@
     },
     {
       "word": "gulls",
-      "pinyin": "",
+      "pinyin": "/ɡʌlz/",
       "zh_cn": "n. 气球假目标雷达反射器；鸥；笨人；易受骗之人（gull的复数形式）",
       "zh_tw": "n. 氣球假目標雷達反射器；鷗；笨人；易受騙之人（gull的複數形式）",
       "en": "n a person who is gullible and easy to take advantage of；n mostly white aquatic bird having long pointed wings and short legs；v make a fool or dupe of；v fool or hoax",
@@ -22409,7 +22409,7 @@
     },
     {
       "word": "eggs",
-      "pinyin": "",
+      "pinyin": "/ɛɡz/",
       "zh_cn": "n. 鸡蛋；蛋（egg的复数形式）",
       "zh_tw": "n. 雞蛋；蛋（egg的複數形式）",
       "en": "n oval reproductive body of a fowl (especially a hen) used as food；n animal reproductive body consisting of an ovum or embryo together with nutritive and protective envelopes; espe",
@@ -22424,7 +22424,7 @@
       "pinyin": "its",
       "zh_cn": "it is的缩写, it has的缩写",
       "zh_tw": "it is的縮寫, it has的縮寫",
-      "en": null,
+      "en": "contraction. Contraction of it + is.；contraction. Contraction of it + has.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -22469,7 +22469,7 @@
     },
     {
       "word": "questions",
-      "pinyin": "",
+      "pinyin": "/ˈkwɛst͡ʃənz/",
       "zh_cn": "n. 问题（question的复数）",
       "zh_tw": "n. 問題（question的複數）",
       "en": "n an instance of questioning；n the subject matter at issue；n a sentence of inquiry that asks for a reply；n uncertainty about the truth or factuality or existence of something；n a f",
@@ -22517,7 +22517,7 @@
     },
     {
       "word": "patches",
-      "pinyin": "",
+      "pinyin": "/ˈpæt͡ʃɪz/",
       "zh_cn": "n. 修补程序；补丁；斑块（patch的复数）",
       "zh_tw": "n. 修補程序；補丁；斑塊（patch的複數）",
       "en": "n a small contrasting part of something；n a small area of ground covered by specific vegetation；n a piece of cloth used as decoration or to mend or cover a hole；n a period of indet",
@@ -22577,7 +22577,7 @@
     },
     {
       "word": "sounded",
-      "pinyin": "",
+      "pinyin": "/ˈsaʊndɪd/",
       "zh_cn": "vbl. 听起来",
       "zh_tw": "vbl. 聽起來",
       "en": "v appear in a certain way；v make a certain noise or sound；v give off a certain sound or sounds；v announce by means of a sound；v utter with vibrating vocal chords；v cause to sound；v",
@@ -22724,7 +22724,7 @@
       "pinyin": "wɒts",
       "zh_cn": "（尤当 has 为助动词时, what is 或 what has 的常用口语形式）; 乌",
       "zh_tw": "（尤當 has 為助動詞時, what is 或 what has 的常用口語形式）; 烏",
-      "en": null,
+      "en": "contraction. What is.；contraction. What has.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -22772,7 +22772,7 @@
       "pinyin": "ðeə(r)",
       "zh_cn": "abbr. they are 他们是",
       "zh_tw": "abbr. they are 他們是",
-      "en": null,
+      "en": "contraction. Contraction of they + are.；adverb. Misspelling of there.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -22841,7 +22841,7 @@
     },
     {
       "word": "inches",
-      "pinyin": "",
+      "pinyin": "/ˈɪnt͡ʃɪz/",
       "zh_cn": "n. 英寸（inch的复数）",
       "zh_tw": "n. 英寸（inch的複數）",
       "en": "n a unit of length equal to one twelfth of a foot；n a unit of measurement for advertising space；v advance slowly, as if by inches",
@@ -22868,7 +22868,7 @@
       "pinyin": "'iznt",
       "zh_cn": "(=is not)不是",
       "zh_tw": "(=is not)不是",
-      "en": null,
+      "en": "verb. Contraction of is + not (negative auxiliary).；noun. (colloquial, nonstandard) Something or someone that is defined by the lack of the characteristic being discussed.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -23057,10 +23057,10 @@
     },
     {
       "word": "hmph",
-      "pinyin": "",
+      "pinyin": "/hm̩f/",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "interjection. Alternative form of humph.；verb. Alternative form of humph.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -23117,7 +23117,7 @@
     },
     {
       "word": "shutting",
-      "pinyin": "",
+      "pinyin": "/ˈʃʌtɪŋ/",
       "zh_cn": "n. [轻工业]闭锁",
       "zh_tw": "n. [輕工業]閉鎖",
       "en": "n. the act of closing something",
@@ -23141,7 +23141,7 @@
     },
     {
       "word": "clams",
-      "pinyin": "",
+      "pinyin": "/klæmz/",
       "zh_cn": "[医] 放线菌病(牛)",
       "zh_tw": "[醫] 放線菌病(牛)",
       "en": "n informal terms for money；n burrowing marine mollusk living on sand or mud; the shell closes with viselike firmness；n a piece of paper money worth one dollar；n flesh of either har",
@@ -23156,7 +23156,7 @@
       "pinyin": "'tʃiki",
       "zh_cn": "n. [俚语]年轻女子, 姑娘；interj. [纽约青少年用语]当心!快走掉!(表示当官的来时发出的警告)",
       "zh_tw": "n. [俚語]年輕女子, 姑娘；interj. [紐約青少年用語]當心!快走掉!(表示當官的來時發出的警告)",
-      "en": null,
+      "en": "noun. plural of chickie",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -23225,7 +23225,7 @@
     },
     {
       "word": "fired",
-      "pinyin": "",
+      "pinyin": "/ˈfaɪ̯əd/",
       "zh_cn": "n. 因祸得福（电影名）",
       "zh_tw": "n. 因禍得福（電影名）",
       "en": "v start firing a weapon；v cause to go off；v bake in a kiln so as to harden；v terminate the employment of; discharge from an office or position；v go off or discharge；v drive out or",
@@ -23273,10 +23273,10 @@
     },
     {
       "word": "he’ll",
-      "pinyin": "",
+      "pinyin": "/hiːl/",
       "zh_cn": "他将, 他愿意, 他必须, 他要",
       "zh_tw": "他將, 他願意, 他必須, 他要",
-      "en": null,
+      "en": "contraction. Contraction of he + will.；contraction. Contraction of he + shall.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -23381,7 +23381,7 @@
     },
     {
       "word": "escaped",
-      "pinyin": "",
+      "pinyin": "/ɪˈskeɪpt/",
       "zh_cn": "v. 避开；泄出；逃离, 逃脱（escape的过去式, 过去分词）",
       "zh_tw": "v. 避開；洩出；逃離, 逃脫（escape的過去式, 過去分詞）",
       "en": "v run away from confinement；v fail to experience；v escape potentially unpleasant consequences; get away with a forbidden action；v be incomprehensible to; escape understanding by；v",
@@ -23537,7 +23537,7 @@
     },
     {
       "word": "visited",
-      "pinyin": "",
+      "pinyin": "/ˈvɪzɪtɪd/",
       "zh_cn": "v. 拜访, 访问（visit的过去式）",
       "zh_tw": "v. 拜訪, 訪問（visit的過去式）",
       "en": "v go to see a place, as for entertainment；v go to certain places as for sightseeing；v pay a brief visit；v come to see in an official or professional capacity；v impose something unp",
@@ -23813,7 +23813,7 @@
     },
     {
       "word": "cheered",
-      "pinyin": "",
+      "pinyin": "/t͡ʃɪɹd/",
       "zh_cn": "v. 欢呼（cheer的过去分词）",
       "zh_tw": "v. 歡呼（cheer的過去分詞）",
       "en": "v give encouragement to；v show approval or good wishes by shouting；v cause (somebody) to feel happier or more cheerful；v become cheerful；v spur on or encourage especially by cheers",
@@ -23840,7 +23840,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. A \"bachelor seal\"; a holluschickie.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -23873,7 +23873,7 @@
     },
     {
       "word": "marrying",
-      "pinyin": "",
+      "pinyin": "/ˈmæɹi.ɪŋ/",
       "zh_cn": "v. 证婚；结婚；合成（marry的现在分词形式）",
       "zh_tw": "v. 證婚；結婚；合成（marry的現在分詞形式）",
       "en": "v take in marriage；v perform a marriage ceremony",
@@ -23945,7 +23945,7 @@
     },
     {
       "word": "browsing",
-      "pinyin": "",
+      "pinyin": "/ˈbɹaʊzɪŋ/",
       "zh_cn": "[计] 浏览, 翻阅, 监视",
       "zh_tw": "[計] 瀏覽, 翻閱, 監視",
       "en": "n reading superficially or at random；n the act of feeding by continual nibbling；v shop around; not necessarily buying；v feed as in a meadow or pasture；v look around casually and ra",
@@ -24017,7 +24017,7 @@
     },
     {
       "word": "ends",
-      "pinyin": "",
+      "pinyin": "/ɛndz/",
       "zh_cn": "n. 目的；末端；结束（end的复数）",
       "zh_tw": "n. 目的；末端；結束（end的複數）",
       "en": "n either extremity of something that has length；n the point in time at which something ends；n the concluding parts of an event or occurrence；n the state of affairs that a plan is i",
@@ -24032,7 +24032,7 @@
       "pinyin": "wә:nt, weәnt",
       "zh_cn": "prep. 不是",
       "zh_tw": "prep. 不是",
-      "en": null,
+      "en": "verb. Contraction of were + not.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -24164,7 +24164,7 @@
       "pinyin": "'ni:dnt",
       "zh_cn": "need not之缩写",
       "zh_tw": "need not之縮寫",
-      "en": null,
+      "en": "verb. (negative auxiliary, chiefly British, formal or literary) Need not.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -24173,7 +24173,7 @@
     },
     {
       "word": "gracefully",
-      "pinyin": "",
+      "pinyin": "/ˈɡɹeɪsfəli/",
       "zh_cn": "adv. 优雅地；温文地",
       "zh_tw": "adv. 優雅地；溫文地",
       "en": "r. in a graceful manner",
@@ -24200,7 +24200,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "verb. present participle and gerund of schloop",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -24221,7 +24221,7 @@
     },
     {
       "word": "travels",
-      "pinyin": "",
+      "pinyin": "/ˈtɹævəlz/",
       "zh_cn": "n. 旅途, (非正式)旅行笔记, 游记",
       "zh_tw": "n. 旅途, (非正式)旅行筆記, 遊記",
       "en": "n the act of going from one place to another；n a movement through space that changes the location of something；n self-propelled movement；v change location; move, travel, or proceed",
@@ -24233,7 +24233,7 @@
     },
     {
       "word": "languages",
-      "pinyin": "",
+      "pinyin": "/ˈlæŋ.ɡwɪ.d͡ʒɪz/",
       "zh_cn": "n. 语系, 语种；语言文字（language复数）",
       "zh_tw": "n. 語系, 語種；語言文字（language複數）",
       "en": "n a systematic means of communicating by the use of sounds or conventional symbols；n (language) communication by word of mouth；n the text of a popular song or musical-comedy number",
@@ -24284,7 +24284,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. The forelimb of a sea lion, seal, turtle, etc.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -24380,7 +24380,7 @@
       "pinyin": "ˈhædnt",
       "zh_cn": "abbr. had not 没有",
       "zh_tw": "abbr. had not 沒有",
-      "en": null,
+      "en": "verb. (informal) Contraction of had + not (negative auxiliary).",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -24392,7 +24392,7 @@
       "pinyin": "ðeid",
       "zh_cn": "(=they had, they would)厚皮的",
       "zh_tw": "(=they had, they would)厚皮的",
-      "en": null,
+      "en": "contraction. They had.；contraction. They would.",
       "note": null,
       "is_difficult": true,
       "src": "The White Seal",
@@ -24425,7 +24425,7 @@
     },
     {
       "word": "respected",
-      "pinyin": "",
+      "pinyin": "/ɹɪˈspɛktɪd/",
       "zh_cn": "a. 受尊敬的",
       "zh_tw": "a. 受尊敬的",
       "en": "s. receiving deferential regard",
@@ -24449,7 +24449,7 @@
     },
     {
       "word": "astonished",
-      "pinyin": "",
+      "pinyin": "/æ- -d/",
       "zh_cn": "a. 吃惊的",
       "zh_tw": "a. 吃驚的",
       "en": "v affect with wonder；s filled with the emotional impact of overwhelming surprise or shock",
@@ -24509,7 +24509,7 @@
     },
     {
       "word": "edges",
-      "pinyin": "",
+      "pinyin": "/ˈɛd͡ʒɪz/",
       "zh_cn": "n. 边界；边缘；优势（edge的复数）",
       "zh_tw": "n. 邊界；邊緣；優勢（edge的複數）",
       "en": "n the boundary of a surface；n a line determining the limits of an area；n a sharp side formed by the intersection of two surfaces of an object；n the attribute of urgency in tone of",
@@ -24629,7 +24629,7 @@
     },
     {
       "word": "wiser",
-      "pinyin": "",
+      "pinyin": "/ˈwaɪzɚ/",
       "zh_cn": "a. 贤明的；聪明的",
       "zh_tw": "a. 賢明的；聰明的",
       "en": "a having or prompted by wisdom or discernment；s marked by the exercise of good judgment or common sense in practical matters；s evidencing the possession of inside information；s imp",
@@ -24653,7 +24653,7 @@
     },
     {
       "word": "dived",
-      "pinyin": "",
+      "pinyin": "/ˈdaɪ̯vd/",
       "zh_cn": "跳水, 潜水, 俯冲, 猛冲, 突然下降, 把手伸入, 钻研, 插进, 伸入, 投入, 探究",
       "zh_tw": "跳水, 潛水, 俯衝, 猛衝, 突然下降, 把手伸入, 鑽研, 插進, 伸入, 投入, 探究",
       "en": "v drop steeply；v plunge into water；v swim under water",
@@ -24749,7 +24749,7 @@
     },
     {
       "word": "biggest",
-      "pinyin": "",
+      "pinyin": "/ˈbɪɡ.ɪst/",
       "zh_cn": "a. 最大的（big的最高级）",
       "zh_tw": "a. 最大的（big的最高級）",
       "en": "a above average in size or number or quantity or magnitude or extent；s significant；s very intense；s loud and firm；s conspicuous in position or importance；s prodigious；s exhibiting",
@@ -24773,7 +24773,7 @@
     },
     {
       "word": "attacked",
-      "pinyin": "",
+      "pinyin": "/əˈtækt/",
       "zh_cn": "v. 攻击；侵害（attack的过去分词）",
       "zh_tw": "v. 攻擊；侵害（attack的過去分詞）",
       "en": "v launch an attack or assault on; begin hostilities or start warfare with；v attack in speech or writing；v take the initiative and go on the offensive；v attack someone physically or",
@@ -24797,7 +24797,7 @@
     },
     {
       "word": "trips",
-      "pinyin": "",
+      "pinyin": "/tɹɪps/",
       "zh_cn": "abbr. 与贸易有关的知识产权（Agreement On Trade-related Aspects of Intellectual Property Right）",
       "zh_tw": "abbr. 與貿易有關的知識產權（Agreement On Trade-related Aspects of Intellectual Property Right）",
       "en": "n a journey for some purpose (usually including the return)；n a hallucinatory experience induced by drugs；n an accidental misstep threatening (or causing) a fall；n an exciting or s",
@@ -24857,7 +24857,7 @@
     },
     {
       "word": "directions",
-      "pinyin": "",
+      "pinyin": "/dɪˈɹɛk.ʃənz/",
       "zh_cn": "n. 指示；方向；用法说明书（direction的复数形式）",
       "zh_tw": "n. 指示；方向；用法說明書（direction的複數形式）",
       "en": "n a line leading to a place or point；n the spatial relation between something and the course along which it points or moves；n a general course along which something has a tendency",
@@ -25001,7 +25001,7 @@
     },
     {
       "word": "pigs",
-      "pinyin": "",
+      "pinyin": "/pɪɡz/",
       "zh_cn": "n. 猪（pig的复数）",
       "zh_tw": "n. 豬（pig的複數）",
       "en": "n domestic swine；n a coarse obnoxious person；n a person regarded as greedy and pig-like；n uncomplimentary terms for a policeman；n mold consisting of a bed of sand in which pig iron",
@@ -25037,7 +25037,7 @@
     },
     {
       "word": "sheltered",
-      "pinyin": "",
+      "pinyin": "/ˈʃɛltɚd/",
       "zh_cn": "a. 受庇护的, 受保护的",
       "zh_tw": "a. 受庇護的, 受保護的",
       "en": "s. protected from danger or bad weather",
@@ -25049,7 +25049,7 @@
     },
     {
       "word": "sits",
-      "pinyin": "",
+      "pinyin": "/sɪts/",
       "zh_cn": "v. 坐（sit的第三人称单数形式）",
       "zh_tw": "v. 坐（sit的第三人稱單數形式）",
       "en": "v be seated；v be around, often idly or without specific purpose；v take a seat；v be in session；v assume a posture as for artistic purposes；v sit and travel on the back of animal, us",
@@ -25085,7 +25085,7 @@
     },
     {
       "word": "stations",
-      "pinyin": "",
+      "pinyin": "/ˈsteɪ.ʃənz/",
       "zh_cn": "n. 车站；驻地；位置（station的复数形式）",
       "zh_tw": "n. 車站；駐地；位置（station的複數形式）",
       "en": "n. (Roman Catholic Church) a devotion consisting of fourteen prayers said before a series of fourteen pictures or carvings representing successive incidents during Jesus' passage f",
@@ -25205,7 +25205,7 @@
     },
     {
       "word": "parties",
-      "pinyin": "",
+      "pinyin": "/ˈpɑːtiz/",
       "zh_cn": "n. 当事人；聚会；党派；政党机关；同行者（party的复数）",
       "zh_tw": "n. 當事人；聚會；黨派；政黨機關；同行者（party的複數）",
       "en": "n an organization to gain political power；n a group of people gathered together for pleasure；n a band of people associated temporarily in some activity；n an occasion on which peopl",
@@ -25361,7 +25361,7 @@
     },
     {
       "word": "sons",
-      "pinyin": "",
+      "pinyin": "/sʌnz/",
       "zh_cn": "n. 儿子们（son的复数）；子弟",
       "zh_tw": "n. 兒子們（son的複數）；子弟",
       "en": "n a male human offspring；n the divine word of God; the second person in the Trinity (incarnate in Jesus)",
@@ -25448,7 +25448,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. A small croquette in Indian cuisine.",
       "note": null,
       "is_difficult": true,
       "src": "“Rikki-Tikki-Tavi”",
@@ -25508,7 +25508,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. Alternative form of durzi.",
       "note": null,
       "is_difficult": true,
       "src": "“Rikki-Tikki-Tavi”",
@@ -25553,7 +25553,7 @@
     },
     {
       "word": "creeps",
-      "pinyin": "",
+      "pinyin": "/kɹiːps/",
       "zh_cn": "n. 毛骨悚然的感觉, 战栗",
       "zh_tw": "n. 毛骨悚然的感覺, 戰慄",
       "en": "n. a disease of cattle and sheep attributed to a dietary deficiency; characterized by anemia and softening of the bones and a slow stiff gait；n. a feeling of fear and revulsion",
@@ -25589,7 +25589,7 @@
     },
     {
       "word": "habits",
-      "pinyin": "",
+      "pinyin": "/ˈhæb.ɪts/",
       "zh_cn": "n. 习性；习惯（habit的复数）",
       "zh_tw": "n. 習性；習慣（habit的複數）",
       "en": "n an established custom；n (psychology) an automatic pattern of behavior in reaction to a specific situation; may be inherited or acquired through frequent repetition；n a distinctiv",
@@ -25664,7 +25664,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "interjection. Alternative form of tch.",
       "note": null,
       "is_difficult": true,
       "src": "“Rikki-Tikki-Tavi”",
@@ -25745,7 +25745,7 @@
     },
     {
       "word": "senses",
-      "pinyin": "",
+      "pinyin": "/ˈsɛnsɪz/",
       "zh_cn": "n. 五官的感觉, 知觉, 理性, 理智",
       "zh_tw": "n. 五官的感覺, 知覺, 理性, 理智",
       "en": "n a general conscious awareness；n the meaning of a word or expression; the way in which a word or expression or situation can be interpreted；n the faculty through which the externa",
@@ -25757,7 +25757,7 @@
     },
     {
       "word": "revived",
-      "pinyin": "",
+      "pinyin": "/rəˈvaɪvd/",
       "zh_cn": "a. 复活的, 再生的",
       "zh_tw": "a. 復活的, 再生的",
       "en": "a. restored to consciousness or life or vigor",
@@ -25784,7 +25784,7 @@
       "pinyin": "hɪəz",
       "zh_cn": "abbr. (=here is. Here's to you)! 干杯",
       "zh_tw": "abbr. (=here is. Here's to you)! 乾杯",
-      "en": null,
+      "en": "contraction. Contraction of here + is.；contraction. (nonstandard) Contraction of here + are.",
       "note": null,
       "is_difficult": true,
       "src": "“Rikki-Tikki-Tavi”",
@@ -25805,7 +25805,7 @@
     },
     {
       "word": "hardest",
-      "pinyin": "",
+      "pinyin": "/ˈhɑːdɪst/",
       "zh_cn": "a. 极难",
       "zh_tw": "a. 極難",
       "en": "a not easy; requiring great physical or mental effort to accomplish or comprehend or endure；a dispassionate;；a resisting weight or pressure；s very strong or vigorous；s characterize",
@@ -25940,7 +25940,7 @@
       "pinyin": "ˈdʌznt",
       "zh_cn": "aux. 表示否定",
       "zh_tw": "aux. 表示否定",
-      "en": null,
+      "en": "verb. Does not (negative auxiliary)；verb. (archaic or regional) Dost not",
       "note": null,
       "is_difficult": true,
       "src": "“Rikki-Tikki-Tavi”",
@@ -25985,7 +25985,7 @@
     },
     {
       "word": "roaming",
-      "pinyin": "",
+      "pinyin": "/ˈɹoʊmɪŋ/",
       "zh_cn": "[计] 移动, 移象, 漫游",
       "zh_tw": "[計] 移動, 移象, 漫遊",
       "en": "v move about aimlessly or without any destination, often in search of food or employment",
@@ -26057,7 +26057,7 @@
     },
     {
       "word": "lamps",
-      "pinyin": "",
+      "pinyin": "/læmps/",
       "zh_cn": "n. [诗]日月星辰；[俚]眼睛；灯具（lamp的复数）",
       "zh_tw": "n. [詩]日月星辰；[俚]眼睛；燈具（lamp的複數）",
       "en": "n an artificial source of visible illumination；n a piece of furniture holding one or more electric light bulbs",
@@ -26069,7 +26069,7 @@
     },
     {
       "word": "lighted",
-      "pinyin": "",
+      "pinyin": "/ˈlaɪtəd/",
       "zh_cn": "light的过去式和过去分词",
       "zh_tw": "light的過去式和過去分詞",
       "en": "a. set afire or burning",
@@ -26141,7 +26141,7 @@
     },
     {
       "word": "laps",
-      "pinyin": "",
+      "pinyin": "/læps/",
       "zh_cn": "abbr. 光寻址电位传感器；SDH 上的链路接入规程（Link Access Procedure SDH）",
       "zh_tw": "abbr. 光尋址電位傳感器；SDH 上的鏈路接入規程（Link Access Procedure SDH）",
       "en": "n the upper side of the thighs of a seated person；n an area of control or responsibility；n the part of a piece of clothing that covers the thighs；n a flap that lies over another pa",
@@ -26153,7 +26153,7 @@
     },
     {
       "word": "hopes",
-      "pinyin": "",
+      "pinyin": "/hoʊps/",
       "zh_cn": "v. 希望（hope的第三人称单数）",
       "zh_tw": "v. 希望（hope的第三人稱單數）",
       "en": "n a specific instance of feeling hopeful；n the general feeling that some desire will be fulfilled；n grounds for feeling hopeful about the future；n someone (or something) on which e",
@@ -26213,7 +26213,7 @@
     },
     {
       "word": "roses",
-      "pinyin": "",
+      "pinyin": "/ˈɹəʊzɪz/",
       "zh_cn": "n. 玫瑰（rose的复数）",
       "zh_tw": "n. 玫瑰（rose的複數）",
       "en": "n any of many shrubs of the genus Rosa that bear roses；n pinkish table wine from red grapes whose skins were removed after fermentation began；n a dusty pink color",
@@ -26336,7 +26336,7 @@
       "pinyin": "hm",
       "zh_cn": "interj. 哼",
       "zh_tw": "interj. 哼",
-      "en": null,
+      "en": "interjection. Form of hmm",
       "note": null,
       "is_difficult": true,
       "src": "“Rikki-Tikki-Tavi”",
@@ -26624,7 +26624,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. Alternative spelling of krait.",
       "note": null,
       "is_difficult": true,
       "src": "“Rikki-Tikki-Tavi”",
@@ -26648,7 +26648,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. Diminutive of snake.",
       "note": null,
       "is_difficult": true,
       "src": "“Rikki-Tikki-Tavi”",
@@ -26801,7 +26801,7 @@
     },
     {
       "word": "stuffed",
-      "pinyin": "",
+      "pinyin": "/stʌft/",
       "zh_cn": "已经喂饱了的；塞满了的",
       "zh_tw": "已經餵飽了的；塞滿了的",
       "en": "s. filled with something；s. crammed with food",
@@ -27077,7 +27077,7 @@
     },
     {
       "word": "waved",
-      "pinyin": "",
+      "pinyin": "/weɪvd/",
       "zh_cn": "a. 波浪形的, 起伏的",
       "zh_tw": "a. 波浪形的, 起伏的",
       "en": "v signal with the hands or nod；v move or swing back and forth；v move in a wavy pattern or with a rising and falling motion；v twist or roll into coils or ringlets；v set waves in",
@@ -27308,7 +27308,7 @@
       "pinyin": "'θɔ:nbuʃ",
       "zh_cn": "n. [植]多刺疏林,多刺高灌丛,山楂林",
       "zh_tw": "n. [植]多刺疏林,多刺高灌叢,山楂林",
-      "en": null,
+      "en": "noun. Any of many thorny or spiny shrubs and bushes.",
       "note": null,
       "is_difficult": true,
       "src": "“Rikki-Tikki-Tavi”",
@@ -27401,7 +27401,7 @@
     },
     {
       "word": "keeps",
-      "pinyin": "",
+      "pinyin": "/kiːps/",
       "zh_cn": "n. 罐笼座；盖子（keep的复数形式）",
       "zh_tw": "n. 罐籠座；蓋子（keep的複數形式）",
       "en": "n the financial means whereby one lives；n the main tower within the walls of a medieval castle or fortress；n a cell in a jail or prison；v keep in a certain state, position, or acti",
@@ -27416,7 +27416,7 @@
       "pinyin": "ʃi:d",
       "zh_cn": "abbr. she had 她已经; she would 她可以",
       "zh_tw": "abbr. she had 她已經; she would 她可以",
-      "en": null,
+      "en": "contraction. Contraction of she + had.；contraction. Contraction of she + would.",
       "note": null,
       "is_difficult": true,
       "src": "“Rikki-Tikki-Tavi”",
@@ -27485,7 +27485,7 @@
     },
     {
       "word": "accounts",
-      "pinyin": "",
+      "pinyin": "/əˈkaʊnts/",
       "zh_cn": "n. 账号；会计账簿；账目（account的复数）",
       "zh_tw": "n. 賬號；會計賬簿；賬目（account的複數）",
       "en": "n a record or narrative description of past events；n a short account of the news；n a formal contractual relationship established to provide for regular banking or brokerage or busi",
@@ -27533,7 +27533,7 @@
     },
     {
       "word": "melons",
-      "pinyin": "",
+      "pinyin": "/ˈmɛlənz/",
       "zh_cn": "n. 瓜类植物（如西瓜, 甜瓜等）；额外股利（melon的复数）",
       "zh_tw": "n. 瓜類植物（如西瓜, 甜瓜等）；額外股利（melon的複數）",
       "en": "n any of numerous fruits of the gourd family having a hard rind and sweet juicy flesh；n any of various fruit of cucurbitaceous vines including: muskmelons; watermelons; cantaloupes",
@@ -27617,7 +27617,7 @@
     },
     {
       "word": "cups",
-      "pinyin": "",
+      "pinyin": "/kʌps/",
       "zh_cn": "n. 拨火罐（器具）；杯子（cup的复数形式）",
       "zh_tw": "n. 撥火罐（器具）；杯子（cup的複數形式）",
       "en": "n a small open container usually used for drinking; usually has a handle；n the quantity a cup will hold；n any cup-shaped concavity；n a United States liquid unit equal to 8 fluid ou",
@@ -27644,7 +27644,7 @@
       "pinyin": "",
       "zh_cn": "abbr. 小麦矮腥黑穗病",
       "zh_tw": "abbr. 小麥矮腥黑穗病",
-      "en": null,
+      "en": "interjection. Alternative form of tch.",
       "note": null,
       "is_difficult": true,
       "src": "“Rikki-Tikki-Tavi”",
@@ -27749,7 +27749,7 @@
     },
     {
       "word": "brakes",
-      "pinyin": "",
+      "pinyin": "/bɹeɪks/",
       "zh_cn": "n. 刹车系统；制动；刹车（brake的复数）",
       "zh_tw": "n. 剎車系統；制動；剎車（brake的複數）",
       "en": "n a braking device consisting of a combination of interacting parts that work to slow a motor vehicle；n a restraint used to slow or stop a vehicle；n any of various ferns of the gen",
@@ -27869,7 +27869,7 @@
     },
     {
       "word": "tells",
-      "pinyin": "",
+      "pinyin": "/tɛlz/",
       "zh_cn": "v. 告诉；说（tell的第三人称单数）",
       "zh_tw": "v. 告訴；說（tell的第三人稱單數）",
       "en": "n a Swiss patriot who lived in the early 14th century and who was renowned for his skill as an archer; according to legend an Austrian governor compelled him to shoot an apple from",
@@ -27881,7 +27881,7 @@
     },
     {
       "word": "cares",
-      "pinyin": "",
+      "pinyin": "/kɛɹz/",
       "zh_cn": "（等于Central Advisory Referral Service）中心咨询服务",
       "zh_tw": "（等於Central Advisory Referral Service）中心諮詢服務",
       "en": "n the work of providing treatment for or attending to someone or something；n judiciousness in avoiding harm or danger；n an anxious feeling；n a cause for feeling concern；n attention",
@@ -27893,7 +27893,7 @@
     },
     {
       "word": "notes",
-      "pinyin": "",
+      "pinyin": "/noʊts/",
       "zh_cn": "n. 票据；注释, 说明（note复数）",
       "zh_tw": "n. 票據；註釋, 說明（note複數）",
       "en": "n a brief written record；n a short personal letter；n a notation representing the pitch and duration of a musical sound；n a tone of voice that shows what the speaker is feeling；n a",
@@ -27944,7 +27944,7 @@
       "pinyin": "tɔk",
       "zh_cn": "托科鸟",
       "zh_tw": "托科鳥",
-      "en": null,
+      "en": "noun. (used in conjunction with tick) A clicking sound similar to one made by the hands of a clock.；verb. To produce such a sound.",
       "note": null,
       "is_difficult": true,
       "src": "“Rikki-Tikki-Tavi”",
@@ -28025,7 +28025,7 @@
     },
     {
       "word": "doubled",
-      "pinyin": "",
+      "pinyin": "/ˈdʌbl̩d/",
       "zh_cn": "v. 两倍；加倍努力；快步走（double的过去式和过去分词）",
       "zh_tw": "v. 兩倍；加倍努力；快步走（double的過去式和過去分詞）",
       "en": "v increase twofold；v hit a two-base hit；v bend over or curl up, usually with laughter or pain；v do double duty; serve two purposes or have two functions；v bridge: make a demand for",
@@ -28301,7 +28301,7 @@
     },
     {
       "word": "served",
-      "pinyin": "",
+      "pinyin": "/sɝvd/",
       "zh_cn": "v. 招待；服役；发球；服务（serve的过去分词）",
       "zh_tw": "v. 招待；服役；發球；服務（serve的過去分詞）",
       "en": "v serve a purpose, role, or function；v do duty or hold offices; serve in a specific function；v contribute or conduce to；v be used by; as of a utility；v help to some food; help with",
@@ -28361,7 +28361,7 @@
     },
     {
       "word": "piled",
-      "pinyin": "",
+      "pinyin": "/paɪld/",
       "zh_cn": "a. 有细毛的",
       "zh_tw": "a. 有細毛的",
       "en": "v arrange in stacks；v press tightly together or cram；v place or lay as if in a pile",
@@ -28373,7 +28373,7 @@
     },
     {
       "word": "rifles",
-      "pinyin": "",
+      "pinyin": "/ˈɹaɪfl̩z/",
       "zh_cn": "n. 来福枪；卡宾枪；步枪（rifle复数）",
       "zh_tw": "n. 來福槍；卡賓槍；步槍（rifle複數）",
       "en": "n a shoulder firearm with a long barrel and a rifled bore；v steal goods; take as spoils；v go through in search of something; search through someone's belongings in an unauthorized",
@@ -28421,7 +28421,7 @@
     },
     {
       "word": "tents",
-      "pinyin": "",
+      "pinyin": "/tɛnts/",
       "zh_cn": "n. 旅游帐篷；住所；塞条（tent的复数）",
       "zh_tw": "n. 旅遊帳篷；住所；塞條（tent的複數）",
       "en": "n a portable shelter (usually of canvas stretched over supporting poles and fastened to the ground with ropes and pegs)；n a web that resembles a tent or carpet；v live in or as if i",
@@ -28493,7 +28493,7 @@
     },
     {
       "word": "soldiers",
-      "pinyin": "",
+      "pinyin": "/ˈsoʊld͡ʒɚz/",
       "zh_cn": "n. 士兵；战士数量（soldier的复数）",
       "zh_tw": "n. 士兵；戰士數量（soldier的複數）",
       "en": "n an enlisted man or woman who serves in an army；n a wingless sterile ant or termite having a large head and powerful jaws adapted for defending the colony；v serve as a soldier in",
@@ -28604,7 +28604,7 @@
       "pinyin": "'timbәjɑ:d",
       "zh_cn": "n. 贮木场",
       "zh_tw": "n. 貯木場",
-      "en": null,
+      "en": "noun. plural of timberyard",
       "note": null,
       "is_difficult": true,
       "src": "Toomai of the Elephants",
@@ -28649,7 +28649,7 @@
     },
     {
       "word": "employed",
-      "pinyin": "",
+      "pinyin": "/ɪmˈplɔɪd/",
       "zh_cn": "vt. 雇佣（employ的过去分词）",
       "zh_tw": "vt. 僱傭（employ的過去分詞）",
       "en": "a. having your services engaged for; or having a job especially one that pays wages or a salary；s. put to use",
@@ -28685,7 +28685,7 @@
     },
     {
       "word": "preserved",
-      "pinyin": "",
+      "pinyin": "/pɹəˈzɜːvd/",
       "zh_cn": "a. 喝醉的；[计] 保留的",
       "zh_tw": "a. 喝醉的；[計] 保留的",
       "en": "a. prevented from decaying or spoiling and prepared for future use；a. kept intact or in a particular condition",
@@ -28781,7 +28781,7 @@
     },
     {
       "word": "trunks",
-      "pinyin": "",
+      "pinyin": "/tɹʌŋks/",
       "zh_cn": "n. 男用运动短裤, 男式游泳裤",
       "zh_tw": "n. 男用運動短褲, 男式游泳褲",
       "en": "n trousers that end at or above the knee；n the main stem of a tree; usually covered with bark; the bole is usually the part that is commercially useful for lumber；n luggage consist",
@@ -28901,7 +28901,7 @@
     },
     {
       "word": "backs",
-      "pinyin": "",
+      "pinyin": "/bæks/",
       "zh_cn": "n. 后背, 脊背；后卫（back的复数形式）",
       "zh_tw": "n. 後背, 脊背；後衛（back的複數形式）",
       "en": "n the posterior part of a human (or animal) body from the neck to the end of the spine；n the side that goes last or is not normally seen；n the part of something that is furthest fr",
@@ -28937,7 +28937,7 @@
     },
     {
       "word": "smaller",
-      "pinyin": "",
+      "pinyin": "/ˈsmɔː.lə/",
       "zh_cn": "a. 较小, 更小的",
       "zh_tw": "a. 較小, 更小的",
       "en": "s. small or little relative to something else",
@@ -29009,7 +29009,7 @@
     },
     {
       "word": "kneeled",
-      "pinyin": "",
+      "pinyin": "/niːld/",
       "zh_cn": "kneel过去式和过去分词",
       "zh_tw": "kneel過去式和過去分詞",
       "en": "v rest one's weight on one's knees",
@@ -29081,7 +29081,7 @@
     },
     {
       "word": "fears",
-      "pinyin": "",
+      "pinyin": "/fɪəz/",
       "zh_cn": "n. 恐惧；担心",
       "zh_tw": "n. 恐懼；擔心",
       "en": "n an emotion experienced in anticipation of some specific pain or danger (usually accompanied by a desire to flee or fight)；n an anxious feeling；n a feeling of profound respect for",
@@ -29201,7 +29201,7 @@
     },
     {
       "word": "wah",
-      "pinyin": "",
+      "pinyin": "/wɑː/",
       "zh_cn": "abbr. 在家工作（Work at Home）；哇音效果器",
       "zh_tw": "abbr. 在家工作（Work at Home）；哇音效果器",
       "en": "n. The panda.",
@@ -29345,7 +29345,7 @@
     },
     {
       "word": "barracks",
-      "pinyin": "",
+      "pinyin": "/ˈbæɹəks/",
       "zh_cn": "n. 兵营, 营房；简陋的房子；警察所（barrack的复数）",
       "zh_tw": "n. 兵營, 營房；簡陋的房子；警察所（barrack的複數）",
       "en": "n a building or group of buildings used to house military personnel；v lodge in barracks；v spur on or encourage especially by cheers and shouts；v laugh at with contempt and derision",
@@ -29429,7 +29429,7 @@
     },
     {
       "word": "paths",
-      "pinyin": "",
+      "pinyin": "/pɑːðz/",
       "zh_cn": "n. 路径（path的复数）",
       "zh_tw": "n. 路徑（path的複數）",
       "en": "n a course of conduct；n a way especially designed for a particular use；n an established line of travel or access；n a line or route along which something travels or moves",
@@ -29525,7 +29525,7 @@
     },
     {
       "word": "posts",
-      "pinyin": "",
+      "pinyin": "/pəʊsts/",
       "zh_cn": "n. 标杆；岗位；帖子；邮件（post的复数）",
       "zh_tw": "n. 標杆；崗位；帖子；郵件（post的複數）",
       "en": "n the position where someone (as a guard or sentry) stands or is assigned to stand；n military installation at which a body of troops is stationed；n a job in an organization；n an up",
@@ -29576,7 +29576,7 @@
       "pinyin": "'kedә",
       "zh_cn": "n. 印度人诱捕野象的围场",
       "zh_tw": "n. 印度人誘捕野象的圍場",
-      "en": null,
+      "en": "noun. (India) An elephant trap; an enclosure constructed to entrap wild elephants.",
       "note": null,
       "is_difficult": true,
       "src": "Toomai of the Elephants",
@@ -29585,7 +29585,7 @@
     },
     {
       "word": "signs",
-      "pinyin": "",
+      "pinyin": "/saɪnz/",
       "zh_cn": "n. 标志；符号（sign的复数）",
       "zh_tw": "n. 標誌；符號（sign的複數）",
       "en": "n a perceptible indication of something not immediately apparent (as a visible clue that something has happened)；n a public display of a message；n any nonverbal action or gesture t",
@@ -29645,7 +29645,7 @@
     },
     {
       "word": "ropes",
-      "pinyin": "",
+      "pinyin": "/ɹoʊps/",
       "zh_cn": "n. 围绳；绳索（rope的复数）",
       "zh_tw": "n. 圍繩；繩索（rope的複數）",
       "en": "n a strong line；n street names for flunitrazepan；v catch with a lasso；v fasten with a rope",
@@ -29720,7 +29720,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. (historical) The currency of Italian Somaliland from 1950 to 1962, divided into 100 centesimi.",
       "note": null,
       "is_difficult": true,
       "src": "Toomai of the Elephants",
@@ -29768,7 +29768,7 @@
       "pinyin": "",
       "zh_cn": "abbr. Konya, Turkey 土耳其，科尼亚机场（代码）",
       "zh_tw": "abbr. Konya, Turkey 土耳其，科尼亞機場（代碼）",
-      "en": null,
+      "en": "symbol. Symbol for kiloyears ago: thousand years ago.",
       "note": null,
       "is_difficult": true,
       "src": "Toomai of the Elephants",
@@ -29897,7 +29897,7 @@
     },
     {
       "word": "operations",
-      "pinyin": "",
+      "pinyin": "/ˌɒp.əˈɹeɪ.ʃənz/",
       "zh_cn": "n. 运作；运营；业务操作（operation的复数）",
       "zh_tw": "n. 運作；運營；業務操作（operation的複數）",
       "en": "n. financial transactions at a brokerage; having to do with the execution of trades and keeping customer records",
@@ -29921,7 +29921,7 @@
     },
     {
       "word": "devils",
-      "pinyin": "",
+      "pinyin": "/ˈdɛvl̩z/",
       "zh_cn": "n. 魔鬼；恶魔（devil的复数形式）",
       "zh_tw": "n. 魔鬼；惡魔（devil的複數形式）",
       "en": "n (Judeo-Christian and Islamic religions) chief spirit of evil and adversary of God; tempter of mankind; master of Hell；n an evil supernatural being；n a word used in exclamations o",
@@ -30053,7 +30053,7 @@
     },
     {
       "word": "grievances",
-      "pinyin": "",
+      "pinyin": "/ˈɡɹiː.vən.sɪz/",
       "zh_cn": "n. 垒块；抱怨, 不平（grievance的复数形式）",
       "zh_tw": "n. 壘塊；抱怨, 不平（grievance的複數形式）",
       "en": "n a resentment strong enough to justify retaliation；n an allegation that something imposes an illegal obligation or denies some legal right or causes injustice；n a complaint about",
@@ -30065,7 +30065,7 @@
     },
     {
       "word": "examining",
-      "pinyin": "",
+      "pinyin": "/ɪɡˈzæmɪnɪŋ/",
       "zh_cn": "[法] 审查的, 审讯的, 考试的",
       "zh_tw": "[法] 審查的, 審訊的, 考試的",
       "en": "v consider in detail and subject to an analysis in order to discover essential features or meaning；v observe, check out, and look over carefully or inspect；v question or examine th",
@@ -30125,7 +30125,7 @@
     },
     {
       "word": "camps",
-      "pinyin": "",
+      "pinyin": "/kæmps/",
       "zh_cn": "n. 露营, 营地；野营房（camp复数）",
       "zh_tw": "n. 露營, 營地；野營房（camp複數）",
       "en": "n temporary living quarters specially built by the army for soldiers；n a group of people living together in a camp；n temporary lodgings in the country for travelers or vacationers",
@@ -30149,7 +30149,7 @@
     },
     {
       "word": "wages",
-      "pinyin": "",
+      "pinyin": "/ˈweɪd͡ʒɪz/",
       "zh_cn": "n. 工资, 报酬, 薪金, 工钱, 报应, 报答, 年产额；[化] 工资",
       "zh_tw": "n. 工資, 報酬, 薪金, 工錢, 報應, 報答, 年產額；[化] 工資",
       "en": "n. a recompense for worthy acts or retribution for wrongdoing",
@@ -30185,7 +30185,7 @@
     },
     {
       "word": "leaned",
-      "pinyin": "",
+      "pinyin": "/liːnd/",
       "zh_cn": "lean的过去式和过去分词",
       "zh_tw": "lean的過去式和過去分詞",
       "en": "v to incline or bend from a vertical position；v cause to lean or incline；v have a tendency or disposition to do or be something; be inclined；v rely on for support；v cause to lean t",
@@ -30200,7 +30200,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. Alternative form of mashua (“fishing vessel”).",
       "note": null,
       "is_difficult": true,
       "src": "Toomai of the Elephants",
@@ -30233,7 +30233,7 @@
     },
     {
       "word": "tis",
-      "pinyin": "",
+      "pinyin": "/tɪz/",
       "zh_cn": "abbr. 热成像系统（Imaging Thermal System）；[美]技术情报服务处（Technical Information Service）",
       "zh_tw": "abbr. 熱成像系統（Imaging Thermal System）；[美]技術情報服務處（Technical Information Service）",
       "en": "n a light strong grey lustrous corrosion-resistant metallic element used in strong lightweight alloys (as for airplane parts); the main sources are rutile and ilmenite；n shrub with",
@@ -30464,7 +30464,7 @@
       "pinyin": "'kedә",
       "zh_cn": "n. 印度人诱捕野象的围场",
       "zh_tw": "n. 印度人誘捕野象的圍場",
-      "en": null,
+      "en": "noun. plural of keddah",
       "note": null,
       "is_difficult": true,
       "src": "Toomai of the Elephants",
@@ -30473,7 +30473,7 @@
     },
     {
       "word": "smiled",
-      "pinyin": "",
+      "pinyin": "/smaɪld/",
       "zh_cn": "vbl. 以微笑表示；微笑",
       "zh_tw": "vbl. 以微笑表示；微笑",
       "en": "v change one's facial expression by spreading the lips, often to signal pleasure；v express with a smile",
@@ -30485,7 +30485,7 @@
     },
     {
       "word": "cleared",
-      "pinyin": "",
+      "pinyin": "/klɪɹd/",
       "zh_cn": "v. 使干净；清除（clear的过去分词）",
       "zh_tw": "v. 使乾淨；清除（clear的過去分詞）",
       "en": "a. rid of objects or obstructions such as e.g. trees and brush",
@@ -30545,7 +30545,7 @@
     },
     {
       "word": "coaxing",
-      "pinyin": "",
+      "pinyin": "/ˈkəʊksɪŋ/",
       "zh_cn": "a. 哄骗的",
       "zh_tw": "a. 哄騙的",
       "en": "s. pleasingly persuasive or intended to persuade",
@@ -30569,7 +30569,7 @@
     },
     {
       "word": "praised",
-      "pinyin": "",
+      "pinyin": "/pɹeɪzd/",
       "zh_cn": "v. 称赞( praise的过去式和过去分词 ); 赞美; 颂扬; 崇拜",
       "zh_tw": "v. 稱讚( praise的過去式和過去分詞 ); 讚美; 頌揚; 崇拜",
       "en": "imp. & p. p. of Praise",
@@ -30641,7 +30641,7 @@
     },
     {
       "word": "drives",
-      "pinyin": "",
+      "pinyin": "/dɹaɪvz/",
       "zh_cn": "n. 驱动器；驱动力；驱动程序（drive的复数形式）",
       "zh_tw": "n. 驅動器；驅動力；驅動程序（drive的複數形式）",
       "en": "n the act of applying force to propel something；n a mechanism by which force or power is transmitted in a machine；n a series of actions advancing a principle or tending toward a pa",
@@ -30761,7 +30761,7 @@
     },
     {
       "word": "windings",
-      "pinyin": "",
+      "pinyin": "/ˈwaɪndɪŋz/",
       "zh_cn": "(winding 的复数) n. 绕, 卷, 弯曲, 线圈；a. 蜿蜒的, 卷绕的, 弯曲的",
       "zh_tw": "(winding 的複數) n. 繞, 卷, 彎曲, 線圈；a. 蜿蜒的, 卷繞的, 彎曲的",
       "en": "plural of winding；n the act of winding or twisting；v to move or cause to move in a sinuous, spiral, or circular course；v extend in curves and turns；v arrange or or coil around；v ca",
@@ -30809,7 +30809,7 @@
     },
     {
       "word": "rivers",
-      "pinyin": "",
+      "pinyin": "/ˈɹɪvɚz/",
       "zh_cn": "n. 里弗斯（人名）；河流州（尼日利亚州名）；河水钻",
       "zh_tw": "n. 裡弗斯（人名）；河流州（尼日利亞州名）；河水鑽",
       "en": "n a large natural stream of water (larger than a creek)",
@@ -30857,7 +30857,7 @@
     },
     {
       "word": "attended",
-      "pinyin": "",
+      "pinyin": "/əˈtɛndɪd/",
       "zh_cn": "v. 参加；伴随；注意；照料（attend的过去分词）",
       "zh_tw": "v. 參加；伴隨；注意；照料（attend的過去分詞）",
       "en": "s. having a caretaker or other watcher",
@@ -31064,7 +31064,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. Alternative form of guddy.",
       "note": null,
       "is_difficult": true,
       "src": "Toomai of the Elephants",
@@ -31313,7 +31313,7 @@
     },
     {
       "word": "fans",
-      "pinyin": "",
+      "pinyin": "/fænz/",
       "zh_cn": "n. 风扇；狂热者, 粉丝（fan的复数形式）",
       "zh_tw": "n. 風扇；狂熱者, 粉絲（fan的複數形式）",
       "en": "n a device for creating a current of air by movement of a surface or surfaces；n an enthusiastic devotee of sports；n an ardent follower and admirer；v strike out (a batter), (of a pi",
@@ -31325,7 +31325,7 @@
     },
     {
       "word": "folds",
-      "pinyin": "",
+      "pinyin": "/foʊldz/",
       "zh_cn": "n. 皱褶；折痕（fold的复数形式）",
       "zh_tw": "n. 皺褶；摺痕（fold的複數形式）",
       "en": "n an angular or rounded shape made by folding；n a group of people who adhere to a common faith and habitually attend a given church；n a geological process that causes a bend in a s",
@@ -31433,7 +31433,7 @@
     },
     {
       "word": "washes",
-      "pinyin": "",
+      "pinyin": "/ˈwɒʃ.ɪz/",
       "zh_cn": "n. 洗涤；洗涤废水；洗涤物",
       "zh_tw": "n. 洗滌；洗滌廢水；洗滌物",
       "en": "n a thin coat of water-base paint；n the work of cleansing (usually with soap and water)；n the dry bed of an intermittent stream (as at the bottom of a canyon)；n the erosive process",
@@ -31589,7 +31589,7 @@
     },
     {
       "word": "points",
-      "pinyin": "",
+      "pinyin": "/pɔɪnts/",
       "zh_cn": "n. 转轨器, 道岔；[计] 磅",
       "zh_tw": "n. 轉軌器, 道岔；[計] 磅",
       "en": "n a geometric element that has position but no extension；n the precise location of something; a spatially limited location；n a brief version of the essential meaning of something；n",
@@ -31613,7 +31613,7 @@
     },
     {
       "word": "trails",
-      "pinyin": "",
+      "pinyin": "/tɹeɪlz/",
       "zh_cn": "n. 山径；游径；踪迹（trail的复数）",
       "zh_tw": "n. 山徑；遊徑；蹤跡（trail的複數）",
       "en": "n a track or mark left by something that has passed；n a path or track roughly blazed through wild or hilly country；n evidence pointing to a possible solution；v to lag or linger beh",
@@ -31817,7 +31817,7 @@
     },
     {
       "word": "crashings",
-      "pinyin": "",
+      "pinyin": "/ˈkɹæʃɪŋz/",
       "zh_cn": "(crashing 的复数) a. 猛撞的, 彻底的, 非凡的",
       "zh_tw": "(crashing 的複數) a. 猛撞的, 徹底的, 非凡的",
       "en": "plural of crashing；v fall or come down violently；v move with, or as if with, a crashing noise；v undergo damage or destruction on impact；v move violently as through a barrier；v brea",
@@ -31865,7 +31865,7 @@
     },
     {
       "word": "fingers",
-      "pinyin": "",
+      "pinyin": "/ˈfɪŋɡɚz/",
       "zh_cn": "n. 梳状剔除器；手指头, 指头（finger复数）",
       "zh_tw": "n. 梳狀剔除器；手指頭, 指頭（finger複數）",
       "en": "n any of the terminal members of the hand (sometimes excepting the thumb)；n the length of breadth of a finger used as a linear measure；n one of the parts of a glove that provides c",
@@ -31877,7 +31877,7 @@
     },
     {
       "word": "males",
-      "pinyin": "",
+      "pinyin": "/meɪlz/",
       "zh_cn": "n. 壮丁；雄性（male的复数）",
       "zh_tw": "n. 壯丁；雄性（male的複數）",
       "en": "n an animal that produces gametes (spermatozoa) that can fertilize female gametes (ova)；n a person who belongs to the sex that cannot have babies；n the capital of Maldives in the c",
@@ -31985,7 +31985,7 @@
     },
     {
       "word": "cuts",
-      "pinyin": "",
+      "pinyin": "/kʌts/",
       "zh_cn": "n. （分摊到的）份额；切口；近路（cut的复数）",
       "zh_tw": "n. （分攤到的）份額；切口；近路（cut的複數）",
       "en": "n a share of the profits；n (film) an immediate transition from one shot to the next；n a trench resembling a furrow that was made by erosion or excavation；n a step on some scale；n a",
@@ -32033,7 +32033,7 @@
     },
     {
       "word": "baths",
-      "pinyin": "",
+      "pinyin": "/bɑːðz/",
       "zh_cn": "n. 公共澡堂, 公共游泳池；pl. 沐浴, 洗澡, 浴盆, 浴锅, 浸没, 洗澡处, 浴室, 澡盆, 浴缸, 电镀槽, 定影液",
       "zh_tw": "n. 公共澡堂, 公共遊泳池；pl. 沐浴, 洗澡, 浴盆, 浴鍋, 浸沒, 洗澡處, 浴室, 澡盆, 浴缸, 電鍍槽, 定影液",
       "en": "n a vessel containing liquid in which something is immersed (as to process it or to maintain it at a constant temperature or to lubricate it)；n you soak and wash your body in a bat",
@@ -32057,7 +32057,7 @@
     },
     {
       "word": "couples",
-      "pinyin": "",
+      "pinyin": "/ˈkʌp.əlz/",
       "zh_cn": "n. 一对, 一双；夫妻；力偶（couple的复数）",
       "zh_tw": "n. 一對, 一雙；夫妻；力偶（couple的複數）",
       "en": "n a pair who associate with one another；n a pair of people who live together；n a small indefinite number；n two items of the same kind；n (physics) something joined by two equal and",
@@ -32213,7 +32213,7 @@
     },
     {
       "word": "seconds",
-      "pinyin": "",
+      "pinyin": "/ˈsɛk.əndz/",
       "zh_cn": "n. 次级品, 二等品",
       "zh_tw": "n. 次級品, 二等品",
       "en": "n 1/60 of a minute; the basic unit of time adopted under the Systeme International d'Unites；n an indefinitely short time；n the fielding position of the player on a baseball team wh",
@@ -32321,7 +32321,7 @@
     },
     {
       "word": "groaning",
-      "pinyin": "",
+      "pinyin": "/ˈɡɹoʊnɪŋ/",
       "zh_cn": "n. 呻吟；活塞在气缸内的不正常声；哼声",
       "zh_tw": "n. 呻吟；活塞在氣缸內的不正常聲；哼聲",
       "en": "v indicate pain, discomfort, or displeasure",
@@ -32381,7 +32381,7 @@
     },
     {
       "word": "lasted",
-      "pinyin": "",
+      "pinyin": "/ˈlɑːstɪd/",
       "zh_cn": "vbl. 持续",
       "zh_tw": "vbl. 持續",
       "en": "v persist for a specified period of time；v continue to live through hardship or adversity",
@@ -32513,7 +32513,7 @@
     },
     {
       "word": "nerves",
-      "pinyin": "",
+      "pinyin": "/nɝvz/",
       "zh_cn": "n. 神经质, 神经紧张",
       "zh_tw": "n. 神經質, 神經緊張",
       "en": "n. control of your emotions",
@@ -32525,7 +32525,7 @@
     },
     {
       "word": "contentedly",
-      "pinyin": "",
+      "pinyin": "/kənˈtɛn.tɪd.liː/",
       "zh_cn": "adv. 满足地；安心地",
       "zh_tw": "adv. 滿足地；安心地",
       "en": "r. with equanimity",
@@ -32597,7 +32597,7 @@
     },
     {
       "word": "packed",
-      "pinyin": "",
+      "pinyin": "/pækt/",
       "zh_cn": "a. 充满...的, 满座的, 挤得满满的, 压坚实的, 塞满了...的, 挤满了人的, 拥挤的；[计] 压缩的, 装配的",
       "zh_tw": "a. 充滿...的, 滿座的, 擠得滿滿的, 壓堅實的, 塞滿了...的, 擠滿了人的, 擁擠的；[計] 壓縮的, 裝配的",
       "en": "s. pressed together or compressed",
@@ -32705,7 +32705,7 @@
     },
     {
       "word": "secrets",
-      "pinyin": "",
+      "pinyin": "/ˈsiː.kɹɪts/",
       "zh_cn": "n. 秘密；隐私（secret的复数）",
       "zh_tw": "n. 秘密；隱私（secret的複數）",
       "en": "n something that should remain hidden from others (especially information that is not to be passed on)；n information known only to a special group；n something that baffles understa",
@@ -32813,7 +32813,7 @@
     },
     {
       "word": "slips",
-      "pinyin": "",
+      "pinyin": "/slɪps/",
       "zh_cn": "n. 外场员防守的地区",
       "zh_tw": "n. 外場員防守的地區",
       "en": "n a socially awkward or tactless act；n a minor inadvertent mistake usually observed in speech or writing or in small accidents or memory lapses etc.；n potter's clay that is thinned",
@@ -32849,7 +32849,7 @@
     },
     {
       "word": "chains",
-      "pinyin": "",
+      "pinyin": "/t͡ʃeɪnz/",
       "zh_cn": "n. 枷锁；联营企业；缝条；链条（chain的复数）",
       "zh_tw": "n. 枷鎖；聯營企業；縫條；鏈條（chain的複數）",
       "en": "n metal shackles; for hands or legs；n a series of things depending on each other as if linked together；n (chemistry) a series of linked atoms (generally in an organic molecule)；n a",
@@ -32876,7 +32876,7 @@
       "pinyin": "",
       "zh_cn": "卡罗（人名）",
       "zh_tw": "卡羅（人名）",
-      "en": null,
+      "en": "noun. Pittosporum crassifolium, a shrub of New Zealand.",
       "note": null,
       "is_difficult": true,
       "src": "Toomai of the Elephants",
@@ -32888,7 +32888,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. Obsolete spelling of ganja.",
       "note": null,
       "is_difficult": true,
       "src": "Toomai of the Elephants",
@@ -32960,7 +32960,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. Alternative form of katara (“type of dagger”).",
       "note": null,
       "is_difficult": true,
       "src": "Toomai of the Elephants",
@@ -33029,7 +33029,7 @@
     },
     {
       "word": "hears",
-      "pinyin": "",
+      "pinyin": "/hɪə(ɹ)z/",
       "zh_cn": "n. 剪切刀；殡仪车",
       "zh_tw": "n. 剪切刀；殯儀車",
       "en": "v perceive (sound) via the auditory sense；v get to know or become aware of, usually accidentally；v examine or hear (evidence or a case) by judicial process；v receive a communicatio",
@@ -33188,7 +33188,7 @@
       "pinyin": "ni:θ",
       "zh_cn": "adv. 在...之下",
       "zh_tw": "adv. 在...之下",
-      "en": null,
+      "en": "preposition. (poetic) Beneath.",
       "note": null,
       "is_difficult": true,
       "src": "Shiv and the Grasshopper",
@@ -33245,10 +33245,10 @@
     },
     {
       "word": "dum",
-      "pinyin": "",
+      "pinyin": "/dʌm/",
       "zh_cn": "[法] 期间内, 只要, 规定为...",
       "zh_tw": "[法] 期間內, 只要, 規定為...",
-      "en": null,
+      "en": "adjective. (India, cooking) cooked with steam；interjection. Syllable used when humming a tune.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -33260,7 +33260,7 @@
       "pinyin": "di:",
       "zh_cn": "n. D字形马具；[医] D形电极(回旋加速器内)",
       "zh_tw": "n. D字形馬具；[醫] D形電極(迴旋加速器內)",
-      "en": null,
+      "en": "verb. (Northumbria) To do.；noun. The name of the Latin script letter D/d.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -33284,7 +33284,7 @@
       "pinyin": "",
       "zh_cn": "abbr. 图片库（Python Imaging Library）；病人信息活页（patient information leaflet）",
       "zh_tw": "abbr. 圖片庫（Python Imaging Library）；病人信息活頁（patient information leaflet）",
-      "en": null,
+      "en": "adjective. Covered in pills (particles created by mechanical wear).；adjective. Characterized by or involving many pills.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -33308,7 +33308,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "noun. Alternative form of winky (“emoticon that shows a winking face”).；noun. Alternative form of winky (“the penis”).",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -33317,7 +33317,7 @@
     },
     {
       "word": "raining",
-      "pinyin": "",
+      "pinyin": "/ˈɹeɪnɪŋ/",
       "zh_cn": "[化] 淋降现象",
       "zh_tw": "[化] 淋降現象",
       "en": "s. falling in drops or as if falling like rain",
@@ -33356,7 +33356,7 @@
       "pinyin": "",
       "zh_cn": "[地名] [刚果民主共和国] 平迪",
       "zh_tw": "[地名] [剛果民主共和國] 平迪",
-      "en": null,
+      "en": "noun. (India) Alternative form of bhindi (“okra”).",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -33533,7 +33533,7 @@
     },
     {
       "word": "stacked",
-      "pinyin": "",
+      "pinyin": "/stækt/",
       "zh_cn": "a. 体态漂亮的；[计] 入栈的, 栈式的",
       "zh_tw": "a. 體態漂亮的；[計] 入棧的, 棧式的",
       "en": "a. arranged in a stack",
@@ -33548,7 +33548,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "verb. Alternative spelling of plouter.；noun. Alternative spelling of plouter.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -33689,7 +33689,7 @@
     },
     {
       "word": "mountains",
-      "pinyin": "",
+      "pinyin": "/ˈmaʊn.tn̩z/",
       "zh_cn": "n. 山脉；山区；山岳（mountain的复数）",
       "zh_tw": "n. 山脈；山區；山嶽（mountain的複數）",
       "en": "n a land mass that projects well above its surroundings; higher than a hill；n (often followed by `of') a large number or amount or extent",
@@ -33773,7 +33773,7 @@
     },
     {
       "word": "kicks",
-      "pinyin": "",
+      "pinyin": "/kɪks/",
       "zh_cn": "n. 踢球；腿法；冲击力（kick的复数）",
       "zh_tw": "n. 踢球；腿法；衝擊力（kick的複數）",
       "en": "n the act of delivering a blow with the foot；n the swift release of a store of affective force；n the backward jerk of a gun when it is fired；n informal terms for objecting；n the su",
@@ -33836,7 +33836,7 @@
       "pinyin": "hu:z",
       "zh_cn": "abbr. who is 谁是…",
       "zh_tw": "abbr. who is 誰是…",
-      "en": null,
+      "en": "contraction. Who is.；contraction. Who has.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -33908,7 +33908,7 @@
       "pinyin": "ɑ:nt",
       "zh_cn": "abbr. 不是（are not）",
       "zh_tw": "abbr. 不是（are not）",
-      "en": null,
+      "en": "verb. are not (negative auxiliary)；verb. (colloquial) A contraction of “am not”, used e.g. in the construction \"aren’t I?\"",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -34049,7 +34049,7 @@
     },
     {
       "word": "wildly",
-      "pinyin": "",
+      "pinyin": "/ˈwaɪldli/",
       "zh_cn": "adv. 狂暴地, 激动地, 狂热地, 鲁莽地, 轻率地",
       "zh_tw": "adv. 狂暴地, 激動地, 狂熱地, 魯莽地, 輕率地",
       "en": "r. to an extreme or greatly exaggerated degree；r. in an uncontrolled or unrestrained manner；r. with violent and uncontrollable passion",
@@ -34109,10 +34109,10 @@
     },
     {
       "word": "d’you",
-      "pinyin": "",
+      "pinyin": "/dʒuː/",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "contraction. (informal) Contraction of did + you.；contraction. (informal) Contraction of do + you.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -34124,7 +34124,7 @@
       "pinyin": "ðeɪl",
       "zh_cn": "abbr. they will 他们将",
       "zh_tw": "abbr. they will 他們將",
-      "en": null,
+      "en": "contraction. Contraction of they + will.；contraction. Contraction of they + shall.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -34172,7 +34172,7 @@
       "pinyin": "'wɔznt",
       "zh_cn": "prep. 不是",
       "zh_tw": "prep. 不是",
-      "en": null,
+      "en": "verb. (chiefly in the negative, auxiliary) Contraction of was + not.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -34208,7 +34208,7 @@
       "pinyin": "'kudnt",
       "zh_cn": "(=could not)不能",
       "zh_tw": "(=could not)不能",
-      "en": null,
+      "en": "verb. could not (negative auxiliary)",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -34217,7 +34217,7 @@
     },
     {
       "word": "fellows",
-      "pinyin": "",
+      "pinyin": "/ˈfɛloʊz/",
       "zh_cn": "n. 研究员；伙伴们（fellow的复数形式）",
       "zh_tw": "n. 研究員；夥伴們（fellow的複數形式）",
       "en": "n a boy or man；n a friend who is frequently in the company of another；n a person who is member of one's class or profession；n one of a pair；n a member of a learned society；n an inf",
@@ -34229,10 +34229,10 @@
     },
     {
       "word": "cuds",
-      "pinyin": "",
+      "pinyin": "/kʌdz/",
       "zh_cn": "Cambridge University Dramatic Society 剑桥大学戏剧社",
       "zh_tw": "Cambridge University Dramatic Society 劍橋大學戲劇社",
-      "en": null,
+      "en": "noun. plural of cud；verb. third-person singular simple present indicative of cud",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -34301,7 +34301,7 @@
     },
     {
       "word": "forgiven",
-      "pinyin": "",
+      "pinyin": "/fəˈɡɪv.n̩/",
       "zh_cn": "forgive的过去分词",
       "zh_tw": "forgive的過去分詞",
       "en": "v stop blaming or grant forgiveness；v absolve from payment",
@@ -34325,7 +34325,7 @@
     },
     {
       "word": "gums",
-      "pinyin": "",
+      "pinyin": "/ɡʌmz/",
       "zh_cn": "n. 牙龈, 树胶；牙床（gum复数形式）",
       "zh_tw": "n. 牙齦, 樹膠；牙床（gum複數形式）",
       "en": "n a preparation (usually made of sweetened chicle) for chewing；n the tissue (covered by mucous membrane) of the jaws that surrounds the bases of the teeth；n any of various substanc",
@@ -34385,7 +34385,7 @@
     },
     {
       "word": "depends",
-      "pinyin": "",
+      "pinyin": "/dɪˈpɛndz/",
       "zh_cn": "v. 依赖；信赖（depend的三单形式）",
       "zh_tw": "v. 依賴；信賴（depend的三單形式）",
       "en": "v be contingent upon (something that is elided)；v have faith or confidence in",
@@ -34433,10 +34433,10 @@
     },
     {
       "word": "shouldn’t",
-      "pinyin": "",
+      "pinyin": "/ˈʃʊdn̩t/",
       "zh_cn": "vi. 不该, 不可, 必须不, 不应该, 不应当, 可能不, 可以不, 竟然不, 竟然会不",
       "zh_tw": "vi. 不該, 不可, 必須不, 不應該, 不應當, 可能不, 可以不, 竟然不, 竟然會不",
-      "en": null,
+      "en": "verb. Should not (negative auxiliary)；noun. (informal) Something that should not be done.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -34457,7 +34457,7 @@
     },
     {
       "word": "sounds",
-      "pinyin": "",
+      "pinyin": "/saʊnz/",
       "zh_cn": "n. 音效, 声音（sound的复数）",
       "zh_tw": "n. 音效, 聲音（sound的複數）",
       "en": "n the particular auditory effect produced by a given cause；n the subjective sensation of hearing something；n mechanical vibrations transmitted by an elastic medium；n the sudden occ",
@@ -34565,7 +34565,7 @@
     },
     {
       "word": "packs",
-      "pinyin": "",
+      "pinyin": "/pæks/",
       "zh_cn": "n. 生存集群；包裹；资料袋（pack的复数）",
       "zh_tw": "n. 生存集群；包裹；資料袋（pack的複數）",
       "en": "n a large indefinite number；n a complete collection of similar things；n a convenient package or parcel (as of cigarettes or film)；n an association of criminals；n an exclusive circl",
@@ -34625,7 +34625,7 @@
     },
     {
       "word": "fires",
-      "pinyin": "",
+      "pinyin": "/ˈfaɪ̯ə(ɹ)z/",
       "zh_cn": "n. 火灾, 点火；火力",
       "zh_tw": "n. 火災, 點火；火力",
       "en": "n the event of something burning (often destructive)；n the act of firing weapons or artillery at an enemy；n the process of combustion of inflammable materials producing heat and li",
@@ -34637,7 +34637,7 @@
     },
     {
       "word": "clouds",
-      "pinyin": "",
+      "pinyin": "/ˈklaʊ̯dz/",
       "zh_cn": "n. 云彩, 白云（cloud复数形式）",
       "zh_tw": "n. 雲彩, 白雲（cloud複數形式）",
       "en": "n any collection of particles (e.g., smoke or dust) or gases that is visible；n a visible mass of water or ice particles suspended at a considerable altitude；n out of touch with rea",
@@ -34649,7 +34649,7 @@
     },
     {
       "word": "twins",
-      "pinyin": "",
+      "pinyin": "/twɪnz/",
       "zh_cn": "n. 双子座, 双子宫",
       "zh_tw": "n. 雙子座, 雙子宮",
       "en": "n. (mineralogy) two interwoven crystals that are mirror images on each other",
@@ -34712,7 +34712,7 @@
       "pinyin": "",
       "zh_cn": "[电影]房间",
       "zh_tw": "[電影]房間",
-      "en": null,
+      "en": "noun. (sumo) the so-called \"stable\" of rikishi who train under the instruction of a particular shisho; the place where this group lives and trains；interjection. Alternative form of hiya.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -34745,7 +34745,7 @@
     },
     {
       "word": "cats",
-      "pinyin": "",
+      "pinyin": "/kæts/",
       "zh_cn": "abbr. 高级电视研究中心（Centre for Advanced Television Studies）；计算机自动测试系统（Computer Automated Test System）；通信和跟踪系统（Communications and Tracking System）；综合分析试验系统（Comprehensive Analytical Test",
       "zh_tw": "abbr. 高級電視研究中心（Centre for Advanced Television Studies）；計算機自動測試系統（Computer Automated Test System）；通信和跟蹤系統（Communications and Tracking System）；綜合分析試驗系統（Comprehensive Analytical Test",
       "en": "n feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats；n an informal term for a youth or man；n a spiteful woman gossip；n the leaves of the sh",
@@ -34844,7 +34844,7 @@
       "pinyin": "'brʌmbi",
       "zh_cn": "[澳]野马",
       "zh_tw": "[澳]野馬",
-      "en": null,
+      "en": "noun. (Australia) A wild or feral horse.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -34877,7 +34877,7 @@
     },
     {
       "word": "imported",
-      "pinyin": "",
+      "pinyin": "/ɪmˈpɔːtɪd/",
       "zh_cn": "vt. 输入, 进口（import的过去式与过去分词形式）",
       "zh_tw": "vt. 輸入, 進口（import的過去式與過去分詞形式）",
       "en": "s. used of especially merchandise brought from a foreign source",
@@ -35024,7 +35024,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "adjective. Gurgling; like a gurgle.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -35036,7 +35036,7 @@
       "pinyin": "'rʌmbli",
       "zh_cn": "a. 发隆隆声的, 道路崎岖的",
       "zh_tw": "a. 發隆隆聲的, 道路崎嶇的",
-      "en": null,
+      "en": "adjective. Making a rumbling noise.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -35057,7 +35057,7 @@
     },
     {
       "word": "crowding",
-      "pinyin": "",
+      "pinyin": "/ˈkɹaʊdɪŋ/",
       "zh_cn": "[计] 拥挤, 聚集",
       "zh_tw": "[計] 擁擠, 聚集",
       "en": "n. a situation in which people or things are crowded together",
@@ -35084,7 +35084,7 @@
       "pinyin": "juːd",
       "zh_cn": "abbr. (=you had)(=you would)",
       "zh_tw": "abbr. (=you had)(=you would)",
-      "en": null,
+      "en": "contraction. (informal) You had.；contraction. (informal) You would.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -35141,7 +35141,7 @@
     },
     {
       "word": "spirits",
-      "pinyin": "",
+      "pinyin": "/ˈspɪɹɪts/",
       "zh_cn": "n. 情绪, 兴致, 心情, 烈酒, 酒精",
       "zh_tw": "n. 情緒, 興致, 心情, 烈酒, 酒精",
       "en": "n an alcoholic beverage that is distilled rather than fermented；n the vital principle or animating force within living things；n the general atmosphere of a place or situation and t",
@@ -35213,7 +35213,7 @@
     },
     {
       "word": "dicks",
-      "pinyin": "",
+      "pinyin": "/dɪks/",
       "zh_cn": "n. 迪克斯（男子名）",
       "zh_tw": "n. 迪克斯（男子名）",
       "en": "n someone who is a detective；n obscene terms for penis",
@@ -35261,7 +35261,7 @@
     },
     {
       "word": "shakes",
-      "pinyin": "",
+      "pinyin": "/ʃeɪks/",
       "zh_cn": "n. 摇动；打击；握手（shake的复数）",
       "zh_tw": "n. 搖動；打擊；握手（shake的複數）",
       "en": "n building material used as siding or roofing；n frothy drink of milk and flavoring and sometimes fruit or ice cream；n a note that alternates rapidly with another note a semitone ab",
@@ -35297,7 +35297,7 @@
     },
     {
       "word": "shan’t",
-      "pinyin": "",
+      "pinyin": "/ʃɑːnt/",
       "zh_cn": "vi. 将不要, 不会, 必须不, 不可, 不应, 不好吗?, 要不要...?, 不应该, 不要",
       "zh_tw": "vi. 將不要, 不會, 必須不, 不可, 不應, 不好嗎?, 要不要...?, 不應該, 不要",
       "en": "A contraction of shall not.",
@@ -35441,10 +35441,10 @@
     },
     {
       "word": "she’ll",
-      "pinyin": "",
+      "pinyin": "/ʃiːl/",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "contraction. Contraction of she + will.；contraction. Contraction of she + shall.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -35501,7 +35501,7 @@
     },
     {
       "word": "alarmed",
-      "pinyin": "",
+      "pinyin": "/əˈlɑɹmd/",
       "zh_cn": "a. 受惊的；焦虑的；惊恐的",
       "zh_tw": "a. 受驚的；焦慮的；驚恐的",
       "en": "s. experiencing a sudden sense of danger",
@@ -35549,7 +35549,7 @@
     },
     {
       "word": "walks",
-      "pinyin": "",
+      "pinyin": "/wɔːks/",
       "zh_cn": "n. 搭板, 跳板",
       "zh_tw": "n. 搭板, 跳板",
       "en": "n the act of traveling by foot；n (baseball) an advance to first base by a batter who receives four balls；n manner of walking；n the act of walking somewhere；n a path set aside for w",
@@ -35561,7 +35561,7 @@
     },
     {
       "word": "holds",
-      "pinyin": "",
+      "pinyin": "/həʊldz/",
       "zh_cn": "v. 保存；把握（hold的第三人称单数）",
       "zh_tw": "v. 保存；把握（hold的第三人稱單數）",
       "en": "n the act of grasping；n understanding of the nature or meaning or quality or magnitude of something；n power by which something or someone is affected or dominated；n time during whi",
@@ -35768,7 +35768,7 @@
       "pinyin": "",
       "zh_cn": null,
       "zh_tw": null,
-      "en": null,
+      "en": "contraction. (informal) Who had.；contraction. (informal) Who would.",
       "note": null,
       "is_difficult": true,
       "src": "Her Majesty’s Servants",
@@ -35777,7 +35777,7 @@
     },
     {
       "word": "pockets",
-      "pinyin": "",
+      "pinyin": "/ˈpɒk.ɪts/",
       "zh_cn": "n. 口袋（pocket的复数）",
       "zh_tw": "n. 口袋（pocket的複數）",
       "en": "n a small pouch inside a garment for carrying small articles；n an enclosed space；n a supply of money；n (bowling) the space between the headpin and the pins behind it on the right o",
@@ -35813,7 +35813,7 @@
     },
     {
       "word": "spoils",
-      "pinyin": "",
+      "pinyin": "/spɔɪlz/",
       "zh_cn": "n. 赃物；战利品（spoil的复数）",
       "zh_tw": "n. 贓物；戰利品（spoil的複數）",
       "en": "n (usually plural) valuables taken by violence (especially in war)；n the act of spoiling something by causing damage to it；n the act of stripping and taking by force；v make a mess",
@@ -36053,7 +36053,7 @@
     },
     {
       "word": "troops",
-      "pinyin": "",
+      "pinyin": "/tɹuːps/",
       "zh_cn": "n. 军队, 装甲部队, 骑兵队, 部队",
       "zh_tw": "n. 軍隊, 裝甲部隊, 騎兵隊, 部隊",
       "en": "n soldiers collectively；n a group of soldiers；n a cavalry unit corresponding to an infantry company；n a unit of Girl or Boy Scouts；n an orderly crowd；v march in a procession；v move",
@@ -36293,7 +36293,7 @@
     },
     {
       "word": "wills",
-      "pinyin": "",
+      "pinyin": "/wɪlz/",
       "zh_cn": "n. 遗嘱；愿望（will的复数）",
       "zh_tw": "n. 遺囑；願望（will的複數）",
       "en": "n the capability of conscious choice and decision and intention；n a fixed and persistent intent or purpose；n a legal document declaring a person's wishes regarding the disposal of",
@@ -36317,7 +36317,7 @@
     },
     {
       "word": "teams",
-      "pinyin": "",
+      "pinyin": "/tiːmz/",
       "zh_cn": "n. 团队, 参赛队伍（team的复数形式）",
       "zh_tw": "n. 團隊, 參賽隊伍（team的複數形式）",
       "en": "n a cooperative unit (especially in sports)；n two or more draft animals that work together to pull something；v form a team",
@@ -36353,7 +36353,7 @@
     },
     {
       "word": "heroes",
-      "pinyin": "",
+      "pinyin": "/ˈhɪəɹəʊz/",
       "zh_cn": "n. 英雄（hero的复数形式）",
       "zh_tw": "n. 英雄（hero的複數形式）",
       "en": "n a man distinguished by exceptional courage and nobility and strength；n the principal character in a play or movie or novel or poem；n someone who fights for a cause；n Greek mathem",
@@ -36461,7 +36461,7 @@
     },
     {
       "word": "lads",
-      "pinyin": "",
+      "pinyin": "/lædz/",
       "zh_cn": "abbr. 低空探测系统（Low-Altitude Detection System）",
       "zh_tw": "abbr. 低空探測系統（Low-Altitude Detection System）",
       "en": "n a boy or man；n a male child (a familiar term of address to a boy)",
@@ -36473,7 +36473,7 @@
     },
     {
       "word": "lets",
-      "pinyin": "",
+      "pinyin": "/lɛts/",
       "zh_cn": "abbr. 地方交易系统（Local Exchange Trading System）",
       "zh_tw": "abbr. 地方交易系統（Local Exchange Trading System）",
       "en": "n a brutal terrorist group active in Kashmir; fights against India with the goal of restoring Islamic rule of India；n a serve that strikes the net before falling into the receiver'",
@@ -36545,7 +36545,7 @@
     },
     {
       "word": "marching",
-      "pinyin": "",
+      "pinyin": "/ˈmɑɹt͡ʃɪŋ/",
       "zh_cn": "[计] 步进式的",
       "zh_tw": "[計] 步進式的",
       "en": "n the act of marching; walking with regular steps (especially in a procession of some kind)；v march in a procession；v force to march；v walk fast, with regular or measured steps; wa",
@@ -36617,10 +36617,10 @@
     },
     {
       "word": "grr",
-      "pinyin": "",
+      "pinyin": "[ɡɚːː]",
       "zh_cn": "abbr. 大急流市（美国密歇根州一城市名, Grand Rapids）；量具的再现性与再生性（量测的再现性与再生性, Gauge Repetition and Reappearance）",
       "zh_tw": "abbr. 大急流市（美國密歇根州一城市名, Grand Rapids）；量具的再現性與再生性（量測的再現性與再生性, Gauge Repetition and Reappearance）",
-      "en": null,
+      "en": "interjection. Sound of an animal growl.；interjection. Expression of anger or disappointment.",
       "note": null,
       "is_difficult": true,
       "src": "Parade Song of the Camp Animals",

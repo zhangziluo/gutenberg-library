@@ -38,17 +38,62 @@
     （dist 101 MiB / 155 文件）。
 
 ## 已知待办（按优先级）
-1. ⚠️ **`fill_glosses.py` 联网预取极慢（性能 bug）**：step 2 的
-   `need = sorted(... G.en_word_needs_api(w) ...)` 中 ECDICT 分片被反复重新解析
-   （`sample` 显示热点 `builtins.sorted → _json.scan_once_unicode`），3000 预算跑 15 min
-   仍不足 200 条。本次已改用 `--no-network`（ECDICT 打底）。修复思路：按 `gloss_order()`
-   首字母聚簇遍历 / 预载分片，或直接去掉 step 2。
-2. ⚠️ **自动分类未接通**：`scripts/classify_books.py` 默认读 `data/books.json`（本项目**不存在**），
+1. ⚠️ **自动分类未接通**：`scripts/classify_books.py` 默认读 `data/books.json`（本项目**不存在**），
    且需 `DEEPSEEK_API_KEY`；`pipeline.sh` 已有守卫（缺失即提示跳过）。
-3. 📋 **待入库批次**：`文本/新书/i.txt` 11 本英文书（37106/1260/1661/174/2701/2600/1400/768/4300/2554/28054）
+2. 📋 **待入库批次**：`文本/新书/i.txt` 11 本英文书（37106/1260/1661/174/2701/2600/1400/768/4300/2554/28054）
    —— **用户指示暂不跑**。执行：`bash 文本/新书/add_books.sh --file 文本/新书/i.txt`
-4. 📋 英文释义可继续补全：修好性能后 `python3 文本/新书/fill_glosses.py --api-budget=8000`
-   （缓存 `data/ecdict_api_cache.json` 持久，可多次累积）。
+3. 📋 英文释义可继续补全：`python3 文本/新书/fill_glosses.py --api-budget=8000`
+   （缓存 `data/ecdict_api_cache.json` 持久，可多次累积；失败的词不写缓存，重跑自动续补）。
+
+## 第九批（2026-09-29）— `fill_glosses.py` 联网预取性能/正确性修复
+- **症状**：`--api-budget=3000` 跑 15 min 仍不足 200 条；`sample` 热点落在
+  `builtins.sorted → _json.scan_once_unicode`。
+- **根因 1（性能）：ECDICT 分片抖动**。step 2 用
+  `sorted(w for w in word_pys if G.is_english_word(w) and G.en_word_needs_api(w))`
+  ——生成器按**正文出现顺序**惰性求值，随机命中 a..z 各分片（26 片共 72 MiB，
+  LRU 仅驻留 3 片），几乎每次判定都要重新 `json.load` 一个 ~3 MiB 分片；
+  21,331 个英文词 ≈ 十几分钟（实测 >9 min 未跑完）。
+  **修复**：`gloss_lib.en_words_needing_api(words)` — 新增 `ecdict_letter_of()`
+  先算分片字母、排序聚簇后再逐词判定（屈折还原只改词尾，各候选原形首字母相同，
+  故每片只解析一次）。**实测 >9 min → 2.6 s**。
+- **根因 2（正确性）：断网污染缓存**。`_api_fetch` 全来源失败时仍返回 `{'en':'','ph':''}`，
+  `api_prefetch.work()` 无条件 `cache[k] = rec`，而 `en_word_needs_api` 见 key 存在即判
+  「无需补」→ 这 2075 个词被**永久钉死为无释义**（缓存 2176 条中 2075 条为空记录，
+  正是英文释义只有 90.3% 的来源）。
+  **修复**：`_api_fetch` 区分「有来源给出 HTTP 响应」（权威结果，含确无此词的空结果，
+  可缓存）与「全部来源网络异常」（`_transient`，**不写缓存**）；`api_en`/`api_prefetch`
+  据此跳过写入；新增 `api_drop_empty_cache()` 清理历史污染（本次清 2075 条，
+  可补词 3388 → 5455）。
+- **根因 3（真凶：整轮报废）**：`_api_request` 把词**原样拼进 URL**，而正文里的弯引号
+  `’`（`a’most`/`don’t`/`o’er`）等非 ASCII 字符会让 `urlopen` 抛
+  `UnicodeEncodeError: 'ascii' codec can't encode character '\u2019'`。这些词按字母序
+  **恰好排在队首** → 前 8~20 个请求连续失败 → 来源被误判不可用 → 剩余 5000 个词瞬间
+  全废（这正是「15 min 不足 200 条」的真凶）。
+  **修复**：新增 `_api_word_param()` —— 弯引号归一（`’`→`'`，与 `_en_base_forms` 一致）
+  + `urllib.parse.quote(..., safe='')` percent 编码。
+- **配套加固**：
+  - 熔断改为**可自愈冷却**（`_API_DEAD` 由 set 改为 name→到期时间戳，`API_DEAD_COOLDOWN=180s`
+    后自动复活；连续失败阈值 3 → 8），避免一次抖动永久废掉来源；
+  - 404/400 视为来源**权威答复「确无此词」**（可缓存空结果、不计失败、不触发冷却），
+    修掉「连续几个生僻词就误杀来源」的隐患；
+  - 429 单独处理：读 `Retry-After` → 全局冷却 + 自适应放大最小间隔（`_API_MIN`，上限 2s），
+    但**不计入失败**；
+  - `api_probe(tries=2)` 预检 + `set_api_interval()`/`--api-interval=秒` 可调间隔；
+  - `api_prefetch` 在「来源全部冷却且已全失败」时**提前中止**，不再空转几千词，
+    并打印各来源 `_API_LAST_ERR` 最近错误；返回 `(成功, 超预算, 失败)`；
+  - `_api_cache_save()` 快照写盘（避免与工作线程竞态）；`work()` 内补 `_API_DIRTY = True`
+    （原先增量存盘形同虚设）。
+- **实测结果**（`--api-budget=8000`，freedict 单源，3.3 词/秒，~25 min，失败 10 条）：
+  英文词 21,331 —— 英文释义 19,299 → **19,850（90.3% → 93.1%）**、
+  音标 16,426 → **18,062（76.4% → 84.7%）**、中文释义 20,178（94.6%）；
+  缓存 `data/ecdict_api_cache.json` 5,546 条（3,953 条有释义 + 1,593 条权威「确无」）。
+  仍缺英文释义的 1,481 个词**全部**已被词典标注「确无」（古拼写 `a’most`、拟声 `aaarh`、
+  专名 `abdalla`/`abramoff`、冷僻词 `acant` 等），非程序问题。
+  回填 218,170 条 → 24 文件；`deploy/build.sh` 重建 dist（101 MiB / 154 文件）。
+- **用法**：`python3 文本/新书/fill_glosses.py --api-budget=8000 [--api-interval=1]`；
+  失败词不写缓存，重跑自动续补（幂等）。
+
+
 
 ## 上一批（2026-09-17，已提交推送）
 - ✅ **英文书入库 + 英汉释义回填链路**：书库 94 → **106 本**

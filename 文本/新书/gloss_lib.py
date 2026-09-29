@@ -377,14 +377,20 @@ API_PROVIDERS = [
 ]
 API_TIMEOUT = 10
 API_FALLBACK_TIMEOUT = 4      # 备用源超时（失败时快速熔断）
-API_WORKERS = 6                # 并发请求数（对免费服务保持克制）
-API_MIN_INTERVAL = 0.15        # 全局最小请求间隔（秒）
+API_WORKERS = 4                # 并发请求数（对免费服务保持克制）
+API_MIN_INTERVAL = 0.25        # 全局最小请求间隔（秒），遇 429 会自适应放大
+API_MAX_INTERVAL = 2.0         # 自适应间隔上限
+API_FAILS_TO_DEAD = 8          # 连续失败多少次才让来源进入冷却
+API_DEAD_COOLDOWN = 180        # 来源「冷却」时长（秒），到期自动复活重试
 _API_CACHE = None
 _API_DIRTY = False
 _API_LOCK = None
 _API_LAST = [0.0]
-_API_DEAD = set()              # 连续失败后熔断的来源名
+_API_MIN = [API_MIN_INTERVAL]  # 自适应最小间隔（限流时放大）
+_API_COOLDOWN = [0.0]          # 限流冷却截止时间戳
+_API_DEAD = {}                 # 来源名 -> 冷却截止时间戳（到期自动复活）
 _API_FAILS = {}
+_API_LAST_ERR = {}             # 来源名 -> 最近一次异常摘要（诊断用）
 
 
 def _api_cache_path():
@@ -404,8 +410,9 @@ def _api_cache_save():
     p = _api_cache_path()
     try:
         os.makedirs(os.path.dirname(p), exist_ok=True)
+        snap = dict(_API_CACHE or {})            # 快照：避免与并发写入竞态
         with open(p, 'w', encoding='utf-8') as f:
-            json.dump(_API_CACHE, f, ensure_ascii=False, indent=0)
+            json.dump(snap, f, ensure_ascii=False, indent=0)
     except Exception:
         pass
 
@@ -459,49 +466,129 @@ def _parse_dictionaryapi(data):
     return '；'.join(glosses), ph
 
 
+def _api_word_param(word):
+    """URL 中的查询词：弯引号归一 + percent 编码。
+
+    正文常用弯引号 `’`（如 `a’most`），非 ASCII 字符直接拼进 URL 会抛
+    `UnicodeEncodeError: 'ascii' codec can't encode ...`；这些词按字母序恰好
+    排在队首，曾导致前 20 个请求连续失败 → 来源被误判不可用 → 整轮报废。
+    """
+    from urllib.parse import quote
+    w = (word or '').strip().lower().replace('\u2019', "'")
+    return quote(w, safe='')
+
+
 def _api_request(url, timeout=None):
-    """HTTP GET 一个词典 API（带全局最小间隔限速）。返回解析后的 JSON。"""
+    """HTTP GET 一个词典 API（全局自适应限速）。返回解析后的 JSON。
+
+    发出前先满足：①全局最小间隔 `_API_MIN`（遇 429 会自适应放大）；
+    ②限流冷却截止时间 `_API_COOLDOWN`。等待分段进行，冷却期间可被其它线程推进。
+    """
     import time
     import urllib.request
     lock = _API_LOCK
-    if lock is not None:
-        with lock:                                  # 限速：串行节流后再发请求
-            wait = API_MIN_INTERVAL - (time.time() - _API_LAST[0])
-            if wait > 0:
-                time.sleep(wait)
-            _API_LAST[0] = time.time()
+    while True:
+        wait = 0.0
+        if lock is None:                       # 单线程直调（如 api_probe）
+            break
+        with lock:
+            now = time.time()
+            wait = max(_API_LAST[0] + _API_MIN[0], _API_COOLDOWN[0]) - now
+            if wait <= 0:
+                _API_LAST[0] = now
+                break
+        if wait > 0:
+            time.sleep(min(wait, 5.0))
     req = urllib.request.Request(url, headers={'User-Agent': 'gutenberg-reader/1.0'})
     with urllib.request.urlopen(req, timeout=timeout or API_TIMEOUT) as r:
         return json.loads(r.read().decode('utf-8', 'replace'))
 
 
+def _api_dead_now():
+    """当前仍在冷却（不可用）的来源名集合。冷却到期后自动复活，可再次尝试。"""
+    import time
+    now = time.time()
+    return {n for n, until in _API_DEAD.items() if until > now}
+
+
+def set_api_interval(seconds):
+    """设置全局最小请求间隔（秒）；对免费词典服务越温柔越不容易被限流。"""
+    global API_MIN_INTERVAL
+    seconds = max(0.05, float(seconds))
+    API_MIN_INTERVAL = seconds
+    _API_MIN[0] = seconds
+
+
+def _api_note_fail(name, err=''):
+    """记录一次来源失败；连续失败达阈值则让该来源进入冷却（到期自动复活）。"""
+    import time
+    if err:
+        _API_LAST_ERR[name] = err
+    _API_FAILS[name] = _API_FAILS.get(name, 0) + 1
+    if _API_FAILS[name] >= API_FAILS_TO_DEAD:
+        _API_DEAD[name] = time.time() + API_DEAD_COOLDOWN
+        _API_FAILS[name] = 0
+
+
+def _api_note_429(retry_after=None):
+    """收到 429：进入冷却并放慢全局间隔（限流是暂时的，绝不能当成熔断依据）。"""
+    import time
+    _API_MIN[0] = min(_API_MIN[0] * 1.5, API_MAX_INTERVAL)
+    cool = retry_after or 30.0
+    _API_COOLDOWN[0] = max(_API_COOLDOWN[0],
+                           time.time() + min(max(cool, 5.0), 300.0))
+
+
 def _api_fetch(word):
-    """多源依次尝试，返回 {'en':…, 'ph':…}（全部失败则 {'en':'','ph':''}）。
+    """多源依次尝试，返回 {'en':…, 'ph':…}。
 
     某来源连续失败 3 次即熔断（本次运行内不再访问），
     避免备用源不可达时每次白等超时。
+
+    若**所有来源都因网络/HTTP 异常没能给出响应**，额外带 `_transient: True`
+    ——调用方据此决定「不写缓存」，避免一次断网把上千个词永久钉成「无释义」。
     """
     key = (word or '').strip().lower()
     if not key:
         return {'en': '', 'ph': ''}
+    import urllib.error
     en = ph = ''
+    answered = False                       # 是否有来源返回了有效响应（无论有无词条）
+    dead = _api_dead_now()                 # 快照：冷却中的来源本次跳过
     for idx, (name, tpl) in enumerate(API_PROVIDERS):
-        if name in _API_DEAD:
+        if name in dead:
             continue
         try:
-            data = _api_request(tpl % key,
+            data = _api_request(tpl % _api_word_param(key),
                                 timeout=API_TIMEOUT if idx == 0 else API_FALLBACK_TIMEOUT)
-        except Exception:
-            _API_FAILS[name] = _API_FAILS.get(name, 0) + 1
-            if _API_FAILS[name] >= 3:
-                _API_DEAD.add(name)
+        except urllib.error.HTTPError as e:
+            if e.code in (400, 404):
+                # 来源明确答复「无此词条」= 权威的「确无」，不算失败、不触发冷却，
+                # 否则连续几个生僻词就会把整个来源误杀（answered 置真 → 可缓存空结果）
+                answered = True
+                continue
+            if e.code == 429:
+                ra = None
+                try:
+                    ra = float((e.headers or {}).get('Retry-After') or 0) or None
+                except Exception:
+                    ra = None
+                _api_note_429(ra)      # 限流：冷却 + 放慢，但**不**计入失败计数
+                continue
+            _api_note_fail(name, 'HTTP %s' % e.code)
             continue
+        except Exception as e:
+            _api_note_fail(name, '%s: %s' % (type(e).__name__, str(e)[:80]))
+            continue
+        answered = True
         _API_FAILS[name] = 0
         en, ph = (_parse_freedict(data) if name == 'freedict'
                   else _parse_dictionaryapi(data))
         if en or ph:
             break
-    return {'en': en, 'ph': ph}
+    if answered:
+        return {'en': en, 'ph': ph}        # 权威结果（含「词典确无此词」的空结果）
+    return {'en': '', 'ph': '', '_transient': True}
 
 
 def api_en(word, use_network=True):
@@ -516,8 +603,9 @@ def api_en(word, use_network=True):
         return ''
     rec = _api_fetch(word)
     global _API_DIRTY
-    cache[key] = rec
-    _API_DIRTY = True
+    if not rec.get('_transient'):            # 临时失败不写缓存（下次可重试）
+        cache[key] = {'en': rec.get('en', ''), 'ph': rec.get('ph', '')}
+        _API_DIRTY = True
     return rec.get('en', '')
 
 
@@ -532,10 +620,15 @@ def api_phonetic(word):
 def api_prefetch(words, budget=0, progress=True):
     """并发预取一批英文词的网络释义（写入缓存）。budget=0 表示不限条数。
 
-    返回 (新增条数, 跳过条数)。缓存持久化，多次运行可逐步覆盖。
+    返回 (成功条数, 超预算跳过条数, 网络失败条数)。
+    - 只写「拿到 HTTP 响应」的结果（含「词典确无此词」的空结果）；
+      **网络异常/超时/来源全部熔断的临时失败不写缓存**，下次运行自动重试，
+      避免一次断网把上千个词永久钉成「无释义」。
+    - 缓存持久化（每 200 条增量存盘），多次运行可逐步覆盖、中断可续。
     """
     global _API_DIRTY, _API_LOCK
     import threading
+    import time
     from concurrent.futures import ThreadPoolExecutor
     cache = _api_cache()
     todo, seen = [], set()
@@ -550,23 +643,44 @@ def api_prefetch(words, budget=0, progress=True):
         skipped = len(todo) - budget
         todo = todo[:budget]
     if not todo:
-        return 0, skipped
+        return 0, skipped, 0
     _API_LOCK = threading.Lock()
-    done = [0]
+    done, failed = [0], [0]
+    abort = [False]
+    t0 = time.time()
 
     def work(k):
+        global _API_DIRTY
+        if abort[0]:                           # 来源全灭：不再空转
+            failed[0] += 1
+            done[0] += 1
+            return None
         rec = _api_fetch(k)
-        cache[k] = rec
+        if rec.get('_transient'):
+            failed[0] += 1                     # 网络不可靠：不写缓存，留给下次跑
+        else:
+            cache[k] = {'en': rec.get('en', ''), 'ph': rec.get('ph', '')}
+            _API_DIRTY = True
         done[0] += 1
+        if (not abort[0] and len(_api_dead_now()) >= len(API_PROVIDERS)
+                and done[0] >= 20 and failed[0] >= done[0]):
+            abort[0] = True
+            print('      ⚠️ 网络词典来源全部进入冷却 → 提前结束本轮'
+                  '（已取到的结果已存盘，稍后重跑自动续补）', flush=True)
+            for n, msg in _API_LAST_ERR.items():
+                print('         %s 最近错误: %s' % (n, msg), flush=True)
         if progress and done[0] % 200 == 0:
-            _api_cache_save()                        # 增量存盘，中断可续
-            print(f'      … 网络词典 {done[0]}/{len(todo)}', flush=True)
+            _api_cache_save()                  # 增量存盘，中断可续
+            el = time.time() - t0
+            print('      … 网络词典 %d/%d（%.0fs，%.1f 词/秒，跳过失败 %d）'
+                  % (done[0], len(todo), el, done[0] / max(el, 1e-6), failed[0]),
+                  flush=True)
         return rec
 
     with ThreadPoolExecutor(max_workers=API_WORKERS) as ex:
         list(ex.map(work, todo))
     _API_DIRTY = True
-    return len(todo), skipped
+    return len(todo) - failed[0], skipped, failed[0]
 
 
 def api_flush():
@@ -607,6 +721,87 @@ def en_word_needs_api(word):
     if not v:
         return True
     return not (v.get('en') and v.get('ph'))
+
+
+def ecdict_letter_of(word):
+    """该词查 ECDICT 时落在哪个分片字母（聚类遍历用）。
+
+    `_en_base_forms` 的各个候选原形首字母相同（屈折还原只改词尾），
+    所以「先算字母→排序→再判定」可保证每个分片只被解析一次。
+    """
+    for cand in _en_base_forms(word):
+        ch = cand[0]
+        return ch if (ch.isascii() and ch.isalpha()) else 'other'
+    return 'other'
+
+
+def en_words_needing_api(words):
+    """批量判定「哪些英文词需要网络词典补充」，返回 (need, 英文词总数)。
+
+    ECDICT 按首字母分片存放（单片最大约 7 MiB，共 70+ MiB），查询只走 3 格 LRU；
+    若按正文出现顺序随机判定，分片会被反复换入换出——21k 英文词要十几分钟。
+    这里先按分片字母聚簇再判定，每片只解析一次（实测 15 min → 15 s 量级）。
+    need 保留原拼写、按 (分片字母, 小写) 排序并去重。
+    """
+    en = [w for w in words if is_english_word(w)]
+    en.sort(key=lambda w: (ecdict_letter_of(w), w.lower()))
+    need, seen = [], set()
+    for w in en:
+        k = (w or '').strip().lower()
+        if not k or k in seen:
+            continue
+        seen.add(k)
+        if en_word_needs_api(w):
+            need.append(w)
+    return need, len(en)
+
+
+def api_probe(timeout=None, tries=2):
+    """预检网络词典可达性，返回可用来源名列表；确实不可达的来源进入冷却。
+
+    每个来源最多试 `tries` 次（限流 429 只警告不冷却），避免单次抖动误杀；
+    预检本身只花几秒，却能避免无网时对每个词白等 10~14 秒超时。
+    """
+    import time
+    alive = []
+    for name, tpl in API_PROVIDERS:
+        if name in _api_dead_now():
+            continue
+        for _ in range(max(1, tries)):
+            try:
+                _api_request(tpl % _api_word_param('serendipity'),
+                             timeout=timeout or API_FALLBACK_TIMEOUT)
+            except Exception as e:
+                code = getattr(e, 'code', None)
+                if code == 429:
+                    _api_note_429()
+                    alive.append(name)      # 可达但限流：算可用，交给冷却处理
+                    break
+                continue
+            _API_FAILS[name] = 0
+            alive.append(name)
+            break
+        else:
+            _API_DEAD[name] = time.time() + API_DEAD_COOLDOWN
+    return alive
+
+
+def api_drop_empty_cache():
+    """清掉缓存里「无英文释义且无音标」的空记录，返回清除条数。
+
+    历史上断网运行会把每个词的 fetch 结果（空）写进缓存，
+    而 `en_word_needs_api` 见 key 存在即判「无需补」，导致这些词被永久钉死。
+    新代码已不再写入临时失败的记录；本函数用于清理旧的污染缓存并触发重试。
+    """
+    global _API_DIRTY
+    cache = _api_cache()
+    drop = [k for k, v in cache.items() if not ((v or {}).get('en') or (v or {}).get('ph'))]
+    for k in drop:
+        cache.pop(k, None)
+    if drop:
+        _API_DIRTY = True
+        _api_cache_save()
+    return len(drop)
 
 
 def en_word_rare(word, hard_rank=20000):

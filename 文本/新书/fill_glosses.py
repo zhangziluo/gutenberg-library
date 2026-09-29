@@ -19,6 +19,7 @@ fill_glosses.py — 释义回填（中文：CC-CEDICT / 新华字典 / 人工精
 用法：
   python3 fill_glosses.py                    # 中文 + 英文（英文缺英文释义时调网络词典 API）
   python3 fill_glosses.py --api-budget=8000  # 放大网络词典请求预算（缓存持久，可多次运行累积）
+  python3 fill_glosses.py --api-interval=1   # 放慢请求（默认 0.25s；被限流时调大更稳妥）
   python3 fill_glosses.py --no-network       # 离线：英文只用 ECDICT 打底
 """
 import glob
@@ -26,6 +27,7 @@ import json
 import os
 import subprocess
 import sys
+import time
 
 import gloss_lib as G
 
@@ -248,10 +250,16 @@ def backfill_files(glosses, trad_map):
 def main():
     no_network = '--no-network' in sys.argv        # 离线模式：只用 ECDICT 打底
     api_budget = 3000                              # 网络词典每次运行最多请求词数
+    api_interval = None                            # 全局最小请求间隔（秒），None=用库默认
     for a in sys.argv:
         if a.startswith('--api-budget='):
             try:
                 api_budget = int(a.split('=', 1)[1])
+            except ValueError:
+                pass
+        elif a.startswith('--api-interval='):
+            try:
+                api_interval = float(a.split('=', 1)[1])
             except ValueError:
                 pass
     print('== 1) 汇总全注释词')
@@ -266,11 +274,28 @@ def main():
     if no_network:
         print('   跳过（离线模式）')
     else:
-        need = sorted(w for w in word_pys if G.is_english_word(w)
-                      and G.en_word_needs_api(w))
-        fetched, skipped = G.api_prefetch(need, budget=api_budget)
-        print(f'   待取 {len(need)}，本次请求 {fetched}'
-              + (f'，超预算跳过 {skipped}（可重跑或调大 --api-budget）' if skipped else ''))
+        if api_interval:
+            G.set_api_interval(api_interval)
+        t0 = time.time()
+        need, n_en = G.en_words_needing_api(word_pys)
+        print('   候选判定: 英文词 %d → 需网络 %d（%.1fs；按 ECDICT 分片字母聚簇遍历）'
+              % (n_en, len(need), time.time() - t0))
+        alive = G.api_probe()                      # 无网时几秒内冷却，不逐词白等超时
+        if not alive:
+            print('   ⚠️ 网络词典不可达（来源均不可用，已在 %ds 后自动复活）→ 本轮跳过，'
+                  '先用 ECDICT 打底；稍后重跑本命令即可续补' % G.API_DEAD_COOLDOWN)
+        else:
+            print('   可用来源: %s（间隔 %.2fs）'
+                  % (', '.join(alive), G.API_MIN_INTERVAL))
+            fetched, skipped, failed = G.api_prefetch(need, budget=api_budget)
+            msg = '   本次成功 %d' % fetched
+            if failed:
+                msg += '，网络失败 %d（不写缓存，下次自动重试）' % failed
+            if skipped:
+                msg += '，超预算跳过 %d（可重跑或调大 --api-budget）' % skipped
+            print(msg)
+            for n, err in G._API_LAST_ERR.items():
+                print('   · %s 最近错误: %s' % (n, err))
 
     print('== 3) 计算释义')
     overrides = G.overrides()
