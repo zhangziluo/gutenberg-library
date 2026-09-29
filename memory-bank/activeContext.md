@@ -31,6 +31,7 @@
     `网站/_site_data/菜根譚前後集.json`，重建 `library-index.json`（105 本：經 9 / 史 5 / 子 76 / 集 7 /
     近現代 8）、`_site_data/books.json`（113 本）与 `books-data.json`（113 本）。
     `raw/24040.txt` 保留作证据；`BOOK_YEAR/BOOK_DESC` 中的「菜根譚前後集」条目为无害遗留（换到正确源可直接复用）。
+    另从 `wordbank_pending.json` 裁去 36 个「已不在任何现存书注释里」的乱码孤儿字（7130 → 7094）。
   - 回归链：106 本全量 `_build_one` **0 异常 / 0 空切分** → 入库 29 本 →
     `fill_glosses.py --no-network`（58 文件 / 218,482 条；简繁 91.7%、英文 94.6%；
     英文词 21,331 → 中文释义 94.6%、英文释义 90.3%、音标 76.4%）→ `deploy/build.sh`
