@@ -61,6 +61,7 @@ vocab_extract.py — 词汇抽取与分词（古登堡英文 + 繁体中文；�
 import collections
 import datetime
 import glob
+import importlib
 import json
 import os
 import re
@@ -226,7 +227,13 @@ class JiebaSegmenter:
     """
 
     def __init__(self, words, hmm=False, min_dict_freq=100):
-        import jieba
+        # jieba 是**可选依赖**（见文件头：缺失时 build_zh_segmenter 捕获 ImportError 并降级
+        # 为双向最大匹配）。这里用 importlib 动态导入而不是 `import jieba` 语句：语义完全
+        # 相同（未安装同样抛 ImportError，调用方照旧降级），但静态检查器不再把「当前解释器
+        # 没装 jieba」报成 “无法解析导入 jieba”（Pylance / reportMissingImports）——
+        # 各人用的解释器与虚拟环境不同（本项目 .venv 已装 jieba），装了就走 jieba，
+        # 没装也不该在编辑器里显示红波浪线。
+        jieba = importlib.import_module('jieba')
         self.hmm = hmm
         self.mine = set(w for w, _ in words)
         self.min_freq = max(0, int(min_dict_freq or 0))

@@ -1527,3 +1527,28 @@ body {
 .ann-rare { border-bottom-style: solid; border-bottom-width: 1.5px; }
 .ann-rare:hover { background: rgba(158, 43, 37, .16); }
 
+/* ---- 词级标注：<wise>（自定义行内元素）----
+   打标由 js/vocab-matcher.js 完成：命中整体包一个 <wise>（类名仍带 ann-word/ann-rare…），
+   不做单字散列 → 文本节点不被过度拆分，移动端不出现排版错位。
+   注意：display:inline + word-break:keep-all 让整词尽量不跨行断开（必要时才折行）。 */
+wise {
+  display: inline;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  border-radius: 2px;
+}
+wise:focus-visible { outline: 2px solid rgba(158, 43, 37, .5); outline-offset: 1px; }
+.ann-multi { border-bottom-style: dotted; border-bottom-width: 2px; }
+/* 词表词（有词边界、暂无释义）：虚线更浅，与有释义的词区分 */
+.ann-vocab { border-bottom-color: rgba(26, 26, 26, .25); }
+.ann-vocab:hover { background: rgba(26, 26, 26, .06); }
+/* 词卡：整词无释义时列出成分字 */
+.ann-pop-parts {
+  margin-top: 8px;
+  padding-top: 6px;
+  border-top: 1px dashed var(--line, #e9e5df);
+}
+.ann-pop-part { display: flex; gap: 10px; font-size: 13px; line-height: 1.8; }
+.ann-pop-part b { font-family: var(--font-serif); min-width: 1.6em; color: var(--ink); }
+.ann-pop-part span { flex: 1; color: var(--ink-soft); }
+

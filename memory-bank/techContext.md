@@ -16,12 +16,20 @@
 - 部署方式：Cloudflare Pages，根目录 = `网站`，构建命令 `exit 0`（纯静态直出，不跑 deploy/build.sh）。
 - 最近提交：`afe688d`「更新书库: 新增12本, 更新94本」（252 文件 / +1,928,324 −133,223）→ 已推送。
 
+> **追加核查（2026-09-29 晚）**：新增前端词表 `网站/_site_data/vocab_final.json`（45,161 行 **6 元**：
+> 词形/简体形/词次/书数/**definition**/**need_ai**；**2.89 MiB** / 3,028,165 B，md5 `db8c77bf0ad554a6fda3cbe02bb2364e`，
+> 生成 `2026-09-29T23:05:48`）→ `_site_data` 共 **115 个 JSON**，最大单文件仍 Walden / 施公案（~4.0 MiB）。
+> 新增 `tests/vocab-matcher/`（6 文件，**不进部署产物**）；`dist/` ≈ 102 MiB（本地/备用，未跟踪）。
+> 词表 2.89 MiB ≪ 25 MiB 上限（`definition_fill.py` 在 >24 MiB 时告警）。
+
 ## 部署要点
 - `网站/_redirects`：仅含旧分类地址的 301 规则。
 - `网站/js/common.js`：`DATA_BASE = '_site_data/'`，按 `_site_data/{書名}.json` 按需拉取单书。
 - 首页（`index.html`）由 `daily-sentence.js`（每日一句）/ `home-search.js`（全站搜索）/ `daily-gua.js`（今日一卦）驱动，不依赖 `js/index.js`。
-- `网站/js/reader.js`：注释层按 `annotations[].word` 贪心匹配（按长度降序 + 首字索引）；
-  对 ASCII 词另做**大小写不敏感**匹配并输出**原文大小写**。
+- `网站/js/reader.js`：正文渲染 + 简繁转换 + 注释小卡；**打标交给 `js/vocab-matcher.js`**
+  （中文 Trie 最长前缀匹配、英文整词正则 → `<wise data-word data-key>`；TreeWalker + 空闲分批）。
+  旧实现（`annotations[].word` 贪心 + 首字索引的**字符滑动**匹配）已删除——它会把 `mornin'` 截成
+  `mornin`、把中文词拆成单字散列。
 
 ## 数据与脚本（文本/新书/）
 - `gutenberg_import.py`：古登堡新书全流程（下载 → 清洗 → 切分 → 注音/难词注释 → 合并到 `_site_data`）。
@@ -47,12 +55,42 @@
   `--selftest`（规则回归）、`--dry-run`。**依赖 `jieba`**（`pip3 install --user --break-system-packages jieba`；
   缺失自动降级双向最大匹配）。全库默认 ≈2.5 min / 8.1 万条 / ~18 MiB。
 - `slim_books_index.py`：把 books.json 重建为轻量索引（构建产物也调用）。
+- `build_vocab_final.py`：把 `vocab_raw.json` 收敛成**前端词表** `网站/_site_data/vocab_final.json`
+  （默认 45,161 条中文多字词 = `[词形, 简体形, 全库词次, 书数]`，**4 元行版本 0.92 MiB**；不收单字，`--with-en` 才收英文词）。
+  CLI：`--min-freq/--min-len-zh/--min-len-en/--dry-run/--selftest`；写后回读校验（可解析 + 行数一致 +
+  词形合法：中文纯 CJK、英文最大词形）。阅读页 `js/vocab-matcher.js` 用它建 Trie 定**词边界**；
+  `_headers` 给它加了 1 天浏览器缓存。（产出为 4 元行；**释义由下一步 `definition_fill.py` 补成 6 元**。）
+- `definition_fill.py`（**新增 2026-09-29 晚**，29.6 KB）：给词表**回填释义** —— 4 元行 → 6 元行
+  `[词形, 简体形, 词次, 书数, definition, need_ai]`，前端词卡因此可**不依赖单书 `annotations`** 显示词义。
+  来源链（整词 → 单字 → 逐字合成 → `待补`）、繁简对齐（`char_variants`）、自我引用清理（`strip_self_ref`）
+  与硬保证详见 systemPatterns。**前置**：先跑 `build_vocab_final.py`。
+  CLI：`--dry-run / --limit / --out / --zh-word-src / --no-auto-zh-src / --max-len / --network / --selftest`
+  （自检 26 项，全绿）。实测：45,161 行 / 有释义 12,947（28.7%，**全部 need_ai**）/ 待补 32,214 /
+  **2.89 MiB**。词级中文源（`shuowen.json` / `kangxi.json` / `cedict_words.json` / `hanyu_words.json`）
+  **仓库暂无**（`data/` 只有单字源）→ 多字词目前只能逐字合成或 `待补`；放入即自动命中，无需改代码。
 - `tradify.js` / `pinyin_helper.js`：opencc 简→繁、pinyin-pro 注音（node 子进程）。
 - `scripts/classify_books.py`：DeepSeek 自动分类（四部 + 英文 level）。**当前未接通**：默认输入
   `data/books.json` 不存在，且需 `DEEPSEEK_API_KEY`；`pipeline.sh` 已加守卫，缺失即跳过。
 
+## 测试（`tests/vocab-matcher/`，本地开发用，**不进部署产物**）
+- 6 文件：`dom-shim.js`（极简 DOM）/ `dom-test.js`（21 项）/ `integration-test.js`（26 项：真实书 JSON +
+  真实 `vocab_final.json` + opencc 简繁）/ `definition-show-test.js`（jsdom 真实页面，6 项）/
+  `reader-smoke-test.js`（14 项，`BOOK=` 换书）/ `README.md`（跑法）。
+- 跑法（**仓库无根 `package.json`**，jsdom 装在 `/tmp`，用 `JSDOM_PATH` 指定）：
+  ```bash
+  node -e "const V=require('./网站/js/vocab-matcher.js');console.log(V.selftest().pass)"  # 66
+  node tests/vocab-matcher/dom-test.js && node tests/vocab-matcher/integration-test.js     # 21 / 26
+  npm i --prefix /tmp/vmtest jsdom && export JSDOM_PATH=/tmp/vmtest/node_modules/jsdom     # 首次
+  node tests/vocab-matcher/definition-show-test.js && node tests/vocab-matcher/reader-smoke-test.js
+  ```
+- 当前状态（2026-09-29 晚，对最终 `vocab_final.json`）：**66/0、21/0、26/0、6/0、14/0 全绿**。
+
 ## 本地环境注意事项
 - **本机无 `python`，只有 `python3`**；shell 为 **bash 3.2**（`set -u` 下空数组展开、`$VAR` 紧跟多字节字符
   均会出错，写脚本须用 `${VAR}` 且避免空数组裸展开）。
+- **VS Code 终端 shell integration 不稳**（2026-09-29）：偶发不上报命令完成（显示
+  「Command exited with code 1」但进程仍在跑），且**终端一次只应跑一条长任务**——新命令会尝试复用/关闭旧终端，
+  把正在跑的回填进程杀掉，留下半截输出或旧版本产物（曾导致 `vocab_final.json` 被上一轮写盘覆盖）。
+  长命令一律 `cmd > /tmp/x.out 2>&1` 重定向 → **读文件**确认 `EXIT=`/统计行；用 `ps`/`stat` 核对产物 mtime。
 - 网络到 `raw.githubusercontent.com`、`gutendex.com`、`api.dictionaryapi.dev` 均很慢或不稳定：
   大文件（ECDICT 63 MiB）建议 `git clone` 取；联网步骤可能耗时数十分钟，脚本已内置重试/熔断/缓存。

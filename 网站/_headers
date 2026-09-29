@@ -3,3 +3,7 @@
   Cache-Control: max-age=86400
 /library/sentence-manifest.json
   Cache-Control: max-age=86400
+
+# 前端词汇表（2.89 MiB：词边界 + 逐词释义）缓存 1 天：阅读页每次都要用，避免每翻一篇重下
+/_site_data/vocab_final.json
+  Cache-Control: max-age=86400

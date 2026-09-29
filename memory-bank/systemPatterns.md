@@ -40,6 +40,9 @@
 - `pipeline.sh` = ①`fill_glosses.py` ②`classify_books.py` ③`deploy/build.sh` ④`git add -A`+commit+push。
   开关：`--no-push` / `--no-commit` / `--no-classify` / `--offline` / `--classify-input <文件>`；自动载入项目根 `.env`。
 - 两者都**自推项目根**（`SELF` 绝对路径 → 上溯两级），可在任意目录调用；`--help` 读自身头部注释。
+- **词表链路尚未接入 `pipeline.sh`**（2026-09-29 待办）：新书入库后若要刷新前端词表/释义，需手动按序跑
+  `vocab_extract.py`（全库 ≈2.5 min）→ `build_vocab_final.py` → `definition_fill.py` → `deploy/build.sh`。
+  是否做成 `pipeline.sh --vocab` 可选步骤待定（不默认跑：词表是**全库聚合**产物，逐本入库时没必要每次重算）。
 - 写脚本的硬约束（bash 3.2 + CJK）：变量展开一律 `${VAR}`（`$VAR` 紧跟全角字符会被并入变量名）；
   不用空数组裸展开（`set -u` 会报 unbound）；`set -e` 下避免 `[ ... ] && cmd` 作语句。
 
@@ -61,6 +64,61 @@
 - **粒度** `--granularity=word|book|chapter`：word（默认，每词一条，全库聚合，~8.1 万条 / ~18 MiB）
   / book（词 × 书，含 `chapters` 章号压缩串）/ chapter（词 × 书 × 章，即需求字面格式）。
 - 复原/回归：`--selftest`（对抗性样例：Buda-Pesth / don’t / 变音符 / 数字 / 低频噪声词条 / 自定义词表）。
+
+## 前端标注（`网站/js/vocab-matcher.js`）
+- **一处收口**：中文切词（词边界）+ 英文整词 + `<wise>` 渲染 + 词条查询，全在这一个模块里；
+  `reader.js` 只负责渲染正文、简繁转换与词卡。**无构建步骤**（ES5 UMD，浏览器 `window.VocabMatcher`、
+  Node 里 `require` 可跑自检），与 `网站/` 直出 Cloudflare Pages 的形态一致。
+- **算法**：
+  - 中文：`网站/_site_data/vocab_final.json`（`build_vocab_final.py` ← `vocab_raw.json`）建 **Trie**，
+    在 **CJK 连续段内**做最长前缀匹配（Max Match，`不知 > 不 + 知`）→ 词内**不再散成单字**；
+    整词无释义但成分字有释义 → 整词一个标签 + `data-parts`（词卡列成分字）。
+  - **行内释义（2026-09-29 晚新增）**：词表行 = `[词形, 简体形, 词次, 书数, definition, need_ai]`
+    （`build_vocab_final.py` 4 元 → `definition_fill.py` 回填 6 元）。`hasDef()` 认 `definition`
+    （`待补/待補/TBD/空白` 一律不算）并计入 `isGloss()` ⇒ **词表词只要行内有释义就能打标**
+    （`kind:gloss/all/rare` 判定与密度过滤同步放行）；`need_ai` 只影响词卡标签（`AI 待補`），不影响打标。
+    无释义的词表词仍按旧规则包 `<wise class="… ann-vocab">` + `data-parts` 走成分字兜底。
+  - 英文：**整词**正则（拉丁字母 + 词内连接符 + 词尾省略撇号，边界锚定）；
+    查找链 整词 → 去词尾省略撇号（`mornin'`→`mornin`）→ 去所有格（`Lear's`→`lear`）
+    → 仅在连接符处拆段（`old-fashioned`）。**绝不在字母中间切**（旧实现会把 `mornin'` 截成 `mornin`）。
+- **渲染契约**：`<wise data-word="完整词形" data-key="词典键" data-lang="zh|en" class="ann-word …">`
+  （旧 `.ann-word/.ann-hard/.ann-rare` 类名保留 → CSS/点击逻辑不必改；词卡标题取 `data-word`）。
+- **性能**：TreeWalker 收集文本节点 → `requestIdleCallback` 分批写 DOM（每片 ~6 ms，可取消，
+  无该 API 则 `setTimeout(8)`）；只对**确有命中**的节点 `replaceChild` 一次（移动端不排错位）。
+- **密度与开关**：`window.VOCAB_WRAP = 'gloss'(默认) | 'all' | 'rare'`；`window.VOCAB_FINAL_URL = null`
+  可关掉词表（仅用 annotations 单字）。
+- **硬保证（自检逐条断言）**：分段拼回 == 原文本（textContent 不变 → 复制/下载/划选/AI 不受影响）、
+  英文命中为最大词形、中文命中不跨 CJK 段、重叠取最长。
+  `VocabMatcher.selftest()` **66 项（v1.2.0）**；浏览器 `reader.html?vmselftest=1`（纯函数 + DOM 两套）。
+  端到端回归在 `tests/vocab-matcher/`（见 techContext）：纯函数 66 / DOM 21 / 集成 26 / 页面冒烟 14。
+
+## 词表释义回填（definition_fill.py，2026-09-29 晚新增）
+- 目标：让**词表本身**带释义 → 词卡不必依赖单书 `annotations`（跨书共用一份词义）。
+  输入/输出同一个 `网站/_site_data/vocab_final.json`：4 元行 → **6 元行**（`definition`, `need_ai`）。
+- **来源链（逐级降级，全部离线）**：
+  1. **整词**：`gloss_override.json`（人工精编）→ **词级中文源**（`--zh-word-src` 或多个路径；
+     自动发现 `data/` 下 `cedict_words.json`/`shuowen.json`/`kangxi.json`/`hanyu_words.json`）→ need_ai=false；
+  2. **单字兜底**：整词无解时，按字查 单字人工覆盖 → 新华字典 → CC-CEDICT（英文释义）→ makemeahanzi；
+  3. **逐字合成**：`君：①…；子：①…`（**need_ai=true**，标注为弱释义，供前端提示待精修）；
+  4. 全部无解 → `待补`（need_ai=false，前端不显示、不算释义）。
+- **英文词**（词表默认不含）：整词精确匹配（**禁前缀/子串**）→ ECDICT 中/英 → `ecdict_api_cache` 缓存；
+  `--network` 才发网络请求。
+- **繁体与简繁对齐**：
+  - 繁体单字键缺失 → **按字回退简体键**（`無學` → `无` + `學`）；
+  - **`char_variants()`**：从词表自身推繁↔简单字对应（同长行 `無學`/`无学` 逐位取异 ⇒ 無↔无、學↔学），
+    返回 `{字: {对应字…}}`，实测 **3,264 个单字键**（补齐 `trad_simp_map.json` 覆盖不到的漏网字）。
+- **`strip_self_ref(t, *chars)`**：剥掉**行首**的「同'X'：」自我引用 —— 正则锚定
+  `^同\s*['“"]?\s*X\s*['”"]?\s*[：:]\s*`，X 取「本字 + 其繁简对应字」（新华字典的异体/形近交叉引用：
+  `無` 与简体 `无` 的释文都以「同'無'：」起头）。**只剥行首、只剥 X 命中者**：释义**中间**的正常引用
+  照旧保留（全库 1,458 行含「可同'否'」「词尾，同'么'」，不可一概删净）。
+  实测：全库以「同'X'：」开头的释文 **0 行**。
+- **文件结构**：`{"_meta": {...}, "zh": [行…], "en": [行…]}`（4→6 元行数组；`_meta.definition` 记
+  `generated` / 生成器 / `zh.pending` / `zh.zh-composite` / `zh._need_ai` / `zh_word_sources` / `sources`）。
+- **硬保证（自检不过即不落盘）**：行数不变、每行 6 元、**前四元逐项一致**（词形/简体/词次/书数不被改写）、
+  `need_ai` 为布尔、词形仍合法；`.part` 原子替换 + 写后回读。`--selftest` 26 项（含 strip_self_ref /
+  char_variants / 整词优先 / 英文禁前缀 / 幂等）。
+- CLI：`--dry-run`、`--limit N --out 路径`、`--zh-word-src`、`--no-auto-zh-src`、`--max-len`、`--network`、`--selftest`。
+- 规模（全库实测）：45,161 行 / 有释义 12,947（28.7%，**全部 need_ai**）/ 待补 32,214 / 2.89 MiB。
 
 ## 其它关键模式
 - **注释三语释义**：annotation 条目 = `word/pinyin/zh_cn/zh_tw/en/note/multi/rare`；

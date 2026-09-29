@@ -65,26 +65,69 @@ const POS_PREFIX = 'gjs:pos:';
   const origParas = sec.paragraphs || [];
   const origNotes = sec.notes || [];
 
-  // ---- 注释层：读取当前书 annotations（顶层数组：word/pinyin/zh_cn/zh_tw/en/…）----
+  // ---- 注释层：词汇表（vocab_final.json 提供词边界）+ 本书 annotations（提供释义）----
+  //   打标由 vocab-matcher 负责：中文 Trie 最长前缀匹配、英文整词正则 →
+  //   命中整体包 <wise data-word=完整词形 data-key=词典键>；空闲分批，不阻塞首屏。
   const annList = book.annotations || [];
-  const annMap = new Map();
-  (annList || []).forEach(function (a) { if (a && a.word) annMap.set(a.word, a); });
-  // 贪心匹配键：按长度降序，避免长词被其中的单字注释截胡
-  const annKeys = Array.from(annMap.keys()).sort(function (x, y) { return y.length - x.length; });
-  // 首字索引：正文按首字取候选词，避免逐位置遍历整表
-  // 英文词（词表存小写）另加首字母大小写别名，使句首大写的 Creature 也能命中
-  const annFirst = new Map();
-  function annIndex(c, w) {
-    const arr = annFirst.get(c);
-    if (arr) { if (arr.indexOf(w) < 0) arr.push(w); }
-    else annFirst.set(c, [w]);
+  const annMap = new Map();                                   // 词典键 → 词条（释义兜底查这里）
+  annList.forEach(function (a) { if (a && a.word) annMap.set(a.word, a); });
+  let matcher = null, matcherPromise = null, annPassSeq = 0;
+
+  /** 密度策略：gloss（默认，只标有释义的词）| all（词表命中全标）| rare（只标重难多音） */
+  function wrapMode() {
+    const m = window.VOCAB_WRAP;
+    return (m === 'all' || m === 'rare' || m === 'gloss') ? m : 'gloss';
   }
-  annKeys.forEach(function (w) {
-    const c = w.charAt(0);
-    annIndex(c, w);
-    if (c >= 'a' && c <= 'z') annIndex(c.toUpperCase(), w);
-    else if (c >= 'A' && c <= 'Z') annIndex(c.toLowerCase(), w);
-  });
+  /** 词表条目：window.VOCAB_FINAL_URL === null 可显式关闭；缺失/离线静默降级为「只用 annotations」 */
+  function loadVocabRows() {
+    if (window.VOCAB_FINAL_URL === null) return Promise.resolve([]);
+    if (window.VOCAB_FINAL) {
+      const d = window.VOCAB_FINAL;
+      return Promise.resolve(Array.isArray(d) ? d : [].concat(d.words || [], d.zh || [], d.en || []));
+    }
+    const url = typeof window.VOCAB_FINAL_URL === 'string' ? window.VOCAB_FINAL_URL : DATA_BASE + 'vocab_final.json';
+    return loadJSON(url).then(function (d) {
+      return Array.isArray(d) ? d : [].concat(d.words || [], d.zh || [], d.en || []);
+    }).catch(function () { return []; });
+  }
+  /** annotations 词条：繁体单字键补简体形（opencc 兜底）→「繁→简」显示模式也能命中 */
+  function annEntriesForMatcher() {
+    const conv = ensureConverters().tw2cn;
+    if (!conv) return annList;
+    return annList.map(function (a) {
+      if (!a || !a.word || a.simp || /[A-Za-z]/.test(a.word)) return a;
+      let s = '';
+      try { s = conv(a.word) || ''; } catch (e) { s = ''; }
+      return (s && s !== a.word) ? Object.assign({}, a, { simp: s }) : a;
+    });
+  }
+  function ensureMatcher() {
+    if (matcherPromise) return matcherPromise;
+    matcherPromise = loadVocabRows().then(function (rows) {
+      if (!window.VocabMatcher) return null;                  // 脚本未加载 → 纯文本阅读
+      matcher = VocabMatcher.build(annEntriesForMatcher().concat(rows), { mode: wrapMode() });
+      return matcher;
+    });
+    return matcherPromise;
+  }
+  /** 渲染后空闲分批打标（重渲染/换档 → 代次 +1，旧任务自动作废） */
+  function annotateBody() {
+    const body = document.getElementById('reader-body');
+    if (!body) return;
+    let seq = ++annPassSeq;
+    const idle = (window.requestIdleCallback || function (fn) { return setTimeout(fn, 16); });
+    idle(function () {                                        // 建词表（~200ms）也让出首屏
+      if (seq !== annPassSeq) return;
+      ensureMatcher().then(function (m) {
+        if (!m || seq !== annPassSeq) return;
+        m.annotate(body, {
+          mode: wrapMode(),
+          maxWords: 4000,                                     // 单篇上限（防御性；超长正文不卡）
+          allow: function (e) { return annLevelAllows(e); }
+        });
+      }).catch(function () { /* 打标失败不影响阅读 */ });
+    });
+  }
 
   function annLangNow() {
     try { if (window.AnnLang) return AnnLang.get(); } catch (e) { /* 脚本未加载时走兜底 */ }
@@ -93,10 +136,16 @@ const POS_PREFIX = 'gjs:pos:';
       return (v === 'zh_cn' || v === 'zh_tw' || v === 'en') ? v : 'zh_tw';
     } catch (e) { return 'zh_tw'; }
   }
+  /** 释义占位值：这些不算「有释义」（与 vocab-matcher 的 PENDING_DEF 对齐） */
+  const ANN_VAGUE_DEF = /^(待补|待補|TBD)$/;
+  /** 词卡释义：当前语言槽（zh_cn/zh_tw/en）→ 词表行自带的 definition 兜底 */
   function annGlossText(entry) {
     if (!entry) return '';
     const v = entry[annLangNow()];
-    return (typeof v === 'string' && v.trim()) ? v : '';
+    if (typeof v === 'string' && v.trim()) return v;
+    const d = entry.definition;                                // vocab_final.json 的 definition
+    if (typeof d === 'string' && d.trim() && !ANN_VAGUE_DEF.test(d.trim())) return d;
+    return '';
   }
   function annPlaceholder() {
     const l = annLangNow();
@@ -136,39 +185,13 @@ const POS_PREFIX = 'gjs:pos:';
     if (lv === 'intermediate') return !!(entry && entry.rare);
     return true;
   }
-  /** 段落 HTML：按注释词表贪心打标；原文（繁/简视 textMode）不动，仅加包裹 span */
+  /**
+   * 段落 HTML：只做转义 + 简繁转换。
+   * 打标（<wise>）由 vocab-matcher 在渲染后的 DOM 上做（TreeWalker + 最长匹配），
+   * 这样不会再出现「按字符索引滑窗」把 mornin' 截成 mornin、把中文词拆成单字的问题。
+   */
   function buildParaHtml(orig) {
-    if (!orig) return '';
-    if (!annKeys.length) return esc(convertText(orig));
-    let out = '', i = 0, n = orig.length;
-    while (i < n) {
-      let hit = null;
-      const cands = annFirst.get(orig.charAt(i));
-      if (cands) {
-        for (let k = 0; k < cands.length; k++) {
-          const w = cands[k];
-          if (orig.startsWith(w, i)) { hit = w; break; }
-          // 英文词大小写不敏感（词表为小写；正文受句首/专名影响可能大写）
-          if (w.length <= n - i
-              && orig.substr(i, w.length).toLowerCase() === w.toLowerCase()) { hit = w; break; }
-        }
-      }
-      if (hit) {
-        const e = annMap.get(hit);
-        if (annLevelAllows(e)) {
-          out += '<span class="ann-word' + (e && e.is_difficult ? ' ann-hard' : '')
-            + (e && e.rare ? ' ann-rare' : '') + '" data-ann="' + esc(hit) + '">'
-            + esc(convertText(orig.substr(i, hit.length))) + '</span>';
-        } else {
-          out += esc(convertText(orig.substr(i, hit.length)));
-        }
-        i += hit.length;
-      } else {
-        out += esc(convertText(orig[i]));
-        i += 1;
-      }
-    }
-    return out;
+    return orig ? esc(convertText(orig)) : '';
   }
 
   function loadTextMode() {
@@ -208,6 +231,7 @@ const POS_PREFIX = 'gjs:pos:';
 
   // 正文渲染（正文 + 独立注释层），按 textMode 实时转换；原文始终只保留一份在内存
   function renderReader() {
+    if (matcher) matcher.cancel();                            // 作废上一轮未跑完的打标
     const paras = origParas.map(p => `<p>${buildParaHtml(p)}</p>`).join('') || '<p>（本篇无正文）</p>';
     const notesHtml = (origNotes.length) ? `
       <div class="reader-notes">
@@ -233,6 +257,8 @@ const POS_PREFIX = 'gjs:pos:';
     document.querySelectorAll('.textmode-btn').forEach(b => {
       b.classList.toggle('active', b.dataset.mode === textMode);
     });
+
+    annotateBody();                                           // 空闲分批打标（不阻塞渲染）
   }
 
   renderReader();
@@ -241,55 +267,101 @@ const POS_PREFIX = 'gjs:pos:';
   const annPopEl = document.createElement('div');
   annPopEl.className = 'ann-pop';
   document.body.appendChild(annPopEl);
-  let annPopWord = null;
+  let annPopNode = null;                                       // 当前打开的 <wise>
 
-  function fillAnnPop(word, entry) {
-    const gloss = annGlossText(entry);
+  /** 词典键 / 显示词形 → 词条（先查本书 annotations，再查合并词表） */
+  function annLookup(key, word) {
+    if (key && annMap.has(key)) return annMap.get(key);
+    if (word && annMap.has(word)) return annMap.get(word);
+    if (matcher) {
+      const e = matcher.lookup(key) || (word !== key ? matcher.lookup(word) : null);
+      if (e) return e;
+    }
+    return null;
+  }
+
+  /** 词卡：data-word 是**完整词形**（含 mornin' 的词尾撇号），data-key 才是词典键 */
+  function fillAnnPop(el) {
+    const word = el.getAttribute('data-word') || '';
+    const key = el.getAttribute('data-key') || word;
+    const entry = annLookup(key, word);
+    const freq = parseInt(el.getAttribute('data-freq') || '0', 10);
+    const books = parseInt(el.getAttribute('data-books') || '0', 10);
+    const parts = (el.getAttribute('data-parts') || '').split('|').filter(Boolean);
     const py = (entry && entry.pinyin) ? entry.pinyin : '';
+
     annPopEl.textContent = '';
     const head = document.createElement('div');
     head.className = 'ann-pop-head';
     const w = document.createElement('b');
-    w.textContent = word;
+    w.textContent = word;                                      // ← 完整词形（如 mornin'）
     head.appendChild(w);
     if (py) { const p = document.createElement('span'); p.className = 'ann-pop-py'; p.textContent = py; head.appendChild(p); }
     const lg = document.createElement('span'); lg.className = 'ann-pop-lang'; lg.textContent = annLangLabel(); head.appendChild(lg);
     annPopEl.appendChild(head);
+
     const body = document.createElement('div');
     body.className = 'ann-pop-body';
-    if (annLevelFullGloss(entry)) {
-      body.textContent = gloss || (py ? py + ' · ' + annPlaceholder() : annPlaceholder());
+    if (entry && entry.note && !annLevelFullGloss(entry)) {
+      body.textContent = entry.note;                           // 进阶档：多音字只给注音提示
     } else {
-      // 进阶档：常见多音字只给注音提示，不展开释义
-      body.textContent = (entry && entry.note) || '多音字，讀音須依文意而定。';
+      const gloss = annGlossText(entry);
+      if (gloss) {
+        body.textContent = gloss + (key !== word ? '（詞形 ' + key + '）' : '');
+      } else if (freq) {
+        body.textContent = '全庫出現 ' + freq + ' 次 · 見於 ' + books + ' 本 · ' + annPlaceholder();
+      } else {
+        body.textContent = py ? py + ' · ' + annPlaceholder() : annPlaceholder();
+      }
     }
     annPopEl.appendChild(body);
-    if (entry && entry.rare) {
-      const tag = document.createElement('div'); tag.className = 'ann-pop-tag'; tag.textContent = '重難字';
-      annPopEl.appendChild(tag);
-    } else if (entry && entry.multi) {
-      const tag = document.createElement('div'); tag.className = 'ann-pop-tag'; tag.textContent = '多音字';
-      annPopEl.appendChild(tag);
+
+    if (parts.length) {                                        // 整词无释义 → 列成分字释义
+      const box = document.createElement('div');
+      box.className = 'ann-pop-parts';
+      parts.forEach(function (pw) {
+        const pe = annLookup(pw, pw);
+        const line = document.createElement('div');
+        line.className = 'ann-pop-part';
+        const b = document.createElement('b');
+        b.textContent = pw;
+        line.appendChild(b);
+        const t = document.createElement('span');
+        const pg = annGlossText(pe);
+        t.textContent = pg || (pe && pe.pinyin ? pe.pinyin + ' · ' + annPlaceholder() : annPlaceholder());
+        line.appendChild(t);
+        box.appendChild(line);
+      });
+      annPopEl.appendChild(box);
+    }
+
+    let tag = '';
+    if (entry && entry.rare) tag = '重難字';
+    else if (entry && entry.multi) tag = '多音字';
+    else if (!annGlossText(entry) && freq) tag = '詞表詞';
+    else if (entry && entry.need_ai) tag = 'AI 待補';   // 释义为逐字合成/缺失 → 标注待精修
+    if (tag) {
+      const t = document.createElement('div'); t.className = 'ann-pop-tag'; t.textContent = tag;
+      annPopEl.appendChild(t);
     }
     annPopEl.classList.add('show');
   }
-  function showAnnPopByWord(word) {
-    const entry = annMap.get(word);
-    if (!entry) return;
-    annPopWord = word;
-    fillAnnPop(word, entry);
+  function showAnnPop(el) {
+    if (!el) return;
+    annPopNode = el;
+    fillAnnPop(el);
   }
-  function hideAnnPop() { annPopWord = null; annPopEl.classList.remove('show'); }
+  function hideAnnPop() { annPopNode = null; annPopEl.classList.remove('show'); }
 
   reader.addEventListener('click', function (e) {
-    const w = e.target.closest('.ann-word');
-    if (w) { showAnnPopByWord(w.getAttribute('data-ann')); }
+    const el = e.target.closest ? e.target.closest('wise, .ann-word') : null;
+    if (el) { showAnnPop(el); }
     else if (!e.target.closest('.ann-pop')) { hideAnnPop(); }
   });
   document.addEventListener('scroll', hideAnnPop, true);
   // 切注释语言 → 已打开的小卡即时换文案（正文/页面不刷新）
   document.addEventListener('annlangchange', function () {
-    if (annPopWord && annMap.has(annPopWord)) showAnnPopByWord(annPopWord);
+    if (annPopNode && annPopNode.isConnected) fillAnnPop(annPopNode);
   });
 
   // anchor 高亮：滚动到包含该句的段落并短暂高亮（句子池跳转）
