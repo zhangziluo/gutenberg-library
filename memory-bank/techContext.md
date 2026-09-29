@@ -41,6 +41,11 @@
   - CLI：`--no-network`（离线）/ `--api-budget=N`（网络请求预算）。
 - `parse_ecdict.py`：下载并解析 ECDICT（MIT）→ 生成按首字母分片的英词释义库与常用词表（本地数据，已 gitignore）。
 - `add_books.sh` / `pipeline.sh`：一键入库与收尾流水线（详见 systemPatterns）。
+- `vocab_extract.py`：词汇抽取与分词（英文正则词形 + 中文 jieba/双向最大匹配），产出
+  `文本/新书/vocab_raw.json`。CLI：`--granularity=word|book|chapter`、`--min-freq-zh/-en`、
+  `--contexts/--ctx-width/--books-max`、`--select/--select-file`（划选词）、`--zh-dict/--min-dict-freq`、
+  `--selftest`（规则回归）、`--dry-run`。**依赖 `jieba`**（`pip3 install --user --break-system-packages jieba`；
+  缺失自动降级双向最大匹配）。全库默认 ≈2.5 min / 8.1 万条 / ~18 MiB。
 - `slim_books_index.py`：把 books.json 重建为轻量索引（构建产物也调用）。
 - `tradify.js` / `pinyin_helper.js`：opencc 简→繁、pinyin-pro 注音（node 子进程）。
 - `scripts/classify_books.py`：DeepSeek 自动分类（四部 + 英文 level）。**当前未接通**：默认输入

@@ -29,3 +29,6 @@ sk-93db2782485c47cf86591daccb9b94ca
 文本/新书/data/ecdict_en/
 文本/新书/data/common_words_en.json
 文本/新书/data/ecdict_api_cache.json
+
+# 词汇抽取产物（vocab_extract.py；体积大，可随时重生成）
+文本/新书/vocab_raw.json
