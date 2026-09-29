@@ -25,26 +25,28 @@
     Walden/A Little Princess 各 19、Jungle Book 14、Wind in the Willows 12、一枕奇/六祖壇經 各 10、
     公孫龍子/穆天子傳 各 6、明鏡公案/洞冥記 各 4、三略 3、傳法心要 2。
   - **仍保持「整本一节」**（原文本无标题结构可切，合理保留）：幽明錄、菜根譚、李娃傳、虬髯客傳。
+  - **#24040《菜根譚前後集》已撤下书库**（用户拍板，2026-09-29）：古登堡**官方源**正文整体乱码
+    （例：`頦菜鈭亦剝剖亙蝎寧銋拙嗆`），重新下载字节完全一致，且 big5/gbk/cp950/euc-* 互转全部失败
+    → **编码不可逆**。处理：从 `quick_books.json` 删除 `pg24040`，删 `data/books/pg24040.json`、
+    `网站/_site_data/菜根譚前後集.json`，重建 `library-index.json`（105 本：經 9 / 史 5 / 子 76 / 集 7 /
+    近現代 8）、`_site_data/books.json`（113 本）与 `books-data.json`（113 本）。
+    `raw/24040.txt` 保留作证据；`BOOK_YEAR/BOOK_DESC` 中的「菜根譚前後集」条目为无害遗留（换到正确源可直接复用）。
   - 回归链：106 本全量 `_build_one` **0 异常 / 0 空切分** → 入库 29 本 →
     `fill_glosses.py --no-network`（58 文件 / 218,482 条；简繁 91.7%、英文 94.6%；
     英文词 21,331 → 中文释义 94.6%、英文释义 90.3%、音标 76.4%）→ `deploy/build.sh`
     （dist 101 MiB / 155 文件）。
 
 ## 已知待办（按优先级）
-1. ⚠️ **菜根譚前後集 #24040 源文件错码（待拍板）**：古登堡官方 `pg24040.txt` 正文整体乱码
-   （例：`頦菜鈭亦剝剖亙蝎寧`），**重新下载字节完全一致** → 非下载问题；且
-   big5/gbk/cp950/euc-* 互转均失败 → **编码不可逆**。方案 A：另取正确源（维基文库等）替换 raw；
-   方案 B：从书库撤下（#24050《菜根譚》已可读）。
-2. ⚠️ **`fill_glosses.py` 联网预取极慢（性能 bug）**：step 2 的
+1. ⚠️ **`fill_glosses.py` 联网预取极慢（性能 bug）**：step 2 的
    `need = sorted(... G.en_word_needs_api(w) ...)` 中 ECDICT 分片被反复重新解析
    （`sample` 显示热点 `builtins.sorted → _json.scan_once_unicode`），3000 预算跑 15 min
    仍不足 200 条。本次已改用 `--no-network`（ECDICT 打底）。修复思路：按 `gloss_order()`
    首字母聚簇遍历 / 预载分片，或直接去掉 step 2。
-3. ⚠️ **自动分类未接通**：`scripts/classify_books.py` 默认读 `data/books.json`（本项目**不存在**），
+2. ⚠️ **自动分类未接通**：`scripts/classify_books.py` 默认读 `data/books.json`（本项目**不存在**），
    且需 `DEEPSEEK_API_KEY`；`pipeline.sh` 已有守卫（缺失即提示跳过）。
-4. 📋 **待入库批次**：`文本/新书/i.txt` 11 本英文书（37106/1260/1661/174/2701/2600/1400/768/4300/2554/28054）
+3. 📋 **待入库批次**：`文本/新书/i.txt` 11 本英文书（37106/1260/1661/174/2701/2600/1400/768/4300/2554/28054）
    —— **用户指示暂不跑**。执行：`bash 文本/新书/add_books.sh --file 文本/新书/i.txt`
-5. 📋 英文释义可继续补全：修好性能后 `python3 文本/新书/fill_glosses.py --api-budget=8000`
+4. 📋 英文释义可继续补全：修好性能后 `python3 文本/新书/fill_glosses.py --api-budget=8000`
    （缓存 `data/ecdict_api_cache.json` 持久，可多次累积）。
 
 ## 上一批（2026-09-17，已提交推送）
