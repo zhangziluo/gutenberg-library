@@ -119,6 +119,10 @@ def extract_body(lines):
 # ---------------------------------------------------------------
 SENT_END = ('。', '！', '？', '」', '：', '∶', '；')
 
+# 「作者：X」「Author: X」独立成段：该行不以句读收尾，
+# 若不特判会与紧接的正文首句黏连（如唐詩三百首「作者：張九齡孤鴻海上來…」）
+AUTHOR_LINE_RE = re.compile(r'^(?:作者|Author)\s*[:：]')
+
 
 def paragraphs(body):
     paras = []
@@ -129,6 +133,13 @@ def paragraphs(body):
             if cur:
                 paras.append('\n'.join(cur))
                 cur = []
+            continue
+        if AUTHOR_LINE_RE.match(s):
+            # 「作者：X」单独成段，绝不与下一行正文黏连
+            if cur:
+                paras.append('\n'.join(cur))
+                cur = []
+            paras.append(s)
             continue
         if cur and not cur[-1].endswith(SENT_END):
             cur[-1] += s          # 折行接续
