@@ -2327,6 +2327,54 @@ def source_label(src):
     return src or '古登堡计划'
 
 
+# 批注者（四大名著等；其余留空，可后续按书补充）
+COMMENTATOR = {
+    '水滸傳': '金聖歎', '三國演義': '毛宗崗',
+    '西遊記': '李卓吾', '紅樓夢': '脂硯齋',
+}
+
+
+def source_url_from(src):
+    """由来源串推导 source_url（古登堡 → gutenberg.org/ebooks/{gid}；维基文库暂空）。"""
+    m = re.search(r'#\s*(\d+)', src or '')
+    if m:
+        return 'https://www.gutenberg.org/ebooks/' + m.group(1)
+    return ''
+
+
+def license_from(src):
+    """由来源串推导许可（古登堡 → 公有领域；维基文库 → 维基文库许可）。"""
+    s = (src or '').lower()
+    if 'wikisource' in s or '维基' in s or '維基' in s:
+        return '维基文库许可'
+    return '公有领域'
+
+
+def _stable_hash(s):
+    h = 0
+    for ch in s:
+        h = (h * 31 + ord(ch)) & 0xffffffff
+    return h
+
+
+def _placeholder_read_count(book_id):
+    return _stable_hash('rc:' + book_id) % 900 + 10
+
+
+def _placeholder_added_at(book_id):
+    m = _stable_hash('at:' + book_id) % 12 + 1
+    d = _stable_hash('ad:' + book_id) % 28 + 1
+    return '2026-%02d-%02d' % (m, d)
+
+
+def highlights_for(raw):
+    """由单书数据合成「本版特色」标签。"""
+    tags = ['繁體']
+    if raw.get('annotations'):
+        tags.append('注音釋義')
+    return tags
+
+
 def merge_to_site():
     """按 library-index 重写阅读器单书文件 + books.json + books-data.json（含 catalog 主书）。"""
     lib_index = json.load(open(os.path.join(ROOT, 'library-index.json'), encoding='utf-8'))
@@ -2350,11 +2398,19 @@ def merge_to_site():
                 json.dump(reader, f, ensure_ascii=False, indent=2)
             books_index[title] = books_index_entry(title, reader)   # books.json 仅存轻量目录
             merged_books.append({
-                'id': key, 'title': title, 'author': raw.get('author', '佚名'),
+                'id': key, 'book_id': key, 'title': title, 'author': raw.get('author', '佚名'),
+                'commentator': COMMENTATOR.get(title, ''),
                 'category': ckey, 'subcategory': sub, 'dynasty': DYN.get(title, ''),
+                'summary': DESC.get(title, raw.get('subcategory', '')),
                 'description': DESC.get(title, raw.get('subcategory', '')),
+                'highlights': highlights_for(raw),
                 'sections': reader['section_count'],
+                'chapter_count': reader['section_count'],
                 'source': source_label(entry.get('source', '')),
+                'source_url': source_url_from(entry.get('source', '')),
+                'license': license_from(entry.get('source', '')),
+                'added_at': _placeholder_added_at(key),
+                'read_count': _placeholder_read_count(key),
                 'cover': '',
             })
             done.add(title)
@@ -2369,13 +2425,21 @@ def merge_to_site():
             if title in done:
                 continue
             merged_books.append({
-                'id': CATALOG_ID.get(title, title), 'title': title,
+                'id': CATALOG_ID.get(title, title), 'book_id': CATALOG_ID.get(title, title), 'title': title,
                 'author': b.get('author', '佚名'),
+                'commentator': COMMENTATOR.get(title, ''),
                 'category': ckey, 'subcategory': '',
                 'dynasty': DYN.get(title, ''),
+                'summary': b.get('intro', ''),
                 'description': b.get('intro', ''),
+                'highlights': ['繁體'],
                 'sections': (books_index.get(title) or {}).get('section_count'),
+                'chapter_count': (books_index.get(title) or {}).get('section_count'),
                 'source': '古登堡计划',
+                'source_url': '',
+                'license': '公有领域',
+                'added_at': _placeholder_added_at(CATALOG_ID.get(title, title)),
+                'read_count': _placeholder_read_count(CATALOG_ID.get(title, title)),
                 'cover': '',
             })
             done.add(title)
