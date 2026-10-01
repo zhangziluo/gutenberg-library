@@ -6,6 +6,7 @@
   <title>书库 · 经史子集丛 · 一堆古书</title>
   <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/library.css">
 </head>
 <body>
   <header class="site-header">
@@ -27,10 +28,25 @@
     </div>
   </header>
 
-  <main class="container lib-wrap">
+  <main class="lib-grid-wrap">
     <h1 class="lib-title">📚 书库 · 经史子集丛</h1>
     <p class="lib-sub" id="lib-sub">五部分类 · 正在加载藏书目录…</p>
-    <div id="lib-parts"></div>
+
+    <div class="lib-toolbar">
+      <div class="lib-tabs" id="lib-tabs"></div>
+      <select class="lib-sort" id="lib-sort" title="排序">
+        <option value="hot">热门</option>
+        <option value="new">最新</option>
+        <option value="title">书名</option>
+      </select>
+      <div class="lib-search">
+        <span aria-hidden="true">🔍</span>
+        <input id="lib-search-input" type="text" placeholder="搜书名 / 作者" autocomplete="off" aria-label="筛选搜索">
+      </div>
+    </div>
+
+    <div class="lib-grid" id="lib-grid"></div>
+    <nav class="lib-pagination" id="lib-pagination" aria-label="分页" hidden></nav>
     <div id="lib-error" class="notice error" hidden></div>
   </main>
 
@@ -42,92 +58,7 @@
   </footer>
 
   <script src="js/common.js"></script>
-  <script>
-  'use strict';
-  (async function () {
-    const DATA_URL = 'assets/data/books-data.json';
-    const partsEl = document.getElementById('lib-parts');
-    const subEl = document.getElementById('lib-sub');
-    const errEl = document.getElementById('lib-error');
-
-    const PART_NAME = { jing: '經部', shi: '史部', zi: '子部', ji: '集部', cong: '叢部' };
-    const ORDER = ['jing', 'shi', 'zi', 'ji', 'cong'];
-
-    function esc(s) { return String(s).replace(/[&<>"']/g, c => ({
-      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
-    }[c])); }
-
-    function cardHTML(b) {
-      const dynTag = b.dynasty ? `<span class="cat-tag cat-dyn">${esc(b.dynasty)}</span>` : '';
-      const srcTag = b.source ? `<span class="cat-tag cat-src">${esc(b.source)}</span>` : '';
-      const tags = dynTag + srcTag;
-      const meta = b.sections ? `共 ${b.sections} 篇` : '';
-      return `<a class="lib-book" href="book.html?book=${encodeURIComponent(b.title)}">
-          <div class="lib-book-head"><span class="lib-book-name">${esc(b.title)}</span>${tags ? `<span class="lib-book-tags">${tags}</span>` : ''}</div>
-          <div class="lib-book-author">${esc(b.author)} 著</div>
-          ${b.description ? `<p class="lib-book-intro">${esc(b.description)}</p>` : ''}
-          <div class="lib-book-meta">${meta}</div>
-          <span class="lib-book-enter">進入閱讀 →</span>
-        </a>`;
-    }
-
-    try {
-      const data = await loadJSON(DATA_URL);
-      const descs = data.categories || {};
-      const books = data.books || [];
-      const totalBy = {};
-      let html = '';
-
-      for (const key of ORDER) {
-        const list = books.filter(b => b.category === key);
-        totalBy[key] = list.length;
-        const name = PART_NAME[key];
-
-        if (key === 'ji') {
-          const classic = list.filter(b => b.subcategory !== 'modern');
-          const modern = list.filter(b => b.subcategory === 'modern');
-          html += `<section class="lib-part">
-            <div class="lib-part-head">
-              <span class="lib-part-name">${esc(name)}</span>
-              <span class="lib-part-desc">${esc(descs.ji || '')}</span>
-              <span class="lib-part-count">${list.length} 種</span>
-              <a class="lib-part-all" href="/category/ji" title="查看全部 · 集部">查看全部 →</a>
-            </div>`;
-          if (classic.length) {
-            html += `<h3 class="lib-sub-block">古典文學</h3><div class="lib-books">${classic.map(cardHTML).join('')}</div>`;
-          }
-          if (modern.length) {
-            html += `<h3 class="lib-sub-block">現代文學</h3><div class="lib-books">${modern.map(cardHTML).join('')}</div>`;
-          }
-          if (!classic.length && !modern.length) {
-            html += `<div class="lib-empty">集部藏書整理中，敬請期待 🌳</div>`;
-          }
-          html += `</section>`;
-          continue;
-        }
-
-        html += `<section class="lib-part">
-            <div class="lib-part-head">
-              <span class="lib-part-name">${esc(name)}</span>
-              <span class="lib-part-desc">${esc(descs[key] || '')}</span>
-              <span class="lib-part-count">${list.length} 種</span>
-              <a class="lib-part-all" href="/category/${key}" title="查看全部 · ${esc(name)}">查看全部 →</a>
-            </div>
-            ${list.length
-              ? `<div class="lib-books">${list.map(cardHTML).join('')}</div>`
-              : `<div class="lib-empty">${esc(name)}藏書整理中，敬請期待 🌳</div>`}
-          </section>`;
-      }
-
-      partsEl.innerHTML = html;
-      subEl.textContent = `五部分類 · 共 ${books.length} 種典籍（經 ${totalBy.jing} · 史 ${totalBy.shi} · 子 ${totalBy.zi} · 集 ${totalBy.ji} · 叢 ${totalBy.cong}）`;
-    } catch (e) {
-      errEl.hidden = false;
-      errEl.textContent = '无法加载藏书目录：' + e.message +
-        '。请通过本地 HTTP 服务器访问（python3 -m http.server）。';
-    }
-  })();
-  </script>
+  <script src="js/library.js"></script>
   <script src="js/global-ai.js"></script>
 <!-- 全站搜索移动端浮层 -->
   <div id="search-overlay" role="dialog" aria-label="搜索">

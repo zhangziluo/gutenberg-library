@@ -1,0 +1,305 @@
+/* ============================================================
+   一堆古书 · 书库（封面网格）—— 单独样式
+   依赖 style.css 的 CSS 变量；书库页禁装饰性动画，仅允许
+   卡片悬停 transform 0.2s 与点击反馈。
+   ============================================================ */
+
+/* ---------- 布局容器 ---------- */
+.lib-grid-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+
+.lib-title {
+  font-family: var(--font-serif);
+  font-size: 30px;
+  letter-spacing: 6px;
+  margin: 22px 0 4px;
+}
+
+.lib-sub {
+  color: var(--ink-soft);
+  font-size: 13px;
+  margin: 0 0 18px;
+}
+
+/* ---------- 筛选栏 ---------- */
+.lib-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 16px;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 22px;
+}
+
+.lib-tabs {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.lib-tab {
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--ink-soft);
+  font-size: 14px;
+  padding: 5px 13px;
+  border-radius: 20px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.lib-tab:hover { color: var(--accent); }
+
+.lib-tab.is-active {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: rgba(158, 43, 37, 0.05);
+}
+
+.lib-sort {
+  border: 1px solid var(--line);
+  background: var(--paper-light);
+  color: var(--ink);
+  font-size: 13px;
+  padding: 5px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.lib-search {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 5px 12px;
+  background: var(--paper-light);
+}
+
+.lib-search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 13px;
+  width: 150px;
+  color: var(--ink);
+}
+
+/* ---------- 封面网格 ---------- */
+.lib-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 18px;
+}
+
+/* ---------- 卡片 ---------- */
+.book-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.book-card:active { transform: scale(0.98); }
+
+.book-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(26, 26, 26, 0.12);
+}
+
+/* ---------- 封面（纯 CSS 渲染） ---------- */
+.book-card-cover {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f7f3ea;
+  box-shadow: 0 2px 8px rgba(26, 26, 26, 0.14);
+}
+
+.book-card-cover::before {
+  content: '';
+  position: absolute;
+  inset: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+/* 五部分类 + 总书库配色 */
+.cover-jing   { background: #26466b; }
+.cover-shi    { background: #9a5b2e; }
+.cover-zi     { background: #2f5340; }
+.cover-ji     { background: #4c3a63; }
+.cover-cong   { background: #4a4a4a; }
+.cover-all    { background: #8a6d3b; }
+
+.cover-title {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: "Kaiti SC", "STKaiti", "KaiTi", "TW-Kai", "DFKai-SB", serif;
+  font-size: 23px;
+  letter-spacing: 5px;
+  max-height: 74%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* 长书名降字号，避免竖排溢出 */
+.cover-title.long { font-size: 17px; letter-spacing: 3px; }
+
+.cover-author {
+  position: absolute;
+  left: 50%;
+  bottom: 34px;
+  transform: translateX(-50%);
+  writing-mode: vertical-rl;
+  font-size: 11px;
+  opacity: 0.86;
+  max-height: 42%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.cover-cat {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  opacity: 0.85;
+  writing-mode: vertical-rl;
+}
+
+.cover-badge {
+  position: absolute;
+  right: 7px;
+  bottom: 7px;
+  font-size: 15px;
+  line-height: 1;
+  filter: drop-shadow(0 1px 1px rgba(0,0,0,0.35));
+}
+
+/* 悬停显示的简介 */
+.book-card-summary {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 26px 10px 10px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #fff;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.72));
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.book-card:hover .book-card-summary { opacity: 1; }
+
+/* ---------- 卡片底部信息 ---------- */
+.book-card-body {
+  padding: 8px 2px 0;
+}
+
+.book-card-name {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  letter-spacing: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.book-card-meta {
+  color: var(--ink-soft);
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 2px;
+}
+
+.book-card-meta .src-tag { color: var(--accent); }
+
+/* ---------- 分页（控件 CSS ≤ 50 行） ---------- */
+.lib-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.lib-pagination[hidden] { display: none; }
+
+.page-btn {
+  border: 1px solid var(--line);
+  background: var(--paper-light);
+  color: var(--ink);
+  min-width: 34px;
+  height: 34px;
+  padding: 0 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.page-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+
+.page-btn:disabled { opacity: 0.35; cursor: default; }
+
+.page-num {
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--ink);
+  min-width: 34px;
+  height: 34px;
+  padding: 0 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.page-num:hover { color: var(--accent); }
+
+.page-num.is-active {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.page-total {
+  color: var(--ink-soft);
+  font-size: 13px;
+  margin-left: 4px;
+}
+
+/* ---------- 空状态 / 加载 ---------- */
+.lib-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--ink-soft);
+  padding: 60px 20px;
+  font-size: 14px;
+}
+
+/* ---------- 响应式 ---------- */
+@media (max-width: 1180px) { .lib-grid { grid-template-columns: repeat(5, 1fr); } }
+@media (max-width: 900px)  { .lib-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (max-width: 720px)  { .lib-grid { grid-template-columns: repeat(3, 1fr); gap: 14px; } }
+@media (max-width: 480px)  { .lib-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; } }
+
