@@ -3,15 +3,18 @@
 """
 gutendex_client.py — Gutendex（gutendex.com）元数据客户端
 ========================================================
-Gutendex 是 Project Gutenberg 元数据的第三方 JSON 检索服务，**只提供元数据**
-（书名/作者/语言/主题/格式链接/下载量），不提供正文下载代理；
-正文下载仍走 gutenberg_import.book_urls_by_id 的原 files/cache 三链接。
+Gutendex 是 Project Gutenberg 元数据的第三方 JSON 检索服务，提供书名/作者/
+语言/主题/格式链接/下载量。本项目的**古登堡书源默认走 Gutendex**：
+  · 元数据：search_books / get_book（gutenberg_import 的元数据链默认来源）
+  · 正文直链：text_urls()（取自 formats 字段 text/plain），
+    gutenberg_import 下载时优先尝试；files/cache 三链接仅作兜底。
 
 本模块把全部 Gutendex 调用集中在此，便于日后换自托管实例或加缓存。
 
 对外接口：
   search_books(params: dict) -> list[dict]      # 透传查询参数，自动按 next 翻页
-  get_book(gutenberg_id: str) -> dict | None    # 单书原始 book 对象
+  get_book(gutenberg_id: str) -> dict | None    # 单书原始 book 对象（进程内缓存）
+  text_urls(gutenberg_id: str) -> list[str]     # 正文纯文本直链（text/plain）
   normalize_gutendex_book(raw: dict) -> dict    # → 统一字段格式
 
 约定：
@@ -33,6 +36,7 @@ RETRY_BASE_DELAY = 0.6      # 首次退避 0.6s → 1.2s → 2.4s
 TIMEOUT = 30
 
 _LAST = [0.0]
+_BOOK_CACHE = {}            # gutenberg_id -> 原始 book 对象（进程内缓存，含 None）
 
 
 def _pace():
@@ -96,12 +100,35 @@ def search_books(params, max_results=0, max_pages=0):
 
 
 def get_book(gutenberg_id):
-    """取单本书的原始 Gutendex book 对象；无此书/不可用返回 None。"""
+    """取单本书的原始 Gutendex book 对象；无此书/不可用返回 None。
+    进程内缓存：同一编号只请求一次（元数据与正文直链共用同一份响应）。"""
     gid = str(gutenberg_id).strip()
     if not gid:
         return None
+    if gid in _BOOK_CACHE:
+        return _BOOK_CACHE[gid]
     data = _get_json('%s/books/%s' % (GUTENDEX_BASE, urllib.parse.quote(gid)))
-    return data if isinstance(data, dict) and data.get('id') is not None else None
+    result = data if isinstance(data, dict) and data.get('id') is not None else None
+    _BOOK_CACHE[gid] = result
+    return result
+
+
+def text_urls(gutenberg_id):
+    """Gutendex 提供的正文纯文本直链（text/plain 各编码，去重保序）。
+
+    无此书 / 不可用 / 无 text/plain 格式时返回 []，
+    由调用方（gutenberg_import.book_urls_by_id）降级到 files/cache 兜底链接。"""
+    raw = get_book(gutenberg_id)
+    if not raw:
+        return []
+    fmt = raw.get('formats') or {}
+    out = []
+    for key in ('text/plain; charset=utf-8', 'text/plain; charset=us-ascii',
+                'text/plain; charset=iso-8859-1', 'text/plain'):
+        v = fmt.get(key)
+        if v and v not in out:
+            out.append(v)
+    return out
 
 
 def normalize_gutendex_book(raw):

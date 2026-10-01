@@ -6,7 +6,8 @@
 一条命令完成：下载 TXT → 清洗 → 切分 → 按「数据已迁至 网站/_site_data」的新结构四处输出。
 
   * 下载：顺序执行、每本间隔 ≥5s、不并行；已下载跳过；失败退避(5s/10s/20s)
-          重试 ≤3 次；files/ 首选链接 404 自动切 cache/epub 备用
+          重试 ≤3 次；**书源默认走 Gutendex**（其 formats 的 text/plain 直链优先，
+          files/{id}.txt → -0 → cache/epub 三链接兜底）
   * 清洗：截取 START/END OF THE PROJECT GUTENBERG EBOOK 之间正文；
           删除开头结尾英文元数据（Produced by/Title:/Author:/Release date/
           Language:/书名:/分隔线/纯 ASCII 行/尾部 End of Project Gutenberg）
@@ -1724,22 +1725,19 @@ SPLITTERS = {
 
 
 # ============================================================
-# 一、古登堡下载（规范：间隔≥5s / 不并行 / 已下跳过 /
-#     失败退避 5s·10s·20s ≤3 次 / files 404 自动切 cache/epub）
+# 一、古登堡下载（书源默认走 Gutendex：其 formats 的 text/plain 直链优先，
+#     files/cache 三链接兜底；间隔≥5s / 不并行 / 已下跳过 /
+#     失败退避 5s·10s·20s ≤3 次）
 # ============================================================
 UA = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) gutenberg-library/2.0'}
 
 
 def book_urls(name):
-    """files/{id}.txt → files/{id}-0.txt → cache/epub/pg{id}.txt 依序尝试"""
+    """按书名取正文直链：默认走 Gutendex（text_urls），files/cache 三链接兜底。"""
     i = EBOOK_ID.get(name)
     if not i:
         return []
-    return [
-        f'https://www.gutenberg.org/files/{i}/{i}.txt',
-        f'https://www.gutenberg.org/files/{i}/{i}-0.txt',
-        f'https://www.gutenberg.org/cache/epub/{i}/pg{i}.txt',
-    ]
+    return book_urls_by_id(i)
 
 
 def fetch_url(url, retries=3):
@@ -1773,13 +1771,12 @@ def download_book(name, raw_dir=RAW):
         print(f"  ✗ 未知 ebook 编号：{name}（请补 EBOOK_ID）")
         return False
     print(f"  ⬇ 下载 {name}  #{EBOOK_ID[name]}")
-    for i, url in enumerate(urls):
+    for url in urls:
         data = fetch_url(url)
         if data:
             with open(out, 'wb') as f:
                 f.write(data)
-            tag = '首选' if i == 0 else '备用-0' if i == 1 else '备用-cache'
-            print(f"    成功（{tag}: {url.split('/')[-1]}） {len(data)} 字节")
+            print(f"    成功（{url.split('/')[-1]}） {len(data)} 字节")
             return True
         print(f'    链接不可用: {url}')
     print(f"  ✗ 下载失败：{name}")
@@ -2667,12 +2664,19 @@ def parse_id_list(path):
 
 
 def book_urls_by_id(gid):
-    """files/{id}.txt → files/{id}-0.txt → cache/epub/pg{id}.txt 依序尝试。"""
-    return [
+    """正文直链：默认走 Gutendex 的 text/plain 直链，files/cache 三链接兜底。"""
+    urls = []
+    for u in gutendex_client.text_urls(gid):
+        if u not in urls:
+            urls.append(u)
+    for u in (
         f'https://www.gutenberg.org/files/{gid}/{gid}.txt',
         f'https://www.gutenberg.org/files/{gid}/{gid}-0.txt',
         f'https://www.gutenberg.org/cache/epub/{gid}/pg{gid}.txt',
-    ]
+    ):
+        if u not in urls:
+            urls.append(u)
+    return urls
 
 
 def download_by_id(gid):
@@ -2683,17 +2687,16 @@ def download_by_id(gid):
         return True
     _pg_pace()
     print(f'  ⬇ 下载 #{gid} → raw/{gid}.txt')
-    for i, url in enumerate(book_urls_by_id(gid)):
+    for url in book_urls_by_id(gid):
         data = fetch_url(url)
         if data:
             with open(out, 'wb') as f:
                 f.write(data)
-            tag = '首选' if i == 0 else '备用-0' if i == 1 else '备用-cache'
-            print(f'    成功（{tag}） {len(data)} 字节')
+            print(f'    成功（{url.split("/")[-1]}） {len(data)} 字节')
             return True
         print(f'    链接不可用: {url}')
     print(f'  ✗ 下载失败：#{gid}')
-    log_failure(gid, '下载失败', 'files/{id}.txt → files/{id}-0.txt → cache/epub/pg{id}.txt 三链接均不可用')
+    log_failure(gid, '下载失败', 'Gutendex 直链与 files/cache 兜底链接均不可用')
     return False
 
 
