@@ -2333,6 +2333,12 @@ COMMENTATOR = {
     '西遊記': '李卓吾', '紅樓夢': '脂硯齋',
 }
 
+# 目录主书（catalog.json，不在 library-index）的古登堡编号 → 用于推导 source_url
+CATALOG_GID = {
+    '史記': '24226', '漢書': '23841', '三國志': '25606', '三國演義': '23950',
+    '水滸傳': '23863', '西遊記': '23962', '紅樓夢': '24264', '古文觀止': '25225',
+}
+
 
 def source_url_from(src):
     """由来源串推导 source_url（古登堡 → gutenberg.org/ebooks/{gid}；维基文库暂空）。"""
@@ -2436,7 +2442,7 @@ def merge_to_site():
                 'sections': (books_index.get(title) or {}).get('section_count'),
                 'chapter_count': (books_index.get(title) or {}).get('section_count'),
                 'source': '古登堡计划',
-                'source_url': '',
+                'source_url': source_url_from('#' + CATALOG_GID[title]) if title in CATALOG_GID else '',
                 'license': '公有领域',
                 'added_at': _placeholder_added_at(CATALOG_ID.get(title, title)),
                 'read_count': _placeholder_read_count(CATALOG_ID.get(title, title)),
