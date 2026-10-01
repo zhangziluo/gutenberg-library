@@ -59,8 +59,8 @@ def clean_html(raw_html):
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(raw_html, "html.parser")
     for tag in soup.select(
-        ".mw-editsection, #toc, .nav, .noprint, .toc, .ws-header, "
-        "script, style, .mw-cite-backlink"
+        ".mw-editsection, #toc, .nav, .noprint, .toc, .ws-header, #headerContainer, "
+        "script, style, link, .mw-cite-backlink, rt, .variant-tooltip"
     ):
         tag.decompose()
     main = soup.select_one(".mw-parser-output") or soup

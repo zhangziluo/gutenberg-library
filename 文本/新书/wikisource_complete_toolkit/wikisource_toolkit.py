@@ -106,12 +106,25 @@ def fetch_wikitext(title, session=None):
 
 
 def extract_text_from_html(html):
-    """HTML → 纯文本"""
+    """HTML → 纯文本：剥离页头/注音/变体注，按块级元素换行，行内元素拼接。"""
     soup = BeautifulSoup(html, "html.parser")
-    for tag in soup.select(".mw-editsection, #toc, .nav, .noprint, .ws-header, script, style"):
+    for tag in soup.select(
+        ".mw-editsection, #toc, .nav, .noprint, .ws-header, #headerContainer, "
+        "script, style, link, .sistersitebox, .mw-cite-backlink, "
+        "rt, .variant-tooltip, .reference, sup.reference"
+    ):
         tag.decompose()
     main = soup.select_one(".mw-parser-output") or soup
-    return main.get_text(separator="\n", strip=True)
+    # <br> 与块级元素后补换行，行内元素（如 variant-text）不再被拆成独立行
+    for br in main.find_all("br"):
+        br.replace_with("\n")
+    for block in main.find_all(
+        ["p", "div", "h1", "h2", "h3", "h4", "h5", "h6",
+         "li", "tr", "table", "ul", "ol", "blockquote", "center"]
+    ):
+        block.append("\n")
+    lines = [ln.strip() for ln in main.get_text().split("\n")]
+    return "\n".join(ln for ln in lines if ln)
 
 
 # ===================== 子页面发现 =====================
