@@ -956,6 +956,20 @@ GGZ_EXTRA = ['本經陰符七篇', '盛神法五龍', '養志法靈龜', '實意
              '分威法伏熊', '散勢法鷙鳥', '轉圖法猛獸', '損悅法靈蓍']
 
 
+# ---------------------------------------------------------------
+# 第九批（2026-10-01）：修复「整本一节」未分章
+# ---------------------------------------------------------------
+RE_GAOSHI = re.compile(r'^[○〇]?([^\s　〇○]{2,8})[　]{2,}\1')        # 高士傳：人名＋　　＋同名
+RE_WUCHUAN = re.compile(r'^[ 　]*(卷[上中下])[ 　]*$')                # 吳船錄：卷上/卷下
+RE_XINGCHA = re.compile(r'^○[ 　]*(.+?)[ 　]*$')                     # 星槎勝覽：○國名
+RE_CIPAI = re.compile(r'^([^（）()\s]{2,4})（([^（）]+)）[ 　]*$')     # 龍川詞：詞牌（副題）
+RE_ZHE = re.compile(r'^[ 　]*(楔子|第[〇○零一二三四五六七八九十百]+折)[ 　]*$')  # 竇娥冤
+RE_TANGSHI = re.compile(r'^(\d{3})[ 　]*$')                          # 唐詩三百首：NNN
+RE_CHANGSHENG = re.compile(r'^《第([〇○零一二三四五六七八九十百]+)出[ 　]*([^》]*)》[ 　]*$')  # 長生殿
+RE_KUANGREN = re.compile(r'^[ 　]*([一二三四五六七八九十]+)[ 　]*$')   # 狂人日記：一~十三
+RE_EXERCISE = re.compile(r'^Exercise[ \t]*(\d+)[ \t]*\.', re.I)       # 滬語開路
+
+
 def _dedup_titles(chapters):
     """重複標題加序號消歧：三易 / 三易（二） / 三易（三）…（抱朴子節錄重出篇名）。"""
     seen, out = {}, []
@@ -1080,6 +1094,115 @@ def split_guiguzi(body):
             marks.append((i, s))
     drops = [re.compile(r'^鬼谷子卷[上中下]$')]
     return _chapters_from_marks(body, marks, drops=drops)
+
+
+def split_gaoshi(body):
+    """高士傳：序 + 每人一段；人名与传记同行（人名＋　　＋同名者…），故逐行拆分。"""
+    text = re.sub(r'(?<=。)[　]+○', '\n○', '\n'.join(body))
+    chapters = []
+    cur_title, cur_lines = None, []
+    for l in text.split('\n'):
+        s = l.strip()
+        if s == '序':
+            if cur_title is not None:
+                chapters.append((cur_title, cur_lines))
+            cur_title, cur_lines = '序', []
+        else:
+            m = RE_GAOSHI.match(s)
+            if m:
+                if cur_title is not None:
+                    chapters.append((cur_title, cur_lines))
+                cur_title = m.group(1)
+                cur_lines = [s.split('　　', 1)[1].strip()] if '　　' in s else []
+            elif s:
+                cur_lines.append(s)
+    if cur_title is not None:
+        chapters.append((cur_title, cur_lines))
+    out = []
+    for t, ls in chapters:
+        content = '\n'.join(paragraphs(ls))
+        if content.strip():
+            out.append({'title': t, 'content': content})
+    return out
+
+
+def split_wuchuan(body):
+    """吳船錄：卷上（正文起，无标记）+ 卷下（显式标记）。"""
+    marks = []
+    for i, l in enumerate(body):
+        m = RE_WUCHUAN.match(l.strip())
+        if m:
+            marks.append((i, m.group(1)))
+    if not marks or marks[0][0] > 0:
+        marks.insert(0, (0, '卷上'))
+    return _chapters_from_marks(body, marks)
+
+
+def split_xingcha(body):
+    """星槎勝覽：○國名 逐条切分（目录「○目錄」跳过）。"""
+    marks = []
+    for i, l in enumerate(body):
+        s = l.strip()
+        if s.startswith('○'):
+            t = re.sub(r'[ 　]+', ' ', s[1:]).strip()
+            if t != '目錄':
+                marks.append((i, t))
+    return _chapters_from_marks(body, marks)
+
+
+def split_cipai(body):
+    """龍川詞：詞牌（副題）切分；「又（…）」沿用上一詞牌，不另立章。"""
+    return _split_by_regex(body, RE_CIPAI, lambda m: m.group(0))
+
+
+def split_zhe(body):
+    """竇娥冤：楔子 + 第X折。"""
+    return _split_by_regex(body, RE_ZHE, lambda m: m.group(1))
+
+
+def split_tangshi(body):
+    """唐詩三百首：NNN 编号行切分，诗题在下一非空行。"""
+    marks = []
+    for i, l in enumerate(body):
+        m = RE_TANGSHI.match(l.strip())
+        if m:
+            nxt = None
+            for j in range(i + 1, min(i + 3, len(body))):
+                if body[j].strip():
+                    nxt = body[j].strip()
+                    break
+            title = (m.group(1) + ' ' + nxt) if nxt else m.group(1)
+            marks.append((i, title, 1 if nxt else 0))
+    return _chapters_from_marks(body, marks)
+
+
+def split_changsheng(body):
+    """長生殿：《第X出　名》切分。"""
+    def title(m):
+        name = (m.group(2) or '').strip()
+        return ('第%s出' % m.group(1)) + ('　' + name if name else '')
+    return _split_by_regex(body, RE_CHANGSHENG, title)
+
+
+def split_kuangren(body):
+    """狂人日記：序（正文起，单行）+ 一~十三 节。"""
+    marks = []
+    for i, l in enumerate(body):
+        m = RE_KUANGREN.match(l.strip())
+        if m:
+            marks.append((i, m.group(1)))
+    chapters = []
+    if marks and marks[0][0] > 0:
+        pre = _trim(body[:marks[0][0]])
+        if pre:
+            chapters.append({'title': '序', 'content': '\n'.join(paragraphs(pre))})
+    chapters += _chapters_from_marks(body, marks)
+    return chapters
+
+
+def split_exercise(body):
+    """滬語開路：Exercise N. 逐课切分（44. 与 44.─Continued 自动合并）。"""
+    return _split_by_regex(body, RE_EXERCISE, lambda m: 'Exercise ' + m.group(1))
 
 
 def split_titles(body, pieces, drop=(), dedup_titles=False):
@@ -1283,7 +1406,7 @@ BOOKS = [
         'key': 'kuangren-riji', 'book': '狂人日記', 'author': '魯迅',
         'category': '近現代文學', 'subcategory': '魯迅專題',
         'source': 'Project Gutenberg #25297', 'file': '狂人日記.txt',
-        'split': 'single',
+        'split': 'kuangren',
     },
     # ---- 第二批新书（2026-09-01 入库） ----
     {
@@ -1483,7 +1606,7 @@ BOOKS = [
         'key': 'longchuan-ci', 'book': '龍川詞', 'author': '陳亮',
         'category': '集部', 'subcategory': '詞',
         'source': 'Project Gutenberg #26873', 'file': '龍川詞.txt',
-        'split': 'single', 'head_drop': 1,   # 删作者行「陳亮 著」
+        'split': 'cipai', 'head_drop': 1,   # 删作者行「陳亮 著」
     },
     # ---- 第七批新书（2026-09-08 批量入库） ----
     {
@@ -1502,7 +1625,7 @@ BOOKS = [
         'key': 'huyu-kailu', 'book': '滬語開路', 'author': '柯羅福特、羅林森',
         'category': '近現代文學', 'subcategory': '語言讀本',
         'source': 'Project Gutenberg #62791', 'file': '滬語開路.txt',
-        'split': 'single', 'head_drop': 68,   # 跳封面页与英文引言，正文自「Exercise 1.」起
+        'split': 'exercise', 'head_drop': 68,   # 跳封面页与英文引言，正文自「Exercise 1.」起
     },
     {
         'key': 'baigui-zhi', 'book': '白圭志', 'author': '崔象川',
@@ -1587,6 +1710,16 @@ SPLITTERS = {
     'auto_head': split_auto_head,
     'fo42': split_fo42,
     'en_titles': split_en_titles,
+    # ---- 第九批（2026-10-01）：修复「整本一节」未分章 ----
+    'gaoshi': split_gaoshi,
+    'wuchuan': split_wuchuan,
+    'xingcha': split_xingcha,
+    'cipai': split_cipai,
+    'zhe': split_zhe,
+    'tangshi': split_tangshi,
+    'changsheng': split_changsheng,
+    'kuangren': split_kuangren,
+    'exercise': split_exercise,
 }
 
 

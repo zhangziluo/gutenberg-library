@@ -63,7 +63,7 @@
     "subcategory": "戲曲",
     "source": "Project Gutenberg #52276",
     "file": "52276.txt",
-    "split": "single",
+    "split": "zhe",
     "gid": "52276"
   },
   {
@@ -168,7 +168,7 @@
     "subcategory": "總集",
     "source": "Project Gutenberg #52323",
     "file": "52323.txt",
-    "split": "single",
+    "split": "tangshi",
     "gid": "52323"
   },
   {
@@ -179,7 +179,7 @@
     "subcategory": "戲曲",
     "source": "Project Gutenberg #52270",
     "file": "52270.txt",
-    "split": "single",
+    "split": "changsheng",
     "gid": "52270"
   },
   {
@@ -224,7 +224,7 @@
     "subcategory": "傳記",
     "source": "Project Gutenberg #23948",
     "file": "23948.txt",
-    "split": "single",
+    "split": "gaoshi",
     "gid": "23948"
   },
   {
@@ -393,7 +393,7 @@
     "subcategory": "地理",
     "source": "Project Gutenberg #27581",
     "file": "27581.txt",
-    "split": "single",
+    "split": "wuchuan",
     "gid": "27581"
   },
   {
@@ -404,7 +404,7 @@
     "subcategory": "地理",
     "source": "Project Gutenberg #24143",
     "file": "24143.txt",
-    "split": "single",
+    "split": "xingcha",
     "gid": "24143"
   },
   {

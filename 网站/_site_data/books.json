@@ -193,14 +193,14 @@
  },
  "吳船錄": {
   "title": "吳船錄",
-  "section_count": 1,
+  "section_count": 2,
   "categories": [
    "全書"
   ]
  },
  "唐诗三百首": {
   "title": "唐诗三百首",
-  "section_count": 1,
+  "section_count": 320,
   "categories": [
    "全書"
   ]
@@ -376,7 +376,7 @@
  },
  "星槎勝覽": {
   "title": "星槎勝覽",
-  "section_count": 1,
+  "section_count": 43,
   "categories": [
    "全書"
   ]
@@ -481,7 +481,7 @@
  },
  "滬語開路": {
   "title": "滬語開路",
-  "section_count": 1,
+  "section_count": 50,
   "categories": [
    "全書"
   ]
@@ -512,7 +512,7 @@
  },
  "狂人日記": {
   "title": "狂人日記",
-  "section_count": 1,
+  "section_count": 14,
   "categories": [
    "全書"
   ]
@@ -568,7 +568,7 @@
  },
  "竇娥冤": {
   "title": "竇娥冤",
-  "section_count": 1,
+  "section_count": 5,
   "categories": [
    "全書"
   ]
@@ -722,7 +722,7 @@
  },
  "長生殿": {
   "title": "長生殿",
-  "section_count": 1,
+  "section_count": 22,
   "categories": [
    "全書"
   ]
@@ -778,7 +778,7 @@
  },
  "高士傳": {
   "title": "高士傳",
-  "section_count": 1,
+  "section_count": 92,
   "categories": [
    "全書"
   ]
@@ -806,7 +806,7 @@
  },
  "龍川詞": {
   "title": "龍川詞",
-  "section_count": 1,
+  "section_count": 25,
   "categories": [
    "全書"
   ]

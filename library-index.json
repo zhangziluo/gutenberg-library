@@ -106,7 +106,7 @@
           "book": "高士傳",
           "author": "皇甫謐",
           "subcategory": "傳記",
-          "chapters": 1,
+          "chapters": 92,
           "source": "Project Gutenberg #23948",
           "path": "data/books/pg23948.json"
         },
@@ -124,7 +124,7 @@
           "book": "吳船錄",
           "author": "范成大",
           "subcategory": "地理",
-          "chapters": 1,
+          "chapters": 2,
           "source": "Project Gutenberg #27581",
           "path": "data/books/pg27581.json"
         },
@@ -133,7 +133,7 @@
           "book": "星槎勝覽",
           "author": "費信",
           "subcategory": "地理",
-          "chapters": 1,
+          "chapters": 43,
           "source": "Project Gutenberg #24143",
           "path": "data/books/pg24143.json"
         }
@@ -863,7 +863,7 @@
           "book": "龍川詞",
           "author": "陳亮",
           "subcategory": "詞",
-          "chapters": 1,
+          "chapters": 25,
           "source": "Project Gutenberg #26873",
           "path": "data/books/longchuan-ci.json"
         },
@@ -872,7 +872,7 @@
           "book": "竇娥冤",
           "author": "關漢卿",
           "subcategory": "戲曲",
-          "chapters": 1,
+          "chapters": 5,
           "source": "Project Gutenberg #52276",
           "path": "data/books/pg52276.json"
         },
@@ -881,7 +881,7 @@
           "book": "唐诗三百首",
           "author": "蘅塘退士（孫洙）編",
           "subcategory": "總集",
-          "chapters": 1,
+          "chapters": 320,
           "source": "Project Gutenberg #52323",
           "path": "data/books/pg52323.json"
         },
@@ -890,7 +890,7 @@
           "book": "長生殿",
           "author": "洪昇",
           "subcategory": "戲曲",
-          "chapters": 1,
+          "chapters": 22,
           "source": "Project Gutenberg #52270",
           "path": "data/books/pg52270.json"
         }
@@ -958,7 +958,7 @@
           "book": "狂人日記",
           "author": "魯迅",
           "subcategory": "魯迅專題",
-          "chapters": 1,
+          "chapters": 14,
           "source": "Project Gutenberg #25297",
           "path": "data/books/kuangren-riji.json"
         },
@@ -967,7 +967,7 @@
           "book": "滬語開路",
           "author": "柯羅福特、羅林森",
           "subcategory": "語言讀本",
-          "chapters": 1,
+          "chapters": 50,
           "source": "Project Gutenberg #62791",
           "path": "data/books/huyu-kailu.json"
         }
