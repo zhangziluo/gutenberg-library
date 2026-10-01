@@ -1,7 +1,67 @@
 # Active Context（当前状态与下一步）
 
-## 当前（进行中）
-### ① 词表内嵌释义：`vocab_final.json` 6 元行 → 词卡直接显示释义（2026-09-29 晚，未提交）
+## 当前（2026-10-01）：维基文库书源 + 书库页重构（封面网格）
+
+> 书库仍 **113 本**；`main` 与 `origin/main` 一致。以下**均已提交**（除非另注）。
+
+### ① 维基文库书源工具链（`文本/新书/wikisource_complete_toolkit/`，4038d61 起）
+- 5 文件：`wikisource_toolkit.py`（fetch/list/search）/ `license_detector.py`（许可合规闸门）/
+  `epub_builder.py`（EPUB 生成）/ `test_license_offline.py`（离线自检 10 样例）/ `QUICKSTART.md`。
+- **合规闸门**：每页调 MediaWiki `prop=templates` 判版权模板（PD/CC/GFDL/GPL/受限/未知），
+  `safe_to_use` 才可入库；`--force` 跳过受限页。**两个增强**（f075b16）：子页无直接许可 → **回退继承父页**；
+  剔除**非正文子页**（全览/目录/序说/凡例，`NON_CONTENT_SUBPAGES`）。
+- **正文提取**（68be37c）：`extract_text_from_html` 重写 — 剥离 `#headerContainer` 页头 / `rt` 注音 /
+  `.variant-tooltip` 变体注，按块级元素换行、行内元素拼接（千字文不再逐字拆行）。
+- 依赖 `requests`+`beautifulsoup4`+`ebooklib`（已装 `.venv`）；产物 `novels_json/`、`epubs/` 已 gitignore（f5f9715）。
+
+### ② 维基文库 → 书库入库（`文本/新书/wikisource_import.py`，9a0837a）
+- `--json novels_json/論語.json --key … --author … --category … --label 篇` → 合规检查 → 写
+  `data/books/{key}.json`（含 `section_label` + 每章 `source_url/license/revid`）→ 写 `library-index.json`
+  （`source=维基文库`）→ `merge_to_site()` + `slim_books_index`。有重名/重 key 冲突检查；`--no-merge`/`--force`。
+- `to_reader()` 支持 `data.section_label` 自定义篇目标签（gutenberg_import + merge_to_site）；
+  修 `slim_books_index.py` bug（跳过无 `title` 的非书目 JSON，原先误收 `vocab_final.json`）。
+- `add_books.sh` 支持 `--source wikisource`（`--title` 自动抓取 / `--json` 直接入库，ad388d8）。
+
+### ③ 目录页 + 详情页注明来源（f075b16 / b7e04a8）
+- `books-data.json` 每本加 `source`（古登堡计划 / 维基文库）→ 目录页卡片徽标 + 全站页脚「双来源」；
+  页脚「日程编辑与提醒器」链接 → `https://ics-maker.pages.dev/`（15 个 html）。
+
+### ④ 修复 9 本「整本一节」未分章（527300f，第九批切分器）
+- `gaoshi` 高士傳 92 / `wuchuan` 吳船錄 2 / `xingcha` 星槎勝覽 43 / `cipai` 龍川詞 25 / `zhe` 竇娥冤 5 /
+  `tangshi` 唐詩三百首 320 / `changsheng` 長生殿 22 / `kuangren` 狂人日記 14 / `exercise` 滬語開路 50。
+- 重生成 `data/books/*.json`（**保留原注释**）→ `library-index.json` 章数 + `_site_data` + `books-data.json`。
+
+### ⑤ 书库页重构：列表 → 封面网格（dd11b63 / 6db5d63 / e4c93c0）
+- **新增 `网站/css/library.css` + `网站/js/library.js`**，重写 `网站/library.html`：
+  - 3:4 封面网格（桌面 5-6 / 平板 3-4 / 手机 2）；封面纯 CSS（方案 B）——五部配色（经深蓝/史赭石/
+    子墨绿/集暗紫/丛深灰/**全部棕黄**）、竖排楷体书名 + 作者 + 右下角 `📗/📘`；悬停上浮 4px + 阴影 + 显示简介。
+  - **前端分页**（20 本/页，≤20 不分页，`?page=` 保持，切页回顶）；分类 Tab + 排序（热门/最新/书名，
+    `Intl.Collator('zh')`）+ 搜索；`?cat/?sort/?q` 同步 URL。**书库页禁装饰性动画**（仅悬停 `transform 0.2s` + 点击反馈）。
+- **数据补 18 字段**（`merge_to_site` 生成，保留 `id/description/sections` 兼容）：`book_id / summary /
+  chapter_count / commentator / highlights / source_url / license / added_at / read_count`。
+  - `commentator`：四大名著（水滸傳·金聖歎 / 三國演義·毛宗崗 / 西遊記·李卓吾 / 紅樓夢·脂硯齋）。
+  - `source_url`：古登堡 `Project Gutenberg #XXXX` → `gutenberg.org/ebooks/{gid}`；**目录主书 8 本补
+    `CATALOG_GID`**（史記24226/漢書23841/三國志25606/三國演義23950/水滸傳23863/西遊記23962/紅樓夢24264/古文觀止25225，580ad00）。
+  - `added_at`/`read_count`：**静态站占位值**（book_id 稳定派生，与前端兜底同算法）；接 FastAPI 后端后替换真值。
+- **详情页 hero**（`book.html` + `js/book.js`，e4c93c0）：大封面 + 书名/作者/**批注者** + 简介 + 本版特色标签
+  （繁體/注音釋義/分类/来源/许可）+ **[开始阅读]**；元数据取 `books-data.json`，取不到优雅降级。
+- 前端数据接口约定见 `网站/js/library.js` 文件头注释；换后端只改 `DATA_URL` 一处。
+
+### ⑥ 古登堡书源默认改走 Gutendex（71d7901 / 487178e）
+- `gutendex_client.text_urls(gid)`（取 `formats` 的 `text/plain` 直链）+ `get_book` **进程内缓存**；
+  `gutenberg_import.book_urls_by_id`/`book_urls` 改为 **Gutendex 直链优先**，`files/{id}.txt → -0 →
+  cache/epub` 三链接兜底；`gutenberg_fetch.py`（遗留下载器）同步。
+- **元数据链不变**：本地 raw 头部 → Gutendex → 古登堡 `?format=json`（最后兜底）。
+- ⚠️ `71d7901` 是 **pipeline.sh 自动提交**（模板信息「更新书库 (2026-10-01 21:25)」），非规范信息。
+
+### ⏭️ 下一步（待办）
+1. **接 FastAPI 后端**：把 `read_count`/`added_at` 换成真值（前端已能直读）；改 `library.js` 的 `DATA_URL`。
+2. **维基文库真正入库**：工具链就绪但尚未抓书入库（`千字文` 测试后已回退）；`add_books.sh --source wikisource` 即可。
+3. 词表释义精修（32,214 待补 + 12,947 条 need_ai 弱释义）——见下「已完成（2026-09-29）」。
+4. 可选：改写 `71d7901` 的提交信息需 `rebase -i` + `push --force`。
+
+## 已完成（2026-09-29）：词表内嵌释义 / 前端匹配重写 / 词汇抽取（均已提交）
+### ① 词表内嵌释义：`vocab_final.json` 6 元行 → 词卡直接显示释义（2026-09-29，已提交 3392b02）
 - ✅ **`文本/新书/definition_fill.py`（新增，29.6 KB）**：给前端词表 `网站/_site_data/vocab_final.json`
   的每一行**回填释义**，行由 4 元扩成 6 元 —— `[词形, 简体形(可空), 全库词次, 出现书数, definition, need_ai]`。
   - **中文来源链**：整词优先（`gloss_override` → 词级中文源）→ 单字兜底（人工覆盖 → 新华字典 →
@@ -52,11 +112,11 @@
   2. 32,214 条 `待补` + 12,947 条弱释义（need_ai=true）→ **AI 精修**（前端已用「AI 待補」标出待精修项）；
   3. 词表 `definition` 与单书 `annotations` 存在**同词双份释义**（现规则：语言槽优先、词表兜底）——
      是否统一优先级 / 是否把词表释义回填进 annotations 待定；
-  4. 提交推送：`tests/`、`文本/新书/{build_vocab_final.py,definition_fill.py}`、`网站/js/vocab-matcher.js`、
-     `网站/_site_data/vocab_final.json` 均为**未跟踪**；`网站/js/reader.js`、`网站/css/style.css`、
-     `网站/reader.html`、`网站/_headers`、`文本/新书/vocab_extract.py` 为已修改。
+  4. ✅ 提交推送：`tests/`、`文本/新书/{build_vocab_final.py,definition_fill.py}`、`网站/js/vocab-matcher.js`、
+     `网站/_site_data/vocab_final.json`、`网站/js/reader.js`、`网站/css/style.css`、`网站/reader.html`、
+     `网站/_headers`、`文本/新书/vocab_extract.py` —— **已提交**（`b650f4b` / `3392b02`）。
 
-### ② 前端匹配重写 / 词汇抽取重写（2026-09-29 白天，已完成，未提交）
+### ② 前端匹配重写 / 词汇抽取重写（2026-09-29，已提交 b650f4b）
 - ✅ **前端匹配与标注重写：`网站/js/vocab-matcher.js`（2026-09-29）**：彻底替换 `reader.js` 里
   「按字符索引 + 定长滑窗」的旧匹配（旧实现会把英文截成字母组合、把中文词拆成单字散列）。
   - **英文**：正则**整词**匹配（拉丁字母串 + 词内连接符 + 允许词尾省略撇号，边界锚定）——
@@ -162,7 +222,7 @@
     （dist 101 MiB / 155 文件）。
 
 ## 已知待办（按优先级）
-- ✅ **词级释义已回填（2026-09-29 晚完成，见「当前 ①」）**：`definition_fill.py` 把词表 4 元行扩成 6 元
+- ✅ **词级释义已回填（2026-09-29 晚完成，见「已完成（2026-09-29）①」）**：`definition_fill.py` 把词表 4 元行扩成 6 元
   （`definition` / `need_ai`），前端词卡可直接显示释义（不再只能列 `data-parts` 成分字）。
   **但质量未达标**：45,161 行里 12,947 条有释义的**全部是逐字合成**（need_ai=true），另有 32,214 条 `待补`。
   ⏭️ 要真词义：把**词级中文源**放进 `文本/新书/data/`（`cedict_words.json` / `shuowen.json` /
@@ -172,8 +232,8 @@
   `window.VOCAB_WRAP='all'` 则是「词级全标」（論語 26% / 施公案 49%）——切换前建议先看观感。
 - ⚠️ **自动分类未接通**：`scripts/classify_books.py` 默认读 `data/books.json`（本项目**不存在**），
   且需 `DEEPSEEK_API_KEY`；`pipeline.sh` 已有守卫（缺失即提示跳过）。
-- 📋 **待入库批次**：`文本/新书/i.txt` 11 本英文书（37106/1260/1661/174/2701/2600/1400/768/4300/2554/28054）
-  —— **用户指示暂不跑**。执行：`bash 文本/新书/add_books.sh --file 文本/新书/i.txt`
+- 📋 **待入库批次**：`i.txt`（**2026-10-01 已移至项目根**）11 本英文书（37106/1260/1661/174/2701/2600/1400/768/4300/2554/28054）
+  —— **用户指示暂不跑**。执行：`bash 文本/新书/add_books.sh --file i.txt`
   （入库后若词表要更新，按序跑：`python3 文本/新书/vocab_extract.py` → `build_vocab_final.py` →
   `definition_fill.py` → `bash deploy/build.sh`；词表链路**尚未接入 `pipeline.sh`**，见 systemPatterns）。
 - ✅ **英文释义补全已完成**（2026-09-29，见下方第九批）：英文释义 93.1%、音标 84.7%；
@@ -276,6 +336,12 @@
   AI 阅读器（深度学习）板块已整体移除。
 
 ## 待确认/风险
+- **`71d7901` 提交信息非规范**（2026-10-01）：`pipeline.sh` 自动提交把「古登堡书源改走 Gutendex」的代码提交成了
+  模板信息「更新书库 (2026-10-01 21:25)」；如需规范信息要 `git rebase -i` + `push --force`。
+- **Gutendex 降级延迟**：`gutendex_client._get_json` 重试 3 次 × 30s 超时 ≈ 2 min/本；书源改走 Gutendex 后，
+  新书下载会先等这次查询再降级到 files/cache（已加**进程内缓存**，元数据与直链共用一次请求，不重复）。
+- **维基文库正文提取局限**：`extract_text_from_html` 已剥离页头/注音/变体注，但 ruby 排版特殊的页面
+  （如 `千字文`）仍可能残留换行碎片，入库前建议人工核对。
 - **词表释义质量**（2026-09-29 晚，新增）：`vocab_final.json` 里有释义的 12,947 条**全部是逐字合成**
   （`君：…；子：…`，need_ai=true）——只说明成分字义、**不等于整词义**；另有 32,214 条 `待补`。
   要真词义需词级中文源（见「当前 ①」）。前端已用「AI 待補」标签 + 占位过滤，避免以假乱真。

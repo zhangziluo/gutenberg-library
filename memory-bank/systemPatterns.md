@@ -120,6 +120,61 @@
 - CLI：`--dry-run`、`--limit N --out 路径`、`--zh-word-src`、`--no-auto-zh-src`、`--max-len`、`--network`、`--selftest`。
 - 规模（全库实测）：45,161 行 / 有释义 12,947（28.7%，**全部 need_ai**）/ 待补 32,214 / 2.89 MiB。
 
+## 维基文库书源（`文本/新书/wikisource_complete_toolkit/` + `wikisource_import.py`）
+- **工具链**：`wikisource_toolkit.py`（`fetch`/`list`/`search`）、`license_detector.py`（许可合规闸门）、
+  `epub_builder.py`（EPUB）、`test_license_offline.py`（离线自检 10 样例）、`QUICKSTART.md`。
+  依赖 `requests`+`beautifulsoup4`（EPUB 另需 `ebooklib`）；产物 `novels_json/`、`epubs/` 已 gitignore。
+- **合规闸门（硬约束）**：抓每页调 MediaWiki `prop=templates` 读版权模板 → `pd/free/restricted/unknown`；
+  **只有 `safe_to_use=True` 的页可入库**，受限/未知页默认中止（`--force` 跳过）。两个增强：
+  - **子页许可继承**：子页 `status=unknown` 时**回退查父页许可**并继承（带 `inherited_from`）——
+    解决「同书部分子页未直接挂 `PD-old` → 误判未识别」（如《論語》各篇）。
+  - **非正文子页过滤**：`NON_CONTENT_SUBPAGES` 剔除「全览/目录/序说/凡例」等（全览是 Wikisource
+    自动生成的全文页，务必剔除）。
+- **正文提取**：`extract_text_from_html` 剥离 `#headerContainer`/`.ws-header` 页头、`rt` 注音、
+  `.variant-tooltip` 变体注、脚本样式；**按块级元素换行、行内元素拼接**（不再 `get_text(separator="\n")`
+  把每个行内元素拆行）→ 带注音古籍（千字文）也能得干净文本。
+- **入库（`wikisource_import.py`）**：`novels_json/{书名}.json` → `data/books/{key}.json`（`section_label`
+  = 篇/回/卷/章；每章存 `source_url`/`license`/`revid` 供追溯）→ `library-index.json`（`source=维基文库`）
+  → `merge_to_site()` + `slim_books_index()`。**重名/重 key 冲突检查**（站内按书名定位，不可重名）；
+  `--no-merge`（只转不入库）/`--force`（跳过受限章）。
+- **`add_books.sh --source wikisource`**：`--title`（自动 `wikisource_toolkit.py fetch` 后入库）或
+  `--json`（已抓取文件直接入库）；`--author/--category/--subcategory/--key/--label/--force`。
+- `to_reader()` 支持 `data.section_label` 覆盖默认篇目标签（`reader_label(key)`）。
+
+## 书库页（封面网格 `library.html` + `library.css` + `library.js`）
+- **结构**：筛选栏（分类 Tab + 排序 + 搜索）+ `.lib-grid` 封面网格 + `.lib-pagination` 分页。
+- **数据**：`fetch('assets/data/books-data.json')`（静态 JSON 即「API」；换 FastAPI 只改 `DATA_URL` 一处），
+  `normalizeBook()` 映射到统一 schema（新字段缺失优雅回退）。
+- **前端分页**（纯 JS，不做服务端分页）：`PER_PAGE=20`；`totalPages<=1` 隐藏分页栏；
+  `?cat/?sort/?q/?page` 同步 URL（`history.replaceState`）；切页 `window.scrollTo({top:0})`。
+- **封面纯 CSS（方案 B，不生成图片）**：`aspect-ratio:3/4` + `.cover-{jing|shi|zi|ji|cong|all}` 底色
+  （经深蓝/史赭石/子墨绿/集暗紫/丛深灰/**全部棕黄**）；书名 `writing-mode:vertical-rl` 竖排楷体；
+  右下角 `📗`（古登堡）/`📘`（维基文库）；悬停 `translateY(-4px)` + 阴影 + 底部渐显 `summary`。
+  **「全部」Tab 统一棕黄，分类 Tab 用该部底色**。
+- **排序**：热门=`read_count`、最新=`added_at`、书名=`Intl.Collator('zh')`（拼音序，无需额外数据）。
+- **动画约束**：书库页**禁装饰性动画**（无翻书/粒子/视差/轮播/转场），仅卡片悬停 `transform 0.2s ease`
+  与 `:active` 点击反馈。
+- **详情页 hero**（`book.html` + `js/book.js`）：大封面 + 书名/作者/**批注者** + 简介 + 本版特色标签 +
+  `[开始阅读]`；元数据从 `books-data.json` 按 `title` 匹配（`loadBookMeta()`），取不到降级为只用 title。
+
+## 书库目录数据 schema（`网站/assets/data/books-data.json`）
+- `merge_to_site()`（gutenberg_import + merge_to_site）逐本生成，**保留旧字段兼容**：`id/title/author/
+  category/subcategory/dynasty/description/sections/source/cover` + 新增 `book_id（=id）/ summary（=description）
+  / chapter_count（=sections）/ commentator / highlights / source_url / license / added_at / read_count`。
+- **推导规则**：`source_label()`（源串→古登堡计划/维基文库）；`source_url_from()`（`#XXXX`→
+  `gutenberg.org/ebooks/{gid}`）；`license_from()`（古登堡→公有领域）；`highlights_for()`（繁體 + 有
+  annotations 则注音釋義）；`COMMENTATOR`（四大名著批注者）；`CATALOG_GID`（**目录主书 8 本**：史記
+  24226/漢書23841/三國志25606/三國演義23950/水滸傳23863/西遊記23962/紅樓夢24264/古文觀止25225）；
+  `_placeholder_added_at/_read_count()`（由 book_id 稳定派生，**静态站占位**，与前端 JS 兜底同算法）。
+- `books.json`（轻量索引）走 `slim_books_index.py`（indent=1，**跳过无 `title` 的非书目 JSON**）。
+
+## 古登堡书源（默认走 Gutendex）
+- **元数据链**：本地 raw 头部 → **Gutendex**（`meta_from_gutendex`）→ 古登堡 `?format=json`（最后兜底）。
+- **正文直链**：`book_urls_by_id`/`book_urls` → **Gutendex `text_urls(gid)` 优先**（取 `formats` 的
+  `text/plain` 各编码），`files/{id}.txt → -0 → cache/epub/pg{id}.txt` 三链接兜底。
+- `gutendex_client.get_book()` **进程内缓存**（元数据与直链共用一次请求）；`_get_json` 重试 3 × 30s
+  = 最多 ~2 min/本（不可达时降级）。`gutenberg_fetch.py`（遗留下载器）同步。
+
 ## 其它关键模式
 - **注释三语释义**：annotation 条目 = `word/pinyin/zh_cn/zh_tw/en/note/multi/rare`；
   - 中文书：来源「人工精编 override > 新华字典自动 > CC-CEDICT 英文」，生成见 `fill_glosses.py`。

@@ -22,6 +22,18 @@
 > 新增 `tests/vocab-matcher/`（6 文件，**不进部署产物**）；`dist/` ≈ 102 MiB（本地/备用，未跟踪）。
 > 词表 2.89 MiB ≪ 25 MiB 上限（`definition_fill.py` 在 >24 MiB 时告警）。
 
+> **追加核查（2026-10-01）**：书库 **113 本**（`data/books/` 113 JSON；`网站/_site_data/` = 113 单书 +
+> `books.json` + `vocab_final.json`）。本日新增/变更：
+> - **维基文库书源**：`文本/新书/wikisource_complete_toolkit/`（5 文件）+ `文本/新书/wikisource_import.py`；
+>   产物 `novels_json/`、`epubs/` 已 gitignore。`add_books.sh --source wikisource` 一键入库。
+> - **书库页重写**：新增 `网站/css/library.css`、`网站/js/library.js`，重写 `网站/library.html`（封面网格 +
+>   前端分页/筛选/排序）；`book.html` + `js/book.js` 增详情页 hero（大封面/批注者/特色标签/开始阅读）。
+> - **数据 schema**：`网站/assets/data/books-data.json` 每本 **18 字段**（新增 `book_id/summary/chapter_count/
+>   commentator/highlights/source_url/license/added_at/read_count`；`added_at`/`read_count` 为静态站占位）。
+> - **书源**：古登堡下载默认走 **Gutendex**（`gutendex_client.text_urls` 优先，files/cache 三链接兜底）。
+> - 近期提交（新→旧）：`487178e` → `71d7901`(流水线自动) → `580ad00` → `e4c93c0` → `6db5d63` → `dd11b63`
+>   → `527300f` → `b7e04a8` → `ad388d8` → `68be37c` → `9a0837a` → `f075b16` → `f5f9715` → `4038d61`（维基文库起）。
+
 ## 部署要点
 - `网站/_redirects`：仅含旧分类地址的 301 规则。
 - `网站/js/common.js`：`DATA_BASE = '_site_data/'`，按 `_site_data/{書名}.json` 按需拉取单书。
@@ -71,6 +83,18 @@
 - `tradify.js` / `pinyin_helper.js`：opencc 简→繁、pinyin-pro 注音（node 子进程）。
 - `scripts/classify_books.py`：DeepSeek 自动分类（四部 + 英文 level）。**当前未接通**：默认输入
   `data/books.json` 不存在，且需 `DEEPSEEK_API_KEY`；`pipeline.sh` 已加守卫，缺失即跳过。
+
+### 维基文库书源 / 书库页（新增 2026-10-01）
+- `wikisource_complete_toolkit/{wikisource_toolkit.py,license_detector.py,epub_builder.py,test_license_offline.py,QUICKSTART.md}`：
+  维基文库抓取（`fetch`/`list`/`search`）+ 许可合规闸门（`prop=templates`）+ EPUB 生成；依赖 `requests`/
+  `beautifulsoup4`/`ebooklib`（已装 `.venv`）。产物 `novels_json/`、`epubs/` 已 gitignore。
+- `wikisource_import.py`：`novels_json/{书名}.json` → `data/books/{key}.json` + `library-index.json`
+  （`source=维基文库`）+ `merge_to_site()`/`slim_books_index()`；`--key/--author/--category/--subcategory/
+  --label/--no-merge/--force`。
+- `网站/{library.html,css/library.css,js/library.js}`：封面网格书库页（前端分页 20/页 + 分类 Tab + 排序 + 搜索，
+  `?cat/?sort/?q/?page`）；`book.html` + `js/book.js` 详情页 hero。
+- `books-data.json` 生成器（`merge_to_site`）新增：`source_label/source_url_from/license_from/highlights_for/
+  COMMENTATOR/CATALOG_GID/_placeholder_added_at/_placeholder_read_count`。
 
 ## 测试（`tests/vocab-matcher/`，本地开发用，**不进部署产物**）
 - 6 文件：`dom-shim.js`（极简 DOM）/ `dom-test.js`（21 项）/ `integration-test.js`（26 项：真实书 JSON +
