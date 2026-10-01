@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 """
 古登堡新书下载器（抓取规范强制约束）
+  - **书源默认走 Gutendex**（formats 的 text/plain 直链优先，内置 files/cache 链接兜底）
   - 每本之间间隔 ≥ 5 秒，顺序下载，不并行
   - 已下载过的书不重复抓取
   - 下载失败自动退避（5s/10s/20s），每本总重试不超过 3 次
-  - 首选 files/ 链接，404 时切换 cache/epub 备用链接
 输出原始文本到 文本/新书/raw/{书名}.txt（保留原始字节，编码由后续解析器探测）
 """
 import os
@@ -13,6 +13,8 @@ import sys
 import time
 import urllib.request
 import urllib.error
+
+import gutendex_client
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 RAW_DIR = os.path.join(BASE, 'raw')
@@ -193,21 +195,33 @@ def fetch(url, retries=3):
     return None
 
 
+def book_urls(b):
+    """正文直链：默认走 Gutendex 的 text/plain 直链，内置 files/cache 链接兜底。"""
+    urls = []
+    for u in gutendex_client.text_urls(b['id']):
+        if u not in urls:
+            urls.append(u)
+    for u in b['urls']:
+        if u not in urls:
+            urls.append(u)
+    return urls
+
+
 def download_one(b):
     out = os.path.join(RAW_DIR, f"{b['name']}.txt")
     if os.path.exists(out) and os.path.getsize(out) > 0:
         print(f"  · 已存在，跳过：{b['name']}")
         return True
     print(f"  ⬇ {b['name']}  #{b['id']}")
-    for i, url in enumerate(b['urls']):
+    for url in book_urls(b):
         data = fetch(url)
         if data:
             with open(out, 'wb') as f:
                 f.write(data)
-            print(f"    成功（{'首选' if i == 0 else '备用 cache' if i == 1 else f'备用{i+1}'}: {url.split('/')[-1]}） {len(data)} 字节")
+            print(f"    成功（{url.split('/')[-1]}） {len(data)} 字节")
             return True
         print(f'    链接不可用: {url}')
-    print(f"  ✗ 失败：{b['name']}（两个链接均不可用）")
+    print(f"  ✗ 失败：{b['name']}（Gutendex 直链与内置兜底链接均不可用）")
     return False
 
 
