@@ -35,7 +35,9 @@ def slim_into(target):
             continue
         if not isinstance(d, dict):
             continue
-        title = d.get('title') or name[:-5]
+        title = d.get('title')
+        if not title:
+            continue            # 跳过非书目 JSON（如 vocab_final.json）
         books[title] = {
             'title': title,
             'section_count': d.get('section_count', 0) or 0,

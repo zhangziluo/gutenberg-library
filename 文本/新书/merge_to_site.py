@@ -52,7 +52,7 @@ def reader_label(key):
 def to_reader(key, data):
     """data/books 条目 → 阅读器 book 对象。"""
     chapters = data.get('chapters', [])
-    cat = reader_label(key)
+    cat = data.get('section_label') or reader_label(key)
     sections = []
     for idx, ch in enumerate(chapters, 1):
         if key == 'yijing':

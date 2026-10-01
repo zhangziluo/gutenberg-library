@@ -108,7 +108,7 @@ def fetch_wikitext(title, session=None):
 def extract_text_from_html(html):
     """HTML → 纯文本"""
     soup = BeautifulSoup(html, "html.parser")
-    for tag in soup.select(".mw-editsection, #toc, .nav, .noprint, script, style"):
+    for tag in soup.select(".mw-editsection, #toc, .nav, .noprint, .ws-header, script, style"):
         tag.decompose()
     main = soup.select_one(".mw-parser-output") or soup
     return main.get_text(separator="\n", strip=True)

@@ -1994,7 +1994,7 @@ def reader_label(key):
 def to_reader(key, data):
     """data/books 条目 → 阅读器 book 对象（章节字段；忽略 annotations 等扩展）。"""
     chapters = data.get('chapters', [])
-    cat = '章' if data.get('lang') == 'en' else reader_label(key)
+    cat = '章' if data.get('lang') == 'en' else (data.get('section_label') or reader_label(key))
     sections = []
     for idx, ch in enumerate(chapters, 1):
         if key == 'yijing':
