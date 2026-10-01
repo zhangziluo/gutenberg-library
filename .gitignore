@@ -32,3 +32,7 @@ sk-93db2782485c47cf86591daccb9b94ca
 
 # 词汇抽取产物（vocab_extract.py；体积大，可随时重生成）
 文本/新书/vocab_raw.json
+
+# 维基文库书源工具产物（wikisource_complete_toolkit；可重新抓取/生成）
+novels_json/
+epubs/
