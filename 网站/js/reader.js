@@ -428,6 +428,39 @@ const POS_PREFIX = 'gjs:pos:';
     nextBtn.style.pointerEvents = 'none';
   }
 
+  // ---- 键盘快捷键：← 上一章 / → 下一章 ----
+  //   复用上方底部翻页链接（#prev-btn / #next-btn）的 href：链接可用即跳转，
+  //   首/末章链接已被移除 href → 按键无反应。直接改写 location，无转场动画。
+  /** 焦点是否在输入控件 / 可编辑元素内（搜索框、颜色输入、AI 输入框等） */
+  function isTypingContext(el) {
+    if (!el || el.nodeType !== 1) return false;
+    const tag = el.tagName;
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return true;
+    return !!(el.isContentEditable || (el.closest && el.closest('[contenteditable=""], [contenteditable="true"]')));
+  }
+  /** 页面是否存在非折叠的文本选中 */
+  function hasTextSelection() {
+    const sel = window.getSelection && window.getSelection();
+    return !!(sel && !sel.isCollapsed && String(sel).length > 0);
+  }
+  /** 取方向键对应的底部翻页链接；不可用（首/末章）返回 null */
+  function navHrefForKey(key) {
+    const btn = (key === 'ArrowLeft') ? prevBtn : nextBtn;
+    const href = btn.getAttribute('href');
+    return (href && href !== '#') ? href : null;
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+    if (e.ctrlKey || e.metaKey || e.altKey || e.shiftKey) return;   // 不劫持组合键（Ctrl/⌘+← 等）
+    if (e.isComposing) return;                                      // 输入法组字中不响应
+    if (isTypingContext(e.target) || isTypingContext(document.activeElement)) return;
+    if (hasTextSelection()) return;                                 // 有选中文本时禁用，避免误触
+    const href = navHrefForKey(e.key);
+    if (!href) return;                                              // 首/末章：按对应方向键无反应
+    e.preventDefault();
+    window.location.href = href;                                    // 直接跳转，不做页面转场
+  });
+
   // ---- 阅读设置：字体 / 配色 / 背景字色（gjs:reading） ----
   const READING_KEY = 'gjs:reading';
   const readerArticle = document.querySelector('.reader');
