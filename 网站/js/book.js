@@ -3,6 +3,54 @@
    ============================================================ */
 'use strict';
 
+// 大封面 hero 用：分类中文名 / 分类底色 class
+const BOOK_CATS = { jing: '經部', shi: '史部', zi: '子部', ji: '集部', cong: '叢部' };
+
+// 从 books-data.json 取本书元数据（category/commentator/summary/highlights/source…）。
+// 尽力而为：取不到返回 null，hero 降级为只用 _site_data 里的 title。
+async function loadBookMeta(title) {
+  try {
+    const data = await loadJSON('assets/data/books-data.json');
+    const list = data.books || data || [];
+    return list.find(b => b.title === title) || null;
+  } catch (e) {
+    return null;
+  }
+}
+
+// 书目详情页左栏：大封面（纯 CSS）+ 书名/作者/批注者 + 简介 + 本版特色标签 + 开始阅读
+function heroHTML(book, meta) {
+  const m = meta || {};
+  const catCls = BOOK_CATS[m.category] ? 'cover-' + m.category : 'cover-all';
+  const author = m.author || '';
+  const authorLine = m.commentator
+    ? esc(author) + ' 著 · ' + esc(m.commentator) + ' 批注'
+    : esc(author) + ' 著';
+  const isWiki = (m.source || '').indexOf('维基') !== -1;
+  const badge = isWiki ? '📘' : '📗';
+  const tags = []
+    .concat(m.highlights || [])
+    .concat(BOOK_CATS[m.category] ? [BOOK_CATS[m.category]] : [])
+    .concat(m.source ? [m.source] : [])
+    .concat(m.license ? [m.license] : [])
+    .map(t => `<span>${esc(t)}</span>`).join('');
+  const titleCls = book.title.length > 6 ? 'cover-title long' : 'cover-title';
+  return `<div class="book-hero-cover ${catCls}">
+      <div class="${titleCls}">${esc(book.title)}</div>
+      <div class="cover-author">${esc(author)}</div>
+      <span class="cover-badge" title="${isWiki ? '维基文库' : '古登堡计划'}">${badge}</span>
+    </div>
+    <div class="book-hero-info">
+      <h1 class="book-hero-title">${esc(book.title)}</h1>
+      ${author ? `<div class="book-hero-author">${authorLine}</div>` : ''}
+      ${m.summary ? `<p class="book-hero-summary">${esc(m.summary)}</p>` : ''}
+      ${tags ? `<div class="book-hero-tags">${tags}</div>` : ''}
+      <div class="book-hero-actions">
+        <a class="btn-read" href="reader.html?book=${encodeURIComponent(book.title)}&index=0">📖 开始阅读</a>
+      </div>
+    </div>`;
+}
+
 (async function () {
   const bookName = getParam('book') || '';
   const loading = document.getElementById('loading');
@@ -10,6 +58,7 @@
   const searchInput = document.getElementById('search');
   const catList = document.getElementById('cat-list');
   const stat = document.getElementById('stat');
+  const heroEl = document.getElementById('book-hero');
 
   if (!bookName) {
     loading.hidden = true;
@@ -38,6 +87,12 @@
 
   const sections = book.sections || [];
   stat.textContent = `共 ${sections.length} 篇`;
+
+  // ---- 大封面 hero（元数据取自 books-data.json，取不到则降级） ----
+  if (heroEl) {
+    const meta = await loadBookMeta(bookName);
+    heroEl.innerHTML = heroHTML(book, meta);
+  }
 
   // ---- 缺篇标注（数据来自每书的 missing 字段） ----
   const missing = book.missing || [];
