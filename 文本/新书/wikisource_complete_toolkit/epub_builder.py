@@ -90,7 +90,7 @@ def fetch_online(title, session=None):
         r = fetch_parse(t, s)
         if not r:
             continue
-        lic = judge_page(t, s)
+        lic = judge_page(t, s, parent_title=title)
         if use_sub:
             items = [{"title": t.split("/")[-1], "html": r["html"]}]
         else:
@@ -118,6 +118,7 @@ def fetch_online(title, session=None):
     dom = c.most_common(1)[0][0] if c else "未知"
     return {
         "book": title,
+        "source": "维基文库",
         "source_base_url": "https://zh.wikisource.org/wiki/" + requests.utils.quote(title.replace(" ", "_")),
         "dominant_license": dom,
         "license_summary": dict(c),

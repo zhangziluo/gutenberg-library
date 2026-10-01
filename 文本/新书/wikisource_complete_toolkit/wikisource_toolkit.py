@@ -48,6 +48,12 @@ UA = {"User-Agent": "MyReader/1.0 (contact: dev@example.com) Python/3.x"}
 OUTPUT_DIR = Path("novels_json")
 RATE_LIMIT_SLEEP = 0.5  # 礼貌延迟（秒）
 
+# 非正文子页（导航/目录/序跋等，通常不算正文章节；「全览」是 Wikisource 自动生成的全文页，务必剔除）
+NON_CONTENT_SUBPAGES = {
+    '全覽', '全览', '目錄', '目录', '導覽', '导览',
+    '序說', '序说', '題記', '题记', '凡例',
+}
+
 
 # ===================== 基础请求 =====================
 def api_get(params, session=None):
@@ -128,12 +134,18 @@ def get_subpages(parent_title, session=None):
             params.update(data["continue"])
         else:
             break
+    # 剔除导航/目录/序跋等非正文子页
+    subs = [t for t in subs if _subpage_name(t, parent_title) not in NON_CONTENT_SUBPAGES]
     subs.sort(key=lambda x: _sort_key(x, parent_title))
     return subs
 
 
+def _subpage_name(title, parent):
+    return title.replace(parent + "/", "")
+
+
 def _sort_key(title, parent):
-    name = title.replace(parent + "/", "")
+    name = _subpage_name(title, parent)
     if "楔" in name:
         return (0, name)
     m = re.search(r"第?(\d+)", name)
@@ -173,9 +185,28 @@ def split_by_heading(html, displaytitle):
 
 
 # ===================== 许可判定（合规闸门） =====================
-def judge_page(title, session=None):
-    """对单页做许可判定，返回 dict（见 license_detector）"""
-    return detect_license(title, session=session)
+def judge_page(title, session=None, parent_title=None):
+    """对单页做许可判定，返回 dict（见 license_detector）。
+
+    若本页未直接标注版权模板（status=unknown），回退继承父页许可——
+    维基文库上许可模板常只挂在父页或部分子页（如《論語》各篇），
+    子页未直接挂 PD-old 时不应误判为「未识别」，而应继承父页的公有领域判定。
+    """
+    lic = detect_license(title, session=session)
+    if parent_title and lic.get('status') == 'unknown' and '/' in title:
+        plic = detect_license(parent_title, session=session)
+        if plic.get('status') != 'unknown':
+            inherited = dict(plic)
+            inherited['note'] = (
+                (plic.get('note', '') or '') +
+                f' 本页未直接标注版权模板，许可继承自父页「{parent_title}」。'
+            ).strip()
+            inherited['warnings'] = list(plic.get('warnings', [])) + [
+                f'本页未直接标注版权模板，许可继承自父页「{parent_title}」，请核对底本出处。',
+            ]
+            inherited['inherited_from'] = parent_title
+            return inherited
+    return lic
 
 
 # ===================== 书籍处理 =====================
@@ -207,8 +238,8 @@ def process_book(book_title, session=None):
         html = r["html"]
         revid = r["revid"]
 
-        # 许可判定（合规闸门）
-        lic = judge_page(t, s)
+        # 许可判定（合规闸门）；子页无直接许可时回退继承父页
+        lic = judge_page(t, s, parent_title=book_title)
 
         # 决定这一页怎么存
         if use_subpages:
@@ -259,6 +290,7 @@ def process_book(book_title, session=None):
 
     book_json = {
         "book": book_title,
+        "source": "维基文库",
         "source_base_url": "https://zh.wikisource.org/wiki/" + requests.utils.quote(book_title.replace(" ", "_")),
         "dominant_license": dominant_license,
         "license_summary": dict(lic_counter),

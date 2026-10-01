@@ -36,7 +36,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <div class="footer-note">文本来源：Project Gutenberg，依据 Project Gutenberg License 自由分发 · 内容仅供学习研究使用</div>
+      <div class="footer-note">文本来源：古登堡计划（Project Gutenberg）与 维基文库（Wikisource）· 内容仅供学习研究使用</div>
       <div class="footer-links"><a href="sponsor.html">捐助</a><a href="mailto:409543901@qq.com">聯繫</a><a href="links.html">相關鏈接</a><a href="https://plan.myfami.cn" target="_blank" rel="noopener">日程編輯與提醒器</a><a href="https://create.myfami.cn" target="_blank" rel="noopener">站長的創作站點</a></div>
     </div>
   </footer>
@@ -59,9 +59,11 @@
 
     function cardHTML(b) {
       const dynTag = b.dynasty ? `<span class="cat-tag cat-dyn">${esc(b.dynasty)}</span>` : '';
+      const srcTag = b.source ? `<span class="cat-tag cat-src">${esc(b.source)}</span>` : '';
+      const tags = dynTag + srcTag;
       const meta = b.sections ? `共 ${b.sections} 篇` : '';
       return `<a class="lib-book" href="book.html?book=${encodeURIComponent(b.title)}">
-          <div class="lib-book-head"><span class="lib-book-name">${esc(b.title)}</span>${dynTag}</div>
+          <div class="lib-book-head"><span class="lib-book-name">${esc(b.title)}</span>${tags ? `<span class="lib-book-tags">${tags}</span>` : ''}</div>
           <div class="lib-book-author">${esc(b.author)} 著</div>
           ${b.description ? `<p class="lib-book-intro">${esc(b.description)}</p>` : ''}
           <div class="lib-book-meta">${meta}</div>

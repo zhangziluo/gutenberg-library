@@ -2184,6 +2184,16 @@ def backup_site_data():
     return dst
 
 
+def source_label(src):
+    """把 library-index 的 source 串归一成目录页展示的中文来源名（古登堡计划 / 维基文库）。"""
+    s = (src or '').lower()
+    if 'wikisource' in s or '维基' in s or '維基' in s:
+        return '维基文库'
+    if 'gutenberg' in s:
+        return '古登堡计划'
+    return src or '古登堡计划'
+
+
 def merge_to_site():
     """按 library-index 重写阅读器单书文件 + books.json + books-data.json（含 catalog 主书）。"""
     lib_index = json.load(open(os.path.join(ROOT, 'library-index.json'), encoding='utf-8'))
@@ -2211,6 +2221,7 @@ def merge_to_site():
                 'category': ckey, 'subcategory': sub, 'dynasty': DYN.get(title, ''),
                 'description': DESC.get(title, raw.get('subcategory', '')),
                 'sections': reader['section_count'],
+                'source': source_label(entry.get('source', '')),
                 'cover': '',
             })
             done.add(title)
@@ -2231,6 +2242,7 @@ def merge_to_site():
                 'dynasty': DYN.get(title, ''),
                 'description': b.get('intro', ''),
                 'sections': (books_index.get(title) or {}).get('section_count'),
+                'source': '古登堡计划',
                 'cover': '',
             })
             done.add(title)

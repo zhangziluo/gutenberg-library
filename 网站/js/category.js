@@ -22,9 +22,11 @@
 
   function cardHTML(b) {
     var dynTag = b.dynasty ? '<span class="cat-tag cat-dyn">' + esc(b.dynasty) + '</span>' : '';
+    var srcTag = b.source ? '<span class="cat-tag cat-src">' + esc(b.source) + '</span>' : '';
+    var tags = dynTag + srcTag;
     var meta = b.sections ? '共 ' + b.sections + ' 篇' : '';
     return '<a class="lib-book" href="/book.html?book=' + encodeURIComponent(b.title) + '">' +
-      '<div class="lib-book-head"><span class="lib-book-name">' + esc(b.title) + '</span>' + dynTag + '</div>' +
+      '<div class="lib-book-head"><span class="lib-book-name">' + esc(b.title) + '</span>' + (tags ? '<span class="lib-book-tags">' + tags + '</span>' : '') + '</div>' +
       '<div class="lib-book-author">' + esc(b.author) + ' 著</div>' +
       (b.description ? '<p class="lib-book-intro">' + esc(b.description) + '</p>' : '') +
       '<div class="lib-book-meta">' + meta + '</div>' +

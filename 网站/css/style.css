@@ -1163,6 +1163,17 @@ body {
   background: transparent;
   color: var(--ink-soft); font-size: 11px;
 }
+.cat-tag.cat-src {
+  background: transparent;
+  color: var(--accent); font-size: 11px;
+  border: 1px solid var(--accent);
+}
+.lib-book-tags {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  flex-shrink: 0;
+}
 .lib-part-all {
   margin-left: auto; color: var(--accent); text-decoration: none;
   font-size: 13px; white-space: nowrap;

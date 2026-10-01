@@ -16,7 +16,7 @@ from collections import Counter
 BASE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(BASE))
 DATA_BOOKS = os.path.join(ROOT, 'data', 'books')
-SITE_DATA = os.path.join(ROOT, '文本', '_site_data')
+SITE_DATA = os.path.join(ROOT, '网站', '_site_data')
 ASSETS = os.path.join(ROOT, '网站', 'assets', 'data')
 
 # 分类映射（library-index 分类名 → 新五部 key）
@@ -131,6 +131,16 @@ CATALOG_ID = {
 }
 
 
+def source_label(src):
+    """把 library-index 的 source 串归一成目录页展示的中文来源名（古登堡计划 / 维基文库）。"""
+    s = (src or '').lower()
+    if 'wikisource' in s or '维基' in s or '維基' in s:
+        return '维基文库'
+    if 'gutenberg' in s:
+        return '古登堡计划'
+    return src or '古登堡计划'
+
+
 def main():
     # ---- 1+2) data/books → _site_data ----
     lib_index = json.load(open(os.path.join(ROOT, 'library-index.json'), encoding='utf-8'))
@@ -159,6 +169,7 @@ def main():
                 'category': ckey, 'subcategory': sub, 'dynasty': DYN.get(title, ''),
                 'description': DESC.get(title, raw.get('subcategory', '')),
                 'sections': reader['section_count'],
+                'source': source_label(entry.get('source', '')),
                 'cover': '',
             })
             done.add(title)
@@ -179,6 +190,7 @@ def main():
                 'dynasty': DYN.get(title, ''),
                 'description': b.get('intro', ''),
                 'sections': (books_index.get(title) or {}).get('section_count'),
+                'source': '古登堡计划',
                 'cover': '',
             })
             done.add(title)

@@ -103,11 +103,22 @@ python3 wikisource_toolkit.py search 賈寶玉 --limit 20 --context 15
 
 ---
 
+## 两个自动行为（fetch / build 内置）
+
+1. **子页许可继承**：若某子页自身未直接挂版权模板（判为「未识别」），自动回退查父页许可并继承
+   （如《論語》各篇常只在部分子页挂 `PD-old`，其余子页继承父页的公有领域判定）。继承结果带
+   `inherited_from` 字段，并在 `license_note` / `license_warnings` 里注明。
+2. **非正文子页过滤**：自动剔除「全览 / 目录 / 序说 / 凡例」等导航或序跋类子页，不当作正文章节。
+   黑名单见 `wikisource_toolkit.py` 的 `NON_CONTENT_SUBPAGES`，可按需增减。
+
+---
+
 ## 输出 JSON 结构
 
 ```json
 {
   "book": "水滸傳 (70回本)",
+  "source": "维基文库",
   "source_base_url": "https://zh.wikisource.org/wiki/水滸傳_(70回本)",
   "dominant_license": "公有领域（Public Domain）",
   "license_summary": { "公有领域（Public Domain）": 71 },
