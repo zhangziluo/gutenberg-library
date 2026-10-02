@@ -95,6 +95,16 @@
     </div>
   </footer>
 
+  <!-- 右侧释义面板（仅桌面端；小屏由 CSS 隐藏） -->
+  <aside id="dict-panel" class="dict-panel" hidden aria-label="词典释义">
+    <div class="dp-head">
+      <b id="dp-word">—</b>
+      <span id="dp-py" class="dp-py"></span>
+      <button id="dp-close" class="dp-close" type="button" title="关闭">×</button>
+    </div>
+    <div class="dp-body" id="dp-body"></div>
+  </aside>
+
   <script src="js/common.js"></script>
   <script src="js/vocab-matcher.js"></script>
   <script src="js/reader.js"></script>

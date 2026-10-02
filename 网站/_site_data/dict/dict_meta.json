@@ -1,0 +1,8 @@
+{
+ "shards": 128,
+ "dicts": [
+  "kangxi",
+  "shuowen"
+ ],
+ "note": "按首字码点 % shards 取分片"
+}

@@ -1563,3 +1563,59 @@ wise:focus-visible { outline: 2px solid rgba(158, 43, 37, .5); outline-offset: 1
 .ann-pop-part b { font-family: var(--font-serif); min-width: 1.6em; color: var(--ink); }
 .ann-pop-part span { flex: 1; color: var(--ink-soft); }
 
+
+/* ============================================================
+   右侧释义面板（reader 页）—— 仅桌面端；小屏/手机端由媒体查询隐藏
+   ============================================================ */
+.dict-panel {
+  position: fixed;
+  top: 76px;
+  right: 16px;
+  width: 340px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  background: var(--paper-light);
+  color: var(--ink);
+  border: 1px solid rgba(26, 26, 26, .12);
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(26, 26, 26, .18);
+  padding: 12px 16px 18px;
+  z-index: 15000;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.7;
+}
+.dict-panel[hidden] { display: none; }
+.dp-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  border-bottom: 1px solid rgba(26, 26, 26, .08);
+  padding-bottom: 8px;
+}
+.dp-head b { font-family: var(--font-serif); font-size: 20px; color: var(--ink); }
+.dp-py { color: var(--ink-soft); font-size: 13px; }
+.dp-close {
+  margin-left: auto;
+  border: 0;
+  background: transparent;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--ink-soft);
+}
+.dp-close:hover { color: var(--accent); }
+.dp-sec { margin-top: 12px; }
+.dp-sec h4 { margin: 0 0 4px; font-size: 13px; font-weight: 600; color: var(--accent); }
+.dp-sec p { margin: 0 0 6px; }
+.dp-parts { color: var(--ink-soft); font-size: 13px; }
+.dp-dim { color: var(--ink-soft); font-size: 12px; }
+.dp-loading { color: var(--ink-soft); }
+.dp-online-sec h5 { margin: 8px 0 2px; font-size: 12px; color: var(--ink-soft); font-weight: 600; }
+.dp-online-sec p { font-size: 13px; }
+
+/* 小屏 / 手机端：不显示面板（只保留快速词卡） */
+@media (max-width: 1099px) {
+  .dict-panel { display: none !important; }
+}
+

@@ -280,6 +280,140 @@ const POS_PREFIX = 'gjs:pos:';
     return null;
   }
 
+  // ---- 右侧释义面板（仅桌面端；小屏由 CSS 隐藏）----
+  const dictPanel = document.getElementById('dict-panel');
+  const dpWord = document.getElementById('dp-word');
+  const dpPy = document.getElementById('dp-py');
+  const dpBody = document.getElementById('dp-body');
+  const DICT_SHARDS = 128;                                     // 与 build_dict_shards 一致
+  const shardCache = {};
+
+  function isDesktop() {
+    try { return window.matchMedia('(min-width: 1100px)').matches; }
+    catch (e) { return false; }
+  }
+  function closeDictPanel() { if (dictPanel) dictPanel.hidden = true; }
+  if (document.getElementById('dp-close')) {
+    document.getElementById('dp-close').addEventListener('click', closeDictPanel);
+  }
+
+  /** 取某词典中某字所在分片（缓存，失败回 {}） */
+  function loadDictShard(name, ch) {
+    const n = ch.codePointAt(0) % DICT_SHARDS;
+    const ck = name + '/' + n;
+    if (shardCache[ck]) return shardCache[ck];
+    shardCache[ck] = loadJSON(DATA_BASE + 'dict/' + name + '/' + n + '.json')
+      .catch(function () { return {}; });
+    return shardCache[ck];
+  }
+
+  /** 带超时的 JSON 请求（在线词典用，失败静默） */
+  function fetchJsonTimeout(url, ms) {
+    return new Promise(function (resolve, reject) {
+      let ctl = (typeof AbortController !== 'undefined') ? new AbortController() : null;
+      const timer = setTimeout(function () {
+        if (ctl) ctl.abort();
+        reject(new Error('timeout'));
+      }, ms);
+      fetch(url, ctl ? { signal: ctl.signal } : {})
+        .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+        .then(function (d) { clearTimeout(timer); resolve(d); })
+        .catch(function (e) { clearTimeout(timer); reject(e); });
+    });
+  }
+
+  /** 在线摘要（维基百科/Wiktionary；取前 200 字；失败静默不显示） */
+  function fetchOnlineSummary(host, word, label, box) {
+    const url = 'https://' + host + '/api/rest_v1/page/summary/' + encodeURIComponent(word);
+    fetchJsonTimeout(url, 6000).then(function (d) {
+      const ex = d && d.extract;
+      if (!ex) return;
+      const sec = document.createElement('div');
+      sec.className = 'dp-online-sec';
+      const h = document.createElement('h5'); h.textContent = label;
+      const p = document.createElement('p');
+      p.textContent = ex.slice(0, 200) + (ex.length > 200 ? '…' : '');
+      sec.appendChild(h); sec.appendChild(p);
+      box.appendChild(sec);
+    }).catch(function () { /* 离线/被墙 → 不显示 */ });
+  }
+
+  function dpSec(title) {
+    const s = document.createElement('section');
+    s.className = 'dp-sec';
+    const h = document.createElement('h4'); h.textContent = title;
+    s.appendChild(h);
+    return s;
+  }
+
+  /** 填充右侧面板：本站释义 + 康熙/说文（单字，离线）+ 在线词典 */
+  function fillDictPanel(el) {
+    const word = el.getAttribute('data-word') || '';
+    const key = el.getAttribute('data-key') || word;
+    const entry = annLookup(key, word);
+    const parts = (el.getAttribute('data-parts') || '').split('|').filter(Boolean);
+    dpWord.textContent = word;
+    dpPy.textContent = (entry && entry.pinyin) ? entry.pinyin : '';
+    dpBody.textContent = '';
+
+    const s1 = dpSec('本站释义');
+    const p1 = document.createElement('p');
+    const g = annGlossText(entry);
+    p1.textContent = g || (entry && entry.need_ai ? '（释义待精修）' : '（本站词表未收录）');
+    s1.appendChild(p1);
+    if (parts.length) {
+      const sub = document.createElement('p');
+      sub.className = 'dp-parts';
+      sub.textContent = '成分字：' + parts.map(function (pw) {
+        const pe = annLookup(pw, pw);
+        const pg = annGlossText(pe);
+        return pw + (pg ? '：' + pg : '');
+      }).join('；');
+      s1.appendChild(sub);
+    }
+    dpBody.appendChild(s1);
+
+    const isSingle = word.length === 1 && /[\u3400-\u9fff\uf900-\ufaff]/.test(word);
+    if (isSingle) {
+      [['kangxi', '康熙字典'], ['shuowen', '说文解字']].forEach(function (pair) {
+        const s = dpSec(pair[1]);
+        const p = document.createElement('p');
+        p.className = 'dp-loading';
+        p.textContent = '加载中…';
+        s.appendChild(p);
+        dpBody.appendChild(s);
+        loadDictShard(pair[0], word).then(function (d) {
+          p.classList.remove('dp-loading');
+          p.textContent = d[word] || '（未收录）';
+        });
+      });
+    } else {
+      const s = dpSec('字形词典');
+      const p = document.createElement('p');
+      p.className = 'dp-dim';
+      p.textContent = '康熙字典/说文解字按单字收录，多字词请见上方「本站释义」。';
+      s.appendChild(p);
+      dpBody.appendChild(s);
+    }
+
+    const s3 = dpSec('在线词典（需联网）');
+    const box = document.createElement('div');
+    s3.appendChild(box);
+    const hint = document.createElement('p');
+    hint.className = 'dp-dim';
+    hint.textContent = '按“摘要（前 200 字）”展示，联网失败则自动隐藏。';
+    s3.appendChild(hint);
+    dpBody.appendChild(s3);
+    fetchOnlineSummary('zh.wiktionary.org', word, 'Wiktionary', box);
+    fetchOnlineSummary('zh.wikipedia.org', word, '维基百科', box);
+  }
+
+  function openDictPanel(el) {
+    if (!dictPanel) return;
+    dictPanel.hidden = false;
+    fillDictPanel(el);
+  }
+
   /** 词卡：data-word 是**完整词形**（含 mornin' 的词尾撇号），data-key 才是词典键 */
   function fillAnnPop(el) {
     const word = el.getAttribute('data-word') || '';
@@ -355,8 +489,12 @@ const POS_PREFIX = 'gjs:pos:';
 
   reader.addEventListener('click', function (e) {
     const el = e.target.closest ? e.target.closest('wise, .ann-word') : null;
-    if (el) { showAnnPop(el); }
-    else if (!e.target.closest('.ann-pop')) { hideAnnPop(); }
+    if (el) {
+      if (isDesktop() && dictPanel) { openDictPanel(el); }     // 桌面端：右侧固定面板
+      else { showAnnPop(el); }                                 // 移动端：快速词卡
+    } else if (!e.target.closest('.ann-pop') && !e.target.closest('#dict-panel')) {
+      hideAnnPop();
+    }
   });
   document.addEventListener('scroll', hideAnnPop, true);
   // 切注释语言 → 已打开的小卡即时换文案（正文/页面不刷新）
