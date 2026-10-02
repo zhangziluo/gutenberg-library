@@ -34,6 +34,22 @@
 > - 近期提交（新→旧）：`487178e` → `71d7901`(流水线自动) → `580ad00` → `e4c93c0` → `6db5d63` → `dd11b63`
 >   → `527300f` → `b7e04a8` → `ad388d8` → `68be37c` → `9a0837a` → `f075b16` → `f5f9715` → `4038d61`（维基文库起）。
 
+> **追加核查（2026-10-02）**：书库大幅扩容 + 释义面板上线 + 分章修复（**工作区未提交、未推送**）。
+> - **规模**：`data/books/` ≈ **676 JSON**（`library-index.json` 子部 676）；`网站/_site_data/` **677 JSON**
+>   （原 105 中文 + 600 英文精选；同名多版本会互相覆盖）；`dist/` **570 MiB / 977 文件**（未跟踪）。
+> - **单文件体积**：最大单书 ≈ **4.3 MiB**（英文书含注释）≪ 25 MiB；词表 `vocab_final.json` ≈ **3.0 MiB**。
+> - **词典分片**：`网站/_site_data/dict/{kangxi,shuowen}/0..127.json`（康熙 91 KB/片、说文 4 KB/片，共约 12 MiB / 256 文件），
+>   前端按「首字码点 % 128」按需加载。
+> - **前端新增**：`reader.html` 的 `<aside id="dict-panel">`（**仅桌面端**，≤1099px 隐藏）+ `reader.js` 面板逻辑；
+>   `global-ai.js` 选中填 AI 改为**右键（contextmenu）触发**。
+> - **分章规则**（`~/gutenberg_project/scripts/cleaned_to_books.py`）：`CHAPTER/BOOK/PART` + **戏剧 `ACT/SCENE`**
+>   （英文 `ACT I` / `FIRST ACT`、拉丁 `Actus Primus` / `Scoena Prima`，**按场拆章**）+ **标题式行**（大写 / Title Case 独立行）；
+>   另有碎片过滤（<30 字）、同名章去重（保留最长）、超长兜底（>10 万字按段落近似切分）。`preview_split.py` 为入库前检查工具。
+> - **旁路产物**（**不在仓库内**）：`~/gutenberg_project/`（脚本+进度）、`~/gutenberg_cleaned/`（清洗 22G）、
+>   `~/gutenberg_en|zh|other|zh_dup/`（分流，other 5.5G）、`~/downloads/cache/epub/`（已清空）。
+> - **文件数预算**：`_site_data` 677 + dict 256 ≈ **933 文件**，距 CF Pages 20,000 上限充裕；**若继续全量入库 6 万本会触顶**，需目录化 / R2。
+
+
 ## 部署要点
 - `网站/_redirects`：仅含旧分类地址的 301 规则。
 - `网站/js/common.js`：`DATA_BASE = '_site_data/'`，按 `_site_data/{書名}.json` 按需拉取单书。
@@ -83,6 +99,11 @@
 - `tradify.js` / `pinyin_helper.js`：opencc 简→繁、pinyin-pro 注音（node 子进程）。
 - `scripts/classify_books.py`：DeepSeek 自动分类（四部 + 英文 level）。**当前未接通**：默认输入
   `data/books.json` 不存在，且需 `DEEPSEEK_API_KEY`；`pipeline.sh` 已加守卫，缺失即跳过。
+- `scripts/reclassify_en_books.py`（**新增 2026-10-02**）：按四部分类法重分「已入库英文书」——
+  内置 `EN_CLASS`（书名 → 部类/子类）映射，把 `library-index.json`（跨部搬移 + 改 subcategory）、
+  `网站/assets/data/books-data.json`（category key / subcategory / summary）与 `data/books/pg*.json`
+  一并改写；`--dry-run` 预览、`--also <副本>` 同步 `progress/full/` 备份（防分批推送回退）。
+  写入前自检「英文书全覆盖 + 分类 key 合法」，失败不落盘。当前结果：英文 79 条 → 子部 24 / 集部 55。
 
 ### 维基文库书源 / 书库页（新增 2026-10-01）
 - `wikisource_complete_toolkit/{wikisource_toolkit.py,license_detector.py,epub_builder.py,test_license_offline.py,QUICKSTART.md}`：

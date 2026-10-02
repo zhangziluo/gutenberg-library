@@ -188,3 +188,26 @@
   仅本地/备用）两套并存，路径类改动需同时兼容。
 - **只读预览（--dry-run）**：解析元数据打印预览表后即返回，**不下载、不入库、不写文件**（连失败日志也临时屏蔽）；
   有原文显示实际切分器，未下载则只显示元数据 + 切分标「待下载」。
+
+## 古登堡批处理流水线（2026-10-02，独立目录 `~/gutenberg_project/`）
+- **定位**：把 `~/downloads/cache/epub`（**77941 本**）批量分流 → 去重 → 清洗 → 分级；与站点项目**解耦**
+  （脚本/进度/产物都在仓库外，`progress/` 断点续跑）。
+- **状态机**（`run_batch.py`，每次一批 500）：Step1 去重 → **P2 语言检测**（头部 `Language:` 优先 + langdetect 兜底）
+  → **P3 中文维基去重**（串行 + UA + 限流 + 429 退避 + 失败跳过）→ **P4 英文二次去重** → **P5 清洗**（正文/章节/统计 + SQL，
+  成功后删原文）→ **P6 CEFR 分级**。
+- **清洗产物**：`~/gutenberg_cleaned/{id}/`（text.txt / chapters.json / metadata.json）+ `out/books.sql` + `out/book_difficulty.sql`；
+  站点入库经 `cleaned_to_books.py`（→ `data/books/pg{id}.json` + `library-index.json`）→ `merge_to_site` → `fill_glosses`
+  → `slim_annotations` → `deploy/build.sh`。
+- **分章规则**（`cleaned_to_books.split_chapters`，`--split-mode auto|chapter|drama|titles`）：
+  - `chapter`：`CHAPTER/BOOK/PART [IVXLCDM数字]`（小说/非虚构）
+  - `drama`：**按「场」拆** —— 英文 `ACT I` / `FIRST ACT`、拉丁 `Actus Primus` / `Scoena Prima`（同行合并为「Act I, Scene I」）
+  - `titles`：标题式行（全大写 / Title Case 独立成段），排除舞台指示 / 角色对白 / 目录碎片（<30 字）
+  - 后处理：碎片过滤 → 同名章去重（保留最长）→ 按位置排序 → **超长兜底**（>10 万字按段落近似切分）
+  - **入库前检查**：`preview_split.py`（`--suspicious-only` 输出「1 章且篇幅大」清单）——**先预览、再入库/推送**
+- **词典分片（新）**：康熙 / 说文按「首字码点 % 128」分片 `网站/_site_data/dict/{kangxi,shuowen}/N.json`，
+  前端释义面板按需 fetch（浏览器缓存）——延续「大词库必须分片」原则。
+- **右侧释义面板（新）**：`reader.html#dict-panel`（**仅桌面端**）聚合「本站释义 + 康熙/说文（离线分片）+ Wiktionary/维基百科摘要
+  （前 200 字，失败静默）」；选词交互为**左键查词 / 右键送 AI**（`selectionchange` vs `contextmenu`）。
+- **分批推送**：`batch_scope.py` 把聚合文件收窄到「累计第 K 批」（全量备份 `progress/full/`），`push_batch.sh K` 每批 40 本
+  commit+push；`data/books/` 已 gitignore（CF 构建只需 `网站/_site_data`）。
+

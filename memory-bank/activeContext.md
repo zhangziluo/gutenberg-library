@@ -1,6 +1,87 @@
 # Active Context（当前状态与下一步）
 
-## 当前（2026-10-01）：维基文库书源 + 书库页重构（封面网格）
+## 当前（2026-10-02）：古登堡 8 万本批处理 + 精选 600 本入库 + 分章修复 + 词典/释义面板
+
+> 独立流水线目录 **`~/gutenberg_project/`**（与站点项目解耦）；进度全在 `progress/`，支持断点续跑。
+> 站点侧已入库 **61635 本清洗产物**、精选 **600 本英文书**；`网站/_site_data` **677 文件**、`dist` 570M / 977 文件。
+> ⚠️ **未推送**：分章修复后的数据待站长手动分批重推（见 ⑦）。
+
+### ① 批量流水线（`~/gutenberg_project/`）
+- `scripts/common.py`（路径/进度/日志/磁盘/编码/头部解析/语言判定）、`run_batch.py`（状态机：每次一批 500）。
+- **Step1 去重**：扫 `文本/新书/raw` 115 个 txt → 115 书号（数字名 63 + 头部 `EBook#` 43 + 书名反查 9），0 未解析。
+- **Step2 语言检测**：`~/downloads/cache/epub` **77941 本全分流** —— 英文 **61656** / 中文 **435** / 其他 **15850**（54 个语言目录）。
+  - 策略：**头部 `Language:` 字段优先**（权威）+ langdetect（跳过头部、取 START 后 1000 字符）兜底；`--fix-other` 纠正误判（曾修回 8 本）。
+- **Step3 中文维基文库去重**：435 本全查，**344 本维基命中**（移入 `~/gutenberg_zh_dup/`）；串行 + UA + 1.0s 限流 + 429 长退避 + 失败跳过（MAX_FAILS=5）。
+- **Step4/5/6**：英文二次去重（`en_todo.txt`）→ 清洗 **61635 本**（`~/gutenberg_cleaned/{id}/`：text.txt / chapters.json / metadata.json，+ `out/books.sql`、`out/book_difficulty.sql`）→ CEFR 分级。
+- 用法：`bash ~/gutenberg_project/run.sh`（每批 500、断点续跑）/ `--status` / `run_rest.sh`（P5→P6 长跑）。
+
+### ② 精选 600 本英文书入库
+- `scripts/select_books.py`：CEFR A1–B2、词数 8000–150000、**经典优先（小书号在前）+ 分层配额**（A1 100 / A2 180 / B1 200 / B2 120）。
+- `scripts/cleaned_to_books.py --annotate`：`~/gutenberg_cleaned/{id}/` → `data/books/pg{id}.json`（含 chapters + 注释）+ 更新 `library-index.json`（子部）。
+- 全链路 `run_ingest.sh`：转换 → `merge_to_site` → `fill_glosses --no-network` → `slim_annotations` → `deploy/build.sh`。
+
+### ③ 开源词典引入（`文本/新书/data/`）
+- `cedict_words.json` = **CC-CEDICT 19.8 万词条 / 18.4 万多字词**（mdbg 官方，11 MB）
+- `kangxi.json` = **康熙字典 48710 字**（samsonhoi，MIT，11.4 MB）
+- `shuowen.json` = **说文解字 9815 字**（shuowenjiezi，Apache-2.0，0.5 MB）
+- `definition_fill.py` 自动发现 → **词表待补 32214 → 11623（−64%）**，need_ai 45161 → 16165。
+- 解析脚本：`~/gutenberg_project/scripts/parse_cedict.py` / `parse_shuowen.py` / `parse_kangxi.py`。
+
+### ④ 右侧释义面板（`reader.html` / `js/reader.js` / `css/style.css`，**仅桌面端**）
+- `<aside id="dict-panel">` 固定右侧、默认隐藏；**点击 `<wise>` 或选中任意字词**触发。
+- 面板分区：本站释义（annotations/vocab_final + 成分字）→ **康熙字典 / 说文解字**（离线，`_site_data/dict/{kangxi,shuowen}/0..127.json` 按字码点分片，91KB / 4KB 每片）→ **Wiktionary / 维基百科**摘要（前 200 字，**联网失败自动隐藏**）。
+- 小屏（≤1099px）CSS 隐藏面板；移动端仍用原快速词卡。分片生成：`scripts/build_dict_shards.py`（`dict_meta.json` shards=128）。
+
+### ⑤ 选词交互：左键查词 / 右键送 AI
+- `global-ai.js`：**「选中即填 AI」改为右键（`contextmenu`）触发**（不 preventDefault，保留系统菜单）；豁免名单加 `#dict-panel`。
+- `reader.js`：`selectionchange`（去抖 180ms）→ 左键选中正文任意字词（≤24 字、仅正文区）→ 打开右侧面板。
+
+### ⑥ 分章修复（本轮重点）
+- **戏剧按「场」（SCENE）拆章**（此前按幕，单章过长）：新增 `_SCENE_EN_RE/_SCENE_LA_RE`（`Scoena/Scena/Scæna/Scaena`），重写 `_drama_marks`（ACT 记录当前幕、SCENE 标题带幕号、**同行 `Actus Primus. Scoena Prima.` 合并为一场**）→ Othello **15 场**、Merry Wives 24 场。
+- **根因**：Gutenberg First Folio 版莎剧用**拉丁** `Actus Primus. Scoena Prima.`（旧正则只认 `CHAPTER/BOOK/PART`）；另有英文序数词 `FIRST ACT`（Lady Windermere）、阴性 `Actus Tertia`（Shrew）、目录速览行误当章。
+- **扩展规则修复 249 本 → 8 本（96.8%）**：新增**标题式行**模式（`Stave I:` / 大写标题 `STORY OF THE DOOR` / 标题式 `Blue Wednesday`），排除舞台指示（Enter/Exeunt）、角色对白行、目录碎片（<30 字）；同名章去重（保留最长）。
+- **源缺标记的 5 本已处理**：Hamlet #1122/#2265（按场 6 章）、Dolly #1203（21 章）、Florentine #1308（6 章）、Troilus #1124 / Misalliance #943（**超长兜底**：>10 万字按段落近似切分）。
+- **铁律工具**：`scripts/preview_split.py`（`--ids` / `--suspicious-only` / `--mode auto|chapter|drama|titles`），清单落 `progress/split_issues.txt`（现 8 本，7 本真单篇）。**入库前必跑预览确认分章。**
+
+### ⑦ 分批推送机制（每批 40 本）
+- `scripts/make_batches.py` → `progress/ingest_batches.tsv` + `.md`（15 批 × 40 本）。
+- `scripts/batch_scope.py --save/--batch K/--all`：把 `library-index.json` / `books-data.json` / `books.json` **收窄到「累计到第 K 批」**（全量备份在 `progress/full/`，含 `original_titles.json`），保证每批书架渐增、不留 404。
+- `push_batch.sh K [--dry-run]`：收窄聚合 → `git add` 本批 40 本 + 聚合 → commit → push。
+- `data/books/` 已 **gitignore**（源数据 567M 不入库；CF 构建只需 `网站/_site_data`）。
+
+### ⑧ 英文书按「四部分类法」重分（2026-10-02，本轮）
+- **问题**：英文书入库时 `cleaned_to_books.py` 一律写死 `CAT='子部'/SUBCAT='小說家（西洋）'`，
+  于是 79 条（52 种）已推送英文书全挤在「子部 · 小說家（西洋）」，与站点「五部分類」卖点不符。
+- **方案**：新增 `scripts/reclassify_en_books.py`（`--dry-run` / `--also <副本>` / `--no-data-books`），
+  按**传统四部分类法 + 站点既有子类命名**，以 `EN_CLASS`（书名 → 部类/子类）重排：
+  - 子部·**小說家（志怪·西洋）** 3：Frankenstein、Dracula、The Arabian Nights
+  - 子部·**小說家（公案·西洋）** 1：The Hound of the Baskervilles
+  - 子部·**小說家（童話·西洋）** 9：Peter Pan、Jungle Book、Wind in the Willows、A Little Princess、
+    Grimms' Fairy Tales、Little Lord Fauntleroy、Looking-Glass、Pinocchio、Bobbsey Twins
+  - 子部·**小說家（寓言·西洋）** 1：Fables（Stevenson）
+  - 子部·**小說家（西洋）** 9：Anne of Green Gables、A Girl of the Limberlost、The Cash Boy、
+    Bab: A Sub-Deb、Cast Upon the Breakers、The Errand Boy、Joe the Hotel Boy、Driven from Home、Dolly Dialogues
+  - 子部·**譜錄（食譜）** 1：Recipes Tried and True
+  - 集部·**戲曲（西洋）** 27 种 / 55 条：莎剧各版本 + Wilde/Shaw/Congreve/Synge/Goldsmith + Henley&Stevenson
+  - 集部·**別集（西洋）** 1：Walden（散文随笔，个人文集）
+  - 經部 / 史部 / 叢部：本批英文书无此类（叢部＝跨部之叢書，故索引里**不出现**空分类，与 `merge_to_site` 一致）
+- **结果**：`library-index.json` 子部 143→88（英文 79→24）、集部 7→62（英文 0→55），总 172 不变；
+  `books-data.json` `zi` 146→91、`ji` 16→71；`data/books/pg*.json` 79 本正本同步。
+  同部内排序保持「中文在前、西洋在后」。`网站/_site_data/*.json` 与 `books.json` 不含部类，无需改动。
+- **耐久性**：`progress/full/{library-index,books-data}.json` 已用 `--also` 同步（否则下次
+  `push_batch.sh K` 走 `batch_scope.py` 会从 FULL 重建、把重分类**回退**）。
+- **待办**：`~/gutenberg_project/scripts/cleaned_to_books.py` 仍是写死 子部·小說家（西洋）
+  （未推的 500+ 本英文书入库后仍需跑本脚本，或改造该脚本按体裁分类）。
+
+### ⏭️ 下一步（待办）
+1. **手动分批重推**（交接点）：分章修复后的 `_site_data`（约 600 文件）待站长按已推批次重推（`bash ~/gutenberg_project/push_batch.sh K`）。当前**工作区未提交**。
+2. 剩余分章：8 本中 #317《The Culprit Fay》诗集（多行标题）未拆；如需可加「多行标题块」规则。
+3. **多版本莎剧同名覆盖**：`_site_data/{书名}.json` 会被同名后写覆盖（如 Troilus #1124/#1528），如需并存需改名。
+4. 词表释义：仍 **待补 11623 + need_ai 16165**（可配 `DEEPSEEK_API_KEY` 做 AI 精修，或再引入词级源）。
+5. 可选：改写 `71d7901` 提交信息需 `rebase -i` + `push --force`。
+6. 接 FastAPI 后端（`read_count`/`added_at` 真值）—— 沿用 10-01 待办。
+
+## 已完成（2026-10-01）：维基文库书源 + 书库页重构（封面网格）
 
 > 书库仍 **113 本**；`main` 与 `origin/main` 一致。以下**均已提交**（除非另注）。
 
@@ -355,3 +436,11 @@
 - **网络不稳**：本机到 `raw.githubusercontent.com`（ECDICT 63 MiB 需 git 克隆更稳）与 `gutendex.com`、
   `api.dictionaryapi.dev` 均很慢/不可达；脚本已做重试+熔断+缓存，但联网步骤可能耗时数十分钟。
 - 书库若扩到数百本，`_site_data` 平铺单书 + `books.json` 的扩展性需重估（目录化 or R2）。
+- **本轮未提交/未推送**（2026-10-02）：分章修复后的 `网站/_site_data/*.json`（约 600 文件）、`library-index.json`、
+  `文本/新书/wordbank_en.json`、`memory-bank/` 仍在工作区；站长按**已推批次**手动重推（`bash ~/gutenberg_project/push_batch.sh K`）。
+- **多版本莎剧同名覆盖**：`_site_data/{书名}.json` 以「书名」为键，同名多版本（如 Troilus #1124 / #1528）**后写覆盖前者**；
+  如需并存须让书名可区分。
+- **分章剩余 8 本**：其中 7 本为**真单篇**（The Secret Sharer / Civil Disobedience / Walking / Amy Foster 等，1 章合理），
+  仅 #317《The Culprit Fay, and Other Poems》诗集（多行标题）未拆。
+- **`~/gutenberg_*` 占家目录约 28G**（cleaned 22G、other 5.5G、zh_dup 150M 等）；`gutenberg_other`（15850 本非中英文）与
+  `gutenberg_zh_dup`（344 本维基重复）在确认后可按需清理（`gutenberg_cleaned` 含注释回填依赖，清理前先确认站点 `_site_data` 已就绪）。
