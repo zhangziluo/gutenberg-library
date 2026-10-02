@@ -104,6 +104,123 @@
           "chapters": 1,
           "source": "维基文库",
           "path": "data/books/千字文.json"
+        },
+        {
+          "key": "春秋穀梁傳",
+          "book": "春秋穀梁傳",
+          "author": "佚名",
+          "subcategory": "十三經總義",
+          "chapters": 12,
+          "source": "维基文库",
+          "path": "data/books/春秋穀梁傳.json"
+        },
+        {
+          "key": "論語註疏",
+          "book": "論語註疏",
+          "author": "何晏",
+          "subcategory": "註疏",
+          "chapters": 21,
+          "source": "维基文库",
+          "path": "data/books/論語註疏.json"
+        },
+        {
+          "key": "周禮",
+          "book": "周禮",
+          "author": "佚名",
+          "subcategory": "十三經總義",
+          "chapters": 6,
+          "source": "维基文库",
+          "path": "data/books/周禮.json"
+        },
+        {
+          "key": "儀禮",
+          "book": "儀禮",
+          "author": "佚名",
+          "subcategory": "十三經總義",
+          "chapters": 17,
+          "source": "维基文库",
+          "path": "data/books/儀禮.json"
+        },
+        {
+          "key": "春秋左氏傳",
+          "book": "春秋左氏傳",
+          "author": "佚名",
+          "subcategory": "十三經總義",
+          "chapters": 13,
+          "source": "维基文库",
+          "path": "data/books/春秋左氏傳.json"
+        },
+        {
+          "key": "孟子",
+          "book": "孟子",
+          "author": "孟子",
+          "subcategory": "十三經總義",
+          "chapters": 14,
+          "source": "维基文库",
+          "path": "data/books/孟子.json"
+        },
+        {
+          "key": "孟子註疏",
+          "book": "孟子註疏",
+          "author": "孙奭",
+          "subcategory": "註疏",
+          "chapters": 15,
+          "source": "维基文库",
+          "path": "data/books/孟子註疏.json"
+        },
+        {
+          "key": "大戴禮記",
+          "book": "大戴禮記",
+          "author": "戴德",
+          "subcategory": "十三經總義",
+          "chapters": 40,
+          "source": "维基文库",
+          "path": "data/books/大戴禮記.json"
+        },
+        {
+          "key": "爾雅註疏",
+          "book": "爾雅註疏",
+          "author": "邢昺",
+          "subcategory": "註疏",
+          "chapters": 10,
+          "source": "维基文库",
+          "path": "data/books/爾雅註疏.json"
+        },
+        {
+          "key": "春秋穀梁傳註疏",
+          "book": "春秋穀梁傳註疏",
+          "author": "楊士勛",
+          "subcategory": "註疏",
+          "chapters": 21,
+          "source": "维基文库",
+          "path": "data/books/春秋穀梁傳註疏.json"
+        },
+        {
+          "key": "儀禮註疏",
+          "book": "儀禮註疏",
+          "author": "賈公彥",
+          "subcategory": "註疏",
+          "chapters": 53,
+          "source": "维基文库",
+          "path": "data/books/儀禮註疏.json"
+        },
+        {
+          "key": "尚書正義",
+          "book": "尚書正義",
+          "author": "孔安國",
+          "subcategory": "註疏",
+          "chapters": 21,
+          "source": "维基文库",
+          "path": "data/books/尚書正義.json"
+        },
+        {
+          "key": "尚書",
+          "book": "尚書",
+          "author": "司馬遷",
+          "subcategory": "十三經總義",
+          "chapters": 69,
+          "source": "维基文库",
+          "path": "data/books/尚書.json"
         }
       ]
     },
@@ -181,6 +298,87 @@
           "chapters": 10,
           "source": "维基文库",
           "path": "data/books/三輔黃圖.json"
+        },
+        {
+          "key": "吳越春秋",
+          "book": "吳越春秋",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 13,
+          "source": "维基文库",
+          "path": "data/books/吳越春秋.json"
+        },
+        {
+          "key": "大唐西域記",
+          "book": "大唐西域記",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 9,
+          "source": "维基文库",
+          "path": "data/books/大唐西域記.json"
+        },
+        {
+          "key": "華陽國志",
+          "book": "華陽國志",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 16,
+          "source": "维基文库",
+          "path": "data/books/華陽國志.json"
+        },
+        {
+          "key": "國語",
+          "book": "國語",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 22,
+          "source": "维基文库",
+          "path": "data/books/國語.json"
+        },
+        {
+          "key": "史通",
+          "book": "史通",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 27,
+          "source": "维基文库",
+          "path": "data/books/史通.json"
+        },
+        {
+          "key": "水經注",
+          "book": "水經注",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 42,
+          "source": "维基文库",
+          "path": "data/books/水經注.json"
+        },
+        {
+          "key": "天下郡國利病書",
+          "book": "天下郡國利病書",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 54,
+          "source": "维基文库",
+          "path": "data/books/天下郡國利病書.json"
+        },
+        {
+          "key": "東京夢華錄",
+          "book": "東京夢華錄",
+          "author": "孟元老",
+          "subcategory": "地理",
+          "chapters": 10,
+          "source": "维基文库",
+          "path": "data/books/東京夢華錄.json"
+        },
+        {
+          "key": "直齋書錄解題",
+          "book": "直齋書錄解題",
+          "author": "陳振孫",
+          "subcategory": "目錄",
+          "chapters": 22,
+          "source": "维基文库",
+          "path": "data/books/直齋書錄解題.json"
         }
       ]
     },
@@ -1059,6 +1257,285 @@
           "chapters": 9,
           "source": "维基文库",
           "path": "data/books/沖虛至德真經.json"
+        },
+        {
+          "key": "潛夫論",
+          "book": "潛夫論",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 11,
+          "source": "维基文库",
+          "path": "data/books/潛夫論.json"
+        },
+        {
+          "key": "文中子中説",
+          "book": "文中子中説",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 11,
+          "source": "维基文库",
+          "path": "data/books/文中子中説.json"
+        },
+        {
+          "key": "世説新語",
+          "book": "世説新語",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 9,
+          "source": "维基文库",
+          "path": "data/books/世説新語.json"
+        },
+        {
+          "key": "孔子家語",
+          "book": "孔子家語",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 13,
+          "source": "维基文库",
+          "path": "data/books/孔子家語.json"
+        },
+        {
+          "key": "齊民要術",
+          "book": "齊民要術",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 12,
+          "source": "维基文库",
+          "path": "data/books/齊民要術.json"
+        },
+        {
+          "key": "新書",
+          "book": "新書",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 14,
+          "source": "维基文库",
+          "path": "data/books/新書.json"
+        },
+        {
+          "key": "意林",
+          "book": "意林",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 10,
+          "source": "维基文库",
+          "path": "data/books/意林.json"
+        },
+        {
+          "key": "九章算術",
+          "book": "九章算術",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 12,
+          "source": "维基文库",
+          "path": "data/books/九章算術.json"
+        },
+        {
+          "key": "南華真經",
+          "book": "南華真經",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 13,
+          "source": "维基文库",
+          "path": "data/books/南華真經.json"
+        },
+        {
+          "key": "列子",
+          "book": "列子",
+          "author": "列禦寇",
+          "subcategory": "道家",
+          "chapters": 8,
+          "source": "维基文库",
+          "path": "data/books/列子.json"
+        },
+        {
+          "key": "孫子集注",
+          "book": "孫子集注",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 14,
+          "source": "维基文库",
+          "path": "data/books/孫子集注.json"
+        },
+        {
+          "key": "太玄經",
+          "book": "太玄經",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 13,
+          "source": "维基文库",
+          "path": "data/books/太玄經.json"
+        },
+        {
+          "key": "揚子法言",
+          "book": "揚子法言",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 15,
+          "source": "维基文库",
+          "path": "data/books/揚子法言.json"
+        },
+        {
+          "key": "墨子",
+          "book": "墨子",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 17,
+          "source": "维基文库",
+          "path": "data/books/墨子.json"
+        },
+        {
+          "key": "韓非子",
+          "book": "韓非子",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 23,
+          "source": "维基文库",
+          "path": "data/books/韓非子.json"
+        },
+        {
+          "key": "困學記聞",
+          "book": "困學記聞",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 23,
+          "source": "维基文库",
+          "path": "data/books/困學記聞.json"
+        },
+        {
+          "key": "淮南子",
+          "book": "淮南子",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 22,
+          "source": "维基文库",
+          "path": "data/books/淮南子.json"
+        },
+        {
+          "key": "荀子",
+          "book": "荀子",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 24,
+          "source": "维基文库",
+          "path": "data/books/荀子.json"
+        },
+        {
+          "key": "夢溪筆談",
+          "book": "夢溪筆談",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 30,
+          "source": "维基文库",
+          "path": "data/books/夢溪筆談.json"
+        },
+        {
+          "key": "弘明集",
+          "book": "弘明集",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 30,
+          "source": "维基文库",
+          "path": "data/books/弘明集.json"
+        },
+        {
+          "key": "呂氏春秋",
+          "book": "呂氏春秋",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 28,
+          "source": "维基文库",
+          "path": "data/books/呂氏春秋.json"
+        },
+        {
+          "key": "論衡",
+          "book": "論衡",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 32,
+          "source": "维基文库",
+          "path": "data/books/論衡.json"
+        },
+        {
+          "key": "景德傳燈錄",
+          "book": "景德傳燈錄",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 33,
+          "source": "维基文库",
+          "path": "data/books/景德傳燈錄.json"
+        },
+        {
+          "key": "顏氏家訓",
+          "book": "顏氏家訓",
+          "author": "佚名",
+          "subcategory": "雜家",
+          "chapters": 7,
+          "source": "维基文库",
+          "path": "data/books/顏氏家訓.json"
+        },
+        {
+          "key": "三十六計",
+          "book": "三十六計",
+          "author": "佚名",
+          "subcategory": "兵家",
+          "chapters": 6,
+          "source": "维基文库",
+          "path": "data/books/三十六計.json"
+        },
+        {
+          "key": "紀效新書",
+          "book": "紀效新書",
+          "author": "佚名",
+          "subcategory": "兵家",
+          "chapters": 19,
+          "source": "维基文库",
+          "path": "data/books/紀效新書.json"
+        },
+        {
+          "key": "說苑",
+          "book": "說苑",
+          "author": "劉向",
+          "subcategory": "儒家",
+          "chapters": 20,
+          "source": "维基文库",
+          "path": "data/books/說苑.json"
+        },
+        {
+          "key": "容齋隨筆",
+          "book": "容齋隨筆",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 85,
+          "source": "维基文库",
+          "path": "data/books/容齋隨筆.json"
+        },
+        {
+          "key": "新序",
+          "book": "新序",
+          "author": "劉向",
+          "subcategory": "總類",
+          "chapters": 11,
+          "source": "维基文库",
+          "path": "data/books/新序.json"
+        },
+        {
+          "key": "初學記",
+          "book": "初學記",
+          "author": "徐堅",
+          "subcategory": "類書",
+          "chapters": 31,
+          "source": "维基文库",
+          "path": "data/books/初學記.json"
+        },
+        {
+          "key": "藝文類聚",
+          "book": "藝文類聚",
+          "author": "歐陽詢",
+          "subcategory": "類書",
+          "chapters": 100,
+          "source": "维基文库",
+          "path": "data/books/藝文類聚.json"
         }
       ]
     },
@@ -1622,6 +2099,69 @@
           "chapters": 1,
           "source": "Project Gutenberg #2267",
           "path": "data/books/pg2267.json"
+        },
+        {
+          "key": "千家詩",
+          "book": "千家詩",
+          "author": "佚名",
+          "subcategory": "詩",
+          "chapters": 4,
+          "source": "维基文库",
+          "path": "data/books/千家詩.json"
+        },
+        {
+          "key": "文心雕龍",
+          "book": "文心雕龍",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 12,
+          "source": "维基文库",
+          "path": "data/books/文心雕龍.json"
+        },
+        {
+          "key": "花間集",
+          "book": "花間集",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 17,
+          "source": "维基文库",
+          "path": "data/books/花間集.json"
+        },
+        {
+          "key": "楚辭",
+          "book": "楚辭",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 18,
+          "source": "维基文库",
+          "path": "data/books/楚辭.json"
+        },
+        {
+          "key": "六臣註文選",
+          "book": "六臣註文選",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 63,
+          "source": "维基文库",
+          "path": "data/books/六臣註文選.json"
+        },
+        {
+          "key": "白氏長慶集",
+          "book": "白氏長慶集",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 75,
+          "source": "维基文库",
+          "path": "data/books/白氏長慶集.json"
+        },
+        {
+          "key": "樂府詩集",
+          "book": "樂府詩集",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 103,
+          "source": "维基文库",
+          "path": "data/books/樂府詩集.json"
         }
       ]
     },
@@ -1713,6 +2253,24 @@
           "chapters": 21,
           "source": "维基文库",
           "path": "data/books/夢粱錄.json"
+        },
+        {
+          "key": "李太白文集",
+          "book": "李太白文集",
+          "author": "李白",
+          "subcategory": "四庫全書",
+          "chapters": 3,
+          "source": "维基文库",
+          "path": "data/books/李太白文集.json"
+        },
+        {
+          "key": "幾何原本",
+          "book": "幾何原本",
+          "author": "偉烈亞力",
+          "subcategory": "四庫全書",
+          "chapters": 12,
+          "source": "维基文库",
+          "path": "data/books/幾何原本.json"
         }
       ]
     }

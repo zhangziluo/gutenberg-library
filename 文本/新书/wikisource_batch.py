@@ -166,15 +166,17 @@ def cmd_fetch(args):
     if args.limit:
         entries = entries[:args.limit]
     os.makedirs(NOVELS, exist_ok=True)
+    min_chars = args.min_chars or 0
     st = _read_state(FETCH_STATE)
-    ok = skip = fail = 0
+    ok = skip = fail = empty = 0
     for i, e in enumerate(entries, 1):
         page = e['page']
         path = novel_path(page)
-        if os.path.exists(path) and os.path.getsize(path) > 0:
+        n_have = novel_text_len(path) if os.path.exists(path) else 0
+        if n_have >= min_chars:
             skip += 1
             continue
-        if st.get(page) == 'fail' and not args.retry_failed:
+        if st.get(page) in ('fail', 'empty') and not args.retry_failed:
             skip += 1
             continue
         print('\n[%d/%d] %s（%s·%s%s）'
@@ -185,15 +187,25 @@ def cmd_fetch(args):
                   cwd=TOOLKIT, timeout=FETCH_TIMEOUT, dry=args.dry_run)
         if args.dry_run:
             continue
-        if rc == 0 and os.path.exists(path) and os.path.getsize(path) > 0:
+        # 注意：toolkit 即使每个页面都抓失败也返回 0（会存下一个空壳 JSON），
+        # 所以「成功」要以**抓到的正文量**为准，不能只看退出码。
+        n = novel_text_len(path) if os.path.exists(path) else 0
+        if n >= min_chars:
             ok += 1
             _append_state(FETCH_STATE, page, 'ok')
-        else:
+        elif n > 0:
             fail += 1
+            print('    ⚠️ 正文过少（%d 字 < %d），记 fail 待重试' % (n, min_chars))
             _append_state(FETCH_STATE, page, 'fail')
+        else:
+            empty += 1
+            print('    ⚠️ 没抓到可用正文（网络失败或红链空壳），记 empty')
+            _append_state(FETCH_STATE, page, 'empty')
         time.sleep(1.0)          # 礼貌间隔
-    print('\n抓取完成：新抓 %d / 跳过 %d / 失败 %d（产物 %s）'
-          % (ok, skip, fail, os.path.relpath(NOVELS, ROOT)))
+    print('\n抓取完成：新抓 %d / 跳过 %d / 失败 %d / 空壳 %d（产物 %s）'
+          % (ok, skip, fail, empty, os.path.relpath(NOVELS, ROOT)))
+    if fail or empty:
+        print('   可重试：加 --retry-failed（fail 与 empty 都会重试）')
 
 
 def ingest_cmd_for(e, strict):
@@ -367,7 +379,9 @@ def main():
     common(p)
     p = sub.add_parser('fetch', help='批量抓取')
     common(p)
-    p.add_argument('--retry-failed', action='store_true', help='重试上次失败的')
+    p.add_argument('--retry-failed', action='store_true', help='重试上次失败/空壳的')
+    p.add_argument('--min-chars', type=int, default=200,
+                   help='正文字数下限（默认 200；低于此视为抓取失败/红链空壳，记 fail|empty 待重试）')
     p = sub.add_parser('commands', help='生成入库命令脚本')
     common(p)
     p.add_argument('--min-chars', type=int, default=200,

@@ -4024,6 +4024,13 @@
    "全書"
   ]
  },
+ "三十六計": {
+  "title": "三十六計",
+  "section_count": 6,
+  "categories": [
+   "篇"
+  ]
+ },
  "三國志": {
   "title": "三國志",
   "section_count": 29,
@@ -4061,11 +4068,25 @@
    "篇"
   ]
  },
+ "世説新語": {
+  "title": "世説新語",
+  "section_count": 9,
+  "categories": [
+   "篇"
+  ]
+ },
  "中國小說史略": {
   "title": "中國小說史略",
   "section_count": 29,
   "categories": [
    "篇目"
+  ]
+ },
+ "九章算術": {
+  "title": "九章算術",
+  "section_count": 12,
+  "categories": [
+   "篇"
   ]
  },
  "人物志": {
@@ -4089,6 +4110,20 @@
    "全書"
   ]
  },
+ "儀禮": {
+  "title": "儀禮",
+  "section_count": 17,
+  "categories": [
+   "篇"
+  ]
+ },
+ "儀禮註疏": {
+  "title": "儀禮註疏",
+  "section_count": 53,
+  "categories": [
+   "篇"
+  ]
+ },
  "公孫龍子": {
   "title": "公孫龍子",
   "section_count": 6,
@@ -4103,9 +4138,30 @@
    "全書"
   ]
  },
+ "六臣註文選": {
+  "title": "六臣註文選",
+  "section_count": 63,
+  "categories": [
+   "篇"
+  ]
+ },
  "六韜": {
   "title": "六韜",
   "section_count": 7,
+  "categories": [
+   "篇"
+  ]
+ },
+ "列子": {
+  "title": "列子",
+  "section_count": 8,
+  "categories": [
+   "篇"
+  ]
+ },
+ "初學記": {
+  "title": "初學記",
+  "section_count": 31,
   "categories": [
    "篇"
   ]
@@ -4117,11 +4173,25 @@
    "篇"
   ]
  },
+ "千家詩": {
+  "title": "千家詩",
+  "section_count": 4,
+  "categories": [
+   "篇"
+  ]
+ },
  "南腔北調集": {
   "title": "南腔北調集",
   "section_count": 46,
   "categories": [
    "篇目"
+  ]
+ },
+ "南華真經": {
+  "title": "南華真經",
+  "section_count": 13,
+  "categories": [
+   "篇"
   ]
  },
  "古文觀止": {
@@ -4153,6 +4223,13 @@
    "列傳"
   ]
  },
+ "史通": {
+  "title": "史通",
+  "section_count": 27,
+  "categories": [
+   "篇"
+  ]
+ },
  "司馬法": {
   "title": "司馬法",
   "section_count": 3,
@@ -4172,6 +4249,27 @@
   "section_count": 2,
   "categories": [
    "全書"
+  ]
+ },
+ "吳越春秋": {
+  "title": "吳越春秋",
+  "section_count": 13,
+  "categories": [
+   "篇"
+  ]
+ },
+ "呂氏春秋": {
+  "title": "呂氏春秋",
+  "section_count": 28,
+  "categories": [
+   "篇"
+  ]
+ },
+ "周禮": {
+  "title": "周禮",
+  "section_count": 6,
+  "categories": [
+   "篇"
   ]
  },
  "周髀算經": {
@@ -4209,9 +4307,58 @@
    "全書"
   ]
  },
+ "困學記聞": {
+  "title": "困學記聞",
+  "section_count": 23,
+  "categories": [
+   "篇"
+  ]
+ },
+ "國語": {
+  "title": "國語",
+  "section_count": 22,
+  "categories": [
+   "篇"
+  ]
+ },
+ "墨子": {
+  "title": "墨子",
+  "section_count": 17,
+  "categories": [
+   "篇"
+  ]
+ },
+ "夢溪筆談": {
+  "title": "夢溪筆談",
+  "section_count": 30,
+  "categories": [
+   "篇"
+  ]
+ },
  "夢粱錄": {
   "title": "夢粱錄",
   "section_count": 21,
+  "categories": [
+   "篇"
+  ]
+ },
+ "大唐西域記": {
+  "title": "大唐西域記",
+  "section_count": 9,
+  "categories": [
+   "篇"
+  ]
+ },
+ "大戴禮記": {
+  "title": "大戴禮記",
+  "section_count": 40,
+  "categories": [
+   "篇"
+  ]
+ },
+ "天下郡國利病書": {
+  "title": "天下郡國利病書",
+  "section_count": 54,
   "categories": [
    "篇"
   ]
@@ -4230,9 +4377,30 @@
    "回目"
   ]
  },
+ "太玄經": {
+  "title": "太玄經",
+  "section_count": 13,
+  "categories": [
+   "篇"
+  ]
+ },
+ "孔子家語": {
+  "title": "孔子家語",
+  "section_count": 13,
+  "categories": [
+   "篇"
+  ]
+ },
  "孝經註疏": {
   "title": "孝經註疏",
   "section_count": 10,
+  "categories": [
+   "篇"
+  ]
+ },
+ "孟子": {
+  "title": "孟子",
+  "section_count": 14,
   "categories": [
    "篇"
   ]
@@ -4244,6 +4412,20 @@
    "卷"
   ]
  },
+ "孟子註疏": {
+  "title": "孟子註疏",
+  "section_count": 15,
+  "categories": [
+   "篇"
+  ]
+ },
+ "孫子集注": {
+  "title": "孫子集注",
+  "section_count": 14,
+  "categories": [
+   "篇"
+  ]
+ },
  "安樂集": {
   "title": "安樂集",
   "section_count": 2,
@@ -4251,11 +4433,32 @@
    "卷"
   ]
  },
+ "容齋隨筆": {
+  "title": "容齋隨筆",
+  "section_count": 85,
+  "categories": [
+   "篇"
+  ]
+ },
  "封氏聞見記": {
   "title": "封氏聞見記",
   "section_count": 10,
   "categories": [
    "全書"
+  ]
+ },
+ "尚書": {
+  "title": "尚書",
+  "section_count": 69,
+  "categories": [
+   "篇"
+  ]
+ },
+ "尚書正義": {
+  "title": "尚書正義",
+  "section_count": 21,
+  "categories": [
+   "篇"
   ]
  },
  "尹文子": {
@@ -4307,11 +4510,25 @@
    "全書"
   ]
  },
+ "幾何原本": {
+  "title": "幾何原本",
+  "section_count": 12,
+  "categories": [
+   "篇"
+  ]
+ },
  "引鳳蕭": {
   "title": "引鳳蕭",
   "section_count": 16,
   "categories": [
    "回目"
+  ]
+ },
+ "弘明集": {
+  "title": "弘明集",
+  "section_count": 30,
+  "categories": [
+   "篇"
   ]
  },
  "彷徨": {
@@ -4326,6 +4543,13 @@
   "section_count": 19,
   "categories": [
    "回目"
+  ]
+ },
+ "意林": {
+  "title": "意林",
+  "section_count": 10,
+  "categories": [
+   "篇"
   ]
  },
  "慎子": {
@@ -4349,11 +4573,46 @@
    "全書"
   ]
  },
+ "揚子法言": {
+  "title": "揚子法言",
+  "section_count": 15,
+  "categories": [
+   "篇"
+  ]
+ },
  "搜神記": {
   "title": "搜神記",
   "section_count": 20,
   "categories": [
    "全書"
+  ]
+ },
+ "文中子中説": {
+  "title": "文中子中説",
+  "section_count": 11,
+  "categories": [
+   "篇"
+  ]
+ },
+ "文心雕龍": {
+  "title": "文心雕龍",
+  "section_count": 12,
+  "categories": [
+   "篇"
+  ]
+ },
+ "新序": {
+  "title": "新序",
+  "section_count": 11,
+  "categories": [
+   "篇"
+  ]
+ },
+ "新書": {
+  "title": "新書",
+  "section_count": 14,
+  "categories": [
+   "篇"
   ]
  },
  "施公案": {
@@ -4399,6 +4658,27 @@
    "全書"
   ]
  },
+ "春秋左氏傳": {
+  "title": "春秋左氏傳",
+  "section_count": 13,
+  "categories": [
+   "篇"
+  ]
+ },
+ "春秋穀梁傳": {
+  "title": "春秋穀梁傳",
+  "section_count": 12,
+  "categories": [
+   "篇"
+  ]
+ },
+ "春秋穀梁傳註疏": {
+  "title": "春秋穀梁傳註疏",
+  "section_count": 21,
+  "categories": [
+   "篇"
+  ]
+ },
  "春秋繁露": {
   "title": "春秋繁露",
   "section_count": 79,
@@ -4411,6 +4691,13 @@
   "section_count": 83,
   "categories": [
    "全書"
+  ]
+ },
+ "景德傳燈錄": {
+  "title": "景德傳燈錄",
+  "section_count": 33,
+  "categories": [
+   "篇"
   ]
  },
  "朝花夕拾": {
@@ -4427,11 +4714,25 @@
    "回目"
   ]
  },
+ "李太白文集": {
+  "title": "李太白文集",
+  "section_count": 3,
+  "categories": [
+   "篇"
+  ]
+ },
  "李娃傳": {
   "title": "李娃傳",
   "section_count": 1,
   "categories": [
    "全書"
+  ]
+ },
+ "東京夢華錄": {
+  "title": "東京夢華錄",
+  "section_count": 10,
+  "categories": [
+   "篇"
   ]
  },
  "東周列國志": {
@@ -4446,6 +4747,20 @@
   "section_count": 10,
   "categories": [
    "諫"
+  ]
+ },
+ "楚辭": {
+  "title": "楚辭",
+  "section_count": 18,
+  "categories": [
+   "篇"
+  ]
+ },
+ "樂府詩集": {
+  "title": "樂府詩集",
+  "section_count": 103,
+  "categories": [
+   "篇"
   ]
  },
  "比目魚": {
@@ -4467,6 +4782,13 @@
   "section_count": 40,
   "categories": [
    "回目"
+  ]
+ },
+ "水經注": {
+  "title": "水經注",
+  "section_count": 42,
+  "categories": [
+   "篇"
   ]
  },
  "沖虛至德真經": {
@@ -4511,6 +4833,13 @@
    "回目"
   ]
  },
+ "淮南子": {
+  "title": "淮南子",
+  "section_count": 22,
+  "categories": [
+   "篇"
+  ]
+ },
  "滬語開路": {
   "title": "滬語開路",
   "section_count": 50,
@@ -4535,11 +4864,25 @@
    "全書"
   ]
  },
+ "潛夫論": {
+  "title": "潛夫論",
+  "section_count": 11,
+  "categories": [
+   "篇"
+  ]
+ },
  "燕丹子": {
   "title": "燕丹子",
   "section_count": 3,
   "categories": [
    "卷"
+  ]
+ },
+ "爾雅註疏": {
+  "title": "爾雅註疏",
+  "section_count": 10,
+  "categories": [
+   "篇"
   ]
  },
  "狂人日記": {
@@ -4577,11 +4920,25 @@
    "回目"
   ]
  },
+ "白氏長慶集": {
+  "title": "白氏長慶集",
+  "section_count": 75,
+  "categories": [
+   "篇"
+  ]
+ },
  "百家姓": {
   "title": "百家姓",
   "section_count": 1,
   "categories": [
    "全書"
+  ]
+ },
+ "直齋書錄解題": {
+  "title": "直齋書錄解題",
+  "section_count": 22,
+  "categories": [
+   "篇"
   ]
  },
  "禮記": {
@@ -4626,6 +4983,13 @@
    "全書"
   ]
  },
+ "紀效新書": {
+  "title": "紀效新書",
+  "section_count": 19,
+  "categories": [
+   "篇"
+  ]
+ },
  "紅樓夢": {
   "title": "紅樓夢",
   "section_count": 120,
@@ -4647,11 +5011,39 @@
    "全書"
   ]
  },
+ "花間集": {
+  "title": "花間集",
+  "section_count": 17,
+  "categories": [
+   "篇"
+  ]
+ },
+ "荀子": {
+  "title": "荀子",
+  "section_count": 24,
+  "categories": [
+   "篇"
+  ]
+ },
  "菜根譚": {
   "title": "菜根譚",
   "section_count": 1,
   "categories": [
    "全書"
+  ]
+ },
+ "華陽國志": {
+  "title": "華陽國志",
+  "section_count": 16,
+  "categories": [
+   "篇"
+  ]
+ },
+ "藝文類聚": {
+  "title": "藝文類聚",
+  "section_count": 100,
+  "categories": [
+   "篇"
   ]
  },
  "虬髯客傳": {
@@ -4682,9 +5074,30 @@
    "篇"
   ]
  },
+ "說苑": {
+  "title": "說苑",
+  "section_count": 20,
+  "categories": [
+   "篇"
+  ]
+ },
+ "論衡": {
+  "title": "論衡",
+  "section_count": 32,
+  "categories": [
+   "篇"
+  ]
+ },
  "論語": {
   "title": "論語",
   "section_count": 20,
+  "categories": [
+   "篇"
+  ]
+ },
+ "論語註疏": {
+  "title": "論語註疏",
+  "section_count": 21,
   "categories": [
    "篇"
   ]
@@ -4794,11 +5207,25 @@
    "回目"
   ]
  },
+ "韓非子": {
+  "title": "韓非子",
+  "section_count": 23,
+  "categories": [
+   "篇"
+  ]
+ },
  "韩非子": {
   "title": "韩非子",
   "section_count": 53,
   "categories": [
    "全書"
+  ]
+ },
+ "顏氏家訓": {
+  "title": "顏氏家訓",
+  "section_count": 7,
+  "categories": [
+   "篇"
   ]
  },
  "風月夢": {
@@ -4841,6 +5268,13 @@
   "section_count": 17,
   "categories": [
    "回目"
+  ]
+ },
+ "齊民要術": {
+  "title": "齊民要術",
+  "section_count": 12,
+  "categories": [
+   "篇"
   ]
  },
  "龍川詞": {

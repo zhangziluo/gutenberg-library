@@ -130,8 +130,15 @@
   - `wikisource_toolkit.py`：`_sort_key` 前置篇（序/凡例/楔子）恒在前 + 中文数字按数值排；
     `get_subpages` 经 `existing_titles()` **过滤红链**（避免 missingtitle 空壳）。
   - `gutenberg_import.merge_pending()` 兼容 list 字表（原 dict-only 会崩）。
-  - 书库页「待入库」预览：`library.html/js/library.js/css/library.css` 范围切换 + 「只看推荐 ⭐」；
-    测试 `tests/library/library-pending-test.js`（jsdom，12 项）。
+  - 书库页「待入库」预览：`library.html/js/library.js/css/library.css` 范围切换 + 「只看推荐 ⭐」+
+    卡片「📋 复制入库命令」；测试 `tests/library/library-pending-test.js`（jsdom，17 项）。
+  - `merge_to_site.py` 改为**薄封装**（原来那份独立实现 `CAT_KEY` 缺「叢部」、遇 叢部 书会 KeyError，
+    且无人调用）→ 统一委托 `gutenberg_import.merge_to_site()` + `slim_books_index`，
+    新增 `--dry-run`。CLI 不变：`python3 文本/新书/merge_to_site.py`。
+  - **README.md 重写**（2026-10-02）：书库现状数字（195 本 / 7090 篇 / 六部明细 / 双书源）、
+    核心功能（释义面板、三档、简繁+三语、待入库预览）、页面/数据三层结构、跑起来与部署、
+    工具链表、测试命令、贡献流程（数据 schema 真实化，删掉已不存在的 `books/[分类]/…` 与 `data/glossary.json`）、
+    来源与许可；并加回「接下来」路线（继续搬维基文库 / 生词本 / 英文练习）。
 - `网站/{library.html,css/library.css,js/library.js}`：封面网格书库页（前端分页 20/页 + 分类 Tab + 排序 + 搜索，
   `?cat/?sort/?q/?page`）；`book.html` + `js/book.js` 详情页 hero。
 - `books-data.json` 生成器（`merge_to_site`）新增：`source_label/source_url_from/license_from/highlights_for/

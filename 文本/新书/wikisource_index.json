@@ -569,7 +569,7 @@
   "sources": [
    "十三經註疏"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -587,7 +587,7 @@
   "sources": [
    "十三經註疏"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -605,7 +605,7 @@
   "sources": [
    "十三經註疏"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -623,7 +623,7 @@
   "sources": [
    "十三經註疏"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -641,7 +641,7 @@
   "sources": [
    "十三經註疏"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -659,7 +659,7 @@
   "sources": [
    "十三經註疏"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -1186,7 +1186,7 @@
    "shishu.json",
    "十三經註疏"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -1224,7 +1224,7 @@
   "sources": [
    "shisanjing.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -1260,7 +1260,7 @@
    "shisanjing.json",
    "孟子"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -1311,7 +1311,7 @@
    "春秋左氏傳",
    "編年"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -1326,7 +1326,7 @@
   "sources": [
    "shisanjing.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -1349,7 +1349,7 @@
    "shisanjing.json",
    "周禮"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -1365,7 +1365,7 @@
    "shisanjing.json",
    "編年"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -3408,7 +3408,7 @@
   "sources": [
    "目錄"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -3529,7 +3529,7 @@
   "sources": [
    "地理"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -3850,7 +3850,7 @@
   "sources": [
    "shi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -3889,7 +3889,7 @@
    "shi.json",
    "地理"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -4029,7 +4029,7 @@
   "sources": [
    "shi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -4099,7 +4099,7 @@
    "shi.json",
    "雜史"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -4135,7 +4135,7 @@
    "shi.json",
    "載記"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -4187,7 +4187,7 @@
    "shi.json",
    "地理"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -4223,7 +4223,7 @@
    "別史",
    "載記"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -4935,7 +4935,7 @@
   "sources": [
    "儒家"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -5269,7 +5269,7 @@
   "sources": [
    "道家"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -5485,7 +5485,7 @@
   "sources": [
    "兵家"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -5517,7 +5517,7 @@
   "sources": [
    "兵家"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -6312,7 +6312,7 @@
   "sources": [
    "雜家"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -6432,7 +6432,7 @@
   "sources": [
    "類書"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -6483,7 +6483,7 @@
   "sources": [
    "類書"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -6618,7 +6618,7 @@
    "zi.json",
    "儒家"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -6653,7 +6653,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -6755,7 +6755,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -6772,7 +6772,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -6808,7 +6808,7 @@
    "雜家",
    "類書"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -6842,7 +6842,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -6879,7 +6879,7 @@
    "siku.json",
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -6897,7 +6897,7 @@
    "zi.json",
    "儒家"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -6914,7 +6914,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -6931,7 +6931,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -6948,7 +6948,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -7018,7 +7018,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -7052,7 +7052,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -7086,7 +7086,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -7120,7 +7120,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -7171,7 +7171,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -7205,7 +7205,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -7239,7 +7239,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -7257,7 +7257,7 @@
    "zi.json",
    "儒家"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -7275,7 +7275,7 @@
    "zi.json",
    "農家"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -7329,7 +7329,7 @@
    "zi.json",
    "儒家"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -7346,7 +7346,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -7363,7 +7363,7 @@
   "sources": [
    "zi.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -7416,7 +7416,7 @@
    "zi.json",
    "儒家"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -12600,7 +12600,7 @@
   "sources": [
    "shiji.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -12890,7 +12890,7 @@
    "ji.json",
    "shiji.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -13114,7 +13114,7 @@
    "ji.json",
    "別集"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -13199,7 +13199,7 @@
   "sources": [
    "ji.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -14764,7 +14764,7 @@
   "sources": [
    "ji.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -15156,7 +15156,7 @@
   "sources": [
    "ji.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -15785,7 +15785,7 @@
   "sources": [
    "ji.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -18050,7 +18050,7 @@
   "sources": [
    "siku.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {
@@ -18268,7 +18268,7 @@
   "sources": [
    "siku.json"
   ],
-  "in_library": false,
+  "in_library": true,
   "recommended": true
  },
  {

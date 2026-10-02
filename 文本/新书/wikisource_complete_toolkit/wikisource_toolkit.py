@@ -56,15 +56,25 @@ NON_CONTENT_SUBPAGES = {
 
 
 # ===================== 基础请求 =====================
-def api_get(params, session=None):
+def api_get(params, session=None, retries=3, backoff=1.5):
+    """GET 一次 API；网络抖动（连接重置/超时）自动重试，全失败返回 None。
+
+    维基文库到本机链路不稳，单次失败就放弃会让整本「抓到空壳却算成功」，
+    所以这里统一重试（1.5s / 3s / 4.5s 递增退避）。
+    """
     s = session or requests.Session()
-    try:
-        r = s.get(WS_API, params=params, headers=UA, timeout=30)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        print(f"  ❌ 请求失败: {e}")
-        return None
+    last = None
+    for attempt in range(retries):
+        try:
+            r = s.get(WS_API, params=params, headers=UA, timeout=30)
+            r.raise_for_status()
+            return r.json()
+        except Exception as e:
+            last = e
+            if attempt < retries - 1:
+                time.sleep(backoff * (attempt + 1))
+    print(f"  ❌ 请求失败（已重试 {retries} 次）: {last}")
+    return None
 
 
 # ===================== 页面抓取 =====================
