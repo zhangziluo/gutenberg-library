@@ -15,6 +15,9 @@ sk-93db2782485c47cf86591daccb9b94ca
 # 纯文本
 纯文本
 
+# 书库源数据（由 gutenberg_project 流水线生成；CF 构建只需 网站/_site_data）
+data/books/
+
 # macOS 系统文件
 .DS_Store
 

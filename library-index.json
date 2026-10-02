@@ -825,6 +825,609 @@
           "chapters": 15,
           "source": "Project Gutenberg #479",
           "path": "data/books/pg479.json"
+        },
+        {
+          "key": "pg12",
+          "book": "Through the Looking-Glass",
+          "author": "Lewis Carroll",
+          "subcategory": "小說家（西洋）",
+          "chapters": 13,
+          "source": "Project Gutenberg #12",
+          "path": "data/books/pg12.json"
+        },
+        {
+          "key": "pg125",
+          "book": "A Girl of the Limberlost",
+          "author": "Gene Stratton-Porter",
+          "subcategory": "小說家（西洋）",
+          "chapters": 27,
+          "source": "Project Gutenberg #125",
+          "path": "data/books/pg125.json"
+        },
+        {
+          "key": "pg296",
+          "book": "The Cash Boy",
+          "author": "Jr. Horatio Alger",
+          "subcategory": "小說家（西洋）",
+          "chapters": 23,
+          "source": "Project Gutenberg #296",
+          "path": "data/books/pg296.json"
+        },
+        {
+          "key": "pg343",
+          "book": "Fables",
+          "author": "Robert Louis Stevenson",
+          "subcategory": "小說家（西洋）",
+          "chapters": 2,
+          "source": "Project Gutenberg #343",
+          "path": "data/books/pg343.json"
+        },
+        {
+          "key": "pg366",
+          "book": "Bab: A Sub-Deb",
+          "author": "Mary Roberts Rinehart",
+          "subcategory": "小說家（西洋）",
+          "chapters": 4,
+          "source": "Project Gutenberg #366",
+          "path": "data/books/pg366.json"
+        },
+        {
+          "key": "pg383",
+          "book": "She Stoops to Conquer; Or, The Mistakes of a Night: A Comedy",
+          "author": "Oliver Goldsmith",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #383",
+          "path": "data/books/pg383.json"
+        },
+        {
+          "key": "pg399",
+          "book": "Cast Upon the Breakers",
+          "author": "Jr. Horatio Alger",
+          "subcategory": "小說家（西洋）",
+          "chapters": 38,
+          "source": "Project Gutenberg #399",
+          "path": "data/books/pg399.json"
+        },
+        {
+          "key": "pg462",
+          "book": "The Errand Boy; Or, How Phil Brent Won Success",
+          "author": "Jr. Horatio Alger",
+          "subcategory": "小說家（西洋）",
+          "chapters": 41,
+          "source": "Project Gutenberg #462",
+          "path": "data/books/pg462.json"
+        },
+        {
+          "key": "pg500",
+          "book": "The Adventures of Pinocchio",
+          "author": "Carlo Collodi",
+          "subcategory": "小說家（西洋）",
+          "chapters": 37,
+          "source": "Project Gutenberg #500",
+          "path": "data/books/pg500.json"
+        },
+        {
+          "key": "pg528",
+          "book": "Joe the Hotel Boy; Or, Winning out by Pluck",
+          "author": "Jr. Horatio Alger",
+          "subcategory": "小說家（西洋）",
+          "chapters": 31,
+          "source": "Project Gutenberg #528",
+          "path": "data/books/pg528.json"
+        },
+        {
+          "key": "pg530",
+          "book": "Driven from Home; Or, Carl Crawford's Experience",
+          "author": "Jr. Horatio Alger",
+          "subcategory": "小說家（西洋）",
+          "chapters": 41,
+          "source": "Project Gutenberg #530",
+          "path": "data/books/pg530.json"
+        },
+        {
+          "key": "pg719",
+          "book": "The Plays of W. E. Henley and R. L. Stevenson",
+          "author": "William Ernest Henley",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #719",
+          "path": "data/books/pg719.json"
+        },
+        {
+          "key": "pg737",
+          "book": "The Bobbsey Twins at School",
+          "author": "Laura Lee Hope",
+          "subcategory": "小說家（西洋）",
+          "chapters": 23,
+          "source": "Project Gutenberg #737",
+          "path": "data/books/pg737.json"
+        },
+        {
+          "key": "pg790",
+          "book": "Lady Windermere's Fan",
+          "author": "Oscar Wilde",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #790",
+          "path": "data/books/pg790.json"
+        },
+        {
+          "key": "pg854",
+          "book": "A Woman of No Importance",
+          "author": "Oscar Wilde",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #854",
+          "path": "data/books/pg854.json"
+        },
+        {
+          "key": "pg885",
+          "book": "An ideal husband",
+          "author": "Oscar Wilde",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #885",
+          "path": "data/books/pg885.json"
+        },
+        {
+          "key": "pg943",
+          "book": "Misalliance",
+          "author": "Bernard Shaw",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #943",
+          "path": "data/books/pg943.json"
+        },
+        {
+          "key": "pg1084",
+          "book": "Recipes Tried and True",
+          "author": "Ohio). Ladies' Aid Society First Presbyterian Church (Marion",
+          "subcategory": "小說家（西洋）",
+          "chapters": 3,
+          "source": "Project Gutenberg #1084",
+          "path": "data/books/pg1084.json"
+        },
+        {
+          "key": "pg1104",
+          "book": "The Comedy of Errors",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1104",
+          "path": "data/books/pg1104.json"
+        },
+        {
+          "key": "pg1107",
+          "book": "The Taming of the Shrew",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1107",
+          "path": "data/books/pg1107.json"
+        },
+        {
+          "key": "pg1108",
+          "book": "The Two Gentlemen of Verona",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1108",
+          "path": "data/books/pg1108.json"
+        },
+        {
+          "key": "pg1109",
+          "book": "Love's Labour's Lost",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1109",
+          "path": "data/books/pg1109.json"
+        },
+        {
+          "key": "pg1116",
+          "book": "The Merry Wives of Windsor",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1116",
+          "path": "data/books/pg1116.json"
+        },
+        {
+          "key": "pg1118",
+          "book": "Much Ado about Nothing",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1118",
+          "path": "data/books/pg1118.json"
+        },
+        {
+          "key": "pg1120",
+          "book": "Julius Caesar",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1120",
+          "path": "data/books/pg1120.json"
+        },
+        {
+          "key": "pg1122",
+          "book": "Hamlet",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1122",
+          "path": "data/books/pg1122.json"
+        },
+        {
+          "key": "pg1123",
+          "book": "Twelfth Night",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1123",
+          "path": "data/books/pg1123.json"
+        },
+        {
+          "key": "pg1124",
+          "book": "Troilus and Cressida",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1124",
+          "path": "data/books/pg1124.json"
+        },
+        {
+          "key": "pg1125",
+          "book": "All's Well That Ends Well",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1125",
+          "path": "data/books/pg1125.json"
+        },
+        {
+          "key": "pg1127",
+          "book": "Othello",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1127",
+          "path": "data/books/pg1127.json"
+        },
+        {
+          "key": "pg1128",
+          "book": "King Lear",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1128",
+          "path": "data/books/pg1128.json"
+        },
+        {
+          "key": "pg1191",
+          "book": "The Double-Dealer: A Comedy",
+          "author": "William Congreve",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1191",
+          "path": "data/books/pg1191.json"
+        },
+        {
+          "key": "pg1192",
+          "book": "The Old Bachelor: A Comedy",
+          "author": "William Congreve",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1192",
+          "path": "data/books/pg1192.json"
+        },
+        {
+          "key": "pg1203",
+          "book": "Dolly Dialogues",
+          "author": "Anthony Hope",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1203",
+          "path": "data/books/pg1203.json"
+        },
+        {
+          "key": "pg1240",
+          "book": "The Playboy of the Western World: A Comedy in Three Acts",
+          "author": "J. M. Synge",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1240",
+          "path": "data/books/pg1240.json"
+        },
+        {
+          "key": "pg1241",
+          "book": "The Well of the Saints: A Comedy in Three Acts",
+          "author": "J. M. Synge",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1241",
+          "path": "data/books/pg1241.json"
+        },
+        {
+          "key": "pg1244",
+          "book": "Love for Love: A Comedy",
+          "author": "William Congreve",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1244",
+          "path": "data/books/pg1244.json"
+        },
+        {
+          "key": "pg1292",
+          "book": "The Way of the World",
+          "author": "William Congreve",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1292",
+          "path": "data/books/pg1292.json"
+        },
+        {
+          "key": "pg1308",
+          "book": "A Florentine Tragedy; La Sainte Courtisane",
+          "author": "Oscar Wilde",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1308",
+          "path": "data/books/pg1308.json"
+        },
+        {
+          "key": "pg1328",
+          "book": "The Tinker's Wedding",
+          "author": "J. M. Synge",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1328",
+          "path": "data/books/pg1328.json"
+        },
+        {
+          "key": "pg1504",
+          "book": "The Comedy of Errors",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1504",
+          "path": "data/books/pg1504.json"
+        },
+        {
+          "key": "pg1508",
+          "book": "The Taming of the Shrew",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1508",
+          "path": "data/books/pg1508.json"
+        },
+        {
+          "key": "pg1509",
+          "book": "The Two Gentlemen of Verona",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1509",
+          "path": "data/books/pg1509.json"
+        },
+        {
+          "key": "pg1510",
+          "book": "Love's Labour's Lost",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1510",
+          "path": "data/books/pg1510.json"
+        },
+        {
+          "key": "pg1517",
+          "book": "The Merry Wives of Windsor",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1517",
+          "path": "data/books/pg1517.json"
+        },
+        {
+          "key": "pg1519",
+          "book": "Much Ado about Nothing",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1519",
+          "path": "data/books/pg1519.json"
+        },
+        {
+          "key": "pg1520",
+          "book": "Much Ado about Nothing",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1520",
+          "path": "data/books/pg1520.json"
+        },
+        {
+          "key": "pg1522",
+          "book": "Julius Caesar",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1522",
+          "path": "data/books/pg1522.json"
+        },
+        {
+          "key": "pg1524",
+          "book": "Hamlet",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1524",
+          "path": "data/books/pg1524.json"
+        },
+        {
+          "key": "pg1526",
+          "book": "Twelfth Night",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1526",
+          "path": "data/books/pg1526.json"
+        },
+        {
+          "key": "pg1527",
+          "book": "Twelfth Night",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1527",
+          "path": "data/books/pg1527.json"
+        },
+        {
+          "key": "pg1528",
+          "book": "Troilus and Cressida",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1528",
+          "path": "data/books/pg1528.json"
+        },
+        {
+          "key": "pg1529",
+          "book": "All's Well That Ends Well",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1529",
+          "path": "data/books/pg1529.json"
+        },
+        {
+          "key": "pg1531",
+          "book": "Othello",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1531",
+          "path": "data/books/pg1531.json"
+        },
+        {
+          "key": "pg1532",
+          "book": "King Lear",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #1532",
+          "path": "data/books/pg1532.json"
+        },
+        {
+          "key": "pg2236",
+          "book": "The Two Gentlemen of Verona",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #2236",
+          "path": "data/books/pg2236.json"
+        },
+        {
+          "key": "pg2237",
+          "book": "The Merry Wives of Windsor",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #2237",
+          "path": "data/books/pg2237.json"
+        },
+        {
+          "key": "pg2239",
+          "book": "The Comedy of Errors",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #2239",
+          "path": "data/books/pg2239.json"
+        },
+        {
+          "key": "pg2240",
+          "book": "Much Ado about Nothing",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #2240",
+          "path": "data/books/pg2240.json"
+        },
+        {
+          "key": "pg2241",
+          "book": "Love's Labour's Lost",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #2241",
+          "path": "data/books/pg2241.json"
+        },
+        {
+          "key": "pg2245",
+          "book": "The Taming of the Shrew",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #2245",
+          "path": "data/books/pg2245.json"
+        },
+        {
+          "key": "pg2246",
+          "book": "All's Well That Ends Well",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #2246",
+          "path": "data/books/pg2246.json"
+        },
+        {
+          "key": "pg2247",
+          "book": "Twelfth Night",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #2247",
+          "path": "data/books/pg2247.json"
+        },
+        {
+          "key": "pg2263",
+          "book": "Julius Caesar",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #2263",
+          "path": "data/books/pg2263.json"
+        },
+        {
+          "key": "pg2265",
+          "book": "Hamlet",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #2265",
+          "path": "data/books/pg2265.json"
+        },
+        {
+          "key": "pg2266",
+          "book": "King Lear",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #2266",
+          "path": "data/books/pg2266.json"
+        },
+        {
+          "key": "pg2267",
+          "book": "Othello",
+          "author": "William Shakespeare",
+          "subcategory": "小說家（西洋）",
+          "chapters": 1,
+          "source": "Project Gutenberg #2267",
+          "path": "data/books/pg2267.json"
         }
       ]
     },

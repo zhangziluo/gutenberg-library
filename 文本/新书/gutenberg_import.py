@@ -1853,7 +1853,7 @@ as not no yes all any both each few more most other some such only own same too
 very just also even still again once ever never always often sometimes
 who whom whose which what when where why how
 """.split())
-EN_MIN_LEN = 3            # 少于该长度的词不标注（I/a 等功能词已在停用词表）
+EN_MIN_LEN = 7            # 少于该长度的词不标注（提高门槛以压缩注释体积）
 
 
 def load_common_words_en():
