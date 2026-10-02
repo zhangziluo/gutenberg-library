@@ -2,6 +2,30 @@
  "_说明": "重难字词注释词库（fill_glosses.py 生成）：简体/繁体/英文释义 + 读音标记。",
  "_updated": "auto",
  "_source": "CC-CEDICT / 新华字典(chinese-xinhua) / 人工精编 gloss_override.json / pinyin-pro",
+ "㐫": {
+  "pinyin": "㐫",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㐮": {
+  "pinyin": "㐮",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "㑚": {
   "pinyin": "㑚",
   "zh_cn": null,
@@ -26,8 +50,152 @@
   "multi": false,
   "readings": null
  },
+ "㑹": {
+  "pinyin": "㑹",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㒒": {
+  "pinyin": "㒒",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㒺": {
+  "pinyin": "㒺",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㓂": {
+  "pinyin": "㓂",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㓕": {
+  "pinyin": "㓕",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㓗": {
+  "pinyin": "㓗",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㓙": {
+  "pinyin": "㓙",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㓛": {
+  "pinyin": "㓛",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㓜": {
+  "pinyin": "㓜",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㓹": {
+  "pinyin": "㓹",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "㔍": {
   "pinyin": "㔍",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㕓": {
+  "pinyin": "㕓",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㕔": {
+  "pinyin": "㕔",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -62,8 +230,92 @@
   "multi": false,
   "readings": null
  },
+ "㗸": {
+  "pinyin": "㗸",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㛰": {
+  "pinyin": "㛰",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㝎": {
+  "pinyin": "㝎",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㝠": {
+  "pinyin": "㝠",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㝷": {
+  "pinyin": "㝷",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㟽": {
+  "pinyin": "㟽",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "㠗": {
   "pinyin": "㠗",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㡌": {
+  "pinyin": "㡌",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -86,8 +338,356 @@
   "multi": false,
   "readings": null
  },
+ "㡬": {
+  "pinyin": "㡬",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㡭": {
+  "pinyin": "㡭",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㡳": {
+  "pinyin": "㡳",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㢘": {
+  "pinyin": "㢘",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㢤": {
+  "pinyin": "㢤",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㢮": {
+  "pinyin": "㢮",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㣧": {
+  "pinyin": "㣧",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㣲": {
+  "pinyin": "㣲",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㤉": {
+  "pinyin": "㤉",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㤋": {
+  "pinyin": "㤋",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㤗": {
+  "pinyin": "㤗",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㤙": {
+  "pinyin": "㤙",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㦸": {
+  "pinyin": "㦸",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "㧐": {
   "pinyin": "sǒng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㧙": {
+  "pinyin": "㧙",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㧞": {
+  "pinyin": "㧞",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㧾": {
+  "pinyin": "㧾",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㨗": {
+  "pinyin": "㨗",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㨿": {
+  "pinyin": "㨿",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㩁": {
+  "pinyin": "㩁",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㩦": {
+  "pinyin": "㩦",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㩰": {
+  "pinyin": "㩰",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㪯": {
+  "pinyin": "㪯",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㫁": {
+  "pinyin": "㫁",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㫋": {
+  "pinyin": "㫋",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㫖": {
+  "pinyin": "㫖",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㫬": {
+  "pinyin": "㫬",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㫮": {
+  "pinyin": "㫮",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㬥": {
+  "pinyin": "㬥",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㭬": {
+  "pinyin": "㭬",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -110,8 +710,236 @@
   "multi": false,
   "readings": null
  },
+ "㮣": {
+  "pinyin": "㮣",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㯓": {
+  "pinyin": "㯓",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "㯧": {
   "pinyin": "㯧",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㯳": {
+  "pinyin": "㯳",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㰖": {
+  "pinyin": "㰖",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㲄": {
+  "pinyin": "㲄",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㳂": {
+  "pinyin": "㳂",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㳙": {
+  "pinyin": "㳙",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㳟": {
+  "pinyin": "㳟",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㳺": {
+  "pinyin": "㳺",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㴾": {
+  "pinyin": "㴾",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㵒": {
+  "pinyin": "㵒",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㶏": {
+  "pinyin": "㶏",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㷀": {
+  "pinyin": "㷀",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㷱": {
+  "pinyin": "㷱",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㸇": {
+  "pinyin": "㸇",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㺒": {
+  "pinyin": "㺒",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㽔": {
+  "pinyin": "㽔",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㽞": {
+  "pinyin": "㽞",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "㾓": {
+  "pinyin": "㾓",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -134,6 +962,42 @@
   "multi": false,
   "readings": "㾩"
  },
+ "䀋": {
+  "pinyin": "䀋",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䀟": {
+  "pinyin": "䀟",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䀨": {
+  "pinyin": "䀨",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "䁥": {
   "pinyin": "䁥",
   "zh_cn": null,
@@ -146,8 +1010,140 @@
   "multi": false,
   "readings": null
  },
+ "䂊": {
+  "pinyin": "䂊",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䂓": {
+  "pinyin": "䂓",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䃣": {
+  "pinyin": "䃣",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䃯": {
+  "pinyin": "䃯",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䄂": {
+  "pinyin": "䄂",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䄃": {
+  "pinyin": "䄃",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䄮": {
+  "pinyin": "䄮",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "䆗": {
   "pinyin": "䆗",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䆫": {
+  "pinyin": "䆫",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䇿": {
+  "pinyin": "䇿",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䈂": {
+  "pinyin": "䈂",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䈥": {
+  "pinyin": "䈥",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -184,6 +1180,54 @@
  },
  "䋖": {
   "pinyin": "䋖",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䋲": {
+  "pinyin": "䋲",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䌍": {
+  "pinyin": "䌍",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䌓": {
+  "pinyin": "䌓",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䌫": {
+  "pinyin": "䌫",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -242,6 +1286,102 @@
   "multi": false,
   "readings": "䎘"
  },
+ "䏎": {
+  "pinyin": "䏎",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䏑": {
+  "pinyin": "䏑",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䏻": {
+  "pinyin": "䏻",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䏼": {
+  "pinyin": "䏼",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䐑": {
+  "pinyin": "䐑",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䑓": {
+  "pinyin": "䑓",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䑕": {
+  "pinyin": "䑕",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䑛": {
+  "pinyin": "䑛",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "䑩": {
   "pinyin": "䑩",
   "zh_cn": null,
@@ -266,8 +1406,212 @@
   "multi": false,
   "readings": null
  },
+ "䓁": {
+  "pinyin": "䓁",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䓻": {
+  "pinyin": "䓻",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䔥": {
+  "pinyin": "䔥",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䕃": {
+  "pinyin": "䕃",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䕫": {
+  "pinyin": "䕫",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䕶": {
+  "pinyin": "䕶",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䖏": {
+  "pinyin": "䖏",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䗯": {
+  "pinyin": "䗯",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䘂": {
+  "pinyin": "䘂",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䘮": {
+  "pinyin": "䘮",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䙝": {
+  "pinyin": "䙝",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "䙰": {
   "pinyin": "䙰",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䚦": {
+  "pinyin": "䚦",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䛕": {
+  "pinyin": "䛕",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䜟": {
+  "pinyin": "䜟",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䝉": {
+  "pinyin": "䝉",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䝿": {
+  "pinyin": "䝿",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䟱": {
+  "pinyin": "䟱",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -292,6 +1636,42 @@
  },
  "䟿": {
   "pinyin": "䟿",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䠮": {
+  "pinyin": "䠮",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䡄": {
+  "pinyin": "䡄",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䡖": {
+  "pinyin": "䡖",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -338,8 +1718,56 @@
   "multi": false,
   "readings": null
  },
+ "䦱": {
+  "pinyin": "䦱",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "䦶": {
   "pinyin": "䦶",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䧟": {
+  "pinyin": "䧟",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䧺": {
+  "pinyin": "䧺",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䧿": {
+  "pinyin": "䧿",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -362,8 +1790,56 @@
   "multi": false,
   "readings": null
  },
+ "䫇": {
+  "pinyin": "䫇",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䫪": {
+  "pinyin": "䫪",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䬣": {
+  "pinyin": "䬣",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "䮾": {
   "pinyin": "䮾",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䰟": {
+  "pinyin": "䰟",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -386,8 +1862,56 @@
   "multi": false,
   "readings": null
  },
+ "䲄": {
+  "pinyin": "䲄",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䴒": {
+  "pinyin": "䴒",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "䴥": {
   "pinyin": "䴥",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䵎": {
+  "pinyin": "䵎",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "䵷": {
+  "pinyin": "䵷",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -409,6 +1933,18 @@
   "note": "多音字，可讀「ding/zheng」，須依文意斷音。",
   "multi": true,
   "readings": "ding/zheng"
+ },
+ "丄": {
+  "pinyin": "shàng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "万": {
   "pinyin": "wàn",
@@ -482,6 +2018,18 @@
   "multi": false,
   "readings": "pi"
  },
+ "丗": {
+  "pinyin": "shì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "丞": {
   "pinyin": "chéng",
   "zh_cn": "①辅助、辅佐；②古代官名，为各级长官的副职（县丞、丞相）。",
@@ -505,6 +2053,18 @@
   "note": "多音字，可讀「guan/kuang」，須依文意斷音。",
   "multi": true,
   "readings": "guan/kuang"
+ },
+ "丼": {
+  "pinyin": "jǐng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "乂": {
   "pinyin": "yì",
@@ -566,6 +2126,18 @@
   "multi": true,
   "readings": "le/yue/yao/lao"
  },
+ "乗": {
+  "pinyin": "chéng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "乘": {
   "pinyin": "chéng",
   "zh_cn": "①读 chéng：坐、骑（乘车）；趁着、凭借（乘势）；佛教教义（大乘、小乘）；②读 shèng：古代四马拉的车为一乘，量词；史书（史乘）。",
@@ -601,6 +2173,18 @@
   "note": null,
   "multi": false,
   "readings": "ji"
+ },
+ "乹": {
+  "pinyin": "qián",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "乾": {
   "pinyin": "qián",
@@ -806,6 +2390,30 @@
   "multi": false,
   "readings": "ren"
  },
+ "亽": {
+  "pinyin": "jí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "亾": {
+  "pinyin": "wáng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "什": {
   "pinyin": "shén",
   "zh_cn": "①读 shén：什么（疑问代词）；②读 shí：十（什一）；各种的、杂样的（什物、什锦）。",
@@ -925,6 +2533,18 @@
   "note": "多音字，可讀「yi/ge」，須依文意斷音。",
   "multi": true,
   "readings": "yi/ge"
+ },
+ "仭": {
+  "pinyin": "rèn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "仰": {
   "pinyin": "yǎng",
@@ -1082,6 +2702,18 @@
   "multi": true,
   "readings": "xiu/xu"
  },
+ "伕": {
+  "pinyin": "fū",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "会": {
   "pinyin": "huì",
   "zh_cn": "聚合，联合；见面，对话；理解，懂得；能，可能，善于共产主义一定；时机机",
@@ -1178,6 +2810,18 @@
   "multi": false,
   "readings": "zhou"
  },
+ "伹": {
+  "pinyin": "qū",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "伺": {
   "pinyin": "sì",
   "zh_cn": "①读 cì：伺候（照料服侍）；②读 sì：守候、探察（窥伺、伺机）。",
@@ -1261,6 +2905,18 @@
   "note": null,
   "multi": false,
   "readings": "zhu"
+ },
+ "佊": {
+  "pinyin": "bǐ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "佌": {
   "pinyin": "cǐ",
@@ -2066,6 +3722,18 @@
   "multi": false,
   "readings": "feng"
  },
+ "俻": {
+  "pinyin": "bèi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "俾": {
   "pinyin": "bǐ",
   "zh_cn": "使；通\"比\"。从",
@@ -2138,6 +3806,18 @@
   "multi": false,
   "readings": "shu"
  },
+ "倐": {
+  "pinyin": "shū",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "倓": {
   "pinyin": "tán",
   "zh_cn": null,
@@ -2174,6 +3854,18 @@
   "multi": true,
   "readings": "tang/chang"
  },
+ "倛": {
+  "pinyin": "qī",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "倜": {
   "pinyin": "tì",
   "zh_cn": "1.见\"倜侏\"﹑\"倜倡\"",
@@ -2209,6 +3901,18 @@
   "note": null,
   "multi": false,
   "readings": "fang"
+ },
+ "値": {
+  "pinyin": "zhí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "倥": {
   "pinyin": "kǒng",
@@ -2438,6 +4142,18 @@
   "multi": false,
   "readings": "bei"
  },
+ "偞": {
+  "pinyin": "xiè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "偟": {
   "pinyin": "huáng",
   "zh_cn": null,
@@ -2452,6 +4168,18 @@
  },
  "偢": {
   "pinyin": "chǒu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "偤": {
+  "pinyin": "yóu",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -2857,6 +4585,18 @@
   "note": "多音字，可讀「lü/lou」，須依文意斷音。",
   "multi": true,
   "readings": "lü/lou"
+ },
+ "僃": {
+  "pinyin": "bèi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "僄": {
   "pinyin": "piào",
@@ -3278,6 +5018,18 @@
   "multi": false,
   "readings": "dan"
  },
+ "儌": {
+  "pinyin": "jiǎo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "儎": {
   "pinyin": "zài",
   "zh_cn": null,
@@ -3337,6 +5089,30 @@
   "note": "多音字，可讀「ni/yi/ai」，須依文意斷音。",
   "multi": true,
   "readings": "ni/yi/ai"
+ },
+ "儛": {
+  "pinyin": "wǔ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "儜": {
+  "pinyin": "níng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "儞": {
   "pinyin": "nǐ",
@@ -3542,6 +5318,18 @@
   "multi": false,
   "readings": "yan"
  },
+ "兠": {
+  "pinyin": "dōu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "兪": {
   "pinyin": "yú",
   "zh_cn": null,
@@ -3602,6 +5390,18 @@
   "multi": true,
   "readings": "zi/ci"
  },
+ "兾": {
+  "pinyin": "jì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "内": {
   "pinyin": "nèi",
   "zh_cn": "①读 nèi：里面，与'外'相对；内心；内室、皇宫（大内）；②读 nà：同'纳'（纳入、内币）。",
@@ -3614,6 +5414,18 @@
   "multi": true,
   "readings": "nei/na"
  },
+ "冇": {
+  "pinyin": "mǎo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "冏": {
   "pinyin": "jiǒng",
   "zh_cn": "明亮",
@@ -3625,6 +5437,18 @@
   "note": null,
   "multi": false,
   "readings": "jiong"
+ },
+ "冐": {
+  "pinyin": "mào",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "冑": {
   "pinyin": "zhòu",
@@ -3674,6 +5498,18 @@
   "multi": false,
   "readings": "xu"
  },
+ "冝": {
+  "pinyin": "yí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "冞": {
   "pinyin": "mí",
   "zh_cn": "1.愈，更加",
@@ -3685,6 +5521,18 @@
   "note": null,
   "multi": false,
   "readings": "mi"
+ },
+ "冡": {
+  "pinyin": "měng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "冢": {
   "pinyin": "zhǒng",
@@ -3914,6 +5762,30 @@
   "multi": false,
   "readings": "cui"
  },
+ "凟": {
+  "pinyin": "dú",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "凢": {
+  "pinyin": "fán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "凫": {
   "pinyin": "fú",
   "zh_cn": "俗称\"野鸭\"。形状像鸭子，种类很多，但已逐年减少，要保护。常见的是绿头野鸭，雄的头部绿色背部黑褐色，颈下有一白环。雌的全身黑褐色。常群游湖泊中，能飞。现已有人工养殖,肉可吃，羽毛可制绒；〈方〉同\"洑\"。游泳",
@@ -3950,8 +5822,44 @@
   "multi": true,
   "readings": "ao/wa"
  },
+ "凾": {
+  "pinyin": "hán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "刂": {
   "pinyin": "dāo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "刄": {
+  "pinyin": "rèn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "刅": {
+  "pinyin": "chuāng",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -3973,6 +5881,18 @@
   "note": null,
   "multi": false,
   "readings": "yi"
+ },
+ "刋": {
+  "pinyin": "qiàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "刍": {
   "pinyin": "chú",
@@ -4036,6 +5956,18 @@
  },
  "刞": {
   "pinyin": "qù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "刧": {
+  "pinyin": "jié",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -4129,6 +6061,18 @@
   "note": "多音字，可讀「cha/sha」，須依文意斷音。",
   "multi": true,
   "readings": "cha/sha"
+ },
+ "刼": {
+  "pinyin": "jié",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "剄": {
   "pinyin": "jǐng",
@@ -4478,6 +6422,18 @@
   "multi": false,
   "readings": null
  },
+ "劒": {
+  "pinyin": "jiàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "劓": {
   "pinyin": "yì",
   "zh_cn": "〈古〉一种酷刑，割掉鼻子。〈引〉割除，削弱",
@@ -4489,6 +6445,18 @@
   "note": null,
   "multi": false,
   "readings": "yi"
+ },
+ "劔": {
+  "pinyin": "jiàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "劖": {
   "pinyin": "chán",
@@ -4604,6 +6572,18 @@
   "zh_tw": "力氣，力量使；精神、情緒、興趣等幹；指屬性的程度你嚐嚐這個香；見jìng",
   "en": "strong, tough, unyielding; power, energy",
   "rare": false,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "劵": {
+  "pinyin": "juàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
   "is_difficult": true,
   "pinyin_notes": null,
   "note": null,
@@ -4825,6 +6805,18 @@
   "note": null,
   "multi": false,
   "readings": "xie"
+ },
+ "勲": {
+  "pinyin": "xūn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "勷": {
   "pinyin": "ráng",
@@ -5282,6 +7274,18 @@
   "multi": false,
   "readings": "wu"
  },
+ "卽": {
+  "pinyin": "jí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "厂": {
   "pinyin": "chǎng",
   "zh_cn": "通常指制造生产资料或生活资料的企业单位工；可以存货或可进行加工的场所煤；跟棚子相似的房屋",
@@ -5293,6 +7297,18 @@
   "note": "多音字，可讀「chang/an/han」，須依文意斷音。",
   "multi": true,
   "readings": "chang/an/han"
+ },
+ "厈": {
+  "pinyin": "hàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "厍": {
   "pinyin": "shè",
@@ -5390,6 +7406,18 @@
   "multi": false,
   "readings": "fei"
  },
+ "厠": {
+  "pinyin": "cè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "厥": {
   "pinyin": "jué",
   "zh_cn": "①文言代词：他的、那个（厥功甚伟）；②乃、就；③晕倒、气闭（昏厥、痰厥）；④掘、其。",
@@ -5449,6 +7477,18 @@
   "note": null,
   "multi": false,
   "readings": "si"
+ },
+ "厯": {
+  "pinyin": "lì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "厶": {
   "pinyin": "sī",
@@ -5536,6 +7576,18 @@
  },
  "収": {
   "pinyin": "shōu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "叚": {
+  "pinyin": "jiǎ",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -5870,6 +7922,18 @@
   "multi": false,
   "readings": "e"
  },
+ "呉": {
+  "pinyin": "wú",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "呌": {
   "pinyin": "jiào",
   "zh_cn": null,
@@ -5977,6 +8041,18 @@
   "note": null,
   "multi": false,
   "readings": "you"
+ },
+ "呪": {
+  "pinyin": "zhòu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "呫": {
   "pinyin": "tiè",
@@ -6385,6 +8461,18 @@
   "note": "多音字，可讀「zan/za」，須依文意斷音。",
   "multi": true,
   "readings": "zan/za"
+ },
+ "咲": {
+  "pinyin": "xiào",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "咳": {
   "pinyin": "hāi",
@@ -7070,6 +9158,18 @@
   "multi": true,
   "readings": "zhuo/zhao"
  },
+ "啇": {
+  "pinyin": "dí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "啈": {
   "pinyin": "hēng",
   "zh_cn": null,
@@ -7165,6 +9265,18 @@
   "note": null,
   "multi": false,
   "readings": "dan"
+ },
+ "啚": {
+  "pinyin": "bǐ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "啜": {
   "pinyin": "chuò",
@@ -7550,6 +9662,18 @@
   "multi": true,
   "readings": "dan/shan/chan"
  },
+ "喰": {
+  "pinyin": "cān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "喳": {
   "pinyin": "zhā",
   "zh_cn": "像声词",
@@ -7657,6 +9781,18 @@
   "note": "多音字，可讀「ai/yi」，須依文意斷音。",
   "multi": true,
   "readings": "ai/yi"
+ },
+ "嗍": {
+  "pinyin": "suō",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "嗏": {
   "pinyin": "chā",
@@ -7958,6 +10094,18 @@
   "multi": true,
   "readings": "jiao/dao"
  },
+ "嘅": {
+  "pinyin": "kǎi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "嘈": {
   "pinyin": "cáo",
   "zh_cn": "（声音）杂乱",
@@ -8222,6 +10370,18 @@
   "multi": false,
   "readings": "zun"
  },
+ "噆": {
+  "pinyin": "zǎn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "噇": {
   "pinyin": "chuáng",
   "zh_cn": "没有节制的大吃大喝贪官",
@@ -8353,6 +10513,30 @@
   "note": null,
   "multi": false,
   "readings": "qin"
+ },
+ "噞": {
+  "pinyin": "yǎn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "噠": {
+  "pinyin": "dā",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "噢": {
   "pinyin": "ō",
@@ -9086,6 +11270,30 @@
   "multi": false,
   "readings": "hu"
  },
+ "囬": {
+  "pinyin": "huí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "囯": {
+  "pinyin": "guó",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "囵": {
   "pinyin": "lún",
   "zh_cn": "1.见\"囫囵\"",
@@ -9244,6 +11452,18 @@
  },
  "圎": {
   "pinyin": "yuán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "圏": {
+  "pinyin": "quān",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -9758,6 +11978,18 @@
   "multi": false,
   "readings": "yi"
  },
+ "埀": {
+  "pinyin": "chuí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "埆": {
   "pinyin": "què",
   "zh_cn": null,
@@ -9805,6 +12037,18 @@
   "note": null,
   "multi": false,
   "readings": "lie"
+ },
+ "埓": {
+  "pinyin": "liè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "埔": {
   "pinyin": "pǔ",
@@ -10057,6 +12301,18 @@
   "note": null,
   "multi": false,
   "readings": "ku"
+ },
+ "堄": {
+  "pinyin": "nì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "堇": {
   "pinyin": "jǐn",
@@ -10442,6 +12698,18 @@
   "multi": false,
   "readings": "cheng"
  },
+ "塏": {
+  "pinyin": "kǎi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "塒": {
   "pinyin": "shí",
   "zh_cn": "〈古〉指鸡窝",
@@ -10502,6 +12770,18 @@
   "multi": false,
   "readings": "zhong"
  },
+ "塜": {
+  "pinyin": "péng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "塞": {
   "pinyin": "sāi",
   "zh_cn": "①读 sāi：堵塞、填塞（塞住）；②读 sè：阻塞、堵塞（用于合成词，闭塞、堵塞）；③读 sài：边界险要处（边塞、要塞）。",
@@ -10513,6 +12793,18 @@
   "note": "多音字，可讀「sai/se」，須依文意斷音。",
   "multi": true,
   "readings": "sai/se"
+ },
+ "塟": {
+  "pinyin": "zàng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "塠": {
   "pinyin": "duī",
@@ -10526,6 +12818,18 @@
   "multi": false,
   "readings": "dui"
  },
+ "塡": {
+  "pinyin": "tián",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "塤": {
   "pinyin": "xūn",
   "zh_cn": "〈古〉用陶土烧制的一种吹奏乐器，卵圆形中空，顶端有吹孔，中间音孔有多至五个的",
@@ -10537,6 +12841,18 @@
   "note": null,
   "multi": false,
   "readings": "xun"
+ },
+ "塪": {
+  "pinyin": "xiàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "填": {
   "pinyin": "tián",
@@ -10586,6 +12902,18 @@
   "multi": true,
   "readings": "qian/jian"
  },
+ "塼": {
+  "pinyin": "zhuān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "塽": {
   "pinyin": "shuǎng",
   "zh_cn": null,
@@ -10634,6 +12962,18 @@
   "multi": false,
   "readings": "chi"
  },
+ "墄": {
+  "pinyin": "qī",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "墆": {
   "pinyin": "dì",
   "zh_cn": null,
@@ -10669,6 +13009,18 @@
   "note": null,
   "multi": false,
   "readings": "jin"
+ },
+ "増": {
+  "pinyin": "zēng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "墘": {
   "pinyin": "qián",
@@ -10838,8 +13190,32 @@
   "multi": false,
   "readings": null
  },
+ "壊": {
+  "pinyin": "huài",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "壋": {
   "pinyin": "dàng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "壍": {
+  "pinyin": "qiàn",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -10921,6 +13297,30 @@
   "note": null,
   "multi": false,
   "readings": "lu"
+ },
+ "壜": {
+  "pinyin": "tán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "壝": {
+  "pinyin": "wéi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "壠": {
   "pinyin": "lǒng",
@@ -11005,6 +13405,18 @@
   "note": null,
   "multi": false,
   "readings": "shou"
+ },
+ "変": {
+  "pinyin": "biàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "夌": {
   "pinyin": "líng",
@@ -11125,6 +13537,18 @@
   "note": "多音字，可讀「hang/ben」，須依文意斷音。",
   "multi": true,
   "readings": "hang/ben"
+ },
+ "夲": {
+  "pinyin": "tāo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "夹": {
   "pinyin": "jiá",
@@ -11305,6 +13729,18 @@
   "note": null,
   "multi": false,
   "readings": "lian"
+ },
+ "奬": {
+  "pinyin": "jiǎng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "奭": {
   "pinyin": "shì",
@@ -11534,6 +13970,18 @@
   "multi": false,
   "readings": null
  },
+ "妬": {
+  "pinyin": "dù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "妯": {
   "pinyin": "zhóu",
   "zh_cn": "1.悲恸",
@@ -11570,6 +14018,18 @@
   "multi": true,
   "readings": "nai/ni"
  },
+ "妺": {
+  "pinyin": "mò",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "妾": {
   "pinyin": "qiè",
   "zh_cn": "①旧时男子正妻以外娶的女子（纳妾）；②旧时女子自称的谦词（妾身）。",
@@ -11593,6 +14053,18 @@
   "note": null,
   "multi": false,
   "readings": "xu"
+ },
+ "姉": {
+  "pinyin": "zǐ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "姊": {
   "pinyin": "zǐ",
@@ -11654,6 +14126,18 @@
   "multi": false,
   "readings": "pin"
  },
+ "姙": {
+  "pinyin": "rèn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "姝": {
   "pinyin": "shū",
   "zh_cn": "美好，美丽；美女",
@@ -11714,6 +14198,18 @@
   "multi": true,
   "readings": "lao/mu"
  },
+ "姧": {
+  "pinyin": "jiān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "姪": {
   "pinyin": "zhí",
   "zh_cn": "①兄弟的儿子或同辈亲友的儿子（侄儿、侄女）。",
@@ -11725,6 +14221,18 @@
   "note": null,
   "multi": false,
   "readings": "zhi"
+ },
+ "姫": {
+  "pinyin": "zhěn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "姮": {
   "pinyin": "héng",
@@ -11870,6 +14378,18 @@
   "multi": false,
   "readings": "chuo"
  },
+ "娗": {
+  "pinyin": "tǐng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "娙": {
   "pinyin": "xíng",
   "zh_cn": "1.女子身材长而美。2.见\"娙娥\"﹑\"娙何\"",
@@ -11905,6 +14425,18 @@
   "note": null,
   "multi": false,
   "readings": "di"
+ },
+ "娫": {
+  "pinyin": "yán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "娬": {
   "pinyin": "wǔ",
@@ -12014,6 +14546,30 @@
   "multi": false,
   "readings": "biao"
  },
+ "婋": {
+  "pinyin": "xiāo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "婑": {
+  "pinyin": "wǒ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "婓": {
   "pinyin": "fēi",
   "zh_cn": "1.见\"婓婓\"。2.同\"妃\"",
@@ -12050,6 +14606,18 @@
   "multi": true,
   "readings": "quan/juan"
  },
+ "婟": {
+  "pinyin": "hù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "婢": {
   "pinyin": "bì",
   "zh_cn": "①女奴、旧时被迫供人使唤的女子（奴婢、婢女、奴颜婢膝）。",
@@ -12064,6 +14632,18 @@
  },
  "婣": {
   "pinyin": "yīn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "婩": {
+  "pinyin": "nüè",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -12194,6 +14774,18 @@
   "multi": false,
   "readings": "qian"
  },
+ "媌": {
+  "pinyin": "miáo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "媔": {
   "pinyin": "mián",
   "zh_cn": null,
@@ -12277,6 +14869,18 @@
   "note": null,
   "multi": false,
   "readings": "xie"
+ },
+ "媠": {
+  "pinyin": "duò",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "媢": {
   "pinyin": "mào",
@@ -12373,6 +14977,18 @@
   "note": null,
   "multi": false,
   "readings": "gui"
+ },
+ "媱": {
+  "pinyin": "yáo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "媲": {
   "pinyin": "pì",
@@ -12517,6 +15133,18 @@
   "note": null,
   "multi": false,
   "readings": "ai"
+ },
+ "嫓": {
+  "pinyin": "pì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "嫔": {
   "pinyin": "pín",
@@ -13298,6 +15926,30 @@
   "multi": false,
   "readings": "chen"
  },
+ "宻": {
+  "pinyin": "mì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "宼": {
+  "pinyin": "kòu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "宿": {
   "pinyin": "sù",
   "zh_cn": "①读 sù：过夜、住宿；素来、平素（宿愿）；年老的、久经其事的（宿将）；②读 xiǔ：量词，一夜（半宿）；③读 xiù：星宿（二十八宿）。",
@@ -13358,6 +16010,18 @@
   "multi": false,
   "readings": "shi"
  },
+ "寕": {
+  "pinyin": "nìng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "寖": {
   "pinyin": "jìn",
   "zh_cn": null,
@@ -13393,6 +16057,30 @@
   "note": null,
   "multi": false,
   "readings": "zhi"
+ },
+ "寛": {
+  "pinyin": "kuān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "寜": {
+  "pinyin": "níng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "寠": {
   "pinyin": "lóu",
@@ -13478,6 +16166,18 @@
   "multi": false,
   "readings": null
  },
+ "専": {
+  "pinyin": "zhuān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "尃": {
   "pinyin": "fū",
   "zh_cn": "1.\"敷\"的古字。分布;散布。2.古代长度单位，一尃等于四寸",
@@ -13550,8 +16250,32 @@
   "multi": false,
   "readings": null
  },
+ "尓": {
+  "pinyin": "ěr",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "尙": {
   "pinyin": "shàng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "尠": {
+  "pinyin": "xiǎn",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -13621,6 +16345,18 @@
   "note": null,
   "multi": false,
   "readings": "ga"
+ },
+ "尭": {
+  "pinyin": "yáo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "尰": {
   "pinyin": "zhǒng",
@@ -13922,6 +16658,18 @@
   "multi": false,
   "readings": null
  },
+ "岀": {
+  "pinyin": "chū",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "岂": {
   "pinyin": "qǐ",
   "zh_cn": "助词。是否，怎么，难道（用于疑问或反诘句）；〈古〉通\"恺\"、\"凯\"。柔和，快乐",
@@ -14198,6 +16946,18 @@
   "multi": false,
   "readings": "mu"
  },
+ "峘": {
+  "pinyin": "huán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "峙": {
   "pinyin": "zhì",
   "zh_cn": "山屹立，耸立。〈引〉立，对立对",
@@ -14320,6 +17080,18 @@
  },
  "崂": {
   "pinyin": "láo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "崅": {
+  "pinyin": "què",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -14702,6 +17474,30 @@
   "multi": false,
   "readings": null
  },
+ "嵕": {
+  "pinyin": "zōng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "嵗": {
+  "pinyin": "suì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "嵘": {
   "pinyin": "róng",
   "zh_cn": null,
@@ -15049,6 +17845,18 @@
   "note": null,
   "multi": false,
   "readings": "xian"
+ },
+ "嶰": {
+  "pinyin": "xiè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "嶲": {
   "pinyin": "guī",
@@ -15926,6 +18734,18 @@
   "multi": false,
   "readings": "an"
  },
+ "庻": {
+  "pinyin": "shù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "庾": {
   "pinyin": "yǔ",
   "zh_cn": "露天的谷仓。〈引〉一般的谷仓；〈古〉容量单位，一庾等于十六斗",
@@ -15973,6 +18793,18 @@
   "note": null,
   "multi": false,
   "readings": "sou"
+ },
+ "廐": {
+  "pinyin": "jiù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "廑": {
   "pinyin": "jǐn",
@@ -16141,6 +18973,30 @@
   "note": null,
   "multi": false,
   "readings": "yong"
+ },
+ "廵": {
+  "pinyin": "xún",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "廹": {
+  "pinyin": "pò",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "廻": {
   "pinyin": "huí",
@@ -16381,6 +19237,18 @@
   "note": "多音字，可讀「quan/juan」，須依文意斷音。",
   "multi": true,
   "readings": "quan/juan"
+ },
+ "弰": {
+  "pinyin": "shāo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "強": {
   "pinyin": "qiáng",
@@ -16670,6 +19538,18 @@
   "multi": true,
   "readings": "pang/fang"
  },
+ "彺": {
+  "pinyin": "wǎng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "徂": {
   "pinyin": "cú",
   "zh_cn": "〈动〉往。自西；〈动〉去，过去。岁月其；〈动〉开始＞\"四月维夏六月；〈动〉死亡＞诗曰∶\"",
@@ -16717,6 +19597,18 @@
   "note": null,
   "multi": false,
   "readings": "yang"
+ },
+ "従": {
+  "pinyin": "cóng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "徕": {
   "pinyin": "lái",
@@ -16789,6 +19681,18 @@
   "note": null,
   "multi": false,
   "readings": "lai"
+ },
+ "徤": {
+  "pinyin": "jiàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "徥": {
   "pinyin": "shì",
@@ -16864,6 +19768,18 @@
  },
  "徳": {
   "pinyin": "dé",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "徴": {
+  "pinyin": "zhǐ",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -17029,6 +19945,18 @@
   "note": null,
   "multi": false,
   "readings": "tian"
+ },
+ "忞": {
+  "pinyin": "mǐn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "忡": {
   "pinyin": "chōng",
@@ -17618,6 +20546,18 @@
   "multi": false,
   "readings": "jia"
  },
+ "恡": {
+  "pinyin": "lìn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "恣": {
   "pinyin": "zì",
   "zh_cn": "①放纵、无顾忌（恣意、恣睢）；②任凭（恣其所为）。",
@@ -17668,6 +20608,18 @@
  },
  "恱": {
   "pinyin": "yuè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "恵": {
+  "pinyin": "huì",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -18182,6 +21134,18 @@
   "multi": true,
   "readings": "e/wu"
  },
+ "惣": {
+  "pinyin": "zǒng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "惬": {
   "pinyin": "qiè",
   "zh_cn": "满足，快意",
@@ -18265,6 +21229,18 @@
   "note": null,
   "multi": false,
   "readings": "ce"
+ },
+ "惽": {
+  "pinyin": "mǐn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "愀": {
   "pinyin": "qiǎo",
@@ -18398,6 +21374,18 @@
   "multi": false,
   "readings": "qie"
  },
+ "愞": {
+  "pinyin": "nuò",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "愠": {
   "pinyin": "yùn",
   "zh_cn": "1.郁结",
@@ -18496,6 +21484,30 @@
  },
  "愻": {
   "pinyin": "xùn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "愼": {
+  "pinyin": "shèn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "愽": {
+  "pinyin": "bó",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -18806,6 +21818,18 @@
   "multi": false,
   "readings": null
  },
+ "憇": {
+  "pinyin": "qì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "憍": {
   "pinyin": "jiāo",
   "zh_cn": "1.同\"骄\"。骄傲;骄矜。2.高仰",
@@ -18937,6 +21961,18 @@
   "note": null,
   "multi": false,
   "readings": "ce"
+ },
+ "憣": {
+  "pinyin": "fān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "憦": {
   "pinyin": "lào",
@@ -19274,6 +22310,18 @@
   "multi": false,
   "readings": "you"
  },
+ "懯": {
+  "pinyin": "fū",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "懰": {
   "pinyin": "liú",
   "zh_cn": null,
@@ -19297,6 +22345,18 @@
   "note": null,
   "multi": false,
   "readings": "meng"
+ },
+ "懹": {
+  "pinyin": "ràng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "懺": {
   "pinyin": "chàn",
@@ -19369,6 +22429,18 @@
   "note": null,
   "multi": false,
   "readings": "jue"
+ },
+ "戅": {
+  "pinyin": "gàng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "戆": {
   "pinyin": "gàng",
@@ -19586,6 +22658,18 @@
   "multi": true,
   "readings": "xi/hu"
  },
+ "戸": {
+  "pinyin": "hù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "戹": {
   "pinyin": "è",
   "zh_cn": null,
@@ -19597,6 +22681,42 @@
   "note": null,
   "multi": false,
   "readings": "e"
+ },
+ "戺": {
+  "pinyin": "shì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "戻": {
+  "pinyin": "tì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "戽": {
+  "pinyin": "hù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "戾": {
   "pinyin": "lì",
@@ -19645,6 +22765,18 @@
   "note": null,
   "multi": false,
   "readings": "jiong"
+ },
+ "扄": {
+  "pinyin": "shǎng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "扅": {
   "pinyin": "yí",
@@ -19874,6 +23006,18 @@
   "multi": false,
   "readings": "zhi"
  },
+ "抂": {
+  "pinyin": "kuáng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "抃": {
   "pinyin": "biàn",
   "zh_cn": "1.鼓掌;拍手表示欢欣。2.搏击",
@@ -19886,6 +23030,18 @@
   "multi": false,
   "readings": "bian"
  },
+ "抇": {
+  "pinyin": "hú",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "抈": {
   "pinyin": "yuè",
   "zh_cn": "1.折断。2.折叠。3.通\"抧\"。动摇",
@@ -19897,6 +23053,18 @@
   "note": null,
   "multi": false,
   "readings": "yue"
+ },
+ "抌": {
+  "pinyin": "dǎn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "抎": {
   "pinyin": "yǔn",
@@ -20221,6 +23389,18 @@
   "note": "多音字，可讀「ze/zhai」，須依文意斷音。",
   "multi": true,
   "readings": "ze/zhai"
+ },
+ "拪": {
+  "pinyin": "qiān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "括": {
   "pinyin": "kuò",
@@ -20822,6 +24002,18 @@
   "multi": false,
   "readings": "bai"
  },
+ "掲": {
+  "pinyin": "jiē",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "掸": {
   "pinyin": "dǎn",
   "zh_cn": null,
@@ -21002,6 +24194,18 @@
   "multi": false,
   "readings": null
  },
+ "揔": {
+  "pinyin": "zǒng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "揕": {
   "pinyin": "zhèn",
   "zh_cn": null,
@@ -21172,6 +24376,18 @@
  },
  "揹": {
   "pinyin": "bēi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "揺": {
+  "pinyin": "yáo",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -21734,6 +24950,18 @@
   "multi": false,
   "readings": "zhi"
  },
+ "摰": {
+  "pinyin": "niè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "摲": {
   "pinyin": "chàn",
   "zh_cn": "1.芟除;攻取",
@@ -21818,6 +25046,18 @@
   "multi": false,
   "readings": null
  },
+ "撃": {
+  "pinyin": "jī",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "撊": {
   "pinyin": "xiàn",
   "zh_cn": null,
@@ -21853,6 +25093,18 @@
   "note": null,
   "multi": false,
   "readings": "xian"
+ },
+ "撗": {
+  "pinyin": "héng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "撘": {
   "pinyin": "dā",
@@ -21925,6 +25177,18 @@
   "note": null,
   "multi": false,
   "readings": "ji"
+ },
+ "撡": {
+  "pinyin": "cāo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "撢": {
   "pinyin": "dǎn",
@@ -22262,6 +25526,18 @@
   "multi": false,
   "readings": "shu"
  },
+ "攅": {
+  "pinyin": "zǎn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "攈": {
   "pinyin": "jùn",
   "zh_cn": "1.拾取",
@@ -22502,6 +25778,18 @@
   "multi": false,
   "readings": "you"
  },
+ "攺": {
+  "pinyin": "yǐ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "敁": {
   "pinyin": "diān",
   "zh_cn": "1.见\"敁敠\"",
@@ -22646,6 +25934,18 @@
   "multi": false,
   "readings": "jiao"
  },
+ "敭": {
+  "pinyin": "yáng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "数": {
   "pinyin": "shù",
   "zh_cn": "查点，计算当面；指责，列举过失；比较起来最突出就",
@@ -22729,6 +26029,18 @@
   "note": null,
   "multi": false,
   "readings": "xiao"
+ },
+ "斈": {
+  "pinyin": "xué",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "斐": {
   "pinyin": "fěi",
@@ -23234,6 +26546,18 @@
   "multi": false,
   "readings": "xu"
  },
+ "旸": {
+  "pinyin": "yáng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "旻": {
   "pinyin": "mín",
   "zh_cn": null,
@@ -23401,6 +26725,42 @@
   "note": null,
   "multi": false,
   "readings": "zan"
+ },
+ "昞": {
+  "pinyin": "bǐng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "昡": {
+  "pinyin": "xuàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "昩": {
+  "pinyin": "mò",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "昫": {
   "pinyin": "xù",
@@ -23666,6 +27026,30 @@
   "multi": false,
   "readings": "hao"
  },
+ "晩": {
+  "pinyin": "wǎn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "晬": {
+  "pinyin": "zuì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "景": {
   "pinyin": "jǐng",
   "zh_cn": "①日光（春景）；②风景、景色；③情形、状况（光景）；④仰慕、佩服（景仰）；⑤大（景行）。又读 yǐng，同'影'。",
@@ -23774,6 +27158,18 @@
   "multi": false,
   "readings": "wang"
  },
+ "暁": {
+  "pinyin": "xiǎo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "暄": {
   "pinyin": "xuān",
   "zh_cn": "温暖；松软，松散",
@@ -23834,6 +27230,18 @@
   "multi": false,
   "readings": null
  },
+ "暎": {
+  "pinyin": "yìng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "暐": {
   "pinyin": "wěi",
   "zh_cn": null,
@@ -23881,6 +27289,18 @@
   "note": null,
   "multi": false,
   "readings": "hao"
+ },
+ "暦": {
+  "pinyin": "lì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "暧": {
   "pinyin": "ài",
@@ -24001,6 +27421,18 @@
   "note": null,
   "multi": false,
   "readings": "yi"
+ },
+ "曁": {
+  "pinyin": "jì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "曄": {
   "pinyin": "yè",
@@ -24218,6 +27650,18 @@
   "multi": false,
   "readings": "yan"
  },
+ "曵": {
+  "pinyin": "yè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "曶": {
   "pinyin": "hū",
   "zh_cn": null,
@@ -24314,6 +27758,18 @@
   "multi": false,
   "readings": "ruan"
  },
+ "朌": {
+  "pinyin": "bān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "朏": {
   "pinyin": "fěi",
   "zh_cn": null,
@@ -24409,6 +27865,18 @@
   "note": "多音字，可讀「qi/ji」，須依文意斷音。",
   "multi": true,
   "readings": "qi/ji"
+ },
+ "朡": {
+  "pinyin": "zōng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "朥": {
   "pinyin": "láo",
@@ -24626,6 +28094,18 @@
   "multi": false,
   "readings": "mang"
  },
+ "杘": {
+  "pinyin": "chì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "杙": {
   "pinyin": "yì",
   "zh_cn": "1.月色",
@@ -24697,6 +28177,18 @@
   "note": null,
   "multi": false,
   "readings": "yao"
+ },
+ "杴": {
+  "pinyin": "xiān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "杵": {
   "pinyin": "chǔ",
@@ -24805,6 +28297,18 @@
   "note": null,
   "multi": false,
   "readings": "fen"
+ },
+ "枍": {
+  "pinyin": "yì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "枒": {
   "pinyin": "yā",
@@ -25682,6 +29186,18 @@
   "multi": true,
   "readings": "ju/jie"
  },
+ "桕": {
+  "pinyin": "jiù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "桚": {
   "pinyin": "zā",
   "zh_cn": null,
@@ -25744,6 +29260,30 @@
  },
  "桯": {
   "pinyin": "tīng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "桱": {
+  "pinyin": "jìng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "桲": {
+  "pinyin": "bó",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -25970,11 +29510,35 @@
   "multi": false,
   "readings": "fan"
  },
+ "梹": {
+  "pinyin": "bīn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "梼": {
   "pinyin": "táo",
   "zh_cn": "［梼杌］；〈古〉传说中的恶兽、恶人；春秋时楚史名",
   "zh_tw": "［檮杌］；〈古〉傳說中的惡獸、惡人；春秋時楚史名",
   "en": "wood block; idiot, blockhead",
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "梿": {
+  "pinyin": "lián",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
   "rare": true,
   "is_difficult": true,
   "pinyin_notes": null,
@@ -26005,6 +29569,18 @@
   "note": null,
   "multi": false,
   "readings": "ling"
+ },
+ "棃": {
+  "pinyin": "lí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "棈": {
   "pinyin": "qiàn",
@@ -26342,6 +29918,18 @@
   "multi": false,
   "readings": null
  },
+ "椂": {
+  "pinyin": "lù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "椄": {
   "pinyin": "jiē",
   "zh_cn": null,
@@ -26464,6 +30052,18 @@
  },
  "椗": {
   "pinyin": "dìng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "椘": {
+  "pinyin": "chǔ",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -26798,6 +30398,30 @@
   "multi": true,
   "readings": "cou/zou"
  },
+ "楳": {
+  "pinyin": "méi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "楶": {
+  "pinyin": "jié",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "楷": {
   "pinyin": "kǎi",
   "zh_cn": "法式，典范；楷书，也叫\"正书\"、\"真书\"。是现今通行的一种汉字字体，形体方正，笔画平直，由隶书演变而来写正；见jiē",
@@ -26836,6 +30460,18 @@
  },
  "楺": {
   "pinyin": "róu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "楽": {
+  "pinyin": "lè",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -27133,6 +30769,18 @@
   "note": null,
   "multi": false,
   "readings": "cha"
+ },
+ "槏": {
+  "pinyin": "qiǎn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "槔": {
   "pinyin": "gāo",
@@ -27602,6 +31250,18 @@
   "multi": false,
   "readings": "jue"
  },
+ "橜": {
+  "pinyin": "jué",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "橦": {
   "pinyin": "tóng",
   "zh_cn": null,
@@ -27842,6 +31502,18 @@
   "multi": false,
   "readings": "lin"
  },
+ "檪": {
+  "pinyin": "lì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "檮": {
   "pinyin": "táo",
   "zh_cn": "［梼杌］；〈古〉传说中的恶兽、恶人；春秋时楚史名",
@@ -27901,6 +31573,18 @@
   "note": null,
   "multi": false,
   "readings": "yan"
+ },
+ "櫂": {
+  "pinyin": "zhào",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "櫋": {
   "pinyin": "mián",
@@ -28130,6 +31814,30 @@
   "multi": false,
   "readings": "ling"
  },
+ "櫾": {
+  "pinyin": "yòu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "欀": {
+  "pinyin": "xiāng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "欂": {
   "pinyin": "bó",
   "zh_cn": "1.见\"欂栌\"",
@@ -28334,6 +32042,18 @@
   "multi": true,
   "readings": "chua/xu"
  },
+ "歂": {
+  "pinyin": "chuǎn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "歃": {
   "pinyin": "shà",
   "zh_cn": "饮，喝。特指古人盟会时，杀牲畜饮血（一说涂在嘴唇上），以表示诚意",
@@ -28490,6 +32210,18 @@
   "multi": false,
   "readings": "chuo"
  },
+ "歩": {
+  "pinyin": "bù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "歭": {
   "pinyin": "zhì",
   "zh_cn": "1.止息。2.通\"庤\"。储备",
@@ -28501,6 +32233,30 @@
   "note": "多音字，可讀「zhi/chi」，須依文意斷音。",
   "multi": true,
   "readings": "zhi/chi"
+ },
+ "歳": {
+  "pinyin": "suì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "歴": {
+  "pinyin": "lì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "歿": {
   "pinyin": "mò",
@@ -28790,6 +32546,18 @@
   "multi": false,
   "readings": "du"
  },
+ "殱": {
+  "pinyin": "jiān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "殳": {
   "pinyin": "shū",
   "zh_cn": "〈古〉一种有棱无刃的竹制兵器",
@@ -28885,6 +32653,18 @@
   "note": "多音字，可讀「guan/wan」，須依文意斷音。",
   "multi": true,
   "readings": "guan/wan"
+ },
+ "毎": {
+  "pinyin": "měi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "毐": {
   "pinyin": "ǎi",
@@ -29366,6 +33146,18 @@
   "multi": false,
   "readings": "qi"
  },
+ "汚": {
+  "pinyin": "wū",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "汜": {
   "pinyin": "sì",
   "zh_cn": "①读 sì：由干流分出又汇合到干流的水（汜水，古水名）；②读 fàn：同'泛'。",
@@ -29689,6 +33481,18 @@
   "note": null,
   "multi": false,
   "readings": "tuo"
+ },
+ "沲": {
+  "pinyin": "duò",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "沴": {
   "pinyin": "lì",
@@ -30698,6 +34502,18 @@
   "multi": false,
   "readings": "cen"
  },
+ "涖": {
+  "pinyin": "lì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "涘": {
   "pinyin": "sì",
   "zh_cn": "水边在水之",
@@ -30793,6 +34609,18 @@
   "note": null,
   "multi": false,
   "readings": "zhuo"
+ },
+ "淂": {
+  "pinyin": "dé",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "淅": {
   "pinyin": "xī",
@@ -31082,6 +34910,42 @@
   "multi": false,
   "readings": null
  },
+ "渇": {
+  "pinyin": "kě",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "済": {
+  "pinyin": "jì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "渉": {
+  "pinyin": "shè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "渎": {
   "pinyin": "dú",
   "zh_cn": "水沟；小渠；轻慢；对人不敬；职",
@@ -31249,6 +35113,18 @@
   "note": null,
   "multi": false,
   "readings": "xuan"
+ },
+ "渻": {
+  "pinyin": "shěng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "渼": {
   "pinyin": "měi",
@@ -31604,6 +35480,18 @@
   "zh_tw": "水衝破堤壩；散亂，垮臺；腐爛，缺損",
   "en": "a flooding river; a military defeat; to break down, to disperse",
   "rare": false,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "溈": {
+  "pinyin": "wéi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
   "is_difficult": true,
   "pinyin_notes": null,
   "note": null,
@@ -32114,6 +36002,18 @@
   "multi": false,
   "readings": null
  },
+ "漑": {
+  "pinyin": "gài",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "漕": {
   "pinyin": "cáo",
   "zh_cn": "①水道运粮（漕运、漕粮、漕河）；②姓。",
@@ -32209,6 +36109,18 @@
   "note": "多音字，可讀「luo/ta」，須依文意斷音。",
   "multi": true,
   "readings": "luo/ta"
+ },
+ "漴": {
+  "pinyin": "chóng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "漵": {
   "pinyin": "xù",
@@ -32726,6 +36638,30 @@
   "multi": true,
   "readings": "kuai/hui"
  },
+ "澱": {
+  "pinyin": "diàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "澴": {
+  "pinyin": "huán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "澶": {
   "pinyin": "chán",
   "zh_cn": null,
@@ -32990,6 +36926,18 @@
   "multi": false,
   "readings": "wei"
  },
+ "濳": {
+  "pinyin": "qián",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "濴": {
   "pinyin": "yíng",
   "zh_cn": null,
@@ -33001,6 +36949,30 @@
   "note": null,
   "multi": false,
   "readings": "ying"
+ },
+ "濵": {
+  "pinyin": "bīn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "濶": {
+  "pinyin": "kuò",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "濼": {
   "pinyin": "luò",
@@ -33302,6 +37274,18 @@
   "multi": false,
   "readings": "lian"
  },
+ "瀵": {
+  "pinyin": "fèn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "瀶": {
   "pinyin": "lín",
   "zh_cn": null,
@@ -33433,6 +37417,18 @@
   "note": null,
   "multi": false,
   "readings": "qian"
+ },
+ "灋": {
+  "pinyin": "fǎ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "灒": {
   "pinyin": "zàn",
@@ -33673,6 +37669,18 @@
   "note": null,
   "multi": false,
   "readings": "xiao"
+ },
+ "烕": {
+  "pinyin": "miè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "烙": {
   "pinyin": "lào",
@@ -33926,6 +37934,18 @@
   "multi": true,
   "readings": "hui/yun/xun"
  },
+ "煊": {
+  "pinyin": "xuān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "煒": {
   "pinyin": "wěi",
   "zh_cn": "光明",
@@ -34154,6 +38174,18 @@
   "multi": true,
   "readings": "he/xiao"
  },
+ "熈": {
+  "pinyin": "xī",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "熉": {
   "pinyin": "yún",
   "zh_cn": "1.暗黄色",
@@ -34177,6 +38209,18 @@
   "note": null,
   "multi": false,
   "readings": "shan"
+ },
+ "熓": {
+  "pinyin": "wǔ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "熕": {
   "pinyin": "gòng",
@@ -34574,6 +38618,18 @@
   "multi": false,
   "readings": "yao"
  },
+ "爁": {
+  "pinyin": "làn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "爂": {
   "pinyin": "biāo",
   "zh_cn": null,
@@ -34633,6 +38689,18 @@
   "note": "多音字，可讀「yan/xun」，須依文意斷音。",
   "multi": true,
   "readings": "yan/xun"
+ },
+ "爕": {
+  "pinyin": "xiè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "爚": {
   "pinyin": "yuè",
@@ -34718,6 +38786,18 @@
   "multi": false,
   "readings": "yao"
  },
+ "爼": {
+  "pinyin": "zǔ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "爿": {
   "pinyin": "pán",
   "zh_cn": "〈方〉；劈成片的木柴；量词两",
@@ -34778,6 +38858,18 @@
   "multi": false,
   "readings": "du"
  },
+ "牎": {
+  "pinyin": "chuāng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "牏": {
   "pinyin": "yú",
   "zh_cn": null,
@@ -34825,6 +38917,18 @@
   "note": null,
   "multi": false,
   "readings": "you"
+ },
+ "牗": {
+  "pinyin": "yǒu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "牘": {
   "pinyin": "dú",
@@ -34958,6 +39062,18 @@
   "multi": false,
   "readings": "gu"
  },
+ "犂": {
+  "pinyin": "lí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "犄": {
   "pinyin": "jī",
   "zh_cn": "兽角羊；棱角柜子；角落屋",
@@ -35080,6 +39196,18 @@
  },
  "犟": {
   "pinyin": "jiàng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "犠": {
+  "pinyin": "xī",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -35522,6 +39650,18 @@
   "multi": false,
   "readings": null
  },
+ "猒": {
+  "pinyin": "yàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "猗": {
   "pinyin": "yī",
   "zh_cn": "文言叹词。〈表〉赞美；文言助词。相当于\"兮\"河水清且涟",
@@ -35596,6 +39736,18 @@
  },
  "猧": {
   "pinyin": "wō",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "猨": {
+  "pinyin": "yuán",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -36445,6 +40597,18 @@
   "note": null,
   "multi": false,
   "readings": "bi"
+ },
+ "珎": {
+  "pinyin": "zhēn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "珏": {
   "pinyin": "jué",
@@ -37730,6 +41894,18 @@
   "multi": false,
   "readings": "li"
  },
+ "瓉": {
+  "pinyin": "zàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "瓏": {
   "pinyin": "lóng",
   "zh_cn": null,
@@ -37789,6 +41965,18 @@
   "note": null,
   "multi": false,
   "readings": "zan"
+ },
+ "瓛": {
+  "pinyin": "huán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "瓞": {
   "pinyin": "dié",
@@ -37946,6 +42134,18 @@
   "multi": false,
   "readings": "meng"
  },
+ "甎": {
+  "pinyin": "zhuān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "甏": {
   "pinyin": "bèng",
   "zh_cn": "1.瓮类陶器",
@@ -38041,6 +42241,18 @@
   "note": null,
   "multi": false,
   "readings": "han"
+ },
+ "甞": {
+  "pinyin": "cháng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "甡": {
   "pinyin": "shēn",
@@ -38186,6 +42398,18 @@
   "multi": false,
   "readings": "bi"
  },
+ "畆": {
+  "pinyin": "mǔ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "畇": {
   "pinyin": "yún",
   "zh_cn": null,
@@ -38245,6 +42469,18 @@
   "note": null,
   "multi": false,
   "readings": "quan"
+ },
+ "畒": {
+  "pinyin": "mǔ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "畚": {
   "pinyin": "běn",
@@ -38306,6 +42542,18 @@
   "multi": true,
   "readings": "zhi/chou/shi"
  },
+ "畧": {
+  "pinyin": "lüè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "畨": {
   "pinyin": "fān",
   "zh_cn": null,
@@ -38365,6 +42613,18 @@
   "note": null,
   "multi": false,
   "readings": "jun"
+ },
+ "畱": {
+  "pinyin": "liú",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "畲": {
   "pinyin": "shē",
@@ -38764,6 +43024,18 @@
  },
  "痝": {
   "pinyin": "máng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "痟": {
+  "pinyin": "xiāo",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -39482,6 +43754,18 @@
   "multi": false,
   "readings": "ba"
  },
+ "皃": {
+  "pinyin": "mào",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "的": {
   "pinyin": "de",
   "zh_cn": "①结构助词，表修饰、领属（我的书、美丽的花）；②文言中作补语标记，同'得'。又读 dí（的确）、dì（目的）。",
@@ -39722,6 +44006,18 @@
   "multi": false,
   "readings": "jiao"
  },
+ "皯": {
+  "pinyin": "gǎn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "皰": {
   "pinyin": "pào",
   "zh_cn": null,
@@ -39745,6 +44041,18 @@
   "note": null,
   "multi": false,
   "readings": "cun"
+ },
+ "皷": {
+  "pinyin": "gǔ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "皸": {
   "pinyin": "jūn",
@@ -39998,6 +44306,18 @@
   "multi": true,
   "readings": "xi/pan"
  },
+ "眀": {
+  "pinyin": "míng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "省": {
   "pinyin": "shěng",
   "zh_cn": "①读 shěng：地方行政区域（省份）；节约（节省）；简略（省称）；②读 xǐng：检查、反省（自省）；探望（省亲）；明白、醒悟（省悟）。",
@@ -40069,6 +44389,18 @@
   "note": null,
   "multi": false,
   "readings": "mao"
+ },
+ "眎": {
+  "pinyin": "shì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "眑": {
   "pinyin": "yǎo",
@@ -40166,6 +44498,18 @@
   "multi": false,
   "readings": null
  },
+ "眡": {
+  "pinyin": "shì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "眢": {
   "pinyin": "yuān",
   "zh_cn": null,
@@ -40216,6 +44560,18 @@
  },
  "眱": {
   "pinyin": "dì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "眲": {
+  "pinyin": "nè",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -40490,6 +44846,18 @@
   "multi": false,
   "readings": "yu"
  },
+ "睱": {
+  "pinyin": "xià",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "睺": {
   "pinyin": "hóu",
   "zh_cn": null,
@@ -40525,6 +44893,18 @@
   "note": null,
   "multi": false,
   "readings": "kui"
+ },
+ "睾": {
+  "pinyin": "gāo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "睿": {
   "pinyin": "ruì",
@@ -40862,6 +45242,18 @@
   "multi": false,
   "readings": null
  },
+ "矅": {
+  "pinyin": "yào",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "矉": {
   "pinyin": "pín",
   "zh_cn": "1.恨而张目。2.通\"颦\"。皱眉",
@@ -40969,6 +45361,18 @@
   "note": null,
   "multi": false,
   "readings": "ze"
+ },
+ "矦": {
+  "pinyin": "hóu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "矧": {
   "pinyin": "shěn",
@@ -41342,6 +45746,18 @@
   "multi": false,
   "readings": "hui"
  },
+ "硋": {
+  "pinyin": "ài",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "硌": {
   "pinyin": "gè",
   "zh_cn": "凸起的、硬的东西接触到身体，使人感到难受或致损伤；见luò㈠",
@@ -41678,6 +46094,18 @@
   "multi": true,
   "readings": "jie/ya"
  },
+ "碨": {
+  "pinyin": "wèi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "碩": {
   "pinyin": "shuò",
   "zh_cn": "大",
@@ -41822,6 +46250,18 @@
   "multi": false,
   "readings": null
  },
+ "磒": {
+  "pinyin": "yǔn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "磔": {
   "pinyin": "zhé",
   "zh_cn": "〈古〉祭祀时，分裂牲畜的肢体。〈引〉古时一种分裂肢体的酷刑；汉字笔形的捺笔（猓",
@@ -41954,6 +46394,18 @@
   "multi": false,
   "readings": null
  },
+ "磶": {
+  "pinyin": "xì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "磻": {
   "pinyin": "pán",
   "zh_cn": null,
@@ -42049,6 +46501,18 @@
   "note": "多音字，可讀「he/qiao」，須依文意斷音。",
   "multi": true,
   "readings": "he/qiao"
+ },
+ "礌": {
+  "pinyin": "léi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "礐": {
   "pinyin": "què",
@@ -42650,6 +47114,18 @@
   "multi": true,
   "readings": "chan/shan"
  },
+ "禆": {
+  "pinyin": "bì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "禊": {
   "pinyin": "xì",
   "zh_cn": "〈古〉一种迷信活动，每年春秋两季在水边举行所谓\"消除妖邪\"的祭祀",
@@ -42950,6 +47426,18 @@
   "multi": true,
   "readings": "cha/na"
  },
+ "秈": {
+  "pinyin": "xiān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "种": {
   "pinyin": "zhǒng",
   "zh_cn": "①读 zhǒng：植物果实中能长成新植物的部分（种子）；类别、种类；②读 zhòng：种植；③读 chóng：姓。",
@@ -42985,6 +47473,18 @@
   "note": "多音字，可讀「hao/mao」，須依文意斷音。",
   "multi": true,
   "readings": "hao/mao"
+ },
+ "秔": {
+  "pinyin": "jīng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "秕": {
   "pinyin": "bǐ",
@@ -43345,6 +47845,18 @@
   "note": null,
   "multi": false,
   "readings": "zhen"
+ },
+ "稺": {
+  "pinyin": "zhì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "稽": {
   "pinyin": "jī",
@@ -43754,6 +48266,18 @@
   "multi": true,
   "readings": "wa/gui"
  },
+ "窓": {
+  "pinyin": "chuāng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "窕": {
   "pinyin": "tiǎo",
   "zh_cn": null,
@@ -43910,6 +48434,18 @@
   "multi": false,
   "readings": null
  },
+ "窹": {
+  "pinyin": "wù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "窻": {
   "pinyin": "chuāng",
   "zh_cn": null,
@@ -43982,8 +48518,32 @@
   "multi": true,
   "readings": "qu/kou"
  },
+ "竚": {
+  "pinyin": "zhù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "竝": {
   "pinyin": "bìng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "竢": {
+  "pinyin": "sì",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -44006,6 +48566,18 @@
   "multi": false,
   "readings": "song"
  },
+ "竪": {
+  "pinyin": "shù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "竫": {
   "pinyin": "jìng",
   "zh_cn": "古同寮”",
@@ -44020,6 +48592,18 @@
  },
  "竷": {
   "pinyin": "kǎn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "竸": {
+  "pinyin": "jìng",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -44125,6 +48709,18 @@
   "note": null,
   "multi": false,
   "readings": "hu"
+ },
+ "笓": {
+  "pinyin": "bì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "笘": {
   "pinyin": "shān",
@@ -44335,6 +48931,18 @@
   "zh_cn": "1.古代祭祀和宴会时盛果脯的竹器，形状像木制的豆",
   "zh_tw": "1.古代祭祀和宴會時盛果脯的竹器，形狀像木製的豆",
   "en": "bamboo container for food",
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "筀": {
+  "pinyin": "guì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
   "rare": true,
   "is_difficult": true,
   "pinyin_notes": null,
@@ -44656,6 +49264,18 @@
  },
  "箐": {
   "pinyin": "jīng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "箑": {
+  "pinyin": "shà",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -45086,6 +49706,18 @@
   "multi": true,
   "readings": "zhuan/suan/zuan"
  },
+ "篽": {
+  "pinyin": "yù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "篾": {
   "pinyin": "miè",
   "zh_cn": "劈成条的竹片，泛指高粱、芦苇等劈下的茎皮片",
@@ -45206,6 +49838,18 @@
   "multi": false,
   "readings": "suo"
  },
+ "簜": {
+  "pinyin": "dàng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "簝": {
   "pinyin": "liáo",
   "zh_cn": null,
@@ -45325,6 +49969,18 @@
   "note": null,
   "multi": false,
   "readings": "lu"
+ },
+ "簮": {
+  "pinyin": "zān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "簰": {
   "pinyin": "pái",
@@ -45493,6 +50149,18 @@
   "note": "多音字，可讀「fan/pan/bian」，須依文意斷音。",
   "multi": true,
   "readings": "fan/pan/bian"
+ },
+ "籖": {
+  "pinyin": "qiān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "籙": {
   "pinyin": "lù",
@@ -45842,6 +50510,18 @@
   "multi": false,
   "readings": "xu"
  },
+ "糍": {
+  "pinyin": "cí",
+  "zh_cn": "1.见\"糍粑\"﹑\"糍糕\"",
+  "zh_tw": "1.見\"餈粑\"﹑\"餈糕\"",
+  "en": "sticky rice; mochi",
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "糒": {
   "pinyin": "bèi",
   "zh_cn": null,
@@ -46012,6 +50692,18 @@
  },
  "糹": {
   "pinyin": "sī",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "糺": {
+  "pinyin": "jiū",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -46237,6 +50929,18 @@
   "note": null,
   "multi": false,
   "readings": "jin"
+ },
+ "紥": {
+  "pinyin": "zhā",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "紨": {
   "pinyin": "fū",
@@ -46586,6 +51290,18 @@
   "multi": false,
   "readings": "lei"
  },
+ "絭": {
+  "pinyin": "juàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "絯": {
   "pinyin": "gāi",
   "zh_cn": null,
@@ -46730,6 +51446,18 @@
   "multi": false,
   "readings": "ti"
  },
+ "綉": {
+  "pinyin": "xiù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "綌": {
   "pinyin": "xì",
   "zh_cn": "1.粗葛布",
@@ -46765,6 +51493,18 @@
   "note": "多音字，可讀「yan/xian」，須依文意斷音。",
   "multi": true,
   "readings": "yan/xian"
+ },
+ "綘": {
+  "pinyin": "féng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "続": {
   "pinyin": "xù",
@@ -46982,6 +51722,18 @@
   "multi": false,
   "readings": null
  },
+ "緃": {
+  "pinyin": "zōng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "緄": {
   "pinyin": "gǔn",
   "zh_cn": "绳；编织成的带子；绲边儿，沿着衣服等的边缘缝上布条或带子",
@@ -46996,6 +51748,18 @@
  },
  "緅": {
   "pinyin": "zōu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "緆": {
+  "pinyin": "xī",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -47053,6 +51817,18 @@
   "note": null,
   "multi": false,
   "readings": "rui"
+ },
+ "緍": {
+  "pinyin": "mín",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "緎": {
   "pinyin": "yù",
@@ -47198,6 +51974,18 @@
   "multi": false,
   "readings": null
  },
+ "緫": {
+  "pinyin": "zǒng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "緱": {
   "pinyin": "gōu",
   "zh_cn": "缠在刀、剑等柄上的绳索，以免滑手",
@@ -47269,6 +52057,30 @@
   "note": "多音字，可讀「gua/wo」，須依文意斷音。",
   "multi": true,
   "readings": "gua/wo"
+ },
+ "緼": {
+  "pinyin": "yùn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "縁": {
+  "pinyin": "yuán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "縈": {
   "pinyin": "yíng",
@@ -47497,6 +52309,18 @@
   "note": "多音字，可讀「xian/xuan」，須依文意斷音。",
   "multi": true,
   "readings": "xian/xuan"
+ },
+ "縦": {
+  "pinyin": "zòng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "縩": {
   "pinyin": "cài",
@@ -47737,6 +52561,18 @@
   "note": null,
   "multi": false,
   "readings": "qiang"
+ },
+ "繋": {
+  "pinyin": "jì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "繌": {
   "pinyin": "zōng",
@@ -48002,6 +52838,18 @@
   "multi": false,
   "readings": "mo"
  },
+ "纈": {
+  "pinyin": "xiè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "纊": {
   "pinyin": "kuàng",
   "zh_cn": "绵絮",
@@ -48014,6 +52862,18 @@
   "multi": false,
   "readings": "kuang"
  },
+ "纎": {
+  "pinyin": "xiān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "纑": {
   "pinyin": "lú",
   "zh_cn": "1.麻缕。2.练麻。3.指纺棉。4.麻类植物。5.两木间的空处。6.通\"垆\"。一种黑色的土壤。7.古国名。见",
@@ -48025,6 +52885,18 @@
   "note": null,
   "multi": false,
   "readings": "lu"
+ },
+ "纒": {
+  "pinyin": "chán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "纕": {
   "pinyin": "rǎng",
@@ -49394,6 +54266,30 @@
   "multi": false,
   "readings": "gu"
  },
+ "羗": {
+  "pinyin": "qiāng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "羙": {
+  "pinyin": "měi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "羜": {
   "pinyin": "zhù",
   "zh_cn": "1.出生五个月的小羊。亦泛指未长大的小羊",
@@ -49444,6 +54340,18 @@
  },
  "羣": {
   "pinyin": "qún",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "羭": {
+  "pinyin": "yú",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -50078,6 +54986,18 @@
   "multi": false,
   "readings": "ling"
  },
+ "聑": {
+  "pinyin": "tiē",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "聒": {
   "pinyin": "guō",
   "zh_cn": "喧闹，声音嘈杂宾客盈（满）坐，鸣声",
@@ -50092,6 +55012,30 @@
  },
  "聓": {
   "pinyin": "xù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "聡": {
+  "pinyin": "cōng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "聦": {
+  "pinyin": "cōng",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -50126,6 +55070,18 @@
   "multi": false,
   "readings": null
  },
+ "聮": {
+  "pinyin": "lián",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "聱": {
   "pinyin": "áo",
   "zh_cn": "话不顺耳。不接受他人意见",
@@ -50137,6 +55093,18 @@
   "note": null,
   "multi": false,
   "readings": "ao"
+ },
+ "聴": {
+  "pinyin": "tīng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "聵": {
   "pinyin": "kuì",
@@ -50161,6 +55129,18 @@
   "note": null,
   "multi": false,
   "readings": "dan"
+ },
+ "聼": {
+  "pinyin": "tīng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "聿": {
   "pinyin": "yù",
@@ -50438,6 +55418,18 @@
   "multi": true,
   "readings": "pang/pan"
  },
+ "胗": {
+  "pinyin": "zhēn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "胘": {
   "pinyin": "xián",
   "zh_cn": "1.牛胃。2.泛指胃",
@@ -50618,6 +55610,18 @@
   "multi": true,
   "readings": "ge/ga"
  },
+ "胷": {
+  "pinyin": "xiōng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "胹": {
   "pinyin": "ér",
   "zh_cn": "1.烹煮。2.引申为调和",
@@ -50690,6 +55694,18 @@
   "multi": false,
   "readings": "cui"
  },
+ "脇": {
+  "pinyin": "xié",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "脉": {
   "pinyin": "mài",
   "zh_cn": null,
@@ -50707,6 +55723,18 @@
   "zh_cn": "细切，细切的肉飞刀",
   "zh_tw": "細切，細切的肉飛刀",
   "en": "minced meat, minced fish",
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "脕": {
+  "pinyin": "wàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
   "rare": true,
   "is_difficult": true,
   "pinyin_notes": null,
@@ -51146,6 +56174,18 @@
   "multi": false,
   "readings": null
  },
+ "膓": {
+  "pinyin": "cháng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "膞": {
   "pinyin": "zhuān",
   "zh_cn": null,
@@ -51362,6 +56402,18 @@
   "multi": false,
   "readings": "sao"
  },
+ "臋": {
+  "pinyin": "tún",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "臌": {
   "pinyin": "gǔ",
   "zh_cn": null,
@@ -51421,6 +56473,18 @@
   "note": "多音字，可讀「wo/yue」，須依文意斷音。",
   "multi": true,
   "readings": "wo/yue"
+ },
+ "臓": {
+  "pinyin": "zàng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "臕": {
   "pinyin": "biāo",
@@ -51577,6 +56641,18 @@
   "note": null,
   "multi": false,
   "readings": "gao"
+ },
+ "臰": {
+  "pinyin": "chòu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "臲": {
   "pinyin": "niè",
@@ -51745,6 +56821,18 @@
   "note": null,
   "multi": false,
   "readings": "chuan"
+ },
+ "舩": {
+  "pinyin": "chuán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "舫": {
   "pinyin": "fǎng",
@@ -52022,6 +57110,18 @@
   "multi": false,
   "readings": null
  },
+ "艶": {
+  "pinyin": "yàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "艸": {
   "pinyin": "cǎo",
   "zh_cn": null,
@@ -52096,6 +57196,18 @@
  },
  "芈": {
   "pinyin": "mǐ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "芉": {
+  "pinyin": "gǎn",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -52454,6 +57566,18 @@
   "multi": true,
   "readings": "fei/fu"
  },
+ "芿": {
+  "pinyin": "réng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "苌": {
   "pinyin": "cháng",
   "zh_cn": "苌楚，古书上说的一种植物；姓。【苌弘化碧】苌弘的血化作了碧玉。形容精诚。苌弘，又称苌叔，春秋时周大夫。神话传说苌弘被杀后，其血三年化为碧玉。苌（萶cháng",
@@ -52597,6 +57721,18 @@
   "note": "多音字，可讀「zhu/ning」，須依文意斷音。",
   "multi": true,
   "readings": "zhu/ning"
+ },
+ "苪": {
+  "pinyin": "bǐng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "苳": {
   "pinyin": "dōng",
@@ -53498,6 +58634,18 @@
   "multi": true,
   "readings": "mo/mu"
  },
+ "莭": {
+  "pinyin": "jié",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "莳": {
   "pinyin": "shì",
   "zh_cn": null,
@@ -53533,6 +58681,18 @@
   "note": null,
   "multi": false,
   "readings": "ying"
+ },
+ "莾": {
+  "pinyin": "mǎng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "莿": {
   "pinyin": "cì",
@@ -54914,6 +60074,18 @@
   "multi": true,
   "readings": "man/wan"
  },
+ "蔕": {
+  "pinyin": "dì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "蔘": {
   "pinyin": "shēn",
   "zh_cn": null,
@@ -55070,6 +60242,18 @@
   "multi": true,
   "readings": "fan/bo"
  },
+ "蕅": {
+  "pinyin": "ǒu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "蕆": {
   "pinyin": "chǎn",
   "zh_cn": "完成，解决",
@@ -55141,6 +60325,18 @@
   "note": null,
   "multi": false,
   "readings": "jian"
+ },
+ "蕒": {
+  "pinyin": "mǎi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "蕓": {
   "pinyin": "yún",
@@ -55322,6 +60518,18 @@
   "multi": false,
   "readings": null
  },
+ "蕹": {
+  "pinyin": "wèng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "薀": {
   "pinyin": "yùn",
   "zh_cn": "同蕰”",
@@ -55454,6 +60662,18 @@
   "multi": false,
   "readings": "yi"
  },
+ "薐": {
+  "pinyin": "léng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "薔": {
   "pinyin": "qiáng",
   "zh_cn": "1.水蓼",
@@ -55564,6 +60784,18 @@
  },
  "薫": {
   "pinyin": "xūn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "薬": {
+  "pinyin": "yào",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -55922,6 +61154,30 @@
   "multi": false,
   "readings": "tuo"
  },
+ "蘁": {
+  "pinyin": "wù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "蘂": {
+  "pinyin": "ruǐ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "蘄": {
   "pinyin": "qí",
   "zh_cn": null,
@@ -55993,6 +61249,18 @@
   "note": null,
   "multi": false,
   "readings": "rang"
+ },
+ "蘙": {
+  "pinyin": "yì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "蘚": {
   "pinyin": "xiǎn",
@@ -56474,6 +61742,18 @@
   "multi": false,
   "readings": "pi"
  },
+ "蚏": {
+  "pinyin": "yuè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "蚑": {
   "pinyin": "qí",
   "zh_cn": null,
@@ -56594,6 +61874,18 @@
   "multi": false,
   "readings": "dou"
  },
+ "蚫": {
+  "pinyin": "bào",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "蚯": {
   "pinyin": "qiū",
   "zh_cn": null,
@@ -56678,8 +61970,32 @@
   "multi": false,
   "readings": null
  },
+ "蚷": {
+  "pinyin": "jù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "蚺": {
   "pinyin": "rán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "蚼": {
+  "pinyin": "gǒu",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -56966,6 +62282,18 @@
   "multi": false,
   "readings": "fu"
  },
+ "蜆": {
+  "pinyin": "xiǎn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "蜇": {
   "pinyin": "zhē",
   "zh_cn": "蜂、蝎等有毒腺的虫子刺人或牲畜被蜂；某些东西刺激皮肤或器官，致使感到不适烟雾",
@@ -57001,6 +62329,18 @@
   "note": null,
   "multi": false,
   "readings": "fu"
+ },
+ "蜊": {
+  "pinyin": "lí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "蜋": {
   "pinyin": "láng",
@@ -57073,6 +62413,18 @@
   "note": null,
   "multi": false,
   "readings": "fei"
+ },
+ "蜞": {
+  "pinyin": "qí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "蜡": {
   "pinyin": "là",
@@ -57373,6 +62725,18 @@
   "note": null,
   "multi": false,
   "readings": "fu"
+ },
+ "蝢": {
+  "pinyin": "xié",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "蝣": {
   "pinyin": "yóu",
@@ -57866,6 +63230,18 @@
   "multi": false,
   "readings": "xi"
  },
+ "蟑": {
+  "pinyin": "zhāng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "蟒": {
   "pinyin": "mǎng",
   "zh_cn": "1.蚱蜢。参见\"?蟒\"",
@@ -58262,6 +63638,18 @@
   "multi": false,
   "readings": "lu"
  },
+ "蠧": {
+  "pinyin": "dù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "蠨": {
   "pinyin": "xiāo",
   "zh_cn": null,
@@ -58298,6 +63686,18 @@
   "multi": false,
   "readings": "feng"
  },
+ "蠯": {
+  "pinyin": "pí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "蠲": {
   "pinyin": "juān",
   "zh_cn": "除去，免除；清洁；明显，显示",
@@ -58321,6 +63721,18 @@
   "note": null,
   "multi": false,
   "readings": "qu"
+ },
+ "蠸": {
+  "pinyin": "quán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "蠹": {
   "pinyin": "dù",
@@ -58478,6 +63890,18 @@
   "multi": false,
   "readings": null
  },
+ "衘": {
+  "pinyin": "xián",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "衞": {
   "pinyin": "wèi",
   "zh_cn": "义未详",
@@ -58621,6 +64045,18 @@
   "note": null,
   "multi": false,
   "readings": "zhi"
+ },
+ "衺": {
+  "pinyin": "xié",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "衽": {
   "pinyin": "rèn",
@@ -59282,6 +64718,30 @@
   "multi": false,
   "readings": "ju"
  },
+ "褁": {
+  "pinyin": "guǒ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "褉": {
+  "pinyin": "xiè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "褊": {
   "pinyin": "biǎn",
   "zh_cn": "狭小；狭隘。【褊急】气量狭小，性情急躁。【褊狭】狭小土地",
@@ -59678,6 +65138,18 @@
   "multi": false,
   "readings": null
  },
+ "襕": {
+  "pinyin": "lán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "襘": {
   "pinyin": "guì",
   "zh_cn": "1.古代衣领交叉之处。2.泛指衣服上会合交结之处",
@@ -59918,6 +65390,18 @@
   "multi": false,
   "readings": "he"
  },
+ "覊": {
+  "pinyin": "jī",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "見": {
   "pinyin": "jiàn",
   "zh_cn": "①看见、看到；②会见、拜见；③见解、看法（远见）；④显现、出现，同'现'；⑤用在'看、听、闻'后表效果（听得见）。又读 xiàn（同'现'）。",
@@ -59929,6 +65413,18 @@
   "note": "多音字，可讀「jian/xian」，須依文意斷音。",
   "multi": true,
   "readings": "jian/xian"
+ },
+ "覔": {
+  "pinyin": "mì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "覘": {
   "pinyin": "chān",
@@ -59989,6 +65485,18 @@
   "note": null,
   "multi": false,
   "readings": "yu"
+ },
+ "覧": {
+  "pinyin": "lǎn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "覩": {
   "pinyin": "dǔ",
@@ -60073,6 +65581,18 @@
   "note": null,
   "multi": false,
   "readings": "qu"
+ },
+ "覸": {
+  "pinyin": "jiàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "覺": {
   "pinyin": "jué",
@@ -60374,6 +65894,18 @@
   "multi": false,
   "readings": "gong"
  },
+ "觧": {
+  "pinyin": "jiě",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "觩": {
   "pinyin": "qiú",
   "zh_cn": "1.亦作\"觓\"。兽角上曲貌。2.弓张紧貌",
@@ -60385,6 +65917,18 @@
   "note": null,
   "multi": false,
   "readings": "qiu"
+ },
+ "觪": {
+  "pinyin": "xīng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "觫": {
   "pinyin": "sù",
@@ -61010,6 +66554,18 @@
   "multi": true,
   "readings": "ei/xi"
  },
+ "誔": {
+  "pinyin": "tǐng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "誖": {
   "pinyin": "bèi",
   "zh_cn": null,
@@ -61069,6 +66625,18 @@
   "note": "多音字，可讀「shuo/shui/yue」，須依文意斷音。",
   "multi": true,
   "readings": "shuo/shui/yue"
+ },
+ "誫": {
+  "pinyin": "zhèn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "説": {
   "pinyin": "yuè",
@@ -61178,6 +66746,18 @@
   "multi": false,
   "readings": "ji"
  },
+ "諈": {
+  "pinyin": "zhuì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "諉": {
   "pinyin": "wěi",
   "zh_cn": "通\"委\"。推卸不要推",
@@ -61189,6 +66769,18 @@
   "note": null,
   "multi": false,
   "readings": "wei"
+ },
+ "諌": {
+  "pinyin": "dǒng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "諍": {
   "pinyin": "zhèng",
@@ -61418,6 +67010,18 @@
   "multi": false,
   "readings": "an"
  },
+ "諴": {
+  "pinyin": "xián",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "諶": {
   "pinyin": "chén",
   "zh_cn": "诚然，的确；信，相信",
@@ -61465,6 +67069,18 @@
   "note": null,
   "multi": false,
   "readings": "jian"
+ },
+ "謍": {
+  "pinyin": "yíng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "謏": {
   "pinyin": "xiǎo",
@@ -61528,6 +67144,30 @@
  },
  "謞": {
   "pinyin": "hè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "謟": {
+  "pinyin": "tāo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "謡": {
+  "pinyin": "yáo",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -61766,6 +67406,18 @@
   "multi": false,
   "readings": "qiao"
  },
+ "譛": {
+  "pinyin": "jiàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "譟": {
   "pinyin": "zào",
   "zh_cn": null,
@@ -61814,6 +67466,18 @@
   "multi": false,
   "readings": "zhan"
  },
+ "譲": {
+  "pinyin": "ràng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "譺": {
   "pinyin": "ài",
   "zh_cn": null,
@@ -61837,6 +67501,30 @@
   "note": null,
   "multi": false,
   "readings": "jian"
+ },
+ "讁": {
+  "pinyin": "zhé",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "讃": {
+  "pinyin": "zàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "讆": {
   "pinyin": "wèi",
@@ -63146,6 +68834,18 @@
   "multi": false,
   "readings": "chu"
  },
+ "貟": {
+  "pinyin": "yùn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "貣": {
   "pinyin": "dài",
   "zh_cn": "1.求乞。2.借贷。3.贷免;宽恕。4.通\"忒\"。变更;差错",
@@ -63337,6 +69037,18 @@
   "note": null,
   "multi": false,
   "readings": "lai"
+ },
+ "賛": {
+  "pinyin": "zàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "賡": {
   "pinyin": "gēng",
@@ -63854,6 +69566,18 @@
   "multi": false,
   "readings": "zhe"
  },
+ "赱": {
+  "pinyin": "zǒu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "赳": {
   "pinyin": "jiū",
   "zh_cn": "1.见\"赳螑\"",
@@ -63901,6 +69625,18 @@
   "note": "多音字，可讀「qu/cu」，須依文意斷音。",
   "multi": true,
   "readings": "qu/cu"
+ },
+ "趍": {
+  "pinyin": "qū",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "趎": {
   "pinyin": "chú",
@@ -64538,6 +70274,18 @@
   "multi": false,
   "readings": "tu"
  },
+ "踁": {
+  "pinyin": "jìng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "踄": {
   "pinyin": "bù",
   "zh_cn": null,
@@ -64564,6 +70312,18 @@
  },
  "踆": {
   "pinyin": "cūn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "踈": {
+  "pinyin": "shū",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -65234,6 +70994,18 @@
   "multi": false,
   "readings": "cu"
  },
+ "蹵": {
+  "pinyin": "cù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "蹶": {
   "pinyin": "juě",
   "zh_cn": "倒下，跌倒。〈引〉受挫折，失败一；踩，踏；竭尽，枯竭不",
@@ -65582,6 +71354,18 @@
   "multi": false,
   "readings": null
  },
+ "躰": {
+  "pinyin": "tǐ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "躱": {
   "pinyin": "duǒ",
   "zh_cn": null,
@@ -65690,6 +71474,18 @@
   "multi": false,
   "readings": "qu"
  },
+ "軦": {
+  "pinyin": "kuàng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "軧": {
   "pinyin": "dǐ",
   "zh_cn": null,
@@ -65725,6 +71521,18 @@
   "note": null,
   "multi": false,
   "readings": "zhen"
+ },
+ "軰": {
+  "pinyin": "bèi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "軱": {
   "pinyin": "gū",
@@ -66026,6 +71834,18 @@
   "multi": false,
   "readings": "qian"
  },
+ "輥": {
+  "pinyin": "gǔn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "輦": {
   "pinyin": "niǎn",
   "zh_cn": "用人力推拉着走的车子。秦汉以后专指帝王的车子；乘坐",
@@ -66157,6 +71977,18 @@
   "note": null,
   "multi": false,
   "readings": "fu"
+ },
+ "輼": {
+  "pinyin": "wēn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "轀": {
   "pinyin": "wēn",
@@ -66518,6 +72350,18 @@
   "multi": false,
   "readings": null
  },
+ "辀": {
+  "pinyin": "zhōu",
+  "zh_cn": "车辕",
+  "zh_tw": "車轅",
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "辂": {
   "pinyin": "lù",
   "zh_cn": "〈古〉车前用来牵引车子的横木；〈古〉一种大车玉",
@@ -66613,6 +72457,18 @@
   "note": "多音字，可讀「pi/bi」，須依文意斷音。",
   "multi": true,
   "readings": "pi/bi"
+ },
+ "辶": {
+  "pinyin": "chuò",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "辿": {
   "pinyin": "chān",
@@ -66806,6 +72662,18 @@
   "multi": false,
   "readings": "ze"
  },
+ "迯": {
+  "pinyin": "táo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "迳": {
   "pinyin": "jìng",
   "zh_cn": null,
@@ -66890,6 +72758,18 @@
   "multi": false,
   "readings": "hou"
  },
+ "逈": {
+  "pinyin": "jiǒng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "逋": {
   "pinyin": "bū",
   "zh_cn": "逃；逃亡；拖欠",
@@ -66937,6 +72817,18 @@
   "note": null,
   "multi": false,
   "readings": "qiu"
+ },
+ "逓": {
+  "pinyin": "dì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "逖": {
   "pinyin": "tì",
@@ -67058,6 +72950,18 @@
   "multi": false,
   "readings": "ti"
  },
+ "逹": {
+  "pinyin": "dá",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "逺": {
   "pinyin": "yuǎn",
   "zh_cn": null,
@@ -67096,6 +73000,18 @@
  },
  "遈": {
   "pinyin": "shí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "遌": {
+  "pinyin": "è",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -67189,6 +73105,30 @@
   "note": null,
   "multi": false,
   "readings": "ta"
+ },
+ "遟": {
+  "pinyin": "chí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "遡": {
+  "pinyin": "sù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "遢": {
   "pinyin": "tā",
@@ -67393,6 +73333,18 @@
   "note": null,
   "multi": false,
   "readings": "miao"
+ },
+ "邉": {
+  "pinyin": "biān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "邋": {
   "pinyin": "lā",
@@ -67754,6 +73706,30 @@
   "multi": false,
   "readings": "hou"
  },
+ "郉": {
+  "pinyin": "xíng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "郍": {
+  "pinyin": "nà",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "郏": {
   "pinyin": "jiá",
   "zh_cn": "郏县，在河南省",
@@ -67982,6 +73958,18 @@
   "multi": false,
   "readings": null
  },
+ "郷": {
+  "pinyin": "xiāng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "都": {
   "pinyin": "dōu",
   "zh_cn": "①副词，表总括：全、尽（都来）；②表强调语气（都…了）。又读 dū：都市、国都、全（大都）。",
@@ -68077,6 +74065,18 @@
   "note": null,
   "multi": false,
   "readings": "yun"
+ },
+ "鄈": {
+  "pinyin": "kuí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "鄊": {
   "pinyin": "xiāng",
@@ -68317,6 +74317,18 @@
   "note": null,
   "multi": false,
   "readings": "man"
+ },
+ "鄥": {
+  "pinyin": "qiāo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "鄦": {
   "pinyin": "xǔ",
@@ -68846,6 +74858,18 @@
   "multi": false,
   "readings": "ti"
  },
+ "醎": {
+  "pinyin": "xián",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "醐": {
   "pinyin": "hú",
   "zh_cn": null,
@@ -69025,6 +75049,18 @@
   "note": null,
   "multi": false,
   "readings": "yi"
+ },
+ "醸": {
+  "pinyin": "niàng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "醹": {
   "pinyin": "rú",
@@ -69362,6 +75398,18 @@
   "multi": false,
   "readings": "qian"
  },
+ "鈒": {
+  "pinyin": "sà",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鈚": {
   "pinyin": "pī",
   "zh_cn": null,
@@ -69481,6 +75529,18 @@
   "note": null,
   "multi": false,
   "readings": "dian"
+ },
+ "鉄": {
+  "pinyin": "tiě",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "鉆": {
   "pinyin": "zuān",
@@ -70142,6 +76202,30 @@
   "multi": true,
   "readings": "wu/hua"
  },
+ "鋙": {
+  "pinyin": "wú",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "鋟": {
+  "pinyin": "qǐn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鋠": {
   "pinyin": "shèn",
   "zh_cn": "1.古代打击乐器名",
@@ -70153,6 +76237,30 @@
   "note": null,
   "multi": false,
   "readings": "shen"
+ },
+ "鋩": {
+  "pinyin": "máng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "鋭": {
+  "pinyin": "ruì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "鋮": {
   "pinyin": "chéng",
@@ -70225,6 +76333,18 @@
   "note": null,
   "multi": false,
   "readings": "juan"
+ },
+ "錊": {
+  "pinyin": "zuì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "錕": {
   "pinyin": "kūn",
@@ -70334,6 +76454,18 @@
   "multi": false,
   "readings": "ji"
  },
+ "錬": {
+  "pinyin": "liàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "錮": {
   "pinyin": "gù",
   "zh_cn": "将金属熔化，浇灌阻塞空隙",
@@ -70345,6 +76477,18 @@
   "note": null,
   "multi": false,
   "readings": "gu"
+ },
+ "録": {
+  "pinyin": "lù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "錹": {
   "pinyin": "kěn",
@@ -70538,6 +76682,18 @@
   "multi": false,
   "readings": null
  },
+ "鎌": {
+  "pinyin": "lián",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鎏": {
   "pinyin": "liú",
   "zh_cn": "成色好的金子",
@@ -70658,6 +76814,18 @@
   "multi": true,
   "readings": "gao/hao"
  },
+ "鎭": {
+  "pinyin": "zhèn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鎯": {
   "pinyin": "láng",
   "zh_cn": null,
@@ -70693,6 +76861,30 @@
   "note": null,
   "multi": false,
   "readings": "juan"
+ },
+ "鎻": {
+  "pinyin": "suǒ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "鏁": {
+  "pinyin": "suǒ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "鏃": {
   "pinyin": "zú",
@@ -70934,6 +77126,18 @@
   "multi": false,
   "readings": null
  },
+ "鏺": {
+  "pinyin": "pō",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鏽": {
   "pinyin": "xiù",
   "zh_cn": null,
@@ -71054,6 +77258,18 @@
   "multi": false,
   "readings": "jue"
  },
+ "鐡": {
+  "pinyin": "tiě",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鐧": {
   "pinyin": "jiǎn",
   "zh_cn": "〈古〉兵器之一，金属制成，形状像鞭，有棱",
@@ -71173,6 +77389,18 @@
   "note": null,
   "multi": false,
   "readings": "zhi"
+ },
+ "鑚": {
+  "pinyin": "zuān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "鑞": {
   "pinyin": "là",
@@ -71858,11 +78086,35 @@
   "multi": false,
   "readings": "deng"
  },
+ "镮": {
+  "pinyin": "huán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "镯": {
   "pinyin": "zhuó",
   "zh_cn": "套在手腕、手臂或脚胫上的一种圆环形装饰品手；〈古〉军中的一种乐器",
   "zh_tw": "套在手腕、手臂或腳脛上的一種圓環形裝飾品手；〈古〉軍中的一種樂器",
   "en": "bracelet, armband; small bell",
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "镴": {
+  "pinyin": "là",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
   "rare": true,
   "is_difficult": true,
   "pinyin_notes": null,
@@ -72014,6 +78266,18 @@
   "multi": false,
   "readings": "bi"
  },
+ "閠": {
+  "pinyin": "rùn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "閡": {
   "pinyin": "hé",
   "zh_cn": "〔",
@@ -72025,6 +78289,18 @@
   "note": null,
   "multi": false,
   "readings": "he"
+ },
+ "関": {
+  "pinyin": "guān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "閤": {
   "pinyin": "hé",
@@ -72049,6 +78325,18 @@
   "note": "多音字，可讀「hong/xiang」，須依文意斷音。",
   "multi": true,
   "readings": "hong/xiang"
+ },
+ "閪": {
+  "pinyin": "sē",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "閫": {
   "pinyin": "kǔn",
@@ -72314,6 +78602,18 @@
   "multi": false,
   "readings": null
  },
+ "闘": {
+  "pinyin": "dòu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "闚": {
   "pinyin": "kuī",
   "zh_cn": null,
@@ -72349,6 +78649,30 @@
   "note": "多音字，可讀「xi/se/ta」，須依文意斷音。",
   "multi": true,
   "readings": "xi/se/ta"
+ },
+ "闠": {
+  "pinyin": "huì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "闤": {
+  "pinyin": "huán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "闥": {
   "pinyin": "tà",
@@ -72433,6 +78757,18 @@
   "note": null,
   "multi": false,
   "readings": "lü"
+ },
+ "闿": {
+  "pinyin": "kǎi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "阃": {
   "pinyin": "kǔn",
@@ -72547,6 +78883,18 @@
   "zh_cn": "寂静",
   "zh_tw": "寂靜",
   "en": "alone; quiet, still",
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "阓": {
+  "pinyin": "huì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
   "rare": true,
   "is_difficult": true,
   "pinyin_notes": null,
@@ -72830,6 +79178,18 @@
   "multi": true,
   "readings": "jiang/xiang"
  },
+ "陑": {
+  "pinyin": "ér",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "陒": {
   "pinyin": "guǐ",
   "zh_cn": "1.毁;败坏",
@@ -72853,6 +79213,18 @@
   "note": null,
   "multi": false,
   "readings": "gai"
+ },
+ "陗": {
+  "pinyin": "qiào",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "陘": {
   "pinyin": "xíng",
@@ -73213,6 +79585,18 @@
   "note": "多音字，可讀「hui/duo」，須依文意斷音。",
   "multi": true,
   "readings": "hui/duo"
+ },
+ "隷": {
+  "pinyin": "lì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "隸": {
   "pinyin": "lì",
@@ -73706,6 +80090,18 @@
   "multi": false,
   "readings": null
  },
+ "靁": {
+  "pinyin": "léi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "靂": {
   "pinyin": "lì",
   "zh_cn": null,
@@ -73754,6 +80150,18 @@
   "multi": false,
   "readings": "ai"
  },
+ "靑": {
+  "pinyin": "qīng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "靓": {
   "pinyin": "liàng",
   "zh_cn": "〈方〉好看，漂亮",
@@ -73789,6 +80197,18 @@
   "note": "多音字，可讀「jing/liang」，須依文意斷音。",
   "multi": true,
   "readings": "jing/liang"
+ },
+ "靣": {
+  "pinyin": "miàn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "靦": {
   "pinyin": "miǎn",
@@ -74582,6 +81002,18 @@
   "multi": false,
   "readings": "xu"
  },
+ "頋": {
+  "pinyin": "ě",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "頍": {
   "pinyin": "kuǐ",
   "zh_cn": null,
@@ -74702,6 +81134,18 @@
   "multi": false,
   "readings": "jie"
  },
+ "頥": {
+  "pinyin": "yí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "頦": {
   "pinyin": "kē",
   "zh_cn": "1.鸟名用字",
@@ -74810,6 +81254,18 @@
   "multi": false,
   "readings": "han"
  },
+ "頺": {
+  "pinyin": "tuí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "頻": {
   "pinyin": "bīn",
   "zh_cn": "1.水边",
@@ -74824,6 +81280,18 @@
  },
  "頼": {
   "pinyin": "lài",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "頽": {
+  "pinyin": "tuí",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -74989,6 +81457,18 @@
   "note": null,
   "multi": false,
   "readings": "sang"
+ },
+ "顚": {
+  "pinyin": "diān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "顝": {
   "pinyin": "kuī",
@@ -75422,8 +81902,32 @@
   "multi": false,
   "readings": null
  },
+ "飊": {
+  "pinyin": "biāo",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "飏": {
   "pinyin": "yáng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "飐": {
+  "pinyin": "zhǎn",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -75484,6 +81988,18 @@
  },
  "飠": {
   "pinyin": "shí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "飡": {
+  "pinyin": "cān",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -75589,6 +82105,18 @@
   "note": null,
   "multi": false,
   "readings": "chi"
+ },
+ "飮": {
+  "pinyin": "yǐn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "飰": {
   "pinyin": "fàn",
@@ -75829,6 +82357,18 @@
   "note": null,
   "multi": false,
   "readings": "chuo"
+ },
+ "餣": {
+  "pinyin": "yè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "餤": {
   "pinyin": "dàn",
@@ -76238,6 +82778,18 @@
   "multi": false,
   "readings": null
  },
+ "饤": {
+  "pinyin": "dìng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "饨": {
   "pinyin": "tún",
   "zh_cn": null,
@@ -76298,6 +82850,18 @@
   "multi": false,
   "readings": "chi"
  },
+ "饳": {
+  "pinyin": "duò",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "饴": {
   "pinyin": "yí",
   "zh_cn": "用谷、麦芽等制成的糖浆，糖稀；某种糖果高粱",
@@ -76324,6 +82888,18 @@
  },
  "馀": {
   "pinyin": "yú",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "馉": {
+  "pinyin": "gǔ",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -76525,6 +83101,18 @@
   "note": "多音字，可讀「kuai/jue」，須依文意斷音。",
   "multi": true,
   "readings": "kuai/jue"
+ },
+ "駈": {
+  "pinyin": "qū",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "駉": {
   "pinyin": "jiōng",
@@ -76910,6 +83498,18 @@
   "multi": false,
   "readings": "zhui"
  },
+ "騈": {
+  "pinyin": "pián",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "騉": {
   "pinyin": "kūn",
   "zh_cn": null,
@@ -77032,6 +83632,18 @@
  },
  "騜": {
   "pinyin": "huáng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "騞": {
+  "pinyin": "huō",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -77606,6 +84218,18 @@
   "multi": false,
   "readings": null
  },
+ "骎": {
+  "pinyin": "qīn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "骐": {
   "pinyin": "qí",
   "zh_cn": "有青黑色纹理的马；青黑色的",
@@ -77647,6 +84271,18 @@
   "zh_cn": "公马；定评",
   "zh_tw": "公馬；定評",
   "en": "stallion; to determine; to promote",
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "骙": {
+  "pinyin": "kuí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
   "rare": true,
   "is_difficult": true,
   "pinyin_notes": null,
@@ -77727,6 +84363,18 @@
   "readings": "ji"
  },
  "骩": {
+  "pinyin": "wěi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "骪": {
   "pinyin": "wěi",
   "zh_cn": null,
   "zh_tw": null,
@@ -78037,6 +84685,18 @@
   "note": null,
   "multi": false,
   "readings": "biao"
+ },
+ "髠": {
+  "pinyin": "kūn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "髡": {
   "pinyin": "kūn",
@@ -78614,6 +85274,18 @@
   "multi": false,
   "readings": "chang"
  },
+ "鬰": {
+  "pinyin": "yù",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鬲": {
   "pinyin": "gé",
   "zh_cn": "〈古〉鬲津河，即今漳卫新河。它是河北、山东两省的界河。旧称四女寺减河，但故道在西汉时已淤塞，现今是新道",
@@ -78841,6 +85513,18 @@
   "note": null,
   "multi": false,
   "readings": "tuo"
+ },
+ "魧": {
+  "pinyin": "háng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "魨": {
   "pinyin": "tún",
@@ -79214,6 +85898,18 @@
   "multi": false,
   "readings": "xiang"
  },
+ "鯚": {
+  "pinyin": "jì",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鯢": {
   "pinyin": "ní",
   "zh_cn": "受保护的两栖动物。头扁平，眼小口大，四肢短，尾巴扁。有大",
@@ -79310,6 +86006,18 @@
   "multi": false,
   "readings": "ji"
  },
+ "鯾": {
+  "pinyin": "biān",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鯿": {
   "pinyin": "biān",
   "zh_cn": "1.鱼名。鳊鱼。古亦称鲂。鱼纲鲤科。身体侧扁，头小而尖，鳞较细。生活在淡水中。肉味鲜美",
@@ -79333,6 +86041,18 @@
   "note": null,
   "multi": false,
   "readings": "yu"
+ },
+ "鰇": {
+  "pinyin": "róu",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "鰉": {
   "pinyin": "huáng",
@@ -79429,6 +86149,18 @@
   "note": null,
   "multi": false,
   "readings": "xia"
+ },
+ "鰙": {
+  "pinyin": "ruò",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "鰜": {
   "pinyin": "jiān",
@@ -79573,6 +86305,18 @@
   "note": null,
   "multi": false,
   "readings": "ao"
+ },
+ "鰳": {
+  "pinyin": "lè",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "鰷": {
   "pinyin": "tiáo",
@@ -79742,6 +86486,18 @@
   "multi": false,
   "readings": "zhan"
  },
+ "鱦": {
+  "pinyin": "yìng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鱧": {
   "pinyin": "lǐ",
   "zh_cn": "鱼名。乌鳢又叫\"乌鱼\"、\"黑鱼\"。头扁，体圆筒形，背鳍和臀鳍很长，生活在淡水中，捕食小鱼、蛙等。可养殖，供食用。但性凶猛，桅其它鱼类",
@@ -79862,6 +86618,18 @@
   "multi": false,
   "readings": null
  },
+ "鲊": {
+  "pinyin": "zhǎ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鲋": {
   "pinyin": "fù",
   "zh_cn": "古书上指鲫鱼",
@@ -79934,6 +86702,18 @@
   "multi": false,
   "readings": null
  },
+ "鲯": {
+  "pinyin": "qí",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鲲": {
   "pinyin": "kūn",
   "zh_cn": "〈古〉传说中的一种大鱼",
@@ -79951,6 +86731,18 @@
   "zh_cn": "受保护的两栖动物。头扁平，眼小口大，四肢短，尾巴扁。有大",
   "zh_tw": "受保護的兩棲動物。頭扁平，眼小口大，四肢短，尾巴扁。有大",
   "en": "salamander; Cryptobranchus japonicus",
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "鲿": {
+  "pinyin": "cháng",
+  "zh_cn": "鱼名。毛鲿鱼又叫\"大鱼\"。石首鱼的一种。体侧扁，长一米余。头大，眼和口都小。生活在海里。可供食用",
+  "zh_tw": "魚名。毛鱨魚又叫\"大魚\"。石首魚的一種。體側扁，長一米餘。頭大，眼和口都小。生活在海里。可供食用",
+  "en": null,
   "rare": true,
   "is_difficult": true,
   "pinyin_notes": null,
@@ -80023,6 +86815,18 @@
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "鳣": {
+  "pinyin": "zhān",
+  "zh_cn": "〈古〉；指鳇鱼；同\"鳝\"",
+  "zh_tw": "〈古〉；指鰉魚；同\"鱔\"",
+  "en": "sturgeon",
   "rare": true,
   "is_difficult": true,
   "pinyin_notes": null,
@@ -80413,6 +87217,18 @@
   "note": null,
   "multi": false,
   "readings": "xiu"
+ },
+ "鵉": {
+  "pinyin": "luán",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "鵊": {
   "pinyin": "jiá",
@@ -81386,6 +88202,18 @@
   "multi": false,
   "readings": null
  },
+ "鸰": {
+  "pinyin": "líng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鸱": {
   "pinyin": "chī",
   "zh_cn": "一种凶猛的鸟，又叫\"鹞鹰\"，已少见，要保护，禁止猎杀；〈古〉指鹪鹩，一种小鸟；猫头鹰一类的鸟",
@@ -81518,11 +88346,35 @@
   "multi": false,
   "readings": "wu"
  },
+ "鹍": {
+  "pinyin": "kūn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": "a bird resembling a crane",
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鹑": {
   "pinyin": "chún",
   "zh_cn": null,
   "zh_tw": null,
   "en": "quail; Turnix species (various)",
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "鹖": {
+  "pinyin": "hé",
+  "zh_cn": "1.鸟名。即鹖鸡。2.鹖之尾羽。3.指鹖冠",
+  "zh_tw": "1.鳥名。即鶡雞。2.鶡之尾羽。3.指鶡冠",
+  "en": null,
   "rare": true,
   "is_difficult": true,
   "pinyin_notes": null,
@@ -81580,6 +88432,18 @@
  },
  "鹠": {
   "pinyin": "liú",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
+ "鹡": {
+  "pinyin": "jí",
   "zh_cn": null,
   "zh_tw": null,
   "en": null,
@@ -81709,6 +88573,18 @@
   "note": null,
   "multi": false,
   "readings": "cuo"
+ },
+ "鹻": {
+  "pinyin": "jiǎn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "鹼": {
   "pinyin": "jiǎn",
@@ -81998,6 +88874,18 @@
   "multi": false,
   "readings": "mian"
  },
+ "麯": {
+  "pinyin": "qū",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "麰": {
   "pinyin": "móu",
   "zh_cn": null,
@@ -82057,6 +88945,18 @@
   "note": null,
   "multi": false,
   "readings": "hui"
+ },
+ "黂": {
+  "pinyin": "fén",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "黈": {
   "pinyin": "tǒu",
@@ -82130,6 +89030,18 @@
   "multi": false,
   "readings": "xi"
  },
+ "黙": {
+  "pinyin": "mò",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "黛": {
   "pinyin": "dài",
   "zh_cn": "①古代女子画眉用的青黑色颜料；②青黑色（黛色、远山如黛）。",
@@ -82189,6 +89101,18 @@
   "note": null,
   "multi": false,
   "readings": "xia"
+ },
+ "黣": {
+  "pinyin": "měi",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "黥": {
   "pinyin": "qíng",
@@ -82478,6 +89402,18 @@
   "multi": false,
   "readings": "zi"
  },
+ "鼔": {
+  "pinyin": "gǔ",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "鼗": {
   "pinyin": "táo",
   "zh_cn": "拨浪鼓，一种长柄的摇鼓",
@@ -82501,6 +89437,18 @@
   "note": null,
   "multi": false,
   "readings": "pi"
+ },
+ "鼚": {
+  "pinyin": "chāng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "鼛": {
   "pinyin": "gāo",
@@ -82778,6 +89726,18 @@
   "multi": false,
   "readings": null
  },
+ "齓": {
+  "pinyin": "chèn",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "齔": {
   "pinyin": "chèn",
   "zh_cn": null,
@@ -82994,6 +89954,18 @@
   "multi": false,
   "readings": null
  },
+ "龎": {
+  "pinyin": "páng",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "龕": {
   "pinyin": "kān",
   "zh_cn": "迷信的人供奉佛像、神像的石室或小阁子神；佛塔；〈古〉通\"戡\"。平定",
@@ -83066,6 +90038,18 @@
   "multi": false,
   "readings": "yue"
  },
+ "龢": {
+  "pinyin": "hé",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
+ },
  "龤": {
   "pinyin": "xié",
   "zh_cn": "1.调和。2.赓和",
@@ -83077,6 +90061,18 @@
   "note": null,
   "multi": false,
   "readings": "xie"
+ },
+ "龯": {
+  "pinyin": "龯",
+  "zh_cn": null,
+  "zh_tw": null,
+  "en": null,
+  "rare": true,
+  "is_difficult": true,
+  "pinyin_notes": null,
+  "note": null,
+  "multi": false,
+  "readings": null
  },
  "豈": {
   "pinyin": "豈",

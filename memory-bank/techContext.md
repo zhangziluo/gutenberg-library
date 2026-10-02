@@ -112,6 +112,26 @@
 - `wikisource_import.py`：`novels_json/{书名}.json` → `data/books/{key}.json` + `library-index.json`
   （`source=维基文库`）+ `merge_to_site()`/`slim_books_index()`；`--key/--author/--category/--subcategory/
   --label/--no-merge/--force`。
+- `build_wikisource_index.py` + `wikisource_index.{md,json,tsv}`（**新增 2026-10-02**）：
+  **维基文库中文电子书索引**（1642 种：中土 1083 / 域外漢籍 559；已入库 14；推荐 ⭐132）。
+  数据源为 zh.wikisource 的 四部/四庫全書/十三經 等分类快照 + `prop=info`（长度）与
+  `prop=links&plnamespace=102`（作者，>5 位视为 navbox 污染弃用）。采集/入库说明见 `wikisource_index_guide.md`。
+  `--from-json` 只按现有 json 重建目录；**元数据缺口回填** + **`in_library` 自动刷新**；
+  同时生成 `网站/assets/data/wikisource-pending.json`（书库页「待入库」预览数据）。
+- 维基文库批量流水线（**新增 2026-10-02**）：
+  - `wikisource_index_backfill.py`：补抓缺失页面元数据（断点续跑；`.ws_meta_cache/` 已 gitignore）。
+    实测长度覆盖 1341→1590、作者 893→937（301→剩 52）。
+  - `wikisource_batch.py`：`list/fetch/commands/ingest/merge`；候选＝推荐 ⭐ 未入库（122 本）；
+    断点续跑（`_ws_fetch/*.tsv`）；自动用 `.venv` 解释器跑 toolkit；`ingest` = 逐本入库
+    （智能分章 + 生成注释）→ `fill_glosses.py` 释义回填 → `merge_to_site`（可选 build）。
+  - `wikisource_recommended.sh`：上面三步的一条龙。
+  - `wikisource_import.py` 新增 `--title`（去版本后缀）/`--split auto|none`（智能分章）/
+    `--label`（缺省按分章结果判定）/`--annotate`（默认开，复用 `annotate_book`）。
+  - `wikisource_toolkit.py`：`_sort_key` 前置篇（序/凡例/楔子）恒在前 + 中文数字按数值排；
+    `get_subpages` 经 `existing_titles()` **过滤红链**（避免 missingtitle 空壳）。
+  - `gutenberg_import.merge_pending()` 兼容 list 字表（原 dict-only 会崩）。
+  - 书库页「待入库」预览：`library.html/js/library.js/css/library.css` 范围切换 + 「只看推荐 ⭐」；
+    测试 `tests/library/library-pending-test.js`（jsdom，12 项）。
 - `网站/{library.html,css/library.css,js/library.js}`：封面网格书库页（前端分页 20/页 + 分类 Tab + 排序 + 搜索，
   `?cat/?sort/?q/?page`）；`book.html` + `js/book.js` 详情页 hero。
 - `books-data.json` 生成器（`merge_to_site`）新增：`source_label/source_url_from/license_from/highlights_for/

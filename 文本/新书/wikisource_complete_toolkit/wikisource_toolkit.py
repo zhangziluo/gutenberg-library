@@ -68,6 +68,31 @@ def api_get(params, session=None):
 
 
 # ===================== 页面抓取 =====================
+def existing_titles(titles, session=None, batch=50):
+    """过滤出真正存在的页面。
+
+    维基文库的父页目录里常有**红链**（卷019/卷020 之类尚未录入的页），
+    `prop=links` 会把它们一并返回；直接去抓只会得到 missingtitle 空章。
+    """
+    titles = [t for t in titles if t]
+    out = []
+    for i in range(0, len(titles), batch):
+        chunk = titles[i:i + batch]
+        data = api_get({'action': 'query', 'titles': '|'.join(chunk),
+                        'prop': 'info', 'format': 'json'}, session)
+        if not data or 'error' in data:
+            out.extend(chunk)          # 查不到就保守放行，交给后续抓取报错
+            continue
+        q = data.get('query', {})
+        norm = {n['from']: n['to'] for n in q.get('normalized', [])}
+        present = {p['title'] for p in q.get('pages', {}).values()
+                   if 'missing' not in p}
+        for t in chunk:
+            if t in present or norm.get(t) in present:
+                out.append(t)
+    return out
+
+
 def fetch_parse(title, session=None):
     """解析页面，返回 html / displaytitle / revid"""
     params = {
@@ -149,6 +174,8 @@ def get_subpages(parent_title, session=None):
             break
     # 剔除导航/目录/序跋等非正文子页
     subs = [t for t in subs if _subpage_name(t, parent_title) not in NON_CONTENT_SUBPAGES]
+    # 剔除红链（父页目录里列了但尚未创建的页），否则只会抓到 missingtitle
+    subs = existing_titles(subs, session)
     subs.sort(key=lambda x: _sort_key(x, parent_title))
     return subs
 
@@ -157,13 +184,42 @@ def _subpage_name(title, parent):
     return title.replace(parent + "/", "")
 
 
+# 前置篇（序/凡例…）恒排在正文之前
+_FRONT_RE = re.compile(r'(楔|序|敘|叙|前言|引首|凡例|緣起|緣例|目錄|目次|卷首|題辭|小引|例言|自識)')
+_CN_DIGITS = {'〇': 0, '零': 0, '一': 1, '二': 2, '三': 3, '四': 4,
+              '五': 5, '六': 6, '七': 7, '八': 8, '九': 9, '兩': 2, '两': 2}
+_CN_UNITS = {'十': 10, '百': 100, '千': 1000}
+
+
+def _cn_to_int(s):
+    """「十二」→12 /「二十三」→23 /「一〇」→10 / 阿拉伯数字原样；失败返回 None。"""
+    s = (s or '').strip()
+    if not s:
+        return None
+    if s.isdigit():
+        return int(s)
+    total = num = 0
+    for ch in s:
+        if ch in _CN_DIGITS:
+            num = _CN_DIGITS[ch]
+        elif ch in _CN_UNITS:
+            u = _CN_UNITS[ch]
+            total += (num or 1) * u
+            num = 0
+        else:
+            return None
+    return total + num
+
+
 def _sort_key(title, parent):
     name = _subpage_name(title, parent)
-    if "楔" in name:
+    if _FRONT_RE.search(name):
         return (0, name)
-    m = re.search(r"第?(\d+)", name)
+    m = re.search(r'第?([0-9]+|[〇零一二三四五六七八九十百千兩两]+)', name)
     if m:
-        return (1, int(m.group(1)))
+        n = _cn_to_int(m.group(1))
+        if n is not None:
+            return (1, n, name)
     return (2, name)
 
 

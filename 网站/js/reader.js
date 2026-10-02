@@ -346,12 +346,17 @@ const POS_PREFIX = 'gjs:pos:';
     return s;
   }
 
-  /** 填充右侧面板：本站释义 + 康熙/说文（单字，离线）+ 在线词典 */
+  /** 填充右侧面板（点击 <wise> 词时） */
   function fillDictPanel(el) {
     const word = el.getAttribute('data-word') || '';
     const key = el.getAttribute('data-key') || word;
-    const entry = annLookup(key, word);
     const parts = (el.getAttribute('data-parts') || '').split('|').filter(Boolean);
+    renderDictPanel(word, key, parts);
+  }
+
+  /** 渲染面板：本站释义 + 康熙/说文（单字，离线）+ 在线词典 */
+  function renderDictPanel(word, key, parts) {
+    const entry = annLookup(key, word);
     dpWord.textContent = word;
     dpPy.textContent = (entry && entry.pinyin) ? entry.pinyin : '';
     dpBody.textContent = '';
@@ -413,6 +418,30 @@ const POS_PREFIX = 'gjs:pos:';
     dictPanel.hidden = false;
     fillDictPanel(el);
   }
+
+  /** 左键选中正文任意字词 → 面板查询（仅桌面端；移动端不显示面板） */
+  function openDictPanelForText(text) {
+    if (!dictPanel) return;
+    dictPanel.hidden = false;
+    renderDictPanel(text, text, []);
+  }
+  let dpSelTimer = null;
+  document.addEventListener('selectionchange', function () {
+    if (dpSelTimer) clearTimeout(dpSelTimer);
+    dpSelTimer = setTimeout(function () {
+      if (!isDesktop() || !dictPanel) return;
+      const sel = window.getSelection && window.getSelection();
+      if (!sel || sel.isCollapsed) return;
+      const txt = String(sel).replace(/\s+/g, ' ').trim();
+      if (!txt || txt.length > 24) return;                 // 只查词/短语（≤24 字）
+      const n = sel.anchorNode;
+      const el = n && (n.nodeType === 1 ? n : n.parentElement);
+      if (!el || !el.closest) return;
+      if (el.closest('#dict-panel, input, textarea, select, #gai-root')) return;
+      if (!reader.contains(el)) return;                    // 仅正文区
+      openDictPanelForText(txt);
+    }, 180);
+  });
 
   /** 词卡：data-word 是**完整词形**（含 mornin' 的词尾撇号），data-key 才是词典键 */
   function fillAnnPop(el) {

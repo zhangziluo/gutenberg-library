@@ -39,3 +39,7 @@ data/books/
 # 维基文库书源工具产物（wikisource_complete_toolkit；可重新抓取/生成）
 novels_json/
 epubs/
+
+# 维基文库索引：元数据补抓缓存（wikisource_index_backfill.py，可随时清空重跑）
+文本/新书/.ws_meta_cache/
+文本/新书/_ws_fetch/

@@ -175,19 +175,16 @@
     var el = (n && n.nodeType === 1) ? n : (n && n.parentElement);
     if (!el) return;
     // 跳过：AI 面板/搜索框等表单控件内部、以及未来的注释卡浮层内的选中
-    if (el.closest && el.closest('#gai-root, input, textarea, select, .word-card, .ann-card, [data-ai-no-fill]')) return;
+    if (el.closest && el.closest('#gai-root, #dict-panel, input, textarea, select, .word-card, .ann-card, [data-ai-no-fill]')) return;
     if (txt === selectedText && txt === textEl.value) return;  // 同一段文字已填入过 → 不重复提示
     selectedText = txt;
     textEl.value = txt;                     // ① 即时填入 AI 输入框
     gaiToast('已复制到 AI 助手…', 2000);     // ② 页面下方 Toast，约 2 秒自动消失
   }
   // 拖动/键盘逐字改变选区时会连续触发 selectionchange → 去抖到稳定后取值一次
-  document.addEventListener('selectionchange', function () {
-    if (gaiFillTimer) clearTimeout(gaiFillTimer);
-    gaiFillTimer = setTimeout(captureSelection, 90);
-  });
-  // mouseup 兜底（个别浏览器在选区拖动刚结束时 selectionchange 滞后一拍）
-  document.addEventListener('mouseup', captureSelection);
+  // 【改为右键触发】左键选中在阅读页用于「选中查词」，故不再左键自动填入 AI；
+  // 统一改为 contextmenu（右键）时捕获，不 preventDefault → 系统右键菜单/复制不受影响。
+  document.addEventListener('contextmenu', captureSelection);
 
   function esc(s) {
     return String(s).replace(/[&<>"']/g, function (c) {

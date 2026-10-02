@@ -24,6 +24,43 @@
   margin: 0 0 18px;
 }
 
+/* ---------- 书目范围切换（本站藏书 / 待入库） ---------- */
+.lib-mode {
+  display: flex;
+  gap: 6px;
+  margin: 0 0 12px;
+}
+
+.lib-mode-btn {
+  border: 1px solid var(--line);
+  background: var(--paper-light);
+  color: var(--ink-soft);
+  font-size: 13px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.lib-mode-btn:hover { color: var(--accent); }
+
+.lib-mode-btn.is-active {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.lib-reconly {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: var(--ink-soft);
+  cursor: pointer;
+  user-select: none;
+}
+
 /* ---------- 筛选栏 ---------- */
 .lib-toolbar {
   display: flex;
@@ -190,6 +227,44 @@
   line-height: 1;
   filter: drop-shadow(0 1px 1px rgba(0,0,0,0.35));
 }
+
+/* 待入库卡片：左上角「推荐」星标 + 整体虚线感 */
+.cover-star {
+  position: absolute;
+  left: 7px;
+  top: 6px;
+  font-size: 14px;
+  line-height: 1;
+  filter: drop-shadow(0 1px 1px rgba(0,0,0,0.35));
+}
+
+.book-card.is-pending .book-card-cover {
+  outline: 1px dashed rgba(255, 255, 255, 0.45);
+  outline-offset: -5px;
+}
+
+/* 待入库卡片是 div 包裹（内含跳转用 <a> + 「复制入库命令」按钮） */
+.book-card .card-main {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-cmd {
+  margin-top: 6px;
+  border: 1px dashed var(--line);
+  background: transparent;
+  color: var(--ink-soft);
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card-cmd:hover { color: var(--accent); border-color: var(--accent); }
+.card-cmd.is-copied { color: #2f7a3e; border-color: #2f7a3e; }
 
 /* 悬停显示的简介 */
 .book-card-summary {

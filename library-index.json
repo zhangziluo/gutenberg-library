@@ -86,6 +86,24 @@
           "chapters": 79,
           "source": "Project Gutenberg #25385",
           "path": "data/books/chunqiu-fanlu.json"
+        },
+        {
+          "key": "孝經註疏",
+          "book": "孝經註疏",
+          "author": "李隆基",
+          "subcategory": "註疏",
+          "chapters": 10,
+          "source": "维基文库",
+          "path": "data/books/孝經註疏.json"
+        },
+        {
+          "key": "千字文",
+          "book": "千字文",
+          "author": "佚名",
+          "subcategory": "蒙學",
+          "chapters": 1,
+          "source": "维基文库",
+          "path": "data/books/千字文.json"
         }
       ]
     },
@@ -136,6 +154,33 @@
           "chapters": 43,
           "source": "Project Gutenberg #24143",
           "path": "data/books/pg24143.json"
+        },
+        {
+          "key": "竹書紀年",
+          "book": "竹書紀年",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 2,
+          "source": "维基文库",
+          "path": "data/books/竹書紀年.json"
+        },
+        {
+          "key": "洛陽伽藍記",
+          "book": "洛陽伽藍記",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 8,
+          "source": "维基文库",
+          "path": "data/books/洛陽伽藍記.json"
+        },
+        {
+          "key": "三輔黃圖",
+          "book": "三輔黃圖",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 10,
+          "source": "维基文库",
+          "path": "data/books/三輔黃圖.json"
         }
       ]
     },
@@ -933,6 +978,87 @@
           "chapters": 1,
           "source": "Project Gutenberg #1203",
           "path": "data/books/pg1203.json"
+        },
+        {
+          "key": "尹文子",
+          "book": "尹文子",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 2,
+          "source": "维基文库",
+          "path": "data/books/尹文子.json"
+        },
+        {
+          "key": "吳子",
+          "book": "吳子",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 2,
+          "source": "维基文库",
+          "path": "data/books/吳子.json"
+        },
+        {
+          "key": "司馬法",
+          "book": "司馬法",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 3,
+          "source": "维基文库",
+          "path": "data/books/司馬法.json"
+        },
+        {
+          "key": "商子",
+          "book": "商子",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 5,
+          "source": "维基文库",
+          "path": "data/books/商子.json"
+        },
+        {
+          "key": "六韜",
+          "book": "六韜",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 7,
+          "source": "维基文库",
+          "path": "data/books/六韜.json"
+        },
+        {
+          "key": "人物志",
+          "book": "人物志",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 8,
+          "source": "维基文库",
+          "path": "data/books/人物志.json"
+        },
+        {
+          "key": "周髀算經",
+          "book": "周髀算經",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 4,
+          "source": "维基文库",
+          "path": "data/books/周髀算經.json"
+        },
+        {
+          "key": "慎子",
+          "book": "慎子",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 5,
+          "source": "维基文库",
+          "path": "data/books/慎子.json"
+        },
+        {
+          "key": "沖虛至德真經",
+          "book": "沖虛至德真經",
+          "author": "佚名",
+          "subcategory": "總類",
+          "chapters": 9,
+          "source": "维基文库",
+          "path": "data/books/沖虛至德真經.json"
         }
       ]
     },
@@ -1573,6 +1699,20 @@
           "chapters": 50,
           "source": "Project Gutenberg #62791",
           "path": "data/books/huyu-kailu.json"
+        }
+      ]
+    },
+    {
+      "name": "叢部",
+      "books": [
+        {
+          "key": "夢粱錄",
+          "book": "夢粱錄",
+          "author": "吳自牧",
+          "subcategory": "四庫全書",
+          "chapters": 21,
+          "source": "维基文库",
+          "path": "data/books/夢粱錄.json"
         }
       ]
     }

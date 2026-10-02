@@ -2062,10 +2062,27 @@ def annotate_reader_book(title, sections, reports):
 
 
 def merge_pending(book_key, pending):
-    """跨书/全书去重写入 wordbank_pending.json。"""
+    """跨书/全书去重写入 wordbank_pending.json。
+
+    兼容两种历史格式：**list（纯待补字表，站内现用）** 与 dict（带 books/first_src
+    的明细）。旧实现只认 dict，遇到 list 会 `list.setdefault` 崩——已修。
+    """
     if not pending:
         return 0
-    store = _load_json(PENDING, {}) or {}
+    store = _load_json(PENDING, {})
+    if isinstance(store, list):
+        have = set(store)
+        add = 0
+        for tok in pending:
+            if tok not in have:
+                store.append(tok)
+                have.add(tok)
+                add += 1
+        if add:
+            with open(PENDING, 'w', encoding='utf-8') as f:
+                json.dump(store, f, ensure_ascii=False, indent=2)
+        return add
+    store = store or {}
     add = 0
     for tok, meta in pending.items():
         e = store.setdefault(tok, {'books': [], 'first_src': '', 'reason': meta.get('reason', '')})

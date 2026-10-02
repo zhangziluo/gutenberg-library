@@ -32,8 +32,16 @@
     <h1 class="lib-title">📚 书库 · 经史子集丛</h1>
     <p class="lib-sub" id="lib-sub">五部分类 · 正在加载藏书目录…</p>
 
+    <div class="lib-mode" id="lib-mode" role="group" aria-label="书目范围">
+      <button class="lib-mode-btn is-active" type="button" data-mode="shelf">本站藏书</button>
+      <button class="lib-mode-btn" type="button" data-mode="pending">待入库 · 维基文库 📥</button>
+    </div>
+
     <div class="lib-toolbar">
       <div class="lib-tabs" id="lib-tabs"></div>
+      <label class="lib-reconly" id="lib-reconly-wrap" hidden>
+        <input type="checkbox" id="lib-reconly" checked> 只看推荐 ⭐
+      </label>
       <select class="lib-sort" id="lib-sort" title="排序">
         <option value="hot">热门</option>
         <option value="new">最新</option>

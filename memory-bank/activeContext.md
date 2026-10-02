@@ -73,6 +73,68 @@
 - **待办**：`~/gutenberg_project/scripts/cleaned_to_books.py` 仍是写死 子部·小說家（西洋）
   （未推的 500+ 本英文书入库后仍需跑本脚本，或改造该脚本按体裁分类）。
 
+### ⑨ 维基文库中文电子书索引（2026-10-02，新交付）
+- **交付物**（`文本/新书/`）：
+  - `wikisource_index.md` —— 可读索引（按四部：經/史/子/集/叢，附推荐清单与 `fetch` 用法）
+  - `wikisource_index.json` —— 结构化（title/page/bu/sub/region/length/authors/versions/in_library/recommended）
+  - `wikisource_index.tsv` —— 制表符清单（供批量脚本）
+  - `build_wikisource_index.py` —— 生成脚本；`wikisource_index_guide.md` —— 采集/入库说明
+- **规模**：**1642 种**（中土 **1083** · 域外漢籍 **559**），已入库 **13**；推荐 ⭐ 132（未入库 122）。
+  部级：經 59 / 史 181 / 子 207 / 集 548 / 叢 88（域外另计）。
+- **数据来源**：zh.wikisource 分类树（非臆测）——`Category:十三經`(+7 子类)、`Category:史部`(+13)、
+  `Category:子部`(+12)、`Category:集部`(+8)、`Category:四庫全書`、`Category:詩集`、`Category:史書`；
+  页面长度/作者由 `prop=info` / `prop=links&plnamespace=102` 批量补全（25 题/批 ×2 请求）。
+- **要点/坑**：
+  - 网络极不稳：一律 `curl --max-time 18~25 + 低并发 + 多尝试`（`requests` 易 ReadTimeout）；
+    **`prop=info|links` 合并成一个请求会显著变慢 → 必须分开**。
+  - 子页折叠（`史記/卷018`→`史記`）、版本后缀归一（` (四部叢刊本)`）；同名异本合并为一条（`versions` 记录）。
+  - 作者链接会被页头 navbox 污染（如《二十四史》模板 → 新唐書 26 位“作者”）→ **>5 位即弃用**。
+  - 顶层分类成员（史/子/集的 68/96/278 页）无细分，归入「總類」，避免误标为 雜史/雜家。
+- **用途**：站长按需 `wikisource_toolkit.py fetch "<页面标题>"` 或
+  `bash add_books.sh --source wikisource --title "…" --author … --category … --subcategory … --label …` 入库。
+
+### ⑩ 维基文库「推荐优先」批量抓取/入库 + 智能分章 + 释义回填 + 书库「待入库」预览（2026-10-02）
+- **新增脚本**（`文本/新书/`）：
+  - `wikisource_index_backfill.py` —— 补齐索引里缺失的页面元数据（断点续跑，缓存 `.ws_meta_cache/`，gitignore）。
+    **实测：301 条待补 → 补长度 249 / 补作者 44，剩 52 条（多为确为空页/重定向）**；
+    覆盖率 长度 1341→**1590**、作者 893→**937**。
+  - `wikisource_batch.py` —— 子命令 `list / fetch / commands / ingest / merge`；
+    按索引的 `recommended` 与 `in_library` 选候选（**122 本**），抓取/入库均断点续跑
+    （`_ws_fetch/*.tsv`）；自动选用项目 `.venv` 解释器（toolkit 需 requests）；
+    `--page` 支持单本增量，`--strict` 走严格合规（默认 `--force` 跳过许可未知页）。
+  - `wikisource_recommended.sh` —— 一条龙：抓取 → 入库 → 释义回填 → 重建。
+  - `build_wikisource_index.py` 增 `--from-json`（按现有 json 重建目录，勿再动 /tmp 快照）、
+    **元数据缺口回填**（重采集不再冲掉补抓结果）、**`in_library` 自动刷新**（新入库的书自动移出待入库），
+    并生成站点「待入库」数据 `网站/assets/data/wikisource-pending.json`。
+- **智能分章**（`wikisource_import.py --split auto`）：维基文库多为「一页放全文」，
+  导入时按 卷/回/篇/章/品/則/節/折 标题行再切（`第一卷`/`第一回 標題`/`卷一`/`卷十二`/`〔篇名〕`/`序`），
+  按「命中最多」的模式投票 + ≥2 切分点 + 每段 ≥40 字；标签自动写入 `section_label`。
+  另修 `wikisource_toolkit._sort_key`：`序/凡例/楔子` 恒在前、**中文数字按数值排**
+  （`卷第一 < 卷第二 < 卷第十`）；`get_subpages` 新增 `existing_titles()` **过滤红链**
+  （父页目录里未创建的卷页，原先只会抓到 missingtitle 空壳）。
+- **释义回填**：`wikisource_import.py` 新增 `--annotate`（默认开）——复用
+  `gutenberg_import.annotate_book` 生成 `annotations`；批量入库后统一跑 `fill_glosses.py`。
+  顺带修 `gutenberg_import.merge_pending()` 历史 bug（`wordbank_pending.json` 实为 **list 字表**，
+  旧代码按 dict 处理会 `list.setdefault` 崩）。实测一次回填 **1378 文件 / 213 万条**。
+- **书库页「待入库」预览**：`library.html` + `js/library.js` + `css/library.css` 增加
+  「本站藏书 / 待入库·维基文库 📥」范围切换 + 「只看推荐 ⭐」；卡片沿用五部配色、
+  点击跳维基文库原页（新标签）、URL `?mode=pending`；**每卡附「📋 复制入库命令」**
+  （一键复制 `wikisource_batch.py fetch/ingest --page "…"` 到剪贴板，navigator.clipboard
+  + execCommand 回退）；数据 1069 条 ≈ 270 KB。测试 `tests/library/library-pending-test.js`
+  （jsdom，**17/17 通过**）。
+- **候选排序**：`--order size`（默认）**小书在前**——先出成果、不被《四庫全書總目提要》
+  这类大部头卡住（实测小书约 10 秒/本）；`--order default` 走四部顺序。
+- **已实跑验证（批量）**：`fetch` 后台跑（小书在前，约 10 秒/本）→ `ingest --offline` 对已抓的
+  14 本入库：**智能分章**产出多章书（洛陽伽藍記 8 / 三輔黃圖 10 / 孝經註疏 10 / 沖虛至德真經 9 /
+  夢粱錄 21 / 慎子 5 / 人物志 8 / 六韜 7 / 竹書紀年 2 …），每本生成注释（216–1302 条），
+  `fill_glosses` 回填 → `merge_to_site`。结果：`books-data.json` 181→**195 本**，
+  `library-index` 维基文库来源 **15 本**（子部 8 / 史部 3 / 經部 2 / 叢部 1 …）；
+  `夢粱錄` 首章为「序」（sort 修复生效）、1302 条注释中 1017 条有释义。
+  索引 `in_library` 自动刷新 → 已入库 28 条、待入库 1055（推荐 ⭐ 107）。
+- **进行中**：推荐清单抓取仍在后台跑（日志 `/tmp/ws_batch_fetch.log`，进度 `_ws_fetch/fetch_state.tsv`）。
+  随时可停、重跑自动续；抓完后 `wikisource_batch.py ingest`（或 `wikisource_recommended.sh`）即可入库并回填。
+  大部头单本可能十几分钟（单本超时 1800s 即记 fail）。
+
 ### ⏭️ 下一步（待办）
 1. **手动分批重推**（交接点）：分章修复后的 `_site_data`（约 600 文件）待站长按已推批次重推（`bash ~/gutenberg_project/push_batch.sh K`）。当前**工作区未提交**。
 2. 剩余分章：8 本中 #317《The Culprit Fay》诗集（多行标题）未拆；如需可加「多行标题块」规则。
