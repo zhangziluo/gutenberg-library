@@ -203,6 +203,28 @@
   - `reader.js` anchor 高亮处加 `scrollIntoView` 存在性判断（老环境/测试环境安全）。
 - **注意**：分片书若只给 `?anchor=`（不带 `index`），仅当该句落在**篇首 60 字内**才命中；带 `sec`/`index` 则必达。
 
+### ⑬ 推送后自动触发 Cloudflare 构建（2026-10-03）
+- **背景**：push 后想「顺手触发一次 CF 构建」。先查清现状（用 wrangler 的 OAuth 凭据调 CF API）：
+  ```
+  3c57e353 main deploy ✅ 02:18:42   ← 锚点定位那次 push 已自动构建并部署成功
+  c01a696b main deploy ✅ 01:50:54   ← 分片修复已上线
+  e9896ae2 main build  ❌ 01:24:03   ← 用户贴的那次 25 MiB 失败
+  ```
+  即：**仓库已连 GitHub，push 本身就会自动构建**（这次 push 曾因 GitHub 443 超时失败，后台重试第 3 次成功后自动构建）。
+- **新增 `deploy/trigger_build.sh`**：显式触发 / 查看 Pages 部署。凭据按优先级自动选：
+  1) `.env` 的 **`CF_DEPLOY_HOOK`**（Pages 控制台部署钩子 URL，推荐、无需 token）
+  2) `.env` 的 `CF_API_TOKEN` + `CF_ACCOUNT_ID` + `CF_PAGES_PROJECT`
+  3) 回退：本机 `~/.wrangler/config/default.toml` 的 OAuth（自动发现账号/项目）
+  `--list` / `--dry-run`；**无凭据时退出 0 只给提示**，绝不阻断流水线。
+  （本项目实际值：账号 `55b7fa0b…`、项目 `myfami`、分支 `main`。）
+- **接入 `文本/新书/pipeline.sh`**：第 ⑤ 步 —— `git push` **成功后**自动调用（`--no-trigger` 关闭；
+  push 失败会 `err` 提示而不继续）。
+- **顺带修一个真 bug**：新脚本里 `$a（`、`$code）` 这类「`$变量` 紧跟全角字符」在 **bash 3.2**
+  会被并成变量名 → `unbound variable` 直接崩。已全改 `${a}`/`${code}`/`${SRC}`；
+  并写了个扫描脚本确认 `deploy/*.sh`、`文本/新书/*.sh` 里同类写法 **0 处**。
+- **测试**：`tests/library/deploy-trigger-test.js`（**5/5**，不联网）：部署钩子分支只打印不发请求、
+  未知参数退出 2、无凭据退出 0 且给三种办法提示、`--list` 不崩。
+
 ### ⏭️ 下一步（待办）
 1. **手动分批重推**（交接点）：分章修复后的 `_site_data`（约 600 文件）待站长按已推批次重推（`bash ~/gutenberg_project/push_batch.sh K`）。当前**工作区未提交**。
 2. 剩余分章：8 本中 #317《The Culprit Fay》诗集（多行标题）未拆；如需可加「多行标题块」规则。

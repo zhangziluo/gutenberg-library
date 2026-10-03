@@ -51,6 +51,15 @@
 
 
 ## 部署要点
+- Cloudflare Pages 项目 **`myfami`**（账号 `55b7fa0b…`，生产分支 `main`，域名 myfami.cn / myfami.pages.dev）：
+  根目录 `网站`、构建命令 `exit 0`（直出不跑构建）。**push 即自动构建**。
+- `deploy/trigger_build.sh`（**新增 2026-10-03**）：显式触发一次 Pages 构建 / 查看最近部署。
+  凭据优先级：`.env` 的 `CF_DEPLOY_HOOK`（推荐，无需 token）→ `.env` 的
+  `CF_API_TOKEN`+`CF_ACCOUNT_ID`+`CF_PAGES_PROJECT` → 本机 `~/.wrangler` OAuth。
+  无凭据时**退出 0 只提示**（不阻断流水线）；`--list` / `--dry-run` 只读。
+  `文本/新书/pipeline.sh` 第 ⑤ 步在 push 成功后调用它（`--no-trigger` 关闭）。
+  测试 `tests/library/deploy-trigger-test.js`（5 项，不联网）。
+- `deploy/build.sh`：本地/备用构建 `dist/`（CF 不用它），末尾有「单文件 ≤25 MiB」硬校验。
 - `网站/_redirects`：仅含旧分类地址的 301 规则。
 - `网站/functions/api/dict.js`（**新增 2026-10-03**）：**同域在线词典代理**（Cloudflare Pages Function）。
   前端查词只打 `/api/dict?source=wikipedia|wiktionary&lang=zh&q=<字>`，转发到对应 wiki 的

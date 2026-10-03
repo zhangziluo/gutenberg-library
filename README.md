@@ -102,6 +102,19 @@ macOS 也可以双击 `网站/启动站点.command`。
 
 部署：Cloudflare Pages，根目录 `网站`，构建命令 `exit 0`（直出不跑构建）。`deploy/build.sh` 可另生成一份 `dist/`（本地/备用，已 gitignore）。
 
+项目已与 GitHub 连接，**push 会自动触发 Pages 构建**；若想显式再触发一次（或 push 没触发），用：
+
+```bash
+bash deploy/trigger_build.sh            # 触发一次构建
+bash deploy/trigger_build.sh --list     # 看最近 5 次部署（提交/阶段/状态）
+bash deploy/trigger_build.sh --dry-run  # 只显示将做什么
+```
+
+凭据按优先级自动选（都没有就友好退出，不报错）：`.env` 里的 `CF_DEPLOY_HOOK`（**推荐**，Pages 控制台
+「设置 → 构建与部署 → 部署钩子」拿 URL）→ `.env` 里的 `CF_API_TOKEN`+`CF_ACCOUNT_ID`+`CF_PAGES_PROJECT`
+→ 本机 `npx wrangler login` 的 OAuth 凭据。`文本/新书/pipeline.sh` 已在 `git push` 成功后自动调用它
+（`--no-trigger` 可关闭）。
+
 ## 工具链（`文本/新书/`）
 
 搬书、标释义、生成词表都在这里。日常两个一键脚本就够：

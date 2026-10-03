@@ -5,12 +5,14 @@
 #   ② 自动分类   scripts/classify_books.py（需 DEEPSEEK_API_KEY；缺失则跳过）
 #   ③ 构建合并   deploy/build.sh（产出 dist/）
 #   ④ Git 提交   add + commit + push（有变更才提交）
+#   ⑤ 触发构建   deploy/trigger_build.sh（推送后显式触发一次 Cloudflare Pages 构建）
 #
 # 用法（在 文本/新书/、项目根、任意目录都可调用）：
-#   bash 文本/新书/pipeline.sh                # 全流程 + 提交 + 推送
+#   bash 文本/新书/pipeline.sh                # 全流程 + 提交 + 推送 + 触发 CF 构建
 #   bash 文本/新书/pipeline.sh --no-push      # 只提交不推送
 #   bash 文本/新书/pipeline.sh --no-commit    # 回填/分类/构建，但不提交
 #   bash 文本/新书/pipeline.sh --no-classify  # 跳过 DeepSeek 分类
+#   bash 文本/新书/pipeline.sh --no-trigger   # 推送但不触发 CF 构建（仓库 push 本就会自动构建）
 #   bash 文本/新书/pipeline.sh --offline      # 回填不联网（只用 ECDICT 打底）
 #   bash 文本/新书/pipeline.sh --classify-input <文件>   # 指定分类输入（默认 data/books.json）
 #
@@ -25,18 +27,19 @@ SELF="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/$(basename "${BASH_SOURCE[0]
 ROOT="$(cd "$(dirname "$SELF")/../.." && pwd)"
 cd "$ROOT"
 
-NO_PUSH=0; NO_CLASSIFY=0; OFFLINE=0; NO_COMMIT=0; CLASSIFY_INPUT="data/books.json"
+NO_PUSH=0; NO_CLASSIFY=0; OFFLINE=0; NO_COMMIT=0; NO_TRIGGER=0; CLASSIFY_INPUT="data/books.json"
 while [ $# -gt 0 ]; do
   case "$1" in
     --no-push)     NO_PUSH=1; shift ;;
     --no-classify) NO_CLASSIFY=1; shift ;;
+    --no-trigger)  NO_TRIGGER=1; shift ;;
     --offline)     OFFLINE=1; shift ;;
     --no-commit)   NO_COMMIT=1; shift ;;
     --classify-input)
       if [ $# -lt 2 ]; then echo "--classify-input 需要一个文件路径"; exit 2; fi
       CLASSIFY_INPUT="$2"; shift 2 ;;
-    -h|--help)     sed -n '2,20p' "$SELF"; exit 0 ;;
-    *) echo "未知参数：${1}（支持 --no-push / --no-classify / --offline / --no-commit / --classify-input <文件>）"; exit 2 ;;
+    -h|--help)     sed -n '2,22p' "$SELF"; exit 0 ;;
+    *) echo "未知参数：${1}（支持 --no-push / --no-classify / --no-trigger / --offline / --no-commit / --classify-input <文件>）"; exit 2 ;;
   esac
 done
 
@@ -102,7 +105,18 @@ else
     if [ "$NO_PUSH" = "1" ]; then
       warn "已指定 --no-push，跳过 git push"
     elif git rev-parse --abbrev-ref '@{u}' >/dev/null 2>&1; then
-      git push
+      if git push; then
+        # 推送后顺手触发一次 Cloudflare Pages 构建
+        # （仓库已连 GitHub，push 本就会自动构建；这一步是显式兜底/重建）
+        if [ "$NO_TRIGGER" = "1" ]; then
+          warn "已指定 --no-trigger，跳过 CF 构建触发"
+        elif [ -f "$ROOT/deploy/trigger_build.sh" ]; then
+          step "触发 Cloudflare 构建 (deploy/trigger_build.sh)"
+          bash "$ROOT/deploy/trigger_build.sh" || warn "触发构建失败（不影响提交/推送）"
+        fi
+      else
+        err "git push 失败（网络？）—— 可稍后手动 git push"
+      fi
     else
       warn "当前分支未设置上游，跳过 git push"
     fi
