@@ -501,6 +501,30 @@ async function testFunctions() {
   globalThis.fetch = origFetch;
 }
 
+/* ---------------- I. 根目录转发层（Pages 只从「项目根目录」的 functions/ 读 Functions） ---------------- */
+async function testRootShims() {
+  console.log('\nI. 根目录 functions/ 转发层');
+  const ROOTDIR = path.resolve(__dirname, '../..');
+  const names = ['dict', 'dict-links', 'translate'];
+  for (const n of names) {
+    const shimPath = path.join(ROOTDIR, 'functions/api', n + '.js');
+    const realPath = path.join(ROOT, 'functions/api', n + '.js');
+    ok(fs.existsSync(shimPath), '存在根目录转发层 functions/api/' + n + '.js');
+    ok(fs.existsSync(realPath), '存在实现文件 网站/functions/api/' + n + '.js');
+    if (!fs.existsSync(shimPath)) continue;
+    const src = fs.readFileSync(shimPath, 'utf8');
+    ok(/from '\.\.\/\.\.\/网站\/functions\/api\//.test(src),
+       n + '：转发层只做 re-export（不重复实现）');
+    const mod = await import(pathToFileURL(shimPath).href);
+    ok(typeof mod.onRequest === 'function', n + '：转发层导出 onRequest（可被 Pages 调用）');
+  }
+  // 行为一致性：转发层与实现文件是同一个函数
+  const shim = await import(pathToFileURL(path.join(ROOTDIR, 'functions/api/dict-links.js')).href);
+  const real = await import(pathToFileURL(path.join(ROOT, 'functions/api/dict-links.js')).href);
+  ok(shim.onRequest === real.onRequest && shim.buildDictLinks === real.buildDictLinks,
+     'dict-links：转发层与实现指向同一个函数（不会走偏）');
+}
+
 /* ---------------- 主流程 ---------------- */
 (async function main() {
   testClassify();
@@ -511,6 +535,7 @@ async function testFunctions() {
   await testLinks();
   await testTranslate();
   await testFunctions();
+  await testRootShims();
 
   console.log('\n' + (failed.length
     ? '❌ 失败 ' + failed.length + ' 项（通过 ' + pass + '）'
