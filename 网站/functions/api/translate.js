@@ -54,8 +54,11 @@ async function viaMyMemory(q, from, to) {
   const api = 'https://api.mymemory.translated.net/get?' +
     new URLSearchParams({ q: q, langpair: from + '|' + to }).toString();
   const r = await fetchWithTimeout(api, TIMEOUT_MS);
-  if (!r.ok) return { ok: false, error: 'fetch failed', upstream: r.status, provider: 'mymemory' };
-  const d = await r.json();
+  const raw = await r.text();          // ⚠️ 必须消费 body（否则 CF 可能把请求判成 502）
+  if (!r.ok) return { ok: false, error: 'fetch failed', upstream: r.status, provider: 'mymemory',
+                      sample: raw.slice(0, 90) };
+  let d;
+  try { d = JSON.parse(raw); } catch (e) { return { ok: false, error: 'bad upstream json', provider: 'mymemory' }; }
   const text = d && d.responseData && d.responseData.translatedText;
   if (!text || d.responseStatus !== 200) {
     return { ok: false, error: 'no translation', provider: 'mymemory',
@@ -65,6 +68,23 @@ async function viaMyMemory(q, from, to) {
   return { ok: true, text: String(text).slice(0, 2000), provider: 'mymemory',
            match: (d.responseData && d.responseData.match) || 0,
            url: 'https://mymemory.translated.net/' };
+}
+
+/** 备用源：Google 免密 gtx 接口（免费、无需 Key；主源被墙/限流时救急） */
+async function viaGoogle(q, from, to) {
+  const api = 'https://translate.googleapis.com/translate_a/single?' +
+    new URLSearchParams({ client: 'gtx', sl: from, tl: to, dt: 't', q: q }).toString();
+  const r = await fetchWithTimeout(api, TIMEOUT_MS);
+  const raw = await r.text();          // ⚠️ 同上：body 必须消费
+  if (!r.ok) return { ok: false, error: 'fetch failed', upstream: r.status, provider: 'google',
+                      sample: raw.slice(0, 90) };
+  let d;
+  try { d = JSON.parse(raw); } catch (e) { return { ok: false, error: 'bad upstream json', provider: 'google' }; }
+  const segs = (Array.isArray(d) && Array.isArray(d[0])) ? d[0] : [];
+  const text = segs.map(s => (s && s[0]) || '').join('').trim();
+  if (!text) return { ok: false, error: 'no translation', provider: 'google' };
+  return { ok: true, text: text.slice(0, 2000), provider: 'google', match: 0,
+           url: 'https://translate.google.com/' };
 }
 
 /** 备用源：Google 免密 gtx 接口（免费、无需 Key；主源被墙/限流时救急） */

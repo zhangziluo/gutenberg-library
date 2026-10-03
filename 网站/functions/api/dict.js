@@ -75,11 +75,17 @@ async function translateVia(q, from, to) {
   for (const a of attempts) {
     try {
       const r = await fetchWithTimeout(a.url, TIMEOUT_MS);
+      // ⚠️ 必须先消费 body！否则（尤其非 2xx 时）CF Pages Functions 会因为
+      //    「unconsumed response body」把整个请求判成 502（本项目的翻译接口就栽在这）
+      const raw = await r.text();
       if (!r.ok) {
-        tried.push({ provider: a.provider, ok: false, upstream: r.status });
+        tried.push({ provider: a.provider, ok: false, upstream: r.status,
+                     sample: raw.slice(0, 90) });
         continue;
       }
-      const d = await r.json();
+      let d;
+      try { d = JSON.parse(raw); }
+      catch (e) { tried.push({ provider: a.provider, ok: false, error: 'bad upstream json' }); continue; }
       const text = String(a.pick(d) || '').trim();
       if (!text || (a.provider === 'mymemory' && d.responseStatus !== 200)) {
         tried.push({ provider: a.provider, ok: false, error: 'no translation', upstream: d && d.responseStatus });
@@ -314,15 +320,17 @@ async function handleRequest(ctx) {
   const upstream = upstreamUrl(source, lang, q);
   try {
     const r = await fetchWithTimeout(upstream, TIMEOUT_MS);
+    const raw = await r.text();      // ⚠️ 统一先消费 body（未消费时 CF 可能把请求判成 502）
     if (!r.ok) {
       // Free Dictionary 未命中返回 **404 JSON**（不是空数组）→ 归一成 not found 便于前端降级
       if (source === 'freedict' && r.status === 404) {
         return json({ source, query: q, error: 'not found' }, 200, CACHE);
       }
-      return json({ source, query: q, error: 'fetch failed', upstream: r.status }, 502);
+      return json({ source, query: q, error: 'fetch failed', upstream: r.status,
+                    sample: raw.slice(0, 90) }, 502);
     }
     let data;
-    try { data = await r.json(); }
+    try { data = JSON.parse(raw); }
     catch (e) { return json({ source, query: q, error: 'bad upstream json' }, 502); }
 
     const parsed = parseBySource(source, lang, data);
