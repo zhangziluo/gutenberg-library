@@ -87,20 +87,6 @@ async function viaGoogle(q, from, to) {
            url: 'https://translate.google.com/' };
 }
 
-/** 备用源：Google 免密 gtx 接口（免费、无需 Key；主源被墙/限流时救急） */
-async function viaGoogle(q, from, to) {
-  const api = 'https://translate.googleapis.com/translate_a/single?' +
-    new URLSearchParams({ client: 'gtx', sl: from, tl: to, dt: 't', q: q }).toString();
-  const r = await fetchWithTimeout(api, TIMEOUT_MS);
-  if (!r.ok) return { ok: false, error: 'fetch failed', upstream: r.status, provider: 'google' };
-  const d = await r.json();
-  const segs = (Array.isArray(d) && Array.isArray(d[0])) ? d[0] : [];
-  const text = segs.map(s => (s && s[0]) || '').join('').trim();
-  if (!text) return { ok: false, error: 'no translation', provider: 'google' };
-  return { ok: true, text: text.slice(0, 2000), provider: 'google', match: 0,
-           url: 'https://translate.google.com/' };
-}
-
 export async function onRequest(ctx) {
   try {
     const request = ctx && ctx.request;
