@@ -43,3 +43,6 @@ epubs/
 # 维基文库索引：元数据补抓缓存（wikisource_index_backfill.py，可随时清空重跑）
 文本/新书/.ws_meta_cache/
 文本/新书/_ws_fetch/
+
+# Cloudflare wrangler 本地状态（pages dev 用；可随时删除）
+.wrangler/

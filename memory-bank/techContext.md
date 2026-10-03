@@ -52,6 +52,11 @@
 
 ## 部署要点
 - `网站/_redirects`：仅含旧分类地址的 301 规则。
+- `网站/functions/api/dict.js`（**新增 2026-10-03**）：**同域在线词典代理**（Cloudflare Pages Function）。
+  前端查词只打 `/api/dict?source=wikipedia|wiktionary&lang=zh&q=<字>`，转发到对应 wiki 的
+  Action API（`prop=extracts` + `origin=*`），8s 超时、失败必返回 JSON、响应头带 `Access-Control-Allow-Origin: *`。
+  前端只对**单个汉字**查在线（多字走离线），失败时面板提示「在线释义暂不可用」。
+  本地验证：`node tests/library/serve-local.js 8790`（静态站 + 真实 Function）或 `npx wrangler pages dev 网站`。
 - `网站/js/common.js`：`DATA_BASE = '_site_data/'`，按 `_site_data/{書名}.json` 按需拉取单书。
 - 首页（`index.html`）由 `daily-sentence.js`（每日一句）/ `home-search.js`（全站搜索）/ `daily-gua.js`（今日一卦）驱动，不依赖 `js/index.js`。
 - `网站/js/reader.js`：正文渲染 + 简繁转换 + 注释小卡；**打标交给 `js/vocab-matcher.js`**

@@ -42,6 +42,12 @@ if [ -f "$ROOT/网站/_redirects" ]; then
   cp "$ROOT/网站/_redirects" "$DIST/_redirects"
 fi
 
+# 3.5 Pages Functions（同域代理，如 /api/dict —— 在线词典走它，前端绝不直连第三方）
+if [ -d "$ROOT/网站/functions" ]; then
+  echo "==> 复制 Pages Functions"
+  cp -R "$ROOT/网站/functions" "$DIST/functions"
+fi
+
 # 4. 句子池（今日一句：library/sentences/*.json + sentence-manifest.json）
 echo "==> 复制句子池"
 cp -R "$ROOT/网站/library" "$DIST/library"

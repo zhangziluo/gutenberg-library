@@ -25,6 +25,36 @@ python3 -m http.server 8000
 
 然后访问：http://localhost:8000/网站/index.html
 
+## 在线词典代理（同域 `/api/dict`）
+
+阅读页右侧释义面板的「在线词典」**绝不直连第三方**（避免 CORS 与「网络连接已中断」），
+统一走同域接口：
+
+```
+GET /api/dict?source=wikipedia|wiktionary&lang=zh&q=<字>
+→ { "extract": "…" }            # 成功（页面首段）
+→ { "error": "not found" }      # 该页不存在（HTTP 200，仍是 JSON）
+→ { "error": "fetch failed" }   # 上游超时/网络失败（HTTP 502，仍是 JSON，绝不空响应）
+```
+
+- **实现**：`functions/api/dict.js`（Cloudflare Pages Function，与站点同域部署）。
+  转发到 `https://{lang}.{wikipedia|wiktionary}.org/w/api.php` 的 **Action API**
+  （`action=query&prop=extracts&...&origin=*`），响应头固定带 `Access-Control-Allow-Origin: *`，
+  8 秒超时 + try/catch，任何失败都返回 JSON 错误体。
+- **前端**（`js/reader.js`）：只对**单个汉字**查询在线；多字（含选中的文言短句）直接跳过在线，
+  只走离线（本站词表/分词 + 康熙/说文）。在线失败时面板底部提示「在线释义暂不可用」，
+  离线内容照常显示。
+- **本地验证**（模拟同域环境）：
+
+```bash
+node tests/library/serve-local.js 8790        # 静态站 + /api/* 走真实 Function
+# → http://127.0.0.1:8790/reader.html?book=論語&index=1
+# 或（若装了 wrangler）： npx wrangler pages dev 网站
+```
+
+> 注：本机到 wikipedia.org 可能不通（函数会返回 `{"error":"fetch failed"}`）；部署到
+> Cloudflare 后由边缘节点发起请求，通常可正常取到摘要。
+
 ## 数据更新
 
 文本切分文件变化后，重新导出数据即可（页面无需改动）：

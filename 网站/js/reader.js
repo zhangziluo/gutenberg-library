@@ -322,20 +322,19 @@ const POS_PREFIX = 'gjs:pos:';
     });
   }
 
-  /** 在线摘要（维基百科/Wiktionary；取前 200 字；失败静默不显示） */
-  function fetchOnlineSummary(host, word, label, box) {
-    const url = 'https://' + host + '/api/rest_v1/page/summary/' + encodeURIComponent(word);
-    fetchJsonTimeout(url, 6000).then(function (d) {
-      const ex = d && d.extract;
-      if (!ex) return;
-      const sec = document.createElement('div');
-      sec.className = 'dp-online-sec';
-      const h = document.createElement('h5'); h.textContent = label;
-      const p = document.createElement('p');
-      p.textContent = ex.slice(0, 200) + (ex.length > 200 ? '…' : '');
-      sec.appendChild(h); sec.appendChild(p);
-      box.appendChild(sec);
-    }).catch(function () { /* 离线/被墙 → 不显示 */ });
+  /**
+   * 在线摘要 —— **走同域代理** /api/dict（绝不直连 zh.wikipedia.org 等第三方，
+   * 避免 CORS 与「网络连接已中断」）。失败/空数据返回 null（由调用方兜底）。
+   */
+  function fetchOnlineSummary(source, label, word) {
+    const url = '/api/dict?source=' + encodeURIComponent(source) +
+                '&lang=zh&q=' + encodeURIComponent(word);
+    return fetchJsonTimeout(url, 7000).then(function (d) {
+      if (!d || d.error || !d.extract) return null;
+      return { label: label, text: String(d.extract) };
+    }).catch(function () {
+      return null;                      // 网络/超时/非 JSON → 交给兜底
+    });
   }
 
   function dpSec(title) {
@@ -401,16 +400,42 @@ const POS_PREFIX = 'gjs:pos:';
       dpBody.appendChild(s);
     }
 
-    const s3 = dpSec('在线词典（需联网）');
-    const box = document.createElement('div');
-    s3.appendChild(box);
-    const hint = document.createElement('p');
-    hint.className = 'dp-dim';
-    hint.textContent = '按“摘要（前 200 字）”展示，联网失败则自动隐藏。';
-    s3.appendChild(hint);
-    dpBody.appendChild(s3);
-    fetchOnlineSummary('zh.wiktionary.org', word, 'Wiktionary', box);
-    fetchOnlineSummary('zh.wikipedia.org', word, '维基百科', box);
+    // 在线词典：只对**单个汉字**查询。
+    // 多字（含选中的文言短句）直接跳过在线，只走离线：本站词表/分词 + 康熙/说文。
+    if (isSingle) {
+      const s3 = dpSec('在线词典（需联网）');
+      const box = document.createElement('div');
+      const hint = document.createElement('p');
+      hint.className = 'dp-dim';
+      hint.textContent = '查询中…';
+      s3.appendChild(box);
+      s3.appendChild(hint);
+      dpBody.appendChild(s3);
+      Promise.all([
+        fetchOnlineSummary('wiktionary', 'Wiktionary', word),
+        fetchOnlineSummary('wikipedia', '维基百科', word)
+      ]).then(function (res) {
+        const got = res.filter(Boolean);
+        if (!got.length) {
+          // 兜底：绝不显示空白；离线康熙/说文已在上方展示
+          hint.className = 'dp-warn';
+          hint.textContent = '在线释义暂不可用';
+          return;
+        }
+        hint.hidden = true;
+        got.forEach(function (r) {
+          const sec = document.createElement('div');
+          sec.className = 'dp-online-sec';
+          const h = document.createElement('h5');
+          h.textContent = r.label;
+          const p = document.createElement('p');
+          p.textContent = r.text.slice(0, 200) + (r.text.length > 200 ? '…' : '');
+          sec.appendChild(h);
+          sec.appendChild(p);
+          box.appendChild(sec);
+        });
+      });
+    }
   }
 
   function openDictPanel(el) {

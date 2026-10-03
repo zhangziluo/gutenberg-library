@@ -1611,6 +1611,8 @@ wise:focus-visible { outline: 2px solid rgba(158, 43, 37, .5); outline-offset: 1
 .dp-parts { color: var(--ink-soft); font-size: 13px; }
 .dp-dim { color: var(--ink-soft); font-size: 12px; }
 .dp-loading { color: var(--ink-soft); }
+/* 在线词典不可用时的兜底提示（离线康熙/说文仍照常显示） */
+.dp-warn { color: #9E2B25; font-size: 12px; }
 .dp-online-sec h5 { margin: 8px 0 2px; font-size: 12px; color: var(--ink-soft); font-weight: 600; }
 .dp-online-sec p { font-size: 13px; }
 

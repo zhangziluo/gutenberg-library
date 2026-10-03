@@ -142,6 +142,31 @@
   `四庫全書簡明目錄`、`四庫全書總目提要`、`爾雅`、`尉繚子`。如要入，需人工确认 PD 后用
   `--strict` 之外的路径处理（当前 `wikisource_import` 对全不安全章节会中止）。
 
+### ⑪ 查词面板在线词典：改同域代理（2026-10-03）
+- **症状**：右侧释义面板「在线词典」空白，控制台「网络连接已中断」。
+- **根因**：`网站/js/reader.js` 的 `fetchOnlineSummary()` **从浏览器直连**
+  `https://zh.wikipedia.org|zh.wiktionary.org/api/rest_v1/page/summary/…` → 跨域被拦 / 网络不可达，
+  且 `catch` 里是「失败静默不显示」→ 一片空白。
+- **改法**：
+  - **新增同域代理** `网站/functions/api/dict.js`（Cloudflare Pages Function）：
+    `GET /api/dict?source=wikipedia|wiktionary&lang=zh&q=<字>` →
+    转发 `https://{lang}.{host}/w/api.php?action=query&prop=extracts&exintro&explaintext&exchars=400&redirects=1&format=json&**origin=***`；
+    8s `AbortController` 超时 + `try/catch`，**任何情况都返回 JSON**（上游失败 `502 {"error":"fetch failed"}`、
+    页面不存在 `200 {"error":"not found"}`），响应头固定 `Access-Control-Allow-Origin: *`，带 UA。
+  - **前端**：`fetchOnlineSummary(source,label,word)` 改打 `/api/dict`（不再出现任何第三方域名）；
+    **只对单个汉字**发在线请求——多字（含选中的文言短句）直接跳过在线，只走离线；
+    在线失败时面板底部提示「在线释义暂不可用」（`.dp-warn`），离线康熙/说文照常显示。
+  - **配套**：`网站/_headers` 加 `/api/*` → `Access-Control-Allow-Origin: *`；
+    `deploy/build.sh` 增加 `网站/functions` → `dist/functions` 复制。
+- **本地验证（模拟同域）**：
+  - `tests/library/serve-local.js`（静态站 + `/api/*` 走**真实** Function；也可用 `npx wrangler pages dev 网站`）；
+    实测：缺 q → 400、坏 source → 400、上游不通 → **502 + JSON + CORS 头**（不空响应）。
+  - `tests/library/dict-proxy-test.js`（**18 项**）：参数校验 / `origin=*` / ACAO / 上游失败 / 网络异常 / OPTIONS。
+  - `tests/library/dict-panel-e2e-test.js`（jsdom + 真实 Function，**13 项**）：单字只请求同域 `/api/dict`、
+    页面**从不**直连 zh.wikipedia/wiktionary、成功出摘要、失败出「在线释义暂不可用」且康熙仍在、
+    多字**不发**在线请求。
+- **注意**：本机到 wikipedia.org 不通（函数返回 `fetch failed`），但**部署到 Cloudflare 后由边缘节点发起**，通常可取到摘要。
+
 ### ⏭️ 下一步（待办）
 1. **手动分批重推**（交接点）：分章修复后的 `_site_data`（约 600 文件）待站长按已推批次重推（`bash ~/gutenberg_project/push_batch.sh K`）。当前**工作区未提交**。
 2. 剩余分章：8 本中 #317《The Culprit Fay》诗集（多行标题）未拆；如需可加「多行标题块」规则。
