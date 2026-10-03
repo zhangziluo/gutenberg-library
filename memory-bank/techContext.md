@@ -62,10 +62,13 @@
 - `deploy/build.sh`：本地/备用构建 `dist/`（CF 不用它），末尾有「单文件 ≤25 MiB」硬校验。
 - `网站/_redirects`：仅含旧分类地址的 301 规则。
 - `网站/functions/api/dict.js`（**新增 2026-10-03**）：**同域在线词典代理**（Cloudflare Pages Function）。
-  前端查词只打 `/api/dict?source=wikipedia|wiktionary&lang=zh&q=<字>`，转发到对应 wiki 的
+  前端查词只打 `/api/dict?source=…&lang=…&q=…`，转发到对应 wiki 的
   Action API（`prop=extracts` + `origin=*`），8s 超时、失败必返回 JSON、响应头带 `Access-Control-Allow-Origin: *`。
   前端只对**单个汉字**查在线（多字走离线），失败时面板提示「在线释义暂不可用」。
   本地验证：`node tests/library/serve-local.js 8790`（静态站 + 真实 Function）或 `npx wrangler pages dev 网站`。
+  > 2026-10-03 晚**重写为多源**：`moedict` / `wiktionary` / `wikipedia` / `freedict`（404 归一成 not found）/
+  > `unihan`（读 `env.ASSETS` 静态分片，零网络）；统一 `{source, query, result}`，上游超时 **2.5s**，
+  > 响应 `cache-control: max-age=86400`。另有 `/api/dict-links`（新窗口链接模板）与 `/api/translate`（MyMemory）。
 - **超大字书自动分片**（**新增 2026-10-03**）：单书 reader JSON > **8 MiB** 时，
   `merge_to_site.write_site_book()` 改写为「轻主文件（目录 + 注释，无 `paragraphs`，带
   `sharded/part_size`）+ `_site_data/{书名}/{k}.json` 正文分片（约 3 MiB/片）」；
@@ -125,6 +128,9 @@
   状态机写回 `网站/_site_data/dict/dict_links.json`（连续 2 次成功 → enabled，连续 2 次失败 → hidden）；
   `--dry-run / --only <id> / --timeout / --quiet / --commit / --push`；核心只用全局 fetch，可被 Worker `scheduled` 复用。
   **必须在境内网络跑**（阿里云拦截与被墙只在境内出现）。
+- `build_unihan_slim.py`（**新增 2026-10-03**）：从 UCD 官方 `Unihan.zip`（unicode.org）抽
+  `kMandarin` 拼音 / `kRSUnicode` 部首（内置 214 部首表）/ `kTotalStrokes` 笔画 →
+  `网站/_site_data/dict/unihan/<码点%128>.json`（102,999 字 / 3 MB），并入 `dict_meta.json`；`--src/--zip/--dry-run`。
 - `vocab_extract.py`：词汇抽取与分词（英文正则词形 + 中文 jieba/双向最大匹配），产出
   `文本/新书/vocab_raw.json`。CLI：`--granularity=word|book|chapter`、`--min-freq-zh/-en`、
   `--contexts/--ctx-width/--books-max`、`--select/--select-file`（划选词）、`--zh-dict/--min-dict-freq`、
@@ -204,11 +210,11 @@
   node tests/vocab-matcher/definition-show-test.js && node tests/vocab-matcher/reader-smoke-test.js
   ```
 - 当前状态（2026-09-29 晚，对最终 `vocab_final.json`）：**66/0、21/0、26/0、6/0、14/0 全绿**。
-- `tests/library/`（页面级，需 jsdom，2026-10-03 状态）：`library-pending-test.js` **17** ｜ `dict-proxy-test.js` **18** ｜
-  `dict-panel-e2e-test.js` **13** ｜ `shard-reader-test.js` **12** ｜ `search-test.js` **44** ｜
-  `dict-links-test.js` **92** ｜ `deploy-trigger-test.js` **5**，全绿；
+- `tests/library/`（页面级，需 jsdom，2026-10-03 状态）：`library-pending-test.js` **17** ｜ `dict-proxy-test.js` **21** ｜
+  `dict-panel-e2e-test.js` **38** ｜ `shard-reader-test.js` **12** ｜ `search-test.js` **44** ｜
+  `dict-links-test.js` **92** ｜ `dict-fallback-test.js` **98**（纯 Node，无需 jsdom）｜ `deploy-trigger-test.js` **5**，全绿；
   `serve-local.js` 是本地预览服务器（静态站 + 真实 Pages Function），用于人工验查词面板 / 检索页。
-  跑法：`for t in library-pending dict-proxy dict-panel-e2e shard-reader search dict-links deploy-trigger; do JSDOM_PATH=/tmp/vmtest/node_modules/jsdom node tests/library/$t-test.js; done`
+  跑法：`for t in library-pending dict-proxy dict-panel-e2e shard-reader search dict-links dict-fallback deploy-trigger; do JSDOM_PATH=/tmp/vmtest/node_modules/jsdom node tests/library/$t-test.js; done`
 
 ## 本地环境注意事项
 - **本机无 `python`，只有 `python3`**；shell 为 **bash 3.2**（`set -u` 下空数组展开、`$VAR` 紧跟多字节字符

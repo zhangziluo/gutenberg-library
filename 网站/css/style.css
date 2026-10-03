@@ -1656,6 +1656,62 @@ wise:focus-visible { outline: 2px solid rgba(158, 43, 37, .5); outline-offset: 1
 .dp-online-sec h5 { margin: 8px 0 2px; font-size: 12px; color: var(--ink-soft); font-weight: 600; }
 .dp-online-sec p { font-size: 13px; }
 
+/* ---- 查词面板：Tab / 回退链 / 翻译 / 更多词典（2026-10-03） ---- */
+.dp-tabs {
+  display: flex; gap: 6px; margin: 10px 0 4px;
+  border-bottom: 1px solid var(--line, #e9e5df);
+}
+.dp-tab {
+  flex: 0 0 auto; padding: 6px 14px; font-family: inherit; font-size: 13px; cursor: pointer;
+  color: var(--ink-soft); background: transparent; border: none;
+  border-bottom: 2px solid transparent; margin-bottom: -1px;
+}
+.dp-tab:hover { color: var(--ink); }
+.dp-tab.is-active { color: var(--accent); font-weight: 600; border-bottom-color: var(--accent); }
+
+.dp-pane { padding-top: 2px; }
+
+.dp-src {
+  display: inline-block; margin: 0 0 4px; padding: 1px 7px; border-radius: 4px;
+  font-size: 11.5px; color: #256029; background: #e8f5e9; border: 1px solid #c8e6c9;
+}
+.dp-py-line { margin: 0 0 4px; font-size: 14px; color: var(--accent); font-family: var(--font-serif); }
+.dp-pos { margin: 6px 0 0; font-size: 12px; font-weight: 600; color: var(--ink-soft); }
+.dp-defs { margin: 2px 0 6px; padding-left: 1.5em; }
+.dp-defs li { margin: 2px 0; font-size: 13px; line-height: 1.75; }
+.dp-text { font-size: 13.5px; line-height: 1.85; color: #2b2b2b; }
+.dp-sub-h { margin: 8px 0 2px; font-size: 12px; font-weight: 600; color: var(--accent); }
+.dp-wordbox { margin: 4px 0 8px; padding-left: 8px; border-left: 2px solid var(--line, #e9e5df); }
+.dp-wordbox h5 { margin: 0 0 2px; font-size: 13px; font-family: var(--font-serif); color: var(--ink); }
+.dp-wordbox p { margin: 0; font-size: 12.5px; line-height: 1.7; }
+
+/* 翻译 Tab */
+.dp-trans-row { display: flex; align-items: center; gap: 6px; margin: 6px 0 8px; flex-wrap: wrap; }
+.dp-sel {
+  flex: 1 1 84px; min-width: 78px; padding: 5px 6px; font-family: inherit; font-size: 12.5px;
+  color: var(--ink); background: var(--paper-light);
+  border: 1px solid var(--line, #e9e5df); border-radius: 6px;
+}
+.dp-btn {
+  flex: 0 0 auto; padding: 6px 14px; font-family: inherit; font-size: 13px; cursor: pointer;
+  color: #fff; background: var(--accent); border: 1px solid var(--accent); border-radius: 6px;
+}
+.dp-btn:hover { background: var(--accent-dark); }
+.dp-trans-out { min-height: 20px; }
+.dp-trans-text {
+  margin: 0 0 4px; padding: 8px 10px; font-size: 14px; line-height: 1.8;
+  background: var(--paper); border: 1px solid var(--line, #e9e5df); border-radius: 8px;
+  word-break: break-word;
+}
+
+/* 更多词典（折叠区） */
+.dp-more-head {
+  width: 100%; padding: 7px 10px; font-family: inherit; font-size: 12.5px; text-align: left;
+  cursor: pointer; color: var(--ink); background: var(--paper);
+  border: 1px dashed var(--line, #e9e5df); border-radius: 8px;
+}
+.dp-more-head:hover { border-color: var(--accent); color: var(--accent); }
+
 /* 小屏 / 手机端：不显示面板（只保留快速词卡） */
 @media (max-width: 1099px) {
   .dict-panel { display: none !important; }

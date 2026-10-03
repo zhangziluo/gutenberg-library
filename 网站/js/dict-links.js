@@ -125,11 +125,16 @@ window.DictLinks = (function () {
             'www.guoxuedashi.net', 'www.zhonghuadiancang.com'];
   }
 
-  /** 默认隐藏、**绝不允许预取 / 预连接**的主机 */
+  /** 当前**被判为 hidden** 的主机（随探活结论 + 「容错外链」开关变化）—— 绝不允许预取/预连接 */
   function hiddenHosts() {
-    return SOURCES.filter(function (s) { return s.hidden; }).map(function (s) {
-      return s.url('x').replace(/^https?:\/\//, '').split('/')[0];
-    });
+    return SOURCES.filter(function (s) { return stateOf(s.id) === 'hidden'; })
+      .map(function (s) { return s.url('x').replace(/^https?:\/\//, '').split('/')[0]; });
+  }
+
+  /** 某主机当前是否被判为 hidden（DictApi 用它做回退链闸门） */
+  function hostHidden(host) {
+    if (!host) return false;
+    return hiddenHosts().indexOf(String(host).toLowerCase()) >= 0;
   }
 
   function esc(s) {
@@ -169,7 +174,7 @@ window.DictLinks = (function () {
   return {
     SOURCES: SOURCES, FALLBACK_KEY: FALLBACK_KEY, SETTINGS_HREF: SETTINGS_HREF,
     ready: loadStatus, stateOf: stateOf, visible: visible, urlOf: urlOf,
-    hosts: hosts, hiddenHosts: hiddenHosts,
+    hosts: hosts, hiddenHosts: hiddenHosts, hostHidden: hostHidden,
     fallbackEnabled: fallbackEnabled, setFallback: setFallback,
     render: render, esc: esc
   };

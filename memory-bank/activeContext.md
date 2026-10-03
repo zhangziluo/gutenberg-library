@@ -1,6 +1,6 @@
 # Active Context（当前状态与下一步）
 
-## 当前（2026-10-03）：全站检索 + 离线查词 + 站外词典白名单/探活 + 分章修复 + 词典/释义面板
+## 当前（2026-10-03）：全站检索 + 查词多源回退/翻译 + 站外白名单/探活 + 分章修复 + 词典/释义面板
 
 > 独立流水线目录 **`~/gutenberg_project/`**（与站点项目解耦）；进度全在 `progress/`，支持断点续跑。
 > 站点侧已入库 **61635 本清洗产物**、精选 **600 本英文书**；`网站/_site_data` **792 文件**（790 单书）、
@@ -292,6 +292,55 @@
   设置页开关写 localStorage / 探活脚本 5 种网络情形 + 状态机 2 次翻转 + parseArgs。
   另更新 `search-test.js`（外链期望 5 → 2，44/44）。全量回归：17/18/13/12/44/92/5 + vocab 66/21/26 全绿。
 
+### ⑯ 查词面板：多源回退 + 翻译 Tab + 新窗口跳转（2026-10-03，本轮）
+- **需求**：面板按「输入类型 + 语言」多源回退；所有在线请求必须经 Worker 代理（前端绝不直连）；
+  6+ 字符自动切翻译 Tab；外链点开新窗口；缓存 7 天；任何失败都不空白。
+- **数据：新增 Unihan 本地库**（`文本/新书/build_unihan_slim.py`）——从 UCD 官方 `Unihan.zip`
+  （8.3 MB，unicode.org 本机可达）抽 `kMandarin`（拼音）/ `kRSUnicode`（部首，214 部首表内置）/
+  `kTotalStrokes`（笔画）→ `_site_data/dict/unihan/0..127.json`（**102,999 字 / 3 MB / 24 KB 每片**），
+  并入 `dict_meta.json`。`--src/--zip/--dry-run`，缓存 zip 到 `/tmp`。
+- **Worker（Pages Functions）**：
+  - `/api/dict` 重写为多源：`moedict`（萌典，`Api-User-Agent`）/ `wiktionary` / `wikipedia` /
+    `freedict`（api.dictionaryapi.dev，**404 归一成 not found**）/ `unihan`（读 `env.ASSETS` 静态分片，
+    零网络；本地开发回退自取 URL）。统一 `{source, query, result}`（wiki 源另留顶层 `extract` 兼容旧调用方），
+    **上游超时 2.5s**（前端 3s），响应 `cache-control: max-age=86400` + CORS。
+  - 新增 `/api/dict-links?lang&q`：各语言新窗口链接模板（zh 漢典/萌典/教育部重編國語辭典/中文 Wiktionary、
+    en MW/Cambridge/Collins/Oxford、fr Larousse/CNRTL、de Duden/DWDS、es RAE、it Treccani、ru 维基词典；
+    未知语种 → `{lang}.wiktionary` + 英文兜底），**只返回 URL，不抓页面**。
+  - 新增 `/api/translate?q&from&to`：MyMemory 代理（繁中→zh-TW、简中→zh-CN 归一；q 截 500 字；配额 403 → 502 JSON）。
+- **前端 `js/dict-api.js`（新，纯逻辑、可 Node 单测）**：
+  - `classify()` 分五类（zh-char / zh-word / en-word / x-word / long）。**踩坑**：最初把「6+ 字符」当成全局规则，
+    误伤 `well-known`、`привет` 这类长单词 → 改为只对**汉字串**按 1/2–5/6+ 分类；拉丁词再按书籍语言
+    决定走 en 还是 `{lang}` 链。
+  - `chainOf()` 回退链 + `lookup()`：**白名单闸门**（`DictLinks.hostHidden`）在请求前判，被墙源直接 skip
+    （不建链、不请求）；每级 3s 超时 → 立即降级；结果归一（音标/拼音/词性/释义/wiki 摘要/部首笔画）；
+    `skipOffline` 供面板把离线单独渲染。
+  - `cachedGet()`：localStorage 缓存，key = `${source}:${lang}:${query}`，**TTL 7 天**；只认
+    `result/translatedText/links` 才算成功（防空 JSON 被当成功）。
+  - `links()`：Worker 模板 + `filterLinks()` 白名单过滤（被墙源剔除）；接口挂掉 → 回退本地白名单。
+  - `splitWords()`：注入的分词器（词表最长匹配）优先，否则汉字 2 字滑窗 + 西文按词；最多 8 段。
+  - `simplify()`：萌典/维基返回繁体 → opencc-js（与 reader.js 同款）转简，未加载则原样。
+- **前端面板（`reader.js` + `style.css`）**：
+  - Tab「释义 / 翻译」；释义 Tab = 在线回退链（来源标注 `dp-src` + 音标 + 词性 + 释义列表 +「尝试过的源」）
+    + **离线字典区永远显示**（本站词表 / 康熙 / 说文 / CC-CEDICT + 成分字）。
+  - 6+ 字符：自动切「翻译」Tab（自动翻译）+ 释义 Tab 逐词并列查（`.dp-wordbox`）。
+  - 「更多词典」折叠区（`.dp-more-head`）：`window.open` 新窗口，只跳转不抓页面；接口不可用时标注回退。
+  - 选词处理器上限从 **24 字放宽到 300 字**（否则整句永远进不了面板）。
+  - 失败语义：全挂 → 「未找到释义」+「在线释义暂不可用」+「（N 个源因被墙/被拦已跳过）」，**绝不空白**。
+- **测试**：新增 `tests/library/dict-fallback-test.js`（**98/98**，纯 Node 无 jsdom）：分类 / 回退链 /
+  逐级降级 / 门禁不发请求 / 超时映射 / 缓存 TTL / 英文·多语种链 / 逐词切分 / 外链过滤 / 翻译 /
+  三个 Function（moedict·freedict·unihan·dict-links·translate，含 404 归一、env.ASSETS、超时 502、参数校验）。
+  `dict-panel-e2e-test.js` **重写为 38 项**（真实 Function + 上游打桩：萌典命中、门禁跳过、全挂降级、
+  容错外链放入 wiktionary、多字链、6+ 字符翻译 Tab + 逐词查 + `/api/translate`、缓存、更多词典 3/4 条）。
+  全量回归：dict-proxy 21 ｜ dict-links 92 ｜ panel-e2e 38 ｜ dict-fallback 98 ｜ search 44 ｜
+  library-pending 17 ｜ shard-reader 12 ｜ deploy-trigger 5 ｜ vocab 66/21/26 —— **全绿**。
+- **踩坑（真 bug）**：① 早前的编辑误删 `cachedGet` → 面板报 `cachedGet is not defined`（测试抓住）；
+  ② `DictLinks.hiddenHosts()` 原来是「基线 hidden 的静态列表」，没跟随「容错外链」开关 → 闸门永远关着
+  （容错开了也不放 wiktionary）；已改为按 `stateOf()` 动态算，并新增 `hostHidden(host)`；
+  ③ 萌典 `meanings` 是对象数组，`normalize` 直接 `map(simplify)` 会得到 `[object Object]` → 兼容 `m.def` 与字符串。
+- ⚠️ **已知限制**：书籍 JSON 里没有 `lang` 字段 → `reader.js` 的 `bookLang()` 只能按正文推断（汉字 vs 拉丁），
+  所以**法/德/西等书里的拉丁词会按英文链查**；要精确支持，请在书数据里补 `lang`（前端已优先读 `book.lang`）。
+
 
 ### ⏭️ 下一步（待办）
 1. **检索页可优化**：快照层 11 MB 首搜要拉 64 片（已缓存 1 天）；若要更快可上「书名/篇名命中直接命中 + 快照懒加载」或
@@ -304,6 +353,8 @@
 5. 词表释义：仍 **待补 11623 + need_ai 16165**（可配 `DEEPSEEK_API_KEY` 做 AI 精修，或再引入词级源）。
 6. 可选：改写 `71d7901` 提交信息需 `rebase -i` + `push --force`。
 7. 接 FastAPI 后端（`read_count`/`added_at` 真值）—— 沿用 10-01 待办。
+8. **书数据补 `lang` 字段**：查词面板的多语种回退依赖它（现在只能按正文猜汉字/拉丁，法德西书会走英文链）。
+   在 `merge_to_site` / `gutenberg_import` 写书时带上 `lang` 即可，前端已优先读 `book.lang`。
 
 ## 已完成（2026-10-01）：维基文库书源 + 书库页重构（封面网格）
 

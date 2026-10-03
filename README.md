@@ -36,7 +36,11 @@
 
 - 📚 **五部分类** —— 经、史、子、集、丛（另有「近現代文學」归集部）。不是"小说/非小说"这种偷懒分法，是给每本书找个文化户口本。封面按五部配色（经深蓝 / 史赭石 / 子墨绿 / 集暗紫 / 丛深灰）。
 - 🔴 **红字释义** —— 正文里的生僻字、难词带下划线，点击即看拼音和释义。不用切出去查字典，阅读流不断。
-- 📖 **右侧释义面板**（桌面端）—— 聚合「本站释义 → 康熙字典 / 说文解字（离线分片）→ Wiktionary / 维基百科摘要」；**左键查词、右键送到 AI**。
+- 📖 **右侧查词面板**（桌面端）—— **双 Tab（释义 / 翻译）+ 多源回退**：
+  中文单字「离线（本站词表·康熙·说文）→ 萌典 → 中文 Wiktionary → Unihan（拼音·部首·笔画）」、
+  中文词语「CC-CEDICT → 萌典 → 中文 Wiktionary」、英文单词「Free Dictionary → en.wiktionary」、
+  多语种按书籍语言走 `{lang}.wiktionary`；**全部在线请求经同域 Worker 代理**，前端绝不直连第三方。
+  6+ 字符 / 整句自动切「翻译」Tab（MyMemory），释义 Tab 改为逐词并列查；离线结果永远显示，**绝不空白**。
 - 🎚 **三档阅读模式** —— 新手 / 进阶 / 专家＝字号＋注释密度，档位记在本地。
 - 🌐 **简体 / 繁体 / 英文** —— 正文可一键简繁互转；释义可在「简中 / 繁中 / English」三语间切换（默认繁中）。
 - 📜 **今日一句** —— 每天一句古文，点一下换一条。
@@ -92,7 +96,8 @@
 | `网站/_site_data/books.json` | 轻量目录索引 |
 | `网站/assets/data/books-data.json` | 书库页统一数据源（含来源/许可/简介/特色等 19 个字段） |
 | `网站/assets/data/wikisource-pending.json` | 书库「待入库」预览 |
-| `网站/_site_data/dict/{kangxi,shuowen,cedict}/0..127.json` | 康熙 / 说文 / CC-CEDICT 按首字码点分片，前端按需取 |
+| `网站/_site_data/dict/{kangxi,shuowen,cedict,unihan}/0..127.json` | 离线词典按首字码点分片（unihan = 拼音 / 部首 / 笔画，10.3 万字） |
+| `网站/functions/api/{dict,dict-links,translate}.js` | 同域 Worker 代理：`/api/dict`（moedict·wiktionary·freedict·unihan）· `/api/dict-links`（新窗口链接模板）· `/api/translate`（MyMemory） |
 | `网站/_site_data/dict/dict_links.json` | 站外词典白名单状态（探活结论：`enabled` / `hidden` + 连续成功/失败次数） |
 | `网站/_site_data/search/{meta,titles}.json` + `search/snap/0..63.json` | 检索索引：目录层（书名/作者/分类 + 全部篇目标题 0.9 MB）+ 快照层（每篇前后文 ~11 MB，64 片并行取） |
 | `网站/_site_data/vocab_final.json` | 前端词表（词边界 + 逐词释义，检索页/阅读页共用） |
@@ -154,6 +159,7 @@ bash 文本/新书/wikisource_recommended.sh 10     # 省略参数＝全部
 | `build_wikisource_index.py` `wikisource_index_backfill.py` | 维基文库索引生成 / 页面元数据补抓 |
 | `build_search_index.py`（`文本/`） | 生成检索索引：目录层（书名/作者/分类 + 全部篇目标题）+ 快照层（每篇前 180 字 + 尾 60 字，64 片） |
 | `build_dict_shards.py` | 离线词典分片：康熙 / 说文 / CC-CEDICT → `_site_data/dict/<name>/<首字码点%128>.json` |
+| `build_unihan_slim.py` | 从 UCD 官方 Unihan.zip 抽「拼音 / 部首 / 笔画」→ `_site_data/dict/unihan/0..127.json`（10.3 万字 / 3 MB） |
 | `deploy/dict_links_probe.js` | 站外词典**每周探活**（HEAD + 关键字）：识别阿里云拦截页 / 域名失效；连续 2 次成功才自动放出来 |
 
 站外词典探活（建议在**境内网络**跑：阿里云拦截与被墙只在境内出现，境外 CI 会把坏源误判为可用）：
@@ -178,10 +184,11 @@ node tests/vocab-matcher/integration-test.js  # 26 项（真实书 JSON + 真实
 
 # 书库 / 阅读 / 检索等页面（需要 jsdom，仓库无根 package.json，装在临时目录即可）
 npm i --prefix /tmp/vmtest jsdom
-for t in library-pending dict-proxy dict-panel-e2e shard-reader search dict-links deploy-trigger; do
+for t in library-pending dict-proxy dict-panel-e2e shard-reader search dict-links dict-fallback deploy-trigger; do
   JSDOM_PATH=/tmp/vmtest/node_modules/jsdom node tests/library/$t-test.js
 done
-#   书库「待入库」17 ｜ 词典代理 18 ｜ 查词面板 13 ｜ 分片书阅读 12 ｜ 检索 44 ｜ **词典白名单 92** ｜ 部署触发 5
+#   书库「待入库」17 ｜ 词典代理 21 ｜ 查词面板 e2e 38 ｜ 分片书阅读 12 ｜ 检索 44
+#   词典白名单 92 ｜ **多源回退 + 翻译 98**（纯 Node，无 jsdom）｜ 部署触发 5
 ```
 
 ## 接下来

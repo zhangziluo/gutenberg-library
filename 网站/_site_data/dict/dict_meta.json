@@ -18,6 +18,12 @@
    "entries": 198266,
    "size_kb": 11189,
    "label": "CC-CEDICT 英汉"
+  },
+  {
+   "name": "unihan",
+   "label": "統一漢字（拼音 · 部首 · 筆畫）",
+   "entries": 102999,
+   "size_kb": 3050
   }
  ],
  "note": "按「首字码点 % shards」取分片：_site_data/dict/<name>/<n>.json"

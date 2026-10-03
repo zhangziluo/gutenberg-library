@@ -283,7 +283,7 @@ async function testReaderPage() {
   console.log('\nC. 阅读页查词面板');
   const BOOK = process.env.BOOK || '論語';
   const scripts = ['common.js', 'vocab-matcher.js', 'annotation-lang.js',
-                   'dict-links.js', 'reader.js'];
+                   'dict-links.js', 'dict-api.js', 'reader.js'];
 
   async function clickFirstSingle(fallback) {
     const P = await openPage('reader.html',
@@ -319,12 +319,14 @@ async function testReaderPage() {
   HIDDEN_HOSTS.forEach(function (h) {
     ok(refs1.indexOf(h) < 0, '面板没有指向隐藏源的引用：' + h, refs1.slice(0, 120));
   });
-  const apiCalls = c1.P.calls.filter(function (u) { return u.indexOf('/api/dict') === 0; });
+  const apiCalls = c1.P.calls.filter(function (u) { return u.indexOf('/api/dict?') === 0; });
   ok(apiCalls.every(function (u) { return u.indexOf('source=wiktionary') < 0; }),
-     '在线摘要绝不使用 source=wiktionary（共 ' + apiCalls.length + ' 次请求）', apiCalls.join(' | '));
-  ok(apiCalls.every(function (u) { return /source=wikipedia&lang=zh&q=/.test(u); }),
-     '在线摘要只走 wikipedia（同域代理）');
+     '默认态绝不请求 source=wiktionary（被墙源，共 ' + apiCalls.length + ' 次请求）',
+     apiCalls.join(' | '));
+  ok(apiCalls.every(function (u) { return u.indexOf('/api/dict?source=') === 0; }),
+     '在线请求一律走同域 /api/dict（回退链）');
   ok(externalHosts(c1.P.calls).length === 0, '阅读页没有向外站发任何请求');
+  await waitFor(function () { return /已隐藏/.test(dpBody.textContent); });
   ok(/已隐藏 3 个不可用源/.test(dpBody.textContent), '面板写明「已隐藏 3 个不可用源」',
      dpBody.textContent.slice(-70));
   c1.P.dom.window.close();
@@ -335,9 +337,8 @@ async function testReaderPage() {
   ok(links2.length === 3, '开启「容错外链」后面板 3 条（实际 ' + links2.length + '）');
   ok(c2.P.doc.getElementById('dp-body').innerHTML.indexOf('zh.wiktionary.org') >= 0,
      '面板出现中文维基词典');
-  ok(c2.P.calls.filter(function (u) { return u.indexOf('/api/dict') === 0; })
-        .every(function (u) { return u.indexOf('source=wiktionary') < 0; }),
-     '即使开了容错外链，在线摘要仍不碰 wiktionary');
+  ok(c2.P.calls.some(function (u) { return u.indexOf('source=wiktionary') >= 0; }),
+     '开了「容错外链」后，回退链才会请求 wiktionary（默认态绝不请求）');
   c2.P.dom.window.close();
 }
 

@@ -26,16 +26,27 @@ function ok(cond, msg) {
 }
 
 /* ---------- A. 前端守卫 ---------- */
-console.log('A. 前端（reader.js）');
+console.log('A. 前端（reader.js + dict-api.js）');
 {
-  const src = fs.readFileSync(READER, 'utf8');
+  const reader = fs.readFileSync(READER, 'utf8');
+  const api = fs.readFileSync(path.join(path.dirname(READER), 'dict-api.js'), 'utf8');
   // 去掉注释再检查，避免把说明文字当成代码
-  const code = src.replace(/\/\*[\s\S]*?\*\//g, '').replace(/(^|\s)\/\/.*$/gm, '');
-  ok(code.includes("'/api/dict?source='"), '在线查词走同域 /api/dict');
+  const strip = s => s.replace(/\/\*[\s\S]*?\*\//g, '').replace(/(^|\s)\/\/.*$/gm, '');
+  const code = strip(reader);
+  const apiCode = strip(api);
+  ok(apiCode.includes("'/api/dict'") && apiCode.includes("'?source='") &&
+     apiCode.indexOf('api.dictionaryapi.dev') === -1,
+     '在线查词走同域 /api/dict（不在前端拼第三方域名）');
+  ok(apiCode.includes("'/api/dict-links'") && apiCode.includes("'/api/translate'"),
+     '外链与翻译也走同域 /api/*');
   ok(!code.includes('rest_v1/page/summary'), '不再使用 REST page/summary');
-  ok(!/https?:\/\/zh\.(wikipedia|wiktionary)\.org/.test(code),
+  ok(!/https?:\/\/zh\.(wikipedia|wiktionary)\.org/.test(code) &&
+     !/https?:\/\/zh\.(wikipedia|wiktionary)\.org/.test(apiCode),
      '不再直连 zh.wikipedia.org / zh.wiktionary.org');
+  ok(!/https?:\/\//.test(apiCode.replace(/https?:\/\/(api\.dictionaryapi\.dev|www\.moedict\.tw)[^\s'"]*/g, '')),
+     'dict-api.js 里除注释外没有第三方直连 URL');
   ok(code.includes('在线释义暂不可用'), '在线失败时有兜底文案「在线释义暂不可用」');
+  ok(code.includes('未找到释义'), '全部源失败时有「未找到释义」');
 }
 
 /* ---------- B. 代理函数 ---------- */

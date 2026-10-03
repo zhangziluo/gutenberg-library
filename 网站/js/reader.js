@@ -328,34 +328,95 @@ const POS_PREFIX = 'gjs:pos:';
     return shardCache[ck];
   }
 
-  /** 带超时的 JSON 请求（在线词典用，失败静默） */
-  function fetchJsonTimeout(url, ms) {
-    return new Promise(function (resolve, reject) {
-      let ctl = (typeof AbortController !== 'undefined') ? new AbortController() : null;
-      const timer = setTimeout(function () {
-        if (ctl) ctl.abort();
-        reject(new Error('timeout'));
-      }, ms);
-      fetch(url, ctl ? { signal: ctl.signal } : {})
-        .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-        .then(function (d) { clearTimeout(timer); resolve(d); })
-        .catch(function (e) { clearTimeout(timer); reject(e); });
-    });
+  /* ============ 查词：多源回退 + 翻译（所有在线请求走同域 /api/* 代理）============ */
+
+  /** 书 / 篇的语言（书数据没有 lang 字段就按正文推断） */
+  function bookLang() {
+    if (book && book.lang) return String(book.lang).toLowerCase();
+    let sample = '';
+    try {
+      const s0 = ((book && book.sections) || [])[0] || {};
+      sample = String((s0.paragraphs || []).join('')).slice(0, 400);
+    } catch (e) { sample = ''; }
+    const cjk = (sample.match(/[\u3400-\u9fff]/g) || []).length;
+    const lat = (sample.match(/[A-Za-z]/g) || []).length;
+    return (!cjk && lat) ? 'en' : 'zh';
   }
 
   /**
-   * 在线摘要 —— **走同域代理** /api/dict（绝不直连 zh.wikipedia.org 等第三方，
-   * 避免 CORS 与「网络连接已中断」）。失败/空数据返回 null（由调用方兜底）。
+   * 离线查词（注入给 DictApi 当回退链第 1 级）：
+   * 本站词表/注释 + 康熙/说文（单字）或 CC-CEDICT（词语）。
    */
-  function fetchOnlineSummary(source, label, word) {
-    const url = '/api/dict?source=' + encodeURIComponent(source) +
-                '&lang=zh&q=' + encodeURIComponent(word);
-    return fetchJsonTimeout(url, 7000).then(function (d) {
-      if (!d || d.error || !d.extract) return null;
-      return { label: label, text: String(d.extract) };
-    }).catch(function () {
-      return null;                      // 网络/超时/非 JSON → 交给兜底
+  function offlineLookup(kind, text) {
+    const entry = annLookup(text, text);
+    const gloss = annGlossText(entry) || '';
+    const base = { pinyin: (entry && entry.pinyin) || '', text: gloss, senses: [], extra: '' };
+    if (kind === 'zh-char') {
+      return Promise.all([loadDictShard('kangxi', text), loadDictShard('shuowen', text)])
+        .then(function (r) {
+          const bits = [];
+          if (r[0] && r[0][text]) bits.push('【康熙】' + r[0][text]);
+          if (r[1] && r[1][text]) bits.push('【说文】' + r[1][text]);
+          return { pinyin: base.pinyin, text: [gloss].concat(bits).filter(Boolean).join(' '),
+                   senses: [], extra: '' };
+        });
+    }
+    if (kind === 'zh-word') {
+      return loadDictShard('cedict', text).then(function (d) {
+        const bits = [gloss];
+        if (d && d[text]) bits.push('【CC-CEDICT】' + d[text]);
+        return { pinyin: base.pinyin, text: bits.filter(Boolean).join(' '), senses: [], extra: '' };
+      });
+    }
+    return base;
+  }
+
+  function dpDim(text) {
+    const p = document.createElement('p');
+    p.className = 'dp-dim';
+    p.textContent = text;
+    return p;
+  }
+  function dpText(text, cls) {
+    const p = document.createElement('p');
+    if (cls) p.className = cls;
+    p.textContent = text;
+    return p;
+  }
+
+  /** 把一条查词结果渲染成 DOM：来源标注 + 音标/拼音 + 词性 + 释义列表 */
+  function renderLookupValue(box, res) {
+    const v = res.value || {};
+    box.appendChild(dpText('来源：' + (res.label || v.source || '在线'), 'dp-src'));
+    const ph = [v.phonetic, v.pinyin].filter(function (x, i, a) {
+      return x && a.indexOf(x) === i;
+    }).join('  ');
+    if (ph) box.appendChild(dpText(ph, 'dp-py-line'));
+    if (v.extra) box.appendChild(dpText(v.extra, 'dp-dim'));
+    (v.senses || []).forEach(function (se) {
+      if (se.pos) box.appendChild(dpText(se.pos, 'dp-pos'));
+      const ol = document.createElement('ol');
+      ol.className = 'dp-defs';
+      (se.defs || []).forEach(function (d) {
+        const li = document.createElement('li');
+        li.textContent = d;
+        ol.appendChild(li);
+      });
+      if (ol.children.length) box.appendChild(ol);
     });
+    if (v.text) box.appendChild(dpText(v.text, 'dp-text'));
+  }
+
+  /** 逐词查的一行式摘要 */
+  function oneLine(res) {
+    const v = (res && res.value) || {};
+    const first = (v.senses || []).reduce(function (acc, se) {
+      return acc.length ? acc : (se.defs || []);
+    }, [])[0];
+    if (first) return first;
+    if (v.text) return v.text.slice(0, 80) + (v.text.length > 80 ? '…' : '');
+    if (v.pinyin) return v.pinyin;
+    return (res && res.label) || '';
   }
 
   function dpSec(title) {
@@ -374,114 +435,319 @@ const POS_PREFIX = 'gjs:pos:';
     renderDictPanel(word, key, parts);
   }
 
-  /** 渲染面板：本站释义 + 康熙/说文（单字，离线）+ 在线词典 */
+  /* 把离线查词与分词器注入回退链（DictApi 第 1 级 / 长文本逐词查） */
+  if (window.DictApi) {
+    DictApi.configure({
+      offline: offlineLookup,
+      segmenter: function (text) {
+        try {
+          if (matcher && typeof matcher.match === 'function') {
+            const hits = matcher.match(text, { mode: 'all' }) || [];
+            const words = hits.map(function (h) { return h.word; }).filter(Boolean);
+            if (words.length) return words;
+          }
+        } catch (e) { /* 分词器不可用 → 交给 DictApi 的朴素切分 */ }
+        return null;
+      }
+    });
+  }
+
+  /** 渲染面板：Tab（释义 / 翻译）+ 多源回退 + 更多词典 */
   function renderDictPanel(word, key, parts) {
     const entry = annLookup(key, word);
     dpWord.textContent = word;
     dpPy.textContent = (entry && entry.pinyin) ? entry.pinyin : '';
     dpBody.textContent = '';
 
-    const s1 = dpSec('本站释义');
-    const p1 = document.createElement('p');
-    const g = annGlossText(entry);
-    p1.textContent = g || (entry && entry.need_ai ? '（释义待精修）' : '（本站词表未收录）');
-    s1.appendChild(p1);
-    if (parts.length) {
-      const sub = document.createElement('p');
-      sub.className = 'dp-parts';
-      sub.textContent = '成分字：' + parts.map(function (pw) {
-        const pe = annLookup(pw, pw);
-        const pg = annGlossText(pe);
-        return pw + (pg ? '：' + pg : '');
-      }).join('；');
-      s1.appendChild(sub);
-    }
-    dpBody.appendChild(s1);
+    const cls = DictApi.classify(word, bookLang());      // zh-char / zh-word / en-word / x-word / long
 
-    const isSingle = word.length === 1 && /[\u3400-\u9fff\uf900-\ufaff]/.test(word);
-    if (isSingle) {
-      [['kangxi', '康熙字典'], ['shuowen', '说文解字']].forEach(function (pair) {
-        const s = dpSec(pair[1]);
-        const p = document.createElement('p');
-        p.className = 'dp-loading';
-        p.textContent = '加载中…';
-        s.appendChild(p);
-        dpBody.appendChild(s);
-        loadDictShard(pair[0], word).then(function (d) {
-          p.classList.remove('dp-loading');
-          p.textContent = d[word] || '（未收录）';
+    // ---- Tab 条：释义 / 翻译 ----
+    const tabs = document.createElement('div');
+    tabs.className = 'dp-tabs';
+    const btnDef = document.createElement('button');
+    btnDef.type = 'button';
+    btnDef.className = 'dp-tab is-active';
+    btnDef.textContent = '释义';
+    const btnTr = document.createElement('button');
+    btnTr.type = 'button';
+    btnTr.className = 'dp-tab';
+    btnTr.textContent = '翻译';
+    tabs.appendChild(btnDef);
+    tabs.appendChild(btnTr);
+    dpBody.appendChild(tabs);
+
+    const paneDef = document.createElement('div');
+    paneDef.className = 'dp-pane';
+    const paneTr = document.createElement('div');
+    paneTr.className = 'dp-pane';
+    paneTr.hidden = true;
+    dpBody.appendChild(paneDef);
+    dpBody.appendChild(paneTr);
+
+    function showTab(isDef) {
+      paneDef.hidden = !isDef;
+      paneTr.hidden = isDef;
+      btnDef.classList.toggle('is-active', isDef);
+      btnTr.classList.toggle('is-active', !isDef);
+    }
+    btnDef.addEventListener('click', function () { showTab(true); });
+    btnTr.addEventListener('click', function () { showTab(false); });
+
+    renderDefPane(paneDef, word, key, parts, cls);
+    renderTransPane(paneTr, word, cls);
+    renderMoreDicts(dpBody, word, cls.lang);
+
+    // 6+ 字符 / 整句：释义 Tab 只做逐词查 → 自动切到「翻译」
+    showTab(cls.kind !== 'long');
+
+    /* 离线区 / 在线回退链 / 更多词典：分别见 renderDefPane() · renderTransPane() · renderMoreDicts() */
+
+  }
+
+  /** 释义 Tab：在线回退链（带来源标注）+ 离线字典（永远展示 → 绝不空白） */
+  function renderDefPane(pane, word, key, parts, cls) {
+    // ---- 6+ 字符 / 整句：只逐词查，整句翻译在「翻译」Tab ----
+    if (cls.kind === 'long') {
+      const s0 = dpSec('逐词查（释义 Tab 只查单词；整句翻译见「翻译」Tab）');
+      pane.appendChild(s0);
+      const words = DictApi.splitWords(word, cls.lang);
+      if (!words.length) { s0.appendChild(dpDim('没有可查的词。')); return; }
+      words.forEach(function (w) {
+        const box = document.createElement('div');
+        box.className = 'dp-wordbox';
+        const h = document.createElement('h5');
+        h.textContent = w;
+        const p = dpText('查询中…', 'dp-loading');
+        box.appendChild(h);
+        box.appendChild(p);
+        s0.appendChild(box);
+        DictApi.lookup(w, { lang: cls.lang }).then(function (r) {
+          p.className = '';
+          p.textContent = r.ok ? ('【' + r.label + '】' + oneLine(r)) : '未找到释义';
+        }).catch(function () {
+          p.className = '';
+          p.textContent = '未找到释义';
         });
+      });
+      return;
+    }
+
+    // ---- 在线回退链：萌典 → 中文 Wiktionary（被墙源按白名单跳过）→ Unihan ----
+    const s1 = dpSec('释义');
+    const holder = document.createElement('div');
+    holder.appendChild(dpText('查询中…', 'dp-dim'));
+    s1.appendChild(holder);
+    pane.appendChild(s1);
+
+    DictApi.lookup(word, { lang: cls.lang, skipOffline: true }).then(function (r) {
+      holder.textContent = '';
+      if (r.ok) {
+        renderLookupValue(holder, r);
+      } else {
+        holder.appendChild(dpText('未找到释义', 'dp-warn'));
+        holder.appendChild(dpDim('试试下方「更多词典」；或在设置里开启「容错外链」后用中文 Wiktionary。'));
+      }
+      const online = r.tried.filter(function (t) { return t.source !== 'offline'; });
+      if (online.length && !online.some(function (t) { return t.ok; })) {
+        const skipped = online.filter(function (t) { return t.skipped; }).length;
+        holder.appendChild(dpText('在线释义暂不可用' +
+          (skipped ? '（' + skipped + ' 个源因被墙 / 被拦已跳过）' : ''), 'dp-warn'));
+      }
+      if (online.length) {
+        holder.appendChild(dpDim('尝试过的源：' + online.map(function (t) {
+          return t.label + (t.ok ? '✓' : (t.skipped ? '（跳过）' : '✗'));
+        }).join(' → ')));
+      }
+    }).catch(function (e) {
+      holder.textContent = '';
+      holder.appendChild(dpText('未找到释义', 'dp-warn'));
+      holder.appendChild(dpDim('查询异常：' + ((e && e.message) || e)));
+    });
+
+    // ---- 离线字典：永远展示（在线全挂也不空白）----
+    const s2 = dpSec(cls.kind === 'zh-char'
+      ? '离线字典（本站词表 · 康熙 · 说文）'
+      : '离线字典（本站词表 · CC-CEDICT）');
+    pane.appendChild(s2);
+    const off = document.createElement('div');
+    s2.appendChild(off);
+    const entry = annLookup(key, word);
+    const gloss = annGlossText(entry);
+    off.appendChild(dpText(gloss || (entry && entry.need_ai ? '（释义待精修）' : '（本站词表未收录）'),
+                           gloss ? 'dp-text' : 'dp-dim'));
+    if (parts.length) {
+      off.appendChild(dpText('成分字：' + parts.map(function (pw) {
+        const pg = annGlossText(annLookup(pw, pw));
+        return pw + (pg ? '：' + pg : '');
+      }).join('；'), 'dp-parts'));
+    }
+    if (cls.kind === 'zh-char') {
+      [['kangxi', '康熙字典'], ['shuowen', '说文解字']].forEach(function (pair) {
+        off.appendChild(dpText(pair[1], 'dp-sub-h'));
+        const p = dpText('加载中…', 'dp-loading');
+        off.appendChild(p);
+        loadDictShard(pair[0], word).then(function (d) {
+          p.className = 'dp-text';
+          p.textContent = (d && d[word]) || '（未收录）';
+        });
+      });
+    } else if (cls.kind === 'zh-word') {
+      off.appendChild(dpText('CC-CEDICT', 'dp-sub-h'));
+      const p = dpText('加载中…', 'dp-loading');
+      off.appendChild(p);
+      loadDictShard('cedict', word).then(function (d) {
+        p.className = 'dp-text';
+        p.textContent = (d && d[word]) || '（未收录）';
       });
     } else {
-      const s = dpSec('字形词典');
-      const p = document.createElement('p');
-      p.className = 'dp-dim';
-      p.textContent = '康熙字典/说文解字按单字收录，多字词请见上方「本站释义」。';
-      s.appendChild(p);
-      dpBody.appendChild(s);
+      off.appendChild(dpDim('离线词典只收中文单字 / 词；英文与多语种请见上方在线释义。'));
     }
+  }
 
-    // 在线词典：只对**单个汉字**查询。
-    // 多字（含选中的文言短句）直接跳过在线，只走离线：本站词表/分词 + 康熙/说文。
-    // ⚠️ 只用**维基百科**；中文维基词典是「被墙源」，按白名单规则**不参与任何自动摘要请求**
-    //    （只在面板底部「更多词典」里手动点开，见 js/dict-links.js）。
-    if (isSingle) {
-      const s3 = dpSec('在线词典（需联网）');
-      const box = document.createElement('div');
-      const hint = document.createElement('p');
-      hint.className = 'dp-dim';
-      hint.textContent = '查询中…';
-      s3.appendChild(box);
-      s3.appendChild(hint);
-      dpBody.appendChild(s3);
-      fetchOnlineSummary('wikipedia', '维基百科', word).then(function (r) {
-        const got = r ? [r] : [];
-        if (!got.length) {
-          // 兜底：绝不显示空白；离线康熙/说文已在上方展示
-          hint.className = 'dp-warn';
-          hint.textContent = '在线释义暂不可用';
-          return;
+  /** 语言下拉（value=MyMemory 语言码，text=显示名） */
+  const LANG_OPTS = ['zh-Hant|繁中', 'zh-Hans|简中', 'en|英文', 'fr|法语',
+                     'de|德语', 'es|西语', 'ru|俄语', 'ja|日文'];
+
+  function mkLangSel(def) {
+    const sel = document.createElement('select');
+    sel.className = 'dp-sel';
+    LANG_OPTS.forEach(function (p) {
+      const seg = p.split('|');
+      const o = document.createElement('option');
+      o.value = seg[0];
+      o.textContent = seg[1] || seg[0];
+      if (seg[0] === def) o.selected = true;
+      sel.appendChild(o);
+    });
+    return sel;
+  }
+
+  /** 翻译 Tab：MyMemory（经同域 /api/translate 代理）；6+ 字符自动翻 */
+  function renderTransPane(pane, word, cls) {
+    const s = dpSec('翻译（MyMemory · 同域代理）');
+    pane.appendChild(s);
+
+    const isZh = cls.lang === 'zh';
+    const from = mkLangSel(isZh ? 'zh-Hant' : (cls.lang || 'en'));
+    const to = mkLangSel(isZh ? 'en' : 'zh-Hans');
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'dp-btn';
+    btn.textContent = '翻译';
+
+    const row = document.createElement('div');
+    row.className = 'dp-trans-row';
+    row.appendChild(from);
+    row.appendChild(dpDim('→'));
+    row.appendChild(to);
+    row.appendChild(btn);
+    s.appendChild(row);
+
+    const out = document.createElement('div');
+    out.className = 'dp-trans-out';
+    out.appendChild(dpDim(cls.kind === 'long'
+      ? '整句翻译中…'
+      : '点「翻译」把选中的字词 / 句子译成目标语言。'));
+    s.appendChild(out);
+
+    function run() {
+      out.textContent = '';
+      out.appendChild(dpDim('翻译中…'));
+      DictApi.translate(word, { from: from.value, to: to.value }).then(function (r) {
+        out.textContent = '';
+        if (r.ok) {
+          out.appendChild(dpText(r.text, 'dp-trans-text'));
+          out.appendChild(dpDim('（' + r.from + ' → ' + r.to + (r.cached ? ' · 缓存' : ' · MyMemory') +
+                                (r.match ? ' · 匹配度 ' + Math.round(r.match * 100) + '%' : '') + '）'));
+        } else {
+          out.appendChild(dpText('翻译暂不可用（' + (r.error || '未知原因') + '）', 'dp-warn'));
+          out.appendChild(dpDim('稍后再试，或点下方「更多词典」换一家查。'));
         }
-        hint.hidden = true;
-        got.forEach(function (r) {
-          const sec = document.createElement('div');
-          sec.className = 'dp-online-sec';
-          const h = document.createElement('h5');
-          h.textContent = r.label;
-          const p = document.createElement('p');
-          p.textContent = r.text.slice(0, 200) + (r.text.length > 200 ? '…' : '');
-          sec.appendChild(h);
-          sec.appendChild(p);
-          box.appendChild(sec);
-        });
+      }).catch(function (e) {
+        out.textContent = '';
+        out.appendChild(dpText('翻译暂不可用（' + ((e && e.message) || e) + '）', 'dp-warn'));
       });
     }
+    btn.addEventListener('click', run);
+    if (cls.kind === 'long') run();          // 6+ 字符 / 整句：自动翻译
+  }
 
-    // --- 更多词典（站外白名单）：任何长度的词都显示；只渲染当前**可用**的源 ---
-    // hidden 的源不渲染按钮、不建链、不预取、不自动请求（规则见 js/dict-links.js）
+  /**
+   * 更多词典（折叠区）：链接模板来自 /api/dict-links，再按白名单过滤。
+   * 点击 → window.open（只跳转，**不 fetch 第三方页面**，绝不预取）。
+   */
+  function renderMoreDicts(container, word, lang) {
+    const s = dpSec('更多词典');
+    container.appendChild(s);
+
+    const head = document.createElement('button');
+    head.type = 'button';
+    head.className = 'dp-more-head';
+    head.textContent = '📖 展开（新窗口打开）';
+    const box = document.createElement('div');
+    box.className = 'dl-list';
+    box.hidden = true;
+    const tip = dpDim('');
+    tip.hidden = true;
+
+    head.addEventListener('click', function () {
+      box.hidden = !box.hidden;
+      head.textContent = box.hidden ? '📖 展开（新窗口打开）' : '📖 收起';
+    });
+    box.addEventListener('click', function (ev) {
+      const a = (ev.target && ev.target.closest) ? ev.target.closest('a[href]') : null;
+      if (!a) return;
+      ev.preventDefault();
+      try { window.open(a.getAttribute('href'), '_blank', 'noopener'); }
+      catch (e) { /* 弹窗被拦时交给 <a> 的默认行为 */ }
+    });
+
+    s.appendChild(head);
+    s.appendChild(box);
+    s.appendChild(tip);
+    box.appendChild(dpDim('加载中…'));
+
+    DictApi.links(lang, word).then(function (r) {
+      const list = r.links || [];
+      box.textContent = '';
+      if (!list.length) {
+        box.appendChild(dpDim('暂无可用的站外词典。'));
+        return;
+      }
+      list.forEach(function (it) {
+        const a = document.createElement('a');
+        a.className = 'dl-item';
+        a.href = it.url;
+        a.target = '_blank';
+        a.rel = 'noopener';
+        a.title = it.note || '';
+        a.setAttribute('data-dict-link', it.name);
+        const b = document.createElement('b');
+        b.textContent = it.name;
+        const sp = document.createElement('span');
+        sp.textContent = it.note || '';
+        a.appendChild(b);
+        a.appendChild(sp);
+        box.appendChild(a);
+      });
+      if (!r.fromApi) box.appendChild(dpDim('（词典接口不可用，已回退到本站白名单）'));
+      head.textContent = '📖 展开（新窗口打开 · ' + list.length + ' 个）';
+    }).catch(function () {
+      box.textContent = '';
+      box.appendChild(dpDim('词典链接加载失败。'));
+    });
+
     if (window.DictLinks) {
-      const s4 = dpSec('更多词典');
-      const box = document.createElement('div');
-      box.className = 'dl-list';
-      box.innerHTML = '<p class="dp-dim">加载中…</p>';
-      const tip = document.createElement('p');
-      tip.className = 'dp-dim';
-      s4.appendChild(box);
-      s4.appendChild(tip);
-      dpBody.appendChild(s4);
       DictLinks.ready().then(function () {
-        if (!DictLinks.render(box, word, { itemClass: 'dl-item' })) {
-          box.innerHTML = '<p class="dp-dim">暂无可用的站外词典（都在探活观察中）。</p>';
-        }
-        const hidden = DictLinks.SOURCES.filter(function (s) {
-          return s.lang === 'zh' && DictLinks.stateOf(s.id) === 'hidden';
+        const hidden = DictLinks.SOURCES.filter(function (x) {
+          return x.lang === 'zh' && DictLinks.stateOf(x.id) === 'hidden';
         });
-        if (!hidden.length) { tip.hidden = true; return; }
-        tip.innerHTML = '已隐藏 ' + hidden.length + ' 个不可用源（' + hidden.map(function (s) {
-          return DictLinks.esc(s.label);
+        if (!hidden.length) return;
+        tip.hidden = false;
+        tip.textContent = '已隐藏 ' + hidden.length + ' 个不可用源（' + hidden.map(function (x) {
+          return x.label;
         }).join('、') + '），不预取、不自动请求。' +
-          (DictLinks.fallbackEnabled() ? '' :
-            '需要被墙源可到 <a href="' + DictLinks.SETTINGS_HREF + '" target="_blank" rel="noopener">设置</a>开启「容错外链」。');
+          (DictLinks.fallbackEnabled() ? '' : '需要被墙源可在设置里开启「容错外链」。');
       });
     }
   }
@@ -506,7 +772,8 @@ const POS_PREFIX = 'gjs:pos:';
       const sel = window.getSelection && window.getSelection();
       if (!sel || sel.isCollapsed) return;
       const txt = String(sel).replace(/\s+/g, ' ').trim();
-      if (!txt || txt.length > 24) return;                 // 只查词/短语（≤24 字）
+      if (!txt) return;
+      if (txt.length > 300) return;                        // 整章 / 多段选择不查；≤300 字（含整句）都进面板
       const n = sel.anchorNode;
       const el = n && (n.nodeType === 1 ? n : n.parentElement);
       if (!el || !el.closest) return;

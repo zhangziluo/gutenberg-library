@@ -26,25 +26,35 @@ python3 -m http.server 8000
 
 然后访问：http://localhost:8000/网站/index.html
 
-## 在线词典代理（同域 `/api/dict`）
+## 在线词典代理（同域 `/api/*`）
 
-阅读页右侧释义面板的「在线词典」**绝不直连第三方**（避免 CORS 与「网络连接已中断」），
-统一走同域接口：
+查词面板与检索页的**所有在线请求都走同域 Worker**（Pages Function），前端绝不直连第三方
+（避免 CORS 与「网络连接已中断」）：
 
 ```
-GET /api/dict?source=wikipedia|wiktionary&lang=zh&q=<字>
-→ { "extract": "…" }            # 成功（页面首段）
-→ { "error": "not found" }      # 该页不存在（HTTP 200，仍是 JSON）
-→ { "error": "fetch failed" }   # 上游超时/网络失败（HTTP 502，仍是 JSON，绝不空响应）
+GET /api/dict?source=moedict&lang=zh&q=之        → 萌典（www.moedict.tw）
+GET /api/dict?source=wiktionary&lang=zh&q=之     → {lang}.wiktionary.org（extracts，截前 500 字）
+GET /api/dict?source=wikipedia&lang=zh&q=仁      → {lang}.wikipedia.org
+GET /api/dict?source=freedict&lang=en&q=hello    → api.dictionaryapi.dev（英文单词主源）
+GET /api/dict?source=unihan&q=国                 → **本站静态分片**（拼音 / 部首 / 笔画，不联网）
+GET /api/dict-links?lang=zh&q=之                 → 新窗口链接模板（只返回 URL，不抓页面）
+GET /api/translate?q=<文本>&from=zh-Hant&to=en    → MyMemory 翻译
+
+→ 成功 { source, query, result, … }；查不到 → 200 { error:"not found" }；上游失败 → 502 { error:"fetch failed" }
 ```
 
-- **实现**：`functions/api/dict.js`（Cloudflare Pages Function，与站点同域部署）。
-  转发到 `https://{lang}.{wikipedia|wiktionary}.org/w/api.php` 的 **Action API**
-  （`action=query&prop=extracts&...&origin=*`），响应头固定带 `Access-Control-Allow-Origin: *`，
-  8 秒超时 + try/catch，任何失败都返回 JSON 错误体。
-- **前端**（`js/reader.js`）：只对**单个汉字**查询在线；多字（含选中的文言短句）直接跳过在线，
-  只走离线（本站词表/分词 + 康熙/说文）。在线失败时面板底部提示「在线释义暂不可用」，
-  离线内容照常显示。
+- **实现**：`functions/api/{dict,dict-links,translate}.js`（Cloudflare Pages Function，与站点同域部署）。
+  转发到各上游（wiki Action API 带 `origin=*`；萌典 `Api-User-Agent`），响应头固定带
+  `Access-Control-Allow-Origin: *`，**上游超时 2.5s**（前端 3s 放弃，留返程余量）+ try/catch，
+  任何失败都返回 JSON 错误体；`unihan` 走 `env.ASSETS`（零网络）。
+- **前端**（`js/dict-api.js` 回退链 + `js/reader.js` 渲染）：
+  - 单字：离线（本站词表 · 康熙 · 说文）→ 萌典 → 中文 Wiktionary → Unihan（拼音 / 部首 / 笔画）；
+  - 词语（2–5 汉字）：CC-CEDICT → 萌典 → 中文 Wiktionary；
+  - 英文单词：Free Dictionary → en.wiktionary；多语种：`{lang}.wiktionary` → Free Dictionary({lang})；
+  - 6+ 字符 / 整句：自动切「翻译」Tab（MyMemory），释义 Tab 改为逐词并列查；
+  - **离线结果永远显示**；在线全挂 → 「未找到释义」+「在线释义暂不可用」，绝不空白；
+  - 结果缓存 localStorage（`${source}:${lang}:${query}`，TTL 7 天）；
+  - 「更多词典」折叠区点开才 `window.open`（只跳转，不抓第三方页面、不预取）。
 - **本地验证**（模拟同域环境）：
 
 ```bash
@@ -110,6 +120,7 @@ python3 export_json.py
     │   ├── home-search.js  首页搜索框（回车 → search.html）
     │   ├── search.js       检索页逻辑（目录层 + 快照层 + 「更多词典」外链）
     │   ├── dict-links.js   站外词典白名单（默认状态 + 探活结论 + 「容错外链」开关）
+    │   ├── dict-api.js     查词 API 客户端（回退链 / 缓存 / 超时，只打同域 /api/*）
     │   ├── dict-settings.js 设置页「词典外链」卡片逻辑
     │   └── dict-lookup.js  离线查词（康熙/说文/词表/CC-CEDICT 分片）
     ├── _site_data/         站点数据（单书 JSON + search/ + dict/ + vocab_final.json）

@@ -29,12 +29,18 @@ const TYPES = {
   '.txt': 'text/plain; charset=utf-8',
 };
 
-let dictFn = null;
-function loadFn() {
-  if (!dictFn) {
-    dictFn = import(pathToFileURL(path.join(SITE, 'functions/api/dict.js')).href);
+const fnCache = {};
+/** 按 /api/<name> 动态加载 functions/api/<name>.js（与 Pages 的路由行为一致） */
+function loadFn(name) {
+  if (!/^[a-z0-9-]+$/.test(name)) return Promise.reject(new Error('bad api name: ' + name));
+  if (!fnCache[name]) {
+    fnCache[name] = import(pathToFileURL(path.join(SITE, 'functions/api/' + name + '.js')).href)
+      .catch(function (e) {
+        fnCache[name] = null;
+        throw new Error('没有这个接口：/api/' + name + '（' + (e && e.message) + '）');
+      });
   }
-  return dictFn;
+  return fnCache[name];
 }
 
 const server = http.createServer(async (req, res) => {
@@ -44,8 +50,8 @@ const server = http.createServer(async (req, res) => {
   if (url.pathname.startsWith('/api/')) {
     const name = url.pathname.replace(/^\/api\//, '').replace(/\/$/, '');
     try {
-      const mod = await loadFn();
-      if (typeof mod.onRequest === 'function') {
+      const mod = await loadFn(name);
+      if (mod && typeof mod.onRequest === 'function') {
         const fnReq = new Request(url.href, { method: req.method, headers: req.headers });
         const fnRes = await mod.onRequest({ request: fnReq });
         res.writeHead(fnRes.status, Object.fromEntries(fnRes.headers));
