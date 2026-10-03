@@ -167,6 +167,32 @@
     多字**不发**在线请求。
 - **注意**：本机到 wikipedia.org 不通（函数返回 `fetch failed`），但**部署到 Cloudflare 后由边缘节点发起**，通常可取到摘要。
 
+### ⑫ 超大字书自动分片：修 Pages「25 MiB 单文件」部署失败（2026-10-03）
+- **症状**：Cloudflare Pages 构建失败 ——
+  `Error: Pages only supports files up to 25 MiB in size`，`_site_data/永樂大典.json is 51.4 MiB`。
+  （同批还有 冊府元龜 22 / 宋史 17 / 太平御覽 15 / 全唐詩 15 / 讀史方輿紀要 11 / 資治通鑑 9.4 MiB，
+  虽未超限但已严重拖慢阅读页加载。）
+- **根因**：维基文库这批大部头**正文本身就是巨量**（永樂大典 804 章 / 1580 万字），
+  `merge_to_site` 仍按「一本书一个 JSON」写，直接撞上 Pages 硬上限。体积主要在**正文**（46 MiB），
+  注释只占 2.3 MiB。
+- **改法**（`文本/新书/gutenberg_import.py`）：
+  - 新增 `write_site_book()`：单书 JSON > **8 MiB** 即改「**轻主文件 + 正文分片**」——
+    主文件 = 目录（title/category_label/number，**无 paragraphs**）+ annotations + `sharded:true`/`part_size:P`；
+    `_site_data/{书名}/{k}.json` = 该片 45 篇（含 paragraphs，紧凑 JSON）。
+    分片顺序与前端 `orderedSections()` **同序**（`_js_ordered_sections`），故 index 直接映射分片。
+  - 新增 `assert_no_oversize()`：merge 结束前扫全目录，**任何文件 > 25 MiB 直接 SystemExit**
+    （宁可在本地炸，也不要推到线上才发现）。
+  - `网站/js/reader.js`：若 `book.part_size` 且当前篇无 paragraphs → `await` 取 `_site_data/{书名}/{k}.json`
+    再渲染（失败仅 `console.warn`，页面仍可用）。`book.js` 只用篇目标题 → 无需改。
+  - `deploy/build.sh`：构建末尾加「单文件 ≤25 MiB」硬校验（同样 exit 1）。
+- **结果**：8 本自动分片（永樂大典 18 片 / 主文件 2.14 MiB；冊府元龜 8；宋史 6；全唐詩 6；
+  太平御覽 5；讀史方輿紀要 4；資治通鑑 4；新唐書 3）。
+  **网站/ 最大文件 7.43 MiB，超 25 MiB 文件 0 个**；文件总数 1000→1154（远低于 2 万上限）；
+  `dist/` 构建通过（981 M / 1148 文件）。
+- **测试**：`tests/library/shard-reader-test.js`（**9/9**）：主文件无 paragraphs、按需请求 `_site_data/永樂大典/2.json`、
+  正文渲染 2.4 万字、跨分片（第 190 篇）不串片、书页仍显示「共 804 篇」。
+- **注意**：分片书的「每日一句 anchor 定位」失效（主文件无正文可扫），会退回 index 0 / 上次位置。
+
 ### ⏭️ 下一步（待办）
 1. **手动分批重推**（交接点）：分章修复后的 `_site_data`（约 600 文件）待站长按已推批次重推（`bash ~/gutenberg_project/push_batch.sh K`）。当前**工作区未提交**。
 2. 剩余分章：8 本中 #317《The Culprit Fay》诗集（多行标题）未拆；如需可加「多行标题块」规则。

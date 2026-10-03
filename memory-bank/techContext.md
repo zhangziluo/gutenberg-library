@@ -57,6 +57,13 @@
   Action API（`prop=extracts` + `origin=*`），8s 超时、失败必返回 JSON、响应头带 `Access-Control-Allow-Origin: *`。
   前端只对**单个汉字**查在线（多字走离线），失败时面板提示「在线释义暂不可用」。
   本地验证：`node tests/library/serve-local.js 8790`（静态站 + 真实 Function）或 `npx wrangler pages dev 网站`。
+- **超大字书自动分片**（**新增 2026-10-03**）：单书 reader JSON > **8 MiB** 时，
+  `merge_to_site.write_site_book()` 改写为「轻主文件（目录 + 注释，无 `paragraphs`，带
+  `sharded/part_size`）+ `_site_data/{书名}/{k}.json` 正文分片（约 3 MiB/片）」；
+  `reader.js` 按 `part_size` 按需取当前篇。动机：Pages 单文件 ≤ 25 MiB，
+  永樂大典（804 章/1580 万字）曾达 **51.4 MiB** 导致构建失败。
+  `merge_to_site` 末尾 `assert_no_oversize()` + `deploy/build.sh` 均会硬校验 25 MiB 并 exit 1。
+  当前 8 本分片，网站/ 最大文件 7.43 MiB。测试 `tests/library/shard-reader-test.js`（9 项）。
 - `网站/js/common.js`：`DATA_BASE = '_site_data/'`，按 `_site_data/{書名}.json` 按需拉取单书。
 - 首页（`index.html`）由 `daily-sentence.js`（每日一句）/ `home-search.js`（全站搜索）/ `daily-gua.js`（今日一卦）驱动，不依赖 `js/index.js`。
 - `网站/js/reader.js`：正文渲染 + 简繁转换 + 注释小卡；**打标交给 `js/vocab-matcher.js`**

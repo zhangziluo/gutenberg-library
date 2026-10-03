@@ -55,6 +55,29 @@ cp -R "$ROOT/网站/library" "$DIST/library"
 # 清理 macOS 垃圾文件
 find "$DIST" -name '.DS_Store' -delete
 
+# 硬校验：单文件不得超过 Cloudflare Pages 的 25 MiB 上限
+# （超标会让 Pages 构建直接失败；超大字书应在 merge_to_site 里自动分片）
+echo "==> 校验单文件体积（Pages 上限 25 MiB）"
+python3 - "$DIST" <<'PY'
+import os
+import sys
+
+limit = 25 * 1024 * 1024
+bad = []
+for root, _dirs, files in os.walk(sys.argv[1]):
+    for fn in files:
+        p = os.path.join(root, fn)
+        sz = os.path.getsize(p)
+        if sz > limit:
+            bad.append((os.path.relpath(p, sys.argv[1]), sz))
+if bad:
+    for rp, sz in sorted(bad, key=lambda x: -x[1]):
+        print('❌ 超 25 MiB：%s（%.1f MiB）' % (rp, sz / 1048576.0))
+    print('   提示：大部头应在 文本/新书/merge_to_site.py（write_site_book）里自动分片')
+    sys.exit(1)
+print('  ✅ 无超限文件')
+PY
+
 echo "==> 构建完成:"
 du -sh "$DIST"
 echo "==> 文件数: $(find "$DIST" -type f | wc -l | tr -d ' ')"

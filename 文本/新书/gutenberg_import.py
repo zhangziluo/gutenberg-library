@@ -2406,6 +2406,94 @@ def highlights_for(raw):
     return tags
 
 
+# ---- 超大单书自动分片 ----
+# Cloudflare Pages 单文件硬上限 25 MiB；维基文库的大部头（永樂大典 804 章/1580 万字 ≈ 51 MiB）
+# 会直接让部署失败。超过阈值的单书改为「轻主文件 + 正文分片」，前端按需取当前篇。
+SHARD_LIMIT = 8 * 1024 * 1024      # 单书 JSON 超过它 → 分片
+SHARD_TARGET = 3 * 1024 * 1024     # 每片目标体积（约）
+CF_FILE_LIMIT = 25 * 1024 * 1024   # Pages 单文件上限
+
+
+def _js_ordered_sections(sections, categories):
+    """与前端 common.js 的 orderedSections() 同序：分类顺序 → 编号/标题。"""
+    out = []
+    for cat in (categories or []):
+        items = [s for s in sections if s.get('category_label') == cat]
+        items.sort(key=lambda s: ((0, s['number']) if s.get('number') is not None
+                                  else (1, s.get('title', ''))))
+        out.extend(items)
+    seen = set(id(s) for s in out)
+    for s in sections:
+        if id(s) not in seen:
+            out.append(s)
+    return out
+
+
+def write_site_book(title, reader):
+    """写 网站/_site_data/{书名}.json；超大书自动分片（返回 'single' 或 'shard:N'）。
+
+    分片形态（主文件很轻，正文按需加载）：
+      主文件 = {title, section_count, categories, annotations,
+                sharded:true, part_size:P, sections:[{title, category_label, number, …}]}
+      {书名}/{k}.json = {title, part:k, part_size:P, sections:[ …含 paragraphs… ]}
+    前后端约定同序（_js_ordered_sections == orderedSections），故 index 直接映射分片。
+    """
+    out_path = os.path.join(SITE_DATA, title + '.json')
+    shard_dir = os.path.join(SITE_DATA, title)
+    single_blob = json.dumps(reader, ensure_ascii=False, indent=2)
+    if len(single_blob.encode('utf-8')) <= SHARD_LIMIT:
+        if os.path.isdir(shard_dir):
+            shutil.rmtree(shard_dir)                 # 收缩后清掉历史分片
+        with open(out_path, 'w', encoding='utf-8') as f:
+            f.write(single_blob)
+        return 'single'
+
+    sections = _js_ordered_sections(reader.get('sections') or [],
+                                    reader.get('categories') or [])
+    total = len(single_blob.encode('utf-8'))
+    nparts = max(1, (total + SHARD_TARGET - 1) // SHARD_TARGET)
+    per = max(1, (len(sections) + nparts - 1) // nparts)
+
+    if os.path.isdir(shard_dir):
+        shutil.rmtree(shard_dir)
+    os.makedirs(shard_dir, exist_ok=True)
+
+    light = []
+    for k in range(0, len(sections), per):
+        chunk = sections[k:k + per]
+        for s in chunk:
+            light.append({kk: vv for kk, vv in s.items() if kk != 'paragraphs'})
+        with open(os.path.join(shard_dir, '%d.json' % (k // per)), 'w',
+                  encoding='utf-8') as f:
+            f.write(json.dumps({'title': title, 'part': k // per, 'part_size': per,
+                                'sections': chunk},
+                               ensure_ascii=False, separators=(',', ':')))
+
+    main = dict(reader)
+    main['sections'] = light
+    main['sharded'] = True
+    main['part_size'] = per
+    with open(out_path, 'w', encoding='utf-8') as f:
+        f.write(json.dumps(main, ensure_ascii=False, separators=(',', ':')))
+    return 'shard:%d' % ((len(sections) + per - 1) // per)
+
+
+def assert_no_oversize(directory):
+    """硬校验：任何交付文件不得超过 Pages 的 25 MiB（否则部署必失败）。"""
+    bad = []
+    for root, _dirs, files in os.walk(directory):
+        for fn in files:
+            p = os.path.join(root, fn)
+            sz = os.path.getsize(p)
+            if sz > CF_FILE_LIMIT:
+                bad.append((os.path.relpath(p, directory), sz))
+    if bad:
+        for rp, sz in sorted(bad, key=lambda x: -x[1]):
+            print('❌ 超 25 MiB（Pages 会拒绝）：%s（%.1f MiB）' % (rp, sz / 1048576))
+        raise SystemExit('存在超限文件，部署会失败 —— 见上方清单')
+    return True
+
+
 def merge_to_site():
     """按 library-index 重写阅读器单书文件 + books.json + books-data.json（含 catalog 主书）。"""
     lib_index = json.load(open(os.path.join(ROOT, 'library-index.json'), encoding='utf-8'))
@@ -2425,8 +2513,9 @@ def merge_to_site():
             raw = json.load(open(os.path.join(OUT_DIR, key + '.json'), encoding='utf-8'))
             reader = to_reader(key, raw)
             reader['annotations'] = raw.get('annotations', [])   # 统一前端口径：24本注释镜像到 _site_data
-            with open(os.path.join(SITE_DATA, title + '.json'), 'w', encoding='utf-8') as f:
-                json.dump(reader, f, ensure_ascii=False, indent=2)
+            shape = write_site_book(title, reader)              # 超大书自动分片（Pages 25 MiB 上限）
+            if shape != 'single':
+                print(f"  🧩 《{title}》体积过大 → 分片 {shape}")
             books_index[title] = books_index_entry(title, reader)   # books.json 仅存轻量目录
             merged_books.append({
                 'id': key, 'book_id': key, 'title': title, 'author': raw.get('author', '佚名'),
@@ -2494,6 +2583,8 @@ def merge_to_site():
     with open(books_json_path, 'w', encoding='utf-8') as f:
         json.dump(books_index, f, ensure_ascii=False, indent=2)
     print(f"✅ 共 {len(merged_books)} 本进入统一数据源 → {os.path.relpath(out_path, ROOT)}")
+    # 硬校验：任何文件超 25 MiB 都会让 Pages 构建失败（宁可在本地先炸）
+    assert_no_oversize(SITE_DATA)
 
 
 def _build_one(cfg):

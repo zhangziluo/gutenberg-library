@@ -53,7 +53,24 @@ const POS_PREFIX = 'gjs:pos:';
   localStorage.setItem(POS_PREFIX + bookName, String(index));
 
   loading.hidden = true;
-  const sec = sections[index];
+  let sec = sections[index];
+
+  // ---- 超大字书：正文分片按需加载（主文件只含目录 + 注释，见 merge_to_site 的分片逻辑）----
+  if (book.part_size && !(sec.paragraphs && sec.paragraphs.length)) {
+    try {
+      const k = Math.floor(index / book.part_size);
+      const part = await loadJSON(DATA_BASE + encodeURIComponent(book.title) +
+                                  '/' + k + '.json');
+      const arr = part.sections || [];
+      sec = arr[index - k * book.part_size] ||
+            arr.filter(function (s) {
+              return s.title === sec.title && s.number === sec.number;
+            })[0] || sec;
+    } catch (e) {
+      console.warn('分片正文加载失败（' + book.title + ' part ' +
+                   Math.floor(index / book.part_size) + '）：', e);
+    }
+  }
   const bookUrl = 'book.html?book=' + encodeURIComponent(bookName);
 
   document.title = sec.title + ' · 一堆古书';
