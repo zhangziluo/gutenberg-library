@@ -359,6 +359,22 @@
   用来判定「边缘能否访问某上游」。**待办**：等 GitHub 网络恢复、部署后用它对 MyMemory 做最终判定。
 - 🛟 **降级路径**：翻译失败时面板显示「翻译暂不可用（…）」+「右键选中文字送 🤖 AI 助手翻译」；
   释义 Tab（本次主功能）**完全不受影响**：萌典 / Free Dictionary / Unihan / wiki 均已线上实测可用。
+- ✅ **线上终验结果（释义链全通）**：
+  `source=moedict`（真实萌典：ㄓ/zhī/的、底。+ 英文释义）、`source=unihan`（国 → guó/囗/8 画）、
+  `source=freedict`（hello → 音标 + noun/verb/interjection）、`source=wikipedia`（仁 → 真摘要）、
+  `/api/dict-links`（4 条 zh 链接）——**全部 200 且内容正确**。
+- ❌ **仍未解决**：`/api/translate` **与** `/api/dict?source=translate` 上仍返回 CF 错误页（16B）。
+  已排除/已做的：
+  - 路由没注册？**否**（OPTIONS→204、缺 q→400 都正常）；上游不可达？**否**——用
+    `/api/dict?probe=…` 从边缘实测：MyMemory **429**（免费额度用尽，body 是
+    「MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY…」）、
+    gtx **429**（Google 也屏蔽 CF 出口 IP）、moedict 200（76ms）⇒ **边缘能访问上游**。
+  - 「非 2xx 未消费 body 会被判 502」的坑已修（统一先 `await r.text()` 再判断）——但 502 仍在。
+  - 下一步建议（择一）：① 用**带 Key 的翻译服务**（DeepL / Azure Translator / LibreTranslate 自建），
+    Key 放 Pages 环境变量；② 在 CF 面板看那次部署的 **build/runtime 日志**（Functions 的 502 会留痕）；
+    ③ 翻译 Tab 直接改为调用站内已有的 **AI 助手（用户自带 DeepSeek Key）**，绕开公共免费翻译的 IP 限流。
+- 📌 **公共免费翻译的现实**：MyMemory 匿名额度是 **按出口 IP 每天 5000 字**，而 CF 的出口 IP 是共享的
+  ⇒ 即使 502 修好，也可能经常拿到 429。要稳定就得自带 Key。
 - ⚠️ **运维提醒**：本机到 github.com:443 偶发长时间不通（本次 push 连续失败 3 次、每次 75s 超时后
   才第 4 次成功）——`git push` 建议写重试循环；`deploy/trigger_build.sh` 也因 wrangler OAuth 过期
   （`Invalid access token`，9109）暂时用不了，需要在面板重新登录 wrangler 或配 `.env` 的 `CF_DEPLOY_HOOK`。
