@@ -341,6 +341,28 @@
 - ⚠️ **已知限制**：书籍 JSON 里没有 `lang` 字段 → `reader.js` 的 `bookLang()` 只能按正文推断（汉字 vs 拉丁），
   所以**法/德/西等书里的拉丁词会按英文链查**；要精确支持，请在书数据里补 `lang`（前端已优先读 `book.lang`）。
 
+### ⑰ 线上部署排障：Functions 路由 + 翻译源（2026-10-03，接 ⑯）
+- 🐛 **重要发现**：线上 `/api/*` **从未生效过** —— 请求全被 SPA 兜底成首页 HTML（200 text/html），
+  前端只能降级到离线词典。定位办法：
+  - 线上 `/启动站点.command` 可取（该文件只在 `网站/`）→ 部署根 = `网站/` ✓
+  - 但 **CF Pages 只从「项目根目录」（= 仓库根）下的 `functions/` 读 Functions**，不会去构建输出目录里找；
+    实现放在 `网站/functions/api/*.js` → 三个接口都没注册。
+  - **修复**：新增仓库根 `functions/api/{dict,dict-links,translate}.js`，**只做 `export { onRequest } from '../../网站/functions/api/…'` 的转发层**
+    （实现仍只有一份，两种项目布局都能命中）。部署后 `/api/dict` 立即返回真实 JSON ✓
+- 🐛 **第二个坑**：`/api/translate` 稳定返回 CF 边缘错误页（16B `error code: 502`，用时 ~1.4s），
+  而同一 Function 里 `/api/dict` 访问 moedict / freedict / wikipedia 都正常 ⇒ 是**该上游请求让 isolate 挂掉**。
+  已做的加固：`onRequest` 全部包顶层 try/catch（任何意外都返回 JSON，绝不吐 CF 错误页）、
+  translate 改**双源**（MyMemory 主 → Google gtx 备，返回 `provider` 标注）、失败带 `tried[]`、
+  超时统一 2.5s、UA 改浏览器样。
+- 🔧 **诊断探针**（已随代码提交）：`/api/dict?probe=<url>`（只允许 `api.mymemory.translated.net` /
+  `translate.googleapis.com` / `www.moedict.tw` 三个主机，避免变开放代理）→ 返回 `{status, size, ms, sample}`，
+  用来判定「边缘能否访问某上游」。**待办**：等 GitHub 网络恢复、部署后用它对 MyMemory 做最终判定。
+- 🛟 **降级路径**：翻译失败时面板显示「翻译暂不可用（…）」+「右键选中文字送 🤖 AI 助手翻译」；
+  释义 Tab（本次主功能）**完全不受影响**：萌典 / Free Dictionary / Unihan / wiki 均已线上实测可用。
+- ⚠️ **运维提醒**：本机到 github.com:443 偶发长时间不通（本次 push 连续失败 3 次、每次 75s 超时后
+  才第 4 次成功）——`git push` 建议写重试循环；`deploy/trigger_build.sh` 也因 wrangler OAuth 过期
+  （`Invalid access token`，9109）暂时用不了，需要在面板重新登录 wrangler 或配 `.env` 的 `CF_DEPLOY_HOOK`。
+
 
 ### ⏭️ 下一步（待办）
 1. **检索页可优化**：快照层 11 MB 首搜要拉 64 片（已缓存 1 天）；若要更快可上「书名/篇名命中直接命中 + 快照懒加载」或

@@ -660,8 +660,9 @@ const POS_PREFIX = 'gjs:pos:';
           out.appendChild(dpDim('（' + r.from + ' → ' + r.to + (r.cached ? ' · 缓存' : ' · MyMemory') +
                                 (r.match ? ' · 匹配度 ' + Math.round(r.match * 100) + '%' : '') + '）'));
         } else {
-          out.appendChild(dpText('翻译暂不可用（' + (r.error || '未知原因') + '）', 'dp-warn'));
-          out.appendChild(dpDim('稍后再试，或点下方「更多词典」换一家查。'));
+          out.appendChild(dpText('翻译暂不可用（' + (r.error || '未知原因') +
+            (r.detail ? '：' + String(r.detail).slice(0, 40) : '') + '）', 'dp-warn'));
+          out.appendChild(dpDim('可稍后再试；或右键选中文字，送到右下角 🤖 AI 助手翻译。'));
         }
       }).catch(function (e) {
         out.textContent = '';
