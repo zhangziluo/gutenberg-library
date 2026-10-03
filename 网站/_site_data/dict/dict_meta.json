@@ -1,8 +1,24 @@
 {
  "shards": 128,
  "dicts": [
-  "kangxi",
-  "shuowen"
+  {
+   "name": "kangxi",
+   "entries": 48710,
+   "size_kb": 11662,
+   "label": "康熙字典"
+  },
+  {
+   "name": "shuowen",
+   "entries": 9815,
+   "size_kb": 498,
+   "label": "说文解字"
+  },
+  {
+   "name": "cedict",
+   "entries": 198266,
+   "size_kb": 11189,
+   "label": "CC-CEDICT 英汉"
+  }
  ],
- "note": "按首字码点 % shards 取分片"
+ "note": "按「首字码点 % shards」取分片：_site_data/dict/<name>/<n>.json"
 }

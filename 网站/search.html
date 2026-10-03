@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>检索 · 一堆古书</title>
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/search.css">
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img class="brand-icon" src="assets/images/brand-icon.png" alt="一堆古书"> 一堆古书</a>
+      <div class="header-actions">
+<div class="search-box">
+        <button id="search-toggle" type="button" title="搜索：書名 / 作者 / 分類" aria-label="搜索">🔍</button>
+        <input id="search-input" type="text" placeholder="搜書名 / 作者 / 分類" autocomplete="off" aria-label="搜索">
+        <div id="search-dropdown" hidden></div>
+      </div>
+
+        <span class="tagline">检索 · 查词</span>
+        <a class="tagline-link" href="index.html" title="返回首页">首页</a>
+        <a class="tagline-link" href="library.html" title="书库 · 经史子集丛">书库</a>
+        <a class="tagline-link" href="ai-settings.html" title="AI 设置 · 配置 API Key">AI 设置</a>
+        <a class="tagline-link" href="ai-guide.html" title="AI 新手指南">AI 指南</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container search-wrap">
+    <h1 class="search-title">🔍 检索 · 查词</h1>
+
+    <form class="search-bar" id="search-form" role="search" autocomplete="off">
+      <input id="q" type="search" placeholder="書名 / 作者 / 篇目 / 正文關鍵詞 / 單字查詞" aria-label="检索">
+      <button type="submit">檢索</button>
+    </form>
+    <p class="search-hint" id="search-hint">
+      支持：<b>书名 / 作者 / 分类</b>、<b>篇目标题</b>（如「學而第一」）、<b>正文关键词</b>（按篇首/篇尾快照定位）、
+      <b>单字查词</b>（康熙 · 说文 · 本站词表 · CC-CEDICT）。
+    </p>
+
+    <section class="s-block" id="block-dict" hidden>
+      <h2 class="s-h2">📖 离线查词 <span class="s-count" id="dict-count"></span></h2>
+      <div id="dict-body" class="s-body"></div>
+    </section>
+
+    <section class="s-block" id="block-titles" hidden>
+      <h2 class="s-h2">📚 书目 · 篇目 <span class="s-count" id="titles-count"></span></h2>
+      <div id="titles-body" class="s-body"></div>
+    </section>
+
+    <section class="s-block" id="block-text" hidden>
+      <h2 class="s-h2">📄 正文命中 <span class="s-count" id="text-count"></span></h2>
+      <div class="s-dim" id="text-progress"></div>
+      <div id="text-body" class="s-body"></div>
+    </section>
+
+    <section class="s-block" id="block-third" hidden>
+      <h2 class="s-h2">🔗 到第三方词典查 <span class="s-dim">（只给链接，不在此展示结果）</span></h2>
+      <div id="third-body" class="s-third"></div>
+    </section>
+
+    <div id="search-error" class="notice error" hidden></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-note">文本来源：古登堡计划（Project Gutenberg）与 维基文库（Wikisource）· 内容仅供学习研究使用</div>
+      <div class="footer-links"><a href="sponsor.html">捐助</a><a href="mailto:409543901@qq.com">聯繫</a><a href="links.html">相關鏈接</a><a href="https://ics-maker.pages.dev/" target="_blank" rel="noopener">日程編輯與提醒器</a><a href="https://create.myfami.cn" target="_blank" rel="noopener">站長的創作站點</a></div>
+    </div>
+  </footer>
+
+  <script src="js/common.js"></script>
+  <script src="js/dict-lookup.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/global-ai.js"></script>
+<!-- 全站搜索移动端浮层 -->
+  <div id="search-overlay" role="dialog" aria-label="搜索">
+    <div class="ov-head">
+      <input id="search-input-m" type="text" placeholder="搜書名 / 作者 / 分類" autocomplete="off">
+      <button id="search-close-m" type="button">關閉</button>
+    </div>
+    <div id="search-results-m"></div>
+  </div>
+  <script src="js/home-search.js"></script>
+</body>
+</html>

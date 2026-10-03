@@ -54,14 +54,28 @@
       '<div class="s-meta">' + esc(tags.join(' · ')) + (it.count != null ? ' · 共 ' + it.count + ' 篇' : '') + '</div></a>';
   }
 
+  /** 下拉末尾的「全站检索」入口：篇目 / 正文 / 查词 */
+  function moreHtml(q) {
+    if (!q) return '';
+    return '<a class="s-more" href="/search.html?q=' + encodeURIComponent(q) + '">' +
+      '🔍 全站检索「' + esc(q) + '」（篇目 · 正文 · 查词）</a>';
+  }
+
+  /** 回车 → 检索页（书名/作者/分类的即时下拉之外，还有篇目 + 正文 + 离线查词） */
+  function goSearch(q) {
+    q = String(q == null ? '' : q).trim();
+    if (!q) return;
+    location.href = '/search.html?q=' + encodeURIComponent(q);
+  }
+
   // ---- 桌面下拉 ----
   function doDesktopSearch(q) {
     var list = search(q);
     if (!q || !isMobile) {
       if (!q) { dropdown.hidden = true; return; }
-      dropdown.innerHTML = list.length
+      dropdown.innerHTML = (list.length
         ? list.slice(0, 12).map(itemHtml).join('')
-        : '<div class="s-empty">未找到匹配的書目</div>';
+        : '<div class="s-empty">未找到匹配的書目</div>') + moreHtml(q);
       dropdown.hidden = false;
     }
   }
@@ -83,6 +97,7 @@
   input.addEventListener('input', function () { doDesktopSearch(input.value); });
   input.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') { input.classList.remove('open'); dropdown.hidden = true; }
+    if (e.key === 'Enter') { e.preventDefault(); goSearch(input.value); }
   });
   input.addEventListener('blur', function () {
     setTimeout(function () { dropdown.hidden = true; }, 150);
@@ -91,12 +106,14 @@
   // ---- 移动端浮层 ----
   inputM.addEventListener('input', function () {
     var list = search(inputM.value);
-    resultsM.innerHTML = inputM.value.trim()
-      ? (list.length ? list.slice(0, 30).map(itemHtml).join('') : '<div class="s-empty">未找到匹配的書目</div>')
+    var q = inputM.value.trim();
+    resultsM.innerHTML = q
+      ? (list.length ? list.slice(0, 30).map(itemHtml).join('') : '<div class="s-empty">未找到匹配的書目</div>') + moreHtml(q)
       : '<div class="s-empty">輸入書名 / 作者 / 分類</div>';
   });
   inputM.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') closeM.click();
+    if (e.key === 'Enter') { e.preventDefault(); goSearch(inputM.value); }
   });
   closeM.addEventListener('click', function () { overlay.classList.remove('open'); });
 

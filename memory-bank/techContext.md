@@ -74,6 +74,14 @@
   `merge_to_site` 末尾 `assert_no_oversize()` + `deploy/build.sh` 均会硬校验 25 MiB 并 exit 1。
   当前 8 本分片，网站/ 最大文件 7.43 MiB。测试 `tests/library/shard-reader-test.js`（9 项）。
 - `网站/js/common.js`：`DATA_BASE = '_site_data/'`，按 `_site_data/{書名}.json` 按需拉取单书。
+- **全站检索 + 离线查词**（**新增 2026-10-03**）：`search.html` + `js/search.js` + `js/dict-lookup.js` + `css/search.css`。
+  索引 `_site_data/search/{meta,titles}.json` + `snap/0..63.json` —— **目录层** 0.9 MB（书名/作者/分类 + 24,753 条篇目标题）；
+  **快照层** 10.9 MB（每篇正文前 180 字 + 尾 60 字，按 `gIdx%64` 分片）→ 前端 64 片**并行 fetch、边到边扫**。
+  篇目顺序与 `common.js orderedSections()` 同序，结果里的 `?index=` 直跳阅读页。生成：`文本/build_search_index.py`
+  （`--snap-head/--snap-tail/--shards` 可调，`--dry-run` 先看体积）。
+  查词全离线：`_site_data/vocab_final.json` + `_site_data/dict/{kangxi,shuowen,cedict}/<首字码点%128>.json`；
+  第三方（漢典 / ctext / 維基詞典 / 國學大師 / 中華典藏）**只给外链**，本站不展示其内容。
+  `js/home-search.js` 回车 → `/search.html?q=…`。缓存：`网站/_headers` 给 `/_site_data/search/*`、`/_site_data/dict/*` 设 `max-age=86400`。
 - 首页（`index.html`）由 `daily-sentence.js`（每日一句）/ `home-search.js`（全站搜索）/ `daily-gua.js`（今日一卦）驱动，不依赖 `js/index.js`。
 - `网站/js/reader.js`：正文渲染 + 简繁转换 + 注释小卡；**打标交给 `js/vocab-matcher.js`**
   （中文 Trie 最长前缀匹配、英文整词正则 → `<wise data-word data-key>`；TreeWalker + 空闲分批）。
@@ -98,6 +106,11 @@
   - CLI：`--no-network`（离线）/ `--api-budget=N`（网络请求预算）。
 - `parse_ecdict.py`：下载并解析 ECDICT（MIT）→ 生成按首字母分片的英词释义库与常用词表（本地数据，已 gitignore）。
 - `add_books.sh` / `pipeline.sh`：一键入库与收尾流水线（详见 systemPatterns）。
+- `build_dict_shards.py`（**新增 2026-10-03**，仓库内版本；原脚本在 `~/gutenberg_project/scripts/`）：
+  把 `data/{kangxi,shuowen,cedict_words}.json` 拆成 `网站/_site_data/dict/<name>/<首字码点%128>.json`
+  （kangxi 48710 / shuowen 9815 / cedict 198266 条），并维护 `dict_meta.json`（shards + 词典清单）。`--only <name>` 可单跑。
+- `build_search_index.py`（`文本/`，**新增 2026-10-03**）：生成检索索引（目录层 + 快照层）到 `网站/_site_data/search/`；
+  遍历 `_site_data` 全部单书（分片书自动按序拼回），篇序复用 `build_sentences.ordered_sections`（与前端同序）。
 - `vocab_extract.py`：词汇抽取与分词（英文正则词形 + 中文 jieba/双向最大匹配），产出
   `文本/新书/vocab_raw.json`。CLI：`--granularity=word|book|chapter`、`--min-freq-zh/-en`、
   `--contexts/--ctx-width/--books-max`、`--select/--select-file`（划选词）、`--zh-dict/--min-dict-freq`、
@@ -177,6 +190,10 @@
   node tests/vocab-matcher/definition-show-test.js && node tests/vocab-matcher/reader-smoke-test.js
   ```
 - 当前状态（2026-09-29 晚，对最终 `vocab_final.json`）：**66/0、21/0、26/0、6/0、14/0 全绿**。
+- `tests/library/`（页面级，需 jsdom，2026-10-03 状态）：`library-pending-test.js` **17** ｜ `dict-proxy-test.js` **18** ｜
+  `dict-panel-e2e-test.js` **13** ｜ `shard-reader-test.js` **12** ｜ `search-test.js` **43** ｜ `deploy-trigger-test.js` **5**，全绿；
+  `serve-local.js` 是本地预览服务器（静态站 + 真实 Pages Function），用于人工验查词面板 / 检索页。
+  跑法：`for t in library-pending dict-proxy dict-panel-e2e shard-reader search deploy-trigger; do JSDOM_PATH=/tmp/vmtest/node_modules/jsdom node tests/library/$t-test.js; done`
 
 ## 本地环境注意事项
 - **本机无 `python`，只有 `python3`**；shell 为 **bash 3.2**（`set -u` 下空数组展开、`$VAR` 紧跟多字节字符

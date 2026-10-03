@@ -10,6 +10,7 @@
 | 首页 | `index.html` | 每日一句、经史子集分类入口、今日一卦 |
 | 书目 | `book.html?book=史記` | 按分类分组的篇目列表，支持搜索 |
 | 阅读 | `reader.html?book=史記&index=3` | 正文阅读，上一篇/下一篇、字号调节、进度记忆 |
+| 检索 | `search.html?q=子曰` | 书目 / 篇目 / 正文关键词 + 离线查词 + 第三方词典外链 |
 
 ## 如何运行
 
@@ -55,6 +56,23 @@ node tests/library/serve-local.js 8790        # 静态站 + /api/* 走真实 Fun
 > 注：本机到 wikipedia.org 可能不通（函数会返回 `{"error":"fetch failed"}`）；部署到
 > Cloudflare 后由边缘节点发起请求，通常可正常取到摘要。
 
+## 全站检索（`search.html`）
+
+一次搜四样：**书名 / 作者 / 分类**、**篇目标题**、**正文关键词**（定位到「书 → 篇」）、**单字/词查词**。
+首页搜索框（`js/home-search.js`）**回车即到**，下拉末尾也有「🔍 全站检索」入口。
+
+- **索引**（`_site_data/search/`，由 `文本/build_search_index.py` 生成）：
+  - 目录层 `titles.json`（0.9 MB）：790 本书 + **24,753 条篇目标题** → 秒回；
+  - 快照层 `snap/0..63.json`（10.9 MB）：每篇「正文前 180 字 + 尾 60 字」，前端 64 片**并行取出后扫一遍**
+    （页面上有「已扫描 N/64 片」进度）；因此**篇中段的关键词可能漏检**，页面里已注明。
+- **篇目下标与阅读页同序**（复用 `js/common.js` 的 `orderedSections()`）→ 结果直接 `reader.html?book=…&index=…`。
+- **离线查词**（`js/dict-lookup.js`，按需取分片，不整包下载）：
+  `_site_data/vocab_final.json`（本站词表）+ `_site_data/dict/{kangxi,shuowen,cedict}/<首字码点%128>.json`
+  （康熙 / 说文 / CC-CEDICT，`dict_meta.json` 里声明分片数与词典清单）。
+- **第三方词典只给外链**：漢典 / 中國哲學書電子化計劃 / 維基詞典 / 國學大師 / 中華典藏 —— 点开新窗口，
+  结果不在本站展示（`target="_blank" rel="noopener"`）。
+- 缓存：`_headers` 给 `/_site_data/search/*`、`/_site_data/dict/*` 设 `Cache-Control: max-age=86400`。
+
 ## 数据更新
 
 文本切分文件变化后，重新导出数据即可（页面无需改动）：
@@ -72,14 +90,20 @@ python3 export_json.py
     ├── index.html          首页（每日一句 + 五部分类入口）
     ├── book.html           书目（按分类分组 + 搜索）
     ├── reader.html         阅读器（上一篇/下一篇、字号、进度记忆）
+    ├── search.html         检索（书目/篇目/正文 + 离线查词 + 第三方外链）
     ├── ai-settings.html    AI 设置（全局 AI 助手 API Key）
     ├── ai-guide.html       AI 新手指南
     ├── css/style.css       样式
+    ├── css/search.css      检索页样式
     ├── js/
     │   ├── common.js       公共：数据加载、排序、工具函数
     │   ├── book.js         书目逻辑
-    │   └── reader.js       阅读逻辑
+    │   ├── reader.js       阅读逻辑
+    │   ├── home-search.js  首页搜索框（回车 → search.html）
+    │   ├── search.js       检索页逻辑（目录层 + 快照层 + 外链）
+    │   └── dict-lookup.js  离线查词（康熙/说文/词表/CC-CEDICT 分片）
+    ├── _site_data/         站点数据（单书 JSON + search/ + dict/ + vocab_final.json）
     └── 启动站点.command     一键启动脚本（macOS）
 ```
 
-数据路径：`../文本/_site_data/*.json`（相对本目录）。
+数据路径：`_site_data/*.json`（相对本目录；单书按需加载，检索索引在 `_site_data/search/`，词典分片在 `_site_data/dict/`）。

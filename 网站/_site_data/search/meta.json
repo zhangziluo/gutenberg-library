@@ -1,0 +1,10 @@
+{
+ "built": "2026-10-03",
+ "books": 790,
+ "sections": 24753,
+ "snap_shards": 64,
+ "snap_head": 180,
+ "snap_tail": 60,
+ "max_kb": 178.4,
+ "note": "目录层 titles.json（书名/作者/分类 + 全部篇目标题）；快照层 snap/{n}.json（每篇正文前 H 字 + 尾 T 字）"
+}

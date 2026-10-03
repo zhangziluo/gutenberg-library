@@ -11,3 +11,11 @@
 # 同域词典代理（Pages Function：网站/functions/api/dict.js）—— 兜底 CORS 头
 /api/*
   Access-Control-Allow-Origin: *
+
+# 检索索引（titles.json 0.9 MB + 快照 64 片 ~11 MB）：查一次后当天不再重下
+/_site_data/search/*
+  Cache-Control: max-age=86400
+
+# 离线词典分片（康熙/说文/CC-CEDICT，按首字码点取片）：同样缓存 1 天
+/_site_data/dict/*
+  Cache-Control: max-age=86400

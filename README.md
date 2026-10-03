@@ -20,13 +20,15 @@
 
 | | 数量 |
 |---|---|
-| 上架图书（`books-data.json`） | **195 本**（中文 116 · 英文 79） |
-| 篇目合计 | **7,090 篇** |
-| 分类明细（`library-index.json`） | 經 11 · 史 8 · 子 97 · 集 62 · 近現代文學 8 · 叢 1 |
-| 书源 | 古登堡计划 **180** 本 · 维基文库 **15** 本 |
-| 单书正本（`data/books/`） | 720 个 JSON |
-| 阅读器数据（`网站/_site_data/`） | 约 690 个 JSON（单书 + 目录/词表）＋ 康熙·说文分片 256 个 |
-| 全站文件 | ≈ 1000（Cloudflare Pages 上限 20,000，还很宽裕） |
+| 上架图书（`books-data.json`，书库页展示） | **295 本**（中文 216 · 英文 79） |
+| 篇目合计（上架） | **14,773 篇** |
+| 分类明细 | 經 **34** · 史 **35** · 子 **140** · 集 **82** · 叢 **4** |
+| 书源 | 古登堡计划 **177** 本 · 维基文库 **118** 本 |
+| 阅读器数据（`网站/_site_data/`） | **792 个 JSON**（790 单书 + 目录 / 词表）＋ 词典分片 384 ＋ 检索索引 65 |
+| 全站文件 | ≈ **1,348**（Cloudflare Pages 上限 20,000，还很宽裕） |
+
+> ℹ️ `_site_data/` 里另有 **495 本**（多数是古登堡英文批量书）能被阅读、能被检索，但还没写进 `books-data.json`，
+> 所以书库页不列它们 —— 用 **`search.html` 检索页**能直接搜到并点进阅读页。
 
 英文书不是"外挂"：小说归 **子部·小说家**（志怪 / 公案 / 童话 / 寓言）、戏剧归 **集部·戏曲**、随笔归 **集部·别集**、食谱归 **子部·谱录**——跟中文书用同一套"文化户口本"。
 
@@ -41,6 +43,9 @@
 - ☯️ **今日一卦** —— 每天一卦，配易经原文。当签抽着玩。
 - 🤖 **AI 助手** —— 接入 DeepSeek（自带 Key，存本地），支持问答、翻译、书籍推荐，回答可存为笔记。
 - 📥 **书库「待入库」预览** —— 维基文库还有 1000+ 本候选，书库页可直接预览、一键复制入库命令，慢慢搬。
+- 🔍 **全站检索**（`search.html`）—— 一次搜四样：**书名 / 作者 / 分类**、**篇目标题**（如「學而第一」）、
+  **正文关键词**（按篇首/篇尾快照定位到「书 → 篇」，直接跳阅读页）、**单字查词**（康熙 / 说文 / 本站词表 / CC-CEDICT）。
+  首页搜索框回车即达；查不到时给漢典 / ctext / 维基词典等外链，**不在本站展示第三方结果**。
 - 🔒 **不登录、无后端** —— 纯静态站，数据全在你自己浏览器里。
 
 
@@ -52,6 +57,7 @@
 | 书库 | `library.html` | 封面网格 + 分类页签 + 排序 + 搜索 + 分页；可切「待入库 · 维基文库」 |
 | 书目 | `book.html?book=史記` | 详情页（大封面 / 批注者 / 本版特色 / 开始阅读） |
 | 阅读 | `reader.html?book=史記&index=3` | 正文 + 注释 + 释义面板，翻章、字号、进度记忆 |
+| 检索 | `search.html?q=子曰` | 书目 / 篇目 / 正文关键词 + 离线查词 + 第三方词典外链 |
 | 分部 | `category/jing.html` 等 | 经 / 史 / 子 / 集 / 丛 五部分类页 |
 | 其他 | `ai-settings.html` · `ai-guide.html` · `links.html` · `sponsor.html` · `writing/` | AI 设置 / 新手指南 / 友链 / 捐助 / 网站日志 |
 
@@ -84,7 +90,9 @@
 | `网站/_site_data/books.json` | 轻量目录索引 |
 | `网站/assets/data/books-data.json` | 书库页统一数据源（含来源/许可/简介/特色等 19 个字段） |
 | `网站/assets/data/wikisource-pending.json` | 书库「待入库」预览 |
-| `网站/_site_data/dict/{kangxi,shuowen}/0..127.json` | 康熙 / 说文按字码点分片，前端按需取 |
+| `网站/_site_data/dict/{kangxi,shuowen,cedict}/0..127.json` | 康熙 / 说文 / CC-CEDICT 按首字码点分片，前端按需取 |
+| `网站/_site_data/search/{meta,titles}.json` + `search/snap/0..63.json` | 检索索引：目录层（书名/作者/分类 + 全部篇目标题 0.9 MB）+ 快照层（每篇前后文 ~11 MB，64 片并行取） |
+| `网站/_site_data/vocab_final.json` | 前端词表（词边界 + 逐词释义，检索页/阅读页共用） |
 
 > Cloudflare Pages 有 **单文件 ≤ 25 MiB、文件数 ≈ 20,000** 的硬上限，所以正文与注释始终拆到单书文件、按需请求；词典也分片；书库索引只留目录字段。
 
@@ -141,6 +149,8 @@ bash 文本/新书/wikisource_recommended.sh 10     # 省略参数＝全部
 | `fill_glosses.py` `definition_fill.py` | 释义回填（CC-CEDICT / 新华 / 康熙 / 说文 / ECDICT / 网络词典） |
 | `vocab_extract.py` `build_vocab_final.py` | 全库词汇抽取 → 前端词表（供正文分词定边界） |
 | `build_wikisource_index.py` `wikisource_index_backfill.py` | 维基文库索引生成 / 页面元数据补抓 |
+| `build_search_index.py`（`文本/`） | 生成检索索引：目录层（书名/作者/分类 + 全部篇目标题）+ 快照层（每篇前 180 字 + 尾 60 字，64 片） |
+| `build_dict_shards.py` | 离线词典分片：康熙 / 说文 / CC-CEDICT → `_site_data/dict/<name>/<首字码点%128>.json` |
 
 维基文库那套的采集与入库说明见 `文本/新书/wikisource_index_guide.md`。
 
@@ -152,9 +162,12 @@ node -e "const V=require('./网站/js/vocab-matcher.js');console.log(V.selftest(
 node tests/vocab-matcher/dom-test.js          # 21 项
 node tests/vocab-matcher/integration-test.js  # 26 项（真实书 JSON + 真实词表 + opencc 简繁）
 
-# 书库页（需要 jsdom，仓库无根 package.json，装在临时目录即可）
+# 书库 / 阅读 / 检索等页面（需要 jsdom，仓库无根 package.json，装在临时目录即可）
 npm i --prefix /tmp/vmtest jsdom
-JSDOM_PATH=/tmp/vmtest/node_modules/jsdom node tests/library/library-pending-test.js    # 17 项
+for t in library-pending dict-proxy dict-panel-e2e shard-reader search deploy-trigger; do
+  JSDOM_PATH=/tmp/vmtest/node_modules/jsdom node tests/library/$t-test.js
+done
+#   书库「待入库」17 ｜ 词典代理 18 ｜ 查词面板 13 ｜ 分片书阅读 12 ｜ **检索 43** ｜ 部署触发 5
 ```
 
 ## 接下来

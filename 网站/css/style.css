@@ -134,6 +134,10 @@ body {
 .s-meta { color: var(--ink-soft); font-size: 12px; margin-top: 2px; }
 .s-empty { padding: 14px; color: var(--ink-soft); font-size: 13px; }
 
+/* 下拉末尾的「全站检索」入口 */
+.s-more { display: block; margin-top: 6px; padding: 10px 14px; border-top: 1px dashed var(--line, #ddd);
+  color: var(--accent, #8b5e34); font-size: 13px; font-weight: 600; }
+
 /* 移动端搜索浮层 */
 #search-overlay {
   position: fixed; inset: 0; background: var(--paper-light); z-index: 20000;
