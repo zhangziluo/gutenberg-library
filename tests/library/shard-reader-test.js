@@ -108,6 +108,31 @@ function inject(doc, files) {
   ok(body2.length > 200, '跨分片（第 ' + far + ' 篇）也能渲染（' + body2.length + ' 字）');
   ok(body2 !== body, '不同篇目内容不同（未串片）');
 
+  // 锚点定位：分片书主文件带 anchors（每篇首个有内容段落的前 60 字）→ ?anchor= 也能直达
+  const partData = JSON.parse(fs.readFileSync(
+    path.join(ROOT, '_site_data', BOOK, part + '.json'), 'utf8'));
+  const local = INDEX - part * main.part_size;
+  const target = partData.sections[local];
+  const clean = p => String(p || '').replace(/[\u200b-\u200f\u2060\ufeff]/g, '').trim();
+  const head = (target.paragraphs || []).map(clean).filter(p => p.length >= 4)[0] || '';
+  const anchorText = head.slice(0, 24);
+  ok(anchorText.length >= 6, '取出该篇锚点文本：' + anchorText);
+  ok((main.anchors || []).some(h => h && h.indexOf(anchorText) >= 0),
+     '主文件 anchors 表里能找到该锚点');
+
+  const envA = makeDom('reader.html',
+    '?book=' + encodeURIComponent(BOOK) + '&anchor=' + encodeURIComponent(anchorText));
+  inject(envA.doc, ['common.js', 'vocab-matcher.js', 'annotation-lang.js', 'reader.js']);
+  let titleA = '';
+  for (let i = 0; i < 120; i++) {
+    const t = envA.doc.querySelector('.reader-title');
+    titleA = t ? t.textContent : '';
+    if (titleA) break;
+    await sleep(50);
+  }
+  ok(titleA === target.title,
+     '?anchor= 在分片书里定位到正确篇目（' + titleA + '）', target.title);
+
   // 书页：轻主文件也应能列出篇目
   const env3 = makeDom('book.html', '?book=' + encodeURIComponent(BOOK));
   inject(env3.doc, ['common.js', 'book.js']);

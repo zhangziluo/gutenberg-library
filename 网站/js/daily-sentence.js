@@ -39,8 +39,9 @@
     var src = '—— 《' + rec.book + '》';
     if (rec.chapter && rec.chapter !== rec.book) src += ' · ' + rec.chapter;
     $('daily-source').textContent = src;
-    // 「开始阅读 →」：跳转阅读页并带 anchor 高亮
+    // 「开始阅读 →」：带篇目序号精准定位（分片书也能直达），并带 anchor 高亮该句
     $('daily-read').href = 'reader.html?book=' + encodeURIComponent(rec.book) +
+      (rec.sec != null ? '&index=' + encodeURIComponent(rec.sec) : '') +
       '&anchor=' + encodeURIComponent(rec.anchor || rec.text);
     $('daily-loading').hidden = true;
     $('daily-empty').hidden = true;

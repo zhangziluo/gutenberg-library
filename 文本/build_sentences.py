@@ -15,7 +15,7 @@ import json
 import gzip
 
 BASE = os.path.dirname(os.path.abspath(__file__))          # 文本/
-DATA = os.path.join(BASE, '_site_data')
+DATA = os.path.join(BASE, '..', '网站', '_site_data')       # 站点数据（含分片书的主文件/分片）
 OUT_DIR = os.path.join(BASE, '..', '网站', 'library', 'sentences')
 MANIFEST_OUT = os.path.join(BASE, '..', '网站', 'library', 'sentence-manifest.json')
 
@@ -69,15 +69,56 @@ def split_paragraph(para, poetry_next):
     return [u.strip() for u in units if u.strip()], False
 
 
+def ordered_sections(sections, categories):
+    """与前端 common.js orderedSections() **同序**：分类顺序 → 编号/标题。
+
+    阅读页的 ?index= 是这套顺序下的下标；句子池的 sec 必须用同一套，
+    否则多分类书（如三國志：魏書/蜀書/吳書）会跳到错篇。
+    """
+    out = []
+    for cat in (categories or []):
+        items = [s for s in sections if s.get('category_label') == cat]
+        items.sort(key=lambda s: ((0, s['number']) if s.get('number') is not None
+                                  else (1, s.get('title', ''))))
+        out.extend(items)
+    seen = set(id(s) for s in out)
+    for s in sections:
+        if id(s) not in seen:
+            out.append(s)
+    return out
+
+
+def load_sections(book_name):
+    """读单书 sections（**已按前端同序排好**）。分片书主文件里没有正文，
+    需从 _site_data/{书名}/{k}.json 按序拼回。"""
+    path = os.path.join(DATA, book_name + '.json')
+    if not os.path.exists(path):
+        return None
+    data = json.load(open(path, encoding='utf-8'))
+    cats = data.get('categories') or []
+    if not data.get('sharded'):
+        return ordered_sections(data.get('sections') or [], cats)
+    secs = []
+    sdir = os.path.join(DATA, book_name)
+    k = 0
+    while True:
+        p = os.path.join(sdir, '%d.json' % k)
+        if not os.path.exists(p):
+            break
+        secs.extend(json.load(open(p, encoding='utf-8')).get('sections') or [])
+        k += 1
+    return ordered_sections(secs, cats)
+
+
 def build_for_book(book_name, cat, book_id):
     path = os.path.join(DATA, book_name + '.json')
     if not os.path.exists(path):
         print(f'  ⚠️ 缺少 {path}，跳过')
         return []
-    data = json.load(open(path, encoding='utf-8'))
+    sections = load_sections(book_name) or []
     recs = []
     seen = set()
-    for si, sec in enumerate(data.get('sections', [])):
+    for si, sec in enumerate(sections):
         chapter = sec.get('title', '')
         poetry_next = False
         for pi, para in enumerate(sec.get('paragraphs', [])):
@@ -94,6 +135,7 @@ def build_for_book(book_name, cat, book_id):
                     'book': book_name,
                     'bookId': book_id,
                     'chapter': chapter,
+                    'sec': si,          # 篇目序号（0 基，与阅读页 ?index= 一致 → 分片书也能精准跳转）
                     'anchor': s,
                     'length': len(s),
                 })

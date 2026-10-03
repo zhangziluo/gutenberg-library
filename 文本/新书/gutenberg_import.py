@@ -2429,6 +2429,23 @@ def _js_ordered_sections(sections, categories):
     return out
 
 
+# 零宽/不可见字符（维基文库正文里偶见，会占掉「首段」）
+_INVISIBLE = dict.fromkeys(map(ord, '\u200b\u200c\u200d\u2060\ufeff'), None)
+
+
+def _clean_head(text):
+    return (text or '').translate(_INVISIBLE).strip()
+
+
+def _section_head(section, n=60):
+    """取该篇第一个「有内容」的段落前 n 字（跳过空白/零宽占位段）。"""
+    for p in (section.get('paragraphs') or []):
+        s = _clean_head(p)
+        if len(s) >= 4:
+            return s[:n]
+    return ''
+
+
 def write_site_book(title, reader):
     """写 网站/_site_data/{书名}.json；超大书自动分片（返回 'single' 或 'shard:N'）。
 
@@ -2473,6 +2490,9 @@ def write_site_book(title, reader):
     main['sections'] = light
     main['sharded'] = True
     main['part_size'] = per
+    # 轻量锚点表：每篇「首个有内容的段落」前 60 字
+    # （供 ?anchor=<句> 在分片书里定位；正文本体在分片里，主文件不带 paragraphs）
+    main['anchors'] = [_section_head(s) for s in sections]
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write(json.dumps(main, ensure_ascii=False, separators=(',', ':')))
     return 'shard:%d' % ((len(sections) + per - 1) // per)

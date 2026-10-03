@@ -191,7 +191,17 @@
   `dist/` 构建通过（981 M / 1148 文件）。
 - **测试**：`tests/library/shard-reader-test.js`（**9/9**）：主文件无 paragraphs、按需请求 `_site_data/永樂大典/2.json`、
   正文渲染 2.4 万字、跨分片（第 190 篇）不串片、书页仍显示「共 804 篇」。
-- **注意**：分片书的「每日一句 anchor 定位」失效（主文件无正文可扫），会退回 index 0 / 上次位置。
+- **锚点定位（分片书）已支持**（同轮补上）：
+  - 分片主文件带 **`anchors`**（每篇「首个有内容段落」前 60 字，跳过零宽/空白占位段）→
+    `?anchor=<句>` 在分片书里也能定位；`reader.js` 先搜正文（单文件书），搜不到再查 `anchors`。
+  - 更根本的一手：`文本/build_sentences.py` 给每条句子加 **`sec`（篇目序号）**，
+    首页「开始阅读 →」改为 `?index=<sec>&anchor=<句>` → **分片书 100% 精准直达**（anchor 只用于高亮）。
+  - 顺带修 `build_sentences.py` 两处：`DATA` 旧路径 `文本/_site_data` → `网站/_site_data`；
+    新增 `ordered_sections()`（**与前端 `orderedSections` 同序**）——否则多分类书（三國志：魏書/蜀書/吳書）
+    的 `sec` 会错位（实测错 256 条 → 修后 **0/6141**）。分片书按 parts 拼回读取。
+  - 句子池随之刷新：shi 2006 / zi 1795 / ji 2340 条（旧池是 2026-08-31 用旧数据生成的）。
+  - `reader.js` anchor 高亮处加 `scrollIntoView` 存在性判断（老环境/测试环境安全）。
+- **注意**：分片书若只给 `?anchor=`（不带 `index`），仅当该句落在**篇首 60 字内**才命中；带 `sec`/`index` 则必达。
 
 ### ⏭️ 下一步（待办）
 1. **手动分批重推**（交接点）：分章修复后的 `_site_data`（约 600 文件）待站长按已推批次重推（`bash ~/gutenberg_project/push_batch.sh K`）。当前**工作区未提交**。

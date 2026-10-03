@@ -44,6 +44,10 @@ const POS_PREFIX = 'gjs:pos:';
   let index = -1;
   if (anchorParam) {
     index = sections.findIndex(s => (s.paragraphs || []).some(p => p.indexOf(anchorParam) >= 0));
+    if (index < 0 && book.anchors) {
+      // 分片书：正文不在主文件里 → 用轻量锚点表（每篇首段前 60 字）定位
+      index = book.anchors.findIndex(h => h && h.indexOf(anchorParam) >= 0);
+    }
   }
   if (index < 0 && rawIndex >= 0 && rawIndex < sections.length) index = rawIndex;
   if (index < 0) {
@@ -580,7 +584,9 @@ const POS_PREFIX = 'gjs:pos:';
       for (const p of paras) {
         if (p.textContent.indexOf(anchorParam) >= 0) {
           p.classList.add('anchor-flash');
-          p.scrollIntoView({ block: 'center' });
+          if (typeof p.scrollIntoView === 'function') {   // 老环境/测试环境可能没有
+            p.scrollIntoView({ block: 'center' });
+          }
           break;
         }
       }
