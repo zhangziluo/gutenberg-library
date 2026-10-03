@@ -205,6 +205,26 @@ async function handleRequest(ctx) {
   const lang = (url.searchParams.get('lang') || 'zh').toLowerCase();
   const q = (url.searchParams.get('q') || '').trim();
 
+  // 诊断探针（只允许白名单主机，避免变成开放代理；线上排障用；放最前面，不需要 q）
+  //   /api/dict?probe=https://api.mymemory.translated.net/get?q=hi&langpair=en%7Czh
+  const probe = url.searchParams.get('probe');
+  if (probe) {
+    const allowed = ['api.mymemory.translated.net', 'translate.googleapis.com', 'www.moedict.tw'];
+    let host = '';
+    try { host = new URL(probe).hostname; } catch (e) { return json({ error: 'bad probe url' }, 400); }
+    if (allowed.indexOf(host) < 0) return json({ error: 'host not allowed', host }, 403);
+    const t0 = Date.now();
+    try {
+      const r = await fetchWithTimeout(probe, TIMEOUT_MS);
+      const text = await r.text();
+      return json({ probe: probe, host: host, status: r.status, size: text.length,
+                    ms: Date.now() - t0, sample: text.slice(0, 200) }, 200);
+    } catch (e) {
+      return json({ probe: probe, host: host, error: String((e && e.message) || e),
+                    name: (e && e.name) || '', ms: Date.now() - t0 }, 200);
+    }
+  }
+
   if (!q) return json({ error: 'missing q' }, 400);
   if (q.length > MAX_Q) return json({ error: 'q too long' }, 400);
   if (!SOURCES[source]) return json({ error: 'bad source' }, 400);
