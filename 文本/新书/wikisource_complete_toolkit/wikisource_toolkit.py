@@ -23,10 +23,13 @@ wikisource_toolkit.py —— 维基文库通用抓取工具（内置许可合规
 """
 
 import sys
+import os
 import time
 import re
 import json
 import argparse
+import threading
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -75,6 +78,20 @@ def api_get(params, session=None, retries=3, backoff=1.5):
                 time.sleep(backoff * (attempt + 1))
     print(f"  ❌ 请求失败（已重试 {retries} 次）: {last}")
     return None
+
+
+# 并发抓取页数（同一本书内并行；大书如《資治通鑑》几百卷，串行要几十分钟）
+PAGE_WORKERS = max(1, int(os.environ.get('WS_WORKERS', '4')))
+_TLS = threading.local()
+
+
+def _thread_session():
+    """每个线程一个 requests.Session（连接复用，且避免跨线程共用）。"""
+    s = getattr(_TLS, 's', None)
+    if s is None:
+        s = requests.Session()
+        _TLS.s = s
+    return s
 
 
 # ===================== 页面抓取 =====================
@@ -234,31 +251,44 @@ def _sort_key(title, parent):
 
 
 def split_by_heading(html, displaytitle):
-    """无子页面时，按 == 二级标题切分章节"""
+    """无子页面时，按 == 二级标题切分章节。
+
+    新版 MediaWiki 有两个坑，这里一并处理：
+      1) 标题被包进 `<div class="mw-heading mw-heading2"><h2>…</h2></div>`，
+         正文是该 wrapper 的兄弟节点，不再是 h2 的兄弟节点；
+      2) 标题文字直接写在 h2 里、后面还跟着「[编辑]」链接，取标题前要先摘掉 .mw-editsection。
+    """
     soup = BeautifulSoup(html, "html.parser")
     main = soup.select_one(".mw-parser-output") or soup
-    # 找所有 h2
+    for t in main.select(".mw-editsection"):
+        t.decompose()
     heads = main.select("h2")
     if not heads:
         return None
+
+    def _wrapper(node):
+        p = node.parent
+        if p is not None and "mw-heading" in (p.get("class") or []):
+            return p
+        return node
+
     chapters = []
     for h in heads:
-        title_span = h.select_one(".mw-headline") or h
-        chap_title = title_span.get_text(strip=True)
+        chap_title = (h.select_one(".mw-headline") or h).get_text(strip=True)
         if not chap_title:
             continue
         content_parts = []
-        for sib in h.next_siblings:
-            if getattr(sib, "name", None) == "h2":
+        for sib in _wrapper(h).next_siblings:
+            nm = getattr(sib, "name", None)
+            if nm == "h2":
                 break
-            if isinstance(sib, str):
-                content_parts.append(str(sib))
-            else:
-                content_parts.append(str(sib))
-        chap_html = "".join(content_parts)
+            # 下一个标题（包在 wrapper 里）也是边界
+            if nm and "mw-heading" in (sib.get("class") or []) and sib.find("h2") is not None:
+                break
+            content_parts.append(str(sib))
         chapters.append({
             "title": chap_title,
-            "html": chap_html,
+            "html": "".join(content_parts),
         })
     return chapters if chapters else None
 
@@ -309,36 +339,31 @@ def process_book(book_title, session=None):
     skipped_license = []
     unknown_license = []
 
-    for i, t in enumerate(targets, 1):
-        print(f"   [{i}/{len(targets)}] {t}")
-        r = fetch_parse(t, s)
+    def _fetch_one(it):
+        """抓单页 + 许可判定 + 切分（在线程里跑）。返回 (章节记录, 页标题, 许可) 或 None。"""
+        i, t = it
+        ts = _thread_session()
+        r = fetch_parse(t, ts)
         if not r:
-            continue
+            return None
         html = r["html"]
         revid = r["revid"]
-
         # 许可判定（合规闸门）；子页无直接许可时回退继承父页
-        lic = judge_page(t, s, parent_title=book_title)
-
-        # 决定这一页怎么存
+        lic = judge_page(t, ts, parent_title=book_title)
         if use_subpages:
-            chaps_for_page = [{
-                "title": t.split("/")[-1],
-                "html": html,
-            }]
+            chaps_for_page = [{"title": t.split("/")[-1], "html": html}]
         else:
             # 无子页：尝试按标题切，若切不出来就整页当一章
             split = split_by_heading(html, r["displaytitle"])
             chaps_for_page = split if split else [{
-                "title": r["displaytitle"],
-                "html": html,
-            }]
-
+                "title": r["displaytitle"], "html": html}]
+        recs = []
         for ch in chaps_for_page:
-            chap_record = {
+            recs.append({
                 "title": ch["title"],
                 "chapter_id": t,
-                "source_url": "https://zh.wikisource.org/wiki/" + requests.utils.quote(t.replace(" ", "_")),
+                "source_url": "https://zh.wikisource.org/wiki/" +
+                              requests.utils.quote(t.replace(" ", "_")),
                 "revid": revid,
                 "license": lic["license"],
                 "license_status": lic["status"],
@@ -350,17 +375,27 @@ def process_book(book_title, session=None):
                 "content_html": ch["html"],
                 "content_text": extract_text_from_html(ch["html"]),
                 "fetched_at": datetime.now(timezone.utc).isoformat(),
-            }
-            chapters.append(chap_record)
+            })
+        time.sleep(min(RATE_LIMIT_SLEEP, 0.3))
+        return (recs, t, lic)
 
+    # 并发抓页（PAGE_WORKERS 线程；WS_WORKERS 环境变量可调）
+    done = 0
+    with ThreadPoolExecutor(max_workers=PAGE_WORKERS) as ex:
+        for res in ex.map(_fetch_one, enumerate(targets, 1)):
+            done += 1
+            if done % 10 == 0 or done == len(targets):
+                print(f"   … {done}/{len(targets)} 页", flush=True)
+            if not res:
+                continue
+            recs, t, lic = res
+            chapters.extend(recs)
             # 合规日志
             if not lic["safe_to_use"]:
                 if lic["status"] == "unknown":
                     unknown_license.append(t)
                 else:
                     skipped_license.append((t, lic["license"]))
-
-        time.sleep(RATE_LIMIT_SLEEP)
 
     # 2. 汇总许可：以大多数章节的许可为准
     from collections import Counter
