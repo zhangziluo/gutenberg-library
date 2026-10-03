@@ -522,6 +522,40 @@ async function testFunctions() {
      'dict：内部异常 → 500 JSON internal（绝不吐 502 错误页）');
   ok((await call(trFn, 'from=en&to=zh-CN')).status === 400, 'translate：缺 q → 400');
 
+  // H9 dict?source=translate：翻译也走这条（线上只有该路由能稳定访问上游）
+  globalThis.fetch = async (u) => {
+    urls.push(String(u));
+    if (String(u).indexOf('mymemory') !== -1) {
+      return new Response(JSON.stringify({
+        responseStatus: 200, responseData: { translatedText: 'The Master said', match: 0.9 },
+      }), { status: 200 });
+    }
+    return new Response('{}', { status: 200 });
+  };
+  r = await call(dict, 'source=translate&q=' + encodeURIComponent('子曰') + '&langpair=' + encodeURIComponent('zh-Hant|en'));
+  d = await r.json();
+  ok(r.status === 200 && d.translatedText === 'The Master said',
+     'dict?source=translate：返回译文');
+  ok(d.source_lang === 'zh-TW' && d.target_lang === 'en', 'dict?source=translate：语言码归一');
+  ok(d.provider === 'mymemory' && d.result && d.result.translatedText, 'dict?source=translate：带 provider 与 result');
+  ok(urls[urls.length - 1].indexOf('langpair=zh-TW%7Cen') !== -1, 'dict?source=translate：langpair 拼接正确');
+  globalThis.fetch = async () => new Response('{"responseStatus":403}', { status: 200 });
+  r = await call(dict, 'source=translate&q=x&langpair=zh-TW|en');
+  d = await r.json();
+  ok(r.status === 502 && d.error === 'no translation' && d.tried.length === 2,
+     'dict?source=translate：两个源都失败 → 502 + tried[2]');
+
+  // H10 两个文件里的翻译上游 URL 必须一致（防实现漂移）
+  const dictSrc = fs.readFileSync(path.join(ROOT, 'functions/api/dict.js'), 'utf8');
+  const trSrc = fs.readFileSync(path.join(ROOT, 'functions/api/translate.js'), 'utf8');
+  ok(dictSrc.indexOf('api.mymemory.translated.net/get?') > 0 &&
+     trSrc.indexOf('api.mymemory.translated.net/get?') > 0, 'MyMemory 上游地址两处一致');
+  ok(dictSrc.indexOf('translate.googleapis.com/translate_a/single?') > 0 &&
+     trSrc.indexOf('translate.googleapis.com/translate_a/single?') > 0, 'gtx 上游地址两处一致');
+  ok(/const c = String\(code \|\| ''\)\.trim\(\)\.toLowerCase\(\)/.test(dictSrc) &&
+     /const c = String\(code \|\| ''\)\.trim\(\)\.toLowerCase\(\)/.test(trSrc),
+     '语言码归一逻辑两处一致');
+
   globalThis.fetch = origFetch;
 }
 

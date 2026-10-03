@@ -657,8 +657,9 @@ const POS_PREFIX = 'gjs:pos:';
         out.textContent = '';
         if (r.ok) {
           out.appendChild(dpText(r.text, 'dp-trans-text'));
-          out.appendChild(dpDim('（' + r.from + ' → ' + r.to + (r.cached ? ' · 缓存' : ' · MyMemory') +
-                                (r.match ? ' · 匹配度 ' + Math.round(r.match * 100) + '%' : '') + '）'));
+          out.appendChild(dpDim('（' + r.from + ' → ' + r.to +
+            (r.cached ? ' · 缓存' : ' · ' + (r.provider || 'MyMemory')) +
+            (r.match ? ' · 匹配度 ' + Math.round(r.match * 100) + '%' : '') + '）'));
         } else {
           out.appendChild(dpText('翻译暂不可用（' + (r.error || '未知原因') +
             (r.detail ? '：' + String(r.detail).slice(0, 40) : '') + '）', 'dp-warn'));

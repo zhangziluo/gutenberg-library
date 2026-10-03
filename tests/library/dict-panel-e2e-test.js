@@ -289,10 +289,10 @@ function srcList(P) {
     ok(panes.length === 2 && panes[1].hidden === false && panes[0].hidden === true,
        '6+ 字符自动切到「翻译」Tab');
     await waitFor(function () {
-      return P5.calls.some(function (u) { return u.indexOf('/api/translate') === 0; });
+      return P5.calls.some(function (u) { return u.indexOf('source=translate') > 0; });
     });
-    ok(P5.calls.some(function (u) { return u.indexOf('/api/translate') === 0; }),
-       '长文本自动请求 /api/translate（同域代理）');
+    ok(P5.calls.some(function (u) { return u.indexOf('source=translate') > 0; }),
+       '长文本自动请求翻译接口（同域 /api/dict?source=translate）');
     await waitFor(function () { return /THE TRANSLATED SENTENCE/.test(dpText(P5)); });
     ok(/THE TRANSLATED SENTENCE/.test(dpText(P5)), '翻译结果渲染进面板');
     ok(P5.calls.every(function (u) {

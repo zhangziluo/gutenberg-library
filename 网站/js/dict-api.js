@@ -19,7 +19,8 @@
 window.DictApi = (function () {
   var DICT = '/api/dict';
   var LINKS = '/api/dict-links';
-  var TRANSLATE = '/api/translate';
+  // 翻译走 /api/dict?source=translate（与 /api/translate 同一实现；线上实测只有该路由能稳定访问上游）
+  var TRANSLATE = '/api/dict?source=translate';
 
   var TIMEOUT_MS = 3000;                        // 需求：在线请求 3 秒超时，超时立即降级
   var TRANSLATE_TIMEOUT_MS = 3500;              // 翻译稍慢，仍留余量
@@ -375,15 +376,17 @@ window.DictApi = (function () {
     if (!q) return Promise.resolve({ ok: false, error: 'empty' });
     var from = opts.from || 'zh-Hant';
     var to = opts.to || 'en';
-    var url = TRANSLATE + '?q=' + encodeURIComponent(q.slice(0, 500)) +
+    var url = TRANSLATE + (TRANSLATE.indexOf('?') >= 0 ? '&' : '?') +
+              'q=' + encodeURIComponent(q.slice(0, 500)) +
+              '&langpair=' + encodeURIComponent(from + '|' + to) +
               '&from=' + encodeURIComponent(from) + '&to=' + encodeURIComponent(to);
     return cachedGet(url, CACHE_PREFIX + 'translate:' + from + ':' + to + ':' + q,
                      TRANSLATE_TIMEOUT_MS)
       .then(function (r) {
-        var v = r.value || {};
+        var v = (r.value && (r.value.result || r.value)) || {};
         if (r.ok && v.translatedText) {
           return { ok: true, text: String(v.translatedText), match: v.match || 0,
-                   from: v.source || from, to: v.target || to,
+                   provider: v.provider || '', from: v.source || from, to: v.target || to,
                    url: v.url || '', cached: !!r.cached, ms: r.ms };
         }
         return { ok: false, error: (v && v.error) || r.error || 'fail',

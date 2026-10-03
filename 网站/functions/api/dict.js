@@ -37,7 +37,63 @@ const SOURCES = {
   freedict: { kind: 'freedict' },
   moedict: { kind: 'moedict' },
   unihan: { kind: 'unihan' },
+  // translate：翻译也走本路由（与 /api/translate 同样的实现）
+  // 原因：线上实测 /api/translate 那条路由的 isolate 访问上游会 502，而本路由能稳定访问
+  // （见 memory-bank ⑰ 的排障记录）。前端优先用 /api/dict?source=translate。
+  translate: { kind: 'translate' },
 };
+
+/* ---- 翻译上游（与 网站/functions/api/translate.js 保持同款；测试会校验两边 URL 一致） ---- */
+function mMlang(code) {
+  const c = String(code || '').trim().toLowerCase();
+  if (!c) return '';
+  if (c.indexOf('zh') === 0) return /hant|tw|hk|mo/.test(c) ? 'zh-TW' : 'zh-CN';
+  return c;
+}
+
+function myMemoryUrl(q, from, to) {
+  return 'https://api.mymemory.translated.net/get?' +
+    new URLSearchParams({ q: q, langpair: from + '|' + to }).toString();
+}
+
+function googleGtxUrl(q, from, to) {
+  return 'https://translate.googleapis.com/translate_a/single?' +
+    new URLSearchParams({ client: 'gtx', sl: from, tl: to, dt: 't', q: q }).toString();
+}
+
+async function translateVia(q, from, to) {
+  const tried = [];
+  const attempts = [
+    { provider: 'mymemory', url: myMemoryUrl(q, from, to),
+      pick: (d) => (d && d.responseData && d.responseData.translatedText) || '',
+      match: (d) => (d.responseData && d.responseData.match) || 0 },
+    { provider: 'google', url: googleGtxUrl(q, from, to),
+      pick: (d) => ((Array.isArray(d) && Array.isArray(d[0])) ? d[0] : [])
+        .map(s => (s && s[0]) || '').join('').trim(),
+      match: () => 0 },
+  ];
+  for (const a of attempts) {
+    try {
+      const r = await fetchWithTimeout(a.url, TIMEOUT_MS);
+      if (!r.ok) {
+        tried.push({ provider: a.provider, ok: false, upstream: r.status });
+        continue;
+      }
+      const d = await r.json();
+      const text = String(a.pick(d) || '').trim();
+      if (!text || (a.provider === 'mymemory' && d.responseStatus !== 200)) {
+        tried.push({ provider: a.provider, ok: false, error: 'no translation', upstream: d && d.responseStatus });
+        continue;
+      }
+      tried.push({ provider: a.provider, ok: true });
+      return { ok: true, text: text.slice(0, 2000), match: a.match(d), provider: a.provider, tried };
+    } catch (e) {
+      tried.push({ provider: a.provider, ok: false, error: 'fetch failed',
+                   detail: (e && e.name === 'AbortError') ? 'timeout' : String((e && e.message) || e) });
+    }
+  }
+  return { ok: false, error: 'no translation', tried };
+}
 
 function json(body, status = 200, extra = {}) {
   return new Response(JSON.stringify(body), {
@@ -237,7 +293,24 @@ async function handleRequest(ctx) {
     return json({ source, query: q, title: r.title, result: r.result }, 200, CACHE);
   }
 
-  // ② 其余：转发第三方（前端只见同域）
+  // ② translate：翻译（MyMemory 主 → Google gtx 备）；参数 langpair=zh-TW|en
+  if (source === 'translate') {
+    const pair = (url.searchParams.get('langpair') || 'zh-TW|en').split('|');
+    const from = mMlang(pair[0]);
+    const to = mMlang(pair[1]);
+    if (!from || !to) return json({ source, query: q, error: 'bad langpair' }, 400);
+    const tr = await translateVia(q, from, to);
+    if (!tr.ok) {
+      return json({ source, query: q, source_lang: from, target_lang: to,
+                    error: tr.error, tried: tr.tried }, 502, CACHE);
+    }
+    return json({ source, query: q, source_lang: from, target_lang: to,
+                  translatedText: tr.text, match: tr.match, provider: tr.provider,
+                  result: { translatedText: tr.text, match: tr.match, provider: tr.provider } },
+                200, CACHE);
+  }
+
+  // ③ 其余：转发第三方（前端只见同域）
   const upstream = upstreamUrl(source, lang, q);
   try {
     const r = await fetchWithTimeout(upstream, TIMEOUT_MS);

@@ -37,7 +37,8 @@ console.log('A. 前端（reader.js + dict-api.js）');
   ok(apiCode.includes("'/api/dict'") && apiCode.includes("'?source='") &&
      apiCode.indexOf('api.dictionaryapi.dev') === -1,
      '在线查词走同域 /api/dict（不在前端拼第三方域名）');
-  ok(apiCode.includes("'/api/dict-links'") && apiCode.includes("'/api/translate'"),
+  ok(apiCode.includes("'/api/dict-links'") &&
+     (apiCode.includes("'/api/dict?source=translate'") || apiCode.includes("'/api/translate'")),
      '外链与翻译也走同域 /api/*');
   ok(!code.includes('rest_v1/page/summary'), '不再使用 REST page/summary');
   ok(!/https?:\/\/zh\.(wikipedia|wiktionary)\.org/.test(code) &&
