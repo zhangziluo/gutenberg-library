@@ -39,24 +39,31 @@
       esc(text.slice(p + needle.length, e)) + (e < text.length ? '…' : '');
   }
 
-  /* ---------------- 第三方词典（只给链接） ---------------- */
-  var THIRD = [
-    { label: '漢典', hint: '字 · 词', url: function (q) { return 'https://www.zdic.net/hans/' + encodeURIComponent(q); } },
-    { label: '中國哲學書電子化計劃', hint: '全文检索', url: function (q) { return 'https://ctext.org/search.pl?if=gb&searchu=' + encodeURIComponent(q); } },
-    { label: '維基詞典', hint: '词条', url: function (q) { return 'https://zh.wiktionary.org/wiki/' + encodeURIComponent(q); } },
-    // 以下两家站内搜索 URL 会被其反爬/跳转挡住，无法在本机确证：國學大師用其站内检索写法的常见形式；
-    // 中華典藏本机完全不可达 → 退回首页（点进去用站内搜索）。若日后确认了直达参数，改这里一行即可。
-    { label: '國學大師', hint: '站内搜索', url: function (q) { return 'https://www.guoxuedashi.net/so.php?q=' + encodeURIComponent(q); } },
-    { label: '中華典藏', hint: '打开站点搜索', url: function () { return 'https://www.zhonghuadiancang.com/'; } }
-  ];
-
+  /* ---------------- 站外词典（「更多词典」：只渲染白名单里可用的源） ----------------
+     白名单与状态在 js/dict-links.js：hidden 的源**不渲染按钮、不建链、不预取、不请求**。
+     默认可用：漢典 / 中國哲學書電子化計劃；中文維基詞典需在设置里开「容错外链」；
+     國學大師 / 中華典藏 等探活（连续 2 次成功才自动展示）。
+  ---------------------------------------------------------------------------- */
   function renderThird(q) {
     var box = document.getElementById('third-body');
-    box.innerHTML = THIRD.map(function (t) {
-      return '<a class="s-third-link" href="' + esc(t.url(q)) + '" target="_blank" rel="noopener">' +
-        '<b>' + esc(t.label) + '</b><span>' + esc(t.hint) + '</span></a>';
-    }).join('');
+    var note = document.getElementById('third-note');
     show(document.getElementById('block-third'), true);
+    if (!window.DictLinks) {
+      box.innerHTML = '<p class="dl-empty">词典白名单未加载（js/dict-links.js）。</p>';
+      return;
+    }
+    DictLinks.ready().then(function () {
+      var n = DictLinks.render(box, q, { itemClass: 's-third-link' });
+      if (!note) return;
+      if (!n) {
+        note.textContent = '暂无可用的站外词典（都在探活观察中）。';
+        return;
+      }
+      note.innerHTML = '只列当前可用的源；不可用的（探活未通过 / 需手动开启）已隐藏，' +
+        '<b>不预取、不自动请求</b>。' +
+        (DictLinks.fallbackEnabled() ? '（已开启「容错外链」）'
+          : ' 需要中文维基词典等被墙源？到 <a href="' + DictLinks.SETTINGS_HREF + '">设置</a> 里开启「容错外链」。');
+    });
   }
 
   /* ---------------- 离线查词 ---------------- */

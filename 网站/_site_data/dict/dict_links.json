@@ -1,0 +1,52 @@
+{
+ "generated": "2026-10-03",
+ "policy": {
+  "promote_after_ok": 2,
+  "demote_after_fail": 2,
+  "probe": "每周一次 HEAD（必要时一次 GET 校验关键字）",
+  "probe_from": "境内网络（境外 IP 的「可达」不算数：阿里云拦截与被墙只在境内生效）",
+  "note": "连续 2 次探活成功 → state=enabled（自动展示）；连续 2 次失败 → state=hidden。前端 js/dict-links.js 只认 state=enabled 才渲染按钮，hidden 一律不渲染、不预取、不请求。"
+ },
+ "sources": {
+  "zdic": {
+   "state": "enabled",
+   "checked_at": null,
+   "streak_ok": null,
+   "streak_fail": null,
+   "detail": "默认首选：速度最快、字词资料全；新窗口打开"
+  },
+  "ctext": {
+   "state": "enabled",
+   "checked_at": null,
+   "streak_ok": null,
+   "streak_fail": null,
+   "detail": "默认首选：支持古籍全文出处检索；新窗口打开"
+  },
+  "wiktionary-zh": {
+   "state": null,
+   "probe": false,
+   "checked_at": null,
+   "streak_ok": null,
+   "streak_fail": null,
+   "detail": "境内直连被阻断（白屏）。不参与探活：仅当用户在设置里开启「容错外链」才显示，且永不参与自动摘要请求"
+  },
+  "guoxuedashi": {
+   "state": "hidden",
+   "checked_at": "2026-10-03",
+   "streak_ok": 0,
+   "streak_fail": 2,
+   "detail": "页面没有该站特征关键字（疑似跳转到别处/错误页）",
+   "label": "國學大師",
+   "why": "未备案被阿里云拦截"
+  },
+  "zhonghuadiancang": {
+   "state": "hidden",
+   "checked_at": "2026-10-03",
+   "streak_ok": 0,
+   "streak_fail": 2,
+   "detail": "请求失败：fetch failed",
+   "label": "中華典藏",
+   "why": "域名失效 / 服务器宕机"
+  }
+ }
+}

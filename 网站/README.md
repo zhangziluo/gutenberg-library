@@ -71,6 +71,14 @@ node tests/library/serve-local.js 8790        # 静态站 + /api/* 走真实 Fun
   （康熙 / 说文 / CC-CEDICT，`dict_meta.json` 里声明分片数与词典清单）。
 - **第三方词典只给外链**：漢典 / 中國哲學書電子化計劃 / 維基詞典 / 國學大師 / 中華典藏 —— 点开新窗口，
   结果不在本站展示（`target="_blank" rel="noopener"`）。
+- **站外白名单（`js/dict-links.js`）+ 每周探活**：只有 `enabled` 的源才渲染按钮，`hidden` 的源
+  **既不渲染、也不预取（无 preconnect/prefetch/dns-prefetch）、更不会发请求**。
+  - 默认展示：**漢典**（`zdic.net/hans/<词>`）、**中國哲學書電子化計劃**（`ctext.org/search.pl?...`）；
+  - 默认隐藏：**中文維基詞典**（境内直连白屏）→ 到「设置 → 词典外链」开「容错外链」才显示，且**永不参与自动摘要**；
+    **國學大師**（未备案被阿里云拦截）、**中華典藏**（域名失效）→ 由 `deploy/dict_links_probe.js`
+    **每周探活**：连续 2 次成功自动 `enabled` 展示，连续 2 次失败回到 `hidden`（状态在
+    `_site_data/dict/dict_links.json`）。
+  - 阅读页在线摘要只走**维基百科**（同域 `/api/dict` 代理）；查词面板底部会写明「已隐藏 N 个不可用源」。
 - 缓存：`_headers` 给 `/_site_data/search/*`、`/_site_data/dict/*` 设 `Cache-Control: max-age=86400`。
 
 ## 数据更新
@@ -100,7 +108,9 @@ python3 export_json.py
     │   ├── book.js         书目逻辑
     │   ├── reader.js       阅读逻辑
     │   ├── home-search.js  首页搜索框（回车 → search.html）
-    │   ├── search.js       检索页逻辑（目录层 + 快照层 + 外链）
+    │   ├── search.js       检索页逻辑（目录层 + 快照层 + 「更多词典」外链）
+    │   ├── dict-links.js   站外词典白名单（默认状态 + 探活结论 + 「容错外链」开关）
+    │   ├── dict-settings.js 设置页「词典外链」卡片逻辑
     │   └── dict-lookup.js  离线查词（康熙/说文/词表/CC-CEDICT 分片）
     ├── _site_data/         站点数据（单书 JSON + search/ + dict/ + vocab_final.json）
     └── 启动站点.command     一键启动脚本（macOS）

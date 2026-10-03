@@ -1,6 +1,6 @@
 # Active Context（当前状态与下一步）
 
-## 当前（2026-10-03）：全站检索（目录 + 快照）+ 离线查词分片 + 分章修复 + 词典/释义面板
+## 当前（2026-10-03）：全站检索 + 离线查词 + 站外词典白名单/探活 + 分章修复 + 词典/释义面板
 
 > 独立流水线目录 **`~/gutenberg_project/`**（与站点项目解耦）；进度全在 `progress/`，支持断点续跑。
 > 站点侧已入库 **61635 本清洗产物**、精选 **600 本英文书**；`网站/_site_data` **792 文件**（790 单书）、
@@ -256,11 +256,49 @@
 - ⚠️ **发现（非本轮引入）**：`_site_data` 的 **790 本里有 495 本（古登堡英文批量书）不在 `books-data.json`**，
   即书库页不列它们 —— **检索页目前是它们的主要入口**；README 的「书库现状」表已按实测数字更新（上架 295 本 / 14,773 篇）。
 
+### ⑮ 站外词典白名单 + 每周探活 + 「容错外链」（2026-10-03，本轮）
+- **背景**：站外词典不是都能用 —— 國學大師（未备案被阿里云拦截）、中華典藏（域名失效）、
+  中文維基詞典（境内直连白屏）。原来 `search.js` 里硬编码 5 条外链，坏源照样渲染、点了白屏。
+- **新增 `网站/js/dict-links.js`（白名单 + 状态判定，检索页 / 阅读页 / 设置页共用）**：
+  - 基线写在源码：`zdic` / `ctext` **默认展示**（首选，新窗口打开）；`wiktionary-zh`（`needsFallback`）、
+    `guoxuedashi`、`zhonghuadiancang`（`probe`）**默认 hidden**。
+  - 状态三层：`enabled` 展示 ｜ `fallback` 仅「容错外链」开启时展示 ｜ `hidden` 不展示。
+  - **硬规则**：hidden 的源不渲染按钮、`urlOf()` 返回 null（据此绝不建链）、**不预取、不自动请求**；
+    外链一律 `target="_blank" rel="noopener"`。全站零 `preconnect/prefetch/dns-prefetch`（测试锁死）。
+  - 探活状态读 `_site_data/dict/dict_links.json`（缺失/损坏 → 回退基线，不报错）。
+- **新增 `deploy/dict_links_probe.js`（每周探活）**：
+  - 只探活 2 个源：**國學大師 = HEAD 状态码 + 页面关键字**（挡阿里云拦截页 / JS 跳转壳页）、
+    **中華典藏 = DNS 解析 + HEAD 200**。漢典/ctext 无需探活；維基詞典是「被墙」不是「故障」，不探活。
+  - 状态机：连续 **2 次成功 → state=enabled（自动展示）**；连续 **2 次失败 → hidden**；
+    未达阈值保持原状态（观察中，不折腾用户）。写回 `dict_links.json`。
+  - CLI：`--dry-run` / `--only <id>` / `--timeout <秒>` / `--quiet` / `--commit` / `--push`（隐含 commit）。
+    核心只用全局 `fetch` + Promise，可被 Worker `scheduled` 直接调用（把读写换成 KV）。
+  - ⚠️ **必须在境内网络跑**（本机 cron）：阿里云拦截与被墙只在境内出现，境外 CI 会把坏源误判为可用。
+  - 实跑（本机，2026-10-03）：國學大師 HTTP 200 但**无站点关键字** → 判失败；
+    中華典藏 `fetch failed`（DNS）→ 判失败 → 两家 `streak_fail=2 → hidden` ✓。
+- **前端接入**：`search.js`（「更多词典」用 `DictLinks.render`，hidden 连元素都不生成）+
+  `reader.js`（面板底部新增「更多词典」，并写明「已隐藏 N 个不可用源」）。
+  **同时从自动摘要里摘掉中文维基词典**：阅读页在线词典只走维基百科（同域 `/api/dict` 代理），
+  维基词典「永不参与任何自动摘要请求」，只在开启容错外链后手动点开。
+- **设置页**：`ai-settings.html#dict-links` 新增「词典外链」卡片 —— 「容错外链」开关
+  （key `guoxue_dict_fallback_links`）+ 逐源状态表（展示 / 容错展示 / 隐藏 + 为什么隐藏）。
+  逻辑抽到 `js/dict-settings.js`（不写在页面内联脚本里，便于 jsdom 测）。
+- **友链页**：`links.html` 给中華典藏 / 國學大師 各加一行「已默认隐藏，探活恢复」的说明。
+- **踩坑**：`stateOf()` 对 `needsFallback` 源一开始写成「基线 hidden 也要开关点头」→ 开关永远无效
+  （`on===false` 短路）；已改为「探活没说 hidden 时由开关决定」。`dict_links.json` 里
+  `wiktionary-zh.state` 因此置 `null`（它不参与探活，不该被探活判死）。
+- **测试**：`tests/library/dict-links-test.js`（**92/92**）—— 基线 5 源 / 探活覆盖 / 容错开关 /
+  hidden 不渲染不预取不发请求（含全站 prefetch 静态扫描）/ 阅读页无 `source=wiktionary` /
+  设置页开关写 localStorage / 探活脚本 5 种网络情形 + 状态机 2 次翻转 + parseArgs。
+  另更新 `search-test.js`（外链期望 5 → 2，44/44）。全量回归：17/18/13/12/44/92/5 + vocab 66/21/26 全绿。
+
 
 ### ⏭️ 下一步（待办）
 1. **检索页可优化**：快照层 11 MB 首搜要拉 64 片（已缓存 1 天）；若要更快可上「书名/篇名命中直接命中 + 快照懒加载」或
    缩到 `--snap-head 120 --snap-tail 40`；另可补**简繁折叠**（现在按原文匹配，繁简不同字会漏）。
-2. **第三方词典两家待核**：國學大師 / 中華典藏 的站内搜索 URL 在有网环境核一次（`js/search.js` 的 `THIRD` 表，改一行）。
+2. **第三方词典**：國學大師 / 中華典藏 现由「探活」管着（默认 hidden）；它们的**站内搜索 URL 仍未在境内验过** ——
+   探活连续 2 次通过后若 URL 不对，改 `网站/js/dict-links.js` 里 `SOURCES` 的 `url()` 一行即可。
+   另：把 `deploy/dict_links_probe.js` 挂上**本机 cron**（每周一 09:10，见 README「站外词典探活」）。
 3. **495 本英文批量书未上架**：不在 `books-data.json`（书库页不列），目前只能靠检索页进入；如需上架要在合并脚本里补。
 4. **多版本莎剧同名覆盖**：`_site_data/{书名}.json` 会被同名后写覆盖（如 Troilus #1124/#1528），如需并存需改名。
 5. 词表释义：仍 **待补 11623 + need_ai 16165**（可配 `DEEPSEEK_API_KEY` 做 AI 精修，或再引入词级源）。

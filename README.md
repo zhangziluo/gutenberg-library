@@ -45,7 +45,9 @@
 - 📥 **书库「待入库」预览** —— 维基文库还有 1000+ 本候选，书库页可直接预览、一键复制入库命令，慢慢搬。
 - 🔍 **全站检索**（`search.html`）—— 一次搜四样：**书名 / 作者 / 分类**、**篇目标题**（如「學而第一」）、
   **正文关键词**（按篇首/篇尾快照定位到「书 → 篇」，直接跳阅读页）、**单字查词**（康熙 / 说文 / 本站词表 / CC-CEDICT）。
-  首页搜索框回车即达；查不到时给漢典 / ctext / 维基词典等外链，**不在本站展示第三方结果**。
+  首页搜索框回车即达；查不到时可点「更多词典」外链 —— **白名单 + 每周探活**：默认只给漢典 / ctext，
+  被墙（中文维基词典）或被拦（國學大師 / 中華典藏）的源默认隐藏、**不渲染、不预取、不自动请求**，
+  需要时到「设置 → 词典外链」开「容错外链」；**不在本站展示第三方结果**。
 - 🔒 **不登录、无后端** —— 纯静态站，数据全在你自己浏览器里。
 
 
@@ -91,6 +93,7 @@
 | `网站/assets/data/books-data.json` | 书库页统一数据源（含来源/许可/简介/特色等 19 个字段） |
 | `网站/assets/data/wikisource-pending.json` | 书库「待入库」预览 |
 | `网站/_site_data/dict/{kangxi,shuowen,cedict}/0..127.json` | 康熙 / 说文 / CC-CEDICT 按首字码点分片，前端按需取 |
+| `网站/_site_data/dict/dict_links.json` | 站外词典白名单状态（探活结论：`enabled` / `hidden` + 连续成功/失败次数） |
 | `网站/_site_data/search/{meta,titles}.json` + `search/snap/0..63.json` | 检索索引：目录层（书名/作者/分类 + 全部篇目标题 0.9 MB）+ 快照层（每篇前后文 ~11 MB，64 片并行取） |
 | `网站/_site_data/vocab_final.json` | 前端词表（词边界 + 逐词释义，检索页/阅读页共用） |
 
@@ -151,6 +154,17 @@ bash 文本/新书/wikisource_recommended.sh 10     # 省略参数＝全部
 | `build_wikisource_index.py` `wikisource_index_backfill.py` | 维基文库索引生成 / 页面元数据补抓 |
 | `build_search_index.py`（`文本/`） | 生成检索索引：目录层（书名/作者/分类 + 全部篇目标题）+ 快照层（每篇前 180 字 + 尾 60 字，64 片） |
 | `build_dict_shards.py` | 离线词典分片：康熙 / 说文 / CC-CEDICT → `_site_data/dict/<name>/<首字码点%128>.json` |
+| `deploy/dict_links_probe.js` | 站外词典**每周探活**（HEAD + 关键字）：识别阿里云拦截页 / 域名失效；连续 2 次成功才自动放出来 |
+
+站外词典探活（建议在**境内网络**跑：阿里云拦截与被墙只在境内出现，境外 CI 会把坏源误判为可用）：
+
+```bash
+node deploy/dict_links_probe.js --dry-run     # 只看结论，不写盘
+node deploy/dict_links_probe.js --commit      # 写状态文件并提交（--push 顺带推送触发构建）
+# crontab：每周一 09:10 跑一次
+10 9 * * 1 cd /path/to/repo && node deploy/dict_links_probe.js --quiet --commit >> /tmp/dict_probe.log 2>&1
+```
+
 
 维基文库那套的采集与入库说明见 `文本/新书/wikisource_index_guide.md`。
 
@@ -164,10 +178,10 @@ node tests/vocab-matcher/integration-test.js  # 26 项（真实书 JSON + 真实
 
 # 书库 / 阅读 / 检索等页面（需要 jsdom，仓库无根 package.json，装在临时目录即可）
 npm i --prefix /tmp/vmtest jsdom
-for t in library-pending dict-proxy dict-panel-e2e shard-reader search deploy-trigger; do
+for t in library-pending dict-proxy dict-panel-e2e shard-reader search dict-links deploy-trigger; do
   JSDOM_PATH=/tmp/vmtest/node_modules/jsdom node tests/library/$t-test.js
 done
-#   书库「待入库」17 ｜ 词典代理 18 ｜ 查词面板 13 ｜ 分片书阅读 12 ｜ **检索 43** ｜ 部署触发 5
+#   书库「待入库」17 ｜ 词典代理 18 ｜ 查词面板 13 ｜ 分片书阅读 12 ｜ 检索 44 ｜ **词典白名单 92** ｜ 部署触发 5
 ```
 
 ## 接下来

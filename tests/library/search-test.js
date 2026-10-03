@@ -135,7 +135,7 @@ async function openPage(q, scripts) {
   });
   const window = dom.window, doc = window.document, calls = [];
   window.fetch = function (u) { calls.push(String(u)); return serve(u); };
-  (scripts || ['common.js', 'dict-lookup.js', 'search.js']).forEach(function (f) {
+  (scripts || ['common.js', 'dict-links.js', 'dict-lookup.js', 'search.js']).forEach(function (f) {
     const s = doc.createElement('script');
     s.textContent = fs.readFileSync(path.join(ROOT, 'js', f), 'utf8');
     doc.head.appendChild(s);
@@ -243,17 +243,26 @@ async function testPage(titles) {
   ok(P4.calls.length > 0 && P4.calls.every(function (u) { return /^_site_data\//.test(u); }),
     '查词只请求同域 _site_data，不直连第三方');
 
-  const wants = ['zdic.net/hans/', 'ctext.org/search.pl', 'zh.wiktionary.org/wiki/',
-    'guoxuedashi.net', 'zhonghuadiancang.com'];
+  // 「更多词典」= 白名单（js/dict-links.js）里 enabled 的源：
+  // 默认只有 漢典 + ctext；hidden 的三家**不渲染**、更不会被请求
+  await waitFor(function () {
+    return /s-third-link|dl-empty/.test(P4.doc.getElementById('third-body').innerHTML);
+  });
   const third = P4.doc.getElementById('third-body').innerHTML;
-  wants.forEach(function (h) { ok(third.indexOf(h) >= 0, '第三方链接包含 ' + h); });
   const anchors = Array.from(P4.doc.querySelectorAll('#third-body a'));
-  ok(anchors.length === 5, '第三方链接共 5 条（实际 ' + anchors.length + '）');
+  ok(anchors.length === 2, '「更多词典」默认渲染 2 个可用源（实际 ' + anchors.length + '）');
+  ok(third.indexOf('zdic.net/hans/') >= 0, '更多词典包含 漢典');
+  ok(third.indexOf('ctext.org/search.pl') >= 0, '更多词典包含 ctext');
+  ['zh.wiktionary.org', 'guoxuedashi', 'zhonghuadiancang'].forEach(function (h) {
+    ok(third.indexOf(h) < 0, 'hidden 源不出现在检索页：' + h);
+  });
   ok(anchors.every(function (a) {
     return a.getAttribute('target') === '_blank' && /noopener/.test(a.getAttribute('rel') || '');
-  }), '第三方链接均 target=_blank rel=noopener');
+  }), '更多词典外链均 target=_blank rel=noopener');
   ok(anchors.some(function (a) { return /仁/.test(decodeURIComponent(a.getAttribute('href'))); }),
-    '第三方链接带上查询词');
+    '更多词典外链带上查询词');
+  ok(P4.calls.every(function (u) { return !/^https?:/.test(u); }),
+    '检索页没有向任何外站发请求（含隐藏源未预取）');
 
   // 返回引用，供调用方关闭
   return [P1, P2, P3, P4];

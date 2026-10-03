@@ -82,6 +82,16 @@
   查词全离线：`_site_data/vocab_final.json` + `_site_data/dict/{kangxi,shuowen,cedict}/<首字码点%128>.json`；
   第三方（漢典 / ctext / 維基詞典 / 國學大師 / 中華典藏）**只给外链**，本站不展示其内容。
   `js/home-search.js` 回车 → `/search.html?q=…`。缓存：`网站/_headers` 给 `/_site_data/search/*`、`/_site_data/dict/*` 设 `max-age=86400`。
+- **站外词典白名单 + 每周探活**（**新增 2026-10-03**）：`js/dict-links.js`（检索页 / 阅读页 / 设置页共用）
+  声明 5 个站外源与基线状态 —— `zdic` / `ctext` 默认 `enabled`；`wiktionary-zh`（`needsFallback`：
+  要用户在设置里开「容错外链」`guoxue_dict_fallback_links`）、`guoxuedashi`、`zhonghuadiancang` 默认 `hidden`。
+  **hidden 的源不渲染按钮、不建链、不预取、不自动请求**（`urlOf()` 直接返回 null）；外链一律
+  `target="_blank" rel="noopener"`。「更多词典」只渲染 `enabled`（+ 开了开关的 `fallback`）。
+  探活结论读 `_site_data/dict/dict_links.json`（`{state, streak_ok, streak_fail, checked_at, detail}`），
+  缺失即回退基线。`deploy/dict_links_probe.js` 每周跑一次（境内网络！）：国学大师查 HEAD 状态码 +
+  页面关键字（挡阿里云拦截页）、中华典藏查 DNS + 200；**连续 2 次成功 → enabled，连续 2 次失败 → hidden**。
+  阅读页在线摘要**只走维基百科**（`/api/dict` 同域代理），中文维基词典永不参与自动摘要。
+  设置页卡片 `ai-settings.html#dict-links` + `js/dict-settings.js`；`links.html` 对两家坏源加了说明。
 - 首页（`index.html`）由 `daily-sentence.js`（每日一句）/ `home-search.js`（全站搜索）/ `daily-gua.js`（今日一卦）驱动，不依赖 `js/index.js`。
 - `网站/js/reader.js`：正文渲染 + 简繁转换 + 注释小卡；**打标交给 `js/vocab-matcher.js`**
   （中文 Trie 最长前缀匹配、英文整词正则 → `<wise data-word data-key>`；TreeWalker + 空闲分批）。
@@ -111,6 +121,10 @@
   （kangxi 48710 / shuowen 9815 / cedict 198266 条），并维护 `dict_meta.json`（shards + 词典清单）。`--only <name>` 可单跑。
 - `build_search_index.py`（`文本/`，**新增 2026-10-03**）：生成检索索引（目录层 + 快照层）到 `网站/_site_data/search/`；
   遍历 `_site_data` 全部单书（分片书自动按序拼回），篇序复用 `build_sentences.ordered_sections`（与前端同序）。
+- `deploy/dict_links_probe.js`（**新增 2026-10-03**）：站外词典**每周探活**（HEAD 状态码 + 页面关键字 / DNS + 200），
+  状态机写回 `网站/_site_data/dict/dict_links.json`（连续 2 次成功 → enabled，连续 2 次失败 → hidden）；
+  `--dry-run / --only <id> / --timeout / --quiet / --commit / --push`；核心只用全局 fetch，可被 Worker `scheduled` 复用。
+  **必须在境内网络跑**（阿里云拦截与被墙只在境内出现）。
 - `vocab_extract.py`：词汇抽取与分词（英文正则词形 + 中文 jieba/双向最大匹配），产出
   `文本/新书/vocab_raw.json`。CLI：`--granularity=word|book|chapter`、`--min-freq-zh/-en`、
   `--contexts/--ctx-width/--books-max`、`--select/--select-file`（划选词）、`--zh-dict/--min-dict-freq`、
@@ -191,9 +205,10 @@
   ```
 - 当前状态（2026-09-29 晚，对最终 `vocab_final.json`）：**66/0、21/0、26/0、6/0、14/0 全绿**。
 - `tests/library/`（页面级，需 jsdom，2026-10-03 状态）：`library-pending-test.js` **17** ｜ `dict-proxy-test.js` **18** ｜
-  `dict-panel-e2e-test.js` **13** ｜ `shard-reader-test.js` **12** ｜ `search-test.js` **43** ｜ `deploy-trigger-test.js` **5**，全绿；
+  `dict-panel-e2e-test.js` **13** ｜ `shard-reader-test.js` **12** ｜ `search-test.js` **44** ｜
+  `dict-links-test.js` **92** ｜ `deploy-trigger-test.js` **5**，全绿；
   `serve-local.js` 是本地预览服务器（静态站 + 真实 Pages Function），用于人工验查词面板 / 检索页。
-  跑法：`for t in library-pending dict-proxy dict-panel-e2e shard-reader search deploy-trigger; do JSDOM_PATH=/tmp/vmtest/node_modules/jsdom node tests/library/$t-test.js; done`
+  跑法：`for t in library-pending dict-proxy dict-panel-e2e shard-reader search dict-links deploy-trigger; do JSDOM_PATH=/tmp/vmtest/node_modules/jsdom node tests/library/$t-test.js; done`
 
 ## 本地环境注意事项
 - **本机无 `python`，只有 `python3`**；shell 为 **bash 3.2**（`set -u` 下空数组展开、`$VAR` 紧跟多字节字符

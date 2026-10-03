@@ -423,6 +423,8 @@ const POS_PREFIX = 'gjs:pos:';
 
     // 在线词典：只对**单个汉字**查询。
     // 多字（含选中的文言短句）直接跳过在线，只走离线：本站词表/分词 + 康熙/说文。
+    // ⚠️ 只用**维基百科**；中文维基词典是「被墙源」，按白名单规则**不参与任何自动摘要请求**
+    //    （只在面板底部「更多词典」里手动点开，见 js/dict-links.js）。
     if (isSingle) {
       const s3 = dpSec('在线词典（需联网）');
       const box = document.createElement('div');
@@ -432,11 +434,8 @@ const POS_PREFIX = 'gjs:pos:';
       s3.appendChild(box);
       s3.appendChild(hint);
       dpBody.appendChild(s3);
-      Promise.all([
-        fetchOnlineSummary('wiktionary', 'Wiktionary', word),
-        fetchOnlineSummary('wikipedia', '维基百科', word)
-      ]).then(function (res) {
-        const got = res.filter(Boolean);
+      fetchOnlineSummary('wikipedia', '维基百科', word).then(function (r) {
+        const got = r ? [r] : [];
         if (!got.length) {
           // 兜底：绝不显示空白；离线康熙/说文已在上方展示
           hint.className = 'dp-warn';
@@ -455,6 +454,34 @@ const POS_PREFIX = 'gjs:pos:';
           sec.appendChild(p);
           box.appendChild(sec);
         });
+      });
+    }
+
+    // --- 更多词典（站外白名单）：任何长度的词都显示；只渲染当前**可用**的源 ---
+    // hidden 的源不渲染按钮、不建链、不预取、不自动请求（规则见 js/dict-links.js）
+    if (window.DictLinks) {
+      const s4 = dpSec('更多词典');
+      const box = document.createElement('div');
+      box.className = 'dl-list';
+      box.innerHTML = '<p class="dp-dim">加载中…</p>';
+      const tip = document.createElement('p');
+      tip.className = 'dp-dim';
+      s4.appendChild(box);
+      s4.appendChild(tip);
+      dpBody.appendChild(s4);
+      DictLinks.ready().then(function () {
+        if (!DictLinks.render(box, word, { itemClass: 'dl-item' })) {
+          box.innerHTML = '<p class="dp-dim">暂无可用的站外词典（都在探活观察中）。</p>';
+        }
+        const hidden = DictLinks.SOURCES.filter(function (s) {
+          return s.lang === 'zh' && DictLinks.stateOf(s.id) === 'hidden';
+        });
+        if (!hidden.length) { tip.hidden = true; return; }
+        tip.innerHTML = '已隐藏 ' + hidden.length + ' 个不可用源（' + hidden.map(function (s) {
+          return DictLinks.esc(s.label);
+        }).join('、') + '），不预取、不自动请求。' +
+          (DictLinks.fallbackEnabled() ? '' :
+            '需要被墙源可到 <a href="' + DictLinks.SETTINGS_HREF + '" target="_blank" rel="noopener">设置</a>开启「容错外链」。');
       });
     }
   }

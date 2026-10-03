@@ -57,6 +57,22 @@
       </ul>
     </section>
 
+    <section class="settings-card" id="dict-links">
+      <h2>词典外链（查词 / 检索）</h2>
+      <p class="settings-tip">
+        查词面板与检索结果的「更多词典」<b>只列当前可用的站外站点</b>（默认：漢典、中國哲學書電子化計劃，均新窗口打开）。<br>
+        不可用的源默认<b>隐藏</b>，且<b>不会被预取、也不会自动请求</b>：
+        國學大師（未备案被阿里云拦截）、中華典藏（域名失效）由<b>每周探活</b>决定是否恢复显示；
+        中文维基词典（境内直连被阻断）只能靠下面的开关手动打开。
+      </p>
+      <label class="settings-check">
+        <input type="checkbox" id="fallbackLinks">
+        开启「容错外链」：显示中文维基词典等被墙源（只在你点击时新窗口打开，不参与任何自动摘要请求）
+      </label>
+      <div class="dl-list" id="dictLinksList"></div>
+      <div class="settings-status" id="dictLinksStatus"></div>
+    </section>
+
     <div class="settings-nav">
       <a class="btn" href="ai-guide.html">📖 查看 AI 新手指南</a>
       <a class="btn" href="index.html">🏠 返回首页</a>
@@ -132,6 +148,8 @@
     }
   });
   </script>
+  <script src="js/dict-links.js"></script>
+  <script src="js/dict-settings.js"></script>
   <script src="js/global-ai.js"></script>
 <!-- 全站搜索移动端浮层 -->
   <div id="search-overlay" role="dialog" aria-label="搜索">
