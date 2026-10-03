@@ -13,8 +13,8 @@
  */
 
 const MAX_Q = 500;
-const TIMEOUT_MS = 3000;
-const UA = 'yidui-gushu-translate-proxy/1.0 (+https://myfami.cn)';
+const TIMEOUT_MS = 2500;
+const UA = 'Mozilla/5.0 (compatible; yidui-gushu-translate-proxy/1.0; +https://myfami.cn)';
 
 const CORS = {
   'Access-Control-Allow-Origin': '*',
@@ -49,54 +49,85 @@ async function fetchWithTimeout(url, ms) {
   }
 }
 
-export async function onRequest(ctx) {
-  const request = ctx && ctx.request;
-  if (!request) return json({ error: 'bad request' }, 400);
-  if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: CORS });
-  if (request.method !== 'GET') return json({ error: 'method not allowed' }, 405);
-
-  const url = new URL(request.url);
-  const q = (url.searchParams.get('q') || '').trim().slice(0, MAX_Q);
-  if (!q) return json({ error: 'missing q' }, 400);
-
-  const langpair = (url.searchParams.get('langpair') || '').trim();
-  let from;
-  let to;
-  if (langpair) {
-    const parts = langpair.split('|');
-    from = mmLang(parts[0]);
-    to = mmLang(parts[1]);
-  } else {
-    from = mmLang(url.searchParams.get('from') || 'zh-Hant');
-    to = mmLang(url.searchParams.get('to') || 'en');
-  }
-  if (!from || !to) return json({ error: 'bad langpair' }, 400);
-
+/** 主源：MyMemory（免费、无需 Key） */
+async function viaMyMemory(q, from, to) {
   const api = 'https://api.mymemory.translated.net/get?' +
     new URLSearchParams({ q: q, langpair: from + '|' + to }).toString();
+  const r = await fetchWithTimeout(api, TIMEOUT_MS);
+  if (!r.ok) return { ok: false, error: 'fetch failed', upstream: r.status, provider: 'mymemory' };
+  const d = await r.json();
+  const text = d && d.responseData && d.responseData.translatedText;
+  if (!text || d.responseStatus !== 200) {
+    return { ok: false, error: 'no translation', provider: 'mymemory',
+             upstream: d && d.responseStatus,
+             detail: String((d && d.responseDetails) || '').slice(0, 120) };
+  }
+  return { ok: true, text: String(text).slice(0, 2000), provider: 'mymemory',
+           match: (d.responseData && d.responseData.match) || 0,
+           url: 'https://mymemory.translated.net/' };
+}
 
+/** 备用源：Google 免密 gtx 接口（免费、无需 Key；主源被墙/限流时救急） */
+async function viaGoogle(q, from, to) {
+  const api = 'https://translate.googleapis.com/translate_a/single?' +
+    new URLSearchParams({ client: 'gtx', sl: from, tl: to, dt: 't', q: q }).toString();
+  const r = await fetchWithTimeout(api, TIMEOUT_MS);
+  if (!r.ok) return { ok: false, error: 'fetch failed', upstream: r.status, provider: 'google' };
+  const d = await r.json();
+  const segs = (Array.isArray(d) && Array.isArray(d[0])) ? d[0] : [];
+  const text = segs.map(s => (s && s[0]) || '').join('').trim();
+  if (!text) return { ok: false, error: 'no translation', provider: 'google' };
+  return { ok: true, text: text.slice(0, 2000), provider: 'google', match: 0,
+           url: 'https://translate.google.com/' };
+}
+
+export async function onRequest(ctx) {
   try {
-    const r = await fetchWithTimeout(api, TIMEOUT_MS);
-    if (!r.ok) return json({ error: 'fetch failed', upstream: r.status }, 502);
-    let data;
-    try { data = await r.json(); }
-    catch (e) { return json({ error: 'bad upstream json' }, 502); }
+    const request = ctx && ctx.request;
+    if (!request) return json({ error: 'bad request' }, 400);
+    if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: CORS });
+    if (request.method !== 'GET') return json({ error: 'method not allowed' }, 405);
 
-    const text = data && data.responseData && data.responseData.translatedText;
-    if (!text || data.responseStatus !== 200) {
-      // 403 = 免费额度用尽（MyMemory 会把提示塞在 responseDetails）
-      const detail = String((data && data.responseDetails) || '').slice(0, 120);
-      return json({ error: 'no translation', upstream: data && data.responseStatus,
-                    detail: detail, query: q, source: from, target: to }, 502, CACHE);
+    const url = new URL(request.url);
+    const q = (url.searchParams.get('q') || '').trim().slice(0, MAX_Q);
+    if (!q) return json({ error: 'missing q' }, 400);
+
+    const langpair = (url.searchParams.get('langpair') || '').trim();
+    let from;
+    let to;
+    if (langpair) {
+      const parts = langpair.split('|');
+      from = mmLang(parts[0]);
+      to = mmLang(parts[1]);
+    } else {
+      from = mmLang(url.searchParams.get('from') || 'zh-Hant');
+      to = mmLang(url.searchParams.get('to') || 'en');
     }
-    return json({
-      query: q, source: from, target: to,
-      translatedText: String(text).slice(0, 2000),
-      match: (data.responseData && data.responseData.match) || 0,
-      url: 'https://mymemory.translated.net/',
-    }, 200, CACHE);
+    if (!from || !to) return json({ error: 'bad langpair' }, 400);
+
+    // 主源 MyMemory → 备用源 Google gtx（任一成功即回；都失败给结构化错误）
+    const tried = [];
+    for (const fn of [viaMyMemory, viaGoogle]) {
+      let r;
+      try {
+        r = await fn(q, from, to);
+      } catch (e) {
+        r = { ok: false, provider: fn === viaMyMemory ? 'mymemory' : 'google',
+              error: 'fetch failed',
+              detail: (e && e.name === 'AbortError') ? 'timeout' : String((e && e.message) || e) };
+      }
+      tried.push({ provider: r.provider, ok: !!r.ok, error: r.error || '',
+                   upstream: r.upstream, detail: r.detail || '' });
+      if (r.ok) {
+        const body = { query: q, source: from, target: to, translatedText: r.text,
+                       match: r.match || 0, provider: r.provider, url: r.url };
+        if (url.searchParams.get('debug')) body.tried = tried;
+        return json(body, 200, CACHE);
+      }
+    }
+    return json({ error: 'no translation', query: q, source: from, target: to, tried }, 502, CACHE);
   } catch (e) {
-    const msg = (e && e.name === 'AbortError') ? 'timeout' : String((e && e.message) || e);
-    return json({ error: 'fetch failed', detail: msg }, 502);
+    // 顶层兜底：任何意外都返回 JSON，绝不让 Pages 抛 502 错误页（前端才能优雅降级）
+    return json({ error: 'internal', detail: String((e && e.message) || e) }, 500);
   }
 }

@@ -179,8 +179,18 @@ async function loadUnihan(q, url, env) {
   };
 }
 
-/* ---------------- 主入口 ---------------- */
+/* ---------------- 主入口（带顶层兜底：任何意外都返回 JSON，不让 Pages 吐 502 错误页） ---------------- */
 export async function onRequest(ctx) {
+  try {
+    return await handleRequest(ctx);
+  } catch (e) {
+    let source = '';
+    try { source = new URL(ctx.request.url).searchParams.get('source') || ''; } catch (e2) {}
+    return json({ source, error: 'internal', detail: String((e && e.message) || e) }, 500);
+  }
+}
+
+async function handleRequest(ctx) {
   const request = ctx && ctx.request;
   const env = ctx && ctx.env;
 

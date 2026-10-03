@@ -490,12 +490,36 @@ async function testFunctions() {
      'translate：返回译文 + 归一后的语言码');
   ok(urls[urls.length - 1].indexOf('api.mymemory.translated.net') !== -1, 'translate：走 MyMemory 上游');
   ok(urls[urls.length - 1].indexOf('langpair=zh-TW%7Cen') !== -1, 'translate：langpair 拼接正确');
+  ok(d.provider === 'mymemory', 'translate：标注主源 provider=mymemory');
   globalThis.fetch = async () => new Response(JSON.stringify({
     responseStatus: 403, responseDetails: 'QUOTA EXCEEDED',
   }), { status: 200 });
   r = await call(trFn, 'q=x&langpair=zh-TW|en');
   d = await r.json();
-  ok(r.status === 502 && d.error === 'no translation', 'translate：配额用尽 → 502 no translation');
+  ok(r.status === 502 && d.error === 'no translation', 'translate：主源配额用尽 → 502 no translation');
+  ok(Array.isArray(d.tried) && d.tried[0].provider === 'mymemory' && d.tried[1].provider === 'google',
+     'translate：失败时给出 tried[]（含备用源尝试记录）');
+
+  // H8b 备用源：MyMemory 挂掉 → Google gtx 接住（前端照常拿到译文）
+  globalThis.fetch = async (u) => {
+    urls.push(String(u));
+    if (String(u).indexOf('mymemory') !== -1) return new Response('{"responseStatus":403}', { status: 200 });
+    return new Response(JSON.stringify([[[ 'Learn and practise', '学而时习之', null, null ]]]), { status: 200 });
+  };
+  r = await call(trFn, 'q=' + encodeURIComponent('学而时习之') + '&from=zh-Hant&to=en');
+  d = await r.json();
+  ok(r.status === 200 && d.translatedText === 'Learn and practise',
+     'translate：主源失败时备用源 Google gtx 接住', JSON.stringify(d).slice(0, 120));
+  ok(d.provider === 'google', 'translate：标注实际来源 provider=google');
+  ok(urls.some(u => u.indexOf('translate.googleapis.com') !== -1), 'translate：备用源走 gtx 接口');
+
+  // H8c 顶层兜底：请求本身不合法 → 仍是 JSON（不抛 Pages 502 错误页）
+  const bad = await trFn.onRequest({ request: { url: 'not-a-url', method: 'GET' } });
+  ok(bad.status === 500 && (await bad.json()).error === 'internal',
+     'translate：内部异常 → 500 JSON internal（前端可降级）');
+  const badDict = await dict.onRequest({ request: { url: 'not-a-url', method: 'GET' } });
+  ok(badDict.status === 500 && (await badDict.json()).error === 'internal',
+     'dict：内部异常 → 500 JSON internal（绝不吐 502 错误页）');
   ok((await call(trFn, 'from=en&to=zh-CN')).status === 400, 'translate：缺 q → 400');
 
   globalThis.fetch = origFetch;
