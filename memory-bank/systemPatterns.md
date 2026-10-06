@@ -151,6 +151,11 @@
   （经深蓝/史赭石/子墨绿/集暗紫/丛深灰/**全部棕黄**）；书名 `writing-mode:vertical-rl` 竖排楷体；
   右下角 `📗`（古登堡）/`📘`（维基文库）；悬停 `translateY(-4px)` + 阴影 + 底部渐显 `summary`。
   **「全部」Tab 统一棕黄，分类 Tab 用该部底色**。
+- **🔒 铁律 · 作者名位置**：作者名一律置于封面**右下角**（`.cover-author`：`position:absolute` +
+  `right:9px / bottom:30px`，竖排贴右缘、让出右下角来源角标），**严禁竖排放在正中间**——书名竖排居中时，
+  长书名会向下压住正中的作者名。三处渲染共用该样式：`js/library.js#cardHTML`、`js/library.js#pendingCardHTML`、
+  `js/book.js#heroHTML`。因封面为 **CSS 实时渲染（无图片产物）**，改此一处即全库（295 本）统一生效，
+  **无需逐本重新生成封面图片**。
 - **排序**：热门=`read_count`、最新=`added_at`、书名=`Intl.Collator('zh')`（拼音序，无需额外数据）。
 - **动画约束**：书库页**禁装饰性动画**（无翻书/粒子/视差/轮播/转场），仅卡片悬停 `transform 0.2s ease`
   与 `:active` 点击反馈。

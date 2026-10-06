@@ -380,6 +380,17 @@
   （`Invalid access token`，9109）暂时用不了，需要在面板重新登录 wrangler 或配 `.env` 的 `CF_DEPLOY_HOOK`。
 
 
+### ⑱ 🔒 封面铁律：作者名一律右下角（2026-10-03）
+- **规则**：书库每本书封面上的**作者名必须放在右下角**，严禁竖排放在正中间 —— 书名竖排居中
+  （`writing-mode: vertical-rl`）时，长书名会向下压住正中的作者名。
+- **实现**：`网站/css/library.css` 的 `.cover-author` 由「底部居中」改为 `position:absolute;
+  right:9px; bottom:30px`（竖排贴右缘，`bottom:30px` 让出右下角来源角标 📗/📘 的位置）。
+- **一处改动，全库生效**：封面为 **CSS 实时渲染（无图片产物）**，三处渲染共用 `.cover-author` ——
+  `js/library.js#cardHTML`（本站藏书）、`js/library.js#pendingCardHTML`（待入库·维基文库）、
+  `js/book.js#heroHTML`（书目详情大封面）。改样式即 295 本统一生效，**无需逐本重新生成封面**。
+- 持久化规则见 `systemPatterns.md`「书库页」小节的「🔒 铁律 · 作者名位置」。
+
+
 ### ⏭️ 下一步（待办）
 1. **检索页可优化**：快照层 11 MB 首搜要拉 64 片（已缓存 1 天）；若要更快可上「书名/篇名命中直接命中 + 快照懒加载」或
    缩到 `--snap-head 120 --snap-tail 40`；另可补**简繁折叠**（现在按原文匹配，繁简不同字会漏）。

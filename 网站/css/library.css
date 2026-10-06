@@ -196,11 +196,15 @@
 /* 长书名降字号，避免竖排溢出 */
 .cover-title.long { font-size: 17px; letter-spacing: 3px; }
 
+/* 🔒 铁律：作者名必须置于封面【右下角】，严禁放正中间。
+   原因：书名竖排居中（writing-mode: vertical-rl），长书名会向下压住正中的作者名。
+   做法：竖排贴右缘（right），并让出右下角来源角标（📗/📘，right:7px bottom:7px）的位置（bottom:30px）。
+   三处渲染共用本类 —— library.js（cardHTML / pendingCardHTML）+ book.js（heroHTML）；
+   封面为 CSS 实时渲染（无图片产物），改此一处即全库统一生效，无需逐本重新生成。 */
 .cover-author {
   position: absolute;
-  left: 50%;
-  bottom: 34px;
-  transform: translateX(-50%);
+  right: 9px;
+  bottom: 30px;
   writing-mode: vertical-rl;
   font-size: 11px;
   opacity: 0.86;
