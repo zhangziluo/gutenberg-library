@@ -124,6 +124,10 @@
   （kangxi 48710 / shuowen 9815 / cedict 198266 条），并维护 `dict_meta.json`（shards + 词典清单）。`--only <name>` 可单跑。
 - `build_search_index.py`（`文本/`，**新增 2026-10-03**）：生成检索索引（目录层 + 快照层）到 `网站/_site_data/search/`；
   遍历 `_site_data` 全部单书（分片书自动按序拼回），篇序复用 `build_sentences.ordered_sections`（与前端同序）。
+  **元数据（作者/分类/子类）多来源字段级合并**：`books-data.json` → `library-index.json` →
+  `--meta <文件>`（可多次，如 `git show <rev>:…` 导出）→ **累积档 `文本/新书/book_meta_full.json`**
+  （生成后写回合并结果，只增不减；`--no-meta-update` 关闭）——`push_batch.sh` 会把前两者收窄到「累计第 K 批」，
+  靠累积档兜住历史元数据，否则已入库的书会丢作者/分类。`--snap-head/--snap-tail/--shards/--dry-run` 可调。
 - `deploy/dict_links_probe.js`（**新增 2026-10-03**）：站外词典**每周探活**（HEAD 状态码 + 页面关键字 / DNS + 200），
   状态机写回 `网站/_site_data/dict/dict_links.json`（连续 2 次成功 → enabled，连续 2 次失败 → hidden）；
   `--dry-run / --only <id> / --timeout / --quiet / --commit / --push`；核心只用全局 fetch，可被 Worker `scheduled` 复用。

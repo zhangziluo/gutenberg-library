@@ -157,7 +157,7 @@ bash 文本/新书/wikisource_recommended.sh 10     # 省略参数＝全部
 | `fill_glosses.py` `definition_fill.py` | 释义回填（CC-CEDICT / 新华 / 康熙 / 说文 / ECDICT / 网络词典） |
 | `vocab_extract.py` `build_vocab_final.py` | 全库词汇抽取 → 前端词表（供正文分词定边界） |
 | `build_wikisource_index.py` `wikisource_index_backfill.py` | 维基文库索引生成 / 页面元数据补抓 |
-| `build_search_index.py`（`文本/`） | 生成检索索引：目录层（书名/作者/分类 + 全部篇目标题）+ 快照层（每篇前 180 字 + 尾 60 字，64 片） |
+| `build_search_index.py`（`文本/`） | 生成检索索引：目录层（书名/作者/分类 + 全部篇目标题）+ 快照层（每篇前 180 字 + 尾 60 字，64 片）；元数据按 `books-data` → `library-index` → `--meta` → 累积档 `文本/新书/book_meta_full.json` 合并，分批推送收窄聚合文件也不会丢作者/分类 |
 | `build_dict_shards.py` | 离线词典分片：康熙 / 说文 / CC-CEDICT → `_site_data/dict/<name>/<首字码点%128>.json` |
 | `build_unihan_slim.py` | 从 UCD 官方 Unihan.zip 抽「拼音 / 部首 / 笔画」→ `_site_data/dict/unihan/0..127.json`（10.3 万字 / 3 MB） |
 | `deploy/dict_links_probe.js` | 站外词典**每周探活**（HEAD + 关键字）：识别阿里云拦截页 / 域名失效；连续 2 次成功才自动放出来 |

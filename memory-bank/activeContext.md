@@ -391,6 +391,35 @@
 - 持久化规则见 `systemPatterns.md`「书库页」小节的「🔒 铁律 · 作者名位置」。
 
 
+### ⑲ 第 2/15 批推送后重建检索索引：元数据多来源合并 + 累积档（2026-10-06）
+- **任务**：`push_batch.sh 2` 之后重建检索索引（`文本/build_search_index.py`）。
+- **先纠正一个直觉**：现索引（10-03 生成）**已覆盖 `_site_data` 全部 790 本 / 24,753 篇** ——
+  第 1、2 批那 80 本本来就在里面（`books.json@HEAD~1` 也是 790 本），重建只为刷新 + 修元数据。
+- 🐛 **发现（分批推送的真 bug）**：`push_batch.sh 2` 把三处聚合文件**整体退回**
+  `~/gutenberg_project/progress/full/` 的 **10-02 22:19 快照**：
+  `library-index.json` 290→**172**、`books-data.json` 295→**180**、`_site_data/books.json` 790→**153**
+  ⇒ **10-03 入库的 118 本维基文库书从书库页/目录里消失**（`三十六計`/`世説新語`/`九章算術`…）。
+  根因：`scripts/batch_scope.py` 每次都**从 `FULL/` 重建**，而 `FULL` 被 `reclassify_en_books.py --also`
+  （10-02 22:17）同步成了**当时已收窄**的版本；**`FULL` 必须始终是「全量」**，否则下一批继续丢。
+  **待办（推第 3 批前）**：把 `HEAD~1` 的三件聚合文件同步回 `progress/full/`
+  （`git show HEAD~1:library-index.json > ~/gutenberg_project/progress/full/library-index.json`，另两个同理），
+  或先 `batch_scope.py --all` 再 `--save`。
+- **另一处历史缺口**：第 2 批里 **25 本**（`Dreams`、莎剧、契诃夫）**从未进过 `library-index.json`**
+  （`_site_data/{书名}.json` 与 `books.json@HEAD~1` 都有，只是书库页不列它们）→ 属「英文批量书未上架」那一类，
+  目前只能从检索页进入。
+- **改动（`文本/build_search_index.py`）**：元数据（作者/分类/子类）改为**多来源字段级合并**：
+  `books-data.json` → `library-index.json` → `--meta <文件>`（可多次，如 `git show <rev>:…` 导出）→
+  **累积档 `文本/新书/book_meta_full.json`**（生成后把合并结果写回，**只增不减**；`--no-meta-update` 关闭）。
+  这样分批推送收窄聚合文件后，已入库书的作者/分类不会再丢。
+- **结果**：790 本 / 24,753 篇不变，`snap/*.json` **逐字节相同**、`titles.json` 的**篇目层完全相同**；
+  作者/分类 **268 本（0 丢失）**，另有 **255 本新挂上子类 `s`**（如 `A Little Princess` →
+  `子部 · 小說家（童話·西洋）`）→ 检索页 `b.s` 参与匹配，搜「童話 / 戲曲」现在能命中。累积档 **268 条 / 35 KB**。
+- **测试**：`search-test.js` **44/44**；全量回归 `library-pending 17 · dict-proxy 21 · dict-panel-e2e 38 ·
+  shard-reader 12 · search 44 · dict-links 92 · dict-fallback 130 · deploy-trigger 5` **全绿**。
+- ⚠️ **环境坑**：`/tmp/vmtest/node_modules/jsdom` 被系统清空（只剩 `lib/`）→ 用 **npmmirror** 重装即可：
+  `npm install --registry=https://registry.npmmirror.com jsdom --prefix /tmp/jsdomtest`（npm 官方源本机不通，`curl` 000）。
+
+
 ### ⏭️ 下一步（待办）
 1. **检索页可优化**：快照层 11 MB 首搜要拉 64 片（已缓存 1 天）；若要更快可上「书名/篇名命中直接命中 + 快照懒加载」或
    缩到 `--snap-head 120 --snap-tail 40`；另可补**简繁折叠**（现在按原文匹配，繁简不同字会漏）。

@@ -1,0 +1,1882 @@
+{
+ "_note": "书目元数据累积档（build_search_index.py 自动维护，勿手改）：把「书库数据源 / library-index / 历史全量」合并后的作者·分类按书名累积，分批推送（push_batch.sh）收窄聚合文件后仍能补齐元数据。",
+ "books": 268,
+ "meta": {
+  "A Florentine Tragedy; La Sainte Courtisane": {
+   "author": "Oscar Wilde",
+   "cat": "集部",
+   "k": "pg1308",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "A Girl of the Limberlost": {
+   "author": "Gene Stratton-Porter",
+   "cat": "子部",
+   "k": "pg125",
+   "n": 27,
+   "sub": "小說家（西洋）"
+  },
+  "A Little Princess": {
+   "author": "Frances Hodgson Burnett",
+   "cat": "子部",
+   "k": "pg146",
+   "n": 19,
+   "sub": "小說家（童話·西洋）"
+  },
+  "A Woman of No Importance": {
+   "author": "Oscar Wilde",
+   "cat": "集部",
+   "k": "pg854",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "All's Well That Ends Well": {
+   "author": "William Shakespeare",
+   "cat": "集部",
+   "k": "pg2246",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "An ideal husband": {
+   "author": "Oscar Wilde",
+   "cat": "集部",
+   "k": "pg885",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "Anne of Green Gables": {
+   "author": "Lucy Maud Montgomery",
+   "cat": "子部",
+   "k": "pg45",
+   "n": 38,
+   "sub": "小說家（西洋）"
+  },
+  "Bab: A Sub-Deb": {
+   "author": "Mary Roberts Rinehart",
+   "cat": "子部",
+   "k": "pg366",
+   "n": 4,
+   "sub": "小說家（西洋）"
+  },
+  "Cast Upon the Breakers": {
+   "author": "Jr. Horatio Alger",
+   "cat": "子部",
+   "k": "pg399",
+   "n": 38,
+   "sub": "小說家（西洋）"
+  },
+  "Dolly Dialogues": {
+   "author": "Anthony Hope",
+   "cat": "子部",
+   "k": "pg1203",
+   "n": 1,
+   "sub": "小說家（西洋）"
+  },
+  "Dracula": {
+   "author": "Unknown",
+   "cat": "子部",
+   "k": "pg345",
+   "n": 27,
+   "sub": "小說家（志怪·西洋）"
+  },
+  "Driven from Home; Or, Carl Crawford's Experience": {
+   "author": "Jr. Horatio Alger",
+   "cat": "子部",
+   "k": "pg530",
+   "n": 41,
+   "sub": "小說家（西洋）"
+  },
+  "Fables": {
+   "author": "Robert Louis Stevenson",
+   "cat": "子部",
+   "k": "pg343",
+   "n": 2,
+   "sub": "小說家（寓言·西洋）"
+  },
+  "Frankenstein": {
+   "author": "Mary Wollstonecraft (Godwin) Shelley",
+   "cat": "子部",
+   "k": "pg84",
+   "n": 24,
+   "sub": "小說家（志怪·西洋）"
+  },
+  "Grimms' Fairy Tales": {
+   "author": "Jacob Grimm and Wilhelm Grimm",
+   "cat": "子部",
+   "k": "pg2591",
+   "n": 62,
+   "sub": "小說家（童話·西洋）"
+  },
+  "Hamlet": {
+   "author": "William Shakespeare",
+   "cat": "集部",
+   "k": "pg2265",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "Joe the Hotel Boy; Or, Winning out by Pluck": {
+   "author": "Jr. Horatio Alger",
+   "cat": "子部",
+   "k": "pg528",
+   "n": 31,
+   "sub": "小說家（西洋）"
+  },
+  "Julius Caesar": {
+   "author": "William Shakespeare",
+   "cat": "集部",
+   "k": "pg2263",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "King Lear": {
+   "author": "William Shakespeare",
+   "cat": "集部",
+   "k": "pg2266",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "Lady Windermere's Fan": {
+   "author": "Oscar Wilde",
+   "cat": "集部",
+   "k": "pg790",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "Little Lord Fauntleroy": {
+   "author": "Frances Hodgson Burnett",
+   "cat": "子部",
+   "k": "pg479",
+   "n": 15,
+   "sub": "小說家（童話·西洋）"
+  },
+  "Love for Love: A Comedy": {
+   "author": "William Congreve",
+   "cat": "集部",
+   "k": "pg1244",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "Love's Labour's Lost": {
+   "author": "William Shakespeare",
+   "cat": "集部",
+   "k": "pg2241",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "Misalliance": {
+   "author": "Bernard Shaw",
+   "cat": "集部",
+   "k": "pg943",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "Much Ado about Nothing": {
+   "author": "William Shakespeare",
+   "cat": "集部",
+   "k": "pg2240",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "Othello": {
+   "author": "William Shakespeare",
+   "cat": "集部",
+   "k": "pg2267",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "Peter Pan : [Peter and Wendy]": {
+   "author": "J. M. Barrie [James Matthew Barrie]",
+   "cat": "子部",
+   "k": "pg16",
+   "n": 17,
+   "sub": "小說家（童話·西洋）"
+  },
+  "Recipes Tried and True": {
+   "author": "Ohio). Ladies' Aid Society First Presbyterian Church (Marion",
+   "cat": "子部",
+   "k": "pg1084",
+   "n": 3,
+   "sub": "譜錄（食譜）"
+  },
+  "She Stoops to Conquer; Or, The Mistakes of a Night: A Comedy": {
+   "author": "Oliver Goldsmith",
+   "cat": "集部",
+   "k": "pg383",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "The Adventures of Pinocchio": {
+   "author": "Carlo Collodi",
+   "cat": "子部",
+   "k": "pg500",
+   "n": 37,
+   "sub": "小說家（童話·西洋）"
+  },
+  "The Arabian Nights Entertainments": {
+   "author": "Unknown",
+   "cat": "子部",
+   "k": "pg128",
+   "n": 35,
+   "sub": "小說家（志怪·西洋）"
+  },
+  "The Bobbsey Twins at School": {
+   "author": "Laura Lee Hope",
+   "cat": "子部",
+   "k": "pg737",
+   "n": 23,
+   "sub": "小說家（童話·西洋）"
+  },
+  "The Cash Boy": {
+   "author": "Jr. Horatio Alger",
+   "cat": "子部",
+   "k": "pg296",
+   "n": 23,
+   "sub": "小說家（西洋）"
+  },
+  "The Comedy of Errors": {
+   "author": "William Shakespeare",
+   "cat": "集部",
+   "k": "pg2239",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "The Double-Dealer: A Comedy": {
+   "author": "William Congreve",
+   "cat": "集部",
+   "k": "pg1191",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "The Errand Boy; Or, How Phil Brent Won Success": {
+   "author": "Jr. Horatio Alger",
+   "cat": "子部",
+   "k": "pg462",
+   "n": 41,
+   "sub": "小說家（西洋）"
+  },
+  "The Hound of the Baskervilles": {
+   "author": "A. Conan Doyle",
+   "cat": "子部",
+   "k": "pg2852",
+   "n": 15,
+   "sub": "小說家（公案·西洋）"
+  },
+  "The Jungle Book": {
+   "author": "Rudyard Kipling",
+   "cat": "子部",
+   "k": "pg236",
+   "n": 14,
+   "sub": "小說家（童話·西洋）"
+  },
+  "The Merry Wives of Windsor": {
+   "author": "William Shakespeare",
+   "cat": "集部",
+   "k": "pg2237",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "The Old Bachelor: A Comedy": {
+   "author": "William Congreve",
+   "cat": "集部",
+   "k": "pg1192",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "The Playboy of the Western World: A Comedy in Three Acts": {
+   "author": "J. M. Synge",
+   "cat": "集部",
+   "k": "pg1240",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "The Plays of W. E. Henley and R. L. Stevenson": {
+   "author": "William Ernest Henley",
+   "cat": "集部",
+   "k": "pg719",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "The Taming of the Shrew": {
+   "author": "William Shakespeare",
+   "cat": "集部",
+   "k": "pg2245",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "The Tinker's Wedding": {
+   "author": "J. M. Synge",
+   "cat": "集部",
+   "k": "pg1328",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "The Two Gentlemen of Verona": {
+   "author": "William Shakespeare",
+   "cat": "集部",
+   "k": "pg2236",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "The Way of the World": {
+   "author": "William Congreve",
+   "cat": "集部",
+   "k": "pg1292",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "The Well of the Saints: A Comedy in Three Acts": {
+   "author": "J. M. Synge",
+   "cat": "集部",
+   "k": "pg1241",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "The Wind in the Willows": {
+   "author": "Kenneth Grahame",
+   "cat": "子部",
+   "k": "pg289",
+   "n": 12,
+   "sub": "小說家（童話·西洋）"
+  },
+  "Through the Looking-Glass": {
+   "author": "Lewis Carroll",
+   "cat": "子部",
+   "k": "pg12",
+   "n": 13,
+   "sub": "小說家（童話·西洋）"
+  },
+  "Troilus and Cressida": {
+   "author": "William Shakespeare",
+   "cat": "集部",
+   "k": "pg1528",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "Twelfth Night": {
+   "author": "William Shakespeare",
+   "cat": "集部",
+   "k": "pg2247",
+   "n": 1,
+   "sub": "戲曲（西洋）"
+  },
+  "Walden": {
+   "author": "Henry David Thoreau",
+   "cat": "集部",
+   "k": "pg205",
+   "n": 19,
+   "sub": "別集（西洋）"
+  },
+  "一枕奇": {
+   "author": "華陽散人",
+   "cat": "子部",
+   "k": "pg27753",
+   "n": 10,
+   "sub": "小說家（話本）"
+  },
+  "三十六計": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "三十六計",
+   "n": 6,
+   "sub": "兵家"
+  },
+  "三國志": {
+   "author": "陳壽",
+   "cat": "史部",
+   "k": "sanguozhi",
+   "n": 29,
+   "sub": ""
+  },
+  "三國演義": {
+   "author": "羅貫中",
+   "cat": "史部",
+   "k": "sanguo-yanyi",
+   "n": 120,
+   "sub": ""
+  },
+  "三字經": {
+   "author": "佚名",
+   "cat": "經部",
+   "k": "sanzijing",
+   "n": 1,
+   "sub": "蒙學"
+  },
+  "三略": {
+   "author": "黃石公（舊題）",
+   "cat": "子部",
+   "k": "pg7218",
+   "n": 3,
+   "sub": "兵家"
+  },
+  "三輔黃圖": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "三輔黃圖",
+   "n": 10,
+   "sub": "總類"
+  },
+  "世説新語": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "世説新語",
+   "n": 9,
+   "sub": "總類"
+  },
+  "中國小說史略": {
+   "author": "魯迅",
+   "cat": "集部",
+   "k": "zhongguo-xiaoshuo-shilue",
+   "n": 29,
+   "sub": "modern"
+  },
+  "九章算術": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "九章算術",
+   "n": 12,
+   "sub": "總類"
+  },
+  "人物志": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "人物志",
+   "n": 8,
+   "sub": "總類"
+  },
+  "今古奇觀": {
+   "author": "抱甕老人",
+   "cat": "子部",
+   "k": "jingu-qiguan",
+   "n": 80,
+   "sub": "小說家（話本）"
+  },
+  "佛國記": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "佛國記",
+   "n": 1,
+   "sub": "地理"
+  },
+  "佛說四十二章經": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "foshuo-sishierzhang-jing",
+   "n": 43,
+   "sub": "釋家"
+  },
+  "傷寒論": {
+   "author": "張仲景",
+   "cat": "子部",
+   "k": "傷寒論",
+   "n": 12,
+   "sub": "醫家"
+  },
+  "儀禮": {
+   "author": "佚名",
+   "cat": "經部",
+   "k": "儀禮",
+   "n": 17,
+   "sub": "十三經總義"
+  },
+  "儀禮註疏": {
+   "author": "賈公彥",
+   "cat": "經部",
+   "k": "儀禮註疏",
+   "n": 53,
+   "sub": "註疏"
+  },
+  "全唐詩": {
+   "author": "佚名",
+   "cat": "集部",
+   "k": "全唐詩",
+   "n": 889,
+   "sub": "詩"
+  },
+  "公孫龍子": {
+   "author": "公孫龍",
+   "cat": "子部",
+   "k": "pg7216",
+   "n": 6,
+   "sub": "名家"
+  },
+  "六祖壇經": {
+   "author": "慧能（述）",
+   "cat": "子部",
+   "k": "pg23844",
+   "n": 10,
+   "sub": "釋家"
+  },
+  "六臣註文選": {
+   "author": "佚名",
+   "cat": "集部",
+   "k": "六臣註文選",
+   "n": 63,
+   "sub": "總類"
+  },
+  "六韜": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "六韜",
+   "n": 7,
+   "sub": "總類"
+  },
+  "冊府元龜": {
+   "author": "楊億",
+   "cat": "史部",
+   "k": "冊府元龜",
+   "n": 898,
+   "sub": "正史"
+  },
+  "列子": {
+   "author": "列禦寇",
+   "cat": "子部",
+   "k": "列子",
+   "n": 8,
+   "sub": "道家"
+  },
+  "初學記": {
+   "author": "徐堅",
+   "cat": "子部",
+   "k": "初學記",
+   "n": 31,
+   "sub": "類書"
+  },
+  "千字文": {
+   "author": "佚名",
+   "cat": "經部",
+   "k": "千字文",
+   "n": 1,
+   "sub": "蒙學"
+  },
+  "千家詩": {
+   "author": "佚名",
+   "cat": "集部",
+   "k": "千家詩",
+   "n": 4,
+   "sub": "詩"
+  },
+  "南腔北調集": {
+   "author": "魯迅",
+   "cat": "集部",
+   "k": "nanqiang-beidiao-ji",
+   "n": 46,
+   "sub": "modern"
+  },
+  "南華真經": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "南華真經",
+   "n": 13,
+   "sub": "總類"
+  },
+  "古文觀止": {
+   "author": "吳楚材、吳調侯",
+   "cat": "集部",
+   "k": "guwen-guangzhi",
+   "n": 222,
+   "sub": "總集"
+  },
+  "古文辭類纂": {
+   "author": "佚名",
+   "cat": "集部",
+   "k": "古文辭類纂",
+   "n": 1,
+   "sub": "總集"
+  },
+  "史記": {
+   "author": "司馬遷",
+   "cat": "史部",
+   "k": "shiji",
+   "n": 127,
+   "sub": "總類"
+  },
+  "史記三家註": {
+   "author": "司馬貞",
+   "cat": "史部",
+   "k": "史記三家註",
+   "n": 35,
+   "sub": "總類"
+  },
+  "史通": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "史通",
+   "n": 27,
+   "sub": "總類"
+  },
+  "司馬法": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "司馬法",
+   "n": 3,
+   "sub": "總類"
+  },
+  "吳子": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "吳子",
+   "n": 2,
+   "sub": "總類"
+  },
+  "吳船錄": {
+   "author": "范成大",
+   "cat": "史部",
+   "k": "pg27581",
+   "n": 2,
+   "sub": "地理"
+  },
+  "吳越春秋": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "吳越春秋",
+   "n": 13,
+   "sub": "總類"
+  },
+  "呂氏春秋": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "呂氏春秋",
+   "n": 28,
+   "sub": "總類"
+  },
+  "周易": {
+   "author": "周公旦",
+   "cat": "經部",
+   "k": "周易",
+   "n": 73,
+   "sub": "十三經總義"
+  },
+  "周易正義": {
+   "author": "孔穎達",
+   "cat": "經部",
+   "k": "周易正義",
+   "n": 98,
+   "sub": "易"
+  },
+  "周禮": {
+   "author": "佚名",
+   "cat": "經部",
+   "k": "周禮",
+   "n": 6,
+   "sub": "十三經總義"
+  },
+  "周禮註疏": {
+   "author": "賈公彥",
+   "cat": "經部",
+   "k": "周禮註疏",
+   "n": 41,
+   "sub": "註疏"
+  },
+  "周髀算經": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "周髀算經",
+   "n": 4,
+   "sub": "總類"
+  },
+  "唐會要": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "唐會要",
+   "n": 99,
+   "sub": "政書"
+  },
+  "唐詩三百首": {
+   "author": "孫洙",
+   "cat": "集部",
+   "k": "唐詩三百首",
+   "n": 8,
+   "sub": "詩"
+  },
+  "唐诗三百首": {
+   "author": "蘅塘退士（孫洙）編",
+   "cat": "集部",
+   "k": "pg52323",
+   "n": 320,
+   "sub": "總集"
+  },
+  "唐鍾馗平鬼傳": {
+   "author": "東山雲中道人",
+   "cat": "子部",
+   "k": "tang-zhongkui-pinggui-zhuan",
+   "n": 16,
+   "sub": "小說家（神魔）"
+  },
+  "商子": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "商子",
+   "n": 5,
+   "sub": "總類"
+  },
+  "喻世明言": {
+   "author": "馮夢龍",
+   "cat": "子部",
+   "k": "pg27582",
+   "n": 40,
+   "sub": "小說家（話本）"
+  },
+  "困學記聞": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "困學記聞",
+   "n": 23,
+   "sub": "總類"
+  },
+  "國語": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "國語",
+   "n": 22,
+   "sub": "總類"
+  },
+  "墨子": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "墨子",
+   "n": 17,
+   "sub": "總類"
+  },
+  "夢溪筆談": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "夢溪筆談",
+   "n": 30,
+   "sub": "總類"
+  },
+  "夢粱錄": {
+   "author": "吳自牧",
+   "cat": "叢部",
+   "k": "夢粱錄",
+   "n": 21,
+   "sub": "四庫全書"
+  },
+  "大唐西域記": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "大唐西域記",
+   "n": 9,
+   "sub": "總類"
+  },
+  "大戴禮記": {
+   "author": "戴德",
+   "cat": "經部",
+   "k": "大戴禮記",
+   "n": 40,
+   "sub": "十三經總義"
+  },
+  "天下郡國利病書": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "天下郡國利病書",
+   "n": 54,
+   "sub": "總類"
+  },
+  "天妃顯聖錄": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "pg54777",
+   "n": 88,
+   "sub": "道家"
+  },
+  "天豹圖": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "tianbao-tu",
+   "n": 41,
+   "sub": "小說家（英雄傳奇）"
+  },
+  "太平廣記": {
+   "author": "李昉",
+   "cat": "子部",
+   "k": "太平廣記",
+   "n": 467,
+   "sub": "類書"
+  },
+  "太平御覽": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "太平御覽",
+   "n": 942,
+   "sub": "總類"
+  },
+  "太玄經": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "太玄經",
+   "n": 13,
+   "sub": "總類"
+  },
+  "孔子家語": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "孔子家語",
+   "n": 13,
+   "sub": "總類"
+  },
+  "孝經註疏": {
+   "author": "李隆基",
+   "cat": "經部",
+   "k": "孝經註疏",
+   "n": 10,
+   "sub": "註疏"
+  },
+  "孟子": {
+   "author": "孟子",
+   "cat": "經部",
+   "k": "孟子",
+   "n": 14,
+   "sub": "十三經總義"
+  },
+  "孟子字義疏證": {
+   "author": "戴震",
+   "cat": "經部",
+   "k": "mengzi-ziyi-shuzheng",
+   "n": 4,
+   "sub": "四書"
+  },
+  "孟子註疏": {
+   "author": "孙奭",
+   "cat": "經部",
+   "k": "孟子註疏",
+   "n": 15,
+   "sub": "註疏"
+  },
+  "孫子集注": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "孫子集注",
+   "n": 14,
+   "sub": "總類"
+  },
+  "孫臏兵法": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "孫臏兵法",
+   "n": 24,
+   "sub": "兵家"
+  },
+  "安樂集": {
+   "author": "道綽",
+   "cat": "子部",
+   "k": "anle-ji",
+   "n": 2,
+   "sub": "釋家"
+  },
+  "宋史": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "宋史",
+   "n": 476,
+   "sub": "正史"
+  },
+  "容齋隨筆": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "容齋隨筆",
+   "n": 85,
+   "sub": "總類"
+  },
+  "封氏聞見記": {
+   "author": "封演",
+   "cat": "子部",
+   "k": "pg27207",
+   "n": 10,
+   "sub": "雜家"
+  },
+  "尚書": {
+   "author": "司馬遷",
+   "cat": "經部",
+   "k": "尚書",
+   "n": 69,
+   "sub": "十三經總義"
+  },
+  "尚書正義": {
+   "author": "孔安國",
+   "cat": "經部",
+   "k": "尚書正義",
+   "n": 21,
+   "sub": "註疏"
+  },
+  "尹文子": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "尹文子",
+   "n": 2,
+   "sub": "總類"
+  },
+  "山水小牘": {
+   "author": "皇甫枚",
+   "cat": "子部",
+   "k": "pg23914",
+   "n": 2,
+   "sub": "小說家（筆記）"
+  },
+  "山水情": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "shanshui-qing",
+   "n": 22,
+   "sub": "小說家"
+  },
+  "山海經": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "shanhaijing",
+   "n": 18,
+   "sub": "小說家（志怪·地理）"
+  },
+  "平妖傳": {
+   "author": "羅貫中、馮夢龍",
+   "cat": "子部",
+   "k": "pg57227",
+   "n": 40,
+   "sub": "小說家（神魔）"
+  },
+  "幼學瓊林": {
+   "author": "程允升",
+   "cat": "經部",
+   "k": "youxue-qionglin",
+   "n": 33,
+   "sub": "蒙學"
+  },
+  "幽明錄": {
+   "author": "劉義慶",
+   "cat": "子部",
+   "k": "pg52278",
+   "n": 1,
+   "sub": "小說家（志怪）"
+  },
+  "幾何原本": {
+   "author": "偉烈亞力",
+   "cat": "叢部",
+   "k": "幾何原本",
+   "n": 12,
+   "sub": "四庫全書"
+  },
+  "引鳳蕭": {
+   "author": "半雲友",
+   "cat": "子部",
+   "k": "yinfeng-xiao",
+   "n": 16,
+   "sub": "小說家（才子佳人）"
+  },
+  "弘明集": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "弘明集",
+   "n": 30,
+   "sub": "總類"
+  },
+  "彷徨": {
+   "author": "魯迅",
+   "cat": "集部",
+   "k": "panghuang",
+   "n": 8,
+   "sub": "modern"
+  },
+  "後漢書": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "後漢書",
+   "n": 125,
+   "sub": "正史"
+  },
+  "後西遊記": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "hou-xiyouji",
+   "n": 19,
+   "sub": "小說家（神魔）"
+  },
+  "意林": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "意林",
+   "n": 10,
+   "sub": "總類"
+  },
+  "慎子": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "慎子",
+   "n": 5,
+   "sub": "總類"
+  },
+  "戲中戲": {
+   "author": "李漁",
+   "cat": "子部",
+   "k": "xizhong-xi",
+   "n": 7,
+   "sub": "小說家"
+  },
+  "抱朴子": {
+   "author": "葛洪",
+   "cat": "子部",
+   "k": "pg25696",
+   "n": 38,
+   "sub": "道家"
+  },
+  "揚子法言": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "揚子法言",
+   "n": 15,
+   "sub": "總類"
+  },
+  "搜神記": {
+   "author": "干寶",
+   "cat": "子部",
+   "k": "pg25362",
+   "n": 20,
+   "sub": "小說家（志怪）"
+  },
+  "文中子中説": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "文中子中説",
+   "n": 11,
+   "sub": "總類"
+  },
+  "文心雕龍": {
+   "author": "佚名",
+   "cat": "集部",
+   "k": "文心雕龍",
+   "n": 12,
+   "sub": "總類"
+  },
+  "新唐書": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "新唐書",
+   "n": 248,
+   "sub": "正史"
+  },
+  "新序": {
+   "author": "劉向",
+   "cat": "子部",
+   "k": "新序",
+   "n": 11,
+   "sub": "總類"
+  },
+  "新書": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "新書",
+   "n": 14,
+   "sub": "總類"
+  },
+  "施公案": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "shigongan",
+   "n": 526,
+   "sub": "小說家（公案）"
+  },
+  "日知錄": {
+   "author": "顧炎武",
+   "cat": "子部",
+   "k": "pg25262",
+   "n": 1008,
+   "sub": "儒家"
+  },
+  "明儒學案": {
+   "author": "黃宗羲",
+   "cat": "叢部",
+   "k": "明儒學案",
+   "n": 76,
+   "sub": "四庫全書"
+  },
+  "明夷待訪錄": {
+   "author": "黃宗羲",
+   "cat": "子部",
+   "k": "pg23855",
+   "n": 21,
+   "sub": "儒家"
+  },
+  "明鏡公案": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "pg52280",
+   "n": 4,
+   "sub": "小說家（公案）"
+  },
+  "易經": {
+   "author": "佚名",
+   "cat": "經部",
+   "k": "yijing",
+   "n": 69,
+   "sub": "易"
+  },
+  "星槎勝覽": {
+   "author": "費信",
+   "cat": "史部",
+   "k": "pg24143",
+   "n": 43,
+   "sub": "地理"
+  },
+  "春秋公羊傳": {
+   "author": "公羊髙",
+   "cat": "經部",
+   "k": "春秋公羊傳",
+   "n": 12,
+   "sub": "十三經總義"
+  },
+  "春秋公羊傳註疏": {
+   "author": "佚名",
+   "cat": "經部",
+   "k": "春秋公羊傳註疏",
+   "n": 30,
+   "sub": "十三經總義"
+  },
+  "春秋左傳註疏": {
+   "author": "佚名",
+   "cat": "經部",
+   "k": "春秋左傳註疏",
+   "n": 8,
+   "sub": "十三經總義"
+  },
+  "春秋左氏傳": {
+   "author": "佚名",
+   "cat": "經部",
+   "k": "春秋左氏傳",
+   "n": 13,
+   "sub": "十三經總義"
+  },
+  "春秋穀梁傳": {
+   "author": "佚名",
+   "cat": "經部",
+   "k": "春秋穀梁傳",
+   "n": 12,
+   "sub": "十三經總義"
+  },
+  "春秋穀梁傳註疏": {
+   "author": "楊士勛",
+   "cat": "經部",
+   "k": "春秋穀梁傳註疏",
+   "n": 21,
+   "sub": "註疏"
+  },
+  "春秋繁露": {
+   "author": "董仲舒",
+   "cat": "經部",
+   "k": "chunqiu-fanlu",
+   "n": 79,
+   "sub": "春秋"
+  },
+  "晁氏儒言": {
+   "author": "晁說之",
+   "cat": "子部",
+   "k": "chaoshi-ruyan",
+   "n": 83,
+   "sub": "儒家"
+  },
+  "景德傳燈錄": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "景德傳燈錄",
+   "n": 33,
+   "sub": "總類"
+  },
+  "朝花夕拾": {
+   "author": "魯迅",
+   "cat": "集部",
+   "k": "zhaohua-xishi",
+   "n": 10,
+   "sub": "modern"
+  },
+  "木蘭奇女傳": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "mulan-qi-nv-zhuan",
+   "n": 33,
+   "sub": "小說家"
+  },
+  "本草綱目": {
+   "author": "李時珍",
+   "cat": "子部",
+   "k": "本草綱目",
+   "n": 64,
+   "sub": "醫家"
+  },
+  "李太白文集": {
+   "author": "李白",
+   "cat": "叢部",
+   "k": "李太白文集",
+   "n": 3,
+   "sub": "四庫全書"
+  },
+  "李娃傳": {
+   "author": "白行簡",
+   "cat": "子部",
+   "k": "liwa-zhuan",
+   "n": 1,
+   "sub": "小說家（傳奇）"
+  },
+  "東京夢華錄": {
+   "author": "孟元老",
+   "cat": "史部",
+   "k": "東京夢華錄",
+   "n": 10,
+   "sub": "地理"
+  },
+  "東周列國志": {
+   "author": "馮夢龍、蔡元放",
+   "cat": "子部",
+   "k": "pg25349",
+   "n": 28,
+   "sub": "小說家（歷史演義）"
+  },
+  "梁公九諫": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "lianggong-jiujian",
+   "n": 10,
+   "sub": "小說家（話本）"
+  },
+  "楚辭": {
+   "author": "佚名",
+   "cat": "集部",
+   "k": "楚辭",
+   "n": 18,
+   "sub": "總類"
+  },
+  "樂府詩集": {
+   "author": "佚名",
+   "cat": "集部",
+   "k": "樂府詩集",
+   "n": 103,
+   "sub": "總類"
+  },
+  "武經總要": {
+   "author": "丁度",
+   "cat": "子部",
+   "k": "武經總要",
+   "n": 45,
+   "sub": "兵家"
+  },
+  "比目魚": {
+   "author": "李漁",
+   "cat": "子部",
+   "k": "bimu-yu",
+   "n": 9,
+   "sub": "小說家"
+  },
+  "毛詩正義": {
+   "author": "孔穎達",
+   "cat": "經部",
+   "k": "毛詩正義",
+   "n": 21,
+   "sub": "註疏"
+  },
+  "水滸傳": {
+   "author": "施耐庵",
+   "cat": "子部",
+   "k": "shuihu-zhuan",
+   "n": 71,
+   "sub": ""
+  },
+  "水滸後傳": {
+   "author": "陳忱",
+   "cat": "子部",
+   "k": "shuihu-houzhuan",
+   "n": 40,
+   "sub": "小說家（英雄傳奇）"
+  },
+  "水經注": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "水經注",
+   "n": 42,
+   "sub": "總類"
+  },
+  "永樂大典": {
+   "author": "解縉",
+   "cat": "子部",
+   "k": "永樂大典",
+   "n": 804,
+   "sub": "類書"
+  },
+  "沖虛至德真經": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "沖虛至德真經",
+   "n": 9,
+   "sub": "總類"
+  },
+  "治世餘聞": {
+   "author": "陳洪謨",
+   "cat": "史部",
+   "k": "zhishi-yuwen",
+   "n": 8,
+   "sub": "雜史"
+  },
+  "洛神賦": {
+   "author": "曹植",
+   "cat": "集部",
+   "k": "luoshen-fu",
+   "n": 1,
+   "sub": "賦"
+  },
+  "洛陽伽藍記": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "洛陽伽藍記",
+   "n": 8,
+   "sub": "總類"
+  },
+  "海上花列傳": {
+   "author": "韓邦慶",
+   "cat": "子部",
+   "k": "pg26872",
+   "n": 64,
+   "sub": "小說家（狹邪）"
+  },
+  "海公案": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "haigongan",
+   "n": 60,
+   "sub": "小說家（公案）"
+  },
+  "淮南子": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "淮南子",
+   "n": 22,
+   "sub": "總類"
+  },
+  "滬語開路": {
+   "author": "柯羅福特、羅林森",
+   "cat": "集部",
+   "k": "huyu-kailu",
+   "n": 50,
+   "sub": "modern"
+  },
+  "漢書": {
+   "author": "班固",
+   "cat": "史部",
+   "k": "hanshu",
+   "n": 99,
+   "sub": "總類"
+  },
+  "漢武帝別國洞冥記": {
+   "author": "郭憲（舊題）",
+   "cat": "子部",
+   "k": "pg52271",
+   "n": 4,
+   "sub": "小說家（志怪）"
+  },
+  "潛夫論": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "潛夫論",
+   "n": 11,
+   "sub": "總類"
+  },
+  "燕丹子": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "yandanzi",
+   "n": 3,
+   "sub": "小說家"
+  },
+  "爾雅註疏": {
+   "author": "邢昺",
+   "cat": "經部",
+   "k": "爾雅註疏",
+   "n": 10,
+   "sub": "註疏"
+  },
+  "狂人日記": {
+   "author": "魯迅",
+   "cat": "集部",
+   "k": "kuangren-riji",
+   "n": 14,
+   "sub": "modern"
+  },
+  "狄公案": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "digongan",
+   "n": 64,
+   "sub": "小說家（公案）"
+  },
+  "玉樓春": {
+   "author": "白雲道人",
+   "cat": "子部",
+   "k": "yulou-chun",
+   "n": 24,
+   "sub": "小說家（才子佳人）"
+  },
+  "玉臺新詠": {
+   "author": "佚名",
+   "cat": "集部",
+   "k": "玉臺新詠",
+   "n": 11,
+   "sub": "詩"
+  },
+  "琵琶記": {
+   "author": "高明",
+   "cat": "集部",
+   "k": "pipa-ji",
+   "n": 42,
+   "sub": "戲曲"
+  },
+  "白圭志": {
+   "author": "崔象川",
+   "cat": "子部",
+   "k": "baigui-zhi",
+   "n": 16,
+   "sub": "小說家（才子佳人）"
+  },
+  "白氏長慶集": {
+   "author": "佚名",
+   "cat": "集部",
+   "k": "白氏長慶集",
+   "n": 75,
+   "sub": "總類"
+  },
+  "百家姓": {
+   "author": "佚名",
+   "cat": "經部",
+   "k": "baijiaxing",
+   "n": 1,
+   "sub": "蒙學"
+  },
+  "直齋書錄解題": {
+   "author": "陳振孫",
+   "cat": "史部",
+   "k": "直齋書錄解題",
+   "n": 22,
+   "sub": "目錄"
+  },
+  "禮記": {
+   "author": "佚名",
+   "cat": "經部",
+   "k": "liji",
+   "n": 49,
+   "sub": "禮"
+  },
+  "禮記正義": {
+   "author": "孔穎達",
+   "cat": "經部",
+   "k": "禮記正義",
+   "n": 56,
+   "sub": "註疏"
+  },
+  "穆天子传": {
+   "author": "佚名（郭璞注）",
+   "cat": "子部",
+   "k": "pg24058",
+   "n": 6,
+   "sub": "小說家（志怪）"
+  },
+  "竇娥冤": {
+   "author": "關漢卿",
+   "cat": "集部",
+   "k": "pg52276",
+   "n": 5,
+   "sub": "戲曲"
+  },
+  "竹書紀年": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "竹書紀年",
+   "n": 2,
+   "sub": "總類"
+  },
+  "筠州黃檗山斷際禪師傳法心要": {
+   "author": "黃檗希運",
+   "cat": "子部",
+   "k": "pg25236",
+   "n": 2,
+   "sub": "釋家"
+  },
+  "管子": {
+   "author": "管仲（舊題）",
+   "cat": "子部",
+   "k": "pg7367",
+   "n": 34,
+   "sub": "法家"
+  },
+  "紀效新書": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "紀效新書",
+   "n": 19,
+   "sub": "兵家"
+  },
+  "紅樓夢": {
+   "author": "曹雪芹",
+   "cat": "子部",
+   "k": "honglou-meng",
+   "n": 120,
+   "sub": ""
+  },
+  "綠牡丹": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "lv-mudan",
+   "n": 64,
+   "sub": "小說家（英雄傳奇）"
+  },
+  "臺灣外紀": {
+   "author": "江日昇",
+   "cat": "史部",
+   "k": "pg27218",
+   "n": 30,
+   "sub": "雜史"
+  },
+  "花間集": {
+   "author": "佚名",
+   "cat": "集部",
+   "k": "花間集",
+   "n": 17,
+   "sub": "總類"
+  },
+  "荀子": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "荀子",
+   "n": 24,
+   "sub": "總類"
+  },
+  "菜根譚": {
+   "author": "洪應明",
+   "cat": "子部",
+   "k": "pg24050",
+   "n": 1,
+   "sub": "儒家"
+  },
+  "華陽國志": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "華陽國志",
+   "n": 16,
+   "sub": "總類"
+  },
+  "蒙求": {
+   "author": "李瀚",
+   "cat": "經部",
+   "k": "蒙求",
+   "n": 1,
+   "sub": "蒙學"
+  },
+  "藝文類聚": {
+   "author": "歐陽詢",
+   "cat": "子部",
+   "k": "藝文類聚",
+   "n": 100,
+   "sub": "類書"
+  },
+  "虬髯客傳": {
+   "author": "杜光庭（舊題）",
+   "cat": "子部",
+   "k": "pg23915",
+   "n": 1,
+   "sub": "小說家（傳奇）"
+  },
+  "西京雜記": {
+   "author": "葛洪（舊題）",
+   "cat": "子部",
+   "k": "pg25368",
+   "n": 6,
+   "sub": "小說家（筆記）"
+  },
+  "西遊記": {
+   "author": "吳承恩",
+   "cat": "子部",
+   "k": "xiyou-ji",
+   "n": 100,
+   "sub": ""
+  },
+  "詩經": {
+   "author": "佚名",
+   "cat": "經部",
+   "k": "shijing",
+   "n": 305,
+   "sub": "詩"
+  },
+  "說苑": {
+   "author": "劉向",
+   "cat": "子部",
+   "k": "說苑",
+   "n": 20,
+   "sub": "儒家"
+  },
+  "論衡": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "論衡",
+   "n": 32,
+   "sub": "總類"
+  },
+  "論語": {
+   "author": "孔子",
+   "cat": "經部",
+   "k": "lunyu",
+   "n": 20,
+   "sub": "四書"
+  },
+  "論語註疏": {
+   "author": "何晏",
+   "cat": "經部",
+   "k": "論語註疏",
+   "n": 21,
+   "sub": "註疏"
+  },
+  "警世通言": {
+   "author": "馮夢龍",
+   "cat": "子部",
+   "k": "pg24141",
+   "n": 40,
+   "sub": "小說家（話本）"
+  },
+  "讀史方輿紀要": {
+   "author": "顧祖禹",
+   "cat": "史部",
+   "k": "讀史方輿紀要",
+   "n": 151,
+   "sub": "地理"
+  },
+  "豆棚閒話": {
+   "author": "艾衲居士",
+   "cat": "子部",
+   "k": "doupen-xianhua",
+   "n": 13,
+   "sub": "小說家（話本）"
+  },
+  "貞觀政要": {
+   "author": "吳兢",
+   "cat": "史部",
+   "k": "貞觀政要",
+   "n": 10,
+   "sub": "雜史"
+  },
+  "資治通鑑": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "資治通鑑",
+   "n": 267,
+   "sub": "總類"
+  },
+  "資治通鑑外紀": {
+   "author": "佚名",
+   "cat": "史部",
+   "k": "資治通鑑外紀",
+   "n": 11,
+   "sub": "總類"
+  },
+  "賈誼新書": {
+   "author": "賈誼",
+   "cat": "子部",
+   "k": "pg23814",
+   "n": 70,
+   "sub": "儒家"
+  },
+  "越絕書": {
+   "author": "吳平",
+   "cat": "史部",
+   "k": "越絕書",
+   "n": 13,
+   "sub": "載記"
+  },
+  "通典": {
+   "author": "杜佑",
+   "cat": "史部",
+   "k": "通典",
+   "n": 176,
+   "sub": "政書"
+  },
+  "郡齋讀書志": {
+   "author": "晁公武",
+   "cat": "史部",
+   "k": "郡齋讀書志",
+   "n": 20,
+   "sub": "目錄"
+  },
+  "鄧析子": {
+   "author": "鄧析",
+   "cat": "子部",
+   "k": "dengxizi",
+   "n": 2,
+   "sub": "名家"
+  },
+  "醉醒石": {
+   "author": "東魯古狂生",
+   "cat": "子部",
+   "k": "zuixing-shi",
+   "n": 15,
+   "sub": "小說家（話本）"
+  },
+  "醒夢駢言": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "pg27108",
+   "n": 12,
+   "sub": "小說家（話本）"
+  },
+  "野草": {
+   "author": "魯迅",
+   "cat": "集部",
+   "k": "yecao",
+   "n": 24,
+   "sub": "modern"
+  },
+  "金剛般若波羅蜜經": {
+   "author": "鳩摩羅什（譯）",
+   "cat": "子部",
+   "k": "pg24098",
+   "n": 32,
+   "sub": "釋家"
+  },
+  "金匱要略": {
+   "author": "張仲景",
+   "cat": "子部",
+   "k": "金匱要略",
+   "n": 25,
+   "sub": "醫家"
+  },
+  "金石緣": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "pg25369",
+   "n": 24,
+   "sub": "小說家（才子佳人）"
+  },
+  "長恨歌": {
+   "author": "白居易",
+   "cat": "集部",
+   "k": "changhen-ge",
+   "n": 1,
+   "sub": "詩"
+  },
+  "長生殿": {
+   "author": "洪昇",
+   "cat": "集部",
+   "k": "pg52270",
+   "n": 22,
+   "sub": "戲曲"
+  },
+  "閱微草堂筆記": {
+   "author": "紀昀",
+   "cat": "子部",
+   "k": "pg23817",
+   "n": 24,
+   "sub": "小說家（志怪）"
+  },
+  "阿Q正傳": {
+   "author": "魯迅",
+   "cat": "集部",
+   "k": "aq-zhengzhuan",
+   "n": 9,
+   "sub": "modern"
+  },
+  "隋唐演義": {
+   "author": "褚人穫",
+   "cat": "子部",
+   "k": "suitang-yanyi",
+   "n": 100,
+   "sub": "小說家（歷史演義）"
+  },
+  "雪月梅傳": {
+   "author": "陳朗",
+   "cat": "子部",
+   "k": "xueyuemei-zhuan",
+   "n": 51,
+   "sub": "小說家（才子佳人）"
+  },
+  "雲笈七籤": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "雲笈七籤",
+   "n": 124,
+   "sub": "道家"
+  },
+  "韓非子": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "韓非子",
+   "n": 23,
+   "sub": "總類"
+  },
+  "韩非子": {
+   "author": "韓非",
+   "cat": "子部",
+   "k": "pg24049",
+   "n": 53,
+   "sub": "法家"
+  },
+  "顏氏家訓": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "顏氏家訓",
+   "n": 7,
+   "sub": "雜家"
+  },
+  "風月夢": {
+   "author": "邗上蒙人",
+   "cat": "子部",
+   "k": "pg26931",
+   "n": 32,
+   "sub": "小說家（狹邪）"
+  },
+  "飛跎全傳": {
+   "author": "鄒必顯",
+   "cat": "子部",
+   "k": "feituo-quanzhuan",
+   "n": 33,
+   "sub": "小說家（神魔）"
+  },
+  "高士傳": {
+   "author": "皇甫謐",
+   "cat": "史部",
+   "k": "pg23948",
+   "n": 92,
+   "sub": "傳記"
+  },
+  "鬼谷子": {
+   "author": "王詡（舊題）",
+   "cat": "子部",
+   "k": "pg7209",
+   "n": 19,
+   "sub": "縱橫家"
+  },
+  "鹽鐵論": {
+   "author": "桓寬",
+   "cat": "子部",
+   "k": "pg26920",
+   "n": 60,
+   "sub": "儒家"
+  },
+  "麟兒報": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "lin-er-bao",
+   "n": 17,
+   "sub": "小說家（才子佳人）"
+  },
+  "齊民要術": {
+   "author": "佚名",
+   "cat": "子部",
+   "k": "齊民要術",
+   "n": 12,
+   "sub": "總類"
+  },
+  "龍川詞": {
+   "author": "陳亮",
+   "cat": "集部",
+   "k": "longchuan-ci",
+   "n": 25,
+   "sub": "詞"
+  },
+  "龍文鞭影": {
+   "author": "佚名",
+   "cat": "經部",
+   "k": "龍文鞭影",
+   "n": 4,
+   "sub": "蒙學"
+  }
+ }
+}
